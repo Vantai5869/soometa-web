@@ -1,0 +1,2318 @@
+[
+    {
+      "id":"47-I-reading",
+      "year_description": "2016년도 TOPIK",
+      "exam_number_description": "제47회",
+      "source": "한국어능력시험",
+      "level": "TOPIK Ⅰ",
+      "skill": "읽기",
+      "instruction_groups": [
+        {
+          "type": "instruction_group",
+          "instruction": "※ [31～33]무엇에 대한 이야기입니까?&lt;보기&gt;와 같이 알맞은 것을 고르십시오.(각 2점)",
+          "example": {
+            "title": "&lt; 보 기 &gt;",
+            "question_text": "<b>아버지는 의사입니다. 어머니는 은행원입니다.</b>",
+            "options": [
+              {"text": "주말", "is_correct": false},
+              {"text": "부모", "is_correct": true},
+              {"text": "병원", "is_correct": false},
+              {"text": "오빠", "is_correct": false}
+            ]
+          },
+          "questions": [
+            {
+              "id": "test_31",
+              "number": 31,
+              "points": 2,
+              "content": {"type": "text", "value": "비빔밥이 맛있습니다.불고기도 맛있습니다."},
+              "options": [
+                {"id": "a31_1", "text": "나라", "is_correct": false},
+                {"id": "a31_2", "text": "요일", "is_correct": false},
+                {"id": "a31_3", "text": "시간", "is_correct": false},
+                {"id": "a31_4", "text": "음식", "is_correct": true}
+              ]
+            },
+            {
+              "id": "test_32",
+              "number": 32,
+              "points": 2,
+              "content": {"type": "text", "value": "민수 씨는 학생을 가르칩니다.영어 선생님입니다."},
+              "options": [
+                {"id": "a32_1", "text": "가족", "is_correct": false},
+                {"id": "a32_2", "text": "나이", "is_correct": false},
+                {"id": "a32_3", "text": "이름", "is_correct": false},
+                {"id": "a32_4", "text": "직업", "is_correct": true}
+              ]
+            },
+            {
+              "id": "test_33",
+              "number": 33,
+              "points": 2,
+              "content": {"type": "text", "value": "운동을 좋아합니다.농구를 자주 합니다."},
+              "options": [
+                {"id": "a33_1", "text": "날씨", "is_correct": false},
+                {"id": "a33_2", "text": "장소", "is_correct": false},
+                {"id": "a33_3", "text": "취미", "is_correct": true},
+                {"id": "a33_4", "text": "쇼핑", "is_correct": false}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "instruction_group",
+          "instruction": "※ [34～39]&lt;보기&gt;와 같이 ( )에 들어갈 가장 알맞은 것을 고르십시오.",
+          "example": {
+            "title": "&lt; 보 기 &gt;",
+            "question_text": "<b>날씨가 좋습니다.<span class='blank-marker'>(…)</span>이 맑습니다.</b>",
+            "options": [
+              {"text": "눈", "is_correct": false},
+              {"text": "밤", "is_correct": false},
+              {"text": "하늘", "is_correct": true},
+              {"text": "구름", "is_correct": false}
+            ]
+          },
+          "questions": [
+            {
+              "id": "test_34",
+              "number": 34,
+              "points": 2,
+              "content": {"type": "text", "value": "<span class='blank-marker'>(…)</span>에 갑니다.소포를 보냅니다."},
+              "options": [
+                {"id": "a34_1", "text": "극장", "is_correct": false},
+                {"id": "a34_2", "text": "식당", "is_correct": false},
+                {"id": "a34_3", "text": "도서관", "is_correct": false},
+                {"id": "a34_4", "text": "우체국", "is_correct": true}
+              ]
+            },
+            {
+              "id": "test_35",
+              "number": 35,
+              "points": 2,
+              "content": {"type": "text", "value": "머리가 <span class='blank-marker'>(…)</span>.그래서 약을 먹습니다."},
+              "options": [
+                {"id": "a35_1", "text": "아픕니다", "is_correct": true},
+                {"id": "a35_2", "text": "짧습니다", "is_correct": false},
+                {"id": "a35_3", "text": "예쁩니다", "is_correct": false},
+                {"id": "a35_4", "text": "좋습니다", "is_correct": false}
+              ]
+            },
+            {
+              "id": "test_36",
+              "number": 36,
+              "points": 2,
+              "content": {"type": "text", "value": "시장에 갑니다.고기<span class='blank-marker'>(…)</span>채소를 삽니다."},
+              "options": [
+                {"id": "a36_1", "text": "와", "is_correct": true},
+                {"id": "a36_2", "text": "만", "is_correct": false},
+                {"id": "a36_3", "text": "까지", "is_correct": false},
+                {"id": "a36_4", "text": "에서", "is_correct": false}
+              ]
+            },
+            {
+              "id": "test_37",
+              "number": 37,
+              "points": 3,
+              "content": {"type": "text", "value": "여름입니다.날씨가 <span class='blank-marker'>(…)</span>덥습니다."},
+              "options": [
+                {"id": "a37_1", "text": "아까", "is_correct": false},
+                {"id": "a37_2", "text": "아주", "is_correct": true},
+                {"id": "a37_3", "text": "먼저", "is_correct": false},
+                {"id": "a37_4", "text": "어서", "is_correct": false}
+              ]
+            },
+            {
+              "id": "test_38",
+              "number": 38,
+              "points": 3,
+              "content": {"type": "text", "value": "오늘은 제 생일입니다.친구들을 <span class='blank-marker'>(…)</span>."},
+              "options": [
+                {"id": "a38_1", "text": "좋아했습니다", "is_correct": false},
+                {"id": "a38_2", "text": "초대했습니다", "is_correct": true},
+                {"id": "a38_3", "text": "가르쳤습니다", "is_correct": false},
+                {"id": "a38_4", "text": "구경했습니다", "is_correct": false}
+              ]
+            },
+            {
+              "id": "test_39",
+              "number": 39,
+              "points": 2,
+              "content": {"type": "text", "value": "언니는 춤을 배웠습니다.춤을 잘 <span class='blank-marker'>(…)</span>."},
+              "options": [
+                {"id": "a39_1", "text": "춥니다", "is_correct": true},
+                {"id": "a39_2", "text": "씁니다", "is_correct": false},
+                {"id": "a39_3", "text": "탑니다", "is_correct": false},
+                {"id": "a39_4", "text": "칩니다", "is_correct": false}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "instruction_group",
+          "instruction": "※ [40～42]다음을 읽고 맞지 <u style=\"font-size: 18px;\">않는</u> 것을 고르십시오.(각 3점)",
+          "questions": [
+            {
+              "id": "test_40",
+              "number": 40,
+              "points": 3,
+              "content": {
+                "type": "image",
+                "src": "https://www.topik.go.kr/asset/exam/exam47/images/47_1_40.png",
+                "alt": "병원진료 안내"
+              },
+              "options": [
+                {"id": "a40_1", "text": "일요일에 문을 안 엽니다.", "is_correct": false},
+                {"id": "a40_2", "text": "토요일은 네 시에 끝납니다.", "is_correct": false},
+                {"id": "a40_3", "text": "점심시간은 두 시까지입니다.", "is_correct": false},
+                {"id": "a40_4", "text": "수요일은 열 시에 시작합니다.", "is_correct": true}
+              ]
+            },
+            {
+              "id": "test_41",
+              "number": 41,
+              "points": 3,
+               "content": {
+                "type": "image",
+                "src": "https://www.topik.go.kr/asset/exam/exam47/images/47_1_41.png",
+                "alt": "빌딩 층별 안내도"
+              },
+              "options": [
+                {"id": "a41_1", "text": "꽃집은 일 층에 있습니다.", "is_correct": false},
+                {"id": "a41_2", "text": "커피숍 옆에 서점이 있습니다.", "is_correct": false},
+                {"id": "a41_3", "text": "은행 아래에 빵집이 있습니다.", "is_correct": false},
+                {"id": "a41_4", "text": "병원과 약국은 같은 층에 있습니다.", "is_correct": true}
+              ]
+            },
+            {
+              "id": "test_42",
+              "number": 42,
+              "points": 3,
+              "content": {
+                "type": "image",
+                "src": "https://www.topik.go.kr/asset/exam/exam47/images/47_1_42.png",
+                "alt": "가구 할인 안내 문자"
+              },
+              "options": [
+                {"id": "a42_1", "text": "일주일 동안 할인합니다.", "is_correct": false},
+                {"id": "a42_2", "text": "옷장은 30% 할인합니다.", "is_correct": false},
+                {"id": "a42_3", "text": "세 가지 가구를 할인합니다.", "is_correct": true},
+                {"id": "a42_4", "text": "대한가구에서 보낸 메시지입니다.", "is_correct": false}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "instruction_group",
+          "instruction": "※ [43～45]다음의 내용과 같은 것을 고르십시오.",
+           "questions": [
+             {
+              "id": "test_43",
+              "number": 43,
+              "points": 3,
+              "content": {"type": "text", "value": "저는 오늘 이사를 했습니다.친구가 도와줘서 이사가 금방 끝났습니다.\n새집에서 친구와 저녁을 먹었습니다."},
+              "options": [
+                {"id": "a43_1", "text": "친구가 이사를 했습니다.", "is_correct": false},
+                {"id": "a43_2", "text": "제가 친구를 도와줬습니다.", "is_correct": false},
+                {"id": "a43_3", "text": "지난주에 이사를 했습니다.", "is_correct": false},
+                {"id": "a43_4", "text": "이사한 집에서 식사를 했습니다.", "is_correct": true}
+              ]
+             },
+             {
+              "id": "test_44",
+              "number": 44,
+              "points": 2,
+              "content": {"type": "text", "value": "오후부터 비가 왔습니다.저는 우산이 없어서 걱정을 했습니다.그런데\n언니가 우산을 가지고 학교 앞에서 기다리고 있었습니다."},
+              "options": [
+                {"id": "a44_1", "text": "아침에 비가 내렸습니다.", "is_correct": false},
+                {"id": "a44_2", "text": "저는 언니를 기다렸습니다.", "is_correct": false},
+                {"id": "a44_3", "text": "학교 앞에 언니가 있었습니다.", "is_correct": true},
+                {"id": "a44_4", "text": "저는 학교에 우산을 가지고 왔습니다.", "is_correct": false}
+              ]
+             },
+             {
+              "id": "test_45",
+              "number": 45,
+              "points": 3,
+              "content": {"type": "text", "value": "오늘 동생과 약속이 있었습니다.그런데 지하철을 잘못 타서 약속 장소에\n늦게 도착했습니다.동생은 화가 많이 났습니다."},
+              "options": [
+                {"id": "a45_1", "text": "저는 동생을 못 만났습니다.", "is_correct": false},
+                {"id": "a45_2", "text": "저는 약속 시간에 늦었습니다.", "is_correct": true},
+                {"id": "a45_3", "text": "저는 약속 장소를 몰랐습니다.", "is_correct": false},
+                {"id": "a45_4", "text": "저는 동생을 많이 기다렸습니다.", "is_correct": false}
+              ]
+             }
+          ]
+        },
+        {
+          "type": "instruction_group",
+          "instruction": "※ [46～48]다음을 읽고 중심 생각을 고르십시오.",
+           "questions": [
+              {
+              "id": "test_46",
+              "number": 46,
+              "points": 3,
+              "content": {"type": "text", "value": "저는 노래를 못합니다.그런데 제 친구는 노래를 정말 잘합니다.저도\n그 친구처럼 되고 싶습니다."},
+              "options": [
+                {"id": "a46_1", "text": "저는 가수가 되고 싶습니다.", "is_correct": false},
+                {"id": "a46_2", "text": "저는 노래를 잘하고 싶습니다.", "is_correct": true},
+                {"id": "a46_3", "text": "저는 친구의 노래를 듣고 싶습니다.", "is_correct": false},
+                {"id": "a46_4", "text": "저는 친구와 노래를 부르고 싶습니다.", "is_correct": false}
+              ]
+             },
+             {
+              "id": "test_47",
+              "number": 47,
+              "points": 3,
+              "content": {"type": "text", "value": "오늘 옷 가게에서 치마를 하나 샀습니다.치마의 디자인이 정말 멋있습니다.\n길이도 짧지 않아서 좋습니다."},
+              "options": [
+                {"id": "a47_1", "text": "요즘 짧은 치마가 유행입니다.", "is_correct": false},
+                {"id": "a47_2", "text": "저는 그 옷 가게에 자주 갈 겁니다.", "is_correct": false},
+                {"id": "a47_3", "text": "저는 오늘 산 치마가 마음에 듭니다.", "is_correct": true},
+                {"id": "a47_4", "text": "치마의 디자인은 중요하지 않습니다.", "is_correct": false}
+              ]
+             },
+             {
+              "id": "test_48",
+              "number": 48,
+              "points": 2,
+              "content": {"type": "text", "value": "저는 오랜만에 고등학교 졸업 사진을 봤습니다.사진을 보는 동안 친한\n친구가 많이 생각났습니다.오늘 그 친구에게 전화할 겁니다."},
+              "options": [
+                {"id": "a48_1", "text": "저는 친구가 보고 싶습니다.", "is_correct": true},
+                {"id": "a48_2", "text": "저는 친구의 전화를 받고 싶습니다.", "is_correct": false},
+                {"id": "a48_3", "text": "저는 친구와 학교에 가려고 합니다.", "is_correct": false},
+                {"id": "a48_4", "text": "저는 친구와 사진을 찍으려고 합니다.", "is_correct": false}
+              ]
+             }
+          ]
+        },
+        {
+          "type": "instruction_group",
+          "instruction": "※ [49～50]다음을 읽고 물음에 답하십시오.(각 2점)",
+          "shared_content": {
+            "type": "text",
+            "value": "우리 형은 혼자 여행을 자주 갑니다.여행하면서 아름다운 경치를 보면\n<span class='blank-marker'>( ㉠ )</span>.그리고 그것을 가족이나 친구들에게 선물합니다.형이 그린\n곳은 모두 멋있습니다.형은 오늘 저에게 예쁜 바다 그림을 주었습니다.\n저도 그곳에 한번 가 보고 싶습니다."
+          },
+          "questions": [
+            {
+              "id": "test_49",
+              "number": 49,
+              "points": 2,
+              "content": {"type": "instruction", "value": "㉠에 들어갈 알맞은 말을 고르십시오."},
+              "fill_in_blank_marker": "㉠",
+              "options": [
+                {"id": "a49_1", "text": "글을 씁니다", "is_correct": false},
+                {"id": "a49_2", "text": "엽서를 삽니다", "is_correct": false},
+                {"id": "a49_3", "text": "그림을 그립니다", "is_correct": true},
+                {"id": "a49_4", "text": "사진을 찍습니다", "is_correct": false}
+              ]
+            },
+            {
+              "id": "test_50",
+              "number": 50,
+              "points": 2,
+              "content": {"type": "instruction", "value": "이 글의 내용과 같은 것을 고르십시오."},
+              "options": [
+                {"id": "a50_1", "text": "형은 보통 가족과 여행을 갑니다.", "is_correct": false},
+                {"id": "a50_2", "text": "저는 오늘 형에게 선물을 받았습니다.", "is_correct": true},
+                {"id": "a50_3", "text": "저는 이번에 바다로 여행을 갔습니다.", "is_correct": false},
+                {"id": "a50_4", "text": "형은 여행을 가서 가족의 선물을 삽니다.", "is_correct": false}
+              ]
+            }
+          ]
+        },
+         {
+          "type": "instruction_group",
+          "instruction": "※ [51～52]다음을 읽고 물음에 답하십시오.",
+          "shared_content": {
+            "type": "text",
+            "value": "레몬은 요리에 많이 사용됩니다.사람들은 레몬으로 차를 만들어서 마시\n기도 합니다.레몬은 하얀 옷을 <span class='blank-marker'>( ㉠ )</span>사용할 수도 있습니다.레몬을\n쓰면 옷이 더 하얗게 됩니다.레몬은 이렇게 우리 생활에서 다양하게 사용\n됩니다."
+          },
+          "questions": [
+            {
+              "id": "test_51",
+              "number": 51,
+              "points": 3,
+              "content": {"type": "instruction", "value": "㉠에 들어갈 알맞은 말을 고르십시오."},
+              "fill_in_blank_marker": "㉠",
+              "options": [
+                 {"id": "a51_1", "text": "빨고", "is_correct": false},
+                 {"id": "a51_2", "text": "빨 때", "is_correct": true},
+                 {"id": "a51_3", "text": "빨아서", "is_correct": false},
+                 {"id": "a51_4", "text": "빤 후에", "is_correct": false}
+              ]
+            },
+            {
+              "id": "test_52",
+              "number": 52,
+              "points": 2,
+              "content": {"type": "instruction", "value": "무엇에 대한 이야기인지 고르십시오."},
+               "options": [
+                 {"id": "a52_1", "text": "레몬의 맛과 색", "is_correct": false},
+                 {"id": "a52_2", "text": "레몬을 먹는 이유", "is_correct": false},
+                 {"id": "a52_3", "text": "레몬으로 할 수 있는 일", "is_correct": true},
+                 {"id": "a52_4", "text": "레몬으로 차를 만드는 방법", "is_correct": false}
+              ]
+            }
+          ]
+        },
+         {
+          "type": "instruction_group",
+          "instruction": "※ [53～54]다음을 읽고 물음에 답하십시오.",
+          "shared_content": {
+            "type": "text",
+            "value": "지난 주말에 친구들과 같이 야구장에 갔습니다.집에서 텔레비전으로 야구를\n본 적은 많았지만 야구장에 간 것은 처음이었습니다.그곳에는 사람들이 정말\n많았습니다.우리는 경기를 보면서 치킨도 먹고 함께 노래도 불렀습니다.\n텔레비전으로 경기를 보는 것보다 <span class='blank-marker'>( ㉠ )</span>더 재미있었습니다."
+          },
+          "questions": [
+            {
+              "id": "test_53",
+              "number": 53,
+              "points": 2,
+              "content": {"type": "instruction", "value": "㉠에 들어갈 알맞은 말을 고르십시오."},
+              "fill_in_blank_marker": "㉠",
+              "options": [
+                 {"id": "a53_1", "text": "주말에 잠자는 것이", "is_correct": false},
+                 {"id": "a53_2", "text": "경기를 해 보는 것이", "is_correct": false},
+                 {"id": "a53_3", "text": "친구 집에 가는 것이", "is_correct": false},
+                 {"id": "a53_4", "text": "야구장에서 보는 것이", "is_correct": true}
+              ]
+            },
+            {
+              "id": "test_54",
+              "number": 54,
+              "points": 3,
+              "content": {"type": "instruction", "value": "이 글의 내용과 같은 것을 고르십시오."},
+               "options": [
+                 {"id": "a54_1", "text": "저는 야구장에 처음 가 봤습니다.", "is_correct": true},
+                 {"id": "a54_2", "text": "야구장에서는 음식을 먹을 수 없습니다.", "is_correct": false},
+                 {"id": "a54_3", "text": "경기를 본 후에 치킨을 먹으러 갔습니다.", "is_correct": false},
+                 {"id": "a54_4", "text": "야구를 보러 온 사람이 별로 없었습니다.", "is_correct": false}
+              ]
+            }
+          ]
+        },
+          {
+          "type": "instruction_group",
+          "instruction": "※ [55～56]다음을 읽고 물음에 답하십시오.",
+          "shared_content": {
+            "type": "text",
+            "value": "우리 집 고양이 이름은 미미입니다.6개월 전에 제가 퇴근해서 집에\n돌아올 때 길에서 만났습니다.그때 미미는 다리를 다쳐서 힘들어 보였\n습니다.그리고 배도 고픈 것 같았습니다.저는 미미를 집으로 데려와서\n밥을 주고 약도 발라 주었습니다.처음에 미미는 저한테 가까이 오지 않았\n습니다.하지만 이제는 <span class='blank-marker'>( ㉠ )</span>."
+          },
+          "questions": [
+            {
+              "id": "test_55",
+              "number": 55,
+              "points": 2,
+              "content": {"type": "instruction", "value": "㉠에 들어갈 알맞은 말을 고르십시오."},
+              "fill_in_blank_marker": "㉠",
+              "options": [
+                 {"id": "a55_1", "text": "밥을 잘 먹습니다", "is_correct": false},
+                 {"id": "a55_2", "text": "새 이름이 생겼습니다", "is_correct": false},
+                 {"id": "a55_3", "text": "집으로 돌아갔습니다", "is_correct": false},
+                 {"id": "a55_4", "text": "저와 있는 것을 좋아합니다", "is_correct": true}
+              ]
+            },
+            {
+              "id": "test_56",
+              "number": 56,
+              "points": 3,
+              "content": {"type": "instruction", "value": "이 글의 내용과 같은 것을 고르십시오."},
+               "options": [
+                 {"id": "a56_1", "text": "저는 다친 고양이를 도와주었습니다.", "is_correct": true},
+                 {"id": "a56_2", "text": "저는 여섯 달 전에 고양이를 샀습니다.", "is_correct": false},
+                 {"id": "a56_3", "text": "저는 길에서 고양이를 잃어버렸습니다.", "is_correct": false},
+                 {"id": "a56_4", "text": "저는 처음부터 고양이와 친하게 지냈습니다.", "is_correct": false}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "instruction_group",
+          "instruction": "※ [57～58]다음을 순서대로 맞게 나열한 것을 고르십시오.",
+           "questions": [
+              {
+              "id": "test_57",
+              "number": 57,
+              "points": 3,
+              "content": {
+                  "type": "ordering_task",
+                  "items": [
+                      {"marker": "(가)", "text": "하지만 지금은 이 일이 아주 재미있습니다."},
+                      {"marker": "(나)", "text": "처음 이 일을 시작했을 때는 힘들었습니다."},
+                      {"marker": "(다)", "text": "저는 작년부터 자동차 파는 일을 하고 있습니다."},
+                      {"marker": "(라)", "text": "손님들과 이야기하는 것이 부끄러웠기 때문입니다."}
+                  ]
+              },
+              "options": [
+                {"id": "a57_1", "text": "(나)－(다)－(가)－(라)", "is_correct": false},
+                {"id": "a57_2", "text": "(나)－(라)－(가)－(다)", "is_correct": false},
+                {"id": "a57_3", "text": "(다)－(가)－(나)－(라)", "is_correct": false},
+                {"id": "a57_4", "text": "(다)－(나)－(라)－(가)", "is_correct": true}
+              ]
+             },
+             {
+              "id": "test_58",
+              "number": 58,
+              "points": 2,
+               "content": {
+                  "type": "ordering_task",
+                  "items": [
+                      {"marker": "(가)", "text": "자전거를 빌려 주는 곳은 모두 열두 곳입니다."},
+                      {"marker": "(나)", "text": "신분증이 없으면 전화번호를 알려 주면 됩니다."},
+                      {"marker": "(다)", "text": "한강공원에서는 자전거를 빌려서 탈 수 있습니다."},
+                      {"marker": "(라)", "text": "이 중 한 곳에 가서 신분증을 내면 자전거를 빌릴 수 있습니다."}
+                  ]
+              },
+              "options": [
+                {"id": "a58_1", "text": "(가)－(나)－(다)－(라)", "is_correct": false},
+                {"id": "a58_2", "text": "(가)－(다)－(라)－(나)", "is_correct": false},
+                {"id": "a58_3", "text": "(다)－(가)－(라)－(나)", "is_correct": true},
+                {"id": "a58_4", "text": "(다)－(나)－(가)－(라)", "is_correct": false}
+              ]
+             }
+          ]
+        },
+         {
+          "type": "instruction_group",
+          "instruction": "※ [59～60]다음을 읽고 물음에 답하십시오.(각 2점)",
+          "shared_content": {
+            "type": "text_with_insertion_points",
+            "value": "우리 할머니는 ‘한글 공부방’에 다니십니다.<span class='insertion-point'>( ㉠ )</span>‘한글 공부방’은\n한글을 모르는 노인들이 다니는 곳입니다.<span class='insertion-point'>( ㉡ )</span>할머니는 이곳에서\n3달 동안 한글을 배우셨습니다.<span class='insertion-point'>( ㉢ )</span>할머니는 내일 선생님께 감사의\n편지를 드리려고 합니다.<span class='insertion-point'>( ㉣ )</span>그래서 오늘 열심히 편지를 쓰셨습니다.",
+            "markers": ["㉠", "㉡", "㉢", "㉣"]
+          },
+          "questions": [
+            {
+              "id": "test_59",
+              "number": 59,
+              "points": 2,
+              "content": {
+                  "type": "insertion_task",
+                  "sentence_to_insert": "내일은 공부방의 졸업식이 있는 날입니다."
+              },
+              "options": [
+                 {"id": "a59_1", "text": "㉠", "is_correct": false},
+                 {"id": "a59_2", "text": "㉡", "is_correct": false},
+                 {"id": "a59_3", "text": "㉢", "is_correct": true},
+                 {"id": "a59_4", "text": "㉣", "is_correct": false}
+              ]
+            },
+            {
+              "id": "test_60",
+              "number": 60,
+              "points": 3,
+              "content": {"type": "instruction", "value": "이 글의 내용과 같은 것을 고르십시오."},
+               "options": [
+                 {"id": "a60_1", "text": "할머니는 이제 한글을 쓸 줄 아십니다.", "is_correct": true},
+                 {"id": "a60_2", "text": "할머니는 감사의 편지를 받으셨습니다.", "is_correct": false},
+                 {"id": "a60_3", "text": "할머니는 ‘한글 공부방’선생님이십니다.", "is_correct": false},
+                 {"id": "a60_4", "text": "할머니는 졸업식 날 편지를 읽으셨습니다.", "is_correct": false}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "instruction_group",
+          "instruction": "※ [61～62]다음을 읽고 물음에 답하십시오.(각 2점)",
+          "shared_content": {
+            "type": "text",
+            "value": "요즘 옛날 영화를 다시 보여 주는 극장이 많습니다.10년 전 영화인\n‘첫사랑’도 다음 주부터 여러 극장에서 볼 수 있습니다.‘첫사랑’은 내용이\n아름다워서 많은 사람들이 잊지 못하는 영화입니다.<span class='blank-marker'>( ㉠ )</span>영화에 나온\n음악은 요즘에도 인기가 많습니다.이번에 크고 좋은 화면으로 이 영화를\n다시 볼 수 있어서 사람들이 많이 기다리고 있습니다."
+          },
+          "questions": [
+            {
+              "id": "test_61",
+              "number": 61,
+              "points": 2,
+              "content": {"type": "instruction", "value": "㉠에 들어갈 알맞은 말을 고르십시오."},
+              "fill_in_blank_marker": "㉠",
+              "options": [
+                {"id": "a61_1", "text": "그리고", "is_correct": true},
+                {"id": "a61_2", "text": "그러면", "is_correct": false},
+                {"id": "a61_3", "text": "그러나", "is_correct": false},
+                {"id": "a61_4", "text": "그래도", "is_correct": false}
+              ]
+            },
+            {
+              "id": "test_62",
+              "number": 62,
+              "points": 2,
+              "content": {"type": "instruction", "value": "이 글의 내용과 같은 것을 고르십시오."},
+              "options": [
+                {"id": "a62_1", "text": "‘첫사랑’은 새로 나온 영화입니다.", "is_correct": false},
+                {"id": "a62_2", "text": "‘첫사랑’을 보여 주는 극장이 많습니다.", "is_correct": true},
+                {"id": "a62_3", "text": "사람들은 영화 ‘첫사랑’에 관심이 없습니다.", "is_correct": false},
+                {"id": "a62_4", "text": "요즘은 ‘첫사랑’에 나온 음악을 잘 안 듣습니다.", "is_correct": false}
+              ]
+            }
+          ]
+        },
+         {
+          "type": "instruction_group",
+          "instruction": "※ [63～64]다음을 읽고 물음에 답하십시오.",
+           "shared_content": {
+                "type": "image",
+                "src": "https://www.topik.go.kr/asset/exam/exam47/images/47_1_63.png",
+                "alt": "한국어교육원 학생에 전달하는 이메일"
+           },
+          "questions": [
+            {
+              "id": "test_63",
+              "number": 63,
+              "points": 2,
+              "content": {"type": "instruction", "value": "왜 이 글을 썼는지 맞는 것을 고르십시오."},
+              "options": [
+                 {"id": "a63_1", "text": "‘떡 만들기’행사에 참가하려고", "is_correct": false},
+                 {"id": "a63_2", "text": "‘떡 만들기’행사 소식을 알리려고", "is_correct": true},
+                 {"id": "a63_3", "text": "‘떡 만들기’행사에 필요한 돈을 모으려고", "is_correct": false},
+                 {"id": "a63_4", "text": "‘떡 만들기’행사를 도와줄 사람을 찾으려고", "is_correct": false}
+              ]
+            },
+            {
+              "id": "test_64",
+              "number": 64,
+              "points": 3,
+              "content": {"type": "instruction", "value": "이 글의 내용과 같은 것을 고르십시오."},
+               "options": [
+                 {"id": "a64_1", "text": "이번 주에 ‘떡 만들기’를 합니다.", "is_correct": false},
+                 {"id": "a64_2", "text": "한국어교육원 삼 층에서 행사를 합니다.", "is_correct": false},
+                 {"id": "a64_3", "text": "‘떡 만들기’행사는 한 시간 동안 합니다.", "is_correct": false},
+                 {"id": "a64_4", "text": "‘떡 만들기’를 하려면 참가비를 내야 합니다.", "is_correct": true}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "instruction_group",
+          "instruction": "※ [65～66]다음을 읽고 물음에 답하십시오.",
+          "shared_content": {
+            "type": "text",
+            "value": "어렸을 때 우리 어머니는 저에게 노래를 자주 불러 주셨습니다.제가\n울 때는 재미있고 신나는 노래를 불러 주셨습니다.그리고 잘 때는 제\n침대에 같이 누워서 조용한 노래를 불러 주셨습니다.저는 어머니의 노래를\n<span class='blank-marker'>( ㉠ )</span>잠이 더 잘 왔습니다.저는 아직도 어머니가 불러 준 노래들을\n기억합니다.그리고 지금은 그 노래들을 제 아이한테 불러 줍니다."
+          },
+          "questions": [
+            {
+              "id": "test_65",
+              "number": 65,
+              "points": 2,
+              "content": {"type": "instruction", "value": "㉠에 들어갈 알맞은 말을 고르십시오."},
+              "fill_in_blank_marker": "㉠",
+              "options": [
+                {"id": "a65_1", "text": "듣지만", "is_correct": false},
+                {"id": "a65_2", "text": "듣거나", "is_correct": false},
+                {"id": "a65_3", "text": "들으면", "is_correct": true},
+                {"id": "a65_4", "text": "들으려고", "is_correct": false}
+              ]
+            },
+            {
+              "id": "test_66",
+              "number": 66,
+              "points": 3,
+              "content": {"type": "instruction", "value": "이 글의 내용과 같은 것을 고르십시오."},
+              "options": [
+                {"id": "a66_1", "text": "저는 어머니가 불러 준 노래를 잊어버렸습니다.", "is_correct": false},
+                {"id": "a66_2", "text": "잠잘 때 저는 어머니와 함께 노래를 불렀습니다.", "is_correct": false},
+                {"id": "a66_3", "text": "어머니는 제가 울면 조용한 노래를 불러 주셨습니다.", "is_correct": false},
+                {"id": "a66_4", "text": "저는 우리 어머니처럼 제 아이에게 노래를 불러 줍니다.", "is_correct": true}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "instruction_group",
+          "instruction": "※ [67～68]다음을 읽고 물음에 답하십시오.(각 3점)",
+          "shared_content": {
+            "type": "text",
+            "value": "얼마 전 인주시에서는 사용하지 않는 기찻길 주변을 공원으로 새롭게\n만들었습니다.사람들은 공원을 산책하거나 기찻길을 따라 걸으면서 사진을\n찍습니다.기찻길 옆에는 오래된 기차를 고쳐서 만든 카페가 하나 있습니다.\n그 카페 안에는 <span class='blank-marker'>( ㉠ )</span>많이 있습니다.그래서 그 카페에 들어가면 옛날\n분위기를 느낄 수 있습니다."
+          },
+          "questions": [
+            {
+              "id": "test_67",
+              "number": 67,
+              "points": 3,
+              "content": {"type": "instruction", "value": "㉠에 들어갈 알맞은 말을 고르십시오."},
+               "fill_in_blank_marker": "㉠",
+              "options": [
+                {"id": "a67_1", "text": "예쁜 꽃들이", "is_correct": false},
+                {"id": "a67_2", "text": "맛있는 차와 커피가", "is_correct": false},
+                {"id": "a67_3", "text": "오래된 물건들이", "is_correct": true},
+                {"id": "a67_4", "text": "사진을 찍는 사람들이", "is_correct": false}
+              ]
+            },
+            {
+              "id": "test_68",
+              "number": 68,
+              "points": 3,
+              "content": {"type": "instruction", "value": "이 글의 내용과 같은 것을 고르십시오."},
+              "options": [
+                {"id": "a68_1", "text": "기찻길에 아직도 기차가 다닙니다.", "is_correct": false},
+                {"id": "a68_2", "text": "기찻길 주변이 공원으로 바뀌었습니다.", "is_correct": true},
+                {"id": "a68_3", "text": "기찻길 위에서 사진을 찍으면 안 됩니다.", "is_correct": false},
+                {"id": "a68_4", "text": "기찻길 옆에 기차 모양의 카페가 많습니다.", "is_correct": false}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "instruction_group",
+          "instruction": "※ [69～70]다음을 읽고 물음에 답하십시오.(각 3점)",
+          "shared_content": {
+            "type": "text",
+            "value": "다음 달에 친한 친구가 결혼을 합니다.외국에서 결혼식을 하는데 저는\n회사 일 때문에 못 갑니다.그래서 휴대 전화로 영상을 찍어서 친구에게\n<span class='blank-marker'>( ㉠ )</span>.저는 친구와 어릴 때 함께 다닌 학교와 우리의 추억이 있는\n여러 장소를 찍을 겁니다.그리고 고향 친구들이 축하 인사를 하는 것도\n찍을 겁니다.친구가 그것을 보고 기뻐하면 좋겠습니다."
+          },
+          "questions": [
+            {
+              "id": "test_69",
+              "number": 69,
+              "points": 3,
+              "content": {"type": "instruction", "value": "㉠에 들어갈 알맞은 말을 고르십시오."},
+              "fill_in_blank_marker": "㉠",
+              "options": [
+                {"id": "a69_1", "text": "보내러 갑니다", "is_correct": false},
+                {"id": "a69_2", "text": "보내려고 합니다", "is_correct": true},
+                {"id": "a69_3", "text": "보낼 수 없습니다", "is_correct": false},
+                {"id": "a69_4", "text": "보낸 적이 없습니다", "is_correct": false}
+              ]
+            },
+            {
+              "id": "test_70",
+              "number": 70,
+              "points": 3,
+              "content": {"type": "instruction", "value": "이 글의 내용으로 알 수 있는 것은 무엇입니까?"},
+              "options": [
+                {"id": "a70_1", "text": "저는 친구의 결혼을 축하해 주고 싶습니다.", "is_correct": true},
+                {"id": "a70_2", "text": "저는 고향 친구들과 결혼식에 가려고 합니다.", "is_correct": false},
+                {"id": "a70_3", "text": "친구는 고향에 와서 결혼식을 하려고 합니다.", "is_correct": false},
+                {"id": "a70_4", "text": "친구는 제가 찍은 영상을 보고 좋아했습니다.", "is_correct": false}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+  {
+    "id": "83-I-listening",
+    "year_description": "2022년도 TOPIK",
+    "exam_number_description": "제83회",
+    "source": "한국어능력시험",
+    "level": "TOPIK Ⅰ",
+    "skill": "듣기",
+    "instruction_groups": [
+      {
+        "type": "instruction_group",
+        "instruction": "※ [1 ～ 4] 다음을 듣고 &lt;보기&gt;와 같이 물음에 맞는 대답을 고르십시오.",
+        "example": {
+          "title": "&lt; 보 기 &gt;",
+          "question_text": "<b>가 : 물을 마셔요?</b><br><b>나 :_____________________________</b>",
+          "options": [
+            {"text": "네，물을 마셔요.", "is_correct": true},
+            {"text": "네，물이 적어요.", "is_correct": false},
+            {"text": "아니요，물이에요.", "is_correct": false},
+            {"text": "아니요，물이 좋아요.", "is_correct": false}
+          ]
+        },
+        "questions": [
+          {
+            "id": "test_1",
+            "number": 1,
+            "points": 4,
+            "content": {"type": "audio_prompt", "value": "Chọn câu trả lời phù hợp."},
+            "options": [
+              {"id": "a1_1", "text": "네，학생이에요.", "is_correct": true},
+              {"id": "a1_2", "text": "네，학생이 없어요.", "is_correct": false},
+              {"id": "a1_3", "text": "아니요，학생이 와요.", "is_correct": false},
+              {"id": "a1_4", "text": "아니요，학생이 많아요.", "is_correct": false}
+            ]
+          },
+          {
+            "id": "test_2",
+            "number": 2,
+            "points": 4,
+            "content": {"type": "audio_prompt", "value": "Chọn câu trả lời phù hợp."},
+            "options": [
+              {"id": "a2_1", "text": "네，책을 싫어해요.", "is_correct": false},
+              {"id": "a2_2", "text": "네，책이 아니에요.", "is_correct": false},
+              {"id": "a2_3", "text": "아니요，책이 있어요.", "is_correct": false},
+              {"id": "a2_4", "text": "아니요，책을 안 읽어요.", "is_correct": true}
+            ]
+          },
+          {
+            "id": "test_3",
+            "number": 3,
+            "points": 3,
+            "content": {"type": "audio_prompt", "value": "Chọn câu trả lời phù hợp."},
+            "options": [
+              {"id": "a3_1", "text": "지금 해요.", "is_correct": false},
+              {"id": "a3_2", "text": "우리가 해요.", "is_correct": false},
+              {"id": "a3_3", "text": "카페에서 해요.", "is_correct": true},
+              {"id": "a3_4", "text": "동생하고 해요.", "is_correct": false}
+            ]
+          },
+          {
+            "id": "test_4",
+            "number": 4,
+            "points": 3,
+            "content": {"type": "audio_prompt", "value": "Chọn câu trả lời phù hợp."},
+            "options": [
+              {"id": "a4_1", "text": "어제 갔어요.", "is_correct": false},
+              {"id": "a4_2", "text": "자주 갔어요.", "is_correct": false},
+              {"id": "a4_3", "text": "친구가 갔어요.", "is_correct": false},
+              {"id": "a4_4", "text": "지하철로 갔어요.", "is_correct": true}
+            ]
+          }
+        ]
+      },
+      {
+        "type": "instruction_group",
+        "instruction": "※ [5～6] 다음을 듣고 &lt;보기&gt;와 같이 이어지는 말을 고르십시오.",
+        "example": {
+          "title": "&lt; 보 기 &gt;",
+          "question_text": "<b>가 : 안녕히 계세요.</b><br><b>나 :_____________________________</b>",
+          "options": [
+            {"text": "들어오세요.", "is_correct": false},
+            {"text": "안녕하세요.", "is_correct": false},
+            {"text": "안녕히 가세요.", "is_correct": true},
+            {"text": "맛있게 드세요.", "is_correct": false}
+          ]
+        },
+        "questions": [
+          {
+            "id": "test_5",
+            "number": 5,
+            "points": 4,
+            "content": {"type": "audio_prompt", "value": "Chọn câu nói tiếp nối phù hợp."},
+            "options": [
+              {"id": "a5_1", "text": "축하해요.", "is_correct": false},
+              {"id": "a5_2", "text": "아니에요.", "is_correct": true},
+              {"id": "a5_3", "text": "고마워요.", "is_correct": false},
+              {"id": "a5_4", "text": "반가워요.", "is_correct": false}
+            ]
+          },
+          {
+            "id": "test_6",
+            "number": 6,
+            "points": 3,
+            "content": {"type": "audio_prompt", "value": "Chọn câu nói tiếp nối phù hợp."},
+            "options": [
+              {"id": "a6_1", "text": "잘 먹겠습니다.", "is_correct": false},
+              {"id": "a6_2", "text": "잘 지냈습니다.", "is_correct": false},
+              {"id": "a6_3", "text": "네. 알겠습니다.", "is_correct": true},
+              {"id": "a6_4", "text": "네. 그렇습니다.", "is_correct": false}
+            ]
+          }
+        ]
+      },
+      {
+        "type": "instruction_group",
+        "instruction": "※ [7～10] 여기는 어디입니까? &lt;보기&gt;와 같이 알맞은 것을 고르십시오.",
+        "example": {
+          "title": "&lt; 보 기 &gt;",
+          "question_text": "<b>가 : 내일까지 숙제를 꼭 내세요.</b><br><b>나 : 네. 선생님.</b>",
+          "options": [
+            {"text": "교실", "is_correct": true},
+            {"text": "가게", "is_correct": false},
+            {"text": "호텔", "is_correct": false},
+            {"text": "공원", "is_correct": false}
+          ]
+        },
+        "questions": [
+          {
+            "id": "test_7",
+            "number": 7,
+            "points": 3,
+            "content": {"type": "audio_prompt", "value": "Đoán địa điểm."},
+            "options": [
+              {"id": "a7_1", "text": "꽃집", "is_correct": false},
+              {"id": "a7_2", "text": "극장", "is_correct": false},
+              {"id": "a7_3", "text": "학교", "is_correct": false},
+              {"id": "a7_4", "text": "시장", "is_correct": true}
+            ]
+          },
+          {
+            "id": "test_8",
+            "number": 8,
+            "points": 3,
+            "content": {"type": "audio_prompt", "value": "Đoán địa điểm."},
+            "options": [
+              {"id": "a8_1", "text": "은행", "is_correct": false},
+              {"id": "a8_2", "text": "식당", "is_correct": true},
+              {"id": "a8_3", "text": "도서관", "is_correct": false},
+              {"id": "a8_4", "text": "문구점", "is_correct": false}
+            ]
+          },
+          {
+            "id": "test_9",
+            "number": 9,
+            "points": 3,
+            "content": {"type": "audio_prompt", "value": "Đoán địa điểm."},
+            "options": [
+              {"id": "a9_1", "text": "백화점", "is_correct": true},
+              {"id": "a9_2", "text": "여행사", "is_correct": false},
+              {"id": "a9_3", "text": "우체국", "is_correct": false},
+              {"id": "a9_4", "text": "박물관", "is_correct": false}
+            ]
+          },
+          {
+            "id": "test_10",
+            "number": 10,
+            "points": 4,
+            "content": {"type": "audio_prompt", "value": "Đoán địa điểm."},
+            "options": [
+              {"id": "a10_1", "text": "서점", "is_correct": false},
+              {"id": "a10_2", "text": "약국", "is_correct": true},
+              {"id": "a10_3", "text": "미용실", "is_correct": false},
+              {"id": "a10_4", "text": "사진관", "is_correct": false}
+            ]
+          }
+        ]
+      },
+      {
+        "type": "instruction_group",
+        "instruction": "※ [11～14] 다음은 무엇에 대해 말하고 있습니까? &lt;보기&gt;와 같이 알맞은 것을 고르십시오.",
+        "example": {
+          "title": "&lt; 보 기 &gt;",
+          "question_text": "<b>가 : 이 아파트에 살아요?</b><br><b>나 : 네. 5층에 살아요.</b>",
+          "options": [
+            {"text": "집", "is_correct": true},
+            {"text": "옷", "is_correct": false},
+            {"text": "나이", "is_correct": false},
+            {"text": "선물", "is_correct": false}
+          ]
+        },
+        "questions": [
+          {
+            "id": "test_11",
+            "number": 11,
+            "points": 3,
+            "content": {"type": "audio_prompt", "value": "Chọn chủ đề."},
+            "options": [
+              {"id": "a11_1", "text": "나라", "is_correct": false},
+              {"id": "a11_2", "text": "가족", "is_correct": true},
+              {"id": "a11_3", "text": "이름", "is_correct": false},
+              {"id": "a11_4", "text": "주말", "is_correct": false}
+            ]
+          },
+          {
+            "id": "test_12",
+            "number": 12,
+            "points": 3,
+            "content": {"type": "audio_prompt", "value": "Chọn chủ đề."},
+            "options": [
+              {"id": "a12_1", "text": "취미", "is_correct": false},
+              {"id": "a12_2", "text": "날씨", "is_correct": false},
+              {"id": "a12_3", "text": "시간", "is_correct": true},
+              {"id": "a12_4", "text": "음식", "is_correct": false}
+            ]
+          },
+          {
+            "id": "test_13",
+            "number": 13,
+            "points": 4,
+            "content": {"type": "audio_prompt", "value": "Chọn chủ đề."},
+            "options": [
+              {"id": "a13_1", "text": "직업", "is_correct": false},
+              {"id": "a13_2", "text": "운동", "is_correct": true},
+              {"id": "a13_3", "text": "날짜", "is_correct": false},
+              {"id": "a13_4", "text": "고향", "is_correct": false}
+            ]
+          },
+          {
+            "id": "test_14",
+            "number": 14,
+            "points": 3,
+            "content": {"type": "audio_prompt", "value": "Chọn chủ đề."},
+            "options": [
+              {"id": "a14_1", "text": "값", "is_correct": true},
+              {"id": "a14_2", "text": "맛", "is_correct": false},
+              {"id": "a14_3", "text": "위치", "is_correct": false},
+              {"id": "a14_4", "text": "계절", "is_correct": false}
+            ]
+          }
+        ]
+      },
+      {
+        "type": "instruction_group",
+        "instruction": "※ [15～16] 다음 대화를 듣고 가장 알맞은 그림을 고르십시오. (각 4점)",
+        "questions": [
+          {
+            "id": "test_15",
+            "number": 15,
+            "points": 4,
+            "option_type": "image",
+            "content": {"type": "audio_prompt", "value": "Chọn hình ảnh phù hợp."},
+            "options": [
+              {"id": "a15_1", "image_src": "https://www.topik.go.kr/asset/exam/exam83/images/83_1_15_1.png", "alt": "여자가 남자에게 우산을 가리키고 있다.", "is_correct": true},
+              {"id": "a15_2", "image_src": "https://www.topik.go.kr/asset/exam/exam83/images/83_1_15_2.png", "alt": "여자가 남자에게 우산을 보여주고 있다.", "is_correct": false},
+              {"id": "a15_3", "image_src": "https://www.topik.go.kr/asset/exam/exam83/images/83_1_15_3.png", "alt": "남자가 우산을 펼쳐보았다", "is_correct": false},
+              {"id": "a15_4", "image_src": "https://www.topik.go.kr/asset/exam/exam83/images/83_1_15_4.png", "alt": "남자가 여자에게 돈을 지불하고 있다.", "is_correct": false}
+            ]
+          },
+          {
+            "id": "test_16",
+            "number": 16,
+            "points": 4,
+            "option_type": "image",
+            "content": {"type": "audio_prompt", "value": "Chọn hình ảnh phù hợp."},
+            "options": [
+              {"id": "a16_1", "image_src": "https://www.topik.go.kr/asset/exam/exam83/images/83_1_16_1.png", "alt": "여자가 내리고 뒤따라 남자가 내리고있다", "is_correct": false},
+              {"id": "a16_2", "image_src": "https://www.topik.go.kr/asset/exam/exam83/images/83_1_16_2.png", "alt": "남자와 여자가 버스 노선도를 보고 있다.", "is_correct": false},
+              {"id": "a16_3", "image_src": "https://www.topik.go.kr/asset/exam/exam83/images/83_1_16_3.png", "alt": "남자가 버스타는 여자에게 손을 흔든다.", "is_correct": false},
+              {"id": "a16_4", "image_src": "https://www.topik.go.kr/asset/exam/exam83/images/83_1_16_4.png", "alt": "버스를 기다리며 남여가 대화중이다.", "is_correct": true}
+            ]
+          }
+        ]
+      },
+      {
+        "type": "instruction_group",
+        "instruction": "※ [17～21] 다음을 듣고 &lt;보기&gt;와 같이 대화 내용과 같은 것을 고르십시오. (각 3점)",
+        "example": {
+          "title": "&lt; 보 기 &gt;",
+          "question_text": "<b>여자 : 편지를 써요?</b><br><b>남자 : 네. 형한테 편지를 써요.</b>",
+          "options": [
+            {"text": "여자는 편지를 씁니다.", "is_correct": false},
+            {"text": "남자는 형이 있습니다.", "is_correct": true},
+            {"text": "남자는 동생에게 편지를 씁니다.", "is_correct": false},
+            {"text": "여자는 남자한테 편지를 보냅니다.", "is_correct": false}
+          ]
+        },
+        "questions": [
+          {
+            "id": "test_17",
+            "number": 17,
+            "points": 3,
+            "content": {"type": "audio_prompt", "value": "Chọn nội dung đúng."},
+            "options": [
+              {"id": "a17_1", "text": "남자는 주말에 드라마를 봤습니다.", "is_correct": true},
+              {"id": "a17_2", "text": "남자는 일요일에 친구를 만났습니다.", "is_correct": false},
+              {"id": "a17_3", "text": "여자는 일요일에 집에서 쉬었습니다.", "is_correct": false},
+              {"id": "a17_4", "text": "여자는 주말에 이 남자와 수영장에 갔습니다.", "is_correct": false}
+            ]
+          },
+          {
+            "id": "test_18",
+            "number": 18,
+            "points": 3,
+            "content": {"type": "audio_prompt", "value": "Chọn nội dung đúng."},
+            "options": [
+              {"id": "a18_1", "text": "남자는 요리를 아주 잘합니다.", "is_correct": false},
+              {"id": "a18_2", "text": "남자는 지금 김치찌개를 만듭니다.", "is_correct": false},
+              {"id": "a18_3", "text": "여자는 어머니에게서 요리를 배웁니다.", "is_correct": true},
+              {"id": "a18_4", "text": "여자는 어머니와 요리를 하고 있습니다.", "is_correct": false}
+            ]
+          },
+          {
+            "id": "test_19",
+            "number": 19,
+            "points": 3,
+            "content": {"type": "audio_prompt", "value": "Chọn nội dung đúng."},
+            "options": [
+              {"id": "a19_1", "text": "여자는 극장에서 남자를 만났습니다.", "is_correct": false},
+              {"id": "a19_2", "text": "남자는 이따가 한강공원에 갈 겁니다.", "is_correct": true},
+              {"id": "a19_3", "text": "남자는 오늘 수업이 모두 끝났습니다.", "is_correct": false},
+              {"id": "a19_4", "text": "여자는 지금 영화를 보고 싶어 합니다.", "is_correct": false}
+            ]
+          },
+          {
+            "id": "test_20",
+            "number": 20,
+            "points": 3,
+            "content": {"type": "audio_prompt", "value": "Chọn nội dung đúng."},
+            "options": [
+              {"id": "a20_1", "text": "여자는 책상을 사고 싶어 합니다.", "is_correct": false},
+              {"id": "a20_2", "text": "남자는 여자에게 책상을 팔 겁니다.", "is_correct": false},
+              {"id": "a20_3", "text": "남자는 인터넷으로 물건을 팔아 봤습니다.", "is_correct": true},
+              {"id": "a20_4", "text": "여자는 인터넷 사이트에서 책상을 팔았습니다.", "is_correct": false}
+            ]
+          },
+          {
+            "id": "test_21",
+            "number": 21,
+            "points": 3,
+            "content": {"type": "audio_prompt", "value": "Chọn nội dung đúng."},
+            "options": [
+              {"id": "a21_1", "text": "남자는 병원에서 일합니다.", "is_correct": false},
+              {"id": "a21_2", "text": "여자는 오전에 예약을 했습니다.", "is_correct": false},
+              {"id": "a21_3", "text": "여자는 남자와 같이 병원에 갑니다.", "is_correct": false},
+              {"id": "a21_4", "text": "남자는 수요일에 병원에 갈 겁니다.", "is_correct": true}
+            ]
+          }
+        ]
+      },
+      {
+        "type": "instruction_group",
+        "instruction": "※ [22～24] 다음을 듣고 <u style=\"font-size: 18px;\">여자</u>의 중심 생각을 고르십시오. (각 3점)",
+        "questions": [
+          {
+            "id": "test_22",
+            "number": 22,
+            "points": 3,
+            "content": {"type": "audio_prompt", "value": "Chọn suy nghĩ chính của người phụ nữ."},
+            "options": [
+              {"id": "a22_1", "text": "마이클 씨처럼 친구가 많았으면 좋겠습니다.", "is_correct": false},
+              {"id": "a22_2", "text": "마이클 씨하고 외국어 공부를 하고 싶습니다.", "is_correct": false},
+              {"id": "a22_3", "text": "마이클 씨에게 한국어를 더 가르쳐 주고 싶습니다.", "is_correct": false},
+              {"id": "a22_4", "text": "마이클 씨가 말하기 연습을 많이 하면 좋겠습니다.", "is_correct": true}
+            ]
+          },
+          {
+            "id": "test_23",
+            "number": 23,
+            "points": 3,
+            "content": {"type": "audio_prompt", "value": "Chọn suy nghĩ chính của người phụ nữ."},
+            "options": [
+              {"id": "a23_1", "text": "새 시계를 구경해 보고 싶습니다.", "is_correct": false},
+              {"id": "a23_2", "text": "시계를 오늘 바로 고쳐야 합니다.", "is_correct": false},
+              {"id": "a23_3", "text": "시계를 고쳐서 오래 쓰고 싶습니다.", "is_correct": true},
+              {"id": "a23_4", "text": "좋은 시계로 바꾸어 주면 좋겠습니다.", "is_correct": false}
+            ]
+          },
+          {
+            "id": "test_24",
+            "number": 24,
+            "points": 3,
+            "content": {"type": "audio_prompt", "value": "Chọn suy nghĩ chính của người phụ nữ."},
+            "options": [
+              {"id": "a24_1", "text": "가수들의 공연이 많아져서 좋습니다.", "is_correct": false},
+              {"id": "a24_2", "text": "춤도 잘 추고 노래도 잘하는 가수가 좋습니다.", "is_correct": false},
+              {"id": "a24_3", "text": "K-POP 가수들의 공연장에 가 보고 싶습니다.", "is_correct": false},
+              {"id": "a24_4", "text": "K-POP 가수들은 춤을 출 때가 특히 멋있습니다.", "is_correct": true}
+            ]
+          }
+        ]
+      },
+      {
+        "type": "instruction_group",
+        "instruction": "※ [25～26] 다음을 듣고 물음에 답하십시오.",
+        "questions": [
+          {
+            "id": "test_25",
+            "number": 25,
+            "points": 3,
+            "content": {"type": "instruction", "value": "여자가 왜 이 이야기를 하고 있는지 고르십시오."},
+            "options": [
+              {"id": "a25_1", "text": "식당 위치를 설명하려고", "is_correct": false},
+              {"id": "a25_2", "text": "행사 신청 기간을 안내하려고", "is_correct": false},
+              {"id": "a25_3", "text": "회사에서 하는 행사를 알리려고", "is_correct": true},
+              {"id": "a25_4", "text": "회사 직원에게 감사 인사를 하려고", "is_correct": false}
+            ]
+          },
+          {
+            "id": "test_26",
+            "number": 26,
+            "points": 4,
+            "content": {"type": "instruction", "value": "들은 내용과 같은 것을 고르십시오."},
+            "options": [
+              {"id": "a26_1", "text": "건강에 좋은 아침 식사가 준비됩니다.", "is_correct": true},
+              {"id": "a26_2", "text": "오늘은 무료로 식사를 할 수 있습니다.", "is_correct": false},
+              {"id": "a26_3", "text": "행사 기간 동안에 식당 문을 닫습니다.", "is_correct": false},
+              {"id": "a26_4", "text": "한 달 전부터 이 행사를 하고 있습니다.", "is_correct": false}
+            ]
+          }
+        ]
+      },
+      {
+        "type": "instruction_group",
+        "instruction": "※ [27～28] 다음을 듣고 물음에 답하십시오.",
+        "questions": [
+          {
+            "id": "test_27",
+            "number": 27,
+            "points": 3,
+            "content": {"type": "instruction", "value": "두 사람이 무엇에 대해 이야기를 하고 있는지 고르십시오."},
+            "options": [
+              {"id": "a27_1", "text": "자주 사는 꽃", "is_correct": false},
+              {"id": "a27_2", "text": "꽃을 사는 이유", "is_correct": true},
+              {"id": "a27_3", "text": "꽃을 선물할 사람", "is_correct": false},
+              {"id": "a27_4", "text": "특별한 날에 사는 꽃", "is_correct": false}
+            ]
+          },
+          {
+            "id": "test_28",
+            "number": 28,
+            "points": 4,
+            "content": {"type": "instruction", "value": "들은 내용과 같은 것을 고르십시오."},
+            "options": [
+              {"id": "a28_1", "text": "남자는 꽃을 자주 사지 않습니다.", "is_correct": true},
+              {"id": "a28_2", "text": "여자는 생일 선물로 꽃을 받았습니다.", "is_correct": false},
+              {"id": "a28_3", "text": "여자는 꽃을 별로 좋아하지 않습니다.", "is_correct": false},
+              {"id": "a28_4", "text": "남자는 여자에게 주려고 꽃을 샀습니다.", "is_correct": false}
+            ]
+          }
+        ]
+      },
+      {
+        "type": "instruction_group",
+        "instruction": "※ [29～30] 다음을 듣고 물음에 답하십시오.",
+        "questions": [
+          {
+            "id": "test_29",
+            "number": 29,
+            "points": 3,
+            "content": {"type": "instruction", "value": "남자가 이 책을 쓴 이유를 고르십시오."},
+            "options": [
+              {"id": "a29_1", "text": "글을 쓰는 재미를 알리고 싶어서", "is_correct": false},
+              {"id": "a29_2", "text": "힘들고 어려운 아이들에게 도움이 되고 싶어서", "is_correct": false},
+              {"id": "a29_3", "text": "경찰이 되는 여러 가지 방법을 알려 주고 싶어서", "is_correct": false},
+              {"id": "a29_4", "text": "경찰이 되어서 경험한 행복한 일을 소개하고 싶어서", "is_correct": true}
+            ]
+          },
+          {
+            "id": "test_30",
+            "number": 30,
+            "points": 4,
+            "content": {"type": "instruction", "value": "들은 내용과 같은 것을 고르십시오."},
+            "options": [
+              {"id": "a30_1", "text": "남자는 작년에 경찰이 되었습니다.", "is_correct": false},
+              {"id": "a30_2", "text": "남자는 8년 동안 책을 쓰고 있습니다.", "is_correct": false},
+              {"id": "a30_3", "text": "남자는 아이의 가방을 찾아 준 적이 있습니다.", "is_correct": true},
+              {"id": "a30_4", "text": "남자는 아이에게 편지와 상을 줘서 행복했습니다.", "is_correct": false}
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "91-II-listening",
+    "year_description": "2023년도 TOPIK",
+    "exam_number_description": "제91회",
+    "source": "한국어능력시험",
+    "level": "TOPIK Ⅱ",
+    "skill": "듣기",
+    "instruction_groups": [
+      {
+        "type": "instruction_group",
+        "instruction": "※ [1～3] 다음을 듣고 가장 알맞은 그림 또는 그래프를 고르십시오. (각 2점)",
+        "questions": [
+          {
+            "id": "test_1",
+            "number": 1,
+            "points": 2,
+            "option_type": "image",
+            "content": {"type": "audio_prompt", "value": "Chọn hình ảnh/biểu đồ phù hợp."},
+            "options": [
+              {"id": "a1_1", "image_src": "https://www.topik.go.kr/asset/exam/exam91/images/91_2_1_1_1.png", "alt": "여자가 넥타이를 남자에게 건네고 있는 장면", "is_correct": false},
+              {"id": "a1_2", "image_src": "https://www.topik.go.kr/asset/exam/exam91/images/91_2_1_1_2.png", "alt": "남자가 여자에게 넥타이를 가리키는 장면", "is_correct": true},
+              {"id": "a1_3", "image_src": "https://www.topik.go.kr/asset/exam/exam91/images/91_2_1_1_3.png", "alt": "남자가 입장할려고 하니 여자가 나와 인사하는 장면", "is_correct": false},
+              {"id": "a1_4", "image_src": "https://www.topik.go.kr/asset/exam/exam91/images/91_2_1_1_4.png", "alt": "남자가 넥타이를 시착해보는 장면", "is_correct": false}
+            ]
+          },
+          {
+            "id": "test_2",
+            "number": 2,
+            "points": 2,
+            "option_type": "image",
+            "content": {"type": "audio_prompt", "value": "Chọn hình ảnh/biểu đồ phù hợp."},
+            "options": [
+              {"id": "a2_1", "image_src": "https://www.topik.go.kr/asset/exam/exam91/images/91_2_1_2_1.png", "alt": "여자가 사과를 먹고있는 장면", "is_correct": true},
+              {"id": "a2_2", "image_src": "https://www.topik.go.kr/asset/exam/exam91/images/91_2_1_2_2.png", "alt": "여자에게 음식물 봉투를 건네는 장면", "is_correct": false},
+              {"id": "a2_3", "image_src": "https://www.topik.go.kr/asset/exam/exam91/images/91_2_1_2_3.png", "alt": "남자에게 음료수를 따르는 장면", "is_correct": false},
+              {"id": "a2_4", "image_src": "https://www.topik.go.kr/asset/exam/exam91/images/91_2_1_2_4.png", "alt": "남여가 사과박스 하나씩 나란히 들고있는 장면", "is_correct": false}
+            ]
+          },
+          {
+            "id": "test_3",
+            "number": 3,
+            "points": 2,
+            "option_type": "image",
+            "content": {"type": "audio_prompt", "value": "Chọn hình ảnh/biểu đồ phù hợp."},
+            "options": [
+              {"id": "a3_1", "image_src": "https://www.topik.go.kr/asset/exam/exam91/images/91_2_1_3_1.png", "alt": "성인독서율 점점감소하다가 마지막에 증가하는 그림", "is_correct": false},
+              {"id": "a3_2", "image_src": "https://www.topik.go.kr/asset/exam/exam91/images/91_2_1_3_2.png", "alt": "성인독서율 처음에 증가 후 점점감소하는 그림", "is_correct": false},
+              {"id": "a3_3", "image_src": "https://www.topik.go.kr/asset/exam/exam91/images/91_2_1_3_3.png", "alt": "독서를 하지 않는 이유가 표시된 그림", "is_correct": true},
+              {"id": "a3_4", "image_src": "https://www.topik.go.kr/asset/exam/exam91/images/91_2_1_3_4.png", "alt": "독서를 하지 않는 이유가 표시된 그림 앞에꺼와 2번,3번이 다름", "is_correct": false}
+            ]
+          }
+        ]
+      },
+      {
+        "type": "instruction_group",
+        "instruction": "※ [4～8] 다음을 듣고 이어질 수 있는 말로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "questions": [
+           {
+            "id": "test_4", "number": 4,"points": 2, "content": {"type": "audio_prompt", "value": "Chọn câu nói tiếp nối phù hợp."},
+            "options": [ {"id": "a4_1", "text": "그래? 안 나와서 걱정했어.", "is_correct": true}, {"id": "a4_2", "text": "무슨 학원에 다니고 있어?", "is_correct": false}, {"id": "a4_3", "text": "그래? 할머니 댁에 언제 가?", "is_correct": false}, {"id": "a4_4", "text": "부모님과 함께 가기로 했거든.", "is_correct": false} ]
+           },
+           {
+            "id": "test_5", "number": 5, "points": 2, "content": {"type": "audio_prompt", "value": "Chọn câu nói tiếp nối phù hợp."},
+            "options": [ {"id": "a5_1", "text": "그럼 거기로 다시 가 볼까요?", "is_correct": true}, {"id": "a5_2", "text": "아직 한 곳밖에 안 가 봤는데요.", "is_correct": false}, {"id": "a5_3", "text": "그럼 이 소파를 사는 게 어때요?", "is_correct": false}, {"id": "a5_4", "text": "집 근처에 있는 소파 가게에서 샀어요.", "is_correct": false} ]
+           },
+           {
+            "id": "test_6", "number": 6, "points": 2, "content": {"type": "audio_prompt", "value": "Chọn câu nói tiếp nối phù hợp."},
+            "options": [ {"id": "a6_1", "text": "면접 날짜를 다시 확인하고 알려 줘.", "is_correct": false}, {"id": "a6_2", "text": "준비 많이 했으니까 잘할 수 있을 거야.", "is_correct": true}, {"id": "a6_3", "text": "면접 보기 전인데 안 떨린다니 대단하다.", "is_correct": false}, {"id": "a6_4", "text": "생각하지 못한 질문을 받아서 정말 놀랐겠네.", "is_correct": false} ]
+           },
+           {
+            "id": "test_7", "number": 7, "points": 2, "content": {"type": "audio_prompt", "value": "Chọn câu nói tiếp nối phù hợp."},
+            "options": [ {"id": "a7_1", "text": "맞아요. 이전 작품은 내용이 별로였어요.", "is_correct": false}, {"id": "a7_2", "text": "그래요? 이 드라마 다 보면 다른 작품도 봐야겠어요.", "is_correct": true}, {"id": "a7_3", "text": "맞아요. 이 드라마는 몇 번을 다시 봐도 재미있네요.", "is_correct": false}, {"id": "a7_4", "text": "그래요? 이 작가가 처음으로 쓴 작품인 줄 몰랐어요.", "is_correct": false} ]
+           },
+           {
+            "id": "test_8", "number": 8, "points": 2, "content": {"type": "audio_prompt", "value": "Chọn câu nói tiếp nối phù hợp."},
+            "options": [ {"id": "a8_1", "text": "얼룩이 잘 지워진 것 같아요.", "is_correct": false}, {"id": "a8_2", "text": "운동화를 깨끗하게 신으셨네요.", "is_correct": false}, {"id": "a8_3", "text": "해 봐야 알겠지만 최대한 없애 볼게요.", "is_correct": true}, {"id": "a8_4", "text": "집에 돌아가서 다시 한번 지워 보려고요.", "is_correct": false} ]
+           }
+        ]
+      },
+      {
+        "type": "instruction_group",
+        "instruction": "※ [9～12] 다음을 듣고 <u style=\"font-size: 18px;\">여자</u>가 이어서 할 행동으로 가장 알맞은 것을 고르십시오. (각 2점)",
+         "questions": [
+           {
+            "id": "test_9", "number": 9, "points": 2, "content": {"type": "audio_prompt", "value": "Chọn hành động tiếp theo của người phụ nữ."},
+            "options": [ {"id": "a9_1", "text": "김밥을 산다.", "is_correct": true}, {"id": "a9_2", "text": "기차를 탄다.", "is_correct": false}, {"id": "a9_3", "text": "자리에 앉는다.", "is_correct": false}, {"id": "a9_4", "text": "카페로 들어간다.", "is_correct": false} ]
+           },
+           {
+            "id": "test_10", "number": 10, "points": 2, "content": {"type": "audio_prompt", "value": "Chọn hành động tiếp theo của người phụ nữ."},
+            "options": [ {"id": "a10_1", "text": "고객 대기실로 간다.", "is_correct": true}, {"id": "a10_2", "text": "남자에게 열쇠를 준다.", "is_correct": false}, {"id": "a10_3", "text": "차의 상태를 확인한다.", "is_correct": false}, {"id": "a10_4", "text": "차를 수리하려고 예약한다.", "is_correct": false} ]
+           },
+           {
+            "id": "test_11", "number": 11, "points": 2, "content": {"type": "audio_prompt", "value": "Chọn hành động tiếp theo của người phụ nữ."},
+            "options": [ {"id": "a11_1", "text": "물감을 찾아본다.", "is_correct": false}, {"id": "a11_2", "text": "미술 연필을 고른다.", "is_correct": false}, {"id": "a11_3", "text": "직원에게 물어본다.", "is_correct": true}, {"id": "a11_4", "text": "남자에게 제품 이름을 말한다.", "is_correct": false} ]
+           },
+           {
+            "id": "test_12", "number": 12, "points": 2, "content": {"type": "audio_prompt", "value": "Chọn hành động tiếp theo của người phụ nữ."},
+            "options": [ {"id": "a12_1", "text": "촬영팀에게 연락한다.", "is_correct": false}, {"id": "a12_2", "text": "진행 순서를 설명한다.", "is_correct": false}, {"id": "a12_3", "text": "공연 무대를 점검한다.", "is_correct": false}, {"id": "a12_4", "text": "공연팀을 데리러 간다.", "is_correct": true} ]
+           }
+        ]
+      },
+       {
+        "type": "instruction_group",
+        "instruction": "※ [13～16] 다음을 듣고 들은 내용과 같은 것을 고르십시오. (각 2점)",
+        "questions": [
+           {
+            "id": "test_13", "number": 13, "points": 2, "content": {"type": "audio_prompt", "value": "Chọn nội dung đúng."},
+            "options": [ {"id": "a13_1", "text": "길이 예전에 비해 좁아졌다.", "is_correct": false}, {"id": "a13_2", "text": "여자는 이곳에 처음 와 봤다.", "is_correct": false}, {"id": "a13_3", "text": "남자는 인주서점에 간 적이 없다.", "is_correct": false}, {"id": "a13_4", "text": "인주서점은 지금까지 같은 자리에 있다.", "is_correct": true} ]
+           },
+           {
+            "id": "test_14", "number": 14, "points": 2, "content": {"type": "audio_prompt", "value": "Chọn nội dung đúng."},
+            "options": [ {"id": "a14_1", "text": "분실물은 구두 매장에 있었다.", "is_correct": true}, {"id": "a14_2", "text": "오후 8시에 지갑이 발견되었다.", "is_correct": false}, {"id": "a14_3", "text": "고객 센터는 구두 매장 옆에 있다.", "is_correct": false}, {"id": "a14_4", "text": "지갑을 잃어버린 사람은 1층으로 가면 된다.", "is_correct": false} ]
+           },
+           {
+            "id": "test_15", "number": 15, "points": 2, "content": {"type": "audio_prompt", "value": "Chọn nội dung đúng."},
+            "options": [ {"id": "a15_1", "text": "이 사고는 어젯밤에 발생했다.", "is_correct": false}, {"id": "a15_2", "text": "이 사고로 인해 사람들이 크게 다쳤다.", "is_correct": false}, {"id": "a15_3", "text": "경찰은 사고 원인에 대해 조사하고 있다.", "is_correct": true}, {"id": "a15_4", "text": "낚싯배가 다른 배와 충돌하는 사고가 났다.", "is_correct": false} ]
+           },
+           {
+            "id": "test_16", "number": 16, "points": 2, "content": {"type": "audio_prompt", "value": "Chọn nội dung đúng."},
+            "options": [ {"id": "a16_1", "text": "여자는 수술 과정에 참여한다.", "is_correct": true}, {"id": "a16_2", "text": "여자는 보호자의 집에서 동물을 돌본다.", "is_correct": false}, {"id": "a16_3", "text": "여자의 직업은 사람들에게 잘 알려져 있다.", "is_correct": false}, {"id": "a16_4", "text": "동물의 상태를 관찰하는 일은 여자의 업무가 아니다.", "is_correct": false} ]
+           }
+        ]
+      },
+      {
+        "type": "instruction_group",
+        "instruction": "※ [17～20] 다음을 듣고 <u style=\"font-size: 18px;\">남자</u>의 중심 생각으로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "questions": [
+            {
+            "id": "test_17", "number": 17, "points": 2, "content": {"type": "audio_prompt", "value": "Chọn suy nghĩ trọng tâm của người đàn ông."},
+            "options": [ {"id": "a17_1", "text": "저녁 식사를 미리 준비해 두어야 한다.", "is_correct": false}, {"id": "a17_2", "text": "음식을 한꺼번에 많이 먹지 않는 것이 좋다.", "is_correct": false}, {"id": "a17_3", "text": "건강을 위해서 식사를 규칙적으로 해야 한다.", "is_correct": false}, {"id": "a17_4", "text": "피곤할 때는 저녁을 밖에서 사 먹는 것이 좋다.", "is_correct": true} ]
+            },
+            {
+            "id": "test_18", "number": 18, "points": 2, "content": {"type": "audio_prompt", "value": "Chọn suy nghĩ trọng tâm của người đàn ông."},
+            "options": [ {"id": "a18_1", "text": "친구가 힘들 때는 옆에 있어 줘야 한다.", "is_correct": true}, {"id": "a18_2", "text": "여러 사람과 잘 지내기 위해 노력할 필요가 있다.", "is_correct": false}, {"id": "a18_3", "text": "다른 사람과 함께 있을 때는 말을 조심해야 한다.", "is_correct": false}, {"id": "a18_4", "text": "친구와 문제가 생겼을 때는 빨리 해결하는 것이 좋다.", "is_correct": false} ]
+            },
+            {
+            "id": "test_19", "number": 19, "points": 2, "content": {"type": "audio_prompt", "value": "Chọn suy nghĩ trọng tâm của người đàn ông."},
+            "options": [ {"id": "a19_1", "text": "여행은 여유롭게 하는 것이 좋다.", "is_correct": true}, {"id": "a19_2", "text": "여행을 자주 가는 것은 좋지 않다.", "is_correct": false}, {"id": "a19_3", "text": "여행에서 다양한 경험을 해 봐야 한다.", "is_correct": false}, {"id": "a19_4", "text": "여행에 필요한 예산을 정해 놓을 필요가 있다.", "is_correct": false} ]
+            },
+            {
+            "id": "test_20", "number": 20, "points": 2, "content": {"type": "audio_prompt", "value": "Chọn suy nghĩ trọng tâm của người đàn ông."},
+            "options": [ {"id": "a20_1", "text": "광고를 짧게 만드는 것이 효과적이다.", "is_correct": false}, {"id": "a20_2", "text": "광고는 대중의 호기심을 자극해야 한다.", "is_correct": true}, {"id": "a20_3", "text": "광고는 제품의 정보를 사실대로 전달해야 한다.", "is_correct": false}, {"id": "a20_4", "text": "광고는 보는 사람이 쉽게 이해할 수 있어야 한다.", "is_correct": false} ]
+            }
+        ]
+      },
+      {
+        "type": "instruction_group",
+        "instruction": "※ [21～22] 다음을 듣고 물음에 답하십시오. (각 2점)",
+         "questions": [
+            {
+            "id": "test_21", "number": 21, "points": 2, "content": {"type": "instruction", "value": "남자의 중심 생각으로 가장 알맞은 것을 고르십시오."},
+            "options": [ {"id": "a21_1", "text": "회의 내용을 빠짐없이 기록해야 한다.", "is_correct": false}, {"id": "a21_2", "text": "회의 때 낭비되는 종이를 줄이는 것이 좋다.", "is_correct": true}, {"id": "a21_3", "text": "회의실을 지금보다 더 큰 장소로 바꿔야 한다.", "is_correct": false}, {"id": "a21_4", "text": "발표 자료는 알아보기 쉽게 만드는 것이 좋다.", "is_correct": false} ]
+            },
+            {
+            "id": "test_22", "number": 22, "points": 2, "content": {"type": "instruction", "value": "들은 내용과 같은 것을 고르십시오."},
+            "options": [ {"id": "a22_1", "text": "이번 회의는 발표 자료 없이 진행된다.", "is_correct": false}, {"id": "a22_2", "text": "여자는 회의에서 쓸 자료를 복사할 예정이다.", "is_correct": false}, {"id": "a22_3", "text": "남자는 회의 때 대형 화면을 사용한 적이 있다.", "is_correct": true}, {"id": "a22_4", "text": "여자는 참석자들에게 참고할 자료를 이미 이메일로 보내 놓았다.", "is_correct": false} ]
+            }
+        ]
+      },
+       {
+        "type": "instruction_group",
+        "instruction": "※ [23～24] 다음을 듣고 물음에 답하십시오. (각 2점)",
+        "questions": [
+            {
+            "id": "test_23", "number": 23, "points": 2, "content": {"type": "instruction", "value": "남자가 무엇을 하고 있는지 고르십시오."},
+            "options": [ {"id": "a23_1", "text": "가게의 위치를 확인하고 있다.", "is_correct": false}, {"id": "a23_2", "text": "가게 운영에 대해 조언을 구하고 있다.", "is_correct": false}, {"id": "a23_3", "text": "구매할 물건의 사용 방법을 물어보고 있다.", "is_correct": false}, {"id": "a23_4", "text": "원하는 조건의 물건이 있는지 알아보고 있다.", "is_correct": true} ]
+            },
+            {
+            "id": "test_24", "number": 24, "points": 2, "content": {"type": "instruction", "value": "들은 내용과 같은 것을 고르십시오."},
+            "options": [ {"id": "a24_1", "text": "여자의 가게에는 크기가 큰 냉장고가 없다.", "is_correct": false}, {"id": "a24_2", "text": "남자는 카페에서 케이크를 팔지 않기로 했다.", "is_correct": false}, {"id": "a24_3", "text": "남자의 카페에는 유리문이 달린 냉장고가 있다.", "is_correct": true}, {"id": "a24_4", "text": "여자의 가게에서는 새로 나온 제품만 판매한다.", "is_correct": false} ]
+            }
+        ]
+      },
+      {
+        "type": "instruction_group",
+        "instruction": "※ [25～26] 다음을 듣고 물음에 답하십시오. (각 2점)",
+        "questions": [
+            {
+            "id": "test_25", "number": 25, "points": 2, "content": {"type": "instruction", "value": "남자의 중심 생각으로 가장 알맞은 것을 고르십시오."},
+            "options": [ {"id": "a25_1", "text": "마을 축제에 대한 주민들의 관심이 필요하다.", "is_correct": false}, {"id": "a25_2", "text": "마을의 특징을 활용한 것이 축제의 성공 비결이다.", "is_correct": true}, {"id": "a25_3", "text": "축제에서 판매할 기념품을 새로 제작하는 것이 좋다.", "is_correct": false}, {"id": "a25_4", "text": "축제를 기획할 때 성공 사례를 충분히 검토해야 한다.", "is_correct": false} ]
+            },
+            {
+            "id": "test_26", "number": 26, "points": 2, "content": {"type": "instruction", "value": "들은 내용과 같은 것을 고르십시오."},
+            "options": [ {"id": "a26_1", "text": "이 마을을 아는 사람이 거의 없다.", "is_correct": false}, {"id": "a26_2", "text": "이 마을에서 축제가 올해 처음으로 열렸다.", "is_correct": false}, {"id": "a26_3", "text": "이 마을의 해바라기 들판은 최근에 만들어졌다.", "is_correct": false}, {"id": "a26_4", "text": "이 마을의 특산품이 관광객에게 좋은 반응을 얻었다.", "is_correct": true} ]
+            }
+        ]
+      },
+       {
+        "type": "instruction_group",
+        "instruction": "※ [27～28] 다음을 듣고 물음에 답하십시오. (각 2점)",
+        "questions": [
+            {
+            "id": "test_27", "number": 27, "points": 2, "content": {"type": "instruction", "value": "남자가 말하는 의도로 알맞은 것을 고르십시오."},
+            "options": [ {"id": "a27_1", "text": "이 과자의 맛이 달라진 것을 지적하려고", "is_correct": false}, {"id": "a27_2", "text": "이 과자를 생산하게 된 이유를 알려 주려고", "is_correct": false}, {"id": "a27_3", "text": "이 과자의 생산이 중단될 것이라는 소식을 전하려고", "is_correct": false}, {"id": "a27_4", "text": "이 과자를 구하기 어려운 것에 대한 불만을 말하려고", "is_correct": true} ]
+            },
+            {
+            "id": "test_28", "number": 28, "points": 2, "content": {"type": "instruction", "value": "들은 내용과 같은 것을 고르십시오."},
+            "options": [ {"id": "a28_1", "text": "이 회사는 작업 시간을 늘렸다.", "is_correct": true}, {"id": "a28_2", "text": "남자는 이 과자를 구입한 적이 있다.", "is_correct": false}, {"id": "a28_3", "text": "이 과자는 사람들의 관심을 끌지 못했다.", "is_correct": false}, {"id": "a28_4", "text": "여자는 남자에게 이 과자에 대해 처음 들었다.", "is_correct": false} ]
+            }
+        ]
+      },
+       {
+        "type": "instruction_group",
+        "instruction": "※ [29～30] 다음을 듣고 물음에 답하십시오. (각 2점)",
+          "questions": [
+            {
+            "id": "test_29", "number": 29, "points": 2, "content": {"type": "instruction", "value": "남자가 누구인지 고르십시오."},
+            "options": [ {"id": "a29_1", "text": "도로를 정비하는 사람", "is_correct": false}, {"id": "a29_2", "text": "교통 상황을 촬영하는 사람", "is_correct": false}, {"id": "a29_3", "text": "도로에 CCTV를 설치하는 사람", "is_correct": false}, {"id": "a29_4", "text": "방송에서 교통 상황을 알려 주는 사람", "is_correct": true} ]
+            },
+            {
+            "id": "test_30", "number": 30, "points": 2, "content": {"type": "instruction", "value": "들은 내용과 같은 것을 고르십시오."},
+            "options": [ {"id": "a30_1", "text": "남자는 매일 오후에 근무를 시작한다.", "is_correct": false}, {"id": "a30_2", "text": "남자는 이 일을 할 때 긴장하지 않는다.", "is_correct": false}, {"id": "a30_3", "text": "남자는 CCTV를 분석하는 일을 하지 않는다.", "is_correct": false}, {"id": "a30_4", "text": "남자의 일에는 시민들이 보낸 문자를 보는 것이 포함된다.", "is_correct": true} ]
+            }
+        ]
+      },
+        {
+        "type": "instruction_group",
+        "instruction": "※ [31～32] 다음을 듣고 물음에 답하십시오. (각 2점)",
+        "questions": [
+            {
+            "id": "test_31", "number": 31, "points": 2, "content": {"type": "instruction", "value": "남자의 중심 생각으로 가장 알맞은 것을 고르십시오."},
+            "options": [ {"id": "a31_1", "text": "시설을 다른 지역으로 옮겨서 설치해야 한다.", "is_correct": false}, {"id": "a31_2", "text": "시설의 설치 효과에 대한 명확한 검증이 필요하다.", "is_correct": false}, {"id": "a31_3", "text": "시설 설치에 대한 반대는 홍보를 통해 해결할 수 있다.", "is_correct": true}, {"id": "a31_4", "text": "시설의 설치 사실을 주민들에게 바로 알리지 않는 것이 좋다.", "is_correct": false} ]
+            },
+            {
+            "id": "test_32", "number": 32, "points": 2, "content": {"type": "instruction", "value": "남자의 태도로 가장 알맞은 것을 고르십시오."},
+            "options": [ {"id": "a32_1", "text": "앞으로 일어날 문제에 대해 걱정하고 있다.", "is_correct": false}, {"id": "a32_2", "text": "자신의 의견대로 될 것임을 확신하고 있다.", "is_correct": true}, {"id": "a32_3", "text": "상대방에게 객관적인 근거를 요구하고 있다.", "is_correct": false}, {"id": "a32_4", "text": "상황이 심각해진 것에 대한 책임을 묻고 있다.", "is_correct": false} ]
+            }
+        ]
+      },
+      {
+        "type": "instruction_group",
+        "instruction": "※ [33～34] 다음을 듣고 물음에 답하십시오. (각 2점)",
+        "questions": [
+            {
+            "id": "test_33", "number": 33, "points": 2, "content": {"type": "instruction", "value": "무엇에 대한 내용인지 알맞은 것을 고르십시오."},
+            "options": [ {"id": "a33_1", "text": "음악을 감상하는 올바른 방법", "is_correct": false}, {"id": "a33_2", "text": "음악적 재능이 발달하는 결정적 시기", "is_correct": false}, {"id": "a33_3", "text": "노인을 대상으로 하는 연구에서 주의할 점", "is_correct": false}, {"id": "a33_4", "text": "음악 활동이 노인의 인지 기능에 미치는 영향", "is_correct": true} ]
+            },
+            {
+            "id": "test_34", "number": 34, "points": 2, "content": {"type": "instruction", "value": "들은 내용과 같은 것을 고르십시오."},
+            "options": [ {"id": "a34_1", "text": "이 연구를 위한 실험은 1년 동안 진행됐다.", "is_correct": false}, {"id": "a34_2", "text": "이 실험의 결과는 연구팀의 예상과 같았다.", "is_correct": true}, {"id": "a34_3", "text": "이 실험에서 두 집단은 동일한 결과를 보였다.", "is_correct": false}, {"id": "a34_4", "text": "이 실험은 음악을 전공한 사람들을 대상으로 했다.", "is_correct": false} ]
+            }
+        ]
+      },
+      {
+        "type": "instruction_group",
+        "instruction": "※ [35～36] 다음을 듣고 물음에 답하십시오. (각 2점)",
+        "questions": [
+            {
+            "id": "test_35", "number": 35, "points": 2, "content": {"type": "instruction", "value": "남자가 무엇을 하고 있는지 고르십시오."},
+            "options": [ {"id": "a35_1", "text": "이 편지가 가지는 가치와 의의를 알리고 있다.", "is_correct": true}, {"id": "a35_2", "text": "이 편지의 보존 상태에 대해 아쉬움을 표하고 있다.", "is_correct": false}, {"id": "a35_3", "text": "이 편지가 발견된 장소와 발굴 과정을 보고하고 있다.", "is_correct": false}, {"id": "a35_4", "text": "이 편지를 연구하는 데 도움을 준 사람들에게 감사하고 있다.", "is_correct": false} ]
+            },
+            {
+            "id": "test_36", "number": 36, "points": 2, "content": {"type": "instruction", "value": "들은 내용과 같은 것을 고르십시오."},
+            "options": [ {"id": "a36_1", "text": "이 편지는 곧 박물관에 전시될 것이다.", "is_correct": false}, {"id": "a36_2", "text": "이 편지는 군인인 남편이 아내에게 쓴 것이다.", "is_correct": true}, {"id": "a36_3", "text": "이 편지가 어느 시대의 것인지 밝혀지지 않았다.", "is_correct": false}, {"id": "a36_4", "text": "이 편지를 보물로 지정하기 위한 논의가 진행 중이다.", "is_correct": false} ]
+            }
+        ]
+      },
+      {
+        "type": "instruction_group",
+        "instruction": "※ [37～38] 다음을 듣고 물음에 답하십시오. (각 2점)",
+        "questions": [
+            {
+            "id": "test_37", "number": 37, "points": 2, "content": {"type": "instruction", "value": "여자의 중심 생각으로 가장 알맞은 것을 고르십시오."},
+            "options": [ {"id": "a37_1", "text": "목재를 수출하기 위한 경로를 확보해야 한다.", "is_correct": false}, {"id": "a37_2", "text": "산림 순환 경영을 통해 좋은 효과를 얻을 수 있다.", "is_correct": true}, {"id": "a37_3", "text": "좋은 목재를 얻을 수 있는 나무를 심는 것이 좋다.", "is_correct": false}, {"id": "a37_4", "text": "산림 순환 경영이 정착될 때까지 시간이 필요하다.", "is_correct": false} ]
+            },
+            {
+            "id": "test_38", "number": 38, "points": 2, "content": {"type": "instruction", "value": "들은 내용과 같은 것을 고르십시오."},
+            "options": [ {"id": "a38_1", "text": "한국은 목재 수입 비중이 낮은 편이다.", "is_correct": false}, {"id": "a38_2", "text": "한국은 산림 순환 경영을 시행하고 있다.", "is_correct": false}, {"id": "a38_3", "text": "나무가 30년 이상 되면 탄소 흡수 능력이 떨어진다.", "is_correct": true}, {"id": "a38_4", "text": "한국의 산에는 심은 지 얼마 안 된 어린나무가 많다.", "is_correct": false} ]
+            }
+        ]
+      },
+       {
+        "type": "instruction_group",
+        "instruction": "※ [39～40] 다음을 듣고 물음에 답하십시오. (각 2점)",
+        "questions": [
+            {
+            "id": "test_39", "number": 39, "points": 2, "content": {"type": "instruction", "value": "이 대화 전의 내용으로 가장 알맞은 것을 고르십시오."},
+            "options": [ {"id": "a39_1", "text": "인공위성을 관측하는 신기술이 개발되었다.", "is_correct": false}, {"id": "a39_2", "text": "대기권에서 인공위성이 폭발하는 사고가 있었다.", "is_correct": true}, {"id": "a39_3", "text": "우주 조약을 개정하기 위해 여러 나라 사람들이 모였다.", "is_correct": false}, {"id": "a39_4", "text": "우주 탐사를 위한 인력을 양성하는 것은 쉬운 일이 아니다.", "is_correct": false} ]
+            },
+            {
+            "id": "test_40", "number": 40, "points": 2, "content": {"type": "instruction", "value": "들은 내용과 같은 것을 고르십시오."},
+            "options": [ {"id": "a40_1", "text": "얼마 전에 국제 우주법이 제정되었다.", "is_correct": false}, {"id": "a40_2", "text": "우주 조약은 구체적인 내용으로 구성되어 있다.", "is_correct": false}, {"id": "a40_3", "text": "우주 조약은 강제적인 효력을 가지고 있지 않다.", "is_correct": true}, {"id": "a40_4", "text": "인공위성으로 인한 전파 방해 문제는 일어나지 않을 것이다.", "is_correct": false} ]
+            }
+        ]
+      },
+      {
+        "type": "instruction_group",
+        "instruction": "※ [41～42] 다음을 듣고 물음에 답하십시오. (각 2점)",
+        "questions": [
+            {
+            "id": "test_41", "number": 41, "points": 2, "content": {"type": "instruction", "value": "이 강연의 중심 내용으로 가장 알맞은 것을 고르십시오."},
+            "options": [ {"id": "a41_1", "text": "제품의 품질은 부품의 질에 의해 결정된다.", "is_correct": false}, {"id": "a41_2", "text": "제조업은 일자리 창출에 크게 기여하고 있다.", "is_correct": false}, {"id": "a41_3", "text": "제품에 대한 고객의 의견을 반영하는 것이 중요하다.", "is_correct": false}, {"id": "a41_4", "text": "제조업은 사업 영역 확장을 통해 발전을 도모하고 있다.", "is_correct": true} ]
+            },
+            {
+            "id": "test_42", "number": 42, "points": 2, "content": {"type": "instruction", "value": "들은 내용과 같은 것을 고르십시오."},
+            "options": [ {"id": "a42_1", "text": "이 업체는 엔진 판매에 어려움을 겪고 있다.", "is_correct": false}, {"id": "a42_2", "text": "조선업이 경제적으로 힘든 상황에 놓여 있다.", "is_correct": false}, {"id": "a42_3", "text": "이 업체는 안정적인 수입을 얻지 못하고 있다.", "is_correct": false}, {"id": "a42_4", "text": "이 업체는 실시간 엔진 점검 서비스 시스템을 마련했다.", "is_correct": true} ]
+            }
+        ]
+      },
+      {
+        "type": "instruction_group",
+        "instruction": "※ [43～44] 다음을 듣고 물음에 답하십시오. (각 2점)",
+        "questions": [
+            {
+            "id": "test_43", "number": 43, "points": 2, "content": {"type": "instruction", "value": "무엇에 대한 내용인지 알맞은 것을 고르십시오."},
+            "options": [ {"id": "a43_1", "text": "종묘 정전의 건축미", "is_correct": true}, {"id": "a43_2", "text": "종묘 정전의 건립 과정", "is_correct": false}, {"id": "a43_3", "text": "종묘 정전의 관리 방법", "is_correct": false}, {"id": "a43_4", "text": "종묘 정전의 현대적 기능", "is_correct": false} ]
+            },
+            {
+            "id": "test_44", "number": 44, "points": 2, "content": {"type": "instruction", "value": "종묘 정전에 대한 설명으로 맞는 것을 고르십시오."},
+            "options": [ {"id": "a44_1", "text": "지붕이 곡선 형태로 휘어 있다.", "is_correct": false}, {"id": "a44_2", "text": "기둥에 화려한 색이 사용되었다.", "is_correct": false}, {"id": "a44_3", "text": "도심에서 멀리 떨어진 곳에 있다.", "is_correct": false}, {"id": "a44_4", "text": "왕과 왕비의 제사를 지내는 공간이다.", "is_correct": true} ]
+            }
+        ]
+      },
+       {
+        "type": "instruction_group",
+        "instruction": "※ [45～46] 다음을 듣고 물음에 답하십시오. (각 2점)",
+        "questions": [
+            {
+            "id": "test_45", "number": 45, "points": 2, "content": {"type": "instruction", "value": "들은 내용과 같은 것을 고르십시오."},
+            "options": [ {"id": "a45_1", "text": "충수에는 염증이 잘 생기지 않는다.", "is_correct": false}, {"id": "a45_2", "text": "충수는 소화가 잘되도록 돕는 일을 한다.", "is_correct": false}, {"id": "a45_3", "text": "충수에는 유익한 미생물이 서식하고 있다.", "is_correct": true}, {"id": "a45_4", "text": "충수를 제거하는 수술이 최근에 가능해졌다.", "is_correct": false} ]
+            },
+            {
+            "id": "test_46", "number": 46, "points": 2, "content": {"type": "instruction", "value": "여자가 말하는 방식으로 알맞은 것을 고르십시오."},
+            "options": [ {"id": "a46_1", "text": "유사한 사례들을 묶어 비교 분석하고 있다.", "is_correct": false}, {"id": "a46_2", "text": "대상이 가진 문제의 주요 원인을 유추하고 있다.", "is_correct": false}, {"id": "a46_3", "text": "대상의 역할에 대해 밝혀진 사실을 설명하고 있다.", "is_correct": true}, {"id": "a46_4", "text": "다양한 연구를 바탕으로 자신만의 기준을 제시하고 있다.", "is_correct": false} ]
+            }
+        ]
+      },
+      {
+        "type": "instruction_group",
+        "instruction": "※ [47～48] 다음을 듣고 물음에 답하십시오. (각 2점)",
+        "questions": [
+            {
+            "id": "test_47", "number": 47, "points": 2, "content": {"type": "instruction", "value": "들은 내용과 같은 것을 고르십시오."},
+            "options": [ {"id": "a47_1", "text": "인건비와 임대료는 고정 비용에 포함되지 않는다.", "is_correct": false}, {"id": "a47_2", "text": "소상공인의 경영난은 일률적 방식으로 해결할 수 있다.", "is_correct": false}, {"id": "a47_3", "text": "대출 의존도가 높은 경우 채무를 조정해 주면 안 된다.", "is_correct": false}, {"id": "a47_4", "text": "영업 비용 때문에 빚을 지는 소상공인이 많아지고 있다.", "is_correct": true} ]
+            },
+            {
+            "id": "test_48", "number": 48, "points": 2, "content": {"type": "instruction", "value": "남자의 태도로 알맞은 것을 고르십시오."},
+            "options": [ {"id": "a48_1", "text": "소상공업계의 태도 변화를 기대하고 있다.", "is_correct": false}, {"id": "a48_2", "text": "경제 위기 극복을 위한 소상공인의 노력에 감탄하고 있다.", "is_correct": false}, {"id": "a48_3", "text": "소상공인에 대한 실효성 있는 지원 방안을 제안하고 있다.", "is_correct": true}, {"id": "a48_4", "text": "소상공업의 활성화가 가져올 경제적 효과를 낙관하고 있다.", "is_correct": false} ]
+            }
+        ]
+      },
+      {
+        "type": "instruction_group",
+        "instruction": "※ [49～50] 다음을 듣고 물음에 답하십시오. (각 2점)",
+        "questions": [
+            {
+            "id": "test_49", "number": 49, "points": 2, "content": {"type": "instruction", "value": "들은 내용과 같은 것을 고르십시오."},
+            "options": [ {"id": "a49_1", "text": "이 철학자는 도덕성에 대해 일반적인 견해를 따르고 있다.", "is_correct": false}, {"id": "a49_2", "text": "이 철학자는 도덕성을 평가하는 기준에서 감정을 배제했다.", "is_correct": true}, {"id": "a49_3", "text": "이 철학자에 따르면 출근 시간을 지키는 것은 도덕적 의무가 아니다.", "is_correct": false}, {"id": "a49_4", "text": "이 철학자에 따르면 어떤 상황에서도 다른 사람을 돕는 것이 최우선이다.", "is_correct": false} ]
+            },
+            {
+            "id": "test_50", "number": 50, "points": 2, "content": {"type": "instruction", "value": "남자의 태도로 알맞은 것을 고르십시오."},
+            "options": [ {"id": "a50_1", "text": "도덕적 행위의 당위성을 강조하고 있다.", "is_correct": false}, {"id": "a50_2", "text": "도덕적 행위의 가치를 과대평가하고 있다.", "is_correct": false}, {"id": "a50_3", "text": "도덕성에 대한 섣부른 판단을 경계하고 있다.", "is_correct": true}, {"id": "a50_4", "text": "도덕성에 대한 연구의 필요성을 제기하고 있다.", "is_correct": false} ]
+            }
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": "91-II-reading",
+    "year_description": "2023년도 TOPIK",
+    "exam_number_description": "제91회",
+    "source": "한국어능력시험",
+    "level": "TOPIK Ⅱ",
+    "skill": "읽기",
+    "instruction_groups": [
+      {
+        "type": "instruction_group",
+        "instruction": "※ [1～2] (&nbsp;&nbsp; )에 들어갈 말로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "questions": [
+          {
+            "id": "test_1",
+            "number": 1,
+            "points": 2,
+            "content": {"type": "text", "value": "나는 오래전에 설악산을 <span class='blank-marker'>(…)</span>."},
+            "options": [
+              {"id": "a1_1", "text": "등산하고 싶다", "is_correct": false},
+              {"id": "a1_2", "text": "등산해도 된다", "is_correct": false},
+              {"id": "a1_3", "text": "등산할 것 같다", "is_correct": false},
+              {"id": "a1_4", "text": "등산한 적이 있다", "is_correct": true}
+            ]
+          },
+          {
+            "id": "test_2",
+            "number": 2,
+            "points": 2,
+            "content": {"type": "text", "value": "새집으로 <span class='blank-marker'>(…)</span> 가구를 새로 샀다."},
+            "options": [
+              {"id": "a2_1", "text": "이사한 지", "is_correct": false},
+              {"id": "a2_2", "text": "이사하거든", "is_correct": false},
+              {"id": "a2_3", "text": "이사하려면", "is_correct": false},
+              {"id": "a2_4", "text": "이사하고 나서", "is_correct": true}
+            ]
+          }
+        ]
+      },
+      {
+        "type": "instruction_group",
+        "instruction": "※ [3～4] 밑줄 친 부분과 의미가 가장 비슷한 것을 고르십시오. (각 2점)",
+        "questions": [
+          {
+            "id": "test_3",
+            "number": 3,
+            "points": 2,
+            "content": {"type": "text", "value": "어려운 이웃을 <u>돕고자</u> 매년 봉사 활동에 참여하고 있다."},
+            "options": [
+              {"id": "a3_1", "text": "돕기 위해서", "is_correct": true},
+              {"id": "a3_2", "text": "돕는 대신에", "is_correct": false},
+              {"id": "a3_3", "text": "돕기 무섭게", "is_correct": false},
+              {"id": "a3_4", "text": "돕는 바람에", "is_correct": false}
+            ]
+          },
+          {
+            "id": "test_4",
+            "number": 4,
+            "points": 2,
+            "content": {"type": "text", "value": "지난 3년 동안 영화를 한 편 봤으니 거의 안 <u>본 셈이다.</u>"},
+            "options": [
+              {"id": "a4_1", "text": "본 척했다", "is_correct": false},
+              {"id": "a4_2", "text": "보기 나름이다", "is_correct": false},
+              {"id": "a4_3", "text": "볼 수밖에 없었다", "is_correct": false},
+              {"id": "a4_4", "text": "본 거나 마찬가지이다", "is_correct": true}
+            ]
+          }
+        ]
+      },
+      {
+        "type": "instruction_group",
+        "instruction": "※ [5～8] 다음은 무엇에 대한 글인지 고르십시오. (각 2점)",
+        "questions": [
+          {
+            "id": "test_5",
+            "number": 5,
+            "points": 2,
+            "content": {"type": "image", "src": "https://www.topik.go.kr/asset/exam/exam91/images/91_2_2_5.png", "alt": "칫솔질을 독려하는 포스터"},
+            "options": [
+              {"id": "a5_1", "text": "비누", "is_correct": false},
+              {"id": "a5_2", "text": "칫솔", "is_correct": true},
+              {"id": "a5_3", "text": "안경", "is_correct": false},
+              {"id": "a5_4", "text": "수건", "is_correct": false}
+            ]
+          },
+          {
+            "id": "test_6",
+            "number": 6,
+            "points": 2,
+            "content": {"type": "image", "src": "https://www.topik.go.kr/asset/exam/exam91/images/91_2_2_6.png", "alt": "아이들의 꿈과 희망을 키워주는 포스터"},
+            "options": [
+              {"id": "a6_1", "text": "은행", "is_correct": false},
+              {"id": "a6_2", "text": "서점", "is_correct": false},
+              {"id": "a6_3", "text": "유치원", "is_correct": true},
+              {"id": "a6_4", "text": "우체국", "is_correct": false}
+            ]
+          },
+          {
+            "id": "test_7",
+            "number": 7,
+            "points": 2,
+            "content": {"type": "image", "src": "https://www.topik.go.kr/asset/exam/exam91/images/91_2_2_7.png", "alt": "계단으로 다니면 건강하다는 포스터"},
+            "options": [
+              {"id": "a7_1", "text": "건강 관리", "is_correct": true},
+              {"id": "a7_2", "text": "안전 운전", "is_correct": false},
+              {"id": "a7_3", "text": "전화 예절", "is_correct": false},
+              {"id": "a7_4", "text": "절약 습관", "is_correct": false}
+            ]
+          },
+          {
+            "id": "test_8",
+            "number": 8,
+            "points": 2,
+            "content": {"type": "image", "src": "https://www.topik.go.kr/asset/exam/exam91/images/91_2_2_8.png", "alt": "공연장에서 에티켓을 알려주는 포스터"},
+            "options": [
+              {"id": "a8_1", "text": "관람 규칙", "is_correct": true},
+              {"id": "a8_2", "text": "제품 소개", "is_correct": false},
+              {"id": "a8_3", "text": "사용 방법", "is_correct": false},
+              {"id": "a8_4", "text": "예약 문의", "is_correct": false}
+            ]
+          }
+        ]
+      },
+      {
+        "type": "instruction_group",
+        "instruction": "※ [9～12] 다음 글 또는 그래프의 내용과 같은 것을 고르십시오. (각 2점)",
+        "questions": [
+          {
+            "id": "test_9",
+            "number": 9,
+            "points": 2,
+            "content": {"type": "image", "src": "https://www.topik.go.kr/asset/exam/exam91/images/91_2_2_9.png", "alt": "인주시 아경 관광버스 안내문"},
+            "options": [
+              {"id": "a9_1", "text": "성인과 학생의 버스 요금이 같다.", "is_correct": false},
+              {"id": "a9_2", "text": "이 버스는 별빛공원에서 출발한다.", "is_correct": false},
+              {"id": "a9_3", "text": "매일 오전에 이 버스를 탈 수 있다.", "is_correct": false},
+              {"id": "a9_4", "text": "이 버스를 타려면 미리 신청해야 한다.", "is_correct": true}
+            ]
+          },
+          {
+            "id": "test_10",
+            "number": 10,
+            "points": 2,
+             "content": {"type": "image", "src": "https://www.topik.go.kr/asset/exam/exam91/images/91_2_2_10.png", "alt": "인주시 직장인, 출퇴근 이동수단 안내 포스터"},
+            "options": [
+               {"id": "a10_1", "text": "자가용으로 출퇴근한다고 응답한 직장인들의 비율이 줄었다.", "is_correct": false},
+               {"id": "a10_2", "text": "걸어서 출퇴근하는 직장인은 2012년보다 2022년이 더 적었다.", "is_correct": true},
+               {"id": "a10_3", "text": "2022년에는 지하철을 타고 출퇴근하는 직장인이 가장 많았다.", "is_correct": false},
+               {"id": "a10_4", "text": "2012년에 직장인들은 출퇴근할 때 버스를 제일 많이 이용했다.", "is_correct": false}
+            ]
+          },
+          {
+            "id": "test_11",
+            "number": 11,
+            "points": 2,
+             "content": {"type": "text", "value": "인주시가 작년에 이어 올해도 10월 한 달간 ‘찾아가는 자전거 수리 센터’를 운영한다. 평일에는 여러 지역을 직접 방문해 고쳐 주고 주말에는 인주공원에서 수리 서비스를 제공한다. 전문 수리 기사가 자전거를 무료로 고쳐 주고 부품 교체가 필요한 경우에는 저렴한 가격으로 바꿔 준다. 시는 시민들의 자전거 타기 생활화를 위해 이 수리 센터를 운영하는 것이라고 밝혔다."},
+            "options": [
+                {"id": "a11_1", "text": "이 서비스는 일 년 내내 운영된다.", "is_correct": false},
+                {"id": "a11_2", "text": "올해 처음으로 이 센터가 운영되기 시작했다.", "is_correct": false},
+                {"id": "a11_3", "text": "주말에는 인주공원에서 수리를 받을 수 있다.", "is_correct": true},
+                {"id": "a11_4", "text": "이 수리 센터에서는 무료로 부품을 교체해 준다.", "is_correct": false}
+            ]
+          },
+           {
+            "id": "test_12",
+            "number": 12,
+            "points": 2,
+             "content": {"type": "text", "value": "피자 가게를 운영하는 김민수 씨의 사연이 잔잔한 감동을 주고 있다. 최근 김 씨는 피자를 배달하러 가다가 오토바이가 빗길에 미끄러지는 사고를 당했다. 다행히 사람이 다치는 피해는 없었지만 피자가 망가져서 배달에 문제가 생겼다. 배달이 늦어지는 것에 대해 김 씨가 고객에게 연락하자 고객은 “천천히 오셔도 돼요. 몸은 괜찮나요?”라며 따뜻한 말부터 전했다고 한다."},
+            "options": [
+                {"id": "a12_1", "text": "고객은 주문한 피자를 취소하겠다고 말했다.", "is_correct": false},
+                {"id": "a12_2", "text": "사고가 생겨서 배달 중이던 피자가 망가졌다.", "is_correct": true},
+                {"id": "a12_3", "text": "오토바이가 빗길에 미끄러져서 김 씨가 다쳤다.", "is_correct": false},
+                {"id": "a12_4", "text": "김 씨는 피자를 시킨 고객에게 연락하다 사고가 났다.", "is_correct": false}
+            ]
+          }
+        ]
+      },
+      {
+        "type": "instruction_group",
+        "instruction": "※ [13～15] 다음을 순서에 맞게 배열한 것을 고르십시오. (각 2점)",
+        "questions": [
+            {
+                "id": "test_13",
+                "number": 13,
+                "points": 2,
+                "content": {
+                    "type": "ordering_task",
+                    "items": [
+                        {"marker": "（가）", "text": "짧게는 하루, 길게는 한 달 정도 반짝 운영하는 임시 매장이다."},
+                        {"marker": "（나）", "text": "사람이 붐비는 장소에서 짧은 기간 동안 운영하는 매장이 유행이다."},
+                        {"marker": "（다）", "text": "기업은 이 임시 매장을 이용해 주로 특정 제품을 팔거나 홍보를 한다."},
+                        {"marker": "（라）", "text": "또 기업 이미지를 친숙하게 만들기 위해 재미있는 행사를 열기도 한다."}
+                    ]
+                },
+                "options": [
+                  {"id": "a13_1", "text": "（가）-（다）-（라）-（나）", "is_correct": false},
+                  {"id": "a13_2", "text": "（나）-（가）-（다）-（라）", "is_correct": true},
+                  {"id": "a13_3", "text": "（가）-（라）-（나）-（다）", "is_correct": false},
+                  {"id": "a13_4", "text": "（나）-（라）-（다）-（가）", "is_correct": false}
+                ]
+            },
+            {
+                "id": "test_14",
+                "number": 14,
+                "points": 2,
+                "content": {
+                    "type": "ordering_task",
+                    "items": [
+                        {"marker": "（가）", "text": "그런데 전화를 끊고 뒤늦게 미안한 마음이 들었다."},
+                        {"marker": "（나）", "text": "친구는 나의 합격 소식을 듣고 자신의 일처럼 기뻐했다."},
+                        {"marker": "（다）", "text": "얼마 전 나는 회사 합격 소식을 듣고 친한 친구에게 전화했다."},
+                        {"marker": "（라）", "text": "아직 취업 못 한 친구를 내가 배려하지 못했다는 생각 때문이었다."}
+                    ]
+                },
+                "options": [
+                  {"id": "a14_1", "text": "（나）-（다）-（라）-（가）", "is_correct": false},
+                  {"id": "a14_2", "text": "（나）-（라）-（가）-（다）", "is_correct": false},
+                  {"id": "a14_3", "text": "（다）-（나）-（가）-（라）", "is_correct": true},
+                  {"id": "a14_4", "text": "（다）-（나）-（라）-（가）", "is_correct": false}
+                ]
+            },
+             {
+                "id": "test_15",
+                "number": 15,
+                "points": 2,
+                "content": {
+                    "type": "ordering_task",
+                    "items": [
+                        {"marker": "（가）", "text": "빵이나 고기를 구울 때 갈색으로 바뀌는 것이 그 예이다."},
+                        {"marker": "（나）", "text": "갈색으로 바뀌면서 빵이나 고기의 맛도 더 깊어지고 풍부해진다."},
+                        {"marker": "（다）", "text": "식품에 들어 있는 당과 단백질이 열을 만나면 색깔이 바뀌게 된다."},
+                        {"marker": "（라）", "text": "만약 열이 너무 가해져서 검게 타게 되면 그런 맛을 낼 수가 없다."}
+                    ]
+                },
+                "options": [
+                  {"id": "a15_1", "text": "（가）-（나）-（라）-（다）", "is_correct": false},
+                  {"id": "a15_2", "text": "（다）-（가）-（나）-（라）", "is_correct": true},
+                  {"id": "a15_3", "text": "（가）-（다）-（라）-（나）", "is_correct": false},
+                  {"id": "a15_4", "text": "（다）-（라）-（나）-（가）", "is_correct": false}
+                ]
+            }
+        ]
+      },
+       {
+        "type": "instruction_group",
+        "instruction": "※ [16～18] (&nbsp;&nbsp; )에 들어갈 말로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "questions": [
+            {
+                "id": "test_16",
+                "number": 16,
+                "points": 2,
+                "content": {"type": "text", "value": "타조는 멀리서 적이 다가와도 머리를 모래에 파묻고 있다. 그래서 위험이나 위기를 모르는 척 피하는 사람을 타조에 비유하곤 한다. 그런데 사실 타조는 <span class='blank-marker'>(…)</span> 위해 이런 행동을 한다. 시각보다 청각이 발달한 타조는 땅에서 울리는 발소리를 듣고 적이 오는지를 파악하려는 것이다."},
+                "options": [
+                  {"id": "a16_1", "text": "적의 움직임을 알기", "is_correct": true},
+                  {"id": "a16_2", "text": "먹이를 빨리 구하기", "is_correct": false},
+                  {"id": "a16_3", "text": "머리를 깨끗이 씻기", "is_correct": false},
+                  {"id": "a16_4", "text": "다른 타조를 공격하기", "is_correct": false}
+                ]
+            },
+            {
+                "id": "test_17",
+                "number": 17,
+                "points": 2,
+                 "content": {"type": "text", "value": "섬유 유연제는 섬유에 막을 씌워 옷감을 부드럽게 하고 향기도 남긴다. 그래서 세탁할 때 유연제를 넣는 사람들이 많다. 그런데 수건처럼 물기를 빠르게 흡수해야 하는 소재에는 유연제를 넣는 것이 좋은 것만은 아니다. 유연제가 만든 막이 오히려 섬유의 <span class='blank-marker'>(…)</span> 때문이다."},
+                "options": [
+                    {"id": "a17_1", "text": "향기를 없애기", "is_correct": false},
+                    {"id": "a17_2", "text": "색깔을 변형시키기", "is_correct": false},
+                    {"id": "a17_3", "text": "흡수력을 떨어뜨리기", "is_correct": true},
+                    {"id": "a17_4", "text": "촉감을 거칠게 만들기", "is_correct": false}
+                ]
+            },
+            {
+                "id": "test_18",
+                "number": 18,
+                "points": 2,
+                 "content": {"type": "text", "value": "디지털 기기에 대한 의존도가 높아지면서 사람들이 무언가 직접 기억해야 할 일은 줄었다. 그래서 이전보다 <span class='blank-marker'>(…)</span> 생각할 수 있다. 그런데 뇌를 사용하는 방식이 이전과 달라졌을 뿐 사용량이 줄어든 것이 아니다. 과거에는 단순히 정보를 기억하는 데 뇌를 썼다면 이제는 과거보다 압도적으로 많아진 정보를 처리하는 데 사용하고 있는 것이다."},
+                "options": [
+                    {"id": "a18_1", "text": "뇌를 덜 사용한다고", "is_correct": true},
+                    {"id": "a18_2", "text": "기억력이 좋아졌다고", "is_correct": false},
+                    {"id": "a18_3", "text": "저장해야 할 정보가 많다고", "is_correct": false},
+                    {"id": "a18_4", "text": "디지털 기기를 많이 쓴다고", "is_correct": false}
+                ]
+            }
+        ]
+      },
+      {
+         "type": "instruction_group",
+         "instruction": "※ [19～20] 다음을 읽고 물음에 답하십시오. (각 2점)",
+         "shared_content": {
+              "type": "text", 
+              "value": "매서운 남극의 겨울, 황제펭귄들은 겹겹이 붙어 서로의 체온으로 추위를 견딘다. 무리 전체가 돌면서 바깥쪽과 안쪽에 있는 펭귄들이 계속 서로의 위치를 바꾼다. 안에서 몸을 데운 펭귄은 밖으로 나가고 밖에서 추위에 떨던 펭귄은 안으로 들어오는 것이다. <span class='blank-marker'>(…)</span> 그 움직임은 아주 느리지만 쉬지 않고 이루어져 한 마리의 펭귄이 줄곧 찬바람을 맞고 서 있는 일이 없다. 그렇게 쉼 없이 둥글게 돌면서 펭귄들은 다 함께 살아남는다."
+         },
+         "questions": [
+             {
+                "id": "test_19",
+                "number": 19,
+                "points": 2,
+                "content": {"type": "instruction", "value": "(…)에 들어갈 말로 가장 알맞은 것을 고르십시오."},
+                 "fill_in_blank_marker": "(…)",
+                "options": [
+                    {"id": "a19_1", "text": "혹시", "is_correct": false},
+                    {"id": "a19_2", "text": "또는", "is_correct": false},
+                    {"id": "a19_3", "text": "비록", "is_correct": true},
+                    {"id": "a19_4", "text": "만약", "is_correct": false}
+                ]
+             },
+             {
+                "id": "test_20",
+                "number": 20,
+                "points": 2,
+                "content": {"type": "instruction", "value": "윗글의 주제로 가장 알맞은 것을 고르십시오."},
+                "options": [
+                    {"id": "a20_1", "text": "황제펭귄은 서로 도우면서 추위에 맞서 생존해 왔다.", "is_correct": true},
+                    {"id": "a20_2", "text": "황제펭귄은 둥글게 돌면서 날씨에 대한 정보를 알린다.", "is_correct": false},
+                    {"id": "a20_3", "text": "황제펭귄은 추위에서 살아남기 위해 움직임이 느려졌다.", "is_correct": false},
+                    {"id": "a20_4", "text": "황제펭귄은 무리 생활을 통해 경쟁에서 이기는 법을 배운다.", "is_correct": false}
+                ]
+             }
+         ]
+      },
+      {
+         "type": "instruction_group",
+         "instruction": "※ [21～22] 다음을 읽고 물음에 답하십시오. (각 2점)",
+          "shared_content": {
+              "type": "text",
+              "value": "최근 미술 전시회 수요가 증가하면서 돈벌이에 급급한 전시회가 늘고 있다. 일부 전시 관계자들이 전시 포스터 등 홍보 자료에 복제품 전시임을 밝히지 않고 입장료 수입만을 챙기는 것이다. 전시장을 찾아와서야 이런 사실을 알게 된 관람객들은 불만을 쏟아 내고 있다. 전문가들은 이런 전시 행태가 미술계 발전의 <span class='blank-marker'>(…)</span> 수 있다고 우려한다. 전시회에 실망한 사람들이 미술에 대한 관심을 아예 끊을 수 있기 때문이다."
+         },
+         "questions": [
+             {
+                "id": "test_21",
+                "number": 21,
+                "points": 2,
+                "content": {"type": "instruction", "value": "(…)에 들어갈 말로 가장 알맞은 것을 고르십시오."},
+                 "fill_in_blank_marker": "(…)",
+                "options": [
+                   {"id": "a21_1", "text": "입맛에 맞을", "is_correct": false},
+                   {"id": "a21_2", "text": "가슴을 울릴", "is_correct": false},
+                   {"id": "a21_3", "text": "발목을 잡을", "is_correct": true},
+                   {"id": "a21_4", "text": "손을 맞잡을", "is_correct": false}
+                ]
+             },
+             {
+                "id": "test_22",
+                "number": 22,
+                "points": 2,
+                "content": {"type": "instruction", "value": "윗글의 내용과 같은 것을 고르십시오."},
+                "options": [
+                    {"id": "a22_1", "text": "복제품 전시회는 입장료를 받지 않는다.", "is_correct": false},
+                    {"id": "a22_2", "text": "최근 미술 전시회를 찾는 사람들이 많지 않다.", "is_correct": false},
+                    {"id": "a22_3", "text": "전시회에서 복제품을 전시하는 일이 점점 줄고 있다.", "is_correct": false},
+                    {"id": "a22_4", "text": "복제품 전시회인지 모르고 전시회를 방문한 관람객들이 있다.", "is_correct": true}
+                ]
+             }
+         ]
+      },
+      {
+         "type": "instruction_group",
+         "instruction": "※ [23～24] 다음을 읽고 물음에 답하십시오. (각 2점)",
+         "shared_content": {
+              "type": "text",
+              "value": "꽃집을 지나다가 꽃말에 이끌려 금잔화 꽃씨를 샀다. 화분에 심어 사무실의 내 책상 위에 두었더니 어느 날 싹이 텄다. 때맞춰 물도 주며 나는 수시로 들여다보았다. 신기했다. 작고 여린 싹은 눈에 띄게 쑥쑥 자랐다. 그런데 내가 상상한 모습이 아니었다. <u>도대체 여기서 어떻게 꽃이 핀다는 건지.</u> 무순처럼 길쭉하게 위로만 자라는 것이었다. 하루는 출근해 보니 금잔화가 쓰러져 있었다. 그럼 그렇지. 내가 무슨 식물을 키우나. 그날 나는 화분을 창가로 옮겨 놓았다. 죽을 것 같은 모습을 눈앞에서 보고 싶지 않았다. 그런데 어느 날부턴가 점점 줄기가 굵어지더니 잎도 제법 풍성해지기 시작했다. 어느 날에는 꽃망울도 올라와 있었다. 금잔화는 창문으로 들어오는 풍성한 햇볕 속에서 스스로 튼튼해졌다. 금잔화에게는 햇빛이 더 많이 필요했었나 보다. 사람도 식물도 사랑하려면 그 대상을 제대로 알아야 하는 건 똑같구나 싶었다. 씩씩하게 꽃피운 금잔화의 꽃말은 ‘반드시 올 행복’이다."
+         },
+         "questions": [
+             {
+                "id": "test_23",
+                "number": 23,
+                "points": 2,
+                "content": {"type": "instruction", "value": "밑줄 친 부분에 나타난 ‘나’의 심정으로 가장 알맞은 것을 고르십시오."},
+                "options": [
+                    {"id": "a23_1", "text": "의심스럽다", "is_correct": true},
+                    {"id": "a23_2", "text": "고통스럽다", "is_correct": false},
+                    {"id": "a23_3", "text": "조심스럽다", "is_correct": false},
+                    {"id": "a23_4", "text": "부담스럽다", "is_correct": false}
+                ]
+             },
+             {
+                "id": "test_24",
+                "number": 24,
+                "points": 2,
+                "content": {"type": "instruction", "value": "윗글의 내용과 같은 것을 고르십시오."},
+                "options": [
+                     {"id": "a24_1", "text": "내 책상 위에 둔 금잔화는 금방 말라 죽었다.", "is_correct": false},
+                     {"id": "a24_2", "text": "나는 금잔화 화분에 물을 제대로 주지 못했다.", "is_correct": false},
+                     {"id": "a24_3", "text": "나는 꽃집에서 금잔화가 피어 있는 화분을 샀다.", "is_correct": false},
+                     {"id": "a24_4", "text": "내가 금잔화 화분을 옮긴 곳은 햇볕이 잘 들었다.", "is_correct": true}
+                ]
+             }
+         ]
+      },
+      {
+         "type": "instruction_group",
+         "instruction": "※ [25～27] 다음 신문 기사의 제목을 가장 잘 설명한 것을 고르십시오. (각 2점)",
+         "questions": [
+            {
+                "id": "test_25",
+                "number": 25,
+                "points": 2,
+                 "content": {"type": "text", "value": "가수 진영, 3년 만의 콘서트에 구름 관중"},
+                "options": [
+                    {"id": "a25_1", "text": "가수 진영이 3년 만에 콘서트를 열자 수많은 관중이 몰렸다.", "is_correct": true},
+                    {"id": "a25_2", "text": "가수 진영이 3년 내에 다시 콘서트를 열기로 관중에게 약속했다.", "is_correct": false},
+                    {"id": "a25_3", "text": "가수 진영이 3년간 준비한 콘서트를 열었으나 관중의 호응이 적었다.", "is_correct": false},
+                    {"id": "a25_4", "text": "가수 진영이 3년 만에 하는 콘서트에 많은 관중을 모으려고 홍보했다.", "is_correct": false}
+                ]
+            },
+             {
+                "id": "test_26",
+                "number": 26,
+                "points": 2,
+                "content": {"type": "text", "value": "한국 탁구의 간판 김수미, 올해 국제 대회 금메달 싹쓸이"},
+                "options": [
+                     {"id": "a26_1", "text": "올해 국제 탁구 대회에서 한국 대표 김수미의 금메달 가능성이 높아졌다.", "is_correct": false},
+                     {"id": "a26_2", "text": "한국 탁구계가 김수미를 내세워 올해 국제 대회의 금메달을 노리고 있다.", "is_correct": false},
+                     {"id": "a26_3", "text": "한국의 대표 탁구 선수 김수미가 올해 국제 대회에서 모두 금메달을 땄다.", "is_correct": true},
+                     {"id": "a26_4", "text": "한국 탁구 선수 김수미가 올해 국제 대회에서 금메달을 따고자 훈련 중이다.", "is_correct": false}
+                ]
+            },
+             {
+                "id": "test_27",
+                "number": 27,
+                "points": 2,
+                 "content": {"type": "text", "value": "대출 금리 하락세, 부동산 시장 기지개"},
+                "options": [
+                    {"id": "a27_1", "text": "대출 금리가 떨어지면서 부동산 시장이 살아나기 시작했다.", "is_correct": true},
+                    {"id": "a27_2", "text": "부동산 시장에 대한 규제가 대출 금리 하락에 영향을 미쳤다.", "is_correct": false},
+                    {"id": "a27_3", "text": "대출 금리가 하락했지만 부동산 시장의 거래는 줄어들고 있다.", "is_correct": false},
+                    {"id": "a27_4", "text": "부동산 시장을 활성화하려고 대출 금리 안정화 대책이 논의되고 있다.", "is_correct": false}
+                ]
+            }
+        ]
+      },
+      {
+         "type": "instruction_group",
+         "instruction": "※ [28～31] (&nbsp;&nbsp; )에 들어갈 말로 가장 알맞은 것을 고르십시오. (각 2점)",
+         "questions": [
+             {
+                "id": "test_28",
+                "number": 28,
+                "points": 2,
+                "content": {"type": "text", "value": "선글라스는 보통 햇빛이 강할 때 눈 건강을 위해 쓴다. 그런데 선글라스의 렌즈는 사용 기한이 있다. 선글라스의 렌즈에는 자외선 차단을 위한 엷은 막이 입혀져 있는데 열에 계속 노출되면 자외선 차단 기능이 점점 떨어지게 된다. 자외선 차단 기능이 약해진 선글라스로는 눈을 보호하기 어려우므로 5년 정도 쓰고 나면 <span class='blank-marker'>(…)</span> 것이 좋다."},
+                "options": [
+                    {"id": "a28_1", "text": "렌즈를 바꿔 주는", "is_correct": true},
+                    {"id": "a28_2", "text": "렌즈를 꼼꼼히 잘 닦는", "is_correct": false},
+                    {"id": "a28_3", "text": "렌즈의 색을 어둡게 하는", "is_correct": false},
+                    {"id": "a28_4", "text": "렌즈의 엷은 막을 벗겨 내는", "is_correct": false}
+                ]
+             },
+             {
+                "id": "test_29",
+                "number": 29,
+                "points": 2,
+                "content": {"type": "text", "value": "사진에서 구도는 전체적인 분위기를 살리는 중요한 요소이다. 보통 동적인 느낌을 주고 싶을 때는 대각선 구도를 쓰는데 도로나 폭포 등의 풍경 사진 등에 쓰여 생동감을 표현한다. 한편 전통적인 가족사진은 <span class='blank-marker'>(…)</span> 위해서 삼각형 구도를 가장 많이 활용한다. 이 구도는 연장자를 중심으로 가족 구성원이 옆이나 뒤에 배치되어 전체적으로 편안하고 균형 잡힌 분위기를 만들어 낸다."},
+                "options": [
+                    {"id": "a29_1", "text": "동적인 효과를 살리기", "is_correct": false},
+                    {"id": "a29_2", "text": "안정적인 느낌을 주기", "is_correct": true},
+                    {"id": "a29_3", "text": "풍경을 중앙에 배치하기", "is_correct": false},
+                    {"id": "a29_4", "text": "긴장된 분위기를 연출하기", "is_correct": false}
+                ]
+             },
+             {
+                "id": "test_30",
+                "number": 30,
+                "points": 2,
+                "content": {"type": "text", "value": "풍부한 자원은 경제 성장의 필요조건이지 충분조건은 아니다. 풍부한 천연 자원을 갖추고 있음에도 <span class='blank-marker'>(…)</span> 경우도 있다. 풍부한 자원에만 의존해 경제 성장의 중심 산업인 제조업이나 서비스업 등에 투자를 하지 않게 되는 것이다. 반면에 천연자원이 빈약해도 새로운 기술 개발이나 교육을 통해 생산 능력을 높이는 나라도 있다."},
+                "options": [
+                    {"id": "a30_1", "text": "제조업에 의존하려는", "is_correct": false},
+                    {"id": "a30_2", "text": "자원을 생산하지 못하는", "is_correct": false},
+                    {"id": "a30_3", "text": "경제 발전을 이루지 못하는", "is_correct": true},
+                    {"id": "a30_4", "text": "기술 개발에 무리하게 투자하는", "is_correct": false}
+                ]
+             },
+             {
+                "id": "test_31",
+                "number": 31,
+                "points": 2,
+                 "content": {"type": "text", "value": "의사의 모습을 생각하면 우리는 보통 흰색 가운을 떠올리게 된다. 그런데 의사 가운이 처음부터 흰색이었던 것은 아니다. 중세 시대에는 성직자가 의사를 겸하는 경우가 많아 성직자용 검은색 가운을 입고 진료를 했다. 그런데 검은색 옷은 세균으로 오염된 얼룩이 잘 보이지 않았다. 이후 세균 감염의 위험성에 대한 인식이 높아지면서 <span class='blank-marker'>(…)</span> 가운의 색이 흰색으로 바뀌었다."},
+                "options": [
+                    {"id": "a31_1", "text": "염색하기 편하게", "is_correct": false},
+                    {"id": "a31_2", "text": "환자와 구분이 되도록", "is_correct": false},
+                    {"id": "a31_3", "text": "오염이 쉽게 눈에 띄도록", "is_correct": true},
+                    {"id": "a31_4", "text": "밝은 이미지를 줄 수 있게", "is_correct": false}
+                ]
+             }
+         ]
+      },
+       {
+        "type": "instruction_group",
+        "instruction": "※ [32～34] 다음을 읽고 글의 내용과 같은 것을 고르십시오. (각 2점)",
+        "questions": [
+            {
+                "id": "test_32",
+                "number": 32,
+                "points": 2,
+                "content": {"type": "text", "value": "당뇨 환자들을 위해 고추 품종인 ‘살리초’가 개발되었다. 고추는 보통 열매를 얻기 위해 재배하지만 살리초는 열매가 없고 잎을 먹는 품종이다. 일반 고추에 비해 혈당을 낮추는 성분이 10배 이상 많이 함유돼 있어 당뇨병, 비만증 등 성인병의 예방과 치료에 이용될 수 있다. 또한 살리초에는 칼슘, 비타민 등 각종 영양 성분이 풍부하다. 병해충에도 강하고 생육 기간도 짧아서 농가의 고소득 작물로 주목받고 있다."},
+                "options": [
+                     {"id": "a32_1", "text": "살리초는 해충에 취약하다는 단점이 있다.", "is_correct": false},
+                     {"id": "a32_2", "text": "살리초의 열매는 크고 영양 성분이 풍부하다.", "is_correct": false},
+                     {"id": "a32_3", "text": "살리초는 생육 기간이 길어 관심을 받지 못하고 있다.", "is_correct": false},
+                     {"id": "a32_4", "text": "살리초의 잎에는 혈당을 떨어뜨리는 성분이 들어 있다.", "is_correct": true}
+                ]
+            },
+             {
+                "id": "test_33",
+                "number": 33,
+                "points": 2,
+                "content": {"type": "text", "value": "『임원경제지』는 조선 시대 서유구가 쓴 백과사전이다. 선비가 시골에서 살아가는 데 필요한 지식을 탐색한 것으로 농업, 건축, 의학 등 16개 분야를 정리했다. 서유구는 이 책을 쓸 때 조선의 생활상을 직접 관찰하고 여러 서적들을 참고했으며 거기에 자신의 논평을 첨부했다. 이 과정에서 인용한 책들을 밝혀 놓아 서지학적 가치도 크다. 총 52권의 책을 편찬했는데 개인이 완성했다고 보기 어려울 만큼 방대하고 전문적인 지식이 담겨 있다."},
+                "options": [
+                     {"id": "a33_1", "text": "이 책은 각 분야의 전문가가 모여 만든 책이다.", "is_correct": false},
+                     {"id": "a33_2", "text": "서유구는 집필하면서 참고한 문헌을 이 책에 기록해 놓았다.", "is_correct": true},
+                     {"id": "a33_3", "text": "서유구는 객관적인 책을 쓰기 위해 자신의 의견은 배제했다.", "is_correct": false},
+                     {"id": "a33_4", "text": "이 책은 내용이 특정 분야에 한정되어 서지학적 가치는 크지 않다.", "is_correct": false}
+                ]
+            },
+            {
+                "id": "test_34",
+                "number": 34,
+                "points": 2,
+                 "content": {"type": "text", "value": "코알라는 유칼립투스라는 나뭇잎을 먹고 산다. 이 나뭇잎은 독성이 강해서 일반적인 동물들은 먹을 수 없다. 하지만 코알라는 유칼립투스의 독을 해독하는 효소가 있어서 다른 동물들과 경쟁할 필요 없이 유칼립투스 잎을 충분히 먹을 수 있다. 다만 새끼 코알라는 독성을 분해하는 효소가 없어서 유칼립투스 잎 대신 어미의 배설물을 먹는다. 이를 먹다 보면 새끼 코알라의 몸속에도 유칼립투스의 독을 해독하는 효소가 생기게 된다."},
+                "options": [
+                     {"id": "a34_1", "text": "다양한 동물들이 유칼립투스 잎을 차지하기 위해 경쟁한다.", "is_correct": false},
+                     {"id": "a34_2", "text": "어미 코알라는 유칼립투스의 독성을 분해하는 효소를 가지고 있다.", "is_correct": true},
+                     {"id": "a34_3", "text": "코알라는 태어난 직후부터 많은 양의 유칼립투스 나뭇잎을 먹는다.", "is_correct": false},
+                     {"id": "a34_4", "text": "새끼 코알라는 유칼립투스의 독성 때문에 어미의 배설물을 먹지 않는다.", "is_correct": false}
+                ]
+            }
+        ]
+      },
+       {
+        "type": "instruction_group",
+        "instruction": "※ [35～38] 다음을 읽고 글의 주제로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "questions": [
+            {
+                "id": "test_35",
+                "number": 35,
+                "points": 2,
+                "content": {"type": "text", "value": "태양계에 존재하는 수많은 소행성에는 천문학적인 가치를 지닌 광물이 있는 것으로 예상된다. 그래서 많은 나라들이 이에 관심을 가지고 있다. 실제로 최근 몇몇 국가에서는 소행성에 있는 광물 시료를 채취하는 데 성공하기도 했다. 하지만 대부분의 나라들에서는 소행성 탐사가 아직 논의 단계에 머무르고 있다. 미래 자원을 확보하기 위해서 적극적으로 소행성 탐사에 대한 투자와 기술 개발에 나설 필요가 있다."},
+                "options": [
+                    {"id": "a35_1", "text": "태양계에는 아직 발견되지 않은 소행성이 많이 존재한다.", "is_correct": false},
+                    {"id": "a35_2", "text": "소행성에서 자원을 가져오는 것은 실현 가능성이 희박하다.", "is_correct": false},
+                    {"id": "a35_3", "text": "소행성 탐사를 성공시키기 위해 국제 협력을 확대해야 한다.", "is_correct": false},
+                    {"id": "a35_4", "text": "미래 자원 확보를 위해 소행성 탐사에 대한 노력을 기울여야 한다.", "is_correct": true}
+                ]
+            },
+             {
+                "id": "test_36",
+                "number": 36,
+                "points": 2,
+                "content": {"type": "text", "value": "경기 침체에 빠지면 사람들은 소비보다는 저축을 늘리려고 한다. 그런데 저축이 언제나 긍정적인 것만은 아니다. 소비가 줄면 기업의 매출이 감소해서 생산과 고용이 줄 수밖에 없고 결국 근로자들의 소득도 줄어들게 된다. 그러면 미래가 불확실해진 사람들이 더욱 소비를 줄여 전체 경기가 다시 침체에 빠지는 악순환이 되풀이된다. 개인 차원에서는 저축이 합리적인 행동이지만 경제 전체적으로는 비합리적인 상황을 초래하게 되는 것이다."},
+                "options": [
+                    {"id": "a36_1", "text": "불경기에는 비합리적인 소비로 인해 근로자들의 저축이 줄어든다.", "is_correct": false},
+                    {"id": "a36_2", "text": "경기가 침체하면 개인의 소득이 줄어들지 않도록 투자를 늘려야 한다.", "is_correct": false},
+                    {"id": "a36_3", "text": "경제 상황을 고려해서 생산과 고용을 적절히 조절하는 것이 중요하다.", "is_correct": false},
+                    {"id": "a36_4", "text": "경기 침체 시에는 저축이 국가 경제 전체에 부정적 영향을 줄 수 있다.", "is_correct": true}
+                ]
+            },
+             {
+                "id": "test_37",
+                "number": 37,
+                "points": 2,
+                 "content": {"type": "text", "value": "참치 쿼터제는 참치의 무분별한 포획을 막기 위해 어획량을 국가별로 정해 놓은 제도이다. 한국은 참치 어획량이 매우 적게 배정돼 있는데 이는 한국 연안에서는 참치가 거의 잡히지 않았기 때문이다. 최근 수온이 상승함에 따라 한국 연안에 유입되는 참치가 급격히 늘어나고 있지만 쿼터제 때문에 그물에 걸린 참치를 대부분 바다에 버리고 있다. 쿼터제의 필요성은 인정하지만 국가별 개체 수 증감을 반영한 융통성 있는 조정이 필요하다."},
+                "options": [
+                    {"id": "a37_1", "text": "국가별 상황에 따라 참치 쿼터제를 현실에 맞게 수정해야 한다.", "is_correct": true},
+                    {"id": "a37_2", "text": "참치의 무분별한 포획을 방지하기 위해 쿼터제를 도입해야 한다.", "is_correct": false},
+                    {"id": "a37_3", "text": "수온 상승으로부터 참치를 보호하기 위한 대책을 마련해야 한다.", "is_correct": false},
+                    {"id": "a37_4", "text": "참치의 유입량을 늘리기 위한 실질적인 연구가 이루어져야 한다.", "is_correct": false}
+                ]
+            },
+             {
+                "id": "test_38",
+                "number": 38,
+                "points": 2,
+                 "content": {"type": "text", "value": "기업들은 기술 혁신을 통해 고객에게 편의와 혜택을 제공하려고 한다. 하지만 아무리 획기적인 혁신이라도 고객에게 낯설고 커다란 행동 변화를 요구한다면 외면당하기 쉽다. 예를 들어 초창기 전기 자동차는 전기로 오래 충전을 해야 하는 것이 낯설고 불편해서 큰 관심을 끌지 못했다. 반대로 전자 칠판과 전자 펜처럼 대단한 혁신은 아니지만 사용하는 방법이 고객에게 익숙하고 간단해서 환영받는 경우도 있다."},
+                "options": [
+                    {"id": "a38_1", "text": "고객들의 무리한 요구 때문에 기술 혁신에 어려움을 겪게 된다.", "is_correct": false},
+                    {"id": "a38_2", "text": "혁신적인 기업은 고객들에게 신기술의 사용 방법을 잘 설명해 준다.", "is_correct": false},
+                    {"id": "a38_3", "text": "기술 혁신에 실패한 기업은 자연스럽게 고객들의 외면을 받게 된다.", "is_correct": false},
+                    {"id": "a38_4", "text": "기술 혁신은 고객이 쉽게 받아들일 수 있을 때 성공할 가능성이 높다.", "is_correct": true}
+                ]
+            }
+        ]
+      },
+      {
+        "type": "instruction_group",
+        "instruction": "※ [39～41] 주어진 문장이 들어갈 곳으로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "questions": [
+            {
+                "id": "test_39",
+                "number": 39,
+                "points": 2,
+                "content": {
+                    "type": "insertion_task",
+                    "sentence_to_insert": "그런데 심판이 아무리 위치 선정을 잘해도 필연적으로 선수의 몸에 가려서 볼 수 없는 사각지대가 생긴다.",
+                    "main_passage": "스포츠 경기를 진행할 때 득점이나 반칙 등의 판정은 심판에 의해서 이루어진다. <span class='insertion-point'>㉠</span> 이렇게 눈에 보이지 않는 곳에서 벌어진 상황에 대해서는 심판도 정확한 판단을 하기 어렵다. <span class='insertion-point'>㉡</span> 비디오 판독은 이런 스포츠 경기에서 초고속 카메라를 판정의 근거로 사용하는 기술이다. <span class='insertion-point'>㉢</span> 이처럼 비디오 판독을 활용하면 심판이 판단하기 어려운 부분을 객관적으로 확인할 수 있어 판정에 대한 신뢰도를 높일 수 있다. <span class='insertion-point'>㉣</span>",
+                    "markers": ["㉠", "㉡", "㉢", "㉣"]
+                },
+                "options": [
+                    {"id": "a39_1", "text": "㉠", "is_correct": true},
+                    {"id": "a39_2", "text": "㉡", "is_correct": false},
+                    {"id": "a39_3", "text": "㉢", "is_correct": false},
+                    {"id": "a39_4", "text": "㉣", "is_correct": false}
+                ]
+            },
+            {
+                "id": "test_40",
+                "number": 40,
+                "points": 2,
+                "content": {
+                    "type": "insertion_task",
+                    "sentence_to_insert": "그 증거로 지중해 전역에서 발견되고 있는 소금 퇴적층을 들 수 있다.",
+                     "main_passage": "유럽과 아시아, 아프리카 대륙으로 둘러싸인 바다를 지중해라고 한다. <span class='insertion-point'>㉠</span> 오늘날 지중해 연안은 기후가 온화해서 살기 좋은 곳으로 손꼽힌다. <span class='insertion-point'>㉡</span> 그런데 지중해는 오래전 사막이었던 적이 있었다. <span class='insertion-point'>㉢</span> 이 소금 퇴적층은 바닷물이 증발되고 남은 소금이 쌓여 만들어진 것으로 지중해가 이전에는 사막이었음을 보여 준다. <span class='insertion-point'>㉣</span> 사막이었던 지중해에 이후 큰 홍수가 발생하면서 다시 오늘날과 같은 바다가 되었다.",
+                     "markers": ["㉠", "㉡", "㉢", "㉣"]
+                },
+                "options": [
+                    {"id": "a40_1", "text": "㉠", "is_correct": false},
+                    {"id": "a40_2", "text": "㉡", "is_correct": false},
+                    {"id": "a40_3", "text": "㉢", "is_correct": true},
+                    {"id": "a40_4", "text": "㉣", "is_correct": false}
+                ]
+            },
+            {
+                "id": "test_41",
+                "number": 41,
+                "points": 2,
+                "content": {
+                    "type": "insertion_task",
+                     "sentence_to_insert": "이런 상소문들을 저자는 왕을 향한 깨우침의 죽비 소리로 비유하고 있다.",
+                     "main_passage": "최근 역사학자 김경민 씨가 󰡔응답하라, 조선󰡕을 펴냈다. <span class='insertion-point'>㉠</span> 이 책은 왕과 신하의 소통을 다루고 있어 사람들의 관심을 끈다. <span class='insertion-point'>㉡</span> 그 소통의 내용 중에서 특히 왕의 노여움을 무릅쓰고 신하가 왕의 잘못을 지적한 상소문을 다룬 부분이 주목받고 있다. <span class='insertion-point'>㉢</span> 『응답하라, 조선』은 눈치를 살피며 윗사람의 잘못을 모르는 체 넘기곤 하는 현대인들을 깨우는 죽비인 것이다. <span class='insertion-point'>㉣</span>",
+                     "markers": ["㉠", "㉡", "㉢", "㉣"]
+                },
+                "options": [
+                    {"id": "a41_1", "text": "㉠", "is_correct": false},
+                    {"id": "a41_2", "text": "㉡", "is_correct": false},
+                    {"id": "a41_3", "text": "㉢", "is_correct": true},
+                    {"id": "a41_4", "text": "㉣", "is_correct": false}
+                ]
+            }
+        ]
+      },
+      {
+         "type": "instruction_group",
+         "instruction": "※ [42～43] 다음을 읽고 물음에 답하십시오. (각 2점)",
+         "shared_content": {
+              "type": "text",
+              "value": "민욱이 주말에 친구 부부를 초대해도 되느냐고 물었을 때, 미연은 말없이 한참 뜸을 들였다. 그녀는 그날 민욱과 함께 아파트의 발코니 벽을 페인트 칠할 계획이었다. (중략) 그들은 육 개월 전에 E시의 아파트를 사서 이사했다. 지은 지 이십 년도 더 된 낡은 아파트였지만, 누구의 도움도 받지 않고 그들 스스로 이룬 일이었다. 미연은 직접 발품을 팔아 수도부터 새시까지 새로 손을 보았다. 하지만 집수리는 대강 되었다고 해도, 미연이 생각해 둔 대로 인테리어가 완성되려면 아직 부족했다.\n “<u>손님 초대는 좀 이르지 않아? 집 단장도 덜 되었는데……</u>” \n“성재가 한국에 왔대.” \n민욱이 무거운 목소리로 말했다. (중략) \n민욱과 성재는 고등학교 동창이고, 그들을 통해 만난 미연과 연주도 십여 년이 넘는 인연이었다. 꽤나 가까운 사이였지만 성재가 사업 실패로 한국을 떠나면서 연락이 끊겼다. 미연은 자신이 연주의 이름을 오랫동안 잊고 있었다는 사실을 깨달았다. 더 이상 뭐라고 할 말이 없었다. (중략) \n토요일 오전에 미연은 두 딸아이를 데리고 마트에 가서 고기와 채소를 샀다. 누군가를 초대해 음식을 대접하는 것이 정말로 오랜만이었다."
+         },
+         "questions": [
+             {
+                "id": "test_42",
+                "number": 42,
+                "points": 2,
+                "content": {"type": "instruction", "value": "밑줄 친 부분에 나타난 ‘미연’의 심정으로 가장 알맞은 것을 고르십시오."},
+                "options": [
+                     {"id": "a42_1", "text": "후련하다", "is_correct": false},
+                     {"id": "a42_2", "text": "불만스럽다", "is_correct": true},
+                     {"id": "a42_3", "text": "허전하다", "is_correct": false},
+                     {"id": "a42_4", "text": "자랑스럽다", "is_correct": false}
+                ]
+             },
+             {
+                "id": "test_43",
+                "number": 43,
+                "points": 2,
+                "content": {"type": "instruction", "value": "윗글의 내용으로 알 수 있는 것을 고르십시오."},
+                "options": [
+                    {"id": "a43_1", "text": "미연은 민욱과 성재를 통해 연주를 알게 되었다.", "is_correct": true},
+                    {"id": "a43_2", "text": "민욱은 주변 도움을 받아 E시의 새 아파트를 샀다.", "is_correct": false},
+                    {"id": "a43_3", "text": "미연은 육 개월 전에 산 아파트로 이사 갈 계획이다.", "is_correct": false},
+                    {"id": "a43_4", "text": "민욱은 인테리어를 완성한 후에 마트에 장을 보러 갔다.", "is_correct": false}
+                ]
+             }
+         ]
+      },
+       {
+         "type": "instruction_group",
+         "instruction": "※ [44～45] 다음을 읽고 물음에 답하십시오. (각 2점)",
+         "shared_content": {
+              "type": "text",
+              "value": "‘수로왕 신화’는 왕이 알에서 탄생하는 여느 건국 신화와 유사하다. 고대에 아직 나라가 없던 낙동강 하류에 황금알 여섯 개가 하늘에서 내려왔다. 그중 맨 먼저 알을 깨고 나온 아이를 ‘수로’라 하였고 하늘의 뜻에 따라 수로는 지상의 첫 번째 왕이 되었다. <span class='blank-marker'>(…)</span> 다섯 아이 역시 각각 왕이 되었다. 수로왕 신화는 이렇게 한꺼번에 여섯 개 알이 나타나 거기서 태어난 이가 모두 왕이 된다는 점에서 다른 건국 신화와 큰 차이가 있다. 당시 세워진 여섯 나라는 강력한 왕권 국가가 아니었다. 황금알은 하늘로부터 부여받은 절대적 권위를 상징하는데 수로가 알에서 최초로 탄생했다는 부분은 수로왕이 중심이 되어 여섯 나라를 하나의 강력한 국가 ‘가야’로 통합하려 했다는 것을 말해 준다."
+         },
+         "questions": [
+             {
+                "id": "test_44",
+                "number": 44,
+                "points": 2,
+                "content": {"type": "instruction", "value": "(…)에 들어갈 말로 가장 알맞은 것을 고르십시오."},
+                "fill_in_blank_marker": "(…)",
+                "options": [
+                   {"id": "a44_1", "text": "알을 가지고 내려온", "is_correct": false},
+                   {"id": "a44_2", "text": "기존의 왕을 물리치고", "is_correct": false},
+                   {"id": "a44_3", "text": "수로에 이어 알에서 태어난", "is_correct": true},
+                   {"id": "a44_4", "text": "탄생을 축하하며 몹시 기뻐하던", "is_correct": false}
+                ]
+             },
+             {
+                "id": "test_45",
+                "number": 45,
+                "points": 2,
+                "content": {"type": "instruction", "value": "윗글의 주제로 가장 알맞은 것을 고르십시오."},
+                "options": [
+                    {"id": "a45_1", "text": "이 신화는 전형적인 건국 신화의 특성을 지니고 있다.", "is_correct": false},
+                    {"id": "a45_2", "text": "이 신화는 낙동강 일대의 유용한 지리적 정보를 담고 있다.", "is_correct": false},
+                    {"id": "a45_3", "text": "이 신화는 고대의 문학 작품으로서 훌륭한 가치를 지니고 있다.", "is_correct": false},
+                    {"id": "a45_4", "text": "이 신화는 강력한 왕권 국가를 이루려고 한 통합 의식을 반영한다.", "is_correct": true}
+                ]
+             }
+         ]
+      },
+      {
+         "type": "instruction_group",
+         "instruction": "※ [46～47] 다음을 읽고 물음에 답하십시오. (각 2점)",
+         "shared_content": {
+              "type": "text",
+              "value": "주가 조작이나 공금 횡령 등의 경제 범죄는 사람에게 직접적인 상해를 가하는 흉악 범죄보다 범죄 정도가 낮다고 생각하기 쉽다. 그러나 경제 범죄의 수법이 날이 갈수록 다양해지고 지능화되어 사회에 미치는 충격과 피해가 막심하다. 최근 증권사 직원의 주가 조작으로 고객들이 천억 넘게 손해 본 사건만 해도 그렇다. 이러한 경제 범죄는 개인 손해를 넘어 국가 경제와도 직결될 수 있다. 따라서 이를 가벼이 여겨서는 안 되며 관대하게 처벌해서도 안 된다. 건전한 경제 질서를 확립하기 위해 경제 사범을 엄벌할 필요가 있다. ‘한탕 크게 해 먹고 몸으로 때우면 된다’는 한탕주의가 만연하지 않도록 처벌 수준을 더 높여야 한다. 지금까지 미진했던 부당 이익 환수도 앞으로 잘 이루어져 경제 범죄가 재발되지 않도록 해야 할 것이다."
+         },
+         "questions": [
+             {
+                "id": "test_46",
+                "number": 46,
+                "points": 2,
+                "content": {"type": "instruction", "value": "윗글에 나타난 필자의 태도로 가장 알맞은 것을 고르십시오."},
+                "options": [
+                   {"id": "a46_1", "text": "경제 범죄가 사회에 미치는 영향을 부정하고 있다.", "is_correct": false},
+                   {"id": "a46_2", "text": "경제 사범에 대한 처벌을 강화하도록 촉구하고 있다.", "is_correct": true},
+                   {"id": "a46_3", "text": "경제 사범의 처벌로 생길 결과에 대해 우려하고 있다.", "is_correct": false},
+                   {"id": "a46_4", "text": "경제 범죄의 다양한 수법을 객관적으로 분석하고 있다.", "is_correct": false}
+                ]
+             },
+             {
+                "id": "test_47",
+                "number": 47,
+                "points": 2,
+                "content": {"type": "instruction", "value": "윗글의 내용과 같은 것을 고르십시오."},
+                "options": [
+                    {"id": "a47_1", "text": "경제 범죄로 생긴 부당 이익을 문제없이 잘 환수해 왔다.", "is_correct": false},
+                    {"id": "a47_2", "text": "공금을 불법으로 가로채는 범죄는 경제 범죄에 포함된다.", "is_correct": true},
+                    {"id": "a47_3", "text": "개인이 저지른 주가 조작 범죄는 국가 경제와 큰 관련이 없다.", "is_correct": false},
+                    {"id": "a47_4", "text": "경제 범죄 수법이 교묘해졌지만 사회에 미치는 충격은 크지 않다.", "is_correct": false}
+                ]
+             }
+         ]
+      },
+      {
+         "type": "instruction_group",
+         "instruction": "※ [48～50] 다음을 읽고 물음에 답하십시오. (각 2점)",
+         "shared_content": {
+              "type": "text",
+              "value": "예술인은 독창적인 문화를 창조하고 고유한 문화를 보존하는 동시에 예술 활동을 업으로 삼아 수익을 내서 생활하는 사람이다. 그런데 많은 예술인이 기본 생활이 불가능한 적은 수입 탓에 예술 활동을 포기한다. 그 결과 예술인이 감소하며 고령화되는 현상이 나타나고 있다. 2011년에는 생활고로 한 작가가 사망하는 사건까지 일어났다. 이 사건이 계기가 되어 2012년부터 예술인의 권리 보호를 위해 ‘예술인 복지법’이 시행되었다. 그러나 이는 예술 현장의 실상에 맞지 않아 많은 예술인이 여전히 <span class='blank-marker'>(…)</span>. 이런 상황에서 올해 예술 활동을 증명하지 못해 지원을 못 받았던 예술인을 위해 예술인 복지법이 개정되었다. 개정안은 이런 예술인도 일반 직업인과 같이 권리를 보호받을 수 있는 대상임을 명확히 하고 있다. 또 예술인이 불리한 처우를 받지 않도록 세부 조치를 마련하는 등 예술인의 고용 안정을 위한 여러 내용을 담고 있다. 앞으로는 이를 바탕으로 유능한 예술인이 활동을 포기하지 않도록 해야 할 것이다."
+         },
+         "questions": [
+             {
+                "id": "test_48",
+                "number": 48,
+                "points": 2,
+                "content": {"type": "instruction", "value": "윗글을 쓴 목적으로 가장 알맞은 것을 고르십시오."},
+                "options": [
+                   {"id": "a48_1", "text": "예술인의 자질에 대해 분석하려고", "is_correct": false},
+                   {"id": "a48_2", "text": "예술 발전의 어려움을 토로하려고", "is_correct": false},
+                   {"id": "a48_3", "text": "예술 작품의 창작 활동을 설명하려고", "is_correct": false},
+                   {"id": "a48_4", "text": "예술인 생활 보장의 필요성을 강조하려고", "is_correct": true}
+                ]
+             },
+             {
+                "id": "test_49",
+                "number": 49,
+                "points": 2,
+                "content": {"type": "instruction", "value": "(…)에 들어갈 말로 가장 알맞은 것을 고르십시오."},
+                "fill_in_blank_marker": "(…)",
+                "options": [
+                   {"id": "a49_1", "text": "안전을 중요시해야 한다", "is_correct": false},
+                   {"id": "a49_2", "text": "생계의 어려움을 겪고 있다", "is_correct": true},
+                   {"id": "a49_3", "text": "한 번에 큰돈을 모을 수 있다", "is_correct": false},
+                   {"id": "a49_4", "text": "창작에 관한 기밀을 지켜야 한다", "is_correct": false}
+                ]
+             },
+             {
+                "id": "test_50",
+                "number": 50,
+                "points": 2,
+                "content": {"type": "instruction", "value": "윗글의 내용과 같은 것을 고르십시오."},
+                "options": [
+                    {"id": "a50_1", "text": "예술인 복지법은 한 번 신설된 후 개정된 적이 없다.", "is_correct": false},
+                    {"id": "a50_2", "text": "전국에서 예술 분야에 종사하는 사람들 수가 늘고 있다.", "is_correct": false},
+                    {"id": "a50_3", "text": "올해부터 예술인은 활동을 반드시 증명해야 지원을 받을 수 있다.", "is_correct": false},
+                    {"id": "a50_4", "text": "2012년의 예술인 복지법은 현장의 실상을 반영하는 데 한계가 있었다.", "is_correct": true}
+                ]
+             }
+         ]
+      }
+    ]
+  }
+    ]

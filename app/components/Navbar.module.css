@@ -1,0 +1,52 @@
+/* src/components/Navbar.module.css */
+.navbar {
+    background-color: #ffffff; /* Màu nền trắng */
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Hiệu ứng đổ bóng nhẹ */
+  }
+  
+  .logo a {
+    font-size: 1.5rem;
+    font-weight: 700; /* In đậm */
+    text-decoration: none;
+    color: #2c3e50; /* Màu chữ đậm */
+  }
+  
+  .navList {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .navList li a {
+    text-decoration: none;
+    color: #34495e; /* Màu chữ trung tính */
+    transition: color 0.3s ease; /* Hiệu ứng chuyển màu mượt mà khi hover */
+    font-size: 1rem;
+  }
+  
+  .navList li a:hover {
+    color: #007bff; /* Màu chữ khi hover */
+  }
+  
+  /* Responsive cho màn hình nhỏ hơn */
+  @media (max-width: 768px) {
+    .navList {
+      gap: 1rem;
+    }
+  
+    .navList li a {
+      font-size: 0.9rem;
+    }
+  
+    .logo a {
+      font-size: 1.2rem;
+    }
+  
+    .navbar {
+      padding: 0.8rem 1.5rem;
+    }
+  }

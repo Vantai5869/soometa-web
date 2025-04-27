@@ -1,0 +1,38 @@
+/* src/components/Footer.module.css */
+.footer {
+    background-color: #f8f9fa; /* Màu nền xám nhạt */
+    padding: 1rem 2rem;
+    text-align: center;
+    color: #6c757d; /* Màu chữ xám trung tính */
+    border-top: 1px solid #dee2e6; /* Đường kẻ ngang phía trên */
+    font-size: 0.9rem;
+  }
+  
+  /* Bạn có thể thêm các стили khác cho các phần tử bên trong Footer nếu cần */
+  /* Ví dụ cho các liên kết mạng xã hội */
+  .socialLinks {
+    margin-top: 0.5rem;
+  }
+  
+  .socialLinks a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 0.5rem;
+    transition: color 0.3s ease;
+  }
+  
+  .socialLinks a:hover {
+    color: #0056b3;
+  }
+  
+  /* Responsive cho màn hình nhỏ hơn (tùy chọn) */
+  @media (max-width: 768px) {
+    .footer {
+      padding: 0.8rem 1.5rem;
+      font-size: 0.8rem;
+    }
+  
+    .socialLinks a {
+      margin: 0 0.3rem;
+    }
+  }

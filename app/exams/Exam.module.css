@@ -1,0 +1,448 @@
+/* styles/Exam.module.css - Phiên bản đầy đủ, fix lỗi 2 border shared_content */
+
+/* --- Base & Fonts & Variables --- */
+:root {
+    --primary-color: #0d6efd;       /* Xanh dương chính */
+    --primary-color-light: #e7f3ff; /* Xanh dương rất nhạt (nền chọn ảnh, nền sidebar chọn) */
+    --primary-color-border: #a3c7ff;/* Xanh dương viền (sidebar) */
+    --primary-color-text: #0a58ca;  /* Xanh dương chữ đậm (sidebar) */
+    --success-color: #198754;       /* Xanh lá đậm (dùng cho text/border đúng) */
+    --success-color-light: #cce8d8; /* Xanh lá nhạt hơn (nền đúng) */
+    --success-color-border: #87b99a;/* Xanh lá viền đậm vừa (sidebar) */
+    --success-color-text: #0f5132;  /* Xanh lá chữ đậm (dùng cho sidebar) */
+    --danger-color: #dc3545;        /* Đỏ đậm */
+    --danger-color-light: #f8d7da;  /* Đỏ nhạt (nền sai) */
+    --danger-color-border: #f1aeae; /* Đỏ viền (sidebar) */
+    --danger-color-text: #842029;   /* Đỏ chữ đậm */
+    --light-bg: #f8f9fa;            /* Nền xám rất nhạt */
+    --border-color: #dee2e6;        /* Màu viền mặc định */
+    --border-color-light: #f1f3f5; /* Màu viền rất nhạt */
+    --text-color: #495057;          /* Màu text phụ */
+    --text-color-main: #343a40;    /* Màu text chính */
+    --heading-color: #212529;       /* Màu tiêu đề */
+    --highlight-bg: #fff9e0;        /* Nền highlight nhẹ */
+}
+
+
+/* --- Main Layout (Desktop First - Sidebar bên phải) --- */
+.appContainer {
+  display: flex;
+  max-width: 1300px;
+  margin: 30px auto;
+  padding: 0 20px;
+  gap: 25px;
+  align-items: flex-start;
+}
+
+.mainContent {
+  flex: 1;
+  min-width: 0;
+  background-color: #ffffff;
+  padding: 35px 45px;
+  border-radius: 8px;
+  border: 1px solid var(--border-color-light, #f1f3f5);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.sidebar {
+  flex-basis: 220px; /* Chiều rộng sidebar nhỏ */
+  flex-shrink: 0;
+  max-width: 220px;
+  background-color: #ffffff; /* Nền trắng sidebar */
+  padding: 20px 15px;
+  border-radius: 8px;
+  border: 1px solid var(--border-color-light, #f1f3f5);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 30px;
+  max-height: calc(100vh - 60px);
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #ced4da #f1f3f5;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+.sidebar::-webkit-scrollbar { width: 5px; }
+.sidebar::-webkit-scrollbar-track { background: #f8f9fa; border-radius: 3px;}
+.sidebar::-webkit-scrollbar-thumb { background-color: #ced4da; border-radius: 3px; }
+
+.sidebarTitle {
+    font-size: 1.15em;
+    font-weight: 600;
+    color: var(--heading-color, #212529);
+    margin: 0 0 15px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--border-color, #dee2e6); /* Giữ lại border dưới title sidebar */
+    text-align: center;
+}
+
+/* --- Exam Title --- */
+.examTitle {
+  text-align: center;
+  color: var(--heading-color, #333);
+  margin: 0 auto 45px auto; /* Tăng margin dưới */
+  padding-bottom: 0; /* Bỏ padding dưới */
+  border-bottom: none; /* Đã xóa border */
+  font-size: 1.6em;
+  font-weight: 600;
+}
+
+/* --- Styling for Exam Content (Tối giản) --- */
+.instructionGroup {
+  margin-bottom: 60px; /* Khoảng cách giữa các nhóm */
+  padding-top: 15px; /* Khoảng cách trên nhẹ */
+  border-top: none; /* Đã xóa border */
+  background-color: transparent;
+  border-radius: 0;
+  box-shadow: none;
+  border-left: none;
+}
+/* Loại bỏ padding cho nhóm đầu tiên */
+.mainContent > div:first-child > .instructionGroup:first-child {
+    padding-top: 0;
+}
+.instructionGroup > .instructionText:first-child {
+    margin-top: 0;
+}
+
+.instructionText {
+  font-weight: bold;
+  background-color: transparent; padding: 0; border-left: none;
+  margin-bottom: 25px; font-size: 1.1em; color: var(--heading-color, #333);
+  line-height: 1.6; white-space: pre-wrap; word-wrap: break-word;
+}
+.instructionText u { font-size: inherit; text-decoration: underline; background: none; }
+.instructionText b { font-weight: bold; }
+
+/* == Style cho Shared Content / Passage == */
+
+.sharedContent {
+    margin-bottom: 0px !important; 
+    padding: 0px !important; 
+   
+  }
+.sharedContent, .questionPassage {
+  margin-bottom: 35px; 
+  padding: 18px 20px; 
+  background-color: #f8f9fa; /* Nền xám nhạt */
+  border: none; /* << ĐÃ XÓA Border */
+  border-radius: 6px; /* Bo góc nhẹ */
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-size: 1.05em;
+  line-height: 1.6;
+  color: var(--text-color, #495057);
+}
+/* Style cho các phần tử bên trong sharedContent/passage giữ nguyên */
+.sharedContent u, .questionPassage u { text-decoration: underline; background-color: var(--highlight-bg, #fff9e0); padding: 1px 3px; border-radius: 2px;}
+.sharedContent b, .questionPassage b { font-weight: 600; color: var(--heading-color, #212529); }
+.sharedContent .blank-marker, .questionPassage .blank-marker { font-weight: bold; color: var(--danger-color, #dc3545); background: none; padding: 0 2px; border-bottom: 1px dashed currentColor; }
+.sharedContent .insertion-point, .questionPassage .insertion-point { font-weight: bold; color: var(--primary-color, #0d6efd); background: var(--primary-color-light, #e7f3ff); padding: 1px 6px; border-radius: 3px; display: inline-block; margin: 0 2px; cursor: default; font-size: 1.05em;}
+/* ====================================== */
+
+.questionBlock {
+  margin-bottom: 40px; /* Khoảng cách giữa các câu hỏi */
+  padding-bottom: 0;
+  border-bottom: none; /* Đã xóa border */
+  scroll-margin-top: 80px;
+}
+
+.highlightedQuestion { background-color: transparent; box-shadow: none; margin: 0; padding: 0;}
+
+.questionHeader { display: flex; align-items: baseline; margin-bottom: 12px; flex-wrap: wrap; }
+.questionNumber { font-weight: bold; margin-right: 10px; font-size: 1.1em; color: var(--heading-color, #333); background: none; padding: 0; min-width: auto; }
+.questionPoints { font-size: 0.9em; color: var(--text-color, #555); margin-left: 8px; padding-left: 0; white-space: nowrap; align-self: baseline; }
+
+.questionContent { margin-bottom: 15px; }
+.questionText, .instructionValue { margin-bottom: 10px; padding: 0; font-size: 1.1em; line-height: 1.6; white-space: pre-wrap; word-wrap: break-word; color: var(--heading-color, #333); }
+.questionText u { text-decoration: underline; background-color: var(--highlight-bg, #fff9e0); padding: 1px 3px; border-radius: 2px; }
+.questionText .blank-marker { font-weight: bold; color: var(--danger-color, #dc3545); background: none; padding: 0 2px; border-bottom: 1px dashed currentColor; }
+.questionAudioPlaceholder { font-style: italic; color: var(--text-color, #555); margin-bottom: 15px; padding: 10px 0; background-color: transparent; border: none; text-align: left; }
+.questionImage { max-width: 100%; height: auto; display: block; margin: 15px 0; border: 1px solid #e9ecef; border-radius: 4px; max-width: 700px; box-shadow: none; }
+
+/* --- Options List --- */
+.optionsList {
+  list-style: none;
+  padding: 10px 0 0 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 5px 25px; /* Giảm gap dọc */
+}
+/* Grid 2x2 RIÊNG CHO IMAGE OPTIONS */
+.questionBlock[data-option-type="image"] .optionsList {
+    grid-template-columns: repeat(2, 1fr) !important; /* Luôn 2 cột */
+    gap: 15px;
+    max-width: 550px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.optionItem {
+  margin-bottom: 0;
+  padding: 6px 0; /* Giảm padding dọc */
+  border: 2px solid transparent; /* Border mặc định trong suốt, dày 2px */
+  border-radius: 6px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline; /* Canh baseline cho text */
+  text-align: left;
+  box-shadow: none;
+}
+/* Style riêng cho Image Option Item */
+.questionBlock[data-option-type="image"] .optionItem {
+    background-color: #fff;
+    border-color: #e9ecef; /* Viền mặc định nhạt */
+    border-style: solid;
+    border-width: 2px; /* Độ dày mặc định */
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 12px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    transition: border-color 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Hover styles */
+.optionItem:hover:not(.submitted *) { background-color: transparent; }
+.questionBlock:not([data-option-type="image"]) .optionItem:hover:not(.submitted *) .optionText,
+.questionBlock:not([data-option-type="image"]) .optionItem:hover:not(.submitted *) .optionMarker { color: var(--primary-color, #0d6efd); }
+.questionBlock[data-option-type="image"] .optionItem:hover:not(.submitted *) { background-color: #f8f9fa; border-color: #ced4da; box-shadow: 0 2px 5px rgba(0,0,0,0.07); }
+
+/* --- Style khi chọn (CHƯA NỘP BÀI) --- */
+.optionItem.selectedOption:not([data-option-type="image"] *) .optionMarker,
+.optionItem.selectedOption:not([data-option-type="image"] *) .optionText { color: var(--primary-color, #0d6efd) !important; font-weight: 600; text-decoration: none; }
+.questionBlock[data-option-type="image"] .optionItem.selectedOption {
+    border-color: var(--primary-color, #0d6efd) !important;
+    background-color: var(--primary-color-light, #e7f3ff) !important;
+    box-shadow: none !important; /* Bỏ shadow khi chọn */
+}
+.questionBlock[data-option-type="image"] .optionItem.selectedOption .optionMarker { color: var(--primary-color-text, #0a58ca); }
+
+/* --- Option Marker & Text --- */
+.optionMarker { font-weight: bold; margin-right: 10px; color: #333; font-size: 1.1em; line-height: 1.6; min-width: 25px; display: inline-block; text-align: center; transition: color 0.2s ease; flex-shrink: 0; }
+.questionBlock[data-option-type="image"] .optionMarker { width: 100%; text-align: center; margin-bottom: 8px; margin-right: 0; min-width: auto; }
+.questionBlock:not([data-option-type="image"]) .optionMarker { width: auto; text-align: center; margin-bottom: 0; margin-right: 10px; }
+
+.optionText { font-size: 1.1em; color: #333; line-height: 1.6; transition: color 0.2s ease; text-decoration: none; white-space: pre-wrap; word-wrap: break-word;}
+.optionImage { max-width: 100%; height: 140px; object-fit: contain; margin: 0 auto; border-radius: 4px; border: none; display: block; }
+
+/* --- Complex Task Styles --- */
+.orderingTask { margin-top: 15px; padding-left: 0; }
+.orderingTask .orderingItem { background-color: #f8f9fa; padding: 10px 12px; margin-bottom: 8px; border-radius: 4px; display: flex; align-items: baseline; border: 1px solid #f1f3f5; }
+.orderingTask .orderingItem .marker { font-weight: bold; margin-right: 12px; min-width: 30px; color: var(--text-color, #495057); font-size: 1.05em; }
+.orderingTask .orderingItem .text { white-space: pre-wrap; word-wrap: break-word; flex: 1; line-height: 1.6; }
+
+.insertionTask { margin-top: 15px; }
+.insertionTask .itemToInsert { background-color: #fff9db; padding: 10px 15px; margin-bottom: 15px; border-radius: 4px; border: 1px solid #fff0c2; font-style: italic; font-weight: 500;}
+.insertionTask .mainPassage { margin-top: 10px; padding: 15px 20px; border: 1px solid #e9ecef; white-space: pre-wrap; word-wrap: break-word; background-color: #f8f9fa; border-radius: 4px; line-height: 1.7; font-size: 1.05em;}
+.insertionTask .insertionPoint { font-weight: bold; color: var(--primary-color, #0d6efd); background: var(--primary-color-light, #e7f3ff); padding: 1px 6px; border-radius: 3px; display: inline-block; margin: 0 2px; cursor: default; font-size: 1.05em;}
+
+/* =========================================== */
+/* === Submission & Feedback Styles === */
+/* =========================================== */
+.submitted .optionItem { cursor: default; }
+.submitted .optionItem:hover { background-color: transparent; transform: none; box-shadow: none; border-color: transparent; }
+.submitted .questionBlock[data-option-type="image"] .optionItem:hover { background-color: #fff; border-color: #e9ecef; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+
+
+/* -- Phản hồi cho TEXT options -- */
+.submitted .optionItem.selectedOption:not([data-option-type="image"] *) .optionMarker,
+.submitted .optionItem.selectedOption:not([data-option-type="image"] *) .optionText { color: var(--text-color-main, #343a40) !important; font-weight: normal; text-decoration: none !important; }
+.submitted .questionBlock:not([data-option-type="image"]) .optionItem.correctAnswer .optionMarker,
+.submitted .questionBlock:not([data-option-type="image"]) .optionItem.correctAnswer .optionText { color: var(--success-color, #198754) !important; font-weight: 700 !important; text-decoration: none !important; }
+.submitted .questionBlock:not([data-option-type="image"]) .optionItem.selectedIncorrect .optionMarker,
+.submitted .questionBlock:not([data-option-type="image"]) .optionItem.selectedIncorrect .optionText { color: var(--danger-color, #dc3545) !important; opacity: 0.7; }
+.submitted .questionBlock:not([data-option-type="image"]) .optionItem.selectedIncorrect .optionText { text-decoration: line-through !important; text-decoration-color: rgba(220, 53, 69, 0.7) !important; }
+.submitted .questionBlock:not([data-option-type="image"]) .optionItem.selectedIncorrect.correctAnswer .optionMarker,
+.submitted .questionBlock:not([data-option-type="image"]) .optionItem.selectedIncorrect.correctAnswer .optionText { color: var(--success-color, #198754) !important; font-weight: 700 !important; text-decoration: none !important; opacity: 1; }
+
+
+/* == PHẢN HỒI CHO IMAGE OPTIONS (SAU KHI NỘP - ĐƠN GIẢN HÓA) == */
+/* Reset styles cơ bản khi submit */
+.submitted .questionBlock[data-option-type="image"] .optionItem {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05) !important;
+    opacity: 1;
+    background-color: #fff !important;
+    border-color: #e9ecef !important;
+    border-width: 2px !important;
+}
+.submitted .questionBlock[data-option-type="image"] .optionItem .optionMarker { color: #333; font-weight: bold; }
+/* Style lựa chọn SAI của người dùng */
+.submitted .questionBlock[data-option-type="image"] .optionItem.selectedIncorrect {
+    border-color: var(--danger-color, #dc3545) !important; /* Chỉ đổi border đỏ */
+    background-color: var(--danger-color-light, #f8d7da) !important; /* Nền đỏ nhạt */
+    opacity: 0.75;
+}
+.submitted .questionBlock[data-option-type="image"] .optionItem.selectedIncorrect .optionMarker { color: var(--danger-color-text, #842029); }
+/* Style riêng cho đáp án đúng */
+.submitted .questionBlock[data-option-type="image"] .optionItem.correctAnswer {
+    border-color: var(--success-color, #198754) !important; /* Chỉ đổi border xanh lá */
+    border-width: 3px !important; /* <<< LÀM DÀY HƠN */
+    background-color: var(--success-color-light, #cce8d8) !important; /* Nền xanh lá nhạt hơn */
+    opacity: 1;
+}
+.submitted .questionBlock[data-option-type="image"] .optionItem.correctAnswer .optionMarker { color: var(--success-color-text, #0f5132); font-weight: 700 !important; }
+/* Bỏ ::after cho ảnh */
+.questionBlock[data-option-type="image"] .optionItem.selectedCorrect::after,
+.questionBlock[data-option-type="image"] .optionItem.selectedIncorrect::after { content: none; }
+
+
+/* --- Khu vực Nộp Bài --- */
+.submissionArea {
+    margin-top: 40px;
+    text-align: center;
+    padding-top: 0;
+    border-top: none; /* << ĐÃ XÓA ĐƯỜNG KẺ */
+}
+.submitButton {
+  display: inline-block; padding: 12px 35px; background: #555; color: white;
+  border: none; border-radius: 6px; cursor: pointer; font-size: 1.1em;
+  transition: background-color 0.3s ease; font-weight: 500; box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.submitButton:hover { background: #333; }
+.submitButton:disabled { background: #ccc; cursor: not-allowed; box-shadow: none;}
+.scoreDisplay { font-size: 1.3em; font-weight: bold; color: var(--success-color, #198754); margin-top: 15px; }
+
+
+/* --- Sidebar Styles --- */
+.sidebarActionArea {
+    padding-bottom: 20px; margin-bottom: 15px; border-bottom: 1px solid var(--border-color, #dee2e6);
+    text-align: center; flex-shrink: 0;
+}
+.timerDisplay {
+    font-size: 1.7em; font-weight: 600; color: var(--text-color-main, #343a40);
+    margin-bottom: 15px; background-color: transparent; padding: 5px 0;
+    border-radius: 0; border: none; font-family: 'Roboto Mono', monospace; letter-spacing: 1px;
+}
+.timerIcon { margin-right: 6px; font-size: 0.8em; vertical-align: middle; display: inline-block; margin-top: -2px;}
+.timerWarning { color: var(--danger-color, #dc3545); animation: none; }
+.submitButtonSidebar {
+    width: 100%; padding: 11px 15px; font-size: 1.05em; margin-bottom: 15px;
+    font-weight: 600; background-color: var(--primary-color, #0d6efd); color: white;
+    border: none; border-radius: 6px; cursor: pointer; transition: all 0.2s ease-in-out;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); text-transform: uppercase; letter-spacing: 0.5px;
+}
+.submitButtonSidebar:hover { background-color: #0b5ed7; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); transform: translateY(-1px); }
+.submitButtonSidebar:disabled { background: #adb5bd; cursor: not-allowed; box-shadow: none; transform: none; opacity: 0.7; }
+.scoreDisplaySidebar {
+    font-size: 1.15em; font-weight: 600; color: var(--success-color-text, #0f5132);
+    margin-top: 10px; padding: 10px; background-color: var(--success-color-light, #cce8d8);
+    border-radius: 6px; border: 1px solid var(--success-color-border, #a3cfbb);
+}
+.questionNavList {
+  list-style: none; padding: 5px 0 0 0; margin: 0; display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(45px, 1fr));
+  gap: 6px;
+  flex-grow: 1; overflow-y: auto; scrollbar-width: thin;
+  scrollbar-color: #ced4da #f1f3f5; padding-right: 5px;
+}
+.questionNavList::-webkit-scrollbar { width: 5px; }
+.questionNavList::-webkit-scrollbar-track { background: transparent;}
+.questionNavList::-webkit-scrollbar-thumb { background-color: #ced4da; border-radius: 3px; }
+
+.questionNavItem {
+  display: flex; align-items: center; justify-content: center;
+  border: 1px solid #e9ecef; border-radius: 6px; padding: 8px 4px;
+  cursor: pointer; font-size: 0.9em; background-color: #fff;
+  transition: all 0.2s ease; min-height: 40px; text-align: center;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.04); position: relative; line-height: 1;
+}
+.questionNavItem:hover { background-color: #f1f3f5; border-color: #adb5bd; transform: translateY(-1px); box-shadow: 0 2px 4px rgba(0,0,0,0.06); }
+.questionNavNumber { font-weight: 500; color: #495057; font-size: 1em; }
+
+/* Trạng thái Sidebar Item (Màu nền) */
+.questionNavItem.navAnswered { background-color: var(--primary-color-light, #cfe2ff); border-color: var(--primary-color-border, #a3c7ff); }
+.questionNavItem.navAnswered .questionNavNumber { color: var(--primary-color-text, #0a58ca); font-weight: 600; }
+.questionNavItem.navUnanswered { background-color: #f8f9fa; opacity: 0.7; border-color: #e9ecef; }
+.questionNavItem.navUnanswered .questionNavNumber { color: #6c757d; }
+/* Style ĐÚNG ở sidebar */
+.questionNavItem.navCorrect {
+    background-color: var(--success-color-light, #cce8d8);
+    border-color: var(--success-color, #198754); /* <<< VIỀN ĐẬM HƠN */
+    font-weight: 700; /* <<< ĐẬM HƠN */
+}
+.questionNavItem.navCorrect .questionNavNumber { color: var(--success-color-text, #0f5132); }
+/* Style SAI ở sidebar */
+.questionNavItem.navIncorrect {
+    background-color: var(--danger-color-light, #f8d7da);
+    border-color: var(--danger-color, #dc3545); /* <<< VIỀN ĐỎ ĐẬM HƠN */
+}
+.questionNavItem.navIncorrect .questionNavNumber { color: var(--danger-color-text, #842029); font-weight: normal;}
+.questionNavItem.navCorrect::after, .questionNavItem.navIncorrect::after { content: none; }
+
+
+/* --- Khu vực nộp bài cho Mobile --- */
+.mobileSubmitArea {
+    display: none; /* Mặc định ẩn */
+    margin-top: 40px;
+    padding-top: 0;
+    border-top: none; /* << Bỏ border */
+    background-color: transparent;
+    padding: 15px 0 0 0;
+    text-align: center;
+}
+.timerDisplayMobile {
+     font-size: 1.2em; font-weight: 600; color: var(--heading-color, #212529);
+     margin-bottom: 15px; text-align: center; font-family: 'Roboto Mono', monospace;
+}
+.timerDisplayMobile.timerWarning { color: var(--danger-color, #dc3545); }
+
+.mobileSubmitArea .submitButton {
+    padding: 12px 30px; font-size: 1.1em;
+    background-color: var(--primary-color, #0d6efd); /* Đồng bộ màu */
+}
+.mobileSubmitArea .submitButton:hover { background-color: #0b5ed7; }
+.mobileSubmitArea .submitButton:disabled { background: #adb5bd; }
+
+.scoreDisplay { /* Style điểm ở cuối main content (cho mobile) */
+    font-size: 1.3em; font-weight: bold;
+    color: var(--success-color, #198754); margin-top: 15px;
+}
+
+
+/* --- Responsiveness --- */
+@media (max-width: 991.98px) { /* Ẩn sidebar */
+  .appContainer { flex-direction: row; justify-content: center; padding: 0 10px; gap: 0; margin: 25px auto; }
+  .sidebar { display: none; }
+  .mainContent { flex: 1; max-width: 850px; padding: 25px 15px; margin: 0 auto; }
+   .mobileSubmitArea { display: block; }
+}
+
+@media (max-width: 768px) {
+    .mainContent { padding: 20px 15px; }
+    .appContainer { margin: 15px auto; padding: 0 10px; }
+    .examTitle { font-size: 1.4em; }
+    /* Text options: Tự động co giãn */
+    .optionsList:not(.questionBlock[data-option-type="image"] .optionsList) { grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); }
+    /* --- ĐẢM BẢO 2 CỘT CHO ẢNH --- */
+    .questionBlock[data-option-type="image"] .optionsList {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 10px;
+        max-width: none;
+    }
+     .optionImage { height: 120px; }
+     .timerDisplayMobile { font-size: 1.1em; }
+     .mobileSubmitArea .submitButton { padding: 10px 25px; font-size: 1em;}
+     .scoreDisplay { font-size: 1.2em;}
+}
+
+@media (max-width: 575.98px) {
+    .mainContent { padding: 20px 10px; margin: 15px 0; border-radius: 0; border-left: none; border-right: none;}
+    .appContainer { padding: 0; margin: 15px 0; }
+    /* Text options thành 1 cột */
+    .optionsList:not(.questionBlock[data-option-type="image"] .optionsList) {
+        grid-template-columns: 1fr;
+        gap: 8px 0;
+    }
+    /* Ảnh vẫn giữ 2 cột */
+     .questionBlock[data-option-type="image"] .optionsList {
+         grid-template-columns: repeat(2, 1fr) !important;
+         gap: 8px;
+     }
+     .optionImage { height: 100px; }
+}

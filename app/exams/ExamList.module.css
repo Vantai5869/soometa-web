@@ -1,0 +1,64 @@
+/* app/exams/ExamList.module.css (hoặc styles/ExamList.module.css) */
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+  }
+  
+  .list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .listItem {
+    margin-bottom: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    transition: box-shadow 0.2s ease-in-out;
+  }
+  
+  .listItem:hover {
+     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .link {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #1a73e8; /* Link color */
+    font-size: 1.1em;
+  }
+  
+  .link:hover {
+     background-color: #f8f9fa;
+     border-radius: 5px; /* Match parent border radius */
+  }
+  
+  .link span {
+      display: block; /* Make each part on a new line if needed */
+      margin-bottom: 3px;
+  }
+  .link span:last-child {
+       margin-bottom: 0;
+  }
+  
+  .examLevelSkill {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .examNumberYear {
+     font-size: 0.9em;
+     color: #5f6368;
+  }

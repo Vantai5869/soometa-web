@@ -1,0 +1,51 @@
+/* src/app/practice/exam/[examId]/components/NavigationButtons.module.css */
+.buttonContainer {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+    justify-content: center; /* Căn giữa các nút */
+  }
+  
+  .button {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 6px;
+    background-color: #007bff; /* Màu xanh dương chủ đạo */
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #0056b3; /* Màu xanh dương đậm hơn khi hover */
+  }
+  
+  /* Стиль cho nút "Nộp bài" (nếu có) */
+  .submitButton {
+    background-color: #28a745; /* Màu xanh lá cây cho nút nộp bài */
+  }
+  
+  .submitButton:hover {
+    background-color: #1e7e34;
+  }
+  
+  /* Стиль cho nút "Xem lại" (nếu có) */
+  .reviewButton {
+    background-color: #ffc107; /* Màu vàng cho nút xem lại */
+    color: #212529;
+  }
+  
+  .reviewButton:hover {
+    background-color: #e0a800;
+  }
+  
+  /* Стиль cho nút "Câu trước" và "Câu sau" khi bị vô hiệu hóa (ví dụ: ở câu đầu tiên hoặc cuối cùng) */
+  .disabledButton {
+    background-color: #6c757d;
+    cursor: not-allowed;
+  }
+  
+  .disabledButton:hover {
+    background-color: #6c757d;
+  }
