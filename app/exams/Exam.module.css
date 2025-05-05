@@ -1122,3 +1122,45 @@
 
 /* --- Responsive etc. --- */
 /* ... (Giữ nguyên) ... */
+
+/* ../exams/Exam.module.css */
+
+/* ... các style cũ ... */
+
+/* Container cho trình phát audio - Tinh chỉnh lại */
+.audioPlayerContainer {
+  /* Bỏ nền, shadow, border trên cùng để hòa vào nền trang */
+  background-color: transparent;
+  box-shadow: none;
+  border: none; /* Hoặc giữ lại border-bottom nếu muốn có ngăn cách */
+  /* border-bottom: 1px solid #eee; */
+
+  border-radius: 0; /* Bỏ bo góc nếu không còn viền/nền */
+  padding: 0; /* Bỏ padding để audio chiếm trọn chiều rộng */
+  margin-bottom: 30px; /* Giữ khoảng cách dưới với nội dung */
+  margin-top: 10px; /* Thêm khoảng cách trên nếu cần */
+}
+
+/* Xóa hẳn class này đi vì không còn dùng */
+/*
+.audioPlayerTitle {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #343a40;
+  margin-bottom: 15px;
+}
+*/
+
+/* Đảm bảo audio player chiếm full width và hiển thị dạng block */
+.audioPlayer {
+  width: 100%;
+  display: block; /* Quan trọng để chiếm hết chiều rộng */
+  height: 50px; /* Có thể điều chỉnh chiều cao */
+  /* Tùy chọn: Thêm chút bo góc cho chính thanh player nếu trình duyệt hỗ trợ */
+  /* border-radius: 6px; */
+}
+
+
+/* ... các style còn lại ... */
+
+

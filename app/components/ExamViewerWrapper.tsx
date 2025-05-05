@@ -333,6 +333,8 @@ const ExamViewerWrapper: React.FC<ExamViewerWrapperProps> = ({ examData }) => {
         </h1>
         <ExamViewer
           instructionGroups={examData.instruction_groups}
+          skill={examData.skill} // << Truyền skill
+          audioUrl={examData?.audio_url} // << Truyền audioUrl
           selectedAnswers={selectedAnswers}
           isSubmitted={isSubmitted}
           correctAnswersMap={correctAnswersMap}

@@ -61,6 +61,7 @@ export interface InstructionGroup {
 
 // Bỏ duration_minutes
 export interface ExamData {
+  audio_url: string | undefined;
   id: string;
   year_description: string;
   exam_number_description: string;
