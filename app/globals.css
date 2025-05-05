@@ -124,3 +124,8 @@ h1, .examTitle {
           font-size: 1.3em;
           margin-bottom: 20px;
       }
+
+/* Để ngăn cuộn trang khi menu đang mở */
+body.no-scroll {
+  overflow: hidden;
+}

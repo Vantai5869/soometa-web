@@ -2,7 +2,7 @@
 'use client';
 
 import React, { useState, useEffect, useRef, memo } from 'react';
-import styles from '../exams/Exam.module.css'; // Sử dụng style chung
+import styles from './../exams/Exam.module.css'; // Sử dụng style chung
 
 // Hàm format thời gian MM:SS
 const formatTime = (totalSeconds: number): string => {
@@ -14,45 +14,43 @@ const formatTime = (totalSeconds: number): string => {
 
 interface CountdownTimerProps {
   initialDurationSeconds: number;
-  onTimeout: () => void; // Callback khi hết giờ
-  isSubmitted: boolean; // Để dừng timer khi nộp bài thủ công
-  className?: string; // Cho phép tùy chỉnh class từ bên ngoài
+  onTimeout: () => void;
+  isSubmitted: boolean;
+  className?: string;
 }
 
 const CountdownTimer: React.FC<CountdownTimerProps> = ({
   initialDurationSeconds,
   onTimeout,
   isSubmitted,
-  className = '' // Class mặc định là rỗng
+  className = ''
 }) => {
   const [timeLeft, setTimeLeft] = useState<number>(initialDurationSeconds);
   const intervalRef = useRef<NodeJS.Timeout | null>(null);
-  // Ref để lưu callback mới nhất, tránh đưa callback vào dependency của useEffect
   const timeoutCallbackRef = useRef(onTimeout);
 
-  // Cập nhật ref khi onTimeout thay đổi
   useEffect(() => {
     timeoutCallbackRef.current = onTimeout;
   }, [onTimeout]);
 
   useEffect(() => {
-    // Reset thời gian khi thời gian khởi tạo thay đổi (chọn đề mới)
-    // hoặc khi isSubmitted chuyển từ true về false (khởi tạo lại)
+    // Chỉ reset thời gian nếu duration thay đổi (khi đổi đề)
+    // Không reset khi isSubmitted thay đổi
     setTimeLeft(initialDurationSeconds);
   }, [initialDurationSeconds]);
 
 
   useEffect(() => {
-    // Dọn dẹp interval cũ nếu có
+    // Dọn dẹp interval cũ
     if (intervalRef.current) {
       clearInterval(intervalRef.current);
       intervalRef.current = null;
     }
 
-    // Nếu đã nộp bài hoặc thời gian ban đầu <= 0 thì không chạy timer
-    if (isSubmitted || initialDurationSeconds <= 0 || timeLeft <= 0) {
-      // Nếu timeLeft đã là 0 khi isSubmitted true, đảm bảo nó vẫn là 0
-      if(isSubmitted && timeLeft > 0) setTimeLeft(0);
+    // Dừng nếu đã submit hoặc hết giờ hoặc thời gian ban đầu không hợp lệ
+    if (isSubmitted || timeLeft <= 0 || initialDurationSeconds <= 0) {
+      // Nếu đã submit nhưng timer chưa về 0 (do submit tay), đặt về 0
+       if(isSubmitted && timeLeft > 0) setTimeLeft(0);
       return;
     }
 
@@ -63,8 +61,10 @@ const CountdownTimer: React.FC<CountdownTimerProps> = ({
         if (newTime <= 0) {
           clearInterval(intervalRef.current!);
           intervalRef.current = null;
-          // Gọi callback đã lưu trong ref
-          timeoutCallbackRef.current();
+          // Gọi callback hết giờ đã lưu trong ref
+          if(timeoutCallbackRef.current) {
+              timeoutCallbackRef.current();
+          }
           return 0;
         }
         return newTime;
@@ -77,8 +77,7 @@ const CountdownTimer: React.FC<CountdownTimerProps> = ({
         clearInterval(intervalRef.current);
       }
     };
-    // Chạy lại effect này khi isSubmitted thay đổi (để dừng timer)
-    // hoặc khi initialDurationSeconds thay đổi (để reset và bắt đầu lại)
+  // Chạy lại effect này khi isSubmitted hoặc initialDurationSeconds thay đổi
   }, [initialDurationSeconds, isSubmitted]);
 
   const isWarning = timeLeft < 600 && timeLeft > 0 && !isSubmitted;
@@ -90,5 +89,4 @@ const CountdownTimer: React.FC<CountdownTimerProps> = ({
   );
 };
 
-// Sử dụng React.memo để tránh render lại không cần thiết nếu props không đổi
 export default memo(CountdownTimer);

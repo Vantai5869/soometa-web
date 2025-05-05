@@ -1,64 +1,163 @@
-/* app/exams/ExamList.module.css (hoặc styles/ExamList.module.css) */
-.container {
-    max-width: 800px;
-    margin: 40px auto;
-    padding: 30px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .title {
-    text-align: center;
-    color: #333;
-    margin-bottom: 30px;
-    border-bottom: 1px solid #eee;
-    padding-bottom: 15px;
-  }
-  
-  .list {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .listItem {
-    margin-bottom: 15px;
-    border: 1px solid #e0e0e0;
-    border-radius: 5px;
-    transition: box-shadow 0.2s ease-in-out;
-  }
-  
-  .listItem:hover {
-     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  }
-  
-  .link {
-    display: block;
-    padding: 15px 20px;
-    text-decoration: none;
-    color: #1a73e8; /* Link color */
-    font-size: 1.1em;
-  }
-  
-  .link:hover {
-     background-color: #f8f9fa;
-     border-radius: 5px; /* Match parent border radius */
-  }
-  
-  .link span {
-      display: block; /* Make each part on a new line if needed */
-      margin-bottom: 3px;
-  }
-  .link span:last-child {
-       margin-bottom: 0;
-  }
-  
-  .examLevelSkill {
-    font-weight: bold;
-    color: #333;
-  }
-  
-  .examNumberYear {
-     font-size: 0.9em;
-     color: #5f6368;
-  }
+/* app/exams/ExamList.module.css - Phiên bản tinh chỉnh lần 2 */
+
+.pageContainer {
+  padding: 30px 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: "Malgun Gothic", "맑은 고딕", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  /* background-color: #fdfdfd; /* Nền trắng hơn nếu cần */
+}
+
+.yearSection {
+  margin-bottom: 50px;
+}
+
+/* Wrapper cho tiêu đề năm để áp dụng background */
+.yearTitleWrapper {
+    margin-bottom: 25px; /* Khoảng cách dưới tiêu đề */
+    /* display: block; /* Hoặc inline-block tùy cách bạn muốn highlight */
+}
+
+/* Tiêu đề năm với background highlight */
+.yearTitle {
+  font-size: 24px;
+  font-weight: 600;
+  color: #222;
+  background-color: #e3f2fd; /* Màu xanh nhạt (light blue) - điều chỉnh nếu cần */
+  padding: 4px 12px; /* Padding quanh chữ */
+  display: inline; /* Chỉ highlight phần chữ */
+  border-radius: 3px; /* Bo góc nhẹ cho highlight */
+  /* Bỏ border-bottom */
+}
+
+.examGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+.examCard {
+  border: 1px solid #f0f0f0; /* Viền rất nhạt */
+  border-radius: 4px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  box-shadow: none; /* Đảm bảo không có shadow */
+  overflow: hidden;
+}
+
+.cardBody {
+    padding: 20px 20px 15px 20px; /* Tăng nhẹ padding top/bottom */
+    flex-grow: 1;
+}
+
+/* Đường kẻ ngang và căn chỉnh footer */
+.cardFooter {
+  padding: 12px 20px 15px 20px; /* Điều chỉnh padding footer */
+  border-top: 1px solid #f0f0f0; /* Đường kẻ ngang rất nhạt */
+  display: flex;
+  justify-content: space-between; /* Đặt items ở 2 đầu */
+  align-items: center;
+  margin-top: auto;
+}
+
+
+.cardYearLabel {
+  font-size: 13px;
+  color: #999; /* Xám nhạt hơn */
+  margin-bottom: 10px; /* Tăng khoảng cách dưới */
+  font-weight: 500;
+}
+
+.examNumber {
+  font-size: 20px;
+  font-weight: 700; /* Đậm hơn */
+  color: #111; /* Đen đậm hơn */
+  margin-bottom: 8px;
+}
+
+/* Tiêu đề chính đậm hơn */
+.examMainTitle {
+  font-size: 16px; /* Có thể tăng nhẹ */
+  color: #222; /* Đen */
+  margin-bottom: 20px; /* Tăng khoảng cách dưới */
+  font-weight: 700; /* Bold */
+}
+
+.examMeta {
+  display: flex;
+  gap: 7px; /* Khoảng cách giữa tags */
+  flex-wrap: wrap;
+}
+
+/* Tags với nền và viền rất nhạt */
+.metaTag {
+  display: inline-block;
+  font-size: 12px;
+  padding: 3px 8px; /* Padding chuẩn */
+  border: 1px solid #eeeeee; /* Viền cực nhạt */
+  border-radius: 3px;
+  background-color: #fafafa; /* Nền xám cực nhạt */
+  color: #555;
+  line-height: 1.4; /* Tăng chiều cao dòng nhẹ */
+}
+
+/* Style cho chữ "음성지원" */
+.audioSupport {
+    font-size: 13px; /* Cỡ chữ nhỏ */
+    color: #888; /* Màu xám */
+    font-weight: 500;
+}
+
+/* Nút làm bài màu đỏ/hồng tươi hơn */
+.solveLink {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 700; /* Bold */
+  color: #f44336; /* Màu đỏ tươi (Material Design Red 500) - Chỉnh lại nếu cần */
+  font-size: 14px;
+  white-space: nowrap;
+  transition: color 0.2s ease;
+}
+
+.solveLink:hover {
+  color: #e53935; /* Đỏ đậm hơn khi hover (Material Red 600) */
+}
+
+.arrow {
+  margin-left: 5px;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.noExamsMessage {
+  color: #666;
+  text-align: center;
+  padding: 50px 0;
+  font-size: 16px;
+}
+
+/* Responsive adjustments (giữ nguyên) */
+@media (max-width: 992px) {
+  .examGrid { grid-template-columns: repeat(3, 1fr); gap: 20px; }
+  .pageContainer { padding: 20px; }
+}
+@media (max-width: 768px) {
+  .examGrid { grid-template-columns: repeat(2, 1fr); gap: 15px; }
+  .yearTitleWrapper { margin-bottom: 20px; }
+  .yearTitle { font-size: 22px; padding: 3px 10px; }
+}
+@media (max-width: 576px) {
+  .examGrid { grid-template-columns: 1fr; gap: 15px; }
+  .pageContainer { padding: 15px; }
+  .yearTitleWrapper { margin-bottom: 15px; }
+  .yearTitle { font-size: 20px; padding: 2px 8px; }
+  .cardBody { padding: 15px; }
+  .cardFooter { padding: 10px 15px 12px 15px; }
+  .examNumber { font-size: 18px; }
+  .examMainTitle { font-size: 15px; margin-bottom: 15px; }
+  .metaTag { font-size: 11px; padding: 2px 6px;}
+  .audioSupport { font-size: 12px; }
+  .solveLink { font-size: 13px; }
+}
