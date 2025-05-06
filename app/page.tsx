@@ -20,7 +20,7 @@ const siteSections = [
   {
     title: 'Luyện Thi Theo Dạng',
     description: 'Rèn luyện kỹ năng theo từng dạng bài cụ thể trong đề thi TOPIK.',
-    href: '/practice/type',
+    href: '/practice',
     icon: RectangleStackIcon,
     gradientClasses: 'from-white to-emerald-50',
     iconBgClass: 'bg-emerald-100',
