@@ -1,0 +1,185 @@
+/* EnhancedTranscriptPlayer.module.css */
+
+/* Base container for the player */
+.playerContainer {
+  /* max-width: 800px; */
+  width: 100%;
+  margin: 0 auto;
+  /* padding: 1rem; */
+  font-family: Arial, sans-serif;
+}
+
+/* Audio controls container */
+.audioContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Audio player styling */
+/* .audioPlayer {
+  width: 100%;
+  max-width: 500px;
+  outline: none;
+} */
+
+.audioPlayer {
+  width: 100%;
+  /* margin-bottom: 24px; */
+  border-radius: 8px;
+  background: #f3f4f6;
+  outline: none;
+}
+
+.audioPlayer::-webkit-media-controls-panel {
+  background: #f3f4f6;
+  border-radius: 8px;
+  padding: 6px;
+}
+
+/* Toggle transcript button */
+.toggleButton {
+  /* padding: 0.5rem 1rem; */
+  /* background-color: #007bff; */
+  /* color: white; */
+  border: #f9f9f9;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.2s;
+  min-width: 120px;
+ padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.toggleButton:hover {
+  border: 1px solid #007bff;
+  /* background-color: #0056b3; */
+}
+
+/* Transcript display area */
+.transcriptDisplayArea {
+  display: block;
+  padding: 1rem;
+  border-radius: 8px;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+.transcriptDisplayArea.hidden {
+  display: none;
+}
+
+/* Utterance block for each speaker */
+.utteranceBlock {
+  margin-bottom: 1rem;
+}
+
+/* Speaker label */
+.speakerLabel {
+  display: inline-block;
+  font-weight: bold;
+  color: #333;
+  margin-right: 0.5rem;
+}
+
+.hideSpeakerLabel .speakerLabel {
+  display: none;
+}
+
+/* Sentence and word styling */
+.sentence {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.word {
+  cursor: pointer;
+  padding: 0.1rem 0.2rem;
+  border-radius: 3px;
+  transition: background-color 0.2s;
+}
+
+.word:hover,
+.word:focus {
+  background-color: #e0e7ff;
+  outline: none;
+}
+
+.highlightedWord {
+  background-color: #b3d4fc;
+  font-weight: 500;
+}
+
+/* Popup for word translation */
+.popup {
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  max-width: 300px;
+  z-index: 1000;
+}
+
+.popupWord {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.popupTranslation {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+.popupExamples {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.popupExampleItem {
+  margin-top: 0.5rem;
+}
+
+.closePopupButton {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background: none;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #666;
+}
+
+.closePopupButton:hover {
+  color: #333;
+}
+
+/* Error container */
+.errorContainer {
+  padding: 1rem;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  border-radius: 8px;
+  color: #721c24;
+  text-align: center;
+}
+
+.errorMessage {
+  margin: 0 0 1rem;
+  font-size: 0.9rem;
+}
+
+/* Loading and no-content states */
+.loading,
+.noContent {
+  text-align: center;
+  color: #666;
+  font-size: 0.9rem;
+  padding: 1rem;
+}
