@@ -82,7 +82,9 @@ const renderContent = (content: QuestionContent | SharedContent | undefined, isS
                  if (!isShared) {
                      if (content.main_passage && typeof content.main_passage === 'string' && typeof content.sentence_to_insert === 'string') {
                          const passageHTML = formatValue(content.main_passage);
-                         return ( <div className={styles.insertionTask}><div className={styles.itemToInsert}><b>Chèn câu:</b> {content.sentence_to_insert}</div><div className={styles.mainPassage} dangerouslySetInnerHTML={{ __html: passageHTML }}></div></div> );
+                         return ( <div className={styles.insertionTask}><div className={styles.itemToInsert}>
+                            {/* <b>Chèn câu:</b> */}
+                             {content.sentence_to_insert}</div><div className={styles.mainPassage} dangerouslySetInnerHTML={{ __html: passageHTML }}></div></div> );
                      } else if (typeof content.sentence_to_insert === 'string') {
                           return <div className={styles.instructionValue}><b>Chèn câu:</b> {content.sentence_to_insert} (Xem đoạn văn ở trên)</div>;
                      }
@@ -220,11 +222,13 @@ const ExamViewer: React.FC<ExamViewerProps> = ({
                               {/* Phần đầu câu hỏi */}
                               <div className={styles.questionHeader}>
                                 <span className={styles.questionNumber}>{questionNumber}.</span>
-                                {q.points && <span className={styles.questionPoints}>({q.points}점)</span>}
+                                {/* {q.points && <span className={styles.questionPoints}>({q.points}점)</span>} */}
+                                <div className={styles.questionContent}>{renderContent(q.content, false)}</div>
+
                               </div>
 
                               {/* Nội dung câu hỏi */}
-                              <div className={styles.questionContent}>{renderContent(q.content, false)}</div>
+                              {/* <div className={styles.questionContent}>{renderContent(q.content, false)}</div> */}
 
                               {/* Danh sách lựa chọn */}
                               <ul className={styles.optionsList}>
