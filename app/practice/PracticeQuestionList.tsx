@@ -28,7 +28,7 @@ const PracticeQuestionList: React.FC<PracticeQuestionListProps> = ({
     const totalQuestionsDisplayed = groupsToDisplay.reduce((count, group) => count + (group.questions?.length || 0), 0);
 
     return (
-        <div className="bg-white p-0 md:p-8 rounded-lg mt-8"> {/* Removed border */}
+        <div className="bg-white p-0 md:p-8 rounded-lg md:shadow-sm mt-8"> {/* Removed border */}
             <h2 className="text-xl font-semibold mb-6 text-gray-700">Danh sách câu hỏi ({totalQuestionsDisplayed} câu)</h2>
             {groupsToDisplay.length > 0 ? (
                 groupsToDisplay.map((group, groupIndex) => (
