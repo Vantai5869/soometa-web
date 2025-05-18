@@ -58,9 +58,9 @@ export default function Navbar() {
       {/* --- Menu cho Desktop --- */}
       <ul className={styles.navList}>
         <li><Link href="/exams" className={isActive('/exams') ? styles.activeLink : ''}>Luyện Thi Theo Đề</Link></li>
-        <li><Link href="/practice/type" className={isActive('/practice/type') ? styles.activeLink : ''}>Luyện Thi Theo Dạng</Link></li>
-        <li><Link href="/study" className={isActive('/study') ? styles.activeLink : ''}>Phòng Học Tập</Link></li>
-        <li><Link href="/materials" className={isActive('/materials') ? styles.activeLink : ''}>Tài Liệu</Link></li>
+        <li><Link href="/practice" className={isActive('/practice/type') ? styles.activeLink : ''}>Luyện Thi Theo Dạng</Link></li>
+        {/* <li><Link href="/study" className={isActive('/study') ? styles.activeLink : ''}>Phòng Học Tập</Link></li> */}
+        {/* <li><Link href="/materials" className={isActive('/materials') ? styles.activeLink : ''}>Tài Liệu</Link></li> */}
       </ul>
 
       {/* --- Nút Hamburger cho Mobile --- */}
