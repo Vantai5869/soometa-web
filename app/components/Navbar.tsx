@@ -1,12 +1,24 @@
+// app/components/Navbar.tsx (or your path)
 "use client";
 
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
+import { usePathname, useRouter } from 'next/navigation';
 import styles from './Navbar.module.css';
 import { useState, useEffect, FormEvent, useRef } from 'react';
+import { useHomepageSocket } from '../hooks/useHomepageSocket'; // Ensure this path is correct
+
+// Define a type for your user data for better type safety
+type UserData = {
+  _id: string;
+  email: string;
+  role: string;
+  // Add other user properties if they exist
+  [key: string]: any; // Allow other properties
+};
 
 export default function Navbar() {
   const pathname = usePathname();
+  const router = useRouter();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const [isLoginModalOpen, setIsLoginModalOpen] = useState(false);
@@ -17,27 +29,90 @@ export default function Navbar() {
   const [countdown, setCountdown] = useState(0);
   const [isLoading, setIsLoading] = useState(false);
   const [errorMessage, setErrorMessage] = useState('');
-  const [loggedInUserEmail, setLoggedInUserEmail] = useState<string | null>(null); // Dùng để hiển thị UI
-
+  
+  const [loggedInUserEmail, setLoggedInUserEmail] = useState<string | null>(null);
   const [isUserMenuOpen, setIsUserMenuOpen] = useState(false);
   const userMenuRef = useRef<HTMLDivElement>(null);
 
   const API_BASE_URL = 'https://soometa-be.onrender.com';
 
-  useEffect(() => {
-    // Kiểm tra thông tin đăng nhập từ localStorage khi component được mount
-    const storedEmail = localStorage.getItem('loggedInUserEmail');
-    const storedToken = localStorage.getItem('userToken'); // Kiểm tra cả token
+  // State to hold the raw user data string from localStorage
+  const [currentUserDataString, setCurrentUserDataString] = useState<string | null>(null);
+  // State to hold the parsed user object
+  const [currentUser, setCurrentUser] = useState<UserData | null>(null);
 
-    if (storedEmail && storedToken) { // Chỉ coi là đăng nhập nếu cả email và token đều có
-      setLoggedInUserEmail(storedEmail);
+  // Effect 1: Check localStorage on mount to set initial login state
+  useEffect(() => {
+    const storedEmail = localStorage.getItem('loggedInUserEmail');
+    const storedToken = localStorage.getItem('userToken');
+    const storedUserDataStr = localStorage.getItem('userData');
+
+    if (storedEmail && storedToken && storedUserDataStr) {
+      try {
+        const userData: UserData = JSON.parse(storedUserDataStr);
+        if (userData && userData.email === storedEmail) {
+          setLoggedInUserEmail(storedEmail);
+          // currentUserDataString and currentUser will be set by Effect 2
+        } else {
+          // Data inconsistency, log out
+          handleLogout();
+        }
+      } catch (e) {
+        console.error("Lỗi parse userData từ localStorage khi mount:", e);
+        handleLogout(); // Corrupted data, log out
+      }
     } else {
-      // Nếu một trong hai thiếu, đảm bảo trạng thái đăng xuất nhất quán
+      // If any essential item is missing, ensure logged-out state
+      // No need to call handleLogout() here as it might cause issues if router is not ready
+      // Just clear localStorage and reset states
       localStorage.removeItem('loggedInUserEmail');
       localStorage.removeItem('userToken');
+      localStorage.removeItem('userData');
+      setLoggedInUserEmail(null);
+      setCurrentUserDataString(null); // Ensure string state is also reset
+      setCurrentUser(null);         // Ensure parsed object state is reset
     }
-  }, []);
+  }, []); // Empty dependency array: runs only once on mount
 
+  // Effect 2: Update currentUserDataString when loggedInUserEmail changes
+  useEffect(() => {
+    if (loggedInUserEmail) {
+      const storedUserData = localStorage.getItem('userData');
+      setCurrentUserDataString(storedUserData); // This might be null if 'userData' is missing
+    } else {
+      setCurrentUserDataString(null);
+    }
+  }, [loggedInUserEmail]); // Runs when loggedInUserEmail changes
+
+  // Effect 3: Parse currentUserDataString to set currentUser
+  // This makes `currentUser` a more stable object reference.
+  useEffect(() => {
+    if (currentUserDataString) {
+      try {
+        const parsedData: UserData = JSON.parse(currentUserDataString);
+        // Only update currentUser if it's different to prevent unnecessary re-renders
+        // This is a shallow comparison, for deep comparison, a library or more complex logic is needed
+        // But changing the reference only when the string changes is often enough.
+        if (JSON.stringify(currentUser) !== JSON.stringify(parsedData)) {
+             setCurrentUser(parsedData);
+        }
+      } catch (e) {
+        console.error("Lỗi parse currentUserDataString:", e);
+        setCurrentUser(null); // Set to null if parsing fails
+      }
+    } else {
+      if (currentUser !== null) { // Only update if it's actually changing
+        setCurrentUser(null);
+      }
+    }
+  }, [currentUserDataString]); // Runs when currentUserDataString changes
+
+  // console.log('Navbar render: currentUser:', currentUser, 'loggedInUserEmail:', loggedInUserEmail);
+  
+  // Custom hook for homepage socket connection
+  // `currentUser` is now more stable by reference.
+  useHomepageSocket(currentUser); 
+  
   const isActive = (href: string): boolean => {
     if (href === '/') {
       return pathname === href;
@@ -64,13 +139,23 @@ export default function Navbar() {
   }, [isMenuOpen, isLoginModalOpen]);
 
   const getOrGenerateDeviceId = (): string => {
-    let deviceId = localStorage.getItem('deviceId');
+    const storageKey = 'deviceIdSoometa'; // Use a more specific key
+    let deviceId = localStorage.getItem(storageKey);
+
     if (!deviceId) {
-      deviceId = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
-          const r = Math.random() * 16 | 0, v = c === 'x' ? r : (r & 0x3 | 0x8);
-          return v.toString(16);
-      });
-      localStorage.setItem('deviceId', deviceId);
+      const userAgent = navigator.userAgent || "";
+      const ipPlaceholder = "CLIENT_IP_UNAVAILABLE"; 
+      
+      if (userAgent) {
+        deviceId = `${ipPlaceholder}__${userAgent}`;
+      } else {
+        console.warn("User-Agent string is empty. Falling back to UUID generation for deviceId.");
+        deviceId = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+            const r = Math.random() * 16 | 0, v = c === 'x' ? r : (r & 0x3 | 0x8);
+            return v.toString(16);
+        });
+      }
+      localStorage.setItem(storageKey, deviceId);
     }
     return deviceId;
   };
@@ -110,18 +195,20 @@ export default function Navbar() {
         body: JSON.stringify({ email, code }),
       });
 
+      const responseData = await response.json().catch(() => ({message: "Lỗi không xác định khi parse JSON"}));
+
       if (!response.ok) {
-        const errorData = await response.json().catch(() => ({message: "Lỗi không xác định"}));
-        if (response.status === 403 && errorData.code === 'DEVICE_BLOCKED') {
+        if (response.status === 403 && responseData.code === 'DEVICE_BLOCKED') {
             setErrorMessage('Thiết bị của bạn đã bị chặn truy cập. Vui lòng liên hệ hỗ trợ.');
-            setIsLoginModalOpen(false);
-            if (loggedInUserEmail) handleLogout(); // Đảm bảo logout nếu bị chặn
+            setIsLoginModalOpen(false); // Close modal on device block
+            if (loggedInUserEmail) handleLogout(); // Log out if a user was somehow logged in
         } else {
-            setErrorMessage(errorData.message || 'Không thể gửi mã xác nhận. Vui lòng thử lại.');
+            setErrorMessage(responseData.message || 'Không thể gửi mã xác nhận. Vui lòng thử lại.');
         }
-        setSentCode(null);
-        return;
+        setSentCode(null); // Reset sent code on error
+        return; // Important to return here
       }
+      // If response is ok
       setIsCodeSent(true);
       setCountdown(60);
     } catch (error: any) {
@@ -155,28 +242,32 @@ export default function Navbar() {
     const deviceId = getOrGenerateDeviceId();
 
     try {
-      const userResponse = await fetch(`${API_BASE_URL}/users`, { // Backend đã xử lý việc tạo mới hoặc đăng nhập user
+      const userResponse = await fetch(`${API_BASE_URL}/users`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, deviceId, platform: 'WEB' }),
       });
 
-      const data = await userResponse.json(); // Luôn cố gắng parse JSON
+      const data = await userResponse.json(); 
 
-      if (userResponse.ok) { // Backend trả về 200 (login) hoặc 201 (created)
+      if (userResponse.ok) {
         if (data.token && data.user && data.user.email) {
-          localStorage.setItem('userToken', data.token); // Lưu token JWT
-          localStorage.setItem('loggedInUserEmail', data.user.email); // Lưu email từ response backend
-          setLoggedInUserEmail(data.user.email); // Cập nhật state
+          localStorage.setItem('userToken', data.token);
+          localStorage.setItem('loggedInUserEmail', data.user.email);
+          localStorage.setItem('userData', JSON.stringify(data.user));
+          
+          setLoggedInUserEmail(data.user.email); // This will trigger Effect 2, then Effect 3
           
           handleCloseLoginModal();
           setIsUserMenuOpen(false);
+
+          if (data.user.role === 'admin') {
+            router.push('/admin/dashboard');
+          }
         } else {
-          // Phản hồi thành công nhưng không có token hoặc user.email
-          setErrorMessage('Đăng nhập thành công nhưng thiếu thông tin token. Vui lòng thử lại.');
+          setErrorMessage('Đăng nhập thành công nhưng thiếu thông tin token hoặc user. Vui lòng thử lại.');
         }
       } else {
-        // Xử lý các lỗi khác từ backend (4xx, 5xx)
         if (userResponse.status === 403 && data.code === 'DEVICE_BLOCKED') {
           setErrorMessage('Thiết bị của bạn đã bị chặn đăng nhập. Vui lòng liên hệ hỗ trợ.');
           setIsLoginModalOpen(false);
@@ -194,10 +285,15 @@ export default function Navbar() {
 
   const handleLogout = () => {
     localStorage.removeItem('loggedInUserEmail');
-    localStorage.removeItem('userToken'); // Xóa token khi logout
-    setLoggedInUserEmail(null);
+    localStorage.removeItem('userToken');
+    localStorage.removeItem('userData');
+    setLoggedInUserEmail(null); // This will trigger Effect 2, then Effect 3 to set currentUser to null
     setIsUserMenuOpen(false);
-    // Tùy chọn: Gọi API /logout trên backend nếu có
+    if (pathname.startsWith('/admin')) { // Redirect from admin pages on logout
+        router.push('/'); 
+    }
+    // No explicit router.push('/') here to avoid navigation if already on a public page.
+    // Let the app's routing logic handle redirection if needed based on logged-out state.
   };
 
   const getDisplayEmail = (userEmail: string | null): string => {
@@ -252,6 +348,11 @@ export default function Navbar() {
                 </button>
                 {isUserMenuOpen && (
                   <div className={styles.userDropdown}>
+                    {currentUser && currentUser.role === 'admin' && (
+                        <Link href="/admin/dashboard" className={styles.dropdownLinkItem} onClick={() => setIsUserMenuOpen(false)}>
+                            Trang Admin
+                        </Link>
+                    )}
                     <button onClick={handleLogout} className={styles.logoutButtonDropdown}>Đăng xuất</button>
                   </div>
                 )}
@@ -280,10 +381,13 @@ export default function Navbar() {
             <li><Link href="/" onClick={closeMobileMenu} className={isActive('/') ? styles.mobileActiveLink : ''}>Trang Chủ</Link></li>
             <li><Link href="/exams" onClick={closeMobileMenu} className={isActive('/exams') ? styles.mobileActiveLink : ''}>Luyện Thi Theo Đề</Link></li>
             <li><Link href="/practice" onClick={closeMobileMenu} className={isActive('/practice') ? styles.mobileActiveLink : ''}>Luyện Thi Theo Dạng</Link></li>
-            {/* <li><Link href="/study" onClick={closeMobileMenu} className={isActive('/study') ? styles.mobileActiveLink : ''}>Phòng Học Tập</Link></li> */}
-            {/* <li><Link href="/materials" onClick={closeMobileMenu} className={isActive('/materials') ? styles.mobileActiveLink : ''}>Tài Liệu</Link></li> */}
              {loggedInUserEmail ? (
-                <li><button onClick={() => { handleLogout(); closeMobileMenu(); }} className={styles.mobileAuthButton}>Đăng xuất ({getDisplayEmail(loggedInUserEmail)})</button></li>
+                <>
+                  {currentUser && currentUser.role === 'admin' && (
+                     <li><Link href="/admin/dashboard" onClick={closeMobileMenu} className={styles.mobileAuthButton}>Trang Admin</Link></li>
+                  )}
+                  <li><button onClick={() => { handleLogout(); closeMobileMenu(); }} className={styles.mobileAuthButton}>Đăng xuất ({getDisplayEmail(loggedInUserEmail)})</button></li>
+                </>
             ) : (
                 <li><button onClick={() => { handleOpenLoginModal(); closeMobileMenu(); }} className={styles.mobileAuthButton}>Đăng nhập</button></li>
             )}
@@ -338,6 +442,7 @@ export default function Navbar() {
                         setSentCode(null);
                         setVerificationCodeInput('');
                         setErrorMessage('');
+                        // Keep email for convenience or clear it: setEmail('');
                     }}
                     disabled={isLoading}
                     className={`${styles.modalButtonSecondary} ${styles.changeEmailButton}`}
