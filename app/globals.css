@@ -129,3 +129,7 @@ h1, .examTitle {
 body.no-scroll {
   overflow: hidden;
 }
+
+
+/* styles/Exam.module.css - Phiên bản tinh chỉnh, fix lỗi ảnh dài quá */
+

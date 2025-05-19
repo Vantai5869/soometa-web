@@ -58,7 +58,7 @@ export const useHomepageSocket = (loggedInUser: LoggedInUserData | null) => {
     });
 
     socket.on('connect_error', (err: Error) => {
-      console.error('Trang chủ: Lỗi kết nối Socket:', err.message);
+    //   console.error('Trang chủ: Lỗi kết nối Socket:', err.message);
     });
 
     // Cleanup khi component unmount hoặc loggedInUser thay đổi

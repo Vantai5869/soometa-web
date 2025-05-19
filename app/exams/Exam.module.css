@@ -1,27 +1,3 @@
-/* styles/Exam.module.css - Phiên bản tinh chỉnh, fix lỗi ảnh dài quá */
-
-/* --- Base & Fonts & Variables --- */
-:root {
-  --primary-color: #0d6efd;       /* Xanh dương chính */
-  --primary-color-light: #e7f3ff; /* Xanh dương rất nhạt (nền chọn ảnh, nền sidebar chọn) */
-  --primary-color-border: #a3c7ff;/* Xanh dương viền (sidebar) */
-  --primary-color-text: #0a58ca;  /* Xanh dương chữ đậm (sidebar) */
-  --success-color: #198754;       /* Xanh lá đậm (dùng cho text/border đúng) */
-  --success-color-light: #cce8d8; /* Xanh lá nhạt hơn (nền đúng) */
-  --success-color-border: #87b99a;/* Xanh lá viền đậm vừa (sidebar) */
-  --success-color-text: #0f5132;  /* Xanh lá chữ đậm (dùng cho sidebar) */
-  --danger-color: #dc3545;        /* Đỏ đậm */
-  --danger-color-light: #f8d7da;  /* Đỏ nhạt (nền sai) */
-  --danger-color-border: #f1aeae; /* Đỏ viền (sidebar) */
-  --danger-color-text: #842029;   /* Đỏ chữ đậm */
-  --light-bg: #f8f9fa;            /* Nền xám rất nhạt */
-  --border-color: #dee2e6;        /* Màu viền mặc định */
-  --border-color-light: #f1f3f5; /* Màu viền rất nhạt */
-  --text-color: #495057;          /* Màu text phụ */
-  --text-color-main: #343a40;    /* Màu text chính */
-  --heading-color: #212529;       /* Màu tiêu đề */
-  --highlight-bg: #fff9e0;        /* Nền highlight nhẹ */
-}
 
 /* --- Main Layout (Desktop First - Sidebar bên phải) --- */
 .appContainer {
