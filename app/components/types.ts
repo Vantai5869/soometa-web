@@ -34,6 +34,7 @@ export interface Question {
   options: Option[];
   option_type?: 'image';
   fill_in_blank_marker?: string;
+  question_audio_url?: string;
 }
 
 export interface Example {
@@ -57,6 +58,7 @@ export interface InstructionGroup {
   example?: Example;
   shared_content?: SharedContent;
   questions: Question[]; // Luôn là mảng Question
+  group_audio_url?: string;
 }
 
 // Bỏ duration_minutes

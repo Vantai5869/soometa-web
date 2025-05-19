@@ -84,7 +84,7 @@ export async function generateStaticParams(): Promise<{ examId: string }[]> {
 }
 
 export default async function ExamPage({ params }: PageProps) {
-  const { examId } = params;
+  const { examId } = await params;
   const examData = await getExamData(examId);
 
   if (!examData) {
