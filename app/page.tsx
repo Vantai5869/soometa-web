@@ -65,7 +65,7 @@ export default function HomePage() {
         {/* Phần Giới Thiệu - Tinh chỉnh font và khoảng cách */}
         <div className="text-center mb-20 lg:mb-28">
           <h1 className="text-4xl lg:text-5xl font-bold tracking-tight text-gray-900 mb-6"> {/* tracking-tight cho chữ gần nhau hơn */}
-            Chào mừng đến với SooMeta
+            Chào mừng đến với TopikGo
           </h1>
           <p className="text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed"> {/* leading-relaxed cho dãn dòng */}
             Nền tảng toàn diện giúp bạn luyện thi TOPIK hiệu quả. Khám phá các tính năng luyện đề, học theo dạng bài, quản lý tiến độ và tài liệu học tập phong phú.

@@ -6,9 +6,85 @@ import './globals.css'; // Import CSS toàn cục
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Ứng Dụng Luyện Thi TOPIK',
-  description: 'Luyện thi TOPIK hiệu quả với nhiều đề thi và tài liệu hữu ích.',
-  // Thêm các meta tag khác nếu cần
+  // === THÔNG TIN CƠ BẢN CHO TOÀN TRANG WEB ===
+  title: {
+    default: 'Topikgo - Luyện Thi TOPIK Online Hiệu Quả', // Tiêu đề mặc định
+    template: '%s | Topikgo', // Mẫu tiêu đề cho các trang con, ví dụ: "Đề thi TOPIK I Nghe 제96회 | Topikgo"
+  },
+  description: 'Topikgo - Nền tảng luyện thi TOPIK I & II trực tuyến với hàng ngàn câu hỏi, đề thi thử TOPIK sát với đề thật, giải thích chi tiết và lộ trình học cá nhân hóa. Cải thiện kỹ năng Nghe, Đọc, Viết tiếng Hàn hiệu quả.',
+  keywords: ['luyện thi topik', 'topik online', 'đề thi topik', 'học tiếng hàn topik', 'topikgo', 'topik i', 'topik ii', 'đề topik mới nhất', 'eps topik'], // Từ khóa chung cho website
+
+  // === THẺ OG (OPEN GRAPH) CHO CHIA SẺ MẠNG XÃ HỘI (Facebook, Zalo,...) ===
+  openGraph: {
+    title: {
+        default: 'Topikgo - Luyện Thi TOPIK Online Hiệu Quả',
+        template: '%s | Topikgo',
+    },
+    description: 'Luyện thi TOPIK I & II hiệu quả với Topikgo. Truy cập ngay để thử sức với các đề thi mới nhất và tài liệu ôn tập phong phú!',
+    url: 'https://topikgo.com', // Tên miền của bạn
+    siteName: 'Topikgo',
+    images: [
+      {
+        url: 'https://topikgo.com/favicon.png', // URL tuyệt đối đến ảnh preview mặc định (ví dụ: logo hoặc ảnh trang chủ)
+        width: 1200,
+        height: 630,
+        alt: 'Topikgo - Luyện thi TOPIK hiệu quả',
+      },
+    ],
+    locale: 'vi_VN',
+    type: 'website',
+  },
+
+  // === THẺ TWITTER CARD CHO CHIA SẺ TRÊN TWITTER ===
+  twitter: {
+    card: 'summary_large_image', // Loại card, 'summary_large_image' thường tốt hơn
+    title: {
+        default: 'Topikgo - Luyện Thi TOPIK Online Hiệu Quả',
+        template: '%s | Topikgo',
+    },
+    description: 'Nền tảng luyện thi TOPIK toàn diện, giúp bạn tự tin chinh phục kỳ thi tiếng Hàn. Đề thi đa dạng, giải thích chi tiết.',
+    // siteId: '@YourTwitterHandle', // (Tùy chọn) Twitter handle của website
+    // creator: '@CreatorTwitterHandle', // (Tùy chọn) Twitter handle của người tạo nội dung
+    images: ['https://topikgo.com/twitter-image.png'], // URL tuyệt đối đến ảnh preview cho Twitter
+  },
+
+  // === CÁC THẺ META QUAN TRỌNG KHÁC ===
+  robots: { // Hướng dẫn robots của công cụ tìm kiếm
+    index: true, // Cho phép index trang
+    follow: true, // Cho phép theo dõi các liên kết từ trang
+    // googleBot: { // Có thể chỉ định riêng cho Googlebot nếu muốn
+    //   index: true,
+    //   follow: true,
+    //   noimageindex: true,
+    // },
+  },
+  authors: [{ name: 'Topikgo Team', url: 'https://topikgo.com' }],
+  creator: 'Topikgo Team',
+  publisher: 'Topikgo',
+
+  // Favicon - Nên đặt các file favicon trong thư mục /public
+  // Next.js có quy ước cho favicon: /public/favicon.ico, /public/icon.png, /public/apple-icon.png
+  // Hoặc bạn có thể khai báo trực tiếp ở đây nếu cần:
+  icons: {
+    icon: '/favicon.ico', // Đường dẫn tới favicon chính
+    shortcut: '/favicon.png', // (Tùy chọn)
+    apple: '/favicon.png', // (Tùy chọn) cho thiết bị Apple
+    // other: [ // (Tùy chọn)
+    //   {
+    //     rel: 'icon', // Ví dụ: các kích thước khác
+    //     url: '/icon-32x32.png',
+    //     sizes: '32x32',
+    //   },
+    // ],
+  },
+
+  // (Tùy chọn) Canonical URL cho trang chủ (nếu layout này là layout gốc)
+  // alternates: {
+  //   canonical: 'https://topikgo.com',
+  // },
+
+  // (Tùy chọn) Màu chủ đề cho trình duyệt trên thiết bị di động
+  // themeColor: '#ffffff',
 };
 
 interface RootLayoutProps {

@@ -329,7 +329,7 @@ export default function Navbar() {
       <nav className={styles.navbar} >
         <div className={styles.logo}>
           <Link href="/" className={isActive('/') ? styles.activeLink : ''}>
-            <span>SOOMETA</span>
+            <span>TopikGo</span>
           </Link>
         </div>
 
