@@ -83,11 +83,12 @@ export async function generateStaticParams(): Promise<{ examId: string }[]> {
 
 // --- HÀM GENERATE METADATA CHO SEO ĐỘNG ---
 // Next.js truyền params cho generateMetadata dưới dạng object trực tiếp
+
+
 export async function generateMetadata(
-  params: Promise<{
+  { params }: {  params: Promise<{
     examId: string;
-  }>,
-  // { params }: { params: { examId: string } }, // Kiểu dữ liệu chuẩn cho params trong generateMetadata
+  }>; }, // Kiểu dữ liệu chuẩn cho params trong generateMetadata
   parent: ResolvingMetadata
 ): Promise<Metadata> {
   const resolvedParams = await params; // Bước 1: Await `params`
