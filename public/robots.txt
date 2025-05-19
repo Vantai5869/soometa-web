@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Các thư mục hoặc file cụ thể bạn không muốn bot truy cập (ví dụ)
+# Disallow: /admin/
+# Disallow: /tmp/
+# Disallow: /api/ # Nếu bạn có API routes không muốn bị crawl trực tiếp,
+                 # mặc dù API routes trong App Router thường không tự động được coi là trang để crawl.
+
+# Cho phép các trang đề thi cụ thể (thường thì Allow: / đã bao gồm điều này,
+# nhưng có thể thêm nếu có quy tắc Disallow rộng hơn)
+# Allow: /exams/
+
+Sitemap: https://topikgo.com/sitemap.xml
