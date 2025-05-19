@@ -7,9 +7,9 @@ import type { ExamData } from '../../components/types'; // Adjust path if needed
 import crypto, { DecipherGCM } from 'crypto'; // Thêm crypto
 
 interface PageProps {
-  params: {
+  params:Promise<{ 
     examId: string;
-  };
+  }>;
 }
 
 // --- Hàm giải mã (Thêm vào đây hoặc import từ utils) ---
