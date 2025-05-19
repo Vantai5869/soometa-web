@@ -3,6 +3,7 @@
 
 import React, { useState, useRef, useEffect, useMemo } from 'react';
 import styles from './EnhancedTranscriptPlayer.module.css';
+import {transAudio} from './../../data/audio-transcript-data'
 
 export interface WordData {
   text: string;
@@ -123,11 +124,8 @@ const EnhancedTranscriptPlayer: React.FC<EnhancedTranscriptPlayerProps> = ({
       // console.log(`Component ${componentId} - Attempting to fetch transcription data for:`, audioUrl);
       try {
         // Giả sử file này nằm trong thư mục /public
-        const response = await fetch('/audio-transcript-data.json');
-        if (!response.ok) {
-          throw new Error(`Lỗi tải transcript. Status: ${response.status}`);
-        }
-        const allData: SpeechTranscriptionData[] = await response.json();
+       
+        const allData: SpeechTranscriptionData[] = transAudio;
         const matchedData = allData.find((item) => item.audio_url === audioUrl);
 
         if (matchedData) {

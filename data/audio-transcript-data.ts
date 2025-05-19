@@ -1,5 +1,6 @@
-[
-    {
+
+export const transAudio= [
+   {
       "status_script": "completed",
       "id": "09da3688-6290-407e-8149-206f34c88c43",
       "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503771/soometa/91-I-listening/38_01.mp3",
