@@ -118,10 +118,10 @@ const PracticeFilters: React.FC<PracticeFiltersProps> = ({
                             ...base,
                             minHeight: '42px',
                             // Softer border/ring on focus/hover
-                            borderColor: state.isFocused ? '#93c5fd' : (state.isHovered ? '#e5e7eb' : '#d1d5db'), // blue-300 focus, gray-200 hover, gray-300 default
+                            borderColor: state.isFocused ? '#93c5fd' : '#d1d5db', // blue-300 focus, gray-300 default
                             boxShadow: state.isFocused ? '0 0 0 1px #bfdbfe' : 'none', // blue-200 1px ring, no other shadow
                             '&:hover': {
-                                borderColor: state.isFocused ? '#93c5fd' : '#e5e7eb', // blue-300 focus hover, gray-200 default hover
+                                borderColor: '#93c5fd', // blue-300 focus hover
                             },
                             borderRadius: '0.375rem'
                         }),
