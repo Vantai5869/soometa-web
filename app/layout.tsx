@@ -1,5 +1,6 @@
 // src/app/layout.tsx
 import Footer from './components/Footer';
+import GlobalSelectionPopup from './components/GlobalSelectionPopup';
 import Navbar from './components/Navbar';
 import './globals.css'; // Import CSS toàn cục
 
@@ -17,8 +18,8 @@ export const metadata: Metadata = {
   // === THẺ OG (OPEN GRAPH) CHO CHIA SẺ MẠNG XÃ HỘI (Facebook, Zalo,...) ===
   openGraph: {
     title: {
-        default: 'Topikgo - Luyện Thi TOPIK Online Hiệu Quả',
-        template: '%s | Topikgo',
+      default: 'Topikgo - Luyện Thi TOPIK Online Hiệu Quả',
+      template: '%s | Topikgo',
     },
     description: 'Luyện thi TOPIK I & II hiệu quả với Topikgo. Truy cập ngay để thử sức với các đề thi mới nhất và tài liệu ôn tập phong phú!',
     url: 'https://topikgo.com', // Tên miền của bạn
@@ -39,8 +40,8 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image', // Loại card, 'summary_large_image' thường tốt hơn
     title: {
-        default: 'Topikgo - Luyện Thi TOPIK Online Hiệu Quả',
-        template: '%s | Topikgo',
+      default: 'Topikgo - Luyện Thi TOPIK Online Hiệu Quả',
+      template: '%s | Topikgo',
     },
     description: 'Nền tảng luyện thi TOPIK toàn diện, giúp bạn tự tin chinh phục kỳ thi tiếng Hàn. Đề thi đa dạng, giải thích chi tiết.',
     // siteId: '@YourTwitterHandle', // (Tùy chọn) Twitter handle của website
@@ -96,8 +97,12 @@ export default function RootLayout({ children }: RootLayoutProps) {
     <html lang="vi">
       <body>
         <Navbar />
-        <main>{children}</main>
+        <main
+          data-selectable-area="true" // **** CHO PHÉP BÔI ĐEN TOÀN BỘ KHỐI CÂU HỎI ****
+
+        >{children}</main>
         <Footer />
+        <GlobalSelectionPopup />
       </body>
     </html>
   );

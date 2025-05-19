@@ -53,7 +53,7 @@ const QuestionItem: React.FC<QuestionItemProps> = ({
 
     return (
         // Sử dụng cấu trúc và styling bạn cung cấp
-        <div id={`question-block-${uniqueQuestionId}`} className={`questionBlock pt-5 rounded-lg ${isChecked ? 'feedback-shown bg-gray-50' : 'bg-white'}`} data-option-type={isImageOptions ? 'image' : 'text'}>
+        <div id={`question-block-${uniqueQuestionId}`} className={`questionBlock p-2 m-2 pt-4 rounded-lg ${isChecked ? 'feedback-shown bg-gray-50' : 'bg-white'}`} data-option-type={isImageOptions ? 'image' : 'text'}>
             {/* Sử dụng cấu trúc header bạn cung cấp */}
             <div className="questionHeader md:flex  border-gray-200"> {/* Giữ nguyên styling md:flex border-gray-200 */}
                 <span className="questionNumber font-bold text-gray-800 text-[1.15em] mr-2">{question.number}.</span>
@@ -181,6 +181,7 @@ const QuestionItem: React.FC<QuestionItemProps> = ({
             )}
 
             {/* Sử dụng nút kiểm tra đáp án bạn cung cấp */}
+            
             {showCheckButton && (
                 <div className="text-center mt-4">
                     <button
