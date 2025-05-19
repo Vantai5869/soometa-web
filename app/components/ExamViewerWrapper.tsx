@@ -339,9 +339,6 @@ const ExamViewerWrapper: React.FC<ExamViewerWrapperProps> = ({ examData }) => {
           isSubmitted={isSubmitted}
           correctAnswersMap={correctAnswersMap}
           onAnswerSelect={handleAnswerSelect}
-          explanationData={explanationData}
-          onFetchTranslation={handleFetchTranslation}
-          onSendChatMessage={handleSendChatMessage}
         />
 
         <div className={`${styles.submissionArea} ${styles.mobileSubmitArea}`}>
