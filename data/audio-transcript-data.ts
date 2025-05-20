@@ -237729,6 +237729,28751 @@ export const transAudio= [
     ],
     "confidence": 0.16133334,
     "audio_duration": 78
+  },
+  {
+    "status_script": "completed",
+    "id": "29c0ea53-fc16-4622-ac91-b6c91b56517b",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732927/soometa/96-I-listening/961_01.mp3",
+    "text": "모자가 많아요?",
+    "utterances": [
+      {
+        "speaker": "A",
+        "text": "모자가 많아요?",
+        "confidence": 0.0125,
+        "start": 953,
+        "end": 5616,
+        "words": [
+          {
+            "text": "모자가",
+            "start": 953,
+            "end": 2055,
+            "confidence": 0.019,
+            "speaker": "A"
+          },
+          {
+            "text": "많아요?",
+            "start": 2616,
+            "end": 5616,
+            "confidence": 0.006,
+            "speaker": "A"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.0125,
+    "audio_duration": 15
+  },
+  {
+    "status_script": "completed",
+    "id": "38fae705-9069-4095-a34a-211cfa3fd721",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732927/soometa/96-I-listening/961_02.mp3",
+    "text": "커피를 좋아해요?",
+    "utterances": [
+      {
+        "speaker": "A",
+        "text": "커피를 좋아해요?",
+        "confidence": 0.009,
+        "start": 1020,
+        "end": 9064,
+        "words": [
+          {
+            "text": "커피를",
+            "start": 1020,
+            "end": 4020,
+            "confidence": 0.017,
+            "speaker": "A"
+          },
+          {
+            "text": "좋아해요?",
+            "start": 6064,
+            "end": 9064,
+            "confidence": 0.001,
+            "speaker": "A"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.009,
+    "audio_duration": 19
+  },
+  {
+    "status_script": "completed",
+    "id": "84cac2b8-a10b-4968-9ba7-7131e006fbc2",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732927/soometa/96-I-listening/961_03.mp3",
+    "text": "몇 시에 공항에 가요?",
+    "utterances": [
+      {
+        "speaker": "A",
+        "text": "몇 시에 공항에 가요?",
+        "confidence": 0.012,
+        "start": 8,
+        "end": 6590,
+        "words": [
+          {
+            "text": "몇",
+            "start": 8,
+            "end": 869,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "시에",
+            "start": 1209,
+            "end": 1789,
+            "confidence": 0.001,
+            "speaker": "A"
+          },
+          {
+            "text": "공항에",
+            "start": 2430,
+            "end": 3250,
+            "confidence": 0.047,
+            "speaker": "A"
+          },
+          {
+            "text": "가요?",
+            "start": 3590,
+            "end": 6590,
+            "speaker": "A",
+            "confidence": 0.0
+          }
+        ]
+      }
+    ],
+    "confidence": 0.024,
+    "audio_duration": 18
+  },
+  {
+    "status_script": "completed",
+    "id": "34a8ef18-48a3-4f32-adf7-beee4d7e0c70",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732927/soometa/96-I-listening/961_04.mp3",
+    "text": "누구하고 공부했어요?",
+    "utterances": [
+      {
+        "speaker": "A",
+        "text": "누구하고 공부했어요?",
+        "confidence": 0.0355,
+        "start": 1257,
+        "end": 6360,
+        "words": [
+          {
+            "text": "누구하고",
+            "start": 1257,
+            "end": 2759,
+            "confidence": 0.041,
+            "speaker": "A"
+          },
+          {
+            "text": "공부했어요?",
+            "start": 3360,
+            "end": 6360,
+            "confidence": 0.03,
+            "speaker": "A"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.0355,
+    "audio_duration": 19
+  },
+  {
+    "status_script": "completed",
+    "id": "cfd914c0-c6ff-4422-a2d1-5cd146abc10a",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732927/soometa/96-I-listening/961_05.mp3",
+    "text": "안녕히 가세요.",
+    "utterances": [
+      {
+        "speaker": "A",
+        "text": "안녕히 가세요.",
+        "confidence": 0.012,
+        "start": 8,
+        "end": 4992,
+        "words": [
+          {
+            "text": "안녕히",
+            "start": 8,
+            "end": 1511,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "가세요.",
+            "start": 1992,
+            "end": 4992,
+            "confidence": 0.024,
+            "speaker": "A"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.024,
+    "audio_duration": 14
+  },
+  {
+    "status_script": "completed",
+    "id": "a23f0c12-d945-4c0d-8a6d-c135da0e5263",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732927/soometa/96-I-listening/961_06.mp3",
+    "text": "잠깐만 기다리세요.",
+    "utterances": [
+      {
+        "speaker": "A",
+        "text": "잠깐만 기다리세요.",
+        "confidence": 0.009,
+        "start": 1038,
+        "end": 5862,
+        "words": [
+          {
+            "text": "잠깐만",
+            "start": 1038,
+            "end": 2140,
+            "confidence": 0.006,
+            "speaker": "A"
+          },
+          {
+            "text": "기다리세요.",
+            "start": 2862,
+            "end": 5862,
+            "confidence": 0.012,
+            "speaker": "A"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.009,
+    "audio_duration": 17
+  },
+  {
+    "status_script": "completed",
+    "id": "a67b5c89-4f1d-47d9-b16e-b4503b96caef",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732927/soometa/96-I-listening/961_07.mp3",
+    "text": "이 장미는 얼마예요? 한 송이에 2,000원입니다, 손님. 다시 들으십시오. 이 장미는 얼마예요? 한 송이에 2,000원입니다, 손님.",
+    "utterances": [
+      {
+        "speaker": "A",
+        "text": "이 장미는 얼마예요?",
+        "confidence": 0.013666667,
+        "start": 8,
+        "end": 4673,
+        "words": [
+          {
+            "text": "이",
+            "start": 8,
+            "end": 669,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "장미는",
+            "start": 929,
+            "end": 1930,
+            "confidence": 0.026,
+            "speaker": "A"
+          },
+          {
+            "text": "얼마예요?",
+            "start": 2531,
+            "end": 4673,
+            "confidence": 0.015,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "한 송이에 2,000원입니다, 손님.",
+        "confidence": 0.04525,
+        "start": 5253,
+        "end": 9718,
+        "words": [
+          {
+            "text": "한",
+            "start": 5253,
+            "end": 5413,
+            "confidence": 0.125,
+            "speaker": "B"
+          },
+          {
+            "text": "송이에",
+            "start": 5594,
+            "end": 6575,
+            "confidence": 0.003,
+            "speaker": "B"
+          },
+          {
+            "text": "2,000원입니다,",
+            "start": 7716,
+            "end": 8697,
+            "confidence": 0.034,
+            "speaker": "B"
+          },
+          {
+            "text": "손님.",
+            "start": 8957,
+            "end": 9718,
+            "confidence": 0.019,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "다시 들으십시오. 이 장미는 얼마예요?",
+        "confidence": 0.017,
+        "start": 11439,
+        "end": 19107,
+        "words": [
+          {
+            "text": "다시",
+            "start": 11439,
+            "end": 11920,
+            "confidence": 0.025,
+            "speaker": "A"
+          },
+          {
+            "text": "들으십시오.",
+            "start": 12100,
+            "end": 15083,
+            "confidence": 0.02,
+            "speaker": "A"
+          },
+          {
+            "text": "이",
+            "start": 15103,
+            "end": 15123,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "장미는",
+            "start": 15363,
+            "end": 16364,
+            "confidence": 0.024,
+            "speaker": "A"
+          },
+          {
+            "text": "얼마예요?",
+            "start": 16965,
+            "end": 19107,
+            "confidence": 0.016,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "한 송이에 2,000원입니다, 손님.",
+        "confidence": 0.09775,
+        "start": 19688,
+        "end": 23732,
+        "words": [
+          {
+            "text": "한",
+            "start": 19688,
+            "end": 19848,
+            "confidence": 0.125,
+            "speaker": "B"
+          },
+          {
+            "text": "송이에",
+            "start": 20028,
+            "end": 21009,
+            "confidence": 0.001,
+            "speaker": "B"
+          },
+          {
+            "text": "2,000원입니다,",
+            "start": 22150,
+            "end": 23131,
+            "confidence": 0.035,
+            "speaker": "B"
+          },
+          {
+            "text": "손님.",
+            "start": 23391,
+            "end": 23732,
+            "confidence": 0.23,
+            "speaker": "B"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.049857143,
+    "audio_duration": 29
+  },
+  {
+    "status_script": "completed",
+    "id": "57cc3e51-0735-409c-a60c-5f213d88ad28",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732927/soometa/96-I-listening/961_08.mp3",
+    "text": "민수 씨는 여기에서 자주 산책해요? 네, 나무가. 많아서. 자주 와요. 다시 들으십시오. 민수 씨는 여기에서 자주 산책해요? 네, 나무가. 많아서. 자주 와요.",
+    "utterances": [
+      {
+        "speaker": "A",
+        "text": "민수 씨는 여기에서 자주 산책해요?",
+        "confidence": 0.0404,
+        "start": 8,
+        "end": 7451,
+        "words": [
+          {
+            "text": "민수",
+            "start": 8,
+            "end": 1469,
+            "confidence": 0.068,
+            "speaker": "A"
+          },
+          {
+            "text": "씨는",
+            "start": 1669,
+            "end": 2229,
+            "confidence": 0.03,
+            "speaker": "A"
+          },
+          {
+            "text": "여기에서",
+            "start": 3149,
+            "end": 4410,
+            "confidence": 0.06,
+            "speaker": "A"
+          },
+          {
+            "text": "자주",
+            "start": 5010,
+            "end": 5671,
+            "confidence": 0.042,
+            "speaker": "A"
+          },
+          {
+            "text": "산책해요?",
+            "start": 6111,
+            "end": 7451,
+            "confidence": 0.002,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "네, 나무가.",
+        "confidence": 0.006,
+        "start": 8672,
+        "end": 10933,
+        "words": [
+          {
+            "text": "네,",
+            "start": 8672,
+            "end": 9032,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "나무가.",
+            "start": 10173,
+            "end": 10933,
+            "confidence": 0.012,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "C",
+        "text": "많아서.",
+        "confidence": 0.032,
+        "start": 11313,
+        "end": 12114,
+        "words": [
+          {
+            "text": "많아서.",
+            "start": 11313,
+            "end": 12114,
+            "confidence": 0.032,
+            "speaker": "C"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "자주 와요.",
+        "confidence": 0.0435,
+        "start": 12934,
+        "end": 14995,
+        "words": [
+          {
+            "text": "자주",
+            "start": 12934,
+            "end": 13474,
+            "confidence": 0.075,
+            "speaker": "B"
+          },
+          {
+            "text": "와요.",
+            "start": 13754,
+            "end": 14995,
+            "confidence": 0.012,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "다시 들으십시오. 민수 씨는 여기에서 자주 산책해요?",
+        "confidence": 0.051714286,
+        "start": 16015,
+        "end": 25760,
+        "words": [
+          {
+            "text": "다시",
+            "start": 16015,
+            "end": 16476,
+            "confidence": 0.002,
+            "speaker": "A"
+          },
+          {
+            "text": "들으십시오.",
+            "start": 16676,
+            "end": 17656,
+            "confidence": 0.031,
+            "speaker": "A"
+          },
+          {
+            "text": "민수",
+            "start": 19377,
+            "end": 19917,
+            "confidence": 0.088,
+            "speaker": "A"
+          },
+          {
+            "text": "씨는",
+            "start": 20117,
+            "end": 20678,
+            "confidence": 0.03,
+            "speaker": "A"
+          },
+          {
+            "text": "여기에서",
+            "start": 21578,
+            "end": 22859,
+            "confidence": 0.06,
+            "speaker": "A"
+          },
+          {
+            "text": "자주",
+            "start": 23459,
+            "end": 24119,
+            "confidence": 0.032,
+            "speaker": "A"
+          },
+          {
+            "text": "산책해요?",
+            "start": 24559,
+            "end": 25760,
+            "confidence": 0.119,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "네, 나무가.",
+        "confidence": 0.008,
+        "start": 26958,
+        "end": 29343,
+        "words": [
+          {
+            "text": "네,",
+            "start": 26958,
+            "end": 27479,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "나무가.",
+            "start": 28601,
+            "end": 29343,
+            "confidence": 0.016,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "C",
+        "text": "많아서.",
+        "confidence": 0.033,
+        "start": 29743,
+        "end": 30545,
+        "words": [
+          {
+            "text": "많아서.",
+            "start": 29743,
+            "end": 30545,
+            "confidence": 0.033,
+            "speaker": "C"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "자주 와요.",
+        "confidence": 0.278,
+        "start": 31366,
+        "end": 32729,
+        "words": [
+          {
+            "text": "자주",
+            "start": 31366,
+            "end": 31907,
+            "confidence": 0.05,
+            "speaker": "B"
+          },
+          {
+            "text": "와요.",
+            "start": 32168,
+            "end": 32729,
+            "confidence": 0.506,
+            "speaker": "B"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.065,
+    "audio_duration": 38
+  },
+  {
+    "status_script": "completed",
+    "id": "1fe8ea2c-76b6-4e3f-bab6-3705320cb3f0",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732927/soometa/96-I-listening/961_09.mp3",
+    "text": "손님, 어디가 아파서 오셨어요? 머리가 좀 아파서요. 다시 들으십시오. 손님, 어디가 아파서 오셨어요? 머리가 좀 아파서요.",
+    "utterances": [
+      {
+        "speaker": "A",
+        "text": "손님, 어디가 아파서 오셨어요?",
+        "confidence": 0.03625,
+        "start": 1392,
+        "end": 7836,
+        "words": [
+          {
+            "text": "손님,",
+            "start": 1392,
+            "end": 2152,
+            "confidence": 0.036,
+            "speaker": "A"
+          },
+          {
+            "text": "어디가",
+            "start": 3233,
+            "end": 3953,
+            "confidence": 0.085,
+            "speaker": "A"
+          },
+          {
+            "text": "아파서",
+            "start": 3973,
+            "end": 5354,
+            "confidence": 0.019,
+            "speaker": "A"
+          },
+          {
+            "text": "오셨어요?",
+            "start": 5775,
+            "end": 7836,
+            "confidence": 0.005,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "머리가 좀 아파서요. 다시 들으십시오.",
+        "confidence": 0.0294,
+        "start": 8336,
+        "end": 16901,
+        "words": [
+          {
+            "text": "머리가",
+            "start": 8336,
+            "end": 9277,
+            "confidence": 0.067,
+            "speaker": "B"
+          },
+          {
+            "text": "좀",
+            "start": 9757,
+            "end": 10217,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "아파서요.",
+            "start": 10597,
+            "end": 13597,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "다시",
+            "start": 13659,
+            "end": 14119,
+            "confidence": 0.048,
+            "speaker": "B"
+          },
+          {
+            "text": "들으십시오.",
+            "start": 14299,
+            "end": 16901,
+            "confidence": 0.032,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "손님, 어디가 아파서 오셨어요?",
+        "confidence": 0.04325,
+        "start": 17121,
+        "end": 23405,
+        "words": [
+          {
+            "text": "손님,",
+            "start": 17121,
+            "end": 17721,
+            "confidence": 0.066,
+            "speaker": "A"
+          },
+          {
+            "text": "어디가",
+            "start": 18782,
+            "end": 19522,
+            "confidence": 0.084,
+            "speaker": "A"
+          },
+          {
+            "text": "아파서",
+            "start": 19823,
+            "end": 20923,
+            "confidence": 0.019,
+            "speaker": "A"
+          },
+          {
+            "text": "오셨어요?",
+            "start": 21343,
+            "end": 23405,
+            "confidence": 0.004,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "머리가 좀 아파서요.",
+        "confidence": 0.105,
+        "start": 23905,
+        "end": 27447,
+        "words": [
+          {
+            "text": "머리가",
+            "start": 23905,
+            "end": 24825,
+            "confidence": 0.065,
+            "speaker": "B"
+          },
+          {
+            "text": "좀",
+            "start": 25306,
+            "end": 26166,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "아파서요.",
+            "start": 26226,
+            "end": 27447,
+            "confidence": 0.25,
+            "speaker": "B"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.06,
+    "audio_duration": 32
+  },
+  {
+    "status_script": "completed",
+    "id": "7e27b060-1bde-4aff-a6bb-91374c54d3a1",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732927/soometa/96-I-listening/961_10.mp3",
+    "text": "저 책상을 사러 왔는데요. 네, 책상은 이쪽에 있습니다. 다시 들으십시오. 저 책상을 사러 왔는데요. 네, 책상은 이쪽에 있습니다.",
+    "utterances": [
+      {
+        "speaker": "A",
+        "text": "저 책상을 사러 왔는데요.",
+        "confidence": 0.04075,
+        "start": 1493,
+        "end": 6375,
+        "words": [
+          {
+            "text": "저",
+            "start": 1493,
+            "end": 2053,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "책상을",
+            "start": 2854,
+            "end": 3834,
+            "confidence": 0.057,
+            "speaker": "A"
+          },
+          {
+            "text": "사러",
+            "start": 4454,
+            "end": 4974,
+            "confidence": 0.056,
+            "speaker": "A"
+          },
+          {
+            "text": "왔는데요.",
+            "start": 5195,
+            "end": 6375,
+            "confidence": 0.05,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "네, 책상은 이쪽에 있습니다.",
+        "confidence": 0.02225,
+        "start": 7996,
+        "end": 15279,
+        "words": [
+          {
+            "text": "네,",
+            "start": 7996,
+            "end": 8376,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "책상은",
+            "start": 9556,
+            "end": 10277,
+            "confidence": 0.03,
+            "speaker": "B"
+          },
+          {
+            "text": "이쪽에",
+            "start": 11077,
+            "end": 11957,
+            "confidence": 0.002,
+            "speaker": "B"
+          },
+          {
+            "text": "있습니다.",
+            "start": 12418,
+            "end": 15279,
+            "confidence": 0.057,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "다시 들으십시오. 저 책상을 사러 왔는데요.",
+        "confidence": 0.03533333,
+        "start": 15299,
+        "end": 23442,
+        "words": [
+          {
+            "text": "다시",
+            "start": 15299,
+            "end": 15759,
+            "confidence": 0.02,
+            "speaker": "A"
+          },
+          {
+            "text": "들으십시오.",
+            "start": 15939,
+            "end": 18660,
+            "confidence": 0.031,
+            "speaker": "A"
+          },
+          {
+            "text": "저",
+            "start": 18680,
+            "end": 19120,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "책상을",
+            "start": 19921,
+            "end": 20901,
+            "confidence": 0.057,
+            "speaker": "A"
+          },
+          {
+            "text": "사러",
+            "start": 21521,
+            "end": 22042,
+            "confidence": 0.054,
+            "speaker": "A"
+          },
+          {
+            "text": "왔는데요.",
+            "start": 22262,
+            "end": 23442,
+            "confidence": 0.05,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "네, 책상은 이쪽에 있습니다.",
+        "confidence": 0.0825,
+        "start": 25063,
+        "end": 30485,
+        "words": [
+          {
+            "text": "네,",
+            "start": 25063,
+            "end": 25443,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "책상은",
+            "start": 26623,
+            "end": 27344,
+            "confidence": 0.029,
+            "speaker": "B"
+          },
+          {
+            "text": "이쪽에",
+            "start": 28144,
+            "end": 29024,
+            "confidence": 0.001,
+            "speaker": "B"
+          },
+          {
+            "text": "있습니다.",
+            "start": 29485,
+            "end": 30485,
+            "confidence": 0.3,
+            "speaker": "B"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.056714285,
+    "audio_duration": 36
+  },
+  {
+    "status_script": "completed",
+    "id": "7c9902b8-d436-4b5b-affa-ef67c43d7ea0",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732927/soometa/96-I-listening/961_11.mp3",
+    "text": "안녕하세요. 저는 김민수입니다. 저는 이지영입니다. 다시 들으십시오. 안녕하세요. 저는 김민수입니다. 저는 이지영입니다.",
+    "utterances": [
+      {
+        "speaker": "A",
+        "text": "안녕하세요. 저는 김민수입니다.",
+        "confidence": 0.064333335,
+        "start": 8,
+        "end": 6853,
+        "words": [
+          {
+            "text": "안녕하세요.",
+            "start": 8,
+            "end": 1889,
+            "confidence": 0.042,
+            "speaker": "A"
+          },
+          {
+            "text": "저는",
+            "start": 3010,
+            "end": 3431,
+            "confidence": 0.097,
+            "speaker": "A"
+          },
+          {
+            "text": "김민수입니다.",
+            "start": 4391,
+            "end": 6853,
+            "confidence": 0.054,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "저는 이지영입니다. 다시 들으십시오.",
+        "confidence": 0.02025,
+        "start": 7354,
+        "end": 13478,
+        "words": [
+          {
+            "text": "저는",
+            "start": 7354,
+            "end": 7834,
+            "confidence": 0.026,
+            "speaker": "B"
+          },
+          {
+            "text": "이지영입니다.",
+            "start": 8675,
+            "end": 11675,
+            "confidence": 0.01,
+            "speaker": "B"
+          },
+          {
+            "text": "다시",
+            "start": 12597,
+            "end": 12637,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "들으십시오.",
+            "start": 12798,
+            "end": 13478,
+            "confidence": 0.045,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "안녕하세요. 저는 김민수입니다.",
+        "confidence": 0.06633333,
+        "start": 15500,
+        "end": 22282,
+        "words": [
+          {
+            "text": "안녕하세요.",
+            "start": 15500,
+            "end": 16761,
+            "confidence": 0.065,
+            "speaker": "A"
+          },
+          {
+            "text": "저는",
+            "start": 17901,
+            "end": 18322,
+            "confidence": 0.097,
+            "speaker": "A"
+          },
+          {
+            "text": "김민수입니다.",
+            "start": 19282,
+            "end": 22282,
+            "confidence": 0.037,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "저는 이지영입니다.",
+        "confidence": 0.0835,
+        "start": 23085,
+        "end": 25287,
+        "words": [
+          {
+            "text": "저는",
+            "start": 23085,
+            "end": 23706,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "이지영입니다.",
+            "start": 23726,
+            "end": 25287,
+            "confidence": 0.167,
+            "speaker": "B"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.064,
+    "audio_duration": 32
+  },
+  {
+    "status_script": "completed",
+    "id": "6148bf05-0a3c-426e-8406-cb19b4a53d4a",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732927/soometa/96-I-listening/961_12.mp3",
+    "text": "우리 어디에서 만날까요? 학교 앞 카페는 어때요? 다시 들으십시오. 우리 어디에서 만날까요? 학교 앞 카페는 어때요?",
+    "utterances": [
+      {
+        "speaker": "A",
+        "text": "우리 어디에서 만날까요?",
+        "confidence": 0.123333335,
+        "start": 8,
+        "end": 5229,
+        "words": [
+          {
+            "text": "우리",
+            "start": 8,
+            "end": 708,
+            "confidence": 0.025,
+            "speaker": "A"
+          },
+          {
+            "text": "어디에서",
+            "start": 1408,
+            "end": 2609,
+            "confidence": 0.068,
+            "speaker": "A"
+          },
+          {
+            "text": "만날까요?",
+            "start": 3149,
+            "end": 5229,
+            "confidence": 0.277,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "학교 앞 카페는 어때요?",
+        "confidence": 0.02475,
+        "start": 5569,
+        "end": 10411,
+        "words": [
+          {
+            "text": "학교",
+            "start": 5569,
+            "end": 6390,
+            "confidence": 0.048,
+            "speaker": "B"
+          },
+          {
+            "text": "앞",
+            "start": 6410,
+            "end": 6430,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "카페는",
+            "start": 6950,
+            "end": 7710,
+            "confidence": 0.031,
+            "speaker": "B"
+          },
+          {
+            "text": "어때요?",
+            "start": 8130,
+            "end": 10411,
+            "confidence": 0.02,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "다시 들으십시오. 우리 어디에서 만날까요?",
+        "confidence": 0.103,
+        "start": 10731,
+        "end": 19193,
+        "words": [
+          {
+            "text": "다시",
+            "start": 10731,
+            "end": 11211,
+            "confidence": 0.046,
+            "speaker": "A"
+          },
+          {
+            "text": "들으십시오.",
+            "start": 11391,
+            "end": 13592,
+            "confidence": 0.043,
+            "speaker": "A"
+          },
+          {
+            "text": "우리",
+            "start": 14072,
+            "end": 14652,
+            "confidence": 0.08,
+            "speaker": "A"
+          },
+          {
+            "text": "어디에서",
+            "start": 15352,
+            "end": 16552,
+            "confidence": 0.068,
+            "speaker": "A"
+          },
+          {
+            "text": "만날까요?",
+            "start": 17092,
+            "end": 19193,
+            "confidence": 0.278,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "학교 앞 카페는 어때요?",
+        "confidence": 0.1035,
+        "start": 19513,
+        "end": 22874,
+        "words": [
+          {
+            "text": "학교",
+            "start": 19513,
+            "end": 20333,
+            "confidence": 0.03,
+            "speaker": "B"
+          },
+          {
+            "text": "앞",
+            "start": 20353,
+            "end": 20373,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "카페는",
+            "start": 20893,
+            "end": 21654,
+            "confidence": 0.031,
+            "speaker": "B"
+          },
+          {
+            "text": "어때요?",
+            "start": 22074,
+            "end": 22874,
+            "confidence": 0.353,
+            "speaker": "B"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.099857144,
+    "audio_duration": 27
+  },
+  {
+    "status_script": "completed",
+    "id": "bfb99816-bfb6-445b-b169-11f80f9fdeec",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732927/soometa/96-I-listening/961_13.mp3",
+    "text": "수미 씨, 내일 쉬어요? 네, 토요일이라서 회사에 안 가요. 다시 들으십시오. 수미 씨, 내일 쉬어요? 네, 토요일이라서 회사에 안 가요.",
+    "utterances": [
+      {
+        "speaker": "A",
+        "text": "수미 씨, 내일 쉬어요?",
+        "confidence": 0.003,
+        "start": 532,
+        "end": 4415,
+        "words": [
+          {
+            "text": "수미",
+            "start": 532,
+            "end": 912,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "씨,",
+            "start": 1252,
+            "end": 1433,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "내일",
+            "start": 2413,
+            "end": 2894,
+            "confidence": 0.012,
+            "speaker": "A"
+          },
+          {
+            "text": "쉬어요?",
+            "start": 3494,
+            "end": 4415,
+            "speaker": "A",
+            "confidence": 0.0
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "네, 토요일이라서 회사에 안 가요. 다시 들으십시오.",
+        "confidence": 0.10657143,
+        "start": 5475,
+        "end": 15742,
+        "words": [
+          {
+            "text": "네,",
+            "start": 5475,
+            "end": 5795,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "토요일이라서",
+            "start": 6876,
+            "end": 8377,
+            "confidence": 0.012,
+            "speaker": "B"
+          },
+          {
+            "text": "회사에",
+            "start": 8397,
+            "end": 9878,
+            "confidence": 0.03,
+            "speaker": "B"
+          },
+          {
+            "text": "안",
+            "start": 10238,
+            "end": 10398,
+            "confidence": 0.125,
+            "speaker": "B"
+          },
+          {
+            "text": "가요.",
+            "start": 10558,
+            "end": 12500,
+            "confidence": 0.499,
+            "speaker": "B"
+          },
+          {
+            "text": "다시",
+            "start": 12960,
+            "end": 13420,
+            "confidence": 0.046,
+            "speaker": "B"
+          },
+          {
+            "text": "들으십시오.",
+            "start": 13600,
+            "end": 15742,
+            "confidence": 0.034,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "수미 씨, 내일 쉬어요?",
+        "confidence": 0.01,
+        "start": 16382,
+        "end": 21426,
+        "words": [
+          {
+            "text": "수미",
+            "start": 16382,
+            "end": 16642,
+            "confidence": 0.004,
+            "speaker": "A"
+          },
+          {
+            "text": "씨,",
+            "start": 16903,
+            "end": 17063,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "내일",
+            "start": 18043,
+            "end": 18524,
+            "confidence": 0.001,
+            "speaker": "A"
+          },
+          {
+            "text": "쉬어요?",
+            "start": 19144,
+            "end": 21426,
+            "confidence": 0.035,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "네, 토요일이라서 회사에 안 가요.",
+        "confidence": 0.1324,
+        "start": 21446,
+        "end": 26789,
+        "words": [
+          {
+            "text": "네,",
+            "start": 21446,
+            "end": 21466,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "토요일이라서",
+            "start": 22506,
+            "end": 24027,
+            "confidence": 0.009,
+            "speaker": "B"
+          },
+          {
+            "text": "회사에",
+            "start": 24708,
+            "end": 25528,
+            "confidence": 0.024,
+            "speaker": "B"
+          },
+          {
+            "text": "안",
+            "start": 25868,
+            "end": 26049,
+            "confidence": 0.111,
+            "speaker": "B"
+          },
+          {
+            "text": "가요.",
+            "start": 26209,
+            "end": 26789,
+            "confidence": 0.518,
+            "speaker": "B"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.10428572,
+    "audio_duration": 30
+  },
+  {
+    "status_script": "completed",
+    "id": "ccc55054-808c-44cf-9f87-ac4104dafb82",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732927/soometa/96-I-listening/961_14.mp3",
+    "text": "민수 씨는 봄이 좋아요, 가을이. 좋아요? 저는 봄이 더 좋아요. 다시 들으십시오. 민수 씨는 봄이 좋아요, 가을이. 좋아요? 저는 봄이 더 좋아요.",
+    "utterances": [
+      {
+        "speaker": "A",
+        "text": "민수 씨는 봄이 좋아요, 가을이.",
+        "confidence": 0.0374,
+        "start": 1156,
+        "end": 6340,
+        "words": [
+          {
+            "text": "민수",
+            "start": 1156,
+            "end": 1656,
+            "confidence": 0.1,
+            "speaker": "A"
+          },
+          {
+            "text": "씨는",
+            "start": 1857,
+            "end": 2317,
+            "confidence": 0.028,
+            "speaker": "A"
+          },
+          {
+            "text": "봄이",
+            "start": 3238,
+            "end": 3798,
+            "confidence": 0.038,
+            "speaker": "A"
+          },
+          {
+            "text": "좋아요,",
+            "start": 4078,
+            "end": 4919,
+            "confidence": 0.02,
+            "speaker": "A"
+          },
+          {
+            "text": "가을이.",
+            "start": 5639,
+            "end": 6340,
+            "confidence": 0.001,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "좋아요?",
+        "confidence": 0.001,
+        "start": 6660,
+        "end": 8281,
+        "words": [
+          {
+            "text": "좋아요?",
+            "start": 6660,
+            "end": 8281,
+            "confidence": 0.001,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "C",
+        "text": "저는 봄이 더 좋아요.",
+        "confidence": 0.05575,
+        "start": 8722,
+        "end": 13545,
+        "words": [
+          {
+            "text": "저는",
+            "start": 8722,
+            "end": 9182,
+            "confidence": 0.091,
+            "speaker": "C"
+          },
+          {
+            "text": "봄이",
+            "start": 9983,
+            "end": 10463,
+            "confidence": 0.056,
+            "speaker": "C"
+          },
+          {
+            "text": "더",
+            "start": 10663,
+            "end": 11003,
+            "confidence": 0.059,
+            "speaker": "C"
+          },
+          {
+            "text": "좋아요.",
+            "start": 11324,
+            "end": 13545,
+            "confidence": 0.017,
+            "speaker": "C"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "다시 들으십시오. 민수 씨는 봄이 좋아요, 가을이.",
+        "confidence": 0.035,
+        "start": 13965,
+        "end": 22432,
+        "words": [
+          {
+            "text": "다시",
+            "start": 13965,
+            "end": 14426,
+            "confidence": 0.003,
+            "speaker": "A"
+          },
+          {
+            "text": "들으십시오.",
+            "start": 14626,
+            "end": 15607,
+            "confidence": 0.032,
+            "speaker": "A"
+          },
+          {
+            "text": "민수",
+            "start": 17328,
+            "end": 17768,
+            "confidence": 0.114,
+            "speaker": "A"
+          },
+          {
+            "text": "씨는",
+            "start": 17948,
+            "end": 18409,
+            "confidence": 0.035,
+            "speaker": "A"
+          },
+          {
+            "text": "봄이",
+            "start": 19329,
+            "end": 19890,
+            "confidence": 0.038,
+            "speaker": "A"
+          },
+          {
+            "text": "좋아요,",
+            "start": 20170,
+            "end": 21011,
+            "confidence": 0.021,
+            "speaker": "A"
+          },
+          {
+            "text": "가을이.",
+            "start": 21731,
+            "end": 22432,
+            "confidence": 0.002,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "좋아요?",
+        "confidence": 0.002,
+        "start": 22772,
+        "end": 24393,
+        "words": [
+          {
+            "text": "좋아요?",
+            "start": 22772,
+            "end": 24393,
+            "confidence": 0.002,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "C",
+        "text": "저는 봄이 더 좋아요.",
+        "confidence": 0.12425,
+        "start": 24814,
+        "end": 28156,
+        "words": [
+          {
+            "text": "저는",
+            "start": 24814,
+            "end": 25274,
+            "confidence": 0.091,
+            "speaker": "C"
+          },
+          {
+            "text": "봄이",
+            "start": 26074,
+            "end": 26575,
+            "confidence": 0.05,
+            "speaker": "C"
+          },
+          {
+            "text": "더",
+            "start": 26775,
+            "end": 27095,
+            "confidence": 0.006,
+            "speaker": "C"
+          },
+          {
+            "text": "좋아요.",
+            "start": 27415,
+            "end": 28156,
+            "confidence": 0.35,
+            "speaker": "C"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.0525,
+    "audio_duration": 33
+  },
+  {
+    "status_script": "completed",
+    "id": "dada1cc7-a069-4238-aa89-eb24b7cf585d",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732927/soometa/96-I-listening/961_15.mp3",
+    "text": "어서 오세요, 손님. 뭘 도와드릴까요? 남자. 옷은 몇 층에 있어요? 다시 들으십시오. 어서 오세요, 손님. 뭘 도와드릴까요? 남자. 옷은 몇 층에 있어요?",
+    "utterances": [
+      {
+        "speaker": "A",
+        "text": "어서 오세요, 손님. 뭘 도와드릴까요?",
+        "confidence": 0.009,
+        "start": 835,
+        "end": 5819,
+        "words": [
+          {
+            "text": "어서",
+            "start": 835,
+            "end": 1395,
+            "confidence": 0.042,
+            "speaker": "A"
+          },
+          {
+            "text": "오세요,",
+            "start": 1416,
+            "end": 2056,
+            "confidence": 0.001,
+            "speaker": "A"
+          },
+          {
+            "text": "손님.",
+            "start": 2236,
+            "end": 2757,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "뭘",
+            "start": 3858,
+            "end": 4238,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "도와드릴까요?",
+            "start": 4478,
+            "end": 5819,
+            "confidence": 0.002,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "남자.",
+        "confidence": 0.055,
+        "start": 7121,
+        "end": 7821,
+        "words": [
+          {
+            "text": "남자.",
+            "start": 7121,
+            "end": 7821,
+            "confidence": 0.055,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "C",
+        "text": "옷은 몇 층에 있어요?",
+        "confidence": 0.045,
+        "start": 8080,
+        "end": 12926,
+        "words": [
+          {
+            "text": "옷은",
+            "start": 8080,
+            "end": 8582,
+            "confidence": 0.013,
+            "speaker": "C"
+          },
+          {
+            "text": "몇",
+            "start": 9423,
+            "end": 9563,
+            "confidence": 0.138,
+            "speaker": "C"
+          },
+          {
+            "text": "층에",
+            "start": 9803,
+            "end": 10303,
+            "speaker": "C",
+            "confidence": 0.0
+          },
+          {
+            "text": "있어요?",
+            "start": 10624,
+            "end": 12926,
+            "confidence": 0.029,
+            "speaker": "C"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "다시 들으십시오. 어서 오세요, 손님. 뭘 도와드릴까요?",
+        "confidence": 0.016,
+        "start": 13126,
+        "end": 21373,
+        "words": [
+          {
+            "text": "다시",
+            "start": 13126,
+            "end": 13586,
+            "confidence": 0.052,
+            "speaker": "A"
+          },
+          {
+            "text": "들으십시오.",
+            "start": 13786,
+            "end": 16529,
+            "confidence": 0.003,
+            "speaker": "A"
+          },
+          {
+            "text": "어서",
+            "start": 16549,
+            "end": 16929,
+            "confidence": 0.044,
+            "speaker": "A"
+          },
+          {
+            "text": "오세요,",
+            "start": 16949,
+            "end": 17590,
+            "confidence": 0.001,
+            "speaker": "A"
+          },
+          {
+            "text": "손님.",
+            "start": 17770,
+            "end": 18310,
+            "confidence": 0.011,
+            "speaker": "A"
+          },
+          {
+            "text": "뭘",
+            "start": 19391,
+            "end": 19792,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "도와드릴까요?",
+            "start": 20012,
+            "end": 21373,
+            "confidence": 0.001,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "남자.",
+        "confidence": 0.055,
+        "start": 22654,
+        "end": 23355,
+        "words": [
+          {
+            "text": "남자.",
+            "start": 22654,
+            "end": 23355,
+            "confidence": 0.055,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "C",
+        "text": "옷은 몇 층에 있어요?",
+        "confidence": 0.12875,
+        "start": 23615,
+        "end": 26958,
+        "words": [
+          {
+            "text": "옷은",
+            "start": 23615,
+            "end": 24136,
+            "confidence": 0.014,
+            "speaker": "C"
+          },
+          {
+            "text": "몇",
+            "start": 24976,
+            "end": 25096,
+            "confidence": 0.153,
+            "speaker": "C"
+          },
+          {
+            "text": "층에",
+            "start": 25337,
+            "end": 25837,
+            "speaker": "C",
+            "confidence": 0.0
+          },
+          {
+            "text": "있어요?",
+            "start": 26157,
+            "end": 26958,
+            "confidence": 0.348,
+            "speaker": "C"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.056588236,
+    "audio_duration": 34
+  },
+  {
+    "status_script": "completed",
+    "id": "3055fd9b-521a-4872-bb06-dc77f3796b20",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732927/soometa/96-I-listening/961_16.mp3",
+    "text": "수미 씨, 이 사진 여기에 걸까요? 조금 더 위에 걸어주세요. 다시 들으십시오. 수미 씨, 이 사진 여기에 걸까요? 음... 조금 더 위에 걸어주세요.",
+    "utterances": [
+      {
+        "speaker": "A",
+        "text": "수미 씨, 이 사진 여기에 걸까요?",
+        "confidence": 0.058666665,
+        "start": 363,
+        "end": 7784,
+        "words": [
+          {
+            "text": "수미",
+            "start": 363,
+            "end": 723,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "씨,",
+            "start": 1022,
+            "end": 1283,
+            "confidence": 0.042,
+            "speaker": "A"
+          },
+          {
+            "text": "이",
+            "start": 2204,
+            "end": 2344,
+            "confidence": 0.143,
+            "speaker": "A"
+          },
+          {
+            "text": "사진",
+            "start": 2504,
+            "end": 3064,
+            "confidence": 0.073,
+            "speaker": "A"
+          },
+          {
+            "text": "여기에",
+            "start": 3844,
+            "end": 4564,
+            "confidence": 0.074,
+            "speaker": "A"
+          },
+          {
+            "text": "걸까요?",
+            "start": 4784,
+            "end": 7784,
+            "confidence": 0.02,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "조금 더 위에 걸어주세요. 다시 들으십시오.",
+        "confidence": 0.030166667,
+        "start": 8986,
+        "end": 17888,
+        "words": [
+          {
+            "text": "조금",
+            "start": 8986,
+            "end": 9506,
+            "confidence": 0.046,
+            "speaker": "B"
+          },
+          {
+            "text": "더",
+            "start": 10006,
+            "end": 10366,
+            "confidence": 0.013,
+            "speaker": "B"
+          },
+          {
+            "text": "위에",
+            "start": 10726,
+            "end": 11286,
+            "confidence": 0.045,
+            "speaker": "B"
+          },
+          {
+            "text": "걸어주세요.",
+            "start": 11686,
+            "end": 14686,
+            "confidence": 0.021,
+            "speaker": "B"
+          },
+          {
+            "text": "다시",
+            "start": 15047,
+            "end": 15488,
+            "confidence": 0.024,
+            "speaker": "B"
+          },
+          {
+            "text": "들으십시오.",
+            "start": 15688,
+            "end": 17888,
+            "confidence": 0.032,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "수미 씨, 이 사진 여기에 걸까요?",
+        "confidence": 0.111666664,
+        "start": 18508,
+        "end": 23650,
+        "words": [
+          {
+            "text": "수미",
+            "start": 18508,
+            "end": 18709,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "씨,",
+            "start": 18989,
+            "end": 19249,
+            "confidence": 0.056,
+            "speaker": "A"
+          },
+          {
+            "text": "이",
+            "start": 20169,
+            "end": 20309,
+            "confidence": 0.143,
+            "speaker": "A"
+          },
+          {
+            "text": "사진",
+            "start": 20469,
+            "end": 21029,
+            "confidence": 0.038,
+            "speaker": "A"
+          },
+          {
+            "text": "여기에",
+            "start": 21809,
+            "end": 22530,
+            "confidence": 0.069,
+            "speaker": "A"
+          },
+          {
+            "text": "걸까요?",
+            "start": 22750,
+            "end": 23650,
+            "confidence": 0.364,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "음... 조금 더 위에 걸어주세요.",
+        "confidence": 0.0794,
+        "start": 24950,
+        "end": 31177,
+        "words": [
+          {
+            "text": "음...",
+            "start": 24950,
+            "end": 25831,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "조금",
+            "start": 26952,
+            "end": 27513,
+            "confidence": 0.073,
+            "speaker": "B"
+          },
+          {
+            "text": "더",
+            "start": 27973,
+            "end": 28314,
+            "confidence": 0.059,
+            "speaker": "B"
+          },
+          {
+            "text": "위에",
+            "start": 28674,
+            "end": 29255,
+            "confidence": 0.038,
+            "speaker": "B"
+          },
+          {
+            "text": "걸어주세요.",
+            "start": 29655,
+            "end": 31177,
+            "confidence": 0.227,
+            "speaker": "B"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.08,
+    "audio_duration": 34
+  },
+  {
+    "status_script": "completed",
+    "id": "190a21e6-ef61-4dd2-824d-ad21bb648f2d",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732927/soometa/96-I-listening/961_17.mp3",
+    "text": "내일 시험 끝나고 주말에 뭐 할 거예요? 부모님을 만나러. 고향에 가려고 해요. 수미 씨는요? 전 그냥 집에서 책도 보고 푹 쉬려고요. 다시 들으십시오. 내일 시험 끝나고 주말에 뭐 할 거예요? 부모님을 만나러 고향에. 가려고 해요. 수미 씨는요? 전 그냥 집에서 책도 보고 푹 쉬려고요.",
+    "utterances": [
+      {
+        "speaker": "A",
+        "text": "내일 시험 끝나고 주말에 뭐 할 거예요?",
+        "confidence": 0.054857142,
+        "start": 650,
+        "end": 7716,
+        "words": [
+          {
+            "text": "내일",
+            "start": 650,
+            "end": 1311,
+            "confidence": 0.026,
+            "speaker": "A"
+          },
+          {
+            "text": "시험",
+            "start": 1931,
+            "end": 2271,
+            "confidence": 0.07,
+            "speaker": "A"
+          },
+          {
+            "text": "끝나고",
+            "start": 2492,
+            "end": 3312,
+            "confidence": 0.075,
+            "speaker": "A"
+          },
+          {
+            "text": "주말에",
+            "start": 4073,
+            "end": 4874,
+            "confidence": 0.062,
+            "speaker": "A"
+          },
+          {
+            "text": "뭐",
+            "start": 5354,
+            "end": 5554,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "할",
+            "start": 5715,
+            "end": 5875,
+            "confidence": 0.125,
+            "speaker": "A"
+          },
+          {
+            "text": "거예요?",
+            "start": 6055,
+            "end": 7716,
+            "confidence": 0.026,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "C",
+        "text": "부모님을 만나러.",
+        "confidence": 0.0535,
+        "start": 8096,
+        "end": 10199,
+        "words": [
+          {
+            "text": "부모님을",
+            "start": 8096,
+            "end": 9098,
+            "confidence": 0.054,
+            "speaker": "C"
+          },
+          {
+            "text": "만나러.",
+            "start": 9478,
+            "end": 10199,
+            "confidence": 0.053,
+            "speaker": "C"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "고향에 가려고 해요. 수미 씨는요?",
+        "confidence": 0.0268,
+        "start": 10219,
+        "end": 17145,
+        "words": [
+          {
+            "text": "고향에",
+            "start": 10219,
+            "end": 11860,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "가려고",
+            "start": 12321,
+            "end": 12861,
+            "confidence": 0.104,
+            "speaker": "B"
+          },
+          {
+            "text": "해요.",
+            "start": 13001,
+            "end": 14182,
+            "confidence": 0.03,
+            "speaker": "B"
+          },
+          {
+            "text": "수미",
+            "start": 14623,
+            "end": 14883,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "씨는요?",
+            "start": 15043,
+            "end": 17145,
+            "speaker": "B",
+            "confidence": 0.0
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "전 그냥 집에서 책도 보고 푹 쉬려고요. 다시 들으십시오. 내일 시험 끝나고 주말에 뭐 할 거예요?",
+        "confidence": 0.0543125,
+        "start": 17165,
+        "end": 35790,
+        "words": [
+          {
+            "text": "전",
+            "start": 17165,
+            "end": 17185,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "그냥",
+            "start": 17926,
+            "end": 18386,
+            "confidence": 0.061,
+            "speaker": "A"
+          },
+          {
+            "text": "집에서",
+            "start": 18746,
+            "end": 19527,
+            "confidence": 0.061,
+            "speaker": "A"
+          },
+          {
+            "text": "책도",
+            "start": 20128,
+            "end": 20668,
+            "confidence": 0.088,
+            "speaker": "A"
+          },
+          {
+            "text": "보고",
+            "start": 20848,
+            "end": 21369,
+            "confidence": 0.048,
+            "speaker": "A"
+          },
+          {
+            "text": "푹",
+            "start": 22069,
+            "end": 22290,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "쉬려고요.",
+            "start": 22870,
+            "end": 23751,
+            "confidence": 0.026,
+            "speaker": "A"
+          },
+          {
+            "text": "다시",
+            "start": 25553,
+            "end": 25993,
+            "confidence": 0.092,
+            "speaker": "A"
+          },
+          {
+            "text": "들으십시오.",
+            "start": 26193,
+            "end": 27174,
+            "confidence": 0.141,
+            "speaker": "A"
+          },
+          {
+            "text": "내일",
+            "start": 28763,
+            "end": 29444,
+            "confidence": 0.026,
+            "speaker": "A"
+          },
+          {
+            "text": "시험",
+            "start": 30064,
+            "end": 30405,
+            "confidence": 0.05,
+            "speaker": "A"
+          },
+          {
+            "text": "끝나고",
+            "start": 30625,
+            "end": 31446,
+            "confidence": 0.074,
+            "speaker": "A"
+          },
+          {
+            "text": "주말에",
+            "start": 32207,
+            "end": 32987,
+            "confidence": 0.059,
+            "speaker": "A"
+          },
+          {
+            "text": "뭐",
+            "start": 33488,
+            "end": 33688,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "할",
+            "start": 33828,
+            "end": 34008,
+            "confidence": 0.111,
+            "speaker": "A"
+          },
+          {
+            "text": "거예요?",
+            "start": 34189,
+            "end": 35790,
+            "confidence": 0.032,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "C",
+        "text": "부모님을 만나러 고향에.",
+        "confidence": 0.034666665,
+        "start": 36231,
+        "end": 39995,
+        "words": [
+          {
+            "text": "부모님을",
+            "start": 36231,
+            "end": 37232,
+            "confidence": 0.051,
+            "speaker": "C"
+          },
+          {
+            "text": "만나러",
+            "start": 37612,
+            "end": 38353,
+            "confidence": 0.053,
+            "speaker": "C"
+          },
+          {
+            "text": "고향에.",
+            "start": 39234,
+            "end": 39995,
+            "speaker": "C",
+            "confidence": 0.0
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "가려고 해요. 수미 씨는요?",
+        "confidence": 0.03875,
+        "start": 40455,
+        "end": 45280,
+        "words": [
+          {
+            "text": "가려고",
+            "start": 40455,
+            "end": 40996,
+            "confidence": 0.121,
+            "speaker": "B"
+          },
+          {
+            "text": "해요.",
+            "start": 41136,
+            "end": 42237,
+            "confidence": 0.03,
+            "speaker": "B"
+          },
+          {
+            "text": "수미",
+            "start": 42757,
+            "end": 43018,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "씨는요?",
+            "start": 43178,
+            "end": 45280,
+            "confidence": 0.004,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "전 그냥 집에서 책도 보고 푹 쉬려고요.",
+        "confidence": 0.083142854,
+        "start": 45300,
+        "end": 51967,
+        "words": [
+          {
+            "text": "전",
+            "start": 45300,
+            "end": 45320,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "그냥",
+            "start": 46061,
+            "end": 46521,
+            "confidence": 0.091,
+            "speaker": "A"
+          },
+          {
+            "text": "집에서",
+            "start": 46882,
+            "end": 47663,
+            "confidence": 0.061,
+            "speaker": "A"
+          },
+          {
+            "text": "책도",
+            "start": 48243,
+            "end": 48804,
+            "confidence": 0.088,
+            "speaker": "A"
+          },
+          {
+            "text": "보고",
+            "start": 48984,
+            "end": 49484,
+            "confidence": 0.05,
+            "speaker": "A"
+          },
+          {
+            "text": "푹",
+            "start": 49504,
+            "end": 49524,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "쉬려고요.",
+            "start": 51006,
+            "end": 51967,
+            "confidence": 0.292,
+            "speaker": "A"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.070757575,
+    "audio_duration": 58
+  },
+  {
+    "status_script": "completed",
+    "id": "7f27baed-6b74-4a80-8ba5-54d60969a283",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732927/soometa/96-I-listening/961_18.mp3",
+    "text": "어제 수미 씨 결혼식에 다녀왔어요? 네, 결혼식에서 수미 씨가 한복을 입었는데 정말 예뻤어요. 저도 가고 싶었는데 일이 많아서 못 갔어요. 제가 결혼식에서 사진을 많이 찍었는데 보여줄까요? 다시 들으십시오. 어제 수미 씨 결혼식에 다녀왔어요? 네, 결혼식에서 수미 씨가 한복을 입었는데 정말 예뻤어요. 저도 가고 싶었는데 일이 많아서 못 갔어요. 제가 결혼식에서 사진을 많이 찍었는데 보여줄까요?",
+    "utterances": [
+      {
+        "speaker": "A",
+        "text": "어제 수미 씨 결혼식에 다녀왔어요?",
+        "confidence": 0.0114,
+        "start": 1409,
+        "end": 7675,
+        "words": [
+          {
+            "text": "어제",
+            "start": 1409,
+            "end": 1990,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "수미",
+            "start": 2670,
+            "end": 3491,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "씨",
+            "start": 3511,
+            "end": 3531,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "결혼식에",
+            "start": 3811,
+            "end": 4772,
+            "confidence": 0.028,
+            "speaker": "A"
+          },
+          {
+            "text": "다녀왔어요?",
+            "start": 5213,
+            "end": 7675,
+            "confidence": 0.029,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "네, 결혼식에서 수미 씨가 한복을 입었는데 정말 예뻤어요.",
+        "confidence": 0.024625,
+        "start": 7695,
+        "end": 18745,
+        "words": [
+          {
+            "text": "네,",
+            "start": 7695,
+            "end": 8095,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "결혼식에서",
+            "start": 8956,
+            "end": 10237,
+            "confidence": 0.034,
+            "speaker": "B"
+          },
+          {
+            "text": "수미",
+            "start": 11038,
+            "end": 11298,
+            "confidence": 0.001,
+            "speaker": "B"
+          },
+          {
+            "text": "씨가",
+            "start": 11479,
+            "end": 11979,
+            "confidence": 0.03,
+            "speaker": "B"
+          },
+          {
+            "text": "한복을",
+            "start": 12520,
+            "end": 13300,
+            "confidence": 0.049,
+            "speaker": "B"
+          },
+          {
+            "text": "입었는데",
+            "start": 13561,
+            "end": 14561,
+            "confidence": 0.055,
+            "speaker": "B"
+          },
+          {
+            "text": "정말",
+            "start": 15362,
+            "end": 16003,
+            "confidence": 0.014,
+            "speaker": "B"
+          },
+          {
+            "text": "예뻤어요.",
+            "start": 16363,
+            "end": 18745,
+            "confidence": 0.014,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "저도 가고 싶었는데 일이 많아서 못 갔어요.",
+        "confidence": 0.085,
+        "start": 18986,
+        "end": 25672,
+        "words": [
+          {
+            "text": "저도",
+            "start": 18986,
+            "end": 19566,
+            "confidence": 0.034,
+            "speaker": "A"
+          },
+          {
+            "text": "가고",
+            "start": 19987,
+            "end": 20327,
+            "confidence": 0.105,
+            "speaker": "A"
+          },
+          {
+            "text": "싶었는데",
+            "start": 20547,
+            "end": 21528,
+            "confidence": 0.038,
+            "speaker": "A"
+          },
+          {
+            "text": "일이",
+            "start": 22489,
+            "end": 22929,
+            "confidence": 0.077,
+            "speaker": "A"
+          },
+          {
+            "text": "많아서",
+            "start": 23090,
+            "end": 23970,
+            "confidence": 0.04,
+            "speaker": "A"
+          },
+          {
+            "text": "못",
+            "start": 24451,
+            "end": 24471,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "갔어요.",
+            "start": 24791,
+            "end": 25672,
+            "confidence": 0.301,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "제가 결혼식에서 사진을 많이 찍었는데 보여줄까요? 다시 들으십시오.",
+        "confidence": 0.074375,
+        "start": 27076,
+        "end": 40530,
+        "words": [
+          {
+            "text": "제가",
+            "start": 27076,
+            "end": 27877,
+            "confidence": 0.024,
+            "speaker": "B"
+          },
+          {
+            "text": "결혼식에서",
+            "start": 28598,
+            "end": 29959,
+            "confidence": 0.078,
+            "speaker": "B"
+          },
+          {
+            "text": "사진을",
+            "start": 30800,
+            "end": 31541,
+            "confidence": 0.084,
+            "speaker": "B"
+          },
+          {
+            "text": "많이",
+            "start": 31961,
+            "end": 32462,
+            "confidence": 0.082,
+            "speaker": "B"
+          },
+          {
+            "text": "찍었는데",
+            "start": 32741,
+            "end": 33743,
+            "confidence": 0.067,
+            "speaker": "B"
+          },
+          {
+            "text": "보여줄까요?",
+            "start": 34584,
+            "end": 37387,
+            "confidence": 0.221,
+            "speaker": "B"
+          },
+          {
+            "text": "다시",
+            "start": 37687,
+            "end": 38168,
+            "confidence": 0.007,
+            "speaker": "B"
+          },
+          {
+            "text": "들으십시오.",
+            "start": 38348,
+            "end": 40530,
+            "confidence": 0.032,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "어제 수미 씨 결혼식에 다녀왔어요?",
+        "confidence": 0.0582,
+        "start": 41011,
+        "end": 45976,
+        "words": [
+          {
+            "text": "어제",
+            "start": 41011,
+            "end": 41551,
+            "confidence": 0.043,
+            "speaker": "A"
+          },
+          {
+            "text": "수미",
+            "start": 42212,
+            "end": 43033,
+            "confidence": 0.001,
+            "speaker": "A"
+          },
+          {
+            "text": "씨",
+            "start": 43053,
+            "end": 43073,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "결혼식에",
+            "start": 43373,
+            "end": 44294,
+            "confidence": 0.01,
+            "speaker": "A"
+          },
+          {
+            "text": "다녀왔어요?",
+            "start": 44735,
+            "end": 45976,
+            "confidence": 0.237,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "네, 결혼식에서 수미 씨가 한복을 입었는데 정말 예뻤어요.",
+        "confidence": 0.077,
+        "start": 47090,
+        "end": 58133,
+        "words": [
+          {
+            "text": "네,",
+            "start": 47090,
+            "end": 47610,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "결혼식에서",
+            "start": 48430,
+            "end": 49731,
+            "confidence": 0.081,
+            "speaker": "B"
+          },
+          {
+            "text": "수미",
+            "start": 50531,
+            "end": 50811,
+            "confidence": 0.022,
+            "speaker": "B"
+          },
+          {
+            "text": "씨가",
+            "start": 50991,
+            "end": 51491,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "한복을",
+            "start": 52011,
+            "end": 52792,
+            "confidence": 0.061,
+            "speaker": "B"
+          },
+          {
+            "text": "입었는데",
+            "start": 53052,
+            "end": 54092,
+            "confidence": 0.054,
+            "speaker": "B"
+          },
+          {
+            "text": "정말",
+            "start": 54852,
+            "end": 55492,
+            "confidence": 0.062,
+            "speaker": "B"
+          },
+          {
+            "text": "예뻤어요.",
+            "start": 55872,
+            "end": 58133,
+            "confidence": 0.336,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "저도 가고 싶었는데 일이 많아서 못 갔어요.",
+        "confidence": 0.029857144,
+        "start": 58493,
+        "end": 66315,
+        "words": [
+          {
+            "text": "저도",
+            "start": 58493,
+            "end": 59053,
+            "confidence": 0.034,
+            "speaker": "A"
+          },
+          {
+            "text": "가고",
+            "start": 59493,
+            "end": 59834,
+            "confidence": 0.08,
+            "speaker": "A"
+          },
+          {
+            "text": "싶었는데",
+            "start": 60054,
+            "end": 61034,
+            "confidence": 0.019,
+            "speaker": "A"
+          },
+          {
+            "text": "일이",
+            "start": 61994,
+            "end": 62414,
+            "confidence": 0.032,
+            "speaker": "A"
+          },
+          {
+            "text": "많아서",
+            "start": 62574,
+            "end": 63475,
+            "confidence": 0.001,
+            "speaker": "A"
+          },
+          {
+            "text": "못",
+            "start": 63955,
+            "end": 64015,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "갔어요.",
+            "start": 64295,
+            "end": 66315,
+            "confidence": 0.043,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "제가 결혼식에서 사진을 많이 찍었는데 보여줄까요?",
+        "confidence": 0.101333335,
+        "start": 66696,
+        "end": 75538,
+        "words": [
+          {
+            "text": "제가",
+            "start": 66696,
+            "end": 67376,
+            "confidence": 0.06,
+            "speaker": "B"
+          },
+          {
+            "text": "결혼식에서",
+            "start": 68116,
+            "end": 69476,
+            "confidence": 0.079,
+            "speaker": "B"
+          },
+          {
+            "text": "사진을",
+            "start": 70317,
+            "end": 71037,
+            "confidence": 0.086,
+            "speaker": "B"
+          },
+          {
+            "text": "많이",
+            "start": 71477,
+            "end": 71977,
+            "confidence": 0.084,
+            "speaker": "B"
+          },
+          {
+            "text": "찍었는데",
+            "start": 72277,
+            "end": 73257,
+            "confidence": 0.074,
+            "speaker": "B"
+          },
+          {
+            "text": "보여줄까요?",
+            "start": 74098,
+            "end": 75538,
+            "confidence": 0.225,
+            "speaker": "B"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.0704,
+    "audio_duration": 79
+  },
+  {
+    "status_script": "completed",
+    "id": "ef4f6222-e9db-42c4-9f03-c46848eab389",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732927/soometa/96-I-listening/961_19.mp3",
+    "text": "민수 씨, 일찍 왔네요. 오늘도 자전거로. 출근했어요? 네, 따로 운동할 시간이 없어서 자전거를 타고 왔어요. 그렇게 하면 운동이 많이 돼요? 저도 요즘 운동을. 자주 못해서요. 네, 생각보다 운동도 많이 되고 아침마다 기분도 좋아요. 다시 들으십시오. 민수 씨, 일찍 왔네요? 오늘도 자전거로 출근했어요? 네, 따로 운동할 시간이 없어서 자전거를 타고 왔어요. 그렇게 하면 운동이 많이 돼요? 저도 요즘 운동을 자주 못해서요. 네, 생각보다 운동도 많이 되고 아침마다 기분도 좋아요.",
+    "utterances": [
+      {
+        "speaker": "A",
+        "text": "민수 씨, 일찍 왔네요. 오늘도 자전거로.",
+        "confidence": 0.017166667,
+        "start": 8,
+        "end": 6915,
+        "words": [
+          {
+            "text": "민수",
+            "start": 8,
+            "end": 1349,
+            "confidence": 0.016,
+            "speaker": "A"
+          },
+          {
+            "text": "씨,",
+            "start": 1369,
+            "end": 1389,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "일찍",
+            "start": 2150,
+            "end": 2671,
+            "confidence": 0.001,
+            "speaker": "A"
+          },
+          {
+            "text": "왔네요.",
+            "start": 2851,
+            "end": 4212,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "오늘도",
+            "start": 4653,
+            "end": 5493,
+            "confidence": 0.067,
+            "speaker": "A"
+          },
+          {
+            "text": "자전거로.",
+            "start": 5994,
+            "end": 6915,
+            "confidence": 0.019,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "출근했어요? 네, 따로 운동할 시간이 없어서 자전거를 타고 왔어요.",
+        "confidence": 0.05088889,
+        "start": 7235,
+        "end": 20108,
+        "words": [
+          {
+            "text": "출근했어요?",
+            "start": 7235,
+            "end": 10235,
+            "confidence": 0.042,
+            "speaker": "B"
+          },
+          {
+            "text": "네,",
+            "start": 10859,
+            "end": 10899,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "따로",
+            "start": 11299,
+            "end": 11779,
+            "confidence": 0.055,
+            "speaker": "B"
+          },
+          {
+            "text": "운동할",
+            "start": 12260,
+            "end": 13021,
+            "confidence": 0.079,
+            "speaker": "B"
+          },
+          {
+            "text": "시간이",
+            "start": 13281,
+            "end": 13882,
+            "confidence": 0.107,
+            "speaker": "B"
+          },
+          {
+            "text": "없어서",
+            "start": 14102,
+            "end": 15483,
+            "confidence": 0.02,
+            "speaker": "B"
+          },
+          {
+            "text": "자전거를",
+            "start": 15823,
+            "end": 16724,
+            "confidence": 0.091,
+            "speaker": "B"
+          },
+          {
+            "text": "타고",
+            "start": 17225,
+            "end": 17665,
+            "confidence": 0.041,
+            "speaker": "B"
+          },
+          {
+            "text": "왔어요.",
+            "start": 17925,
+            "end": 20108,
+            "confidence": 0.023,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "그렇게 하면 운동이 많이 돼요? 저도 요즘 운동을.",
+        "confidence": 0.100375,
+        "start": 20128,
+        "end": 28918,
+        "words": [
+          {
+            "text": "그렇게",
+            "start": 20128,
+            "end": 20748,
+            "confidence": 0.111,
+            "speaker": "A"
+          },
+          {
+            "text": "하면",
+            "start": 20908,
+            "end": 21429,
+            "confidence": 0.055,
+            "speaker": "A"
+          },
+          {
+            "text": "운동이",
+            "start": 22270,
+            "end": 23131,
+            "confidence": 0.066,
+            "speaker": "A"
+          },
+          {
+            "text": "많이",
+            "start": 23531,
+            "end": 23891,
+            "confidence": 0.02,
+            "speaker": "A"
+          },
+          {
+            "text": "돼요?",
+            "start": 24051,
+            "end": 24592,
+            "confidence": 0.446,
+            "speaker": "A"
+          },
+          {
+            "text": "저도",
+            "start": 25777,
+            "end": 26477,
+            "confidence": 0.023,
+            "speaker": "A"
+          },
+          {
+            "text": "요즘",
+            "start": 27057,
+            "end": 27577,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "운동을.",
+            "start": 28237,
+            "end": 28918,
+            "confidence": 0.082,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "자주 못해서요. 네, 생각보다 운동도 많이 되고 아침마다 기분도 좋아요.",
+        "confidence": 0.0487,
+        "start": 29318,
+        "end": 43980,
+        "words": [
+          {
+            "text": "자주",
+            "start": 29318,
+            "end": 29718,
+            "confidence": 0.063,
+            "speaker": "B"
+          },
+          {
+            "text": "못해서요.",
+            "start": 29858,
+            "end": 32858,
+            "confidence": 0.014,
+            "speaker": "B"
+          },
+          {
+            "text": "네,",
+            "start": 32878,
+            "end": 32898,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "생각보다",
+            "start": 34038,
+            "end": 34979,
+            "confidence": 0.068,
+            "speaker": "B"
+          },
+          {
+            "text": "운동도",
+            "start": 35619,
+            "end": 36519,
+            "confidence": 0.067,
+            "speaker": "B"
+          },
+          {
+            "text": "많이",
+            "start": 36899,
+            "end": 37379,
+            "confidence": 0.068,
+            "speaker": "B"
+          },
+          {
+            "text": "되고",
+            "start": 37559,
+            "end": 38739,
+            "confidence": 0.044,
+            "speaker": "B"
+          },
+          {
+            "text": "아침마다",
+            "start": 39039,
+            "end": 39919,
+            "confidence": 0.094,
+            "speaker": "B"
+          },
+          {
+            "text": "기분도",
+            "start": 39939,
+            "end": 41340,
+            "confidence": 0.052,
+            "speaker": "B"
+          },
+          {
+            "text": "좋아요.",
+            "start": 41720,
+            "end": 43980,
+            "confidence": 0.017,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "다시 들으십시오. 민수 씨, 일찍 왔네요? 오늘도 자전거로 출근했어요?",
+        "confidence": 0.048333332,
+        "start": 44320,
+        "end": 55642,
+        "words": [
+          {
+            "text": "다시",
+            "start": 44320,
+            "end": 44800,
+            "confidence": 0.05,
+            "speaker": "A"
+          },
+          {
+            "text": "들으십시오.",
+            "start": 44980,
+            "end": 45860,
+            "confidence": 0.032,
+            "speaker": "A"
+          },
+          {
+            "text": "민수",
+            "start": 47661,
+            "end": 48561,
+            "confidence": 0.044,
+            "speaker": "A"
+          },
+          {
+            "text": "씨,",
+            "start": 48581,
+            "end": 48601,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "일찍",
+            "start": 49361,
+            "end": 49881,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "왔네요?",
+            "start": 50041,
+            "end": 51401,
+            "confidence": 0.018,
+            "speaker": "A"
+          },
+          {
+            "text": "오늘도",
+            "start": 51861,
+            "end": 52702,
+            "confidence": 0.065,
+            "speaker": "A"
+          },
+          {
+            "text": "자전거로",
+            "start": 53182,
+            "end": 54122,
+            "confidence": 0.021,
+            "speaker": "A"
+          },
+          {
+            "text": "출근했어요?",
+            "start": 54422,
+            "end": 55642,
+            "confidence": 0.205,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "네, 따로 운동할 시간이 없어서 자전거를 타고 왔어요.",
+        "confidence": 0.057625,
+        "start": 57029,
+        "end": 66975,
+        "words": [
+          {
+            "text": "네,",
+            "start": 57029,
+            "end": 57509,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "따로",
+            "start": 58490,
+            "end": 58990,
+            "confidence": 0.058,
+            "speaker": "B"
+          },
+          {
+            "text": "운동할",
+            "start": 59470,
+            "end": 60211,
+            "confidence": 0.081,
+            "speaker": "B"
+          },
+          {
+            "text": "시간이",
+            "start": 60471,
+            "end": 61071,
+            "confidence": 0.106,
+            "speaker": "B"
+          },
+          {
+            "text": "없어서",
+            "start": 61292,
+            "end": 62552,
+            "confidence": 0.046,
+            "speaker": "B"
+          },
+          {
+            "text": "자전거를",
+            "start": 63013,
+            "end": 63913,
+            "confidence": 0.091,
+            "speaker": "B"
+          },
+          {
+            "text": "타고",
+            "start": 64414,
+            "end": 64854,
+            "confidence": 0.056,
+            "speaker": "B"
+          },
+          {
+            "text": "왔어요.",
+            "start": 65114,
+            "end": 66975,
+            "confidence": 0.023,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "그렇게 하면 운동이 많이 돼요? 저도 요즘 운동을 자주 못해서요.",
+        "confidence": 0.073,
+        "start": 67315,
+        "end": 78342,
+        "words": [
+          {
+            "text": "그렇게",
+            "start": 67315,
+            "end": 67936,
+            "confidence": 0.107,
+            "speaker": "A"
+          },
+          {
+            "text": "하면",
+            "start": 68096,
+            "end": 68616,
+            "confidence": 0.078,
+            "speaker": "A"
+          },
+          {
+            "text": "운동이",
+            "start": 69457,
+            "end": 70317,
+            "confidence": 0.065,
+            "speaker": "A"
+          },
+          {
+            "text": "많이",
+            "start": 70717,
+            "end": 71078,
+            "confidence": 0.004,
+            "speaker": "A"
+          },
+          {
+            "text": "돼요?",
+            "start": 71238,
+            "end": 72659,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "저도",
+            "start": 73099,
+            "end": 73679,
+            "confidence": 0.028,
+            "speaker": "A"
+          },
+          {
+            "text": "요즘",
+            "start": 74280,
+            "end": 74780,
+            "confidence": 0.07,
+            "speaker": "A"
+          },
+          {
+            "text": "운동을",
+            "start": 75440,
+            "end": 76141,
+            "confidence": 0.087,
+            "speaker": "A"
+          },
+          {
+            "text": "자주",
+            "start": 76541,
+            "end": 76941,
+            "confidence": 0.029,
+            "speaker": "A"
+          },
+          {
+            "text": "못해서요.",
+            "start": 77081,
+            "end": 78342,
+            "confidence": 0.262,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "네, 생각보다 운동도 많이 되고 아침마다 기분도 좋아요.",
+        "confidence": 0.10325,
+        "start": 79507,
+        "end": 89750,
+        "words": [
+          {
+            "text": "네,",
+            "start": 79507,
+            "end": 80108,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "생각보다",
+            "start": 81231,
+            "end": 82193,
+            "confidence": 0.086,
+            "speaker": "B"
+          },
+          {
+            "text": "운동도",
+            "start": 82814,
+            "end": 83736,
+            "confidence": 0.064,
+            "speaker": "B"
+          },
+          {
+            "text": "많이",
+            "start": 84117,
+            "end": 84598,
+            "confidence": 0.087,
+            "speaker": "B"
+          },
+          {
+            "text": "되고",
+            "start": 84799,
+            "end": 85280,
+            "confidence": 0.085,
+            "speaker": "B"
+          },
+          {
+            "text": "아침마다",
+            "start": 86262,
+            "end": 87164,
+            "confidence": 0.069,
+            "speaker": "B"
+          },
+          {
+            "text": "기분도",
+            "start": 87846,
+            "end": 88567,
+            "confidence": 0.085,
+            "speaker": "B"
+          },
+          {
+            "text": "좋아요.",
+            "start": 88948,
+            "end": 89750,
+            "confidence": 0.35,
+            "speaker": "B"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.074189655,
+    "audio_duration": 95
+  },
+  {
+    "status_script": "completed",
+    "id": "7c885573-e133-41fc-a8dd-c8ed4eeb6f05",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732927/soometa/96-I-listening/961_20.mp3",
+    "text": "와, 이 그림 멋있네요. 수미 씨가 직접 그린 거예요? 네, 요즘 그림 그리는 걸 인터넷으로 배우고 있어요. 그래요? 저도 그림에 관심이 많은데 어떤 영상을 봐야 돼요? 인터넷에 쉽게 가르쳐주는 영상이 많아요. 제가 알려줄게요. 다시 들으십시오. 와, 이 그림 멋있네요. 수미 씨가 직접 그린 거예요? 네, 요즘 그림 그리는 걸 인터넷으로 배우고 있어요. 그래요? 저도 그림에 관심이 많은데 어떤 영상을 봐야 돼요? 인터넷에 쉽게 가르쳐주는 영상이 많아요. 제가 알려줄게요.",
+    "utterances": [
+      {
+        "speaker": "B",
+        "text": "와, 이 그림 멋있네요. 수미 씨가 직접 그린 거예요?",
+        "confidence": 0.074,
+        "start": 700,
+        "end": 10182,
+        "words": [
+          {
+            "text": "와,",
+            "start": 700,
+            "end": 1100,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "이",
+            "start": 2180,
+            "end": 2400,
+            "confidence": 0.044,
+            "speaker": "B"
+          },
+          {
+            "text": "그림",
+            "start": 2600,
+            "end": 3080,
+            "confidence": 0.042,
+            "speaker": "B"
+          },
+          {
+            "text": "멋있네요.",
+            "start": 3781,
+            "end": 5381,
+            "confidence": 0.014,
+            "speaker": "B"
+          },
+          {
+            "text": "수미",
+            "start": 5901,
+            "end": 6121,
+            "confidence": 0.027,
+            "speaker": "B"
+          },
+          {
+            "text": "씨가",
+            "start": 6361,
+            "end": 6781,
+            "confidence": 0.079,
+            "speaker": "B"
+          },
+          {
+            "text": "직접",
+            "start": 7481,
+            "end": 7981,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "그린",
+            "start": 8241,
+            "end": 8661,
+            "confidence": 0.099,
+            "speaker": "B"
+          },
+          {
+            "text": "거예요?",
+            "start": 8781,
+            "end": 10182,
+            "confidence": 0.361,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "네, 요즘 그림 그리는 걸 인터넷으로 배우고 있어요.",
+        "confidence": 0.023875,
+        "start": 10702,
+        "end": 19743,
+        "words": [
+          {
+            "text": "네,",
+            "start": 10702,
+            "end": 11122,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "요즘",
+            "start": 11902,
+            "end": 12442,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "그림",
+            "start": 13262,
+            "end": 13742,
+            "confidence": 0.015,
+            "speaker": "A"
+          },
+          {
+            "text": "그리는",
+            "start": 13962,
+            "end": 14842,
+            "confidence": 0.041,
+            "speaker": "A"
+          },
+          {
+            "text": "걸",
+            "start": 14862,
+            "end": 14882,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "인터넷으로",
+            "start": 15503,
+            "end": 16623,
+            "confidence": 0.025,
+            "speaker": "A"
+          },
+          {
+            "text": "배우고",
+            "start": 17043,
+            "end": 17663,
+            "confidence": 0.064,
+            "speaker": "A"
+          },
+          {
+            "text": "있어요.",
+            "start": 17783,
+            "end": 19743,
+            "confidence": 0.046,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "그래요? 저도 그림에 관심이 많은데 어떤 영상을 봐야 돼요?",
+        "confidence": 0.09855556,
+        "start": 20183,
+        "end": 29385,
+        "words": [
+          {
+            "text": "그래요?",
+            "start": 20183,
+            "end": 21544,
+            "confidence": 0.049,
+            "speaker": "B"
+          },
+          {
+            "text": "저도",
+            "start": 21964,
+            "end": 22444,
+            "confidence": 0.043,
+            "speaker": "B"
+          },
+          {
+            "text": "그림에",
+            "start": 23064,
+            "end": 23704,
+            "confidence": 0.089,
+            "speaker": "B"
+          },
+          {
+            "text": "관심이",
+            "start": 23944,
+            "end": 24704,
+            "confidence": 0.091,
+            "speaker": "B"
+          },
+          {
+            "text": "많은데",
+            "start": 24824,
+            "end": 26184,
+            "confidence": 0.054,
+            "speaker": "B"
+          },
+          {
+            "text": "어떤",
+            "start": 26504,
+            "end": 27045,
+            "confidence": 0.084,
+            "speaker": "B"
+          },
+          {
+            "text": "영상을",
+            "start": 27265,
+            "end": 28145,
+            "confidence": 0.071,
+            "speaker": "B"
+          },
+          {
+            "text": "봐야",
+            "start": 28385,
+            "end": 28765,
+            "confidence": 0.1,
+            "speaker": "B"
+          },
+          {
+            "text": "돼요?",
+            "start": 28945,
+            "end": 29385,
+            "confidence": 0.306,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "인터넷에 쉽게 가르쳐주는 영상이 많아요. 제가 알려줄게요. 다시 들으십시오.",
+        "confidence": 0.053888887,
+        "start": 30704,
+        "end": 45987,
+        "words": [
+          {
+            "text": "인터넷에",
+            "start": 30704,
+            "end": 31904,
+            "confidence": 0.032,
+            "speaker": "A"
+          },
+          {
+            "text": "쉽게",
+            "start": 32744,
+            "end": 33385,
+            "confidence": 0.032,
+            "speaker": "A"
+          },
+          {
+            "text": "가르쳐주는",
+            "start": 33585,
+            "end": 34625,
+            "confidence": 0.095,
+            "speaker": "A"
+          },
+          {
+            "text": "영상이",
+            "start": 34965,
+            "end": 35745,
+            "confidence": 0.078,
+            "speaker": "A"
+          },
+          {
+            "text": "많아요.",
+            "start": 36065,
+            "end": 36865,
+            "confidence": 0.043,
+            "speaker": "A"
+          },
+          {
+            "text": "제가",
+            "start": 38026,
+            "end": 38566,
+            "confidence": 0.075,
+            "speaker": "A"
+          },
+          {
+            "text": "알려줄게요.",
+            "start": 39186,
+            "end": 41986,
+            "confidence": 0.035,
+            "speaker": "A"
+          },
+          {
+            "text": "다시",
+            "start": 42326,
+            "end": 42807,
+            "confidence": 0.074,
+            "speaker": "A"
+          },
+          {
+            "text": "들으십시오.",
+            "start": 42987,
+            "end": 45987,
+            "confidence": 0.021,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "와, 이 그림 멋있네요. 수미 씨가 직접 그린 거예요?",
+        "confidence": 0.058222223,
+        "start": 46067,
+        "end": 54329,
+        "words": [
+          {
+            "text": "와,",
+            "start": 46067,
+            "end": 46087,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "이",
+            "start": 47107,
+            "end": 47308,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "그림",
+            "start": 47528,
+            "end": 47988,
+            "confidence": 0.038,
+            "speaker": "B"
+          },
+          {
+            "text": "멋있네요.",
+            "start": 48728,
+            "end": 49748,
+            "confidence": 0.002,
+            "speaker": "B"
+          },
+          {
+            "text": "수미",
+            "start": 50828,
+            "end": 51008,
+            "confidence": 0.001,
+            "speaker": "B"
+          },
+          {
+            "text": "씨가",
+            "start": 51308,
+            "end": 51748,
+            "confidence": 0.002,
+            "speaker": "B"
+          },
+          {
+            "text": "직접",
+            "start": 52429,
+            "end": 52929,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "그린",
+            "start": 53189,
+            "end": 53609,
+            "confidence": 0.1,
+            "speaker": "B"
+          },
+          {
+            "text": "거예요?",
+            "start": 53729,
+            "end": 54329,
+            "confidence": 0.381,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "네, 요즘 그림 그리는 걸 인터넷으로 배우고 있어요.",
+        "confidence": 0.049375,
+        "start": 55510,
+        "end": 64678,
+        "words": [
+          {
+            "text": "네,",
+            "start": 55510,
+            "end": 56050,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "요즘",
+            "start": 56831,
+            "end": 57372,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "그림",
+            "start": 58192,
+            "end": 58673,
+            "confidence": 0.079,
+            "speaker": "A"
+          },
+          {
+            "text": "그리는",
+            "start": 58893,
+            "end": 59313,
+            "confidence": 0.149,
+            "speaker": "A"
+          },
+          {
+            "text": "걸",
+            "start": 59453,
+            "end": 59774,
+            "confidence": 0.025,
+            "speaker": "A"
+          },
+          {
+            "text": "인터넷으로",
+            "start": 60454,
+            "end": 61555,
+            "confidence": 0.034,
+            "speaker": "A"
+          },
+          {
+            "text": "배우고",
+            "start": 61975,
+            "end": 62596,
+            "confidence": 0.065,
+            "speaker": "A"
+          },
+          {
+            "text": "있어요.",
+            "start": 62716,
+            "end": 64678,
+            "confidence": 0.043,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "그래요? 저도 그림에 관심이 많은데 어떤 영상을 봐야 돼요?",
+        "confidence": 0.11733333,
+        "start": 65117,
+        "end": 74326,
+        "words": [
+          {
+            "text": "그래요?",
+            "start": 65117,
+            "end": 66159,
+            "confidence": 0.041,
+            "speaker": "B"
+          },
+          {
+            "text": "저도",
+            "start": 66900,
+            "end": 67380,
+            "confidence": 0.05,
+            "speaker": "B"
+          },
+          {
+            "text": "그림에",
+            "start": 68001,
+            "end": 68641,
+            "confidence": 0.083,
+            "speaker": "B"
+          },
+          {
+            "text": "관심이",
+            "start": 68881,
+            "end": 69642,
+            "confidence": 0.072,
+            "speaker": "B"
+          },
+          {
+            "text": "많은데",
+            "start": 69762,
+            "end": 71123,
+            "confidence": 0.04,
+            "speaker": "B"
+          },
+          {
+            "text": "어떤",
+            "start": 71444,
+            "end": 71984,
+            "confidence": 0.084,
+            "speaker": "B"
+          },
+          {
+            "text": "영상을",
+            "start": 72204,
+            "end": 73085,
+            "confidence": 0.072,
+            "speaker": "B"
+          },
+          {
+            "text": "봐야",
+            "start": 73345,
+            "end": 73725,
+            "confidence": 0.1,
+            "speaker": "B"
+          },
+          {
+            "text": "돼요?",
+            "start": 73886,
+            "end": 74326,
+            "confidence": 0.514,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "인터넷에 쉽게 가르쳐주는 영상이 많아요. 제가 알려줄게요.",
+        "confidence": 0.084285714,
+        "start": 75625,
+        "end": 85582,
+        "words": [
+          {
+            "text": "인터넷에",
+            "start": 75625,
+            "end": 76827,
+            "confidence": 0.039,
+            "speaker": "A"
+          },
+          {
+            "text": "쉽게",
+            "start": 77689,
+            "end": 78330,
+            "confidence": 0.031,
+            "speaker": "A"
+          },
+          {
+            "text": "가르쳐주는",
+            "start": 78530,
+            "end": 79552,
+            "confidence": 0.094,
+            "speaker": "A"
+          },
+          {
+            "text": "영상이",
+            "start": 79892,
+            "end": 80694,
+            "confidence": 0.077,
+            "speaker": "A"
+          },
+          {
+            "text": "많아요.",
+            "start": 81014,
+            "end": 82557,
+            "confidence": 0.044,
+            "speaker": "A"
+          },
+          {
+            "text": "제가",
+            "start": 82978,
+            "end": 83518,
+            "confidence": 0.076,
+            "speaker": "A"
+          },
+          {
+            "text": "알려줄게요.",
+            "start": 84140,
+            "end": 85582,
+            "confidence": 0.229,
+            "speaker": "A"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.08265517,
+    "audio_duration": 91
+  },
+  {
+    "status_script": "completed",
+    "id": "eaa9321e-4097-4833-8b88-65223f761317",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732927/soometa/96-I-listening/961_21.mp3",
+    "text": "저 지금 음식을 주문할 수 있어요? 네, 손님. 그런데 저희가 30분 뒤에 식당 문을 닫습니다. 그럼 그냥 음식을 가져가서 먹을게요. 비빔밥 하나 포장해 주세요. 네, 금방 포장해 드릴게요. 잠깐만 기다려주세요. 다시 들으십시오. 저, 지금 음식을 주문할 수 있어요? 네, 손님. 그런데 저희가 30분 뒤에 식당 문을 닫습니다. 그럼 그냥 음식을 가져가서 먹을게요. 비빔밥 하나 포장해 주세요. 네, 금방 포장해 드릴게요. 잠깐만 기다려 주세요.",
+    "utterances": [
+      {
+        "speaker": "A",
+        "text": "저 지금 음식을 주문할 수 있어요?",
+        "confidence": 0.054833334,
+        "start": 953,
+        "end": 8619,
+        "words": [
+          {
+            "text": "저",
+            "start": 953,
+            "end": 1714,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "지금",
+            "start": 2634,
+            "end": 3115,
+            "confidence": 0.085,
+            "speaker": "A"
+          },
+          {
+            "text": "음식을",
+            "start": 3695,
+            "end": 4556,
+            "confidence": 0.049,
+            "speaker": "A"
+          },
+          {
+            "text": "주문할",
+            "start": 5036,
+            "end": 5537,
+            "confidence": 0.06,
+            "speaker": "A"
+          },
+          {
+            "text": "수",
+            "start": 5797,
+            "end": 5977,
+            "confidence": 0.111,
+            "speaker": "A"
+          },
+          {
+            "text": "있어요?",
+            "start": 6077,
+            "end": 8619,
+            "confidence": 0.024,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "네, 손님. 그런데 저희가 30분 뒤에 식당 문을 닫습니다.",
+        "confidence": 0.05,
+        "start": 8639,
+        "end": 19648,
+        "words": [
+          {
+            "text": "네,",
+            "start": 8639,
+            "end": 8659,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "손님.",
+            "start": 9160,
+            "end": 9700,
+            "confidence": 0.003,
+            "speaker": "B"
+          },
+          {
+            "text": "그런데",
+            "start": 10821,
+            "end": 11482,
+            "confidence": 0.115,
+            "speaker": "B"
+          },
+          {
+            "text": "저희가",
+            "start": 12182,
+            "end": 12803,
+            "confidence": 0.069,
+            "speaker": "B"
+          },
+          {
+            "text": "30분",
+            "start": 14184,
+            "end": 14344,
+            "confidence": 0.091,
+            "speaker": "B"
+          },
+          {
+            "text": "뒤에",
+            "start": 14664,
+            "end": 15024,
+            "confidence": 0.052,
+            "speaker": "B"
+          },
+          {
+            "text": "식당",
+            "start": 15825,
+            "end": 16326,
+            "confidence": 0.019,
+            "speaker": "B"
+          },
+          {
+            "text": "문을",
+            "start": 16606,
+            "end": 16966,
+            "confidence": 0.057,
+            "speaker": "B"
+          },
+          {
+            "text": "닫습니다.",
+            "start": 17446,
+            "end": 19648,
+            "confidence": 0.044,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "그럼 그냥 음식을 가져가서 먹을게요. 비빔밥 하나 포장해 주세요.",
+        "confidence": 0.041,
+        "start": 20029,
+        "end": 30417,
+        "words": [
+          {
+            "text": "그럼",
+            "start": 20029,
+            "end": 20549,
+            "confidence": 0.026,
+            "speaker": "A"
+          },
+          {
+            "text": "그냥",
+            "start": 21370,
+            "end": 21870,
+            "confidence": 0.04,
+            "speaker": "A"
+          },
+          {
+            "text": "음식을",
+            "start": 22451,
+            "end": 23231,
+            "confidence": 0.062,
+            "speaker": "A"
+          },
+          {
+            "text": "가져가서",
+            "start": 23852,
+            "end": 24852,
+            "confidence": 0.045,
+            "speaker": "A"
+          },
+          {
+            "text": "먹을게요.",
+            "start": 25053,
+            "end": 25453,
+            "confidence": 0.058,
+            "speaker": "A"
+          },
+          {
+            "text": "비빔밥",
+            "start": 27274,
+            "end": 27955,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "하나",
+            "start": 28135,
+            "end": 28656,
+            "confidence": 0.064,
+            "speaker": "A"
+          },
+          {
+            "text": "포장해",
+            "start": 29036,
+            "end": 29576,
+            "confidence": 0.032,
+            "speaker": "A"
+          },
+          {
+            "text": "주세요.",
+            "start": 29696,
+            "end": 30417,
+            "confidence": 0.042,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "네, 금방 포장해 드릴게요. 잠깐만 기다려주세요.",
+        "confidence": 0.0345,
+        "start": 31582,
+        "end": 40324,
+        "words": [
+          {
+            "text": "네,",
+            "start": 31582,
+            "end": 32082,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "금방",
+            "start": 32802,
+            "end": 33342,
+            "confidence": 0.03,
+            "speaker": "B"
+          },
+          {
+            "text": "포장해",
+            "start": 33882,
+            "end": 34483,
+            "confidence": 0.047,
+            "speaker": "B"
+          },
+          {
+            "text": "드릴게요.",
+            "start": 34763,
+            "end": 36183,
+            "confidence": 0.021,
+            "speaker": "B"
+          },
+          {
+            "text": "잠깐만",
+            "start": 36523,
+            "end": 37303,
+            "confidence": 0.044,
+            "speaker": "B"
+          },
+          {
+            "text": "기다려주세요.",
+            "start": 37683,
+            "end": 40324,
+            "confidence": 0.065,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "다시 들으십시오. 저, 지금 음식을 주문할 수 있어요?",
+        "confidence": 0.005875,
+        "start": 40744,
+        "end": 51666,
+        "words": [
+          {
+            "text": "다시",
+            "start": 40744,
+            "end": 41224,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "들으십시오.",
+            "start": 41404,
+            "end": 42204,
+            "confidence": 0.029,
+            "speaker": "A"
+          },
+          {
+            "text": "저,",
+            "start": 44125,
+            "end": 44825,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "지금",
+            "start": 45705,
+            "end": 46105,
+            "confidence": 0.004,
+            "speaker": "A"
+          },
+          {
+            "text": "음식을",
+            "start": 46765,
+            "end": 47645,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "주문할",
+            "start": 48125,
+            "end": 48605,
+            "confidence": 0.01,
+            "speaker": "A"
+          },
+          {
+            "text": "수",
+            "start": 48865,
+            "end": 49065,
+            "confidence": 0.004,
+            "speaker": "A"
+          },
+          {
+            "text": "있어요?",
+            "start": 49126,
+            "end": 51666,
+            "speaker": "A",
+            "confidence": 0.0
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "네, 손님. 그런데 저희가 30분 뒤에 식당 문을 닫습니다.",
+        "confidence": 0.06688889,
+        "start": 51686,
+        "end": 61568,
+        "words": [
+          {
+            "text": "네,",
+            "start": 51686,
+            "end": 51706,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "손님.",
+            "start": 52206,
+            "end": 52766,
+            "confidence": 0.04,
+            "speaker": "B"
+          },
+          {
+            "text": "그런데",
+            "start": 53866,
+            "end": 54547,
+            "confidence": 0.104,
+            "speaker": "B"
+          },
+          {
+            "text": "저희가",
+            "start": 55247,
+            "end": 55867,
+            "confidence": 0.093,
+            "speaker": "B"
+          },
+          {
+            "text": "30분",
+            "start": 57247,
+            "end": 57387,
+            "confidence": 0.139,
+            "speaker": "B"
+          },
+          {
+            "text": "뒤에",
+            "start": 57707,
+            "end": 58087,
+            "confidence": 0.091,
+            "speaker": "B"
+          },
+          {
+            "text": "식당",
+            "start": 58887,
+            "end": 59368,
+            "confidence": 0.036,
+            "speaker": "B"
+          },
+          {
+            "text": "문을",
+            "start": 59668,
+            "end": 60008,
+            "confidence": 0.062,
+            "speaker": "B"
+          },
+          {
+            "text": "닫습니다.",
+            "start": 60508,
+            "end": 61568,
+            "confidence": 0.037,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "그럼 그냥 음식을 가져가서 먹을게요. 비빔밥 하나 포장해 주세요.",
+        "confidence": 0.021222223,
+        "start": 63003,
+        "end": 74331,
+        "words": [
+          {
+            "text": "그럼",
+            "start": 63003,
+            "end": 63583,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "그냥",
+            "start": 64404,
+            "end": 65084,
+            "confidence": 0.004,
+            "speaker": "A"
+          },
+          {
+            "text": "음식을",
+            "start": 65485,
+            "end": 66285,
+            "confidence": 0.05,
+            "speaker": "A"
+          },
+          {
+            "text": "가져가서",
+            "start": 66906,
+            "end": 67907,
+            "confidence": 0.002,
+            "speaker": "A"
+          },
+          {
+            "text": "먹을게요.",
+            "start": 68107,
+            "end": 69128,
+            "confidence": 0.017,
+            "speaker": "A"
+          },
+          {
+            "text": "비빔밥",
+            "start": 70328,
+            "end": 70989,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "하나",
+            "start": 71189,
+            "end": 71709,
+            "confidence": 0.046,
+            "speaker": "A"
+          },
+          {
+            "text": "포장해",
+            "start": 72090,
+            "end": 72610,
+            "confidence": 0.037,
+            "speaker": "A"
+          },
+          {
+            "text": "주세요.",
+            "start": 72750,
+            "end": 74331,
+            "confidence": 0.035,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "네, 금방 포장해 드릴게요. 잠깐만 기다려 주세요.",
+        "confidence": 0.060857143,
+        "start": 74832,
+        "end": 81917,
+        "words": [
+          {
+            "text": "네,",
+            "start": 74832,
+            "end": 75132,
+            "confidence": 0.009,
+            "speaker": "B"
+          },
+          {
+            "text": "금방",
+            "start": 75873,
+            "end": 76433,
+            "confidence": 0.014,
+            "speaker": "B"
+          },
+          {
+            "text": "포장해",
+            "start": 76973,
+            "end": 77594,
+            "confidence": 0.042,
+            "speaker": "B"
+          },
+          {
+            "text": "드릴게요.",
+            "start": 77834,
+            "end": 79255,
+            "confidence": 0.026,
+            "speaker": "B"
+          },
+          {
+            "text": "잠깐만",
+            "start": 79595,
+            "end": 80376,
+            "confidence": 0.013,
+            "speaker": "B"
+          },
+          {
+            "text": "기다려",
+            "start": 80756,
+            "end": 81216,
+            "confidence": 0.091,
+            "speaker": "B"
+          },
+          {
+            "text": "주세요.",
+            "start": 81337,
+            "end": 81917,
+            "confidence": 0.231,
+            "speaker": "B"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.050403845,
+    "audio_duration": 86
+  },
+  {
+    "status_script": "completed",
+    "id": "52da565b-e9ec-4cae-ae79-9ef4e7f02f92",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732927/soometa/96-I-listening/961_22.mp3",
+    "text": "수미 씨, 새로 이사한 집은 어때요? 동네가 조용하고 공기도 깨끗해서 좋아요. 잘 됐네요. 그런데 학교에서 좀 멀지 않아요? 네, 그렇지만 집 앞에 학교까지 가는 버스가 있어서 괜찮아요. 다시 들으십시오. 수미 씨, 새로 이사한 집은 어때요? 동네가 조용하고 공기도 깨끗해서 좋아요. 잘 됐네요. 그런데 학교에서 좀 멀지 않아요? 네, 그렇지만 집 앞에 학교까지 가는 버스가 있어서 괜찮아요.",
+    "utterances": [
+      {
+        "speaker": "A",
+        "text": "수미 씨, 새로 이사한 집은 어때요?",
+        "confidence": 0.06333333,
+        "start": 8,
+        "end": 5413,
+        "words": [
+          {
+            "text": "수미",
+            "start": 8,
+            "end": 609,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "씨,",
+            "start": 849,
+            "end": 1029,
+            "confidence": 0.108,
+            "speaker": "A"
+          },
+          {
+            "text": "새로",
+            "start": 2070,
+            "end": 2490,
+            "confidence": 0.096,
+            "speaker": "A"
+          },
+          {
+            "text": "이사한",
+            "start": 2730,
+            "end": 3431,
+            "confidence": 0.094,
+            "speaker": "A"
+          },
+          {
+            "text": "집은",
+            "start": 3671,
+            "end": 4091,
+            "confidence": 0.082,
+            "speaker": "A"
+          },
+          {
+            "text": "어때요?",
+            "start": 4412,
+            "end": 5413,
+            "speaker": "A",
+            "confidence": 0.0
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "동네가 조용하고 공기도 깨끗해서 좋아요.",
+        "confidence": 0.0382,
+        "start": 6394,
+        "end": 14081,
+        "words": [
+          {
+            "text": "동네가",
+            "start": 6394,
+            "end": 7315,
+            "confidence": 0.037,
+            "speaker": "B"
+          },
+          {
+            "text": "조용하고",
+            "start": 7675,
+            "end": 8696,
+            "confidence": 0.048,
+            "speaker": "B"
+          },
+          {
+            "text": "공기도",
+            "start": 9517,
+            "end": 10277,
+            "confidence": 0.082,
+            "speaker": "B"
+          },
+          {
+            "text": "깨끗해서",
+            "start": 10738,
+            "end": 11719,
+            "confidence": 0.024,
+            "speaker": "B"
+          },
+          {
+            "text": "좋아요.",
+            "start": 12199,
+            "end": 14081,
+            "speaker": "B",
+            "confidence": 0.0
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "잘 됐네요. 그런데 학교에서 좀 멀지 않아요?",
+        "confidence": 0.104428574,
+        "start": 14401,
+        "end": 20947,
+        "words": [
+          {
+            "text": "잘",
+            "start": 14401,
+            "end": 14621,
+            "confidence": 0.071,
+            "speaker": "A"
+          },
+          {
+            "text": "됐네요.",
+            "start": 14741,
+            "end": 15682,
+            "confidence": 0.001,
+            "speaker": "A"
+          },
+          {
+            "text": "그런데",
+            "start": 16563,
+            "end": 17164,
+            "confidence": 0.12,
+            "speaker": "A"
+          },
+          {
+            "text": "학교에서",
+            "start": 17984,
+            "end": 18805,
+            "confidence": 0.066,
+            "speaker": "A"
+          },
+          {
+            "text": "좀",
+            "start": 19406,
+            "end": 19606,
+            "confidence": 0.1,
+            "speaker": "A"
+          },
+          {
+            "text": "멀지",
+            "start": 19906,
+            "end": 20366,
+            "confidence": 0.121,
+            "speaker": "A"
+          },
+          {
+            "text": "않아요?",
+            "start": 20427,
+            "end": 20947,
+            "confidence": 0.252,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "네, 그렇지만 집 앞에 학교까지 가는 버스가 있어서 괜찮아요. 다시 들으십시오.",
+        "confidence": 0.07245454,
+        "start": 22047,
+        "end": 37159,
+        "words": [
+          {
+            "text": "네,",
+            "start": 22047,
+            "end": 22607,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "그렇지만",
+            "start": 23608,
+            "end": 24449,
+            "confidence": 0.084,
+            "speaker": "B"
+          },
+          {
+            "text": "집",
+            "start": 25470,
+            "end": 25570,
+            "confidence": 0.2,
+            "speaker": "B"
+          },
+          {
+            "text": "앞에",
+            "start": 25690,
+            "end": 26371,
+            "confidence": 0.06,
+            "speaker": "B"
+          },
+          {
+            "text": "학교까지",
+            "start": 27131,
+            "end": 28072,
+            "confidence": 0.079,
+            "speaker": "B"
+          },
+          {
+            "text": "가는",
+            "start": 28252,
+            "end": 28632,
+            "confidence": 0.105,
+            "speaker": "B"
+          },
+          {
+            "text": "버스가",
+            "start": 28953,
+            "end": 29653,
+            "confidence": 0.094,
+            "speaker": "B"
+          },
+          {
+            "text": "있어서",
+            "start": 29833,
+            "end": 30614,
+            "confidence": 0.077,
+            "speaker": "B"
+          },
+          {
+            "text": "괜찮아요.",
+            "start": 31675,
+            "end": 33997,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "다시",
+            "start": 34317,
+            "end": 34757,
+            "confidence": 0.064,
+            "speaker": "B"
+          },
+          {
+            "text": "들으십시오.",
+            "start": 34978,
+            "end": 37159,
+            "confidence": 0.034,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "수미 씨, 새로 이사한 집은 어때요?",
+        "confidence": 0.0345,
+        "start": 37760,
+        "end": 42704,
+        "words": [
+          {
+            "text": "수미",
+            "start": 37760,
+            "end": 37940,
+            "confidence": 0.009,
+            "speaker": "A"
+          },
+          {
+            "text": "씨,",
+            "start": 38120,
+            "end": 38320,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "새로",
+            "start": 39361,
+            "end": 39781,
+            "confidence": 0.085,
+            "speaker": "A"
+          },
+          {
+            "text": "이사한",
+            "start": 40022,
+            "end": 40722,
+            "confidence": 0.063,
+            "speaker": "A"
+          },
+          {
+            "text": "집은",
+            "start": 40982,
+            "end": 41363,
+            "confidence": 0.046,
+            "speaker": "A"
+          },
+          {
+            "text": "어때요?",
+            "start": 41703,
+            "end": 42704,
+            "confidence": 0.004,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "동네가 조용하고 공기도 깨끗해서 좋아요.",
+        "confidence": 0.1034,
+        "start": 43685,
+        "end": 50310,
+        "words": [
+          {
+            "text": "동네가",
+            "start": 43685,
+            "end": 44605,
+            "confidence": 0.068,
+            "speaker": "B"
+          },
+          {
+            "text": "조용하고",
+            "start": 44966,
+            "end": 45986,
+            "confidence": 0.079,
+            "speaker": "B"
+          },
+          {
+            "text": "공기도",
+            "start": 46807,
+            "end": 47588,
+            "confidence": 0.08,
+            "speaker": "B"
+          },
+          {
+            "text": "깨끗해서",
+            "start": 48028,
+            "end": 49009,
+            "confidence": 0.033,
+            "speaker": "B"
+          },
+          {
+            "text": "좋아요.",
+            "start": 49489,
+            "end": 50310,
+            "confidence": 0.257,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "잘 됐네요. 그런데 학교에서 좀 멀지 않아요?",
+        "confidence": 0.09142857,
+        "start": 51528,
+        "end": 59116,
+        "words": [
+          {
+            "text": "잘",
+            "start": 51528,
+            "end": 51888,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "됐네요.",
+            "start": 52008,
+            "end": 52949,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "그런데",
+            "start": 53830,
+            "end": 54431,
+            "confidence": 0.12,
+            "speaker": "A"
+          },
+          {
+            "text": "학교에서",
+            "start": 55232,
+            "end": 56073,
+            "confidence": 0.284,
+            "speaker": "A"
+          },
+          {
+            "text": "좀",
+            "start": 56673,
+            "end": 56874,
+            "confidence": 0.1,
+            "speaker": "A"
+          },
+          {
+            "text": "멀지",
+            "start": 57174,
+            "end": 57614,
+            "confidence": 0.116,
+            "speaker": "A"
+          },
+          {
+            "text": "않아요?",
+            "start": 57674,
+            "end": 59116,
+            "confidence": 0.02,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "네, 그렇지만 집 앞에 학교까지 가는 버스가 있어서 괜찮아요.",
+        "confidence": 0.10711111,
+        "start": 59416,
+        "end": 69787,
+        "words": [
+          {
+            "text": "네,",
+            "start": 59416,
+            "end": 59877,
+            "confidence": 0.001,
+            "speaker": "B"
+          },
+          {
+            "text": "그렇지만",
+            "start": 60898,
+            "end": 61739,
+            "confidence": 0.063,
+            "speaker": "B"
+          },
+          {
+            "text": "집",
+            "start": 62740,
+            "end": 62860,
+            "confidence": 0.166,
+            "speaker": "B"
+          },
+          {
+            "text": "앞에",
+            "start": 62980,
+            "end": 63641,
+            "confidence": 0.062,
+            "speaker": "B"
+          },
+          {
+            "text": "학교까지",
+            "start": 64400,
+            "end": 65361,
+            "confidence": 0.088,
+            "speaker": "B"
+          },
+          {
+            "text": "가는",
+            "start": 65563,
+            "end": 65923,
+            "confidence": 0.1,
+            "speaker": "B"
+          },
+          {
+            "text": "버스가",
+            "start": 66243,
+            "end": 66944,
+            "confidence": 0.096,
+            "speaker": "B"
+          },
+          {
+            "text": "있어서",
+            "start": 67104,
+            "end": 67905,
+            "confidence": 0.055,
+            "speaker": "B"
+          },
+          {
+            "text": "괜찮아요.",
+            "start": 68966,
+            "end": 69787,
+            "confidence": 0.333,
+            "speaker": "B"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.092229165,
+    "audio_duration": 74
+  },
+  {
+    "status_script": "completed",
+    "id": "6602d21c-1ee6-4568-962f-aaec34cbb700",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732927/soometa/96-I-listening/961_23.mp3",
+    "text": "손님, 이 노트북은 어떠세요? 요즘 인기가 많습니다. 디자인은 좋은데 좀 무겁네요. 전 가벼운 걸 찾고 있어서요. 그럼 이걸로 한 번 보시겠어요? 좀 더 가벼운 노트북입니다. 아, 이게 좋겠네요. 이걸로 주세요. 다시 들으십시오. 손님, 이 노트북은 어떠세요? 요즘 인기가 많습니다. 디자인은 좋은데 좀 무겁네요. 전 가벼운 걸 찾고 있어서요. 그럼 이걸로 한 번 보시겠어요? 좀 더 가벼운 노트북입니다. 아, 이게 좋겠네요. 이걸로 주세요.",
+    "utterances": [
+      {
+        "speaker": "A",
+        "text": "손님, 이 노트북은 어떠세요? 요즘 인기가 많습니다.",
+        "confidence": 0.042285714,
+        "start": 1274,
+        "end": 10956,
+        "words": [
+          {
+            "text": "손님,",
+            "start": 1274,
+            "end": 1834,
+            "confidence": 0.054,
+            "speaker": "A"
+          },
+          {
+            "text": "이",
+            "start": 2894,
+            "end": 3214,
+            "confidence": 0.062,
+            "speaker": "A"
+          },
+          {
+            "text": "노트북은",
+            "start": 3695,
+            "end": 4595,
+            "confidence": 0.022,
+            "speaker": "A"
+          },
+          {
+            "text": "어떠세요?",
+            "start": 5015,
+            "end": 6135,
+            "confidence": 0.006,
+            "speaker": "A"
+          },
+          {
+            "text": "요즘",
+            "start": 6975,
+            "end": 7396,
+            "confidence": 0.004,
+            "speaker": "A"
+          },
+          {
+            "text": "인기가",
+            "start": 8096,
+            "end": 8796,
+            "confidence": 0.084,
+            "speaker": "A"
+          },
+          {
+            "text": "많습니다.",
+            "start": 9016,
+            "end": 10956,
+            "confidence": 0.064,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "디자인은 좋은데 좀 무겁네요. 전 가벼운 걸 찾고 있어서요.",
+        "confidence": 0.049777776,
+        "start": 11257,
+        "end": 20839,
+        "words": [
+          {
+            "text": "디자인은",
+            "start": 11257,
+            "end": 12077,
+            "confidence": 0.065,
+            "speaker": "B"
+          },
+          {
+            "text": "좋은데",
+            "start": 12477,
+            "end": 13337,
+            "confidence": 0.063,
+            "speaker": "B"
+          },
+          {
+            "text": "좀",
+            "start": 14137,
+            "end": 14397,
+            "confidence": 0.077,
+            "speaker": "B"
+          },
+          {
+            "text": "무겁네요.",
+            "start": 14917,
+            "end": 16958,
+            "confidence": 0.046,
+            "speaker": "B"
+          },
+          {
+            "text": "전",
+            "start": 17118,
+            "end": 17398,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "가벼운",
+            "start": 18198,
+            "end": 18698,
+            "confidence": 0.002,
+            "speaker": "B"
+          },
+          {
+            "text": "걸",
+            "start": 18898,
+            "end": 19159,
+            "confidence": 0.077,
+            "speaker": "B"
+          },
+          {
+            "text": "찾고",
+            "start": 19559,
+            "end": 19999,
+            "confidence": 0.072,
+            "speaker": "B"
+          },
+          {
+            "text": "있어서요.",
+            "start": 20059,
+            "end": 20839,
+            "confidence": 0.046,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "그럼 이걸로 한 번 보시겠어요? 좀 더 가벼운 노트북입니다.",
+        "confidence": 0.06544445,
+        "start": 22469,
+        "end": 33151,
+        "words": [
+          {
+            "text": "그럼",
+            "start": 22469,
+            "end": 22949,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "이걸로",
+            "start": 23809,
+            "end": 24570,
+            "confidence": 0.086,
+            "speaker": "A"
+          },
+          {
+            "text": "한",
+            "start": 24990,
+            "end": 25150,
+            "confidence": 0.125,
+            "speaker": "A"
+          },
+          {
+            "text": "번",
+            "start": 25330,
+            "end": 25610,
+            "confidence": 0.071,
+            "speaker": "A"
+          },
+          {
+            "text": "보시겠어요?",
+            "start": 25910,
+            "end": 27571,
+            "confidence": 0.053,
+            "speaker": "A"
+          },
+          {
+            "text": "좀",
+            "start": 28051,
+            "end": 28291,
+            "confidence": 0.083,
+            "speaker": "A"
+          },
+          {
+            "text": "더",
+            "start": 28471,
+            "end": 28791,
+            "confidence": 0.062,
+            "speaker": "A"
+          },
+          {
+            "text": "가벼운",
+            "start": 29251,
+            "end": 29751,
+            "confidence": 0.089,
+            "speaker": "A"
+          },
+          {
+            "text": "노트북입니다.",
+            "start": 30151,
+            "end": 33151,
+            "confidence": 0.02,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "아, 이게 좋겠네요. 이걸로 주세요. 다시 들으십시오.",
+        "confidence": 0.032571428,
+        "start": 33192,
+        "end": 43155,
+        "words": [
+          {
+            "text": "아,",
+            "start": 33192,
+            "end": 33212,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "이게",
+            "start": 34032,
+            "end": 34473,
+            "confidence": 0.058,
+            "speaker": "B"
+          },
+          {
+            "text": "좋겠네요.",
+            "start": 34713,
+            "end": 35813,
+            "confidence": 0.011,
+            "speaker": "B"
+          },
+          {
+            "text": "이걸로",
+            "start": 36873,
+            "end": 37554,
+            "confidence": 0.074,
+            "speaker": "B"
+          },
+          {
+            "text": "주세요.",
+            "start": 37794,
+            "end": 38434,
+            "confidence": 0.009,
+            "speaker": "B"
+          },
+          {
+            "text": "다시",
+            "start": 40294,
+            "end": 40795,
+            "confidence": 0.044,
+            "speaker": "B"
+          },
+          {
+            "text": "들으십시오.",
+            "start": 40955,
+            "end": 43155,
+            "confidence": 0.032,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "손님, 이 노트북은 어떠세요? 요즘 인기가 많습니다.",
+        "confidence": 0.080714285,
+        "start": 43715,
+        "end": 52338,
+        "words": [
+          {
+            "text": "손님,",
+            "start": 43715,
+            "end": 44156,
+            "confidence": 0.093,
+            "speaker": "A"
+          },
+          {
+            "text": "이",
+            "start": 45216,
+            "end": 45516,
+            "confidence": 0.067,
+            "speaker": "A"
+          },
+          {
+            "text": "노트북은",
+            "start": 46016,
+            "end": 46916,
+            "confidence": 0.005,
+            "speaker": "A"
+          },
+          {
+            "text": "어떠세요?",
+            "start": 47316,
+            "end": 48537,
+            "confidence": 0.001,
+            "speaker": "A"
+          },
+          {
+            "text": "요즘",
+            "start": 49297,
+            "end": 49697,
+            "confidence": 0.01,
+            "speaker": "A"
+          },
+          {
+            "text": "인기가",
+            "start": 50437,
+            "end": 51118,
+            "confidence": 0.085,
+            "speaker": "A"
+          },
+          {
+            "text": "많습니다.",
+            "start": 51338,
+            "end": 52338,
+            "confidence": 0.304,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "디자인은 좋은데 좀 무겁네요. 전 가벼운 걸 찾고 있어서요.",
+        "confidence": 0.044888888,
+        "start": 53468,
+        "end": 64432,
+        "words": [
+          {
+            "text": "디자인은",
+            "start": 53468,
+            "end": 54388,
+            "confidence": 0.049,
+            "speaker": "B"
+          },
+          {
+            "text": "좋은데",
+            "start": 54788,
+            "end": 55649,
+            "confidence": 0.071,
+            "speaker": "B"
+          },
+          {
+            "text": "좀",
+            "start": 56429,
+            "end": 56729,
+            "confidence": 0.066,
+            "speaker": "B"
+          },
+          {
+            "text": "무겁네요.",
+            "start": 57229,
+            "end": 59650,
+            "confidence": 0.006,
+            "speaker": "B"
+          },
+          {
+            "text": "전",
+            "start": 59670,
+            "end": 59690,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "가벼운",
+            "start": 60530,
+            "end": 61010,
+            "confidence": 0.019,
+            "speaker": "B"
+          },
+          {
+            "text": "걸",
+            "start": 61211,
+            "end": 61471,
+            "confidence": 0.077,
+            "speaker": "B"
+          },
+          {
+            "text": "찾고",
+            "start": 61851,
+            "end": 62291,
+            "confidence": 0.072,
+            "speaker": "B"
+          },
+          {
+            "text": "있어서요.",
+            "start": 62371,
+            "end": 64432,
+            "confidence": 0.044,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "그럼 이걸로 한 번 보시겠어요? 좀 더 가벼운 노트북입니다.",
+        "confidence": 0.07211111,
+        "start": 64872,
+        "end": 75454,
+        "words": [
+          {
+            "text": "그럼",
+            "start": 64872,
+            "end": 65251,
+            "confidence": 0.071,
+            "speaker": "A"
+          },
+          {
+            "text": "이걸로",
+            "start": 66132,
+            "end": 66872,
+            "confidence": 0.088,
+            "speaker": "A"
+          },
+          {
+            "text": "한",
+            "start": 67333,
+            "end": 67453,
+            "confidence": 0.156,
+            "speaker": "A"
+          },
+          {
+            "text": "번",
+            "start": 67653,
+            "end": 67913,
+            "confidence": 0.07,
+            "speaker": "A"
+          },
+          {
+            "text": "보시겠어요?",
+            "start": 68233,
+            "end": 69933,
+            "confidence": 0.053,
+            "speaker": "A"
+          },
+          {
+            "text": "좀",
+            "start": 70374,
+            "end": 70594,
+            "confidence": 0.091,
+            "speaker": "A"
+          },
+          {
+            "text": "더",
+            "start": 70794,
+            "end": 71114,
+            "confidence": 0.061,
+            "speaker": "A"
+          },
+          {
+            "text": "가벼운",
+            "start": 71594,
+            "end": 72074,
+            "confidence": 0.033,
+            "speaker": "A"
+          },
+          {
+            "text": "노트북입니다.",
+            "start": 72454,
+            "end": 75454,
+            "confidence": 0.026,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "아, 이게 좋겠네요. 이걸로 주세요.",
+        "confidence": 0.1034,
+        "start": 75515,
+        "end": 80857,
+        "words": [
+          {
+            "text": "아,",
+            "start": 75515,
+            "end": 75535,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "이게",
+            "start": 76356,
+            "end": 76796,
+            "confidence": 0.057,
+            "speaker": "B"
+          },
+          {
+            "text": "좋겠네요.",
+            "start": 77036,
+            "end": 78156,
+            "confidence": 0.021,
+            "speaker": "B"
+          },
+          {
+            "text": "이걸로",
+            "start": 79196,
+            "end": 79857,
+            "confidence": 0.092,
+            "speaker": "B"
+          },
+          {
+            "text": "주세요.",
+            "start": 80097,
+            "end": 80857,
+            "confidence": 0.347,
+            "speaker": "B"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.064842105,
+    "audio_duration": 86
+  },
+  {
+    "status_script": "completed",
+    "id": "fab53e0c-4a11-4c47-a49f-f78b8ea57d30",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732927/soometa/96-I-listening/961_24.mp3",
+    "text": "우리 이번 여행은 가까운 곳으로 갈까요? 왜요? 휴가 기간도 긴데 멀리 가는 게 좋지 않을까요? 먼 곳으로 가면 차도 오래 타야 하고 좀 피곤할 것 같아서요. 알겠어요. 그럼 이번엔 근처에 있는 곳으로 여행을 가요. 다시 들으십시오. 우리 이번 여행은 가까운 곳으로 갈까요? 왜요? 휴가 기간도 긴데 멀리 가는 게 좋지 않을까요? 먼 곳으로 가면 차도 오래 타야 하고 좀 피곤할 것 같아서요. 알겠어요. 그럼 이번엔 근처에 있는 곳으로 여행을 가요.",
+    "utterances": [
+      {
+        "speaker": "A",
+        "text": "우리 이번 여행은 가까운 곳으로 갈까요?",
+        "confidence": 0.11416667,
+        "start": 869,
+        "end": 7533,
+        "words": [
+          {
+            "text": "우리",
+            "start": 869,
+            "end": 1489,
+            "confidence": 0.026,
+            "speaker": "A"
+          },
+          {
+            "text": "이번",
+            "start": 2330,
+            "end": 2770,
+            "confidence": 0.09,
+            "speaker": "A"
+          },
+          {
+            "text": "여행은",
+            "start": 2990,
+            "end": 3631,
+            "confidence": 0.057,
+            "speaker": "A"
+          },
+          {
+            "text": "가까운",
+            "start": 4451,
+            "end": 5031,
+            "confidence": 0.1,
+            "speaker": "A"
+          },
+          {
+            "text": "곳으로",
+            "start": 5171,
+            "end": 5792,
+            "confidence": 0.08,
+            "speaker": "A"
+          },
+          {
+            "text": "갈까요?",
+            "start": 6132,
+            "end": 7533,
+            "confidence": 0.332,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "왜요? 휴가 기간도 긴데 멀리 가는 게 좋지 않을까요?",
+        "confidence": 0.03911111,
+        "start": 8193,
+        "end": 16898,
+        "words": [
+          {
+            "text": "왜요?",
+            "start": 8193,
+            "end": 9033,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "휴가",
+            "start": 9934,
+            "end": 10314,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "기간도",
+            "start": 10474,
+            "end": 11195,
+            "confidence": 0.086,
+            "speaker": "B"
+          },
+          {
+            "text": "긴데",
+            "start": 11495,
+            "end": 12035,
+            "confidence": 0.013,
+            "speaker": "B"
+          },
+          {
+            "text": "멀리",
+            "start": 12775,
+            "end": 13236,
+            "confidence": 0.124,
+            "speaker": "B"
+          },
+          {
+            "text": "가는",
+            "start": 13356,
+            "end": 13656,
+            "confidence": 0.025,
+            "speaker": "B"
+          },
+          {
+            "text": "게",
+            "start": 13816,
+            "end": 14056,
+            "confidence": 0.046,
+            "speaker": "B"
+          },
+          {
+            "text": "좋지",
+            "start": 14496,
+            "end": 14997,
+            "confidence": 0.025,
+            "speaker": "B"
+          },
+          {
+            "text": "않을까요?",
+            "start": 15137,
+            "end": 16898,
+            "confidence": 0.033,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "먼 곳으로 가면 차도 오래 타야 하고 좀 피곤할 것 같아서요.",
+        "confidence": 0.071636364,
+        "start": 17438,
+        "end": 26603,
+        "words": [
+          {
+            "text": "먼",
+            "start": 17438,
+            "end": 17658,
+            "confidence": 0.09,
+            "speaker": "A"
+          },
+          {
+            "text": "곳으로",
+            "start": 17778,
+            "end": 18339,
+            "confidence": 0.07,
+            "speaker": "A"
+          },
+          {
+            "text": "가면",
+            "start": 18519,
+            "end": 19079,
+            "confidence": 0.03,
+            "speaker": "A"
+          },
+          {
+            "text": "차도",
+            "start": 19979,
+            "end": 20560,
+            "confidence": 0.031,
+            "speaker": "A"
+          },
+          {
+            "text": "오래",
+            "start": 20860,
+            "end": 21260,
+            "confidence": 0.056,
+            "speaker": "A"
+          },
+          {
+            "text": "타야",
+            "start": 21500,
+            "end": 21700,
+            "confidence": 0.016,
+            "speaker": "A"
+          },
+          {
+            "text": "하고",
+            "start": 21860,
+            "end": 22441,
+            "confidence": 0.071,
+            "speaker": "A"
+          },
+          {
+            "text": "좀",
+            "start": 23401,
+            "end": 23781,
+            "confidence": 0.052,
+            "speaker": "A"
+          },
+          {
+            "text": "피곤할",
+            "start": 24362,
+            "end": 24822,
+            "confidence": 0.061,
+            "speaker": "A"
+          },
+          {
+            "text": "것",
+            "start": 25022,
+            "end": 25162,
+            "confidence": 0.044,
+            "speaker": "A"
+          },
+          {
+            "text": "같아서요.",
+            "start": 25442,
+            "end": 26603,
+            "confidence": 0.267,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "알겠어요. 그럼 이번엔 근처에 있는 곳으로 여행을 가요.",
+        "confidence": 0.059625,
+        "start": 27869,
+        "end": 37177,
+        "words": [
+          {
+            "text": "알겠어요.",
+            "start": 27869,
+            "end": 29350,
+            "confidence": 0.03,
+            "speaker": "B"
+          },
+          {
+            "text": "그럼",
+            "start": 29911,
+            "end": 30251,
+            "confidence": 0.072,
+            "speaker": "B"
+          },
+          {
+            "text": "이번엔",
+            "start": 31072,
+            "end": 31572,
+            "confidence": 0.063,
+            "speaker": "B"
+          },
+          {
+            "text": "근처에",
+            "start": 32131,
+            "end": 32833,
+            "confidence": 0.028,
+            "speaker": "B"
+          },
+          {
+            "text": "있는",
+            "start": 32933,
+            "end": 33253,
+            "confidence": 0.127,
+            "speaker": "B"
+          },
+          {
+            "text": "곳으로",
+            "start": 33333,
+            "end": 33914,
+            "confidence": 0.088,
+            "speaker": "B"
+          },
+          {
+            "text": "여행을",
+            "start": 34474,
+            "end": 35115,
+            "confidence": 0.047,
+            "speaker": "B"
+          },
+          {
+            "text": "가요.",
+            "start": 35295,
+            "end": 37177,
+            "confidence": 0.022,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "다시 들으십시오. 우리 이번 여행은 가까운 곳으로 갈까요?",
+        "confidence": 0.074625,
+        "start": 37517,
+        "end": 47545,
+        "words": [
+          {
+            "text": "다시",
+            "start": 37517,
+            "end": 37977,
+            "confidence": 0.05,
+            "speaker": "A"
+          },
+          {
+            "text": "들으십시오.",
+            "start": 38157,
+            "end": 38858,
+            "confidence": 0.042,
+            "speaker": "A"
+          },
+          {
+            "text": "우리",
+            "start": 40920,
+            "end": 41480,
+            "confidence": 0.082,
+            "speaker": "A"
+          },
+          {
+            "text": "이번",
+            "start": 42321,
+            "end": 42741,
+            "confidence": 0.094,
+            "speaker": "A"
+          },
+          {
+            "text": "여행은",
+            "start": 42981,
+            "end": 43622,
+            "confidence": 0.033,
+            "speaker": "A"
+          },
+          {
+            "text": "가까운",
+            "start": 44443,
+            "end": 45023,
+            "confidence": 0.037,
+            "speaker": "A"
+          },
+          {
+            "text": "곳으로",
+            "start": 45163,
+            "end": 45784,
+            "confidence": 0.029,
+            "speaker": "A"
+          },
+          {
+            "text": "갈까요?",
+            "start": 46124,
+            "end": 47545,
+            "confidence": 0.23,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "왜요? 휴가 기간도 긴데 멀리 가는 게 좋지 않을까요?",
+        "confidence": 0.07655556,
+        "start": 48186,
+        "end": 55932,
+        "words": [
+          {
+            "text": "왜요?",
+            "start": 48186,
+            "end": 48966,
+            "confidence": 0.004,
+            "speaker": "B"
+          },
+          {
+            "text": "휴가",
+            "start": 49927,
+            "end": 50307,
+            "confidence": 0.059,
+            "speaker": "B"
+          },
+          {
+            "text": "기간도",
+            "start": 50468,
+            "end": 51188,
+            "confidence": 0.038,
+            "speaker": "B"
+          },
+          {
+            "text": "긴데",
+            "start": 51468,
+            "end": 52029,
+            "confidence": 0.034,
+            "speaker": "B"
+          },
+          {
+            "text": "멀리",
+            "start": 52769,
+            "end": 53250,
+            "confidence": 0.1,
+            "speaker": "B"
+          },
+          {
+            "text": "가는",
+            "start": 53350,
+            "end": 53670,
+            "confidence": 0.1,
+            "speaker": "B"
+          },
+          {
+            "text": "게",
+            "start": 53810,
+            "end": 54050,
+            "confidence": 0.067,
+            "speaker": "B"
+          },
+          {
+            "text": "좋지",
+            "start": 54491,
+            "end": 54991,
+            "confidence": 0.005,
+            "speaker": "B"
+          },
+          {
+            "text": "않을까요?",
+            "start": 55091,
+            "end": 55932,
+            "confidence": 0.282,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "먼 곳으로 가면 차도 오래 타야 하고 좀 피곤할 것 같아서요.",
+        "confidence": 0.029272728,
+        "start": 57316,
+        "end": 67526,
+        "words": [
+          {
+            "text": "먼",
+            "start": 57316,
+            "end": 57616,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "곳으로",
+            "start": 57756,
+            "end": 58297,
+            "confidence": 0.05,
+            "speaker": "A"
+          },
+          {
+            "text": "가면",
+            "start": 58497,
+            "end": 59018,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "차도",
+            "start": 59959,
+            "end": 60519,
+            "confidence": 0.034,
+            "speaker": "A"
+          },
+          {
+            "text": "오래",
+            "start": 60839,
+            "end": 61240,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "타야",
+            "start": 61480,
+            "end": 61680,
+            "confidence": 0.032,
+            "speaker": "A"
+          },
+          {
+            "text": "하고",
+            "start": 61840,
+            "end": 62421,
+            "confidence": 0.069,
+            "speaker": "A"
+          },
+          {
+            "text": "좀",
+            "start": 63382,
+            "end": 63662,
+            "confidence": 0.068,
+            "speaker": "A"
+          },
+          {
+            "text": "피곤할",
+            "start": 64322,
+            "end": 64803,
+            "confidence": 0.05,
+            "speaker": "A"
+          },
+          {
+            "text": "것",
+            "start": 65003,
+            "end": 65144,
+            "confidence": 0.018,
+            "speaker": "A"
+          },
+          {
+            "text": "같아서요.",
+            "start": 65424,
+            "end": 67526,
+            "confidence": 0.001,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "알겠어요. 그럼 이번엔 근처에 있는 곳으로 여행을 가요.",
+        "confidence": 0.132875,
+        "start": 67946,
+        "end": 75794,
+        "words": [
+          {
+            "text": "알겠어요.",
+            "start": 67946,
+            "end": 69888,
+            "confidence": 0.051,
+            "speaker": "B"
+          },
+          {
+            "text": "그럼",
+            "start": 69908,
+            "end": 70269,
+            "confidence": 0.072,
+            "speaker": "B"
+          },
+          {
+            "text": "이번엔",
+            "start": 71069,
+            "end": 71570,
+            "confidence": 0.073,
+            "speaker": "B"
+          },
+          {
+            "text": "근처에",
+            "start": 72110,
+            "end": 72831,
+            "confidence": 0.036,
+            "speaker": "B"
+          },
+          {
+            "text": "있는",
+            "start": 72931,
+            "end": 73252,
+            "confidence": 0.127,
+            "speaker": "B"
+          },
+          {
+            "text": "곳으로",
+            "start": 73332,
+            "end": 73912,
+            "confidence": 0.089,
+            "speaker": "B"
+          },
+          {
+            "text": "여행을",
+            "start": 74473,
+            "end": 75093,
+            "confidence": 0.098,
+            "speaker": "B"
+          },
+          {
+            "text": "가요.",
+            "start": 75294,
+            "end": 75794,
+            "confidence": 0.517,
+            "speaker": "B"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.076507695,
+    "audio_duration": 80
+  },
+  {
+    "status_script": "completed",
+    "id": "401f2835-4eca-4084-971b-9b0671c965fa",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732927/soometa/96-I-listening/961_25-26.mp3",
+    "text": "한강축제에 오신 여러분께 안내 말씀드립니다. 오늘 노래 대회는 하늘정원에서 열립니다. 하늘정원은 정문 주차장에서 오른쪽으로 오시면 됩니다. 노래 대회가 끝나면 같은 장소에서 무료 축하 공연도 열릴 예정입니다. 관심 있는 분들은 지금 하늘 정원으로 와주십시오. 감사합니다. 다시 들으십시오. 한강축제에 오신 여러분께 안내 말씀드립니다. 오늘 노래 대회는 하늘정원에서 열립니다. 하늘정원은 정문 주차장에서 오른쪽으로 오시면 됩니다. 노래 대회가 끝나면 같은 장소에서 무료 축하 공연도 열릴 예정입니다. 관심 있는 분들은 지금 하늘 정원으로 와주십시오. 감사합니다.",
+    "utterances": [
+      {
+        "speaker": "A",
+        "text": "한강축제에 오신 여러분께 안내 말씀드립니다. 오늘 노래 대회는 하늘정원에서 열립니다. 하늘정원은 정문 주차장에서 오른쪽으로 오시면 됩니다. 노래 대회가 끝나면 같은 장소에서 무료 축하 공연도 열릴 예정입니다. 관심 있는 분들은 지금 하늘 정원으로 와주십시오. 감사합니다. 다시 들으십시오. 한강축제에 오신 여러분께 안내 말씀드립니다. 오늘 노래 대회는 하늘정원에서 열립니다. 하늘정원은 정문 주차장에서 오른쪽으로 오시면 됩니다. 노래 대회가 끝나면 같은 장소에서 무료 축하 공연도 열릴 예정입니다. 관심 있는 분들은 지금 하늘 정원으로 와주십시오. 감사합니다.",
+        "confidence": 0.07437143,
+        "start": 8,
+        "end": 99031,
+        "words": [
+          {
+            "text": "한강축제에",
+            "start": 8,
+            "end": 1649,
+            "confidence": 0.037,
+            "speaker": "A"
+          },
+          {
+            "text": "오신",
+            "start": 1750,
+            "end": 2210,
+            "confidence": 0.001,
+            "speaker": "A"
+          },
+          {
+            "text": "여러분께",
+            "start": 2570,
+            "end": 3491,
+            "confidence": 0.05,
+            "speaker": "A"
+          },
+          {
+            "text": "안내",
+            "start": 4152,
+            "end": 4572,
+            "confidence": 0.086,
+            "speaker": "A"
+          },
+          {
+            "text": "말씀드립니다.",
+            "start": 4692,
+            "end": 6474,
+            "confidence": 0.038,
+            "speaker": "A"
+          },
+          {
+            "text": "오늘",
+            "start": 7414,
+            "end": 7895,
+            "confidence": 0.089,
+            "speaker": "A"
+          },
+          {
+            "text": "노래",
+            "start": 8235,
+            "end": 8515,
+            "confidence": 0.087,
+            "speaker": "A"
+          },
+          {
+            "text": "대회는",
+            "start": 8636,
+            "end": 9216,
+            "confidence": 0.063,
+            "speaker": "A"
+          },
+          {
+            "text": "하늘정원에서",
+            "start": 10137,
+            "end": 11618,
+            "confidence": 0.054,
+            "speaker": "A"
+          },
+          {
+            "text": "열립니다.",
+            "start": 11938,
+            "end": 12939,
+            "confidence": 0.051,
+            "speaker": "A"
+          },
+          {
+            "text": "하늘정원은",
+            "start": 14321,
+            "end": 15522,
+            "confidence": 0.034,
+            "speaker": "A"
+          },
+          {
+            "text": "정문",
+            "start": 16322,
+            "end": 16823,
+            "confidence": 0.065,
+            "speaker": "A"
+          },
+          {
+            "text": "주차장에서",
+            "start": 17123,
+            "end": 18304,
+            "confidence": 0.069,
+            "speaker": "A"
+          },
+          {
+            "text": "오른쪽으로",
+            "start": 19025,
+            "end": 20106,
+            "confidence": 0.082,
+            "speaker": "A"
+          },
+          {
+            "text": "오시면",
+            "start": 20306,
+            "end": 20866,
+            "confidence": 0.006,
+            "speaker": "A"
+          },
+          {
+            "text": "됩니다.",
+            "start": 21006,
+            "end": 21727,
+            "confidence": 0.374,
+            "speaker": "A"
+          },
+          {
+            "text": "노래",
+            "start": 22908,
+            "end": 23368,
+            "confidence": 0.048,
+            "speaker": "A"
+          },
+          {
+            "text": "대회가",
+            "start": 23488,
+            "end": 24128,
+            "confidence": 0.092,
+            "speaker": "A"
+          },
+          {
+            "text": "끝나면",
+            "start": 24268,
+            "end": 24929,
+            "confidence": 0.052,
+            "speaker": "A"
+          },
+          {
+            "text": "같은",
+            "start": 25689,
+            "end": 26129,
+            "confidence": 0.085,
+            "speaker": "A"
+          },
+          {
+            "text": "장소에서",
+            "start": 26329,
+            "end": 27329,
+            "confidence": 0.084,
+            "speaker": "A"
+          },
+          {
+            "text": "무료",
+            "start": 28169,
+            "end": 28609,
+            "confidence": 0.001,
+            "speaker": "A"
+          },
+          {
+            "text": "축하",
+            "start": 28890,
+            "end": 29330,
+            "confidence": 0.09,
+            "speaker": "A"
+          },
+          {
+            "text": "공연도",
+            "start": 29490,
+            "end": 30270,
+            "confidence": 0.016,
+            "speaker": "A"
+          },
+          {
+            "text": "열릴",
+            "start": 30670,
+            "end": 31130,
+            "confidence": 0.084,
+            "speaker": "A"
+          },
+          {
+            "text": "예정입니다.",
+            "start": 31390,
+            "end": 32509,
+            "confidence": 0.068,
+            "speaker": "A"
+          },
+          {
+            "text": "관심",
+            "start": 33891,
+            "end": 34291,
+            "confidence": 0.034,
+            "speaker": "A"
+          },
+          {
+            "text": "있는",
+            "start": 34371,
+            "end": 34791,
+            "confidence": 0.072,
+            "speaker": "A"
+          },
+          {
+            "text": "분들은",
+            "start": 34991,
+            "end": 35511,
+            "confidence": 0.118,
+            "speaker": "A"
+          },
+          {
+            "text": "지금",
+            "start": 36511,
+            "end": 36892,
+            "confidence": 0.108,
+            "speaker": "A"
+          },
+          {
+            "text": "하늘",
+            "start": 37532,
+            "end": 37912,
+            "confidence": 0.05,
+            "speaker": "A"
+          },
+          {
+            "text": "정원으로",
+            "start": 38152,
+            "end": 38912,
+            "confidence": 0.057,
+            "speaker": "A"
+          },
+          {
+            "text": "와주십시오.",
+            "start": 39192,
+            "end": 40552,
+            "confidence": 0.058,
+            "speaker": "A"
+          },
+          {
+            "text": "감사합니다.",
+            "start": 41593,
+            "end": 42873,
+            "confidence": 0.01,
+            "speaker": "A"
+          },
+          {
+            "text": "다시",
+            "start": 48895,
+            "end": 49355,
+            "confidence": 0.074,
+            "speaker": "A"
+          },
+          {
+            "text": "들으십시오.",
+            "start": 49535,
+            "end": 50515,
+            "confidence": 0.205,
+            "speaker": "A"
+          },
+          {
+            "text": "한강축제에",
+            "start": 56557,
+            "end": 58018,
+            "confidence": 0.032,
+            "speaker": "A"
+          },
+          {
+            "text": "오신",
+            "start": 58098,
+            "end": 58558,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "여러분께",
+            "start": 58939,
+            "end": 59859,
+            "confidence": 0.062,
+            "speaker": "A"
+          },
+          {
+            "text": "안내",
+            "start": 60520,
+            "end": 60940,
+            "confidence": 0.111,
+            "speaker": "A"
+          },
+          {
+            "text": "말씀드립니다.",
+            "start": 61060,
+            "end": 62801,
+            "confidence": 0.038,
+            "speaker": "A"
+          },
+          {
+            "text": "오늘",
+            "start": 63762,
+            "end": 64262,
+            "confidence": 0.084,
+            "speaker": "A"
+          },
+          {
+            "text": "노래",
+            "start": 64602,
+            "end": 64882,
+            "confidence": 0.072,
+            "speaker": "A"
+          },
+          {
+            "text": "대회는",
+            "start": 65003,
+            "end": 65583,
+            "confidence": 0.073,
+            "speaker": "A"
+          },
+          {
+            "text": "하늘정원에서",
+            "start": 66484,
+            "end": 67985,
+            "confidence": 0.054,
+            "speaker": "A"
+          },
+          {
+            "text": "열립니다.",
+            "start": 68305,
+            "end": 70407,
+            "confidence": 0.05,
+            "speaker": "A"
+          },
+          {
+            "text": "하늘정원은",
+            "start": 70667,
+            "end": 72228,
+            "confidence": 0.026,
+            "speaker": "A"
+          },
+          {
+            "text": "정문",
+            "start": 72688,
+            "end": 73189,
+            "confidence": 0.07,
+            "speaker": "A"
+          },
+          {
+            "text": "주차장에서",
+            "start": 73489,
+            "end": 74650,
+            "confidence": 0.068,
+            "speaker": "A"
+          },
+          {
+            "text": "오른쪽으로",
+            "start": 75370,
+            "end": 76451,
+            "confidence": 0.089,
+            "speaker": "A"
+          },
+          {
+            "text": "오시면",
+            "start": 76651,
+            "end": 77211,
+            "confidence": 0.02,
+            "speaker": "A"
+          },
+          {
+            "text": "됩니다.",
+            "start": 77372,
+            "end": 78072,
+            "confidence": 0.374,
+            "speaker": "A"
+          },
+          {
+            "text": "노래",
+            "start": 79270,
+            "end": 79730,
+            "confidence": 0.054,
+            "speaker": "A"
+          },
+          {
+            "text": "대회가",
+            "start": 79871,
+            "end": 80491,
+            "confidence": 0.097,
+            "speaker": "A"
+          },
+          {
+            "text": "끝나면",
+            "start": 80631,
+            "end": 81292,
+            "confidence": 0.043,
+            "speaker": "A"
+          },
+          {
+            "text": "같은",
+            "start": 82053,
+            "end": 82493,
+            "confidence": 0.098,
+            "speaker": "A"
+          },
+          {
+            "text": "장소에서",
+            "start": 82694,
+            "end": 83695,
+            "confidence": 0.084,
+            "speaker": "A"
+          },
+          {
+            "text": "무료",
+            "start": 84556,
+            "end": 84976,
+            "confidence": 0.037,
+            "speaker": "A"
+          },
+          {
+            "text": "축하",
+            "start": 85256,
+            "end": 85697,
+            "confidence": 0.057,
+            "speaker": "A"
+          },
+          {
+            "text": "공연도",
+            "start": 85877,
+            "end": 86638,
+            "confidence": 0.017,
+            "speaker": "A"
+          },
+          {
+            "text": "열릴",
+            "start": 87038,
+            "end": 87499,
+            "confidence": 0.076,
+            "speaker": "A"
+          },
+          {
+            "text": "예정입니다.",
+            "start": 87739,
+            "end": 88840,
+            "confidence": 0.066,
+            "speaker": "A"
+          },
+          {
+            "text": "관심",
+            "start": 90262,
+            "end": 90842,
+            "confidence": 0.044,
+            "speaker": "A"
+          },
+          {
+            "text": "있는",
+            "start": 90862,
+            "end": 91163,
+            "confidence": 0.072,
+            "speaker": "A"
+          },
+          {
+            "text": "분들은",
+            "start": 91363,
+            "end": 91883,
+            "confidence": 0.105,
+            "speaker": "A"
+          },
+          {
+            "text": "지금",
+            "start": 92884,
+            "end": 93265,
+            "confidence": 0.108,
+            "speaker": "A"
+          },
+          {
+            "text": "하늘",
+            "start": 93906,
+            "end": 94286,
+            "confidence": 0.05,
+            "speaker": "A"
+          },
+          {
+            "text": "정원으로",
+            "start": 94526,
+            "end": 95287,
+            "confidence": 0.063,
+            "speaker": "A"
+          },
+          {
+            "text": "와주십시오.",
+            "start": 95567,
+            "end": 96809,
+            "confidence": 0.067,
+            "speaker": "A"
+          },
+          {
+            "text": "감사합니다.",
+            "start": 97970,
+            "end": 99031,
+            "confidence": 0.253,
+            "speaker": "A"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.07544927,
+    "audio_duration": 105
+  },
+  {
+    "status_script": "completed",
+    "id": "ca103bb2-fc0a-4152-9392-712ff222a1bc",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732927/soometa/96-I-listening/961_27-28.mp3",
+    "text": "어제 학생 식당에서 열리는 요리 교실에 갔는데 재미있었어요. 우리 학교에 요리 수업이 있었어요? 전 몰랐어요. 네, 저처럼 외식을 자주 하거나 요리를 못하는 대학생들을 위한 수업이에요. 간단하고 빠르게 만들 수 있는 요리를 가르쳐줘요. 그거 좋네요. 저도 요리를 잘 못하는데 한 번 가봐야겠어요. 다음 주에도 요리교실이 열리는데 같이 갈래요? 좋아요. 우리 같이 신청해요. 다시 들으십시오. 어제 학생 식당에서 열리는 요리 교실에 갔는데 재미있었어요. 우리 학교에 요리 수업이 있었어요? 전 몰랐어요. 네, 저처럼 외식을 자주 하거나 요리를 못하는 대학생들을 위한 수업이에요. 간단하고 빠르게 만들 수 있는 요리를 가르쳐줘요. 그거 좋네요. 저도 요리를 잘 못하는데 한 번 가봐야겠어요. 다음 주에도 요리교실이 열리는데 같이 갈래요? 좋아요. 우리 같이 신청해요.",
+    "utterances": [
+      {
+        "speaker": "A",
+        "text": "어제 학생 식당에서 열리는 요리 교실에 갔는데 재미있었어요.",
+        "confidence": 0.071625,
+        "start": 717,
+        "end": 10000,
+        "words": [
+          {
+            "text": "어제",
+            "start": 717,
+            "end": 1297,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "학생",
+            "start": 2057,
+            "end": 2598,
+            "confidence": 0.072,
+            "speaker": "A"
+          },
+          {
+            "text": "식당에서",
+            "start": 2818,
+            "end": 3618,
+            "confidence": 0.104,
+            "speaker": "A"
+          },
+          {
+            "text": "열리는",
+            "start": 3698,
+            "end": 4218,
+            "confidence": 0.123,
+            "speaker": "A"
+          },
+          {
+            "text": "요리",
+            "start": 4939,
+            "end": 5299,
+            "confidence": 0.079,
+            "speaker": "A"
+          },
+          {
+            "text": "교실에",
+            "start": 5439,
+            "end": 5899,
+            "confidence": 0.081,
+            "speaker": "A"
+          },
+          {
+            "text": "갔는데",
+            "start": 6039,
+            "end": 7159,
+            "confidence": 0.042,
+            "speaker": "A"
+          },
+          {
+            "text": "재미있었어요.",
+            "start": 7600,
+            "end": 10000,
+            "confidence": 0.072,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "우리 학교에 요리 수업이 있었어요? 전 몰랐어요.",
+        "confidence": 0.048714284,
+        "start": 10341,
+        "end": 17743,
+        "words": [
+          {
+            "text": "우리",
+            "start": 10341,
+            "end": 10741,
+            "confidence": 0.1,
+            "speaker": "B"
+          },
+          {
+            "text": "학교에",
+            "start": 10941,
+            "end": 11741,
+            "confidence": 0.007,
+            "speaker": "B"
+          },
+          {
+            "text": "요리",
+            "start": 12481,
+            "end": 12882,
+            "confidence": 0.056,
+            "speaker": "B"
+          },
+          {
+            "text": "수업이",
+            "start": 13142,
+            "end": 13642,
+            "confidence": 0.071,
+            "speaker": "B"
+          },
+          {
+            "text": "있었어요?",
+            "start": 13882,
+            "end": 15483,
+            "confidence": 0.059,
+            "speaker": "B"
+          },
+          {
+            "text": "전",
+            "start": 16023,
+            "end": 16283,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "몰랐어요.",
+            "start": 16803,
+            "end": 17743,
+            "confidence": 0.048,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "네, 저처럼 외식을 자주 하거나 요리를 못하는 대학생들을 위한 수업이에요. 간단하고 빠르게 만들 수 있는 요리를 가르쳐줘요.",
+        "confidence": 0.09982353,
+        "start": 19324,
+        "end": 37858,
+        "words": [
+          {
+            "text": "네,",
+            "start": 19324,
+            "end": 20484,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "저처럼",
+            "start": 20885,
+            "end": 21585,
+            "confidence": 0.088,
+            "speaker": "A"
+          },
+          {
+            "text": "외식을",
+            "start": 22325,
+            "end": 23085,
+            "confidence": 0.076,
+            "speaker": "A"
+          },
+          {
+            "text": "자주",
+            "start": 23385,
+            "end": 23786,
+            "confidence": 0.094,
+            "speaker": "A"
+          },
+          {
+            "text": "하거나",
+            "start": 23886,
+            "end": 24386,
+            "confidence": 0.12,
+            "speaker": "A"
+          },
+          {
+            "text": "요리를",
+            "start": 25166,
+            "end": 25786,
+            "confidence": 0.09,
+            "speaker": "A"
+          },
+          {
+            "text": "못하는",
+            "start": 26267,
+            "end": 26887,
+            "confidence": 0.098,
+            "speaker": "A"
+          },
+          {
+            "text": "대학생들을",
+            "start": 27227,
+            "end": 28187,
+            "confidence": 0.118,
+            "speaker": "A"
+          },
+          {
+            "text": "위한",
+            "start": 28347,
+            "end": 28707,
+            "confidence": 0.111,
+            "speaker": "A"
+          },
+          {
+            "text": "수업이에요.",
+            "start": 29308,
+            "end": 30248,
+            "confidence": 0.284,
+            "speaker": "A"
+          },
+          {
+            "text": "간단하고",
+            "start": 31413,
+            "end": 32334,
+            "confidence": 0.08,
+            "speaker": "A"
+          },
+          {
+            "text": "빠르게",
+            "start": 33074,
+            "end": 33695,
+            "confidence": 0.027,
+            "speaker": "A"
+          },
+          {
+            "text": "만들",
+            "start": 33955,
+            "end": 34355,
+            "confidence": 0.119,
+            "speaker": "A"
+          },
+          {
+            "text": "수",
+            "start": 34536,
+            "end": 34636,
+            "confidence": 0.2,
+            "speaker": "A"
+          },
+          {
+            "text": "있는",
+            "start": 34696,
+            "end": 35056,
+            "confidence": 0.117,
+            "speaker": "A"
+          },
+          {
+            "text": "요리를",
+            "start": 35336,
+            "end": 35797,
+            "confidence": 0.032,
+            "speaker": "A"
+          },
+          {
+            "text": "가르쳐줘요.",
+            "start": 36437,
+            "end": 37858,
+            "confidence": 0.043,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "그거 좋네요. 저도 요리를 잘 못하는데 한 번 가봐야겠어요.",
+        "confidence": 0.07655556,
+        "start": 38859,
+        "end": 49267,
+        "words": [
+          {
+            "text": "그거",
+            "start": 38859,
+            "end": 39379,
+            "confidence": 0.036,
+            "speaker": "B"
+          },
+          {
+            "text": "좋네요.",
+            "start": 39660,
+            "end": 40620,
+            "confidence": 0.019,
+            "speaker": "B"
+          },
+          {
+            "text": "저도",
+            "start": 41781,
+            "end": 42382,
+            "confidence": 0.028,
+            "speaker": "B"
+          },
+          {
+            "text": "요리를",
+            "start": 43022,
+            "end": 43643,
+            "confidence": 0.005,
+            "speaker": "B"
+          },
+          {
+            "text": "잘",
+            "start": 43963,
+            "end": 44223,
+            "confidence": 0.035,
+            "speaker": "B"
+          },
+          {
+            "text": "못하는데",
+            "start": 44423,
+            "end": 45284,
+            "confidence": 0.096,
+            "speaker": "B"
+          },
+          {
+            "text": "한",
+            "start": 46145,
+            "end": 46265,
+            "confidence": 0.167,
+            "speaker": "B"
+          },
+          {
+            "text": "번",
+            "start": 46385,
+            "end": 46605,
+            "confidence": 0.09,
+            "speaker": "B"
+          },
+          {
+            "text": "가봐야겠어요.",
+            "start": 47146,
+            "end": 49267,
+            "confidence": 0.213,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "다음 주에도 요리교실이 열리는데 같이 갈래요?",
+        "confidence": 0.11783333,
+        "start": 49788,
+        "end": 56233,
+        "words": [
+          {
+            "text": "다음",
+            "start": 49788,
+            "end": 50068,
+            "confidence": 0.107,
+            "speaker": "A"
+          },
+          {
+            "text": "주에도",
+            "start": 50348,
+            "end": 51009,
+            "confidence": 0.065,
+            "speaker": "A"
+          },
+          {
+            "text": "요리교실이",
+            "start": 51669,
+            "end": 52770,
+            "confidence": 0.073,
+            "speaker": "A"
+          },
+          {
+            "text": "열리는데",
+            "start": 52970,
+            "end": 53871,
+            "confidence": 0.094,
+            "speaker": "A"
+          },
+          {
+            "text": "같이",
+            "start": 54792,
+            "end": 55392,
+            "confidence": 0.066,
+            "speaker": "A"
+          },
+          {
+            "text": "갈래요?",
+            "start": 55633,
+            "end": 56233,
+            "confidence": 0.302,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "좋아요. 우리 같이 신청해요. 다시 들으십시오.",
+        "confidence": 0.044333335,
+        "start": 57417,
+        "end": 66742,
+        "words": [
+          {
+            "text": "좋아요.",
+            "start": 57417,
+            "end": 58297,
+            "confidence": 0.003,
+            "speaker": "B"
+          },
+          {
+            "text": "우리",
+            "start": 59218,
+            "end": 59638,
+            "confidence": 0.107,
+            "speaker": "B"
+          },
+          {
+            "text": "같이",
+            "start": 60218,
+            "end": 60799,
+            "confidence": 0.006,
+            "speaker": "B"
+          },
+          {
+            "text": "신청해요.",
+            "start": 61139,
+            "end": 63460,
+            "confidence": 0.047,
+            "speaker": "B"
+          },
+          {
+            "text": "다시",
+            "start": 63880,
+            "end": 64360,
+            "confidence": 0.07,
+            "speaker": "B"
+          },
+          {
+            "text": "들으십시오.",
+            "start": 64540,
+            "end": 66742,
+            "confidence": 0.033,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "어제 학생 식당에서 열리는 요리 교실에 갔는데 재미있었어요.",
+        "confidence": 0.069375,
+        "start": 67242,
+        "end": 76466,
+        "words": [
+          {
+            "text": "어제",
+            "start": 67242,
+            "end": 67742,
+            "confidence": 0.056,
+            "speaker": "A"
+          },
+          {
+            "text": "학생",
+            "start": 68502,
+            "end": 69043,
+            "confidence": 0.016,
+            "speaker": "A"
+          },
+          {
+            "text": "식당에서",
+            "start": 69283,
+            "end": 70063,
+            "confidence": 0.101,
+            "speaker": "A"
+          },
+          {
+            "text": "열리는",
+            "start": 70163,
+            "end": 70663,
+            "confidence": 0.122,
+            "speaker": "A"
+          },
+          {
+            "text": "요리",
+            "start": 71404,
+            "end": 71744,
+            "confidence": 0.072,
+            "speaker": "A"
+          },
+          {
+            "text": "교실에",
+            "start": 71884,
+            "end": 72364,
+            "confidence": 0.081,
+            "speaker": "A"
+          },
+          {
+            "text": "갔는데",
+            "start": 72504,
+            "end": 73525,
+            "confidence": 0.04,
+            "speaker": "A"
+          },
+          {
+            "text": "재미있었어요.",
+            "start": 74065,
+            "end": 76466,
+            "confidence": 0.067,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "우리 학교에 요리 수업이 있었어요? 전 몰랐어요.",
+        "confidence": 0.08671428,
+        "start": 76806,
+        "end": 84350,
+        "words": [
+          {
+            "text": "우리",
+            "start": 76806,
+            "end": 77207,
+            "confidence": 0.101,
+            "speaker": "B"
+          },
+          {
+            "text": "학교에",
+            "start": 77367,
+            "end": 78167,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "요리",
+            "start": 78187,
+            "end": 79348,
+            "confidence": 0.027,
+            "speaker": "B"
+          },
+          {
+            "text": "수업이",
+            "start": 79608,
+            "end": 80108,
+            "confidence": 0.059,
+            "speaker": "B"
+          },
+          {
+            "text": "있었어요?",
+            "start": 80348,
+            "end": 81949,
+            "confidence": 0.04,
+            "speaker": "B"
+          },
+          {
+            "text": "전",
+            "start": 82489,
+            "end": 82729,
+            "confidence": 0.081,
+            "speaker": "B"
+          },
+          {
+            "text": "몰랐어요.",
+            "start": 83249,
+            "end": 84350,
+            "confidence": 0.299,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "네, 저처럼 외식을 자주 하거나 요리를 못하는 대학생들을 위한 수업이에요. 간단하고 빠르게 만들 수 있는 요리를 가르쳐줘요.",
+        "confidence": 0.086647056,
+        "start": 85598,
+        "end": 104613,
+        "words": [
+          {
+            "text": "네,",
+            "start": 85598,
+            "end": 86158,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "저처럼",
+            "start": 87339,
+            "end": 88000,
+            "confidence": 0.071,
+            "speaker": "A"
+          },
+          {
+            "text": "외식을",
+            "start": 88761,
+            "end": 89541,
+            "confidence": 0.081,
+            "speaker": "A"
+          },
+          {
+            "text": "자주",
+            "start": 89821,
+            "end": 90222,
+            "confidence": 0.109,
+            "speaker": "A"
+          },
+          {
+            "text": "하거나",
+            "start": 90322,
+            "end": 90842,
+            "confidence": 0.116,
+            "speaker": "A"
+          },
+          {
+            "text": "요리를",
+            "start": 91603,
+            "end": 92223,
+            "confidence": 0.056,
+            "speaker": "A"
+          },
+          {
+            "text": "못하는",
+            "start": 92724,
+            "end": 93364,
+            "confidence": 0.063,
+            "speaker": "A"
+          },
+          {
+            "text": "대학생들을",
+            "start": 93685,
+            "end": 94665,
+            "confidence": 0.111,
+            "speaker": "A"
+          },
+          {
+            "text": "위한",
+            "start": 94785,
+            "end": 95166,
+            "confidence": 0.106,
+            "speaker": "A"
+          },
+          {
+            "text": "수업이에요.",
+            "start": 95746,
+            "end": 97147,
+            "confidence": 0.085,
+            "speaker": "A"
+          },
+          {
+            "text": "간단하고",
+            "start": 97908,
+            "end": 98789,
+            "confidence": 0.084,
+            "speaker": "A"
+          },
+          {
+            "text": "빠르게",
+            "start": 99529,
+            "end": 100150,
+            "confidence": 0.033,
+            "speaker": "A"
+          },
+          {
+            "text": "만들",
+            "start": 100410,
+            "end": 100810,
+            "confidence": 0.134,
+            "speaker": "A"
+          },
+          {
+            "text": "수",
+            "start": 100991,
+            "end": 101111,
+            "confidence": 0.167,
+            "speaker": "A"
+          },
+          {
+            "text": "있는",
+            "start": 101151,
+            "end": 101511,
+            "confidence": 0.117,
+            "speaker": "A"
+          },
+          {
+            "text": "요리를",
+            "start": 101791,
+            "end": 102272,
+            "confidence": 0.098,
+            "speaker": "A"
+          },
+          {
+            "text": "가르쳐줘요.",
+            "start": 102892,
+            "end": 104613,
+            "confidence": 0.042,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "그거 좋네요. 저도 요리를 잘 못하는데 한 번 가봐야겠어요.",
+        "confidence": 0.06966667,
+        "start": 105334,
+        "end": 115062,
+        "words": [
+          {
+            "text": "그거",
+            "start": 105334,
+            "end": 105834,
+            "confidence": 0.013,
+            "speaker": "B"
+          },
+          {
+            "text": "좋네요.",
+            "start": 106115,
+            "end": 107055,
+            "confidence": 0.018,
+            "speaker": "B"
+          },
+          {
+            "text": "저도",
+            "start": 108236,
+            "end": 108857,
+            "confidence": 0.028,
+            "speaker": "B"
+          },
+          {
+            "text": "요리를",
+            "start": 109497,
+            "end": 110078,
+            "confidence": 0.03,
+            "speaker": "B"
+          },
+          {
+            "text": "잘",
+            "start": 110418,
+            "end": 110698,
+            "confidence": 0.007,
+            "speaker": "B"
+          },
+          {
+            "text": "못하는데",
+            "start": 110879,
+            "end": 111739,
+            "confidence": 0.076,
+            "speaker": "B"
+          },
+          {
+            "text": "한",
+            "start": 112600,
+            "end": 112720,
+            "confidence": 0.166,
+            "speaker": "B"
+          },
+          {
+            "text": "번",
+            "start": 112840,
+            "end": 113080,
+            "confidence": 0.073,
+            "speaker": "B"
+          },
+          {
+            "text": "가봐야겠어요.",
+            "start": 113621,
+            "end": 115062,
+            "confidence": 0.216,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "다음 주에도 요리교실이 열리는데 같이 갈래요?",
+        "confidence": 0.06916667,
+        "start": 116125,
+        "end": 123494,
+        "words": [
+          {
+            "text": "다음",
+            "start": 116125,
+            "end": 116505,
+            "confidence": 0.1,
+            "speaker": "A"
+          },
+          {
+            "text": "주에도",
+            "start": 116786,
+            "end": 117427,
+            "confidence": 0.066,
+            "speaker": "A"
+          },
+          {
+            "text": "요리교실이",
+            "start": 118107,
+            "end": 119229,
+            "confidence": 0.061,
+            "speaker": "A"
+          },
+          {
+            "text": "열리는데",
+            "start": 119409,
+            "end": 120290,
+            "confidence": 0.096,
+            "speaker": "A"
+          },
+          {
+            "text": "같이",
+            "start": 121231,
+            "end": 121812,
+            "confidence": 0.065,
+            "speaker": "A"
+          },
+          {
+            "text": "갈래요?",
+            "start": 122072,
+            "end": 123494,
+            "confidence": 0.027,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "좋아요. 우리 같이 신청해요.",
+        "confidence": 0.10925,
+        "start": 124014,
+        "end": 128680,
+        "words": [
+          {
+            "text": "좋아요.",
+            "start": 124014,
+            "end": 124755,
+            "confidence": 0.001,
+            "speaker": "B"
+          },
+          {
+            "text": "우리",
+            "start": 125676,
+            "end": 126097,
+            "confidence": 0.107,
+            "speaker": "B"
+          },
+          {
+            "text": "같이",
+            "start": 126678,
+            "end": 127258,
+            "confidence": 0.042,
+            "speaker": "B"
+          },
+          {
+            "text": "신청해요.",
+            "start": 127599,
+            "end": 128680,
+            "confidence": 0.287,
+            "speaker": "B"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.08471717,
+    "audio_duration": 131
+  },
+  {
+    "status_script": "completed",
+    "id": "74ff02c7-f091-46a8-8019-9c50afe8cf59",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732927/soometa/96-I-listening/961_29-30.mp3",
+    "text": "감독님께서는 전국의 시장을 소개하는 방송으로 유명하신데요. 처음에 어떻게 이 방송을 만들게 되셨어요? 제가 방송일을 하면서 전국의 많은 곳을 다녔어요. 그때 재미있고 특별한 시장들을 알게 되었어요. 이런 다양한 시장을 방송으로 보여드리고 싶어서 시작하게 되었습니다. 그렇군요. 이번에 시장에 대한 내용으로 책도 쓰셨지요? 네, 지난 10년 동안 이 방송을 하면서 시장분들의 재미있는 이야기를 많이 들었는데요. 그 이야기들을 모아서 책으로 썼습니다. 내년에는 더욱 특별한 내용을 계획하고 계시다고요? 네. 외국에 있는 시장도 소개해 드리려고 준비하고 있습니다. 다시 들으십시오. 감독님께서는 전국의 시장을 소개하는 방송으로 유명하신데요. 처음에 어떻게 이 방송을 만들게 되셨어요? 제가 방송 일을 하면서 전국의 많은 곳을 다녔어요. 그때 재미있고 특별한 시장들을 알게 되었어요. 이런 다양한 시장을 방송으로 보여드리고 싶어서 시작하게 되었습니다. 그렇군요. 이번에 시장에 대한 내용으로 책도 쓰셨지요? 네, 지난 10년 동안 이 방송을 하면서 시장분들의 재미있는 이야기를 많이 들었는데요. 그 이야기들을 모아서 책으로 썼습니다. 내년에는 더욱 특별한 내용을 계획하고 계시다고요? 네. 외국에 있는 시장도 소개해 드리려고 준비하고 있습니다.",
+    "utterances": [
+      {
+        "speaker": "A",
+        "text": "감독님께서는 전국의 시장을 소개하는 방송으로 유명하신데요. 처음에 어떻게 이 방송을 만들게 되셨어요?",
+        "confidence": 0.11383333,
+        "start": 8,
+        "end": 15314,
+        "words": [
+          {
+            "text": "감독님께서는",
+            "start": 8,
+            "end": 1589,
+            "confidence": 0.081,
+            "speaker": "A"
+          },
+          {
+            "text": "전국의",
+            "start": 2529,
+            "end": 3249,
+            "confidence": 0.092,
+            "speaker": "A"
+          },
+          {
+            "text": "시장을",
+            "start": 3569,
+            "end": 4330,
+            "confidence": 0.077,
+            "speaker": "A"
+          },
+          {
+            "text": "소개하는",
+            "start": 4650,
+            "end": 5370,
+            "confidence": 0.105,
+            "speaker": "A"
+          },
+          {
+            "text": "방송으로",
+            "start": 5630,
+            "end": 6531,
+            "confidence": 0.102,
+            "speaker": "A"
+          },
+          {
+            "text": "유명하신데요.",
+            "start": 6871,
+            "end": 9212,
+            "confidence": 0.203,
+            "speaker": "A"
+          },
+          {
+            "text": "처음에",
+            "start": 9412,
+            "end": 10232,
+            "confidence": 0.083,
+            "speaker": "A"
+          },
+          {
+            "text": "어떻게",
+            "start": 10692,
+            "end": 11593,
+            "confidence": 0.072,
+            "speaker": "A"
+          },
+          {
+            "text": "이",
+            "start": 12033,
+            "end": 12213,
+            "confidence": 0.111,
+            "speaker": "A"
+          },
+          {
+            "text": "방송을",
+            "start": 12413,
+            "end": 13213,
+            "confidence": 0.06,
+            "speaker": "A"
+          },
+          {
+            "text": "만들게",
+            "start": 13553,
+            "end": 14194,
+            "confidence": 0.102,
+            "speaker": "A"
+          },
+          {
+            "text": "되셨어요?",
+            "start": 14314,
+            "end": 15314,
+            "confidence": 0.278,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "제가 방송일을 하면서 전국의 많은 곳을 다녔어요. 그때 재미있고 특별한 시장들을 알게 되었어요. 이런 다양한 시장을 방송으로 보여드리고 싶어서 시작하게 되었습니다.",
+        "confidence": 0.08971429,
+        "start": 16512,
+        "end": 39142,
+        "words": [
+          {
+            "text": "제가",
+            "start": 16512,
+            "end": 17152,
+            "confidence": 0.036,
+            "speaker": "B"
+          },
+          {
+            "text": "방송일을",
+            "start": 17632,
+            "end": 18633,
+            "confidence": 0.018,
+            "speaker": "B"
+          },
+          {
+            "text": "하면서",
+            "start": 18753,
+            "end": 19373,
+            "confidence": 0.102,
+            "speaker": "B"
+          },
+          {
+            "text": "전국의",
+            "start": 20174,
+            "end": 20774,
+            "confidence": 0.076,
+            "speaker": "B"
+          },
+          {
+            "text": "많은",
+            "start": 21354,
+            "end": 21794,
+            "confidence": 0.008,
+            "speaker": "B"
+          },
+          {
+            "text": "곳을",
+            "start": 21894,
+            "end": 22315,
+            "confidence": 0.099,
+            "speaker": "B"
+          },
+          {
+            "text": "다녔어요.",
+            "start": 22455,
+            "end": 23215,
+            "confidence": 0.061,
+            "speaker": "B"
+          },
+          {
+            "text": "그때",
+            "start": 24556,
+            "end": 25016,
+            "confidence": 0.088,
+            "speaker": "B"
+          },
+          {
+            "text": "재미있고",
+            "start": 25916,
+            "end": 26717,
+            "confidence": 0.099,
+            "speaker": "B"
+          },
+          {
+            "text": "특별한",
+            "start": 27297,
+            "end": 27837,
+            "confidence": 0.113,
+            "speaker": "B"
+          },
+          {
+            "text": "시장들을",
+            "start": 28057,
+            "end": 28837,
+            "confidence": 0.1,
+            "speaker": "B"
+          },
+          {
+            "text": "알게",
+            "start": 29118,
+            "end": 29498,
+            "confidence": 0.136,
+            "speaker": "B"
+          },
+          {
+            "text": "되었어요.",
+            "start": 29578,
+            "end": 31359,
+            "confidence": 0.09,
+            "speaker": "B"
+          },
+          {
+            "text": "이런",
+            "start": 31559,
+            "end": 31879,
+            "confidence": 0.132,
+            "speaker": "B"
+          },
+          {
+            "text": "다양한",
+            "start": 32279,
+            "end": 32819,
+            "confidence": 0.056,
+            "speaker": "B"
+          },
+          {
+            "text": "시장을",
+            "start": 33019,
+            "end": 33600,
+            "confidence": 0.095,
+            "speaker": "B"
+          },
+          {
+            "text": "방송으로",
+            "start": 34280,
+            "end": 35060,
+            "confidence": 0.059,
+            "speaker": "B"
+          },
+          {
+            "text": "보여드리고",
+            "start": 35260,
+            "end": 36041,
+            "confidence": 0.09,
+            "speaker": "B"
+          },
+          {
+            "text": "싶어서",
+            "start": 36161,
+            "end": 36681,
+            "confidence": 0.108,
+            "speaker": "B"
+          },
+          {
+            "text": "시작하게",
+            "start": 37361,
+            "end": 38202,
+            "confidence": 0.036,
+            "speaker": "B"
+          },
+          {
+            "text": "되었습니다.",
+            "start": 38322,
+            "end": 39142,
+            "confidence": 0.282,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "그렇군요. 이번에 시장에 대한 내용으로 책도 쓰셨지요?",
+        "confidence": 0.04042857,
+        "start": 40390,
+        "end": 48974,
+        "words": [
+          {
+            "text": "그렇군요.",
+            "start": 40390,
+            "end": 41651,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "이번에",
+            "start": 42871,
+            "end": 43652,
+            "confidence": 0.093,
+            "speaker": "A"
+          },
+          {
+            "text": "시장에",
+            "start": 44152,
+            "end": 44872,
+            "confidence": 0.063,
+            "speaker": "A"
+          },
+          {
+            "text": "대한",
+            "start": 45032,
+            "end": 45412,
+            "confidence": 0.074,
+            "speaker": "A"
+          },
+          {
+            "text": "내용으로",
+            "start": 45653,
+            "end": 46513,
+            "confidence": 0.016,
+            "speaker": "A"
+          },
+          {
+            "text": "책도",
+            "start": 47213,
+            "end": 47754,
+            "confidence": 0.031,
+            "speaker": "A"
+          },
+          {
+            "text": "쓰셨지요?",
+            "start": 48094,
+            "end": 48974,
+            "confidence": 0.006,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "네, 지난 10년 동안 이 방송을 하면서 시장분들의 재미있는 이야기를 많이 들었는데요. 그 이야기들을 모아서 책으로 썼습니다.",
+        "confidence": 0.109,
+        "start": 50335,
+        "end": 66783,
+        "words": [
+          {
+            "text": "네,",
+            "start": 50335,
+            "end": 50575,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "지난",
+            "start": 51676,
+            "end": 51996,
+            "confidence": 0.131,
+            "speaker": "B"
+          },
+          {
+            "text": "10년",
+            "start": 52516,
+            "end": 52636,
+            "confidence": 0.166,
+            "speaker": "B"
+          },
+          {
+            "text": "동안",
+            "start": 52816,
+            "end": 53176,
+            "confidence": 0.115,
+            "speaker": "B"
+          },
+          {
+            "text": "이",
+            "start": 53717,
+            "end": 53917,
+            "confidence": 0.098,
+            "speaker": "B"
+          },
+          {
+            "text": "방송을",
+            "start": 54097,
+            "end": 54657,
+            "confidence": 0.143,
+            "speaker": "B"
+          },
+          {
+            "text": "하면서",
+            "start": 54757,
+            "end": 55317,
+            "confidence": 0.115,
+            "speaker": "B"
+          },
+          {
+            "text": "시장분들의",
+            "start": 56218,
+            "end": 57298,
+            "confidence": 0.065,
+            "speaker": "B"
+          },
+          {
+            "text": "재미있는",
+            "start": 57799,
+            "end": 58539,
+            "confidence": 0.107,
+            "speaker": "B"
+          },
+          {
+            "text": "이야기를",
+            "start": 58659,
+            "end": 59279,
+            "confidence": 0.128,
+            "speaker": "B"
+          },
+          {
+            "text": "많이",
+            "start": 59740,
+            "end": 60160,
+            "confidence": 0.083,
+            "speaker": "B"
+          },
+          {
+            "text": "들었는데요.",
+            "start": 60300,
+            "end": 62661,
+            "confidence": 0.047,
+            "speaker": "B"
+          },
+          {
+            "text": "그",
+            "start": 62681,
+            "end": 62701,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "이야기들을",
+            "start": 62861,
+            "end": 63742,
+            "confidence": 0.122,
+            "speaker": "B"
+          },
+          {
+            "text": "모아서",
+            "start": 63942,
+            "end": 64542,
+            "confidence": 0.112,
+            "speaker": "B"
+          },
+          {
+            "text": "책으로",
+            "start": 65202,
+            "end": 65662,
+            "confidence": 0.132,
+            "speaker": "B"
+          },
+          {
+            "text": "썼습니다.",
+            "start": 65943,
+            "end": 66783,
+            "confidence": 0.289,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "내년에는 더욱 특별한 내용을 계획하고 계시다고요?",
+        "confidence": 0.075,
+        "start": 68015,
+        "end": 75417,
+        "words": [
+          {
+            "text": "내년에는",
+            "start": 68015,
+            "end": 68855,
+            "confidence": 0.084,
+            "speaker": "A"
+          },
+          {
+            "text": "더욱",
+            "start": 69655,
+            "end": 69915,
+            "confidence": 0.007,
+            "speaker": "A"
+          },
+          {
+            "text": "특별한",
+            "start": 70196,
+            "end": 70736,
+            "confidence": 0.112,
+            "speaker": "A"
+          },
+          {
+            "text": "내용을",
+            "start": 70936,
+            "end": 71536,
+            "confidence": 0.102,
+            "speaker": "A"
+          },
+          {
+            "text": "계획하고",
+            "start": 71816,
+            "end": 72656,
+            "confidence": 0.094,
+            "speaker": "A"
+          },
+          {
+            "text": "계시다고요?",
+            "start": 72816,
+            "end": 75417,
+            "confidence": 0.051,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "네. 외국에 있는 시장도 소개해 드리려고 준비하고 있습니다.",
+        "confidence": 0.05125,
+        "start": 75777,
+        "end": 83839,
+        "words": [
+          {
+            "text": "네.",
+            "start": 75777,
+            "end": 75817,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "외국에",
+            "start": 76597,
+            "end": 77117,
+            "confidence": 0.069,
+            "speaker": "B"
+          },
+          {
+            "text": "있는",
+            "start": 77177,
+            "end": 77537,
+            "confidence": 0.074,
+            "speaker": "B"
+          },
+          {
+            "text": "시장도",
+            "start": 77837,
+            "end": 78458,
+            "confidence": 0.014,
+            "speaker": "B"
+          },
+          {
+            "text": "소개해",
+            "start": 78858,
+            "end": 79318,
+            "confidence": 0.037,
+            "speaker": "B"
+          },
+          {
+            "text": "드리려고",
+            "start": 79458,
+            "end": 80058,
+            "confidence": 0.064,
+            "speaker": "B"
+          },
+          {
+            "text": "준비하고",
+            "start": 80718,
+            "end": 81518,
+            "confidence": 0.105,
+            "speaker": "B"
+          },
+          {
+            "text": "있습니다.",
+            "start": 81638,
+            "end": 83839,
+            "confidence": 0.047,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "다시 들으십시오. 감독님께서는 전국의 시장을 소개하는 방송으로 유명하신데요. 처음에 어떻게 이 방송을 만들게 되셨어요?",
+        "confidence": 0.055,
+        "start": 84159,
+        "end": 102486,
+        "words": [
+          {
+            "text": "다시",
+            "start": 84159,
+            "end": 84619,
+            "confidence": 0.08,
+            "speaker": "A"
+          },
+          {
+            "text": "들으십시오.",
+            "start": 84819,
+            "end": 87000,
+            "confidence": 0.035,
+            "speaker": "A"
+          },
+          {
+            "text": "감독님께서는",
+            "start": 87440,
+            "end": 88900,
+            "confidence": 0.058,
+            "speaker": "A"
+          },
+          {
+            "text": "전국의",
+            "start": 89801,
+            "end": 90521,
+            "confidence": 0.031,
+            "speaker": "A"
+          },
+          {
+            "text": "시장을",
+            "start": 90841,
+            "end": 91601,
+            "confidence": 0.079,
+            "speaker": "A"
+          },
+          {
+            "text": "소개하는",
+            "start": 91941,
+            "end": 92641,
+            "confidence": 0.099,
+            "speaker": "A"
+          },
+          {
+            "text": "방송으로",
+            "start": 92881,
+            "end": 93782,
+            "confidence": 0.023,
+            "speaker": "A"
+          },
+          {
+            "text": "유명하신데요.",
+            "start": 94142,
+            "end": 95622,
+            "confidence": 0.166,
+            "speaker": "A"
+          },
+          {
+            "text": "처음에",
+            "start": 96483,
+            "end": 97484,
+            "confidence": 0.002,
+            "speaker": "A"
+          },
+          {
+            "text": "어떻게",
+            "start": 97964,
+            "end": 98824,
+            "confidence": 0.074,
+            "speaker": "A"
+          },
+          {
+            "text": "이",
+            "start": 99305,
+            "end": 99485,
+            "confidence": 0.097,
+            "speaker": "A"
+          },
+          {
+            "text": "방송을",
+            "start": 99685,
+            "end": 100465,
+            "confidence": 0.002,
+            "speaker": "A"
+          },
+          {
+            "text": "만들게",
+            "start": 100825,
+            "end": 101466,
+            "confidence": 0.007,
+            "speaker": "A"
+          },
+          {
+            "text": "되셨어요?",
+            "start": 101586,
+            "end": 102486,
+            "confidence": 0.017,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "제가 방송 일을 하면서 전국의 많은 곳을 다녔어요. 그때 재미있고 특별한 시장들을 알게 되었어요. 이런 다양한 시장을 방송으로 보여드리고 싶어서 시작하게 되었습니다.",
+        "confidence": 0.08890909,
+        "start": 103927,
+        "end": 126419,
+        "words": [
+          {
+            "text": "제가",
+            "start": 103927,
+            "end": 104447,
+            "confidence": 0.078,
+            "speaker": "B"
+          },
+          {
+            "text": "방송",
+            "start": 104908,
+            "end": 105368,
+            "confidence": 0.072,
+            "speaker": "B"
+          },
+          {
+            "text": "일을",
+            "start": 105508,
+            "end": 105908,
+            "confidence": 0.001,
+            "speaker": "B"
+          },
+          {
+            "text": "하면서",
+            "start": 106028,
+            "end": 106648,
+            "confidence": 0.102,
+            "speaker": "B"
+          },
+          {
+            "text": "전국의",
+            "start": 107449,
+            "end": 108069,
+            "confidence": 0.081,
+            "speaker": "B"
+          },
+          {
+            "text": "많은",
+            "start": 108629,
+            "end": 109070,
+            "confidence": 0.007,
+            "speaker": "B"
+          },
+          {
+            "text": "곳을",
+            "start": 109190,
+            "end": 109590,
+            "confidence": 0.098,
+            "speaker": "B"
+          },
+          {
+            "text": "다녔어요.",
+            "start": 109730,
+            "end": 110490,
+            "confidence": 0.046,
+            "speaker": "B"
+          },
+          {
+            "text": "그때",
+            "start": 111831,
+            "end": 112271,
+            "confidence": 0.094,
+            "speaker": "B"
+          },
+          {
+            "text": "재미있고",
+            "start": 113192,
+            "end": 113992,
+            "confidence": 0.105,
+            "speaker": "B"
+          },
+          {
+            "text": "특별한",
+            "start": 114573,
+            "end": 115113,
+            "confidence": 0.109,
+            "speaker": "B"
+          },
+          {
+            "text": "시장들을",
+            "start": 115333,
+            "end": 116134,
+            "confidence": 0.088,
+            "speaker": "B"
+          },
+          {
+            "text": "알게",
+            "start": 116414,
+            "end": 116774,
+            "confidence": 0.138,
+            "speaker": "B"
+          },
+          {
+            "text": "되었어요.",
+            "start": 116854,
+            "end": 118455,
+            "confidence": 0.083,
+            "speaker": "B"
+          },
+          {
+            "text": "이런",
+            "start": 118835,
+            "end": 119175,
+            "confidence": 0.128,
+            "speaker": "B"
+          },
+          {
+            "text": "다양한",
+            "start": 119555,
+            "end": 120096,
+            "confidence": 0.073,
+            "speaker": "B"
+          },
+          {
+            "text": "시장을",
+            "start": 120316,
+            "end": 120876,
+            "confidence": 0.062,
+            "speaker": "B"
+          },
+          {
+            "text": "방송으로",
+            "start": 121556,
+            "end": 122337,
+            "confidence": 0.068,
+            "speaker": "B"
+          },
+          {
+            "text": "보여드리고",
+            "start": 122557,
+            "end": 123317,
+            "confidence": 0.095,
+            "speaker": "B"
+          },
+          {
+            "text": "싶어서",
+            "start": 123437,
+            "end": 123978,
+            "confidence": 0.116,
+            "speaker": "B"
+          },
+          {
+            "text": "시작하게",
+            "start": 124638,
+            "end": 125458,
+            "confidence": 0.036,
+            "speaker": "B"
+          },
+          {
+            "text": "되었습니다.",
+            "start": 125599,
+            "end": 126419,
+            "confidence": 0.276,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "그렇군요. 이번에 시장에 대한 내용으로 책도 쓰셨지요?",
+        "confidence": 0.035714287,
+        "start": 127651,
+        "end": 136254,
+        "words": [
+          {
+            "text": "그렇군요.",
+            "start": 127651,
+            "end": 128871,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "이번에",
+            "start": 130132,
+            "end": 130931,
+            "confidence": 0.093,
+            "speaker": "A"
+          },
+          {
+            "text": "시장에",
+            "start": 131432,
+            "end": 132153,
+            "confidence": 0.062,
+            "speaker": "A"
+          },
+          {
+            "text": "대한",
+            "start": 132293,
+            "end": 132693,
+            "confidence": 0.062,
+            "speaker": "A"
+          },
+          {
+            "text": "내용으로",
+            "start": 132933,
+            "end": 133793,
+            "confidence": 0.002,
+            "speaker": "A"
+          },
+          {
+            "text": "책도",
+            "start": 134473,
+            "end": 135034,
+            "confidence": 0.03,
+            "speaker": "A"
+          },
+          {
+            "text": "쓰셨지요?",
+            "start": 135374,
+            "end": 136254,
+            "confidence": 0.001,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "네, 지난 10년 동안 이 방송을 하면서 시장분들의 재미있는 이야기를 많이 들었는데요. 그 이야기들을 모아서 책으로 썼습니다.",
+        "confidence": 0.103764705,
+        "start": 137594,
+        "end": 154060,
+        "words": [
+          {
+            "text": "네,",
+            "start": 137594,
+            "end": 137854,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "지난",
+            "start": 138935,
+            "end": 139255,
+            "confidence": 0.111,
+            "speaker": "B"
+          },
+          {
+            "text": "10년",
+            "start": 139775,
+            "end": 139915,
+            "confidence": 0.142,
+            "speaker": "B"
+          },
+          {
+            "text": "동안",
+            "start": 140095,
+            "end": 140455,
+            "confidence": 0.105,
+            "speaker": "B"
+          },
+          {
+            "text": "이",
+            "start": 140996,
+            "end": 141196,
+            "confidence": 0.089,
+            "speaker": "B"
+          },
+          {
+            "text": "방송을",
+            "start": 141376,
+            "end": 141936,
+            "confidence": 0.131,
+            "speaker": "B"
+          },
+          {
+            "text": "하면서",
+            "start": 142016,
+            "end": 142596,
+            "confidence": 0.113,
+            "speaker": "B"
+          },
+          {
+            "text": "시장분들의",
+            "start": 143476,
+            "end": 144557,
+            "confidence": 0.078,
+            "speaker": "B"
+          },
+          {
+            "text": "재미있는",
+            "start": 145077,
+            "end": 145797,
+            "confidence": 0.116,
+            "speaker": "B"
+          },
+          {
+            "text": "이야기를",
+            "start": 145937,
+            "end": 146557,
+            "confidence": 0.1,
+            "speaker": "B"
+          },
+          {
+            "text": "많이",
+            "start": 147018,
+            "end": 147418,
+            "confidence": 0.082,
+            "speaker": "B"
+          },
+          {
+            "text": "들었는데요.",
+            "start": 147578,
+            "end": 149919,
+            "confidence": 0.047,
+            "speaker": "B"
+          },
+          {
+            "text": "그",
+            "start": 149939,
+            "end": 149959,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "이야기들을",
+            "start": 150119,
+            "end": 151019,
+            "confidence": 0.116,
+            "speaker": "B"
+          },
+          {
+            "text": "모아서",
+            "start": 151219,
+            "end": 151799,
+            "confidence": 0.12,
+            "speaker": "B"
+          },
+          {
+            "text": "책으로",
+            "start": 152459,
+            "end": 152940,
+            "confidence": 0.13,
+            "speaker": "B"
+          },
+          {
+            "text": "썼습니다.",
+            "start": 153220,
+            "end": 154060,
+            "confidence": 0.284,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "내년에는 더욱 특별한 내용을 계획하고 계시다고요?",
+        "confidence": 0.044,
+        "start": 155292,
+        "end": 161259,
+        "words": [
+          {
+            "text": "내년에는",
+            "start": 155292,
+            "end": 156113,
+            "confidence": 0.088,
+            "speaker": "A"
+          },
+          {
+            "text": "더욱",
+            "start": 156934,
+            "end": 157194,
+            "confidence": 0.002,
+            "speaker": "A"
+          },
+          {
+            "text": "특별한",
+            "start": 157475,
+            "end": 158015,
+            "confidence": 0.004,
+            "speaker": "A"
+          },
+          {
+            "text": "내용을",
+            "start": 158196,
+            "end": 158816,
+            "confidence": 0.072,
+            "speaker": "A"
+          },
+          {
+            "text": "계획하고",
+            "start": 159077,
+            "end": 159938,
+            "confidence": 0.05,
+            "speaker": "A"
+          },
+          {
+            "text": "계시다고요?",
+            "start": 160098,
+            "end": 161259,
+            "confidence": 0.048,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "네. 외국에 있는 시장도 소개해 드리려고 준비하고 있습니다.",
+        "confidence": 0.115875,
+        "start": 162441,
+        "end": 169670,
+        "words": [
+          {
+            "text": "네.",
+            "start": 162441,
+            "end": 162701,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "외국에",
+            "start": 163883,
+            "end": 164383,
+            "confidence": 0.127,
+            "speaker": "B"
+          },
+          {
+            "text": "있는",
+            "start": 164443,
+            "end": 164824,
+            "confidence": 0.113,
+            "speaker": "B"
+          },
+          {
+            "text": "시장도",
+            "start": 165124,
+            "end": 165745,
+            "confidence": 0.105,
+            "speaker": "B"
+          },
+          {
+            "text": "소개해",
+            "start": 166166,
+            "end": 166606,
+            "confidence": 0.078,
+            "speaker": "B"
+          },
+          {
+            "text": "드리려고",
+            "start": 166746,
+            "end": 167347,
+            "confidence": 0.092,
+            "speaker": "B"
+          },
+          {
+            "text": "준비하고",
+            "start": 168008,
+            "end": 168829,
+            "confidence": 0.1,
+            "speaker": "B"
+          },
+          {
+            "text": "있습니다.",
+            "start": 168909,
+            "end": 169670,
+            "confidence": 0.312,
+            "speaker": "B"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.08888321,
+    "audio_duration": 172
+  },
+  
+  {
+    "status_script": "completed",
+    "id": "da001bb3-bba9-4423-bc83-b4a5eb03f61c",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_01.mp3",
+    "text": "손님, 수박 보고 가세요. 아주 맛있어요. 여기 접시 위에 있는 거 한번 먹어봐도 돼요? 그럼요. 드셔보세요.",
+    "utterances": [
+      {
+        "speaker": "A",
+        "text": "손님, 수박 보고 가세요. 아주 맛있어요.",
+        "confidence": 0.043833334,
+        "start": 937,
+        "end": 8304,
+        "words": [
+          {
+            "text": "손님,",
+            "start": 937,
+            "end": 1638,
+            "confidence": 0.01,
+            "speaker": "A"
+          },
+          {
+            "text": "수박",
+            "start": 2619,
+            "end": 3039,
+            "confidence": 0.05,
+            "speaker": "A"
+          },
+          {
+            "text": "보고",
+            "start": 3459,
+            "end": 3860,
+            "confidence": 0.032,
+            "speaker": "A"
+          },
+          {
+            "text": "가세요.",
+            "start": 3980,
+            "end": 4681,
+            "confidence": 0.052,
+            "speaker": "A"
+          },
+          {
+            "text": "아주",
+            "start": 5722,
+            "end": 6282,
+            "confidence": 0.055,
+            "speaker": "A"
+          },
+          {
+            "text": "맛있어요.",
+            "start": 6582,
+            "end": 8304,
+            "confidence": 0.064,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "여기 접시 위에 있는 거 한번 먹어봐도 돼요?",
+        "confidence": 0.05325,
+        "start": 8945,
+        "end": 16231,
+        "words": [
+          {
+            "text": "여기",
+            "start": 8945,
+            "end": 9425,
+            "confidence": 0.042,
+            "speaker": "B"
+          },
+          {
+            "text": "접시",
+            "start": 10026,
+            "end": 10626,
+            "confidence": 0.022,
+            "speaker": "B"
+          },
+          {
+            "text": "위에",
+            "start": 10766,
+            "end": 11167,
+            "confidence": 0.083,
+            "speaker": "B"
+          },
+          {
+            "text": "있는",
+            "start": 11267,
+            "end": 11627,
+            "confidence": 0.116,
+            "speaker": "B"
+          },
+          {
+            "text": "거",
+            "start": 11767,
+            "end": 12048,
+            "confidence": 0.069,
+            "speaker": "B"
+          },
+          {
+            "text": "한번",
+            "start": 12908,
+            "end": 13449,
+            "confidence": 0.039,
+            "speaker": "B"
+          },
+          {
+            "text": "먹어봐도",
+            "start": 13909,
+            "end": 14830,
+            "confidence": 0.036,
+            "speaker": "B"
+          },
+          {
+            "text": "돼요?",
+            "start": 15090,
+            "end": 16231,
+            "confidence": 0.019,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "그럼요. 드셔보세요.",
+        "confidence": 0.1375,
+        "start": 16812,
+        "end": 19955,
+        "words": [
+          {
+            "text": "그럼요.",
+            "start": 16812,
+            "end": 17693,
+            "confidence": 0.069,
+            "speaker": "A"
+          },
+          {
+            "text": "드셔보세요.",
+            "start": 18634,
+            "end": 19955,
+            "confidence": 0.206,
+            "speaker": "A"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.06025,
+    "audio_duration": 28
+  },
+  {
+    "status_script": "completed",
+    "id": "a782e9bb-778d-4b3c-b3bc-fe4a9a80caaf",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_02.mp3",
+    "text": "2번. 의자에 앉아 보니까 어때? 오, 잘 만들었다. 그런데 나한텐 좀 높은 것 같아. 그래? 그럼 이 부분을 조금 더 잘라야겠다.",
+    "utterances": [
+      {
+        "speaker": "A",
+        "text": "2번. 의자에 앉아 보니까 어때?",
+        "confidence": 0.0408,
+        "start": 2641,
+        "end": 8167,
+        "words": [
+          {
+            "text": "2번.",
+            "start": 2641,
+            "end": 2881,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "의자에",
+            "start": 4783,
+            "end": 5584,
+            "confidence": 0.021,
+            "speaker": "A"
+          },
+          {
+            "text": "앉아",
+            "start": 5864,
+            "end": 6305,
+            "confidence": 0.066,
+            "speaker": "A"
+          },
+          {
+            "text": "보니까",
+            "start": 6445,
+            "end": 6985,
+            "confidence": 0.117,
+            "speaker": "A"
+          },
+          {
+            "text": "어때?",
+            "start": 7706,
+            "end": 8167,
+            "speaker": "A",
+            "confidence": 0.0
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "오, 잘 만들었다. 그런데 나한텐 좀 높은 것 같아.",
+        "confidence": 0.048666667,
+        "start": 9688,
+        "end": 18317,
+        "words": [
+          {
+            "text": "오,",
+            "start": 9688,
+            "end": 10229,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "잘",
+            "start": 10709,
+            "end": 10869,
+            "confidence": 0.001,
+            "speaker": "B"
+          },
+          {
+            "text": "만들었다.",
+            "start": 10990,
+            "end": 12131,
+            "confidence": 0.078,
+            "speaker": "B"
+          },
+          {
+            "text": "그런데",
+            "start": 13292,
+            "end": 13993,
+            "confidence": 0.112,
+            "speaker": "B"
+          },
+          {
+            "text": "나한텐",
+            "start": 14853,
+            "end": 15674,
+            "confidence": 0.03,
+            "speaker": "B"
+          },
+          {
+            "text": "좀",
+            "start": 16215,
+            "end": 16435,
+            "confidence": 0.086,
+            "speaker": "B"
+          },
+          {
+            "text": "높은",
+            "start": 16956,
+            "end": 17056,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "것",
+            "start": 17456,
+            "end": 17576,
+            "confidence": 0.009,
+            "speaker": "B"
+          },
+          {
+            "text": "같아.",
+            "start": 17676,
+            "end": 18317,
+            "confidence": 0.122,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "그래? 그럼 이 부분을 조금 더 잘라야겠다.",
+        "confidence": 0.086571425,
+        "start": 19999,
+        "end": 25925,
+        "words": [
+          {
+            "text": "그래?",
+            "start": 19999,
+            "end": 20379,
+            "confidence": 0.022,
+            "speaker": "A"
+          },
+          {
+            "text": "그럼",
+            "start": 21460,
+            "end": 21841,
+            "confidence": 0.08,
+            "speaker": "A"
+          },
+          {
+            "text": "이",
+            "start": 22621,
+            "end": 22822,
+            "confidence": 0.1,
+            "speaker": "A"
+          },
+          {
+            "text": "부분을",
+            "start": 22962,
+            "end": 23382,
+            "confidence": 0.145,
+            "speaker": "A"
+          },
+          {
+            "text": "조금",
+            "start": 24023,
+            "end": 24363,
+            "confidence": 0.118,
+            "speaker": "A"
+          },
+          {
+            "text": "더",
+            "start": 24543,
+            "end": 24804,
+            "confidence": 0.077,
+            "speaker": "A"
+          },
+          {
+            "text": "잘라야겠다.",
+            "start": 25064,
+            "end": 25925,
+            "confidence": 0.064,
+            "speaker": "A"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.07341176,
+    "audio_duration": 35
+  },
+  {
+    "status_script": "completed",
+    "id": "983bda9b-9af4-470e-baed-ecb129022449",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_03.mp3",
+    "text": "3번. 채소, 달걀 등의 식품을 정기적으로 배달받는 서비스가 인기를 끌며 최근 4년간 이용자가 꾸준히 증가하고 있습니다. 이 서비스를 이용하는 이유로는 신선하고 품질이 좋아서가 가장 많았으며 가격이 합리적이어서, 편리해서가 그 뒤를 이었습니다.",
+    "utterances": [
+      {
+        "speaker": "A",
+        "text": "3번. 채소, 달걀 등의 식품을 정기적으로 배달받는 서비스가 인기를 끌며 최근 4년간 이용자가 꾸준히 증가하고 있습니다. 이 서비스를 이용하는 이유로는 신선하고 품질이 좋아서가 가장 많았으며 가격이 합리적이어서, 편리해서가 그 뒤를 이었습니다.",
+        "confidence": 0.08296774,
+        "start": 1882,
+        "end": 38551,
+        "words": [
+          {
+            "text": "3번.",
+            "start": 1882,
+            "end": 2362,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "채소,",
+            "start": 4323,
+            "end": 4823,
+            "confidence": 0.056,
+            "speaker": "A"
+          },
+          {
+            "text": "달걀",
+            "start": 5444,
+            "end": 5864,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "등의",
+            "start": 5964,
+            "end": 6344,
+            "confidence": 0.066,
+            "speaker": "A"
+          },
+          {
+            "text": "식품을",
+            "start": 6564,
+            "end": 7144,
+            "confidence": 0.099,
+            "speaker": "A"
+          },
+          {
+            "text": "정기적으로",
+            "start": 7965,
+            "end": 9045,
+            "confidence": 0.085,
+            "speaker": "A"
+          },
+          {
+            "text": "배달받는",
+            "start": 9265,
+            "end": 10146,
+            "confidence": 0.093,
+            "speaker": "A"
+          },
+          {
+            "text": "서비스가",
+            "start": 10386,
+            "end": 11186,
+            "confidence": 0.043,
+            "speaker": "A"
+          },
+          {
+            "text": "인기를",
+            "start": 11786,
+            "end": 12347,
+            "confidence": 0.135,
+            "speaker": "A"
+          },
+          {
+            "text": "끌며",
+            "start": 12527,
+            "end": 12927,
+            "confidence": 0.043,
+            "speaker": "A"
+          },
+          {
+            "text": "최근",
+            "start": 14087,
+            "end": 14528,
+            "confidence": 0.098,
+            "speaker": "A"
+          },
+          {
+            "text": "4년간",
+            "start": 15108,
+            "end": 15528,
+            "confidence": 0.001,
+            "speaker": "A"
+          },
+          {
+            "text": "이용자가",
+            "start": 16148,
+            "end": 16969,
+            "confidence": 0.074,
+            "speaker": "A"
+          },
+          {
+            "text": "꾸준히",
+            "start": 17449,
+            "end": 18009,
+            "confidence": 0.022,
+            "speaker": "A"
+          },
+          {
+            "text": "증가하고",
+            "start": 18329,
+            "end": 19170,
+            "confidence": 0.093,
+            "speaker": "A"
+          },
+          {
+            "text": "있습니다.",
+            "start": 19250,
+            "end": 20090,
+            "confidence": 0.309,
+            "speaker": "A"
+          },
+          {
+            "text": "이",
+            "start": 21625,
+            "end": 21885,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "서비스를",
+            "start": 22145,
+            "end": 22905,
+            "confidence": 0.114,
+            "speaker": "A"
+          },
+          {
+            "text": "이용하는",
+            "start": 23046,
+            "end": 23746,
+            "confidence": 0.119,
+            "speaker": "A"
+          },
+          {
+            "text": "이유로는",
+            "start": 23906,
+            "end": 24606,
+            "confidence": 0.086,
+            "speaker": "A"
+          },
+          {
+            "text": "신선하고",
+            "start": 25626,
+            "end": 26447,
+            "confidence": 0.077,
+            "speaker": "A"
+          },
+          {
+            "text": "품질이",
+            "start": 26907,
+            "end": 27567,
+            "confidence": 0.055,
+            "speaker": "A"
+          },
+          {
+            "text": "좋아서가",
+            "start": 27787,
+            "end": 28487,
+            "confidence": 0.07,
+            "speaker": "A"
+          },
+          {
+            "text": "가장",
+            "start": 28988,
+            "end": 29368,
+            "confidence": 0.106,
+            "speaker": "A"
+          },
+          {
+            "text": "많았으며",
+            "start": 29628,
+            "end": 31128,
+            "confidence": 0.044,
+            "speaker": "A"
+          },
+          {
+            "text": "가격이",
+            "start": 31629,
+            "end": 32209,
+            "confidence": 0.1,
+            "speaker": "A"
+          },
+          {
+            "text": "합리적이어서,",
+            "start": 32509,
+            "end": 33549,
+            "confidence": 0.074,
+            "speaker": "A"
+          },
+          {
+            "text": "편리해서가",
+            "start": 34730,
+            "end": 35770,
+            "confidence": 0.064,
+            "speaker": "A"
+          },
+          {
+            "text": "그",
+            "start": 36350,
+            "end": 36610,
+            "confidence": 0.077,
+            "speaker": "A"
+          },
+          {
+            "text": "뒤를",
+            "start": 36810,
+            "end": 37231,
+            "confidence": 0.094,
+            "speaker": "A"
+          },
+          {
+            "text": "이었습니다.",
+            "start": 37571,
+            "end": 38551,
+            "confidence": 0.275,
+            "speaker": "A"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.09185714,
+    "audio_duration": 47
+  },
+  {
+    "status_script": "completed",
+    "id": "b2973735-76bc-4b32-bb0e-7bcf08d0f2ee",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_04.mp3",
+    "text": "4번. 감기는 좀 어때요? 약국에서 약을 사다 먹었는데 잘 안 나아요.",
+    "utterances": [
+      {
+        "speaker": "A",
+        "text": "4번. 감기는 좀 어때요? 약국에서 약을 사다 먹었는데 잘 안 나아요.",
+        "confidence": 0.09772728,
+        "start": 312,
+        "end": 12783,
+        "words": [
+          {
+            "text": "4번.",
+            "start": 312,
+            "end": 612,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "감기는",
+            "start": 2574,
+            "end": 3175,
+            "confidence": 0.107,
+            "speaker": "A"
+          },
+          {
+            "text": "좀",
+            "start": 3655,
+            "end": 3895,
+            "confidence": 0.083,
+            "speaker": "A"
+          },
+          {
+            "text": "어때요?",
+            "start": 4235,
+            "end": 6397,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "약국에서",
+            "start": 6417,
+            "end": 7398,
+            "confidence": 0.08,
+            "speaker": "A"
+          },
+          {
+            "text": "약을",
+            "start": 8099,
+            "end": 8579,
+            "confidence": 0.083,
+            "speaker": "A"
+          },
+          {
+            "text": "사다",
+            "start": 8900,
+            "end": 9260,
+            "confidence": 0.108,
+            "speaker": "A"
+          },
+          {
+            "text": "먹었는데",
+            "start": 9400,
+            "end": 10341,
+            "confidence": 0.081,
+            "speaker": "A"
+          },
+          {
+            "text": "잘",
+            "start": 11242,
+            "end": 11542,
+            "confidence": 0.064,
+            "speaker": "A"
+          },
+          {
+            "text": "안",
+            "start": 11722,
+            "end": 11902,
+            "confidence": 0.111,
+            "speaker": "A"
+          },
+          {
+            "text": "나아요.",
+            "start": 12022,
+            "end": 12783,
+            "confidence": 0.358,
+            "speaker": "A"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.119444445,
+    "audio_duration": 22
+  },
+  {
+    "status_script": "completed",
+    "id": "9256a3a4-ee82-4346-b22e-780af918d63d",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_05.mp3",
+    "text": "이번 주말에 도자기 체험 가기로 한 거 언제 갈까? 토요일은 약속이 있고 일요일은 괜찮아.",
+    "utterances": [
+      {
+        "speaker": "A",
+        "text": "이번 주말에 도자기 체험 가기로 한 거 언제 갈까?",
+        "confidence": 0.033444446,
+        "start": 2641,
+        "end": 12148,
+        "words": [
+          {
+            "text": "이번",
+            "start": 2641,
+            "end": 5103,
+            "confidence": 0.056,
+            "speaker": "A"
+          },
+          {
+            "text": "주말에",
+            "start": 5343,
+            "end": 6084,
+            "confidence": 0.049,
+            "speaker": "A"
+          },
+          {
+            "text": "도자기",
+            "start": 6684,
+            "end": 7344,
+            "confidence": 0.028,
+            "speaker": "A"
+          },
+          {
+            "text": "체험",
+            "start": 7585,
+            "end": 8005,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "가기로",
+            "start": 8205,
+            "end": 8625,
+            "confidence": 0.131,
+            "speaker": "A"
+          },
+          {
+            "text": "한",
+            "start": 8645,
+            "end": 8665,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "거",
+            "start": 9066,
+            "end": 9326,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "언제",
+            "start": 10167,
+            "end": 10707,
+            "confidence": 0.028,
+            "speaker": "A"
+          },
+          {
+            "text": "갈까?",
+            "start": 10827,
+            "end": 12148,
+            "confidence": 0.009,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "토요일은 약속이 있고 일요일은 괜찮아.",
+        "confidence": 0.0526,
+        "start": 12869,
+        "end": 18553,
+        "words": [
+          {
+            "text": "토요일은",
+            "start": 12869,
+            "end": 13669,
+            "confidence": 0.022,
+            "speaker": "B"
+          },
+          {
+            "text": "약속이",
+            "start": 14230,
+            "end": 14890,
+            "confidence": 0.11,
+            "speaker": "B"
+          },
+          {
+            "text": "있고",
+            "start": 14950,
+            "end": 15471,
+            "confidence": 0.077,
+            "speaker": "B"
+          },
+          {
+            "text": "일요일은",
+            "start": 16551,
+            "end": 17352,
+            "confidence": 0.045,
+            "speaker": "B"
+          },
+          {
+            "text": "괜찮아.",
+            "start": 18293,
+            "end": 18553,
+            "confidence": 0.009,
+            "speaker": "B"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.051272728,
+    "audio_duration": 28
+  },
+  {
+    "status_script": "completed",
+    "id": "06c8a245-5cc1-45f1-8b60-1b9edf0974c9",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_06.mp3",
+    "text": "6번. 저기 전시장이 있네. 한번 들어가 보자. 어? 근데 음료수는 못 갖고 들어가나 봐.",
+    "utterances": [
+      {
+        "speaker": "A",
+        "text": "6번. 저기 전시장이 있네. 한번 들어가 보자. 어? 근데 음료수는 못 갖고 들어가나 봐.",
+        "confidence": 0.0675,
+        "start": 2675,
+        "end": 16197,
+        "words": [
+          {
+            "text": "6번.",
+            "start": 2675,
+            "end": 3276,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "저기",
+            "start": 4879,
+            "end": 5259,
+            "confidence": 0.078,
+            "speaker": "A"
+          },
+          {
+            "text": "전시장이",
+            "start": 5420,
+            "end": 6141,
+            "confidence": 0.1,
+            "speaker": "A"
+          },
+          {
+            "text": "있네.",
+            "start": 6221,
+            "end": 6642,
+            "confidence": 0.076,
+            "speaker": "A"
+          },
+          {
+            "text": "한번",
+            "start": 7643,
+            "end": 8204,
+            "confidence": 0.07,
+            "speaker": "A"
+          },
+          {
+            "text": "들어가",
+            "start": 8485,
+            "end": 8825,
+            "confidence": 0.186,
+            "speaker": "A"
+          },
+          {
+            "text": "보자.",
+            "start": 8925,
+            "end": 9546,
+            "confidence": 0.062,
+            "speaker": "A"
+          },
+          {
+            "text": "어?",
+            "start": 10608,
+            "end": 10788,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "근데",
+            "start": 11930,
+            "end": 12551,
+            "confidence": 0.068,
+            "speaker": "A"
+          },
+          {
+            "text": "음료수는",
+            "start": 13192,
+            "end": 14034,
+            "confidence": 0.081,
+            "speaker": "A"
+          },
+          {
+            "text": "못",
+            "start": 14635,
+            "end": 14755,
+            "confidence": 0.057,
+            "speaker": "A"
+          },
+          {
+            "text": "갖고",
+            "start": 14875,
+            "end": 15316,
+            "confidence": 0.064,
+            "speaker": "A"
+          },
+          {
+            "text": "들어가나",
+            "start": 15496,
+            "end": 16036,
+            "confidence": 0.103,
+            "speaker": "A"
+          },
+          {
+            "text": "봐.",
+            "start": 16177,
+            "end": 16197,
+            "speaker": "A",
+            "confidence": 0.0
+          }
+        ]
+      }
+    ],
+    "confidence": 0.08590909,
+    "audio_duration": 21
+  },
+  {
+    "status_script": "completed",
+    "id": "1ef88a57-fefd-42a3-b666-f8811941dc9a",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_07.mp3",
+    "text": "7번 지난주에 면접본 회사에서 연락 왔어? 아니, 오늘까지 알려준다고 했는데 소식이 없네. 벌써 3시인데.",
+    "utterances": [
+      {
+        "speaker": "A",
+        "text": "7번 지난주에 면접본 회사에서 연락 왔어?",
+        "confidence": 0.048,
+        "start": 2827,
+        "end": 10031,
+        "words": [
+          {
+            "text": "7번",
+            "start": 2827,
+            "end": 3067,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "지난주에",
+            "start": 5168,
+            "end": 6269,
+            "confidence": 0.054,
+            "speaker": "A"
+          },
+          {
+            "text": "면접본",
+            "start": 6689,
+            "end": 7429,
+            "confidence": 0.02,
+            "speaker": "A"
+          },
+          {
+            "text": "회사에서",
+            "start": 7610,
+            "end": 8470,
+            "confidence": 0.101,
+            "speaker": "A"
+          },
+          {
+            "text": "연락",
+            "start": 8990,
+            "end": 9471,
+            "confidence": 0.041,
+            "speaker": "A"
+          },
+          {
+            "text": "왔어?",
+            "start": 9531,
+            "end": 10031,
+            "confidence": 0.072,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "아니, 오늘까지 알려준다고 했는데 소식이 없네. 벌써 3시인데.",
+        "confidence": 0.048125,
+        "start": 11412,
+        "end": 21177,
+        "words": [
+          {
+            "text": "아니,",
+            "start": 11412,
+            "end": 12332,
+            "confidence": 0.044,
+            "speaker": "B"
+          },
+          {
+            "text": "오늘까지",
+            "start": 12992,
+            "end": 13973,
+            "confidence": 0.086,
+            "speaker": "B"
+          },
+          {
+            "text": "알려준다고",
+            "start": 14233,
+            "end": 15294,
+            "confidence": 0.107,
+            "speaker": "B"
+          },
+          {
+            "text": "했는데",
+            "start": 15434,
+            "end": 16454,
+            "confidence": 0.071,
+            "speaker": "B"
+          },
+          {
+            "text": "소식이",
+            "start": 16855,
+            "end": 17435,
+            "confidence": 0.007,
+            "speaker": "B"
+          },
+          {
+            "text": "없네.",
+            "start": 17555,
+            "end": 18535,
+            "confidence": 0.006,
+            "speaker": "B"
+          },
+          {
+            "text": "벌써",
+            "start": 19276,
+            "end": 19936,
+            "confidence": 0.038,
+            "speaker": "B"
+          },
+          {
+            "text": "3시인데.",
+            "start": 20717,
+            "end": 21177,
+            "confidence": 0.026,
+            "speaker": "B"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.05176923,
+    "audio_duration": 25
+  },
+  {
+    "status_script": "completed",
+    "id": "bfe6d8d0-8a16-482b-9b6c-e64a178ac1b5",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_08.mp3",
+    "text": "8번 사장님. 이 바지 길이를 좀 줄여 주실 수. 있나요? 이런 바지는 줄이면 아랫부분 모양이 좀 달라지는데 괜찮으세요?",
+    "utterances": [
+      {
+        "speaker": "A",
+        "text": "8번 사장님.",
+        "confidence": 0.033,
+        "start": 5071,
+        "end": 7753,
+        "words": [
+          {
+            "text": "8번",
+            "start": 5071,
+            "end": 5551,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "사장님.",
+            "start": 7133,
+            "end": 7753,
+            "confidence": 0.066,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "이 바지 길이를 좀 줄여 주실 수.",
+        "confidence": 0.09314286,
+        "start": 8774,
+        "end": 13258,
+        "words": [
+          {
+            "text": "이",
+            "start": 8774,
+            "end": 8934,
+            "confidence": 0.104,
+            "speaker": "B"
+          },
+          {
+            "text": "바지",
+            "start": 9155,
+            "end": 9695,
+            "confidence": 0.003,
+            "speaker": "B"
+          },
+          {
+            "text": "길이를",
+            "start": 10596,
+            "end": 11176,
+            "confidence": 0.075,
+            "speaker": "B"
+          },
+          {
+            "text": "좀",
+            "start": 11597,
+            "end": 11817,
+            "confidence": 0.09,
+            "speaker": "B"
+          },
+          {
+            "text": "줄여",
+            "start": 12197,
+            "end": 12477,
+            "confidence": 0.083,
+            "speaker": "B"
+          },
+          {
+            "text": "주실",
+            "start": 12617,
+            "end": 12858,
+            "confidence": 0.187,
+            "speaker": "B"
+          },
+          {
+            "text": "수.",
+            "start": 13078,
+            "end": 13258,
+            "confidence": 0.11,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "있나요? 이런 바지는 줄이면 아랫부분 모양이 좀 달라지는데 괜찮으세요?",
+        "confidence": 0.09533333,
+        "start": 13418,
+        "end": 23647,
+        "words": [
+          {
+            "text": "있나요?",
+            "start": 13418,
+            "end": 15180,
+            "confidence": 0.05,
+            "speaker": "A"
+          },
+          {
+            "text": "이런",
+            "start": 15540,
+            "end": 15900,
+            "confidence": 0.116,
+            "speaker": "A"
+          },
+          {
+            "text": "바지는",
+            "start": 16100,
+            "end": 16601,
+            "confidence": 0.029,
+            "speaker": "A"
+          },
+          {
+            "text": "줄이면",
+            "start": 17282,
+            "end": 17862,
+            "confidence": 0.07,
+            "speaker": "A"
+          },
+          {
+            "text": "아랫부분",
+            "start": 18463,
+            "end": 19283,
+            "confidence": 0.064,
+            "speaker": "A"
+          },
+          {
+            "text": "모양이",
+            "start": 19483,
+            "end": 20064,
+            "confidence": 0.11,
+            "speaker": "A"
+          },
+          {
+            "text": "좀",
+            "start": 20304,
+            "end": 20524,
+            "confidence": 0.091,
+            "speaker": "A"
+          },
+          {
+            "text": "달라지는데",
+            "start": 20805,
+            "end": 21845,
+            "confidence": 0.088,
+            "speaker": "A"
+          },
+          {
+            "text": "괜찮으세요?",
+            "start": 22986,
+            "end": 23647,
+            "confidence": 0.24,
+            "speaker": "A"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.09270588,
+    "audio_duration": 31
+  },
+  {
+    "status_script": "completed",
+    "id": "53753a10-a539-4811-9155-aa27520e93fd",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_09.mp3",
+    "text": "여보세요? 민수야, 나 내일 여행 가는데 가방 좀 빌려줄 수 있어? 그래. 그런데 내가 수업이 있어서 곧 나가야 하는데 지금 올래? 응, 지금 바로 가지러 갈게. 고마워. 그럼 가방 꺼내 놓을게.",
+    "utterances": [
+      {
+        "speaker": "B",
+        "text": "여보세요?",
+        "start": 8,
+        "end": 3008,
+        "words": [
+          {
+            "text": "여보세요?",
+            "start": 8,
+            "end": 3008,
+            "speaker": "B",
+            "confidence": 0.0
+          }
+        ],
+        "confidence": 0.0
+      },
+      {
+        "speaker": "A",
+        "text": "민수야, 나 내일 여행 가는데 가방 좀 빌려줄 수 있어?",
+        "confidence": 0.0391,
+        "start": 4289,
+        "end": 12531,
+        "words": [
+          {
+            "text": "민수야,",
+            "start": 4289,
+            "end": 4969,
+            "confidence": 0.026,
+            "speaker": "A"
+          },
+          {
+            "text": "나",
+            "start": 5869,
+            "end": 6309,
+            "confidence": 0.022,
+            "speaker": "A"
+          },
+          {
+            "text": "내일",
+            "start": 6869,
+            "end": 7409,
+            "confidence": 0.076,
+            "speaker": "A"
+          },
+          {
+            "text": "여행",
+            "start": 7810,
+            "end": 8170,
+            "confidence": 0.086,
+            "speaker": "A"
+          },
+          {
+            "text": "가는데",
+            "start": 8270,
+            "end": 9050,
+            "confidence": 0.047,
+            "speaker": "A"
+          },
+          {
+            "text": "가방",
+            "start": 9910,
+            "end": 10710,
+            "confidence": 0.014,
+            "speaker": "A"
+          },
+          {
+            "text": "좀",
+            "start": 10730,
+            "end": 10750,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "빌려줄",
+            "start": 11170,
+            "end": 11690,
+            "confidence": 0.087,
+            "speaker": "A"
+          },
+          {
+            "text": "수",
+            "start": 11870,
+            "end": 11970,
+            "confidence": 0.005,
+            "speaker": "A"
+          },
+          {
+            "text": "있어?",
+            "start": 12010,
+            "end": 12531,
+            "confidence": 0.028,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "그래. 그런데 내가 수업이 있어서 곧 나가야 하는데 지금 올래?",
+        "confidence": 0.0741,
+        "start": 14091,
+        "end": 23113,
+        "words": [
+          {
+            "text": "그래.",
+            "start": 14091,
+            "end": 14371,
+            "confidence": 0.104,
+            "speaker": "B"
+          },
+          {
+            "text": "그런데",
+            "start": 15491,
+            "end": 16171,
+            "confidence": 0.108,
+            "speaker": "B"
+          },
+          {
+            "text": "내가",
+            "start": 16991,
+            "end": 17431,
+            "confidence": 0.045,
+            "speaker": "B"
+          },
+          {
+            "text": "수업이",
+            "start": 17732,
+            "end": 18252,
+            "confidence": 0.056,
+            "speaker": "B"
+          },
+          {
+            "text": "있어서",
+            "start": 18312,
+            "end": 18992,
+            "confidence": 0.047,
+            "speaker": "B"
+          },
+          {
+            "text": "곧",
+            "start": 19572,
+            "end": 19672,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "나가야",
+            "start": 19912,
+            "end": 20412,
+            "confidence": 0.13,
+            "speaker": "B"
+          },
+          {
+            "text": "하는데",
+            "start": 20512,
+            "end": 20972,
+            "confidence": 0.085,
+            "speaker": "B"
+          },
+          {
+            "text": "지금",
+            "start": 21832,
+            "end": 22172,
+            "confidence": 0.118,
+            "speaker": "B"
+          },
+          {
+            "text": "올래?",
+            "start": 22352,
+            "end": 23113,
+            "confidence": 0.048,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "응, 지금 바로 가지러 갈게. 고마워.",
+        "confidence": 0.033833332,
+        "start": 24293,
+        "end": 29594,
+        "words": [
+          {
+            "text": "응,",
+            "start": 24293,
+            "end": 24533,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "지금",
+            "start": 25633,
+            "end": 26073,
+            "confidence": 0.098,
+            "speaker": "A"
+          },
+          {
+            "text": "바로",
+            "start": 26353,
+            "end": 26713,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "가지러",
+            "start": 26893,
+            "end": 27373,
+            "confidence": 0.056,
+            "speaker": "A"
+          },
+          {
+            "text": "갈게.",
+            "start": 27454,
+            "end": 28034,
+            "confidence": 0.024,
+            "speaker": "A"
+          },
+          {
+            "text": "고마워.",
+            "start": 29074,
+            "end": 29594,
+            "confidence": 0.025,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "그럼 가방 꺼내 놓을게.",
+        "confidence": 0.075,
+        "start": 31160,
+        "end": 33686,
+        "words": [
+          {
+            "text": "그럼",
+            "start": 31160,
+            "end": 31581,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "가방",
+            "start": 32243,
+            "end": 32604,
+            "confidence": 0.112,
+            "speaker": "B"
+          },
+          {
+            "text": "꺼내",
+            "start": 32884,
+            "end": 33205,
+            "confidence": 0.088,
+            "speaker": "B"
+          },
+          {
+            "text": "놓을게.",
+            "start": 33305,
+            "end": 33686,
+            "confidence": 0.1,
+            "speaker": "B"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.0654,
+    "audio_duration": 39
+  },
+  {
+    "status_script": "completed",
+    "id": "9eda2be0-cdb6-4f12-942f-80e2667c32dc",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_10.mp3",
+    "text": "10번 저기요, 아버지께 로션을 하나 선물하려고 하는데 어떤 게 좋아요? 이게 요즘 많이 팔리는 건데 한번 발라보세요. 음, 향기도 좋고 부드럽네요. 이걸로 하나 포장해 주세요. 네, 계산 먼저 해드릴 테니까 이쪽으로 오세요.",
+    "utterances": [
+      {
+        "speaker": "A",
+        "text": "10번 저기요, 아버지께 로션을 하나 선물하려고 하는데 어떤 게 좋아요?",
+        "confidence": 0.0672,
+        "start": 751,
+        "end": 11774,
+        "words": [
+          {
+            "text": "10번",
+            "start": 751,
+            "end": 1711,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "저기요,",
+            "start": 2972,
+            "end": 3352,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "아버지께",
+            "start": 4592,
+            "end": 5492,
+            "confidence": 0.08,
+            "speaker": "A"
+          },
+          {
+            "text": "로션을",
+            "start": 6013,
+            "end": 6513,
+            "confidence": 0.056,
+            "speaker": "A"
+          },
+          {
+            "text": "하나",
+            "start": 6713,
+            "end": 7113,
+            "confidence": 0.104,
+            "speaker": "A"
+          },
+          {
+            "text": "선물하려고",
+            "start": 7353,
+            "end": 8193,
+            "confidence": 0.124,
+            "speaker": "A"
+          },
+          {
+            "text": "하는데",
+            "start": 8273,
+            "end": 9233,
+            "confidence": 0.107,
+            "speaker": "A"
+          },
+          {
+            "text": "어떤",
+            "start": 9654,
+            "end": 9974,
+            "confidence": 0.146,
+            "speaker": "A"
+          },
+          {
+            "text": "게",
+            "start": 10134,
+            "end": 10314,
+            "confidence": 0.008,
+            "speaker": "A"
+          },
+          {
+            "text": "좋아요?",
+            "start": 10534,
+            "end": 11774,
+            "confidence": 0.047,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "이게 요즘 많이 팔리는 건데 한번 발라보세요.",
+        "confidence": 0.077857144,
+        "start": 12274,
+        "end": 20756,
+        "words": [
+          {
+            "text": "이게",
+            "start": 12274,
+            "end": 12815,
+            "confidence": 0.088,
+            "speaker": "B"
+          },
+          {
+            "text": "요즘",
+            "start": 13495,
+            "end": 13875,
+            "confidence": 0.062,
+            "speaker": "B"
+          },
+          {
+            "text": "많이",
+            "start": 14155,
+            "end": 14575,
+            "confidence": 0.084,
+            "speaker": "B"
+          },
+          {
+            "text": "팔리는",
+            "start": 14735,
+            "end": 15235,
+            "confidence": 0.135,
+            "speaker": "B"
+          },
+          {
+            "text": "건데",
+            "start": 15355,
+            "end": 15935,
+            "confidence": 0.07,
+            "speaker": "B"
+          },
+          {
+            "text": "한번",
+            "start": 16996,
+            "end": 17496,
+            "confidence": 0.073,
+            "speaker": "B"
+          },
+          {
+            "text": "발라보세요.",
+            "start": 17756,
+            "end": 20756,
+            "confidence": 0.033,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "음, 향기도 좋고 부드럽네요. 이걸로 하나 포장해 주세요.",
+        "confidence": 0.109125,
+        "start": 21097,
+        "end": 28119,
+        "words": [
+          {
+            "text": "음,",
+            "start": 21097,
+            "end": 21117,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "향기도",
+            "start": 22157,
+            "end": 22717,
+            "confidence": 0.046,
+            "speaker": "A"
+          },
+          {
+            "text": "좋고",
+            "start": 22857,
+            "end": 23458,
+            "confidence": 0.069,
+            "speaker": "A"
+          },
+          {
+            "text": "부드럽네요.",
+            "start": 23798,
+            "end": 25238,
+            "confidence": 0.058,
+            "speaker": "A"
+          },
+          {
+            "text": "이걸로",
+            "start": 25738,
+            "end": 26338,
+            "confidence": 0.108,
+            "speaker": "A"
+          },
+          {
+            "text": "하나",
+            "start": 26579,
+            "end": 26939,
+            "confidence": 0.111,
+            "speaker": "A"
+          },
+          {
+            "text": "포장해",
+            "start": 27199,
+            "end": 27539,
+            "confidence": 0.134,
+            "speaker": "A"
+          },
+          {
+            "text": "주세요.",
+            "start": 27639,
+            "end": 28119,
+            "confidence": 0.347,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "네, 계산 먼저 해드릴 테니까 이쪽으로 오세요.",
+        "confidence": 0.11214285,
+        "start": 29590,
+        "end": 36172,
+        "words": [
+          {
+            "text": "네,",
+            "start": 29590,
+            "end": 30011,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "계산",
+            "start": 31195,
+            "end": 31637,
+            "confidence": 0.054,
+            "speaker": "B"
+          },
+          {
+            "text": "먼저",
+            "start": 31797,
+            "end": 32378,
+            "confidence": 0.069,
+            "speaker": "B"
+          },
+          {
+            "text": "해드릴",
+            "start": 32680,
+            "end": 33042,
+            "confidence": 0.136,
+            "speaker": "B"
+          },
+          {
+            "text": "테니까",
+            "start": 33162,
+            "end": 33864,
+            "confidence": 0.052,
+            "speaker": "B"
+          },
+          {
+            "text": "이쪽으로",
+            "start": 34567,
+            "end": 35269,
+            "confidence": 0.128,
+            "speaker": "B"
+          },
+          {
+            "text": "오세요.",
+            "start": 35470,
+            "end": 36172,
+            "confidence": 0.346,
+            "speaker": "B"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.102678575,
+    "audio_duration": 44
+  },
+  {
+    "status_script": "completed",
+    "id": "bd32a0e7-fbab-44cf-8067-166b236e1952",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_11.mp3",
+    "text": "11번. 한국어 토론 대회에 나가려면 한 명 더 필요한데 누가 좋을까? 수잔 어때? 수잔이 한국어를 잘하잖아. 좋아. 내가 수잔한테 연락할게. 넌 대회 일정 좀 확실히 알아봐줘. 응, 확인하고 일정표 출력해 놓을게.",
+    "utterances": [
+      {
+        "speaker": "B",
+        "text": "11번.",
+        "start": 2742,
+        "end": 3242,
+        "words": [
+          {
+            "text": "11번.",
+            "start": 2742,
+            "end": 3242,
+            "speaker": "B",
+            "confidence": 0.0
+          }
+        ],
+        "confidence": 0.0
+      },
+      {
+        "speaker": "A",
+        "text": "한국어 토론 대회에 나가려면 한 명 더 필요한데 누가 좋을까?",
+        "confidence": 0.0844,
+        "start": 5004,
+        "end": 13349,
+        "words": [
+          {
+            "text": "한국어",
+            "start": 5004,
+            "end": 5704,
+            "confidence": 0.068,
+            "speaker": "A"
+          },
+          {
+            "text": "토론",
+            "start": 5884,
+            "end": 6284,
+            "confidence": 0.086,
+            "speaker": "A"
+          },
+          {
+            "text": "대회에",
+            "start": 6424,
+            "end": 7125,
+            "confidence": 0.059,
+            "speaker": "A"
+          },
+          {
+            "text": "나가려면",
+            "start": 7265,
+            "end": 8146,
+            "confidence": 0.059,
+            "speaker": "A"
+          },
+          {
+            "text": "한",
+            "start": 9066,
+            "end": 9206,
+            "confidence": 0.132,
+            "speaker": "A"
+          },
+          {
+            "text": "명",
+            "start": 9346,
+            "end": 9587,
+            "confidence": 0.082,
+            "speaker": "A"
+          },
+          {
+            "text": "더",
+            "start": 9887,
+            "end": 10127,
+            "confidence": 0.083,
+            "speaker": "A"
+          },
+          {
+            "text": "필요한데",
+            "start": 10407,
+            "end": 11168,
+            "confidence": 0.082,
+            "speaker": "A"
+          },
+          {
+            "text": "누가",
+            "start": 12008,
+            "end": 12348,
+            "confidence": 0.115,
+            "speaker": "A"
+          },
+          {
+            "text": "좋을까?",
+            "start": 12529,
+            "end": 13349,
+            "confidence": 0.078,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "수잔 어때? 수잔이 한국어를 잘하잖아.",
+        "confidence": 0.0188,
+        "start": 14670,
+        "end": 20614,
+        "words": [
+          {
+            "text": "수잔",
+            "start": 14670,
+            "end": 15070,
+            "confidence": 0.006,
+            "speaker": "B"
+          },
+          {
+            "text": "어때?",
+            "start": 15310,
+            "end": 15731,
+            "confidence": 0.032,
+            "speaker": "B"
+          },
+          {
+            "text": "수잔이",
+            "start": 16911,
+            "end": 17512,
+            "confidence": 0.031,
+            "speaker": "B"
+          },
+          {
+            "text": "한국어를",
+            "start": 18092,
+            "end": 18873,
+            "confidence": 0.024,
+            "speaker": "B"
+          },
+          {
+            "text": "잘하잖아.",
+            "start": 19133,
+            "end": 20614,
+            "confidence": 0.001,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "좋아. 내가 수잔한테 연락할게. 넌 대회 일정 좀 확실히 알아봐줘.",
+        "confidence": 0.0243,
+        "start": 21535,
+        "end": 33221,
+        "words": [
+          {
+            "text": "좋아.",
+            "start": 21535,
+            "end": 21975,
+            "confidence": 0.015,
+            "speaker": "A"
+          },
+          {
+            "text": "내가",
+            "start": 23076,
+            "end": 23596,
+            "confidence": 0.085,
+            "speaker": "A"
+          },
+          {
+            "text": "수잔한테",
+            "start": 24136,
+            "end": 25217,
+            "confidence": 0.046,
+            "speaker": "A"
+          },
+          {
+            "text": "연락할게.",
+            "start": 25577,
+            "end": 26498,
+            "confidence": 0.039,
+            "speaker": "A"
+          },
+          {
+            "text": "넌",
+            "start": 27852,
+            "end": 28233,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "대회",
+            "start": 28934,
+            "end": 29335,
+            "confidence": 0.013,
+            "speaker": "A"
+          },
+          {
+            "text": "일정",
+            "start": 29515,
+            "end": 29976,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "좀",
+            "start": 30176,
+            "end": 30376,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "확실히",
+            "start": 30998,
+            "end": 31619,
+            "confidence": 0.038,
+            "speaker": "A"
+          },
+          {
+            "text": "알아봐줘.",
+            "start": 31959,
+            "end": 33221,
+            "confidence": 0.007,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "응, 확인하고 일정표 출력해 놓을게.",
+        "confidence": 0.0704,
+        "start": 34323,
+        "end": 38972,
+        "words": [
+          {
+            "text": "응,",
+            "start": 34323,
+            "end": 34504,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "확인하고",
+            "start": 35505,
+            "end": 36227,
+            "confidence": 0.112,
+            "speaker": "B"
+          },
+          {
+            "text": "일정표",
+            "start": 36728,
+            "end": 37489,
+            "confidence": 0.079,
+            "speaker": "B"
+          },
+          {
+            "text": "출력해",
+            "start": 37790,
+            "end": 38431,
+            "confidence": 0.042,
+            "speaker": "B"
+          },
+          {
+            "text": "놓을게.",
+            "start": 38571,
+            "end": 38972,
+            "confidence": 0.119,
+            "speaker": "B"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.058961537,
+    "audio_duration": 45
+  },
+  {
+    "status_script": "completed",
+    "id": "51168190-63a3-4e3a-a66c-70f4363cbdf9",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_12.mp3",
+    "text": "12번 부장님, 신제품 소비자 설문 결과입니다. 확인 부탁드립니다. 음, 제품 크기를 줄인 것에 대한 반응이 좋군요. 네, 디자인을 다양화한 것도 좋았던 것 같습니다. 설문 결과를 가지고 바로 보고서 작성하겠습니다. 그렇게 하세요. 금요일이 부서장 회의니까 그 전까지 주세요.",
+    "utterances": [
+      {
+        "speaker": "A",
+        "text": "12번 부장님, 신제품 소비자 설문 결과입니다. 확인 부탁드립니다.",
+        "confidence": 0.069375,
+        "start": 1375,
+        "end": 13245,
+        "words": [
+          {
+            "text": "12번",
+            "start": 1375,
+            "end": 1535,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "부장님,",
+            "start": 3717,
+            "end": 4277,
+            "confidence": 0.079,
+            "speaker": "A"
+          },
+          {
+            "text": "신제품",
+            "start": 5458,
+            "end": 6159,
+            "confidence": 0.085,
+            "speaker": "A"
+          },
+          {
+            "text": "소비자",
+            "start": 6680,
+            "end": 7240,
+            "confidence": 0.109,
+            "speaker": "A"
+          },
+          {
+            "text": "설문",
+            "start": 7400,
+            "end": 7820,
+            "confidence": 0.038,
+            "speaker": "A"
+          },
+          {
+            "text": "결과입니다.",
+            "start": 8000,
+            "end": 9642,
+            "confidence": 0.081,
+            "speaker": "A"
+          },
+          {
+            "text": "확인",
+            "start": 9982,
+            "end": 10323,
+            "confidence": 0.118,
+            "speaker": "A"
+          },
+          {
+            "text": "부탁드립니다.",
+            "start": 10583,
+            "end": 13245,
+            "confidence": 0.045,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "음, 제품 크기를 줄인 것에 대한 반응이 좋군요.",
+        "confidence": 0.0355,
+        "start": 13265,
+        "end": 18610,
+        "words": [
+          {
+            "text": "음,",
+            "start": 13265,
+            "end": 13285,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "제품",
+            "start": 14426,
+            "end": 14907,
+            "confidence": 0.056,
+            "speaker": "B"
+          },
+          {
+            "text": "크기를",
+            "start": 15167,
+            "end": 15587,
+            "confidence": 0.085,
+            "speaker": "B"
+          },
+          {
+            "text": "줄인",
+            "start": 15727,
+            "end": 16007,
+            "confidence": 0.084,
+            "speaker": "B"
+          },
+          {
+            "text": "것에",
+            "start": 16108,
+            "end": 16388,
+            "confidence": 0.05,
+            "speaker": "B"
+          },
+          {
+            "text": "대한",
+            "start": 16508,
+            "end": 16788,
+            "confidence": 0.008,
+            "speaker": "B"
+          },
+          {
+            "text": "반응이",
+            "start": 17008,
+            "end": 17409,
+            "confidence": 0.001,
+            "speaker": "B"
+          },
+          {
+            "text": "좋군요.",
+            "start": 17969,
+            "end": 18610,
+            "speaker": "B",
+            "confidence": 0.0
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "네, 디자인을 다양화한 것도 좋았던 것 같습니다. 설문 결과를 가지고 바로 보고서 작성하겠습니다.",
+        "confidence": 0.10430769,
+        "start": 20031,
+        "end": 31878,
+        "words": [
+          {
+            "text": "네,",
+            "start": 20031,
+            "end": 20391,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "디자인을",
+            "start": 21312,
+            "end": 22113,
+            "confidence": 0.092,
+            "speaker": "A"
+          },
+          {
+            "text": "다양화한",
+            "start": 22413,
+            "end": 23074,
+            "confidence": 0.126,
+            "speaker": "A"
+          },
+          {
+            "text": "것도",
+            "start": 23154,
+            "end": 23674,
+            "confidence": 0.079,
+            "speaker": "A"
+          },
+          {
+            "text": "좋았던",
+            "start": 23954,
+            "end": 24435,
+            "confidence": 0.106,
+            "speaker": "A"
+          },
+          {
+            "text": "것",
+            "start": 24555,
+            "end": 24675,
+            "confidence": 0.165,
+            "speaker": "A"
+          },
+          {
+            "text": "같습니다.",
+            "start": 24775,
+            "end": 25996,
+            "confidence": 0.314,
+            "speaker": "A"
+          },
+          {
+            "text": "설문",
+            "start": 26536,
+            "end": 27116,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "결과를",
+            "start": 27276,
+            "end": 27776,
+            "confidence": 0.131,
+            "speaker": "A"
+          },
+          {
+            "text": "가지고",
+            "start": 27876,
+            "end": 28377,
+            "confidence": 0.119,
+            "speaker": "A"
+          },
+          {
+            "text": "바로",
+            "start": 29117,
+            "end": 29477,
+            "confidence": 0.036,
+            "speaker": "A"
+          },
+          {
+            "text": "보고서",
+            "start": 29837,
+            "end": 30497,
+            "confidence": 0.091,
+            "speaker": "A"
+          },
+          {
+            "text": "작성하겠습니다.",
+            "start": 30738,
+            "end": 31878,
+            "confidence": 0.097,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "그렇게 하세요. 금요일이 부서장 회의니까 그 전까지 주세요.",
+        "confidence": 0.124875,
+        "start": 33398,
+        "end": 40441,
+        "words": [
+          {
+            "text": "그렇게",
+            "start": 33398,
+            "end": 33699,
+            "confidence": 0.126,
+            "speaker": "B"
+          },
+          {
+            "text": "하세요.",
+            "start": 33779,
+            "end": 35019,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "금요일이",
+            "start": 35459,
+            "end": 36179,
+            "confidence": 0.092,
+            "speaker": "B"
+          },
+          {
+            "text": "부서장",
+            "start": 36740,
+            "end": 37220,
+            "confidence": 0.066,
+            "speaker": "B"
+          },
+          {
+            "text": "회의니까",
+            "start": 37360,
+            "end": 38020,
+            "confidence": 0.019,
+            "speaker": "B"
+          },
+          {
+            "text": "그",
+            "start": 39000,
+            "end": 39081,
+            "confidence": 0.25,
+            "speaker": "B"
+          },
+          {
+            "text": "전까지",
+            "start": 39141,
+            "end": 39681,
+            "confidence": 0.066,
+            "speaker": "B"
+          },
+          {
+            "text": "주세요.",
+            "start": 39941,
+            "end": 40441,
+            "confidence": 0.38,
+            "speaker": "B"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.10303226,
+    "audio_duration": 47
+  },
+  {
+    "status_script": "completed",
+    "id": "c7485fd8-c09c-45aa-85f4-47b7b7d0d110",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_13.mp3",
+    "text": "13번. 내일 비가 온다던데 캠핑하기로 한 거 취소할까? 그러지 말고 가자. 저번에 비 올 때 가봤는데 분위기가 좋더라고. 정말? 난 비 오는 날 캠핑은 안 해봤는데. 텐트 안에서 듣는 빗소리가 얼마나 좋은데. 너도 분명 좋아할 거야.",
+    "utterances": [
+      {
+        "speaker": "B",
+        "text": "13번.",
+        "start": 8,
+        "end": 1249,
+        "words": [
+          {
+            "text": "13번.",
+            "start": 8,
+            "end": 1249,
+            "speaker": "B",
+            "confidence": 0.0
+          }
+        ],
+        "confidence": 0.0
+      },
+      {
+        "speaker": "A",
+        "text": "내일 비가 온다던데 캠핑하기로 한 거 취소할까?",
+        "confidence": 0.07228571,
+        "start": 3129,
+        "end": 9732,
+        "words": [
+          {
+            "text": "내일",
+            "start": 3129,
+            "end": 3650,
+            "confidence": 0.064,
+            "speaker": "A"
+          },
+          {
+            "text": "비가",
+            "start": 4110,
+            "end": 4510,
+            "confidence": 0.064,
+            "speaker": "A"
+          },
+          {
+            "text": "온다던데",
+            "start": 4650,
+            "end": 5730,
+            "confidence": 0.056,
+            "speaker": "A"
+          },
+          {
+            "text": "캠핑하기로",
+            "start": 6711,
+            "end": 7731,
+            "confidence": 0.093,
+            "speaker": "A"
+          },
+          {
+            "text": "한",
+            "start": 7831,
+            "end": 7971,
+            "confidence": 0.142,
+            "speaker": "A"
+          },
+          {
+            "text": "거",
+            "start": 8131,
+            "end": 8312,
+            "confidence": 0.036,
+            "speaker": "A"
+          },
+          {
+            "text": "취소할까?",
+            "start": 8852,
+            "end": 9732,
+            "confidence": 0.051,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "그러지 말고 가자. 저번에 비 올 때 가봤는데 분위기가 좋더라고.",
+        "confidence": 0.0582,
+        "start": 11133,
+        "end": 19917,
+        "words": [
+          {
+            "text": "그러지",
+            "start": 11133,
+            "end": 11613,
+            "confidence": 0.069,
+            "speaker": "B"
+          },
+          {
+            "text": "말고",
+            "start": 11693,
+            "end": 12213,
+            "confidence": 0.077,
+            "speaker": "B"
+          },
+          {
+            "text": "가자.",
+            "start": 12693,
+            "end": 13174,
+            "confidence": 0.074,
+            "speaker": "B"
+          },
+          {
+            "text": "저번에",
+            "start": 14454,
+            "end": 14994,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "비",
+            "start": 15014,
+            "end": 15034,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "올",
+            "start": 15575,
+            "end": 15675,
+            "confidence": 0.003,
+            "speaker": "B"
+          },
+          {
+            "text": "때",
+            "start": 15875,
+            "end": 16055,
+            "confidence": 0.1,
+            "speaker": "B"
+          },
+          {
+            "text": "가봤는데",
+            "start": 16235,
+            "end": 16975,
+            "confidence": 0.071,
+            "speaker": "B"
+          },
+          {
+            "text": "분위기가",
+            "start": 17896,
+            "end": 18736,
+            "confidence": 0.083,
+            "speaker": "B"
+          },
+          {
+            "text": "좋더라고.",
+            "start": 19176,
+            "end": 19917,
+            "confidence": 0.105,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "정말? 난 비 오는 날 캠핑은 안 해봤는데.",
+        "confidence": 0.058125,
+        "start": 21377,
+        "end": 27740,
+        "words": [
+          {
+            "text": "정말?",
+            "start": 21377,
+            "end": 21877,
+            "confidence": 0.028,
+            "speaker": "A"
+          },
+          {
+            "text": "난",
+            "start": 23038,
+            "end": 23418,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "비",
+            "start": 24198,
+            "end": 24378,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "오는",
+            "start": 24398,
+            "end": 24699,
+            "confidence": 0.092,
+            "speaker": "A"
+          },
+          {
+            "text": "날",
+            "start": 24859,
+            "end": 25179,
+            "confidence": 0.054,
+            "speaker": "A"
+          },
+          {
+            "text": "캠핑은",
+            "start": 25519,
+            "end": 26199,
+            "confidence": 0.021,
+            "speaker": "A"
+          },
+          {
+            "text": "안",
+            "start": 26719,
+            "end": 26900,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "해봤는데.",
+            "start": 27000,
+            "end": 27740,
+            "confidence": 0.27,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "텐트 안에서 듣는 빗소리가 얼마나 좋은데. 너도 분명 좋아할 거야.",
+        "confidence": 0.1465,
+        "start": 29202,
+        "end": 37777,
+        "words": [
+          {
+            "text": "텐트",
+            "start": 29202,
+            "end": 29703,
+            "confidence": 0.1,
+            "speaker": "B"
+          },
+          {
+            "text": "안에서",
+            "start": 29803,
+            "end": 30384,
+            "confidence": 0.106,
+            "speaker": "B"
+          },
+          {
+            "text": "듣는",
+            "start": 30564,
+            "end": 30985,
+            "confidence": 0.065,
+            "speaker": "B"
+          },
+          {
+            "text": "빗소리가",
+            "start": 31245,
+            "end": 32087,
+            "confidence": 0.09,
+            "speaker": "B"
+          },
+          {
+            "text": "얼마나",
+            "start": 32528,
+            "end": 33089,
+            "confidence": 0.143,
+            "speaker": "B"
+          },
+          {
+            "text": "좋은데.",
+            "start": 33209,
+            "end": 33930,
+            "confidence": 0.086,
+            "speaker": "B"
+          },
+          {
+            "text": "너도",
+            "start": 35132,
+            "end": 35513,
+            "confidence": 0.106,
+            "speaker": "B"
+          },
+          {
+            "text": "분명",
+            "start": 36174,
+            "end": 36715,
+            "confidence": 0.076,
+            "speaker": "B"
+          },
+          {
+            "text": "좋아할",
+            "start": 36995,
+            "end": 37476,
+            "confidence": 0.115,
+            "speaker": "B"
+          },
+          {
+            "text": "거야.",
+            "start": 37636,
+            "end": 37777,
+            "confidence": 0.578,
+            "speaker": "B"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.1006,
+    "audio_duration": 45
+  },
+  {
+    "status_script": "completed",
+    "id": "81d414c3-cc15-497c-ab5c-10ceca697851",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_14.mp3",
+    "text": "14번 저희 누리마트가 개업 10주년을 맞이하여 오늘부터 일주일 동안 식품 코너에서 특별 할인 행사를 진행합니다. 또 마트에서 5만 원 이상 구매하신 고객님들께 선물을 드립니다. 이 기간에는 영업시간도 1시간 연장하니 많은 관심 부탁드립니다.",
+    "utterances": [
+      {
+        "speaker": "A",
+        "text": "14번 저희 누리마트가 개업 10주년을 맞이하여 오늘부터 일주일 동안 식품 코너에서 특별 할인 행사를 진행합니다. 또 마트에서 5만 원 이상 구매하신 고객님들께 선물을 드립니다. 이 기간에는 영업시간도 1시간 연장하니 많은 관심 부탁드립니다.",
+        "confidence": 0.08878125,
+        "start": 2388,
+        "end": 42196,
+        "words": [
+          {
+            "text": "14번",
+            "start": 2388,
+            "end": 3008,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "저희",
+            "start": 9210,
+            "end": 9690,
+            "confidence": 0.063,
+            "speaker": "A"
+          },
+          {
+            "text": "누리마트가",
+            "start": 10210,
+            "end": 11251,
+            "confidence": 0.091,
+            "speaker": "A"
+          },
+          {
+            "text": "개업",
+            "start": 12191,
+            "end": 12571,
+            "confidence": 0.013,
+            "speaker": "A"
+          },
+          {
+            "text": "10주년을",
+            "start": 13171,
+            "end": 13631,
+            "confidence": 0.093,
+            "speaker": "A"
+          },
+          {
+            "text": "맞이하여",
+            "start": 13751,
+            "end": 14431,
+            "confidence": 0.068,
+            "speaker": "A"
+          },
+          {
+            "text": "오늘부터",
+            "start": 15272,
+            "end": 16111,
+            "confidence": 0.096,
+            "speaker": "A"
+          },
+          {
+            "text": "일주일",
+            "start": 16592,
+            "end": 17112,
+            "confidence": 0.042,
+            "speaker": "A"
+          },
+          {
+            "text": "동안",
+            "start": 17312,
+            "end": 17652,
+            "confidence": 0.094,
+            "speaker": "A"
+          },
+          {
+            "text": "식품",
+            "start": 18533,
+            "end": 18973,
+            "confidence": 0.094,
+            "speaker": "A"
+          },
+          {
+            "text": "코너에서",
+            "start": 19153,
+            "end": 19853,
+            "confidence": 0.06,
+            "speaker": "A"
+          },
+          {
+            "text": "특별",
+            "start": 20533,
+            "end": 20993,
+            "confidence": 0.091,
+            "speaker": "A"
+          },
+          {
+            "text": "할인",
+            "start": 21133,
+            "end": 21393,
+            "confidence": 0.109,
+            "speaker": "A"
+          },
+          {
+            "text": "행사를",
+            "start": 21493,
+            "end": 22094,
+            "confidence": 0.107,
+            "speaker": "A"
+          },
+          {
+            "text": "진행합니다.",
+            "start": 22394,
+            "end": 23414,
+            "confidence": 0.28,
+            "speaker": "A"
+          },
+          {
+            "text": "또",
+            "start": 24460,
+            "end": 24700,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "마트에서",
+            "start": 25401,
+            "end": 26182,
+            "confidence": 0.111,
+            "speaker": "A"
+          },
+          {
+            "text": "5만",
+            "start": 27102,
+            "end": 27222,
+            "confidence": 0.166,
+            "speaker": "A"
+          },
+          {
+            "text": "원",
+            "start": 27283,
+            "end": 27443,
+            "confidence": 0.125,
+            "speaker": "A"
+          },
+          {
+            "text": "이상",
+            "start": 27583,
+            "end": 27963,
+            "confidence": 0.106,
+            "speaker": "A"
+          },
+          {
+            "text": "구매하신",
+            "start": 28183,
+            "end": 28824,
+            "confidence": 0.083,
+            "speaker": "A"
+          },
+          {
+            "text": "고객님들께",
+            "start": 29024,
+            "end": 30025,
+            "confidence": 0.049,
+            "speaker": "A"
+          },
+          {
+            "text": "선물을",
+            "start": 30926,
+            "end": 31506,
+            "confidence": 0.116,
+            "speaker": "A"
+          },
+          {
+            "text": "드립니다.",
+            "start": 31667,
+            "end": 33728,
+            "confidence": 0.034,
+            "speaker": "A"
+          },
+          {
+            "text": "이",
+            "start": 33748,
+            "end": 33768,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "기간에는",
+            "start": 33929,
+            "end": 34549,
+            "confidence": 0.128,
+            "speaker": "A"
+          },
+          {
+            "text": "영업시간도",
+            "start": 35430,
+            "end": 36431,
+            "confidence": 0.092,
+            "speaker": "A"
+          },
+          {
+            "text": "1시간",
+            "start": 37372,
+            "end": 37732,
+            "confidence": 0.112,
+            "speaker": "A"
+          },
+          {
+            "text": "연장하니",
+            "start": 37992,
+            "end": 38793,
+            "confidence": 0.062,
+            "speaker": "A"
+          },
+          {
+            "text": "많은",
+            "start": 39594,
+            "end": 39994,
+            "confidence": 0.068,
+            "speaker": "A"
+          },
+          {
+            "text": "관심",
+            "start": 40174,
+            "end": 40655,
+            "confidence": 0.034,
+            "speaker": "A"
+          },
+          {
+            "text": "부탁드립니다.",
+            "start": 40975,
+            "end": 42196,
+            "confidence": 0.254,
+            "speaker": "A"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.097965516,
+    "audio_duration": 51
+  },
+  {
+    "status_script": "completed",
+    "id": "8a19fadb-46ba-4475-ac69-bc839622c42d",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_15.mp3",
+    "text": "15번 오늘 인주시청이 개최한 인주자전거대회가 2,000명 이상의 많은 시민이 참가한 가운데 성공적으로 마무리되었습니다. 시민들의 체력 향상을 위해 개최된 이 대회는 정해진 시간 안에 들어오면 순위와 관계없이 메달을 받을 수 있었는데요. 경쟁 없이 운동을 즐길 수 있어서 참가자들에게 긍정적 평가를 받았습니다.",
+    "utterances": [
+      {
+        "speaker": "A",
+        "text": "15번 오늘 인주시청이 개최한 인주자전거대회가 2,000명 이상의 많은 시민이 참가한 가운데 성공적으로 마무리되었습니다. 시민들의 체력 향상을 위해 개최된 이 대회는 정해진 시간 안에 들어오면 순위와 관계없이 메달을 받을 수 있었는데요. 경쟁 없이 운동을 즐길 수 있어서 참가자들에게 긍정적 평가를 받았습니다.",
+        "confidence": 0.12135,
+        "start": 1426,
+        "end": 41163,
+        "words": [
+          {
+            "text": "15번",
+            "start": 1426,
+            "end": 1686,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "오늘",
+            "start": 1786,
+            "end": 4130,
+            "confidence": 0.066,
+            "speaker": "A"
+          },
+          {
+            "text": "인주시청이",
+            "start": 5011,
+            "end": 6012,
+            "confidence": 0.1,
+            "speaker": "A"
+          },
+          {
+            "text": "개최한",
+            "start": 6112,
+            "end": 6693,
+            "confidence": 0.105,
+            "speaker": "A"
+          },
+          {
+            "text": "인주자전거대회가",
+            "start": 7334,
+            "end": 10334,
+            "confidence": 0.063,
+            "speaker": "A"
+          },
+          {
+            "text": "2,000명",
+            "start": 10579,
+            "end": 10759,
+            "confidence": 0.111,
+            "speaker": "A"
+          },
+          {
+            "text": "이상의",
+            "start": 10819,
+            "end": 11340,
+            "confidence": 0.075,
+            "speaker": "A"
+          },
+          {
+            "text": "많은",
+            "start": 11700,
+            "end": 12061,
+            "confidence": 0.097,
+            "speaker": "A"
+          },
+          {
+            "text": "시민이",
+            "start": 12261,
+            "end": 12681,
+            "confidence": 0.148,
+            "speaker": "A"
+          },
+          {
+            "text": "참가한",
+            "start": 12882,
+            "end": 13382,
+            "confidence": 0.133,
+            "speaker": "A"
+          },
+          {
+            "text": "가운데",
+            "start": 13523,
+            "end": 14003,
+            "confidence": 0.131,
+            "speaker": "A"
+          },
+          {
+            "text": "성공적으로",
+            "start": 14864,
+            "end": 15806,
+            "confidence": 0.122,
+            "speaker": "A"
+          },
+          {
+            "text": "마무리되었습니다.",
+            "start": 16286,
+            "end": 17508,
+            "confidence": 0.248,
+            "speaker": "A"
+          },
+          {
+            "text": "시민들의",
+            "start": 18554,
+            "end": 19394,
+            "confidence": 0.086,
+            "speaker": "A"
+          },
+          {
+            "text": "체력",
+            "start": 20015,
+            "end": 20275,
+            "confidence": 0.155,
+            "speaker": "A"
+          },
+          {
+            "text": "향상을",
+            "start": 20455,
+            "end": 20935,
+            "confidence": 0.156,
+            "speaker": "A"
+          },
+          {
+            "text": "위해",
+            "start": 21055,
+            "end": 21415,
+            "confidence": 0.112,
+            "speaker": "A"
+          },
+          {
+            "text": "개최된",
+            "start": 21595,
+            "end": 22135,
+            "confidence": 0.048,
+            "speaker": "A"
+          },
+          {
+            "text": "이",
+            "start": 22536,
+            "end": 22676,
+            "confidence": 0.143,
+            "speaker": "A"
+          },
+          {
+            "text": "대회는",
+            "start": 22836,
+            "end": 23236,
+            "confidence": 0.056,
+            "speaker": "A"
+          },
+          {
+            "text": "정해진",
+            "start": 24176,
+            "end": 24656,
+            "confidence": 0.131,
+            "speaker": "A"
+          },
+          {
+            "text": "시간",
+            "start": 24937,
+            "end": 25157,
+            "confidence": 0.184,
+            "speaker": "A"
+          },
+          {
+            "text": "안에",
+            "start": 25197,
+            "end": 25417,
+            "confidence": 0.169,
+            "speaker": "A"
+          },
+          {
+            "text": "들어오면",
+            "start": 25557,
+            "end": 26137,
+            "confidence": 0.144,
+            "speaker": "A"
+          },
+          {
+            "text": "순위와",
+            "start": 27177,
+            "end": 27718,
+            "confidence": 0.037,
+            "speaker": "A"
+          },
+          {
+            "text": "관계없이",
+            "start": 27878,
+            "end": 28638,
+            "confidence": 0.114,
+            "speaker": "A"
+          },
+          {
+            "text": "메달을",
+            "start": 29358,
+            "end": 29838,
+            "confidence": 0.087,
+            "speaker": "A"
+          },
+          {
+            "text": "받을",
+            "start": 30059,
+            "end": 30299,
+            "confidence": 0.188,
+            "speaker": "A"
+          },
+          {
+            "text": "수",
+            "start": 30459,
+            "end": 30539,
+            "confidence": 0.25,
+            "speaker": "A"
+          },
+          {
+            "text": "있었는데요.",
+            "start": 30579,
+            "end": 32339,
+            "confidence": 0.094,
+            "speaker": "A"
+          },
+          {
+            "text": "경쟁",
+            "start": 32680,
+            "end": 33060,
+            "confidence": 0.034,
+            "speaker": "A"
+          },
+          {
+            "text": "없이",
+            "start": 33120,
+            "end": 33620,
+            "confidence": 0.08,
+            "speaker": "A"
+          },
+          {
+            "text": "운동을",
+            "start": 34160,
+            "end": 34660,
+            "confidence": 0.131,
+            "speaker": "A"
+          },
+          {
+            "text": "즐길",
+            "start": 34860,
+            "end": 35161,
+            "confidence": 0.084,
+            "speaker": "A"
+          },
+          {
+            "text": "수",
+            "start": 35321,
+            "end": 35401,
+            "confidence": 0.25,
+            "speaker": "A"
+          },
+          {
+            "text": "있어서",
+            "start": 35441,
+            "end": 35901,
+            "confidence": 0.142,
+            "speaker": "A"
+          },
+          {
+            "text": "참가자들에게",
+            "start": 36981,
+            "end": 37962,
+            "confidence": 0.129,
+            "speaker": "A"
+          },
+          {
+            "text": "긍정적",
+            "start": 38662,
+            "end": 39282,
+            "confidence": 0.067,
+            "speaker": "A"
+          },
+          {
+            "text": "평가를",
+            "start": 39502,
+            "end": 40063,
+            "confidence": 0.119,
+            "speaker": "A"
+          },
+          {
+            "text": "받았습니다.",
+            "start": 40423,
+            "end": 41163,
+            "confidence": 0.265,
+            "speaker": "A"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.12446154,
+    "audio_duration": 46
+  },
+  {
+    "status_script": "completed",
+    "id": "ebe8de74-6fff-484c-a69a-7eb4cd3e3225",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_16.mp3",
+    "text": "16번 선생님께서는 화재 현장에서 일을 하시는데요. 구체적으로 어떤 일을 하시나요? 저는 화재가 발생하면 바로 현장에 가서 최초 신고자에게 상황 설명을 듣습니다. 그리고 화재의 시작점을 찾아 흔적을 살피고 그것을 분석해 화재의 원인을 밝힙니다. 그 후에는 화재로 인해 어느 정도의 피해를 보았는지 피해 금액도 계산하고요.",
+    "utterances": [
+      {
+        "speaker": "A",
+        "text": "16번 선생님께서는 화재 현장에서 일을 하시는데요. 구체적으로 어떤 일을 하시나요? 저는 화재가 발생하면 바로 현장에 가서 최초 신고자에게 상황 설명을 듣습니다. 그리고 화재의 시작점을 찾아 흔적을 살피고 그것을 분석해 화재의 원인을 밝힙니다. 그 후에는 화재로 인해 어느 정도의 피해를 보았는지 피해 금액도 계산하고요.",
+        "confidence": 0.10055814,
+        "start": 2000,
+        "end": 47292,
+        "words": [
+          {
+            "text": "16번",
+            "start": 2000,
+            "end": 2260,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "선생님께서는",
+            "start": 4522,
+            "end": 5503,
+            "confidence": 0.107,
+            "speaker": "A"
+          },
+          {
+            "text": "화재",
+            "start": 6203,
+            "end": 6563,
+            "confidence": 0.029,
+            "speaker": "A"
+          },
+          {
+            "text": "현장에서",
+            "start": 6703,
+            "end": 7544,
+            "confidence": 0.052,
+            "speaker": "A"
+          },
+          {
+            "text": "일을",
+            "start": 7924,
+            "end": 8265,
+            "confidence": 0.118,
+            "speaker": "A"
+          },
+          {
+            "text": "하시는데요.",
+            "start": 8385,
+            "end": 9505,
+            "confidence": 0.09,
+            "speaker": "A"
+          },
+          {
+            "text": "구체적으로",
+            "start": 10306,
+            "end": 11127,
+            "confidence": 0.14,
+            "speaker": "A"
+          },
+          {
+            "text": "어떤",
+            "start": 11707,
+            "end": 12107,
+            "confidence": 0.119,
+            "speaker": "A"
+          },
+          {
+            "text": "일을",
+            "start": 12227,
+            "end": 12528,
+            "confidence": 0.134,
+            "speaker": "A"
+          },
+          {
+            "text": "하시나요?",
+            "start": 12648,
+            "end": 14249,
+            "confidence": 0.06,
+            "speaker": "A"
+          },
+          {
+            "text": "저는",
+            "start": 14689,
+            "end": 14990,
+            "confidence": 0.083,
+            "speaker": "A"
+          },
+          {
+            "text": "화재가",
+            "start": 15910,
+            "end": 16451,
+            "confidence": 0.092,
+            "speaker": "A"
+          },
+          {
+            "text": "발생하면",
+            "start": 16551,
+            "end": 17391,
+            "confidence": 0.096,
+            "speaker": "A"
+          },
+          {
+            "text": "바로",
+            "start": 18252,
+            "end": 18632,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "현장에",
+            "start": 18952,
+            "end": 19533,
+            "confidence": 0.063,
+            "speaker": "A"
+          },
+          {
+            "text": "가서",
+            "start": 19633,
+            "end": 19993,
+            "confidence": 0.128,
+            "speaker": "A"
+          },
+          {
+            "text": "최초",
+            "start": 20794,
+            "end": 21334,
+            "confidence": 0.076,
+            "speaker": "A"
+          },
+          {
+            "text": "신고자에게",
+            "start": 21614,
+            "end": 22555,
+            "confidence": 0.105,
+            "speaker": "A"
+          },
+          {
+            "text": "상황",
+            "start": 23236,
+            "end": 23536,
+            "confidence": 0.069,
+            "speaker": "A"
+          },
+          {
+            "text": "설명을",
+            "start": 23716,
+            "end": 24256,
+            "confidence": 0.089,
+            "speaker": "A"
+          },
+          {
+            "text": "듣습니다.",
+            "start": 24416,
+            "end": 25237,
+            "confidence": 0.04,
+            "speaker": "A"
+          },
+          {
+            "text": "그리고",
+            "start": 26384,
+            "end": 26984,
+            "confidence": 0.071,
+            "speaker": "A"
+          },
+          {
+            "text": "화재의",
+            "start": 27664,
+            "end": 28205,
+            "confidence": 0.067,
+            "speaker": "A"
+          },
+          {
+            "text": "시작점을",
+            "start": 28465,
+            "end": 29245,
+            "confidence": 0.106,
+            "speaker": "A"
+          },
+          {
+            "text": "찾아",
+            "start": 29425,
+            "end": 29885,
+            "confidence": 0.087,
+            "speaker": "A"
+          },
+          {
+            "text": "흔적을",
+            "start": 30486,
+            "end": 31046,
+            "confidence": 0.074,
+            "speaker": "A"
+          },
+          {
+            "text": "살피고",
+            "start": 31246,
+            "end": 31826,
+            "confidence": 0.108,
+            "speaker": "A"
+          },
+          {
+            "text": "그것을",
+            "start": 32625,
+            "end": 33147,
+            "confidence": 0.118,
+            "speaker": "A"
+          },
+          {
+            "text": "분석해",
+            "start": 33547,
+            "end": 34207,
+            "confidence": 0.065,
+            "speaker": "A"
+          },
+          {
+            "text": "화재의",
+            "start": 34887,
+            "end": 35327,
+            "confidence": 0.081,
+            "speaker": "A"
+          },
+          {
+            "text": "원인을",
+            "start": 35568,
+            "end": 36048,
+            "confidence": 0.126,
+            "speaker": "A"
+          },
+          {
+            "text": "밝힙니다.",
+            "start": 36268,
+            "end": 37148,
+            "confidence": 0.347,
+            "speaker": "A"
+          },
+          {
+            "text": "그",
+            "start": 38329,
+            "end": 38449,
+            "confidence": 0.167,
+            "speaker": "A"
+          },
+          {
+            "text": "후에는",
+            "start": 38589,
+            "end": 39089,
+            "confidence": 0.12,
+            "speaker": "A"
+          },
+          {
+            "text": "화재로",
+            "start": 39929,
+            "end": 40369,
+            "confidence": 0.145,
+            "speaker": "A"
+          },
+          {
+            "text": "인해",
+            "start": 40429,
+            "end": 40870,
+            "confidence": 0.098,
+            "speaker": "A"
+          },
+          {
+            "text": "어느",
+            "start": 41470,
+            "end": 41770,
+            "confidence": 0.17,
+            "speaker": "A"
+          },
+          {
+            "text": "정도의",
+            "start": 41850,
+            "end": 42470,
+            "confidence": 0.101,
+            "speaker": "A"
+          },
+          {
+            "text": "피해를",
+            "start": 42750,
+            "end": 43190,
+            "confidence": 0.137,
+            "speaker": "A"
+          },
+          {
+            "text": "보았는지",
+            "start": 43370,
+            "end": 44111,
+            "confidence": 0.088,
+            "speaker": "A"
+          },
+          {
+            "text": "피해",
+            "start": 44851,
+            "end": 45111,
+            "confidence": 0.062,
+            "speaker": "A"
+          },
+          {
+            "text": "금액도",
+            "start": 45271,
+            "end": 46012,
+            "confidence": 0.025,
+            "speaker": "A"
+          },
+          {
+            "text": "계산하고요.",
+            "start": 46352,
+            "end": 47292,
+            "confidence": 0.271,
+            "speaker": "A"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.105463415,
+    "audio_duration": 54
+  },
+  {
+    "status_script": "completed",
+    "id": "920bbc52-5622-4259-94aa-0e7a04510dca",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_17.mp3",
+    "text": "17번 영화 보기 전에 팝콘 사야겠다. 수미 너도 먹을 거지? 아니, 난 아까 저녁을 많이 먹어서 배가 부르거든. 그래? 난 먹을래. 팝콘이 있어야 영화관에 온 것 같지.",
+    "utterances": [
+      {
+        "speaker": "B",
+        "text": "17번 영화 보기 전에 팝콘 사야겠다. 수미 너도 먹을 거지?",
+        "confidence": 0.0501,
+        "start": 8,
+        "end": 9834,
+        "words": [
+          {
+            "text": "17번",
+            "start": 8,
+            "end": 1469,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "영화",
+            "start": 3350,
+            "end": 3830,
+            "confidence": 0.082,
+            "speaker": "B"
+          },
+          {
+            "text": "보기",
+            "start": 3990,
+            "end": 4210,
+            "confidence": 0.18,
+            "speaker": "B"
+          },
+          {
+            "text": "전에",
+            "start": 4330,
+            "end": 4651,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "팝콘",
+            "start": 5691,
+            "end": 5871,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "사야겠다.",
+            "start": 6071,
+            "end": 6792,
+            "confidence": 0.009,
+            "speaker": "B"
+          },
+          {
+            "text": "수미",
+            "start": 8012,
+            "end": 8353,
+            "confidence": 0.036,
+            "speaker": "B"
+          },
+          {
+            "text": "너도",
+            "start": 8533,
+            "end": 8873,
+            "confidence": 0.074,
+            "speaker": "B"
+          },
+          {
+            "text": "먹을",
+            "start": 9173,
+            "end": 9413,
+            "confidence": 0.112,
+            "speaker": "B"
+          },
+          {
+            "text": "거지?",
+            "start": 9553,
+            "end": 9834,
+            "confidence": 0.008,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "아니, 난 아까 저녁을 많이 먹어서 배가 부르거든.",
+        "confidence": 0.041875,
+        "start": 11454,
+        "end": 19199,
+        "words": [
+          {
+            "text": "아니,",
+            "start": 11454,
+            "end": 12095,
+            "confidence": 0.032,
+            "speaker": "A"
+          },
+          {
+            "text": "난",
+            "start": 13075,
+            "end": 13355,
+            "confidence": 0.002,
+            "speaker": "A"
+          },
+          {
+            "text": "아까",
+            "start": 14156,
+            "end": 14716,
+            "confidence": 0.002,
+            "speaker": "A"
+          },
+          {
+            "text": "저녁을",
+            "start": 14976,
+            "end": 15657,
+            "confidence": 0.023,
+            "speaker": "A"
+          },
+          {
+            "text": "많이",
+            "start": 15917,
+            "end": 16297,
+            "confidence": 0.098,
+            "speaker": "A"
+          },
+          {
+            "text": "먹어서",
+            "start": 16437,
+            "end": 17178,
+            "confidence": 0.067,
+            "speaker": "A"
+          },
+          {
+            "text": "배가",
+            "start": 17818,
+            "end": 18278,
+            "confidence": 0.06,
+            "speaker": "A"
+          },
+          {
+            "text": "부르거든.",
+            "start": 18498,
+            "end": 19199,
+            "confidence": 0.051,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "그래? 난 먹을래. 팝콘이 있어야 영화관에 온 것 같지.",
+        "confidence": 0.038333334,
+        "start": 20960,
+        "end": 28284,
+        "words": [
+          {
+            "text": "그래?",
+            "start": 20960,
+            "end": 21340,
+            "confidence": 0.034,
+            "speaker": "B"
+          },
+          {
+            "text": "난",
+            "start": 22601,
+            "end": 22861,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "먹을래.",
+            "start": 23241,
+            "end": 24902,
+            "confidence": 0.006,
+            "speaker": "B"
+          },
+          {
+            "text": "팝콘이",
+            "start": 25142,
+            "end": 25482,
+            "confidence": 0.016,
+            "speaker": "B"
+          },
+          {
+            "text": "있어야",
+            "start": 25522,
+            "end": 26023,
+            "confidence": 0.14,
+            "speaker": "B"
+          },
+          {
+            "text": "영화관에",
+            "start": 26683,
+            "end": 27343,
+            "confidence": 0.056,
+            "speaker": "B"
+          },
+          {
+            "text": "온",
+            "start": 27363,
+            "end": 27383,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "것",
+            "start": 27744,
+            "end": 27804,
+            "confidence": 0.022,
+            "speaker": "B"
+          },
+          {
+            "text": "같지.",
+            "start": 27984,
+            "end": 28284,
+            "confidence": 0.071,
+            "speaker": "B"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.053681817,
+    "audio_duration": 34
+  },
+  {
+    "status_script": "completed",
+    "id": "8f1d6a56-f142-4865-a8b9-37cdfed4f40e",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_18.mp3",
+    "text": "18번 민수 씨한테 아직도 사과를 안 했어요? 네. 저도 사과하고 싶은데 먼저 말 걸기가 힘드네요. 메시지라도 보내보세요. 시간이 지나면 오해가 더 커질 수도 있어요.",
+    "utterances": [
+      {
+        "speaker": "A",
+        "text": "18번 민수 씨한테 아직도 사과를 안 했어요? 네.",
+        "confidence": 0.060125,
+        "start": 2017,
+        "end": 11563,
+        "words": [
+          {
+            "text": "18번",
+            "start": 2017,
+            "end": 2237,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "민수",
+            "start": 4518,
+            "end": 4759,
+            "confidence": 0.304,
+            "speaker": "A"
+          },
+          {
+            "text": "씨한테",
+            "start": 4959,
+            "end": 5659,
+            "confidence": 0.025,
+            "speaker": "A"
+          },
+          {
+            "text": "아직도",
+            "start": 6279,
+            "end": 7000,
+            "confidence": 0.031,
+            "speaker": "A"
+          },
+          {
+            "text": "사과를",
+            "start": 7640,
+            "end": 8201,
+            "confidence": 0.116,
+            "speaker": "A"
+          },
+          {
+            "text": "안",
+            "start": 8221,
+            "end": 8241,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "했어요?",
+            "start": 8621,
+            "end": 11062,
+            "confidence": 0.005,
+            "speaker": "A"
+          },
+          {
+            "text": "네.",
+            "start": 11523,
+            "end": 11563,
+            "speaker": "A",
+            "confidence": 0.0
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "저도 사과하고 싶은데 먼저 말 걸기가 힘드네요.",
+        "confidence": 0.050428573,
+        "start": 12343,
+        "end": 19847,
+        "words": [
+          {
+            "text": "저도",
+            "start": 12343,
+            "end": 12943,
+            "confidence": 0.017,
+            "speaker": "B"
+          },
+          {
+            "text": "사과하고",
+            "start": 13604,
+            "end": 14204,
+            "confidence": 0.118,
+            "speaker": "B"
+          },
+          {
+            "text": "싶은데",
+            "start": 14344,
+            "end": 15145,
+            "confidence": 0.042,
+            "speaker": "B"
+          },
+          {
+            "text": "먼저",
+            "start": 16265,
+            "end": 16846,
+            "confidence": 0.035,
+            "speaker": "B"
+          },
+          {
+            "text": "말",
+            "start": 17186,
+            "end": 17446,
+            "confidence": 0.01,
+            "speaker": "B"
+          },
+          {
+            "text": "걸기가",
+            "start": 17606,
+            "end": 18186,
+            "confidence": 0.11,
+            "speaker": "B"
+          },
+          {
+            "text": "힘드네요.",
+            "start": 18747,
+            "end": 19847,
+            "confidence": 0.021,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "메시지라도 보내보세요. 시간이 지나면 오해가 더 커질 수도 있어요.",
+        "confidence": 0.11844444,
+        "start": 21228,
+        "end": 29573,
+        "words": [
+          {
+            "text": "메시지라도",
+            "start": 21228,
+            "end": 22229,
+            "confidence": 0.095,
+            "speaker": "A"
+          },
+          {
+            "text": "보내보세요.",
+            "start": 22589,
+            "end": 23750,
+            "confidence": 0.08,
+            "speaker": "A"
+          },
+          {
+            "text": "시간이",
+            "start": 24690,
+            "end": 25090,
+            "confidence": 0.195,
+            "speaker": "A"
+          },
+          {
+            "text": "지나면",
+            "start": 25250,
+            "end": 25811,
+            "confidence": 0.043,
+            "speaker": "A"
+          },
+          {
+            "text": "오해가",
+            "start": 26691,
+            "end": 27232,
+            "confidence": 0.105,
+            "speaker": "A"
+          },
+          {
+            "text": "더",
+            "start": 27612,
+            "end": 27772,
+            "confidence": 0.007,
+            "speaker": "A"
+          },
+          {
+            "text": "커질",
+            "start": 28052,
+            "end": 28352,
+            "confidence": 0.008,
+            "speaker": "A"
+          },
+          {
+            "text": "수도",
+            "start": 28532,
+            "end": 28793,
+            "confidence": 0.16,
+            "speaker": "A"
+          },
+          {
+            "text": "있어요.",
+            "start": 28893,
+            "end": 29573,
+            "confidence": 0.373,
+            "speaker": "A"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.09047619,
+    "audio_duration": 34
+  },
+  {
+    "status_script": "completed",
+    "id": "bb85ad6e-9484-4418-97a1-163522c459e7",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_19.mp3",
+    "text": "19번. 무슨 자료를 그렇게 열심히 보고 있어? 여행 갈 곳에 대해 찾아보고 있어. 자세히 공부하고 가려고. 여행지에 가도 자료가 다 있을 텐데 그렇게까지 준비해야 해? 난 아는 만큼 즐길 수 있다고 생각해서 최대한 조사해서 가고 싶어.",
+    "utterances": [
+      {
+        "speaker": "B",
+        "text": "19번.",
+        "start": 1966,
+        "end": 2566,
+        "words": [
+          {
+            "text": "19번.",
+            "start": 1966,
+            "end": 2566,
+            "speaker": "B",
+            "confidence": 0.0
+          }
+        ],
+        "confidence": 0.0
+      },
+      {
+        "speaker": "A",
+        "text": "무슨 자료를 그렇게 열심히 보고 있어?",
+        "confidence": 0.11766667,
+        "start": 4427,
+        "end": 8469,
+        "words": [
+          {
+            "text": "무슨",
+            "start": 4427,
+            "end": 4827,
+            "confidence": 0.109,
+            "speaker": "A"
+          },
+          {
+            "text": "자료를",
+            "start": 5027,
+            "end": 5708,
+            "confidence": 0.093,
+            "speaker": "A"
+          },
+          {
+            "text": "그렇게",
+            "start": 6108,
+            "end": 6688,
+            "confidence": 0.123,
+            "speaker": "A"
+          },
+          {
+            "text": "열심히",
+            "start": 6868,
+            "end": 7529,
+            "confidence": 0.104,
+            "speaker": "A"
+          },
+          {
+            "text": "보고",
+            "start": 7709,
+            "end": 7949,
+            "confidence": 0.188,
+            "speaker": "A"
+          },
+          {
+            "text": "있어?",
+            "start": 7989,
+            "end": 8469,
+            "confidence": 0.089,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "여행 갈 곳에 대해 찾아보고 있어. 자세히 공부하고 가려고.",
+        "confidence": 0.063,
+        "start": 9970,
+        "end": 17553,
+        "words": [
+          {
+            "text": "여행",
+            "start": 9970,
+            "end": 10350,
+            "confidence": 0.106,
+            "speaker": "B"
+          },
+          {
+            "text": "갈",
+            "start": 10530,
+            "end": 10670,
+            "confidence": 0.028,
+            "speaker": "B"
+          },
+          {
+            "text": "곳에",
+            "start": 10810,
+            "end": 11070,
+            "confidence": 0.03,
+            "speaker": "B"
+          },
+          {
+            "text": "대해",
+            "start": 11170,
+            "end": 11490,
+            "confidence": 0.026,
+            "speaker": "B"
+          },
+          {
+            "text": "찾아보고",
+            "start": 11991,
+            "end": 12591,
+            "confidence": 0.094,
+            "speaker": "B"
+          },
+          {
+            "text": "있어.",
+            "start": 12651,
+            "end": 13671,
+            "confidence": 0.049,
+            "speaker": "B"
+          },
+          {
+            "text": "자세히",
+            "start": 14332,
+            "end": 14892,
+            "confidence": 0.028,
+            "speaker": "B"
+          },
+          {
+            "text": "공부하고",
+            "start": 15212,
+            "end": 15912,
+            "confidence": 0.141,
+            "speaker": "B"
+          },
+          {
+            "text": "가려고.",
+            "start": 16052,
+            "end": 17553,
+            "confidence": 0.065,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "여행지에 가도 자료가 다 있을 텐데 그렇게까지 준비해야 해?",
+        "confidence": 0.15755555,
+        "start": 18033,
+        "end": 25777,
+        "words": [
+          {
+            "text": "여행지에",
+            "start": 18033,
+            "end": 18774,
+            "confidence": 0.032,
+            "speaker": "A"
+          },
+          {
+            "text": "가도",
+            "start": 18954,
+            "end": 19474,
+            "confidence": 0.036,
+            "speaker": "A"
+          },
+          {
+            "text": "자료가",
+            "start": 20254,
+            "end": 20915,
+            "confidence": 0.087,
+            "speaker": "A"
+          },
+          {
+            "text": "다",
+            "start": 21175,
+            "end": 21395,
+            "confidence": 0.083,
+            "speaker": "A"
+          },
+          {
+            "text": "있을",
+            "start": 21555,
+            "end": 21895,
+            "confidence": 0.142,
+            "speaker": "A"
+          },
+          {
+            "text": "텐데",
+            "start": 22015,
+            "end": 22455,
+            "confidence": 0.098,
+            "speaker": "A"
+          },
+          {
+            "text": "그렇게까지",
+            "start": 23436,
+            "end": 24516,
+            "confidence": 0.101,
+            "speaker": "A"
+          },
+          {
+            "text": "준비해야",
+            "start": 24956,
+            "end": 25617,
+            "confidence": 0.2,
+            "speaker": "A"
+          },
+          {
+            "text": "해?",
+            "start": 25757,
+            "end": 25777,
+            "confidence": 0.639,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "난 아는 만큼 즐길 수 있다고 생각해서 최대한 조사해서 가고 싶어.",
+        "confidence": 0.13545455,
+        "start": 27262,
+        "end": 36252,
+        "words": [
+          {
+            "text": "난",
+            "start": 27262,
+            "end": 27642,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "아는",
+            "start": 28643,
+            "end": 28944,
+            "confidence": 0.053,
+            "speaker": "B"
+          },
+          {
+            "text": "만큼",
+            "start": 29064,
+            "end": 29564,
+            "confidence": 0.084,
+            "speaker": "B"
+          },
+          {
+            "text": "즐길",
+            "start": 30065,
+            "end": 30405,
+            "confidence": 0.049,
+            "speaker": "B"
+          },
+          {
+            "text": "수",
+            "start": 30566,
+            "end": 30666,
+            "confidence": 0.2,
+            "speaker": "B"
+          },
+          {
+            "text": "있다고",
+            "start": 30726,
+            "end": 31246,
+            "confidence": 0.12,
+            "speaker": "B"
+          },
+          {
+            "text": "생각해서",
+            "start": 31366,
+            "end": 33148,
+            "confidence": 0.072,
+            "speaker": "B"
+          },
+          {
+            "text": "최대한",
+            "start": 33429,
+            "end": 33929,
+            "confidence": 0.121,
+            "speaker": "B"
+          },
+          {
+            "text": "조사해서",
+            "start": 34570,
+            "end": 35291,
+            "confidence": 0.092,
+            "speaker": "B"
+          },
+          {
+            "text": "가고",
+            "start": 35631,
+            "end": 35871,
+            "confidence": 0.166,
+            "speaker": "B"
+          },
+          {
+            "text": "싶어.",
+            "start": 35951,
+            "end": 36252,
+            "confidence": 0.533,
+            "speaker": "B"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.12297059,
+    "audio_duration": 43
+  },
+  {
+    "status_script": "completed",
+    "id": "4f04ac9d-095c-475f-9079-5c089cadeaa1",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_20.mp3",
+    "text": "20번. 이전에 발표하셨던 동요의 가사를 이야기로 만들어 책으로 내셨는데요. 네. 요즘 책을 읽기 싫어하는 아이들이 많잖아요. 동요로 접했던 걸 책으로 읽으면 아이들이 부담없이 재미있게 책을 읽을 수 있을 것 같았어요. 그걸 시작으로 독서의 즐거움을 느낄 수 있으면 좋겠고요. 어렸을 때 독서에 대한 흥미를 갖는 것이 중요하니까요.",
+    "utterances": [
+      {
+        "speaker": "B",
+        "text": "20번.",
+        "start": 2152,
+        "end": 2252,
+        "words": [
+          {
+            "text": "20번.",
+            "start": 2152,
+            "end": 2252,
+            "speaker": "B",
+            "confidence": 0.0
+          }
+        ],
+        "confidence": 0.0
+      },
+      {
+        "speaker": "A",
+        "text": "이전에 발표하셨던 동요의 가사를 이야기로 만들어 책으로 내셨는데요.",
+        "confidence": 0.118125,
+        "start": 4574,
+        "end": 13019,
+        "words": [
+          {
+            "text": "이전에",
+            "start": 4574,
+            "end": 5254,
+            "confidence": 0.088,
+            "speaker": "A"
+          },
+          {
+            "text": "발표하셨던",
+            "start": 5414,
+            "end": 6555,
+            "confidence": 0.092,
+            "speaker": "A"
+          },
+          {
+            "text": "동요의",
+            "start": 7175,
+            "end": 7756,
+            "confidence": 0.074,
+            "speaker": "A"
+          },
+          {
+            "text": "가사를",
+            "start": 7896,
+            "end": 8416,
+            "confidence": 0.092,
+            "speaker": "A"
+          },
+          {
+            "text": "이야기로",
+            "start": 9237,
+            "end": 9957,
+            "confidence": 0.105,
+            "speaker": "A"
+          },
+          {
+            "text": "만들어",
+            "start": 10157,
+            "end": 10878,
+            "confidence": 0.1,
+            "speaker": "A"
+          },
+          {
+            "text": "책으로",
+            "start": 11378,
+            "end": 11818,
+            "confidence": 0.145,
+            "speaker": "A"
+          },
+          {
+            "text": "내셨는데요.",
+            "start": 11978,
+            "end": 13019,
+            "confidence": 0.249,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "네. 요즘 책을 읽기 싫어하는 아이들이 많잖아요. 동요로 접했던 걸 책으로 읽으면 아이들이 부담없이 재미있게 책을 읽을 수 있을 것 같았어요. 그걸 시작으로 독서의 즐거움을 느낄 수 있으면 좋겠고요. 어렸을 때 독서에 대한 흥미를 갖는 것이 중요하니까요.",
+        "confidence": 0.109675676,
+        "start": 14268,
+        "end": 46550,
+        "words": [
+          {
+            "text": "네.",
+            "start": 14268,
+            "end": 14288,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "요즘",
+            "start": 15929,
+            "end": 16329,
+            "confidence": 0.054,
+            "speaker": "B"
+          },
+          {
+            "text": "책을",
+            "start": 17029,
+            "end": 17349,
+            "confidence": 0.13,
+            "speaker": "B"
+          },
+          {
+            "text": "읽기",
+            "start": 17409,
+            "end": 17929,
+            "confidence": 0.045,
+            "speaker": "B"
+          },
+          {
+            "text": "싫어하는",
+            "start": 18170,
+            "end": 18790,
+            "confidence": 0.096,
+            "speaker": "B"
+          },
+          {
+            "text": "아이들이",
+            "start": 18890,
+            "end": 19390,
+            "confidence": 0.148,
+            "speaker": "B"
+          },
+          {
+            "text": "많잖아요.",
+            "start": 19670,
+            "end": 21351,
+            "confidence": 0.063,
+            "speaker": "B"
+          },
+          {
+            "text": "동요로",
+            "start": 21711,
+            "end": 22271,
+            "confidence": 0.075,
+            "speaker": "B"
+          },
+          {
+            "text": "접했던",
+            "start": 22411,
+            "end": 22971,
+            "confidence": 0.102,
+            "speaker": "B"
+          },
+          {
+            "text": "걸",
+            "start": 23091,
+            "end": 23332,
+            "confidence": 0.083,
+            "speaker": "B"
+          },
+          {
+            "text": "책으로",
+            "start": 23812,
+            "end": 24272,
+            "confidence": 0.131,
+            "speaker": "B"
+          },
+          {
+            "text": "읽으면",
+            "start": 24372,
+            "end": 24872,
+            "confidence": 0.073,
+            "speaker": "B"
+          },
+          {
+            "text": "아이들이",
+            "start": 25933,
+            "end": 26613,
+            "confidence": 0.122,
+            "speaker": "B"
+          },
+          {
+            "text": "부담없이",
+            "start": 26933,
+            "end": 27653,
+            "confidence": 0.073,
+            "speaker": "B"
+          },
+          {
+            "text": "재미있게",
+            "start": 28454,
+            "end": 29274,
+            "confidence": 0.049,
+            "speaker": "B"
+          },
+          {
+            "text": "책을",
+            "start": 29874,
+            "end": 30214,
+            "confidence": 0.115,
+            "speaker": "B"
+          },
+          {
+            "text": "읽을",
+            "start": 30494,
+            "end": 30774,
+            "confidence": 0.018,
+            "speaker": "B"
+          },
+          {
+            "text": "수",
+            "start": 30995,
+            "end": 31095,
+            "confidence": 0.2,
+            "speaker": "B"
+          },
+          {
+            "text": "있을",
+            "start": 31115,
+            "end": 31455,
+            "confidence": 0.11,
+            "speaker": "B"
+          },
+          {
+            "text": "것",
+            "start": 31555,
+            "end": 31655,
+            "confidence": 0.2,
+            "speaker": "B"
+          },
+          {
+            "text": "같았어요.",
+            "start": 31835,
+            "end": 33516,
+            "confidence": 0.064,
+            "speaker": "B"
+          },
+          {
+            "text": "그걸",
+            "start": 33876,
+            "end": 34176,
+            "confidence": 0.134,
+            "speaker": "B"
+          },
+          {
+            "text": "시작으로",
+            "start": 34396,
+            "end": 34996,
+            "confidence": 0.134,
+            "speaker": "B"
+          },
+          {
+            "text": "독서의",
+            "start": 35736,
+            "end": 36317,
+            "confidence": 0.038,
+            "speaker": "B"
+          },
+          {
+            "text": "즐거움을",
+            "start": 36517,
+            "end": 37217,
+            "confidence": 0.081,
+            "speaker": "B"
+          },
+          {
+            "text": "느낄",
+            "start": 37657,
+            "end": 38017,
+            "confidence": 0.045,
+            "speaker": "B"
+          },
+          {
+            "text": "수",
+            "start": 38177,
+            "end": 38257,
+            "confidence": 0.25,
+            "speaker": "B"
+          },
+          {
+            "text": "있으면",
+            "start": 38277,
+            "end": 38798,
+            "confidence": 0.118,
+            "speaker": "B"
+          },
+          {
+            "text": "좋겠고요.",
+            "start": 39058,
+            "end": 39898,
+            "confidence": 0.246,
+            "speaker": "B"
+          },
+          {
+            "text": "어렸을",
+            "start": 40913,
+            "end": 41495,
+            "confidence": 0.092,
+            "speaker": "B"
+          },
+          {
+            "text": "때",
+            "start": 41655,
+            "end": 41876,
+            "confidence": 0.091,
+            "speaker": "B"
+          },
+          {
+            "text": "독서에",
+            "start": 42418,
+            "end": 42899,
+            "confidence": 0.172,
+            "speaker": "B"
+          },
+          {
+            "text": "대한",
+            "start": 42979,
+            "end": 43300,
+            "confidence": 0.125,
+            "speaker": "B"
+          },
+          {
+            "text": "흥미를",
+            "start": 43641,
+            "end": 44143,
+            "confidence": 0.065,
+            "speaker": "B"
+          },
+          {
+            "text": "갖는",
+            "start": 44263,
+            "end": 44544,
+            "confidence": 0.147,
+            "speaker": "B"
+          },
+          {
+            "text": "것이",
+            "start": 44644,
+            "end": 45005,
+            "confidence": 0.117,
+            "speaker": "B"
+          },
+          {
+            "text": "중요하니까요.",
+            "start": 45487,
+            "end": 46550,
+            "confidence": 0.252,
+            "speaker": "B"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.11370455,
+    "audio_duration": 52
+  },
+  {
+    "status_script": "completed",
+    "id": "64a6c8b5-bd3c-487a-bf33-b1252c1ca4cb",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_21-22.mp3",
+    "text": "오늘 아침 회의에서 나온 의견 중에 게임의 캐릭터 디자인을 좀 더 귀엽게 변경하면 좋겠다는 거 어떻게 생각하세요? 지금 디자인이 현실감 있고 좋은데요. 제작 초기부터 많은 논의 끝에 나온 건데 수정하는 문제는 좀 신중해야 할 것 같아요. 우리 게임은 만화 같은 분위기인데 캐릭터가 너무 사실적이라서 좀 안 어울리지 않아요? 아직 출시도 좀 남았는데. 필요하다면 부분적으로 손을 볼 수는 있겠지만 많은 변화를 주는 건 부담이 클 것 같아요. 다시 들으십시오. 오늘 아침 회의에서 나온 의견 중에 게임의 캐릭터 디자인을 좀 더 귀엽게 변경하면 좋겠다는 거 어떻게 생각하세요? 지금 디자인이 현실감 있고 좋은데요. 제작 초기부터 많은 논의 끝에 나온 건데 수정하는 문제는 좀 신중해야 할 것 같아요. 우리 게임은 만화와 같은 분위기인데 캐릭터가 너무 사실적이라서 좀 안 어울리지 않아요? 아직 출시도 좀 남았는데. 필요하다면 부분적으로 손을 볼 수는 있겠지만, 많은 변화를 주는 건 부담이 클 것 같아요.",
+    "utterances": [
+      {
+        "speaker": "A",
+        "text": "오늘 아침 회의에서 나온 의견 중에 게임의 캐릭터 디자인을 좀 더 귀엽게 변경하면 좋겠다는 거 어떻게 생각하세요?",
+        "confidence": 0.086294115,
+        "start": 8,
+        "end": 14218,
+        "words": [
+          {
+            "text": "오늘",
+            "start": 8,
+            "end": 1149,
+            "confidence": 0.038,
+            "speaker": "A"
+          },
+          {
+            "text": "아침",
+            "start": 1469,
+            "end": 1949,
+            "confidence": 0.085,
+            "speaker": "A"
+          },
+          {
+            "text": "회의에서",
+            "start": 2190,
+            "end": 2790,
+            "confidence": 0.137,
+            "speaker": "A"
+          },
+          {
+            "text": "나온",
+            "start": 2910,
+            "end": 3210,
+            "confidence": 0.128,
+            "speaker": "A"
+          },
+          {
+            "text": "의견",
+            "start": 3530,
+            "end": 3871,
+            "confidence": 0.024,
+            "speaker": "A"
+          },
+          {
+            "text": "중에",
+            "start": 4011,
+            "end": 4451,
+            "confidence": 0.113,
+            "speaker": "A"
+          },
+          {
+            "text": "게임의",
+            "start": 5452,
+            "end": 5972,
+            "confidence": 0.113,
+            "speaker": "A"
+          },
+          {
+            "text": "캐릭터",
+            "start": 6152,
+            "end": 6653,
+            "confidence": 0.056,
+            "speaker": "A"
+          },
+          {
+            "text": "디자인을",
+            "start": 6793,
+            "end": 7513,
+            "confidence": 0.09,
+            "speaker": "A"
+          },
+          {
+            "text": "좀",
+            "start": 8173,
+            "end": 8334,
+            "confidence": 0.125,
+            "speaker": "A"
+          },
+          {
+            "text": "더",
+            "start": 8454,
+            "end": 8694,
+            "confidence": 0.083,
+            "speaker": "A"
+          },
+          {
+            "text": "귀엽게",
+            "start": 8994,
+            "end": 9635,
+            "confidence": 0.065,
+            "speaker": "A"
+          },
+          {
+            "text": "변경하면",
+            "start": 9815,
+            "end": 10615,
+            "confidence": 0.022,
+            "speaker": "A"
+          },
+          {
+            "text": "좋겠다는",
+            "start": 10796,
+            "end": 11416,
+            "confidence": 0.119,
+            "speaker": "A"
+          },
+          {
+            "text": "거",
+            "start": 11536,
+            "end": 11676,
+            "confidence": 0.103,
+            "speaker": "A"
+          },
+          {
+            "text": "어떻게",
+            "start": 12417,
+            "end": 12977,
+            "confidence": 0.108,
+            "speaker": "A"
+          },
+          {
+            "text": "생각하세요?",
+            "start": 13097,
+            "end": 14218,
+            "confidence": 0.058,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "지금 디자인이 현실감 있고 좋은데요. 제작 초기부터 많은 논의 끝에 나온 건데 수정하는 문제는 좀 신중해야 할 것 같아요.",
+        "confidence": 0.078263156,
+        "start": 15359,
+        "end": 31926,
+        "words": [
+          {
+            "text": "지금",
+            "start": 15359,
+            "end": 15699,
+            "confidence": 0.118,
+            "speaker": "B"
+          },
+          {
+            "text": "디자인이",
+            "start": 15919,
+            "end": 16700,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "현실감",
+            "start": 17320,
+            "end": 17921,
+            "confidence": 0.004,
+            "speaker": "B"
+          },
+          {
+            "text": "있고",
+            "start": 17981,
+            "end": 18481,
+            "confidence": 0.027,
+            "speaker": "B"
+          },
+          {
+            "text": "좋은데요.",
+            "start": 18701,
+            "end": 20302,
+            "confidence": 0.06,
+            "speaker": "B"
+          },
+          {
+            "text": "제작",
+            "start": 20803,
+            "end": 21203,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "초기부터",
+            "start": 21443,
+            "end": 22244,
+            "confidence": 0.075,
+            "speaker": "B"
+          },
+          {
+            "text": "많은",
+            "start": 22944,
+            "end": 23344,
+            "confidence": 0.062,
+            "speaker": "B"
+          },
+          {
+            "text": "논의",
+            "start": 23524,
+            "end": 23725,
+            "confidence": 0.065,
+            "speaker": "B"
+          },
+          {
+            "text": "끝에",
+            "start": 23865,
+            "end": 24245,
+            "confidence": 0.044,
+            "speaker": "B"
+          },
+          {
+            "text": "나온",
+            "start": 24345,
+            "end": 24585,
+            "confidence": 0.147,
+            "speaker": "B"
+          },
+          {
+            "text": "건데",
+            "start": 24705,
+            "end": 24985,
+            "confidence": 0.039,
+            "speaker": "B"
+          },
+          {
+            "text": "수정하는",
+            "start": 26063,
+            "end": 26783,
+            "confidence": 0.068,
+            "speaker": "B"
+          },
+          {
+            "text": "문제는",
+            "start": 27004,
+            "end": 27464,
+            "confidence": 0.145,
+            "speaker": "B"
+          },
+          {
+            "text": "좀",
+            "start": 28244,
+            "end": 28484,
+            "confidence": 0.083,
+            "speaker": "B"
+          },
+          {
+            "text": "신중해야",
+            "start": 29065,
+            "end": 29565,
+            "confidence": 0.043,
+            "speaker": "B"
+          },
+          {
+            "text": "할",
+            "start": 29685,
+            "end": 29785,
+            "confidence": 0.2,
+            "speaker": "B"
+          },
+          {
+            "text": "것",
+            "start": 29905,
+            "end": 29985,
+            "confidence": 0.25,
+            "speaker": "B"
+          },
+          {
+            "text": "같아요.",
+            "start": 30125,
+            "end": 31926,
+            "confidence": 0.057,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "우리 게임은 만화 같은 분위기인데 캐릭터가 너무 사실적이라서 좀 안 어울리지 않아요? 아직 출시도 좀 남았는데.",
+        "confidence": 0.0830625,
+        "start": 32305,
+        "end": 47134,
+        "words": [
+          {
+            "text": "우리",
+            "start": 32305,
+            "end": 32546,
+            "confidence": 0.172,
+            "speaker": "A"
+          },
+          {
+            "text": "게임은",
+            "start": 32707,
+            "end": 33347,
+            "confidence": 0.086,
+            "speaker": "A"
+          },
+          {
+            "text": "만화",
+            "start": 34187,
+            "end": 34648,
+            "confidence": 0.04,
+            "speaker": "A"
+          },
+          {
+            "text": "같은",
+            "start": 34728,
+            "end": 35128,
+            "confidence": 0.11,
+            "speaker": "A"
+          },
+          {
+            "text": "분위기인데",
+            "start": 35408,
+            "end": 36389,
+            "confidence": 0.104,
+            "speaker": "A"
+          },
+          {
+            "text": "캐릭터가",
+            "start": 37289,
+            "end": 38149,
+            "confidence": 0.065,
+            "speaker": "A"
+          },
+          {
+            "text": "너무",
+            "start": 38510,
+            "end": 38990,
+            "confidence": 0.083,
+            "speaker": "A"
+          },
+          {
+            "text": "사실적이라서",
+            "start": 39230,
+            "end": 40331,
+            "confidence": 0.121,
+            "speaker": "A"
+          },
+          {
+            "text": "좀",
+            "start": 41011,
+            "end": 41271,
+            "confidence": 0.077,
+            "speaker": "A"
+          },
+          {
+            "text": "안",
+            "start": 41711,
+            "end": 41851,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "어울리지",
+            "start": 41952,
+            "end": 42652,
+            "confidence": 0.055,
+            "speaker": "A"
+          },
+          {
+            "text": "않아요?",
+            "start": 42752,
+            "end": 44293,
+            "confidence": 0.029,
+            "speaker": "A"
+          },
+          {
+            "text": "아직",
+            "start": 44313,
+            "end": 44753,
+            "confidence": 0.091,
+            "speaker": "A"
+          },
+          {
+            "text": "출시도",
+            "start": 45113,
+            "end": 45754,
+            "confidence": 0.096,
+            "speaker": "A"
+          },
+          {
+            "text": "좀",
+            "start": 45974,
+            "end": 46134,
+            "confidence": 0.125,
+            "speaker": "A"
+          },
+          {
+            "text": "남았는데.",
+            "start": 46294,
+            "end": 47134,
+            "confidence": 0.075,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "필요하다면 부분적으로 손을 볼 수는 있겠지만 많은 변화를 주는 건 부담이 클 것 같아요.",
+        "confidence": 0.13921429,
+        "start": 48695,
+        "end": 59000,
+        "words": [
+          {
+            "text": "필요하다면",
+            "start": 48695,
+            "end": 49616,
+            "confidence": 0.061,
+            "speaker": "B"
+          },
+          {
+            "text": "부분적으로",
+            "start": 50396,
+            "end": 51337,
+            "confidence": 0.105,
+            "speaker": "B"
+          },
+          {
+            "text": "손을",
+            "start": 51597,
+            "end": 51877,
+            "confidence": 0.13,
+            "speaker": "B"
+          },
+          {
+            "text": "볼",
+            "start": 52017,
+            "end": 52137,
+            "confidence": 0.125,
+            "speaker": "B"
+          },
+          {
+            "text": "수는",
+            "start": 52277,
+            "end": 52537,
+            "confidence": 0.152,
+            "speaker": "B"
+          },
+          {
+            "text": "있겠지만",
+            "start": 52637,
+            "end": 53218,
+            "confidence": 0.293,
+            "speaker": "B"
+          },
+          {
+            "text": "많은",
+            "start": 54498,
+            "end": 54998,
+            "confidence": 0.065,
+            "speaker": "B"
+          },
+          {
+            "text": "변화를",
+            "start": 55218,
+            "end": 55599,
+            "confidence": 0.132,
+            "speaker": "B"
+          },
+          {
+            "text": "주는",
+            "start": 55739,
+            "end": 55959,
+            "confidence": 0.18,
+            "speaker": "B"
+          },
+          {
+            "text": "건",
+            "start": 56079,
+            "end": 56259,
+            "confidence": 0.109,
+            "speaker": "B"
+          },
+          {
+            "text": "부담이",
+            "start": 57099,
+            "end": 57579,
+            "confidence": 0.042,
+            "speaker": "B"
+          },
+          {
+            "text": "클",
+            "start": 57860,
+            "end": 57960,
+            "confidence": 0.001,
+            "speaker": "B"
+          },
+          {
+            "text": "것",
+            "start": 58060,
+            "end": 58080,
+            "confidence": 0.521,
+            "speaker": "B"
+          },
+          {
+            "text": "같아요.",
+            "start": 58280,
+            "end": 59000,
+            "confidence": 0.033,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "다시 들으십시오. 오늘 아침 회의에서 나온 의견 중에 게임의 캐릭터 디자인을 좀 더 귀엽게 변경하면 좋겠다는 거 어떻게 생각하세요?",
+        "confidence": 0.08431579,
+        "start": 60301,
+        "end": 76808,
+        "words": [
+          {
+            "text": "다시",
+            "start": 60301,
+            "end": 60781,
+            "confidence": 0.083,
+            "speaker": "A"
+          },
+          {
+            "text": "들으십시오.",
+            "start": 61001,
+            "end": 61761,
+            "confidence": 0.036,
+            "speaker": "A"
+          },
+          {
+            "text": "오늘",
+            "start": 63382,
+            "end": 63802,
+            "confidence": 0.101,
+            "speaker": "A"
+          },
+          {
+            "text": "아침",
+            "start": 64123,
+            "end": 64602,
+            "confidence": 0.085,
+            "speaker": "A"
+          },
+          {
+            "text": "회의에서",
+            "start": 64843,
+            "end": 65462,
+            "confidence": 0.106,
+            "speaker": "A"
+          },
+          {
+            "text": "나온",
+            "start": 65563,
+            "end": 65883,
+            "confidence": 0.124,
+            "speaker": "A"
+          },
+          {
+            "text": "의견",
+            "start": 66183,
+            "end": 66524,
+            "confidence": 0.068,
+            "speaker": "A"
+          },
+          {
+            "text": "중에",
+            "start": 66664,
+            "end": 67104,
+            "confidence": 0.114,
+            "speaker": "A"
+          },
+          {
+            "text": "게임의",
+            "start": 68104,
+            "end": 68625,
+            "confidence": 0.093,
+            "speaker": "A"
+          },
+          {
+            "text": "캐릭터",
+            "start": 68805,
+            "end": 69305,
+            "confidence": 0.06,
+            "speaker": "A"
+          },
+          {
+            "text": "디자인을",
+            "start": 69445,
+            "end": 70165,
+            "confidence": 0.067,
+            "speaker": "A"
+          },
+          {
+            "text": "좀",
+            "start": 70826,
+            "end": 70986,
+            "confidence": 0.125,
+            "speaker": "A"
+          },
+          {
+            "text": "더",
+            "start": 71106,
+            "end": 71346,
+            "confidence": 0.083,
+            "speaker": "A"
+          },
+          {
+            "text": "귀엽게",
+            "start": 71646,
+            "end": 72286,
+            "confidence": 0.025,
+            "speaker": "A"
+          },
+          {
+            "text": "변경하면",
+            "start": 72466,
+            "end": 73267,
+            "confidence": 0.028,
+            "speaker": "A"
+          },
+          {
+            "text": "좋겠다는",
+            "start": 73447,
+            "end": 74067,
+            "confidence": 0.112,
+            "speaker": "A"
+          },
+          {
+            "text": "거",
+            "start": 74187,
+            "end": 74327,
+            "confidence": 0.132,
+            "speaker": "A"
+          },
+          {
+            "text": "어떻게",
+            "start": 75068,
+            "end": 75628,
+            "confidence": 0.108,
+            "speaker": "A"
+          },
+          {
+            "text": "생각하세요?",
+            "start": 75748,
+            "end": 76808,
+            "confidence": 0.052,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "지금 디자인이 현실감 있고 좋은데요. 제작 초기부터 많은 논의 끝에 나온 건데 수정하는 문제는 좀 신중해야 할 것 같아요.",
+        "confidence": 0.102,
+        "start": 78009,
+        "end": 93285,
+        "words": [
+          {
+            "text": "지금",
+            "start": 78009,
+            "end": 78349,
+            "confidence": 0.115,
+            "speaker": "B"
+          },
+          {
+            "text": "디자인이",
+            "start": 78569,
+            "end": 79350,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "현실감",
+            "start": 79970,
+            "end": 80570,
+            "confidence": 0.009,
+            "speaker": "B"
+          },
+          {
+            "text": "있고",
+            "start": 80670,
+            "end": 81130,
+            "confidence": 0.048,
+            "speaker": "B"
+          },
+          {
+            "text": "좋은데요.",
+            "start": 81351,
+            "end": 82271,
+            "confidence": 0.287,
+            "speaker": "B"
+          },
+          {
+            "text": "제작",
+            "start": 83303,
+            "end": 83843,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "초기부터",
+            "start": 84083,
+            "end": 84883,
+            "confidence": 0.073,
+            "speaker": "B"
+          },
+          {
+            "text": "많은",
+            "start": 85583,
+            "end": 85984,
+            "confidence": 0.074,
+            "speaker": "B"
+          },
+          {
+            "text": "논의",
+            "start": 86164,
+            "end": 86384,
+            "confidence": 0.158,
+            "speaker": "B"
+          },
+          {
+            "text": "끝에",
+            "start": 86504,
+            "end": 86884,
+            "confidence": 0.052,
+            "speaker": "B"
+          },
+          {
+            "text": "나온",
+            "start": 86984,
+            "end": 87184,
+            "confidence": 0.238,
+            "speaker": "B"
+          },
+          {
+            "text": "건데",
+            "start": 87324,
+            "end": 88504,
+            "confidence": 0.046,
+            "speaker": "B"
+          },
+          {
+            "text": "수정하는",
+            "start": 88884,
+            "end": 89424,
+            "confidence": 0.106,
+            "speaker": "B"
+          },
+          {
+            "text": "문제는",
+            "start": 89644,
+            "end": 90124,
+            "confidence": 0.138,
+            "speaker": "B"
+          },
+          {
+            "text": "좀",
+            "start": 90884,
+            "end": 91144,
+            "confidence": 0.077,
+            "speaker": "B"
+          },
+          {
+            "text": "신중해야",
+            "start": 91705,
+            "end": 92225,
+            "confidence": 0.042,
+            "speaker": "B"
+          },
+          {
+            "text": "할",
+            "start": 92325,
+            "end": 92445,
+            "confidence": 0.167,
+            "speaker": "B"
+          },
+          {
+            "text": "것",
+            "start": 92565,
+            "end": 92645,
+            "confidence": 0.25,
+            "speaker": "B"
+          },
+          {
+            "text": "같아요.",
+            "start": 92765,
+            "end": 93285,
+            "confidence": 0.058,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "우리 게임은 만화와 같은 분위기인데 캐릭터가 너무 사실적이라서 좀 안 어울리지 않아요? 아직 출시도 좀 남았는데.",
+        "confidence": 0.094625,
+        "start": 94965,
+        "end": 109608,
+        "words": [
+          {
+            "text": "우리",
+            "start": 94965,
+            "end": 95205,
+            "confidence": 0.167,
+            "speaker": "A"
+          },
+          {
+            "text": "게임은",
+            "start": 95365,
+            "end": 96005,
+            "confidence": 0.095,
+            "speaker": "A"
+          },
+          {
+            "text": "만화와",
+            "start": 96826,
+            "end": 97306,
+            "confidence": 0.021,
+            "speaker": "A"
+          },
+          {
+            "text": "같은",
+            "start": 97386,
+            "end": 97806,
+            "confidence": 0.101,
+            "speaker": "A"
+          },
+          {
+            "text": "분위기인데",
+            "start": 98066,
+            "end": 99026,
+            "confidence": 0.103,
+            "speaker": "A"
+          },
+          {
+            "text": "캐릭터가",
+            "start": 99946,
+            "end": 100786,
+            "confidence": 0.059,
+            "speaker": "A"
+          },
+          {
+            "text": "너무",
+            "start": 101146,
+            "end": 101646,
+            "confidence": 0.08,
+            "speaker": "A"
+          },
+          {
+            "text": "사실적이라서",
+            "start": 101866,
+            "end": 102967,
+            "confidence": 0.126,
+            "speaker": "A"
+          },
+          {
+            "text": "좀",
+            "start": 103667,
+            "end": 103947,
+            "confidence": 0.013,
+            "speaker": "A"
+          },
+          {
+            "text": "안",
+            "start": 104347,
+            "end": 104507,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "어울리지",
+            "start": 104607,
+            "end": 105287,
+            "confidence": 0.057,
+            "speaker": "A"
+          },
+          {
+            "text": "않아요?",
+            "start": 105407,
+            "end": 105887,
+            "confidence": 0.059,
+            "speaker": "A"
+          },
+          {
+            "text": "아직",
+            "start": 106947,
+            "end": 107388,
+            "confidence": 0.092,
+            "speaker": "A"
+          },
+          {
+            "text": "출시도",
+            "start": 107768,
+            "end": 108408,
+            "confidence": 0.096,
+            "speaker": "A"
+          },
+          {
+            "text": "좀",
+            "start": 108628,
+            "end": 108768,
+            "confidence": 0.143,
+            "speaker": "A"
+          },
+          {
+            "text": "남았는데.",
+            "start": 108928,
+            "end": 109608,
+            "confidence": 0.302,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "필요하다면 부분적으로 손을 볼 수는 있겠지만, 많은 변화를 주는 건 부담이 클 것 같아요.",
+        "confidence": 0.15328571,
+        "start": 111232,
+        "end": 121542,
+        "words": [
+          {
+            "text": "필요하다면",
+            "start": 111232,
+            "end": 112253,
+            "confidence": 0.061,
+            "speaker": "B"
+          },
+          {
+            "text": "부분적으로",
+            "start": 113034,
+            "end": 113975,
+            "confidence": 0.115,
+            "speaker": "B"
+          },
+          {
+            "text": "손을",
+            "start": 114235,
+            "end": 114515,
+            "confidence": 0.154,
+            "speaker": "B"
+          },
+          {
+            "text": "볼",
+            "start": 114655,
+            "end": 114775,
+            "confidence": 0.004,
+            "speaker": "B"
+          },
+          {
+            "text": "수는",
+            "start": 114916,
+            "end": 115176,
+            "confidence": 0.155,
+            "speaker": "B"
+          },
+          {
+            "text": "있겠지만,",
+            "start": 115276,
+            "end": 116037,
+            "confidence": 0.101,
+            "speaker": "B"
+          },
+          {
+            "text": "많은",
+            "start": 117278,
+            "end": 117618,
+            "confidence": 0.141,
+            "speaker": "B"
+          },
+          {
+            "text": "변화를",
+            "start": 117858,
+            "end": 118259,
+            "confidence": 0.159,
+            "speaker": "B"
+          },
+          {
+            "text": "주는",
+            "start": 118399,
+            "end": 118599,
+            "confidence": 0.208,
+            "speaker": "B"
+          },
+          {
+            "text": "건",
+            "start": 118739,
+            "end": 118899,
+            "confidence": 0.125,
+            "speaker": "B"
+          },
+          {
+            "text": "부담이",
+            "start": 119740,
+            "end": 120261,
+            "confidence": 0.117,
+            "speaker": "B"
+          },
+          {
+            "text": "클",
+            "start": 120521,
+            "end": 120601,
+            "confidence": 0.173,
+            "speaker": "B"
+          },
+          {
+            "text": "것",
+            "start": 120721,
+            "end": 120801,
+            "confidence": 0.249,
+            "speaker": "B"
+          },
+          {
+            "text": "같아요.",
+            "start": 120941,
+            "end": 121542,
+            "confidence": 0.384,
+            "speaker": "B"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.1049375,
+    "audio_duration": 124
+  },
+  {
+    "status_script": "completed",
+    "id": "83daa4bf-c1db-4c4a-b174-3e56c1bc976b",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_23-24.mp3",
+    "text": "방금 3층 상설 전시관에서 관람하고 내려왔는데요. 전시관에 써놓은 설명 내용에 잘못된 게 있어서요. 죄송합니다. 뭐가 잘못되어 있나요? 첫 번째 전시실을 소개하는 영어 설명 중에 틀린 단어가 하나 있더라고요. 방물관에 외국인도 많던데 빨리 고쳐주시면 좋겠어요. 말씀해 주셔서 감사합니다. 바로 올라가서 확인해 보겠습니다. 다시 들으십시오. 방금 3층 상설 전시관에서 관람하고 내려왔는데요. 전시관에 써놓은 설명 내용에 잘못된 게 있어서요. 죄송합니다. 뭐가 잘못되어 있나요? 첫 번째 전시실을 소개하는 영어 설명 중에 틀린 단어가 하나 있더라고요. 박물관에 외국인도 많던데 빨리 고쳐주시면 좋겠어요. 말씀해 주셔서 감사합니다. 바로 올라가서 확인해 보겠습니다.",
+    "utterances": [
+      {
+        "speaker": "A",
+        "text": "방금 3층 상설 전시관에서 관람하고 내려왔는데요. 전시관에 써놓은 설명 내용에 잘못된 게 있어서요.",
+        "confidence": 0.08815385,
+        "start": 8,
+        "end": 14053,
+        "words": [
+          {
+            "text": "방금",
+            "start": 8,
+            "end": 1148,
+            "confidence": 0.056,
+            "speaker": "A"
+          },
+          {
+            "text": "3층",
+            "start": 2009,
+            "end": 2189,
+            "confidence": 0.074,
+            "speaker": "A"
+          },
+          {
+            "text": "상설",
+            "start": 2409,
+            "end": 2849,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "전시관에서",
+            "start": 2989,
+            "end": 3889,
+            "confidence": 0.086,
+            "speaker": "A"
+          },
+          {
+            "text": "관람하고",
+            "start": 4250,
+            "end": 4930,
+            "confidence": 0.109,
+            "speaker": "A"
+          },
+          {
+            "text": "내려왔는데요.",
+            "start": 4950,
+            "end": 6750,
+            "confidence": 0.188,
+            "speaker": "A"
+          },
+          {
+            "text": "전시관에",
+            "start": 7391,
+            "end": 8131,
+            "confidence": 0.079,
+            "speaker": "A"
+          },
+          {
+            "text": "써놓은",
+            "start": 8391,
+            "end": 8811,
+            "confidence": 0.089,
+            "speaker": "A"
+          },
+          {
+            "text": "설명",
+            "start": 9171,
+            "end": 9572,
+            "confidence": 0.099,
+            "speaker": "A"
+          },
+          {
+            "text": "내용에",
+            "start": 9712,
+            "end": 10132,
+            "confidence": 0.145,
+            "speaker": "A"
+          },
+          {
+            "text": "잘못된",
+            "start": 10812,
+            "end": 11452,
+            "confidence": 0.1,
+            "speaker": "A"
+          },
+          {
+            "text": "게",
+            "start": 11572,
+            "end": 11772,
+            "confidence": 0.091,
+            "speaker": "A"
+          },
+          {
+            "text": "있어서요.",
+            "start": 11892,
+            "end": 14053,
+            "confidence": 0.03,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "죄송합니다. 뭐가 잘못되어 있나요?",
+        "confidence": 0.021,
+        "start": 14073,
+        "end": 19235,
+        "words": [
+          {
+            "text": "죄송합니다.",
+            "start": 14073,
+            "end": 15174,
+            "confidence": 0.032,
+            "speaker": "B"
+          },
+          {
+            "text": "뭐가",
+            "start": 16234,
+            "end": 16774,
+            "confidence": 0.036,
+            "speaker": "B"
+          },
+          {
+            "text": "잘못되어",
+            "start": 16994,
+            "end": 17634,
+            "confidence": 0.016,
+            "speaker": "B"
+          },
+          {
+            "text": "있나요?",
+            "start": 17674,
+            "end": 19235,
+            "speaker": "B",
+            "confidence": 0.0
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "첫 번째 전시실을 소개하는 영어 설명 중에 틀린 단어가 하나 있더라고요. 방물관에 외국인도 많던데 빨리 고쳐주시면 좋겠어요.",
+        "confidence": 0.10017647,
+        "start": 19775,
+        "end": 35537,
+        "words": [
+          {
+            "text": "첫",
+            "start": 19775,
+            "end": 19875,
+            "confidence": 0.164,
+            "speaker": "A"
+          },
+          {
+            "text": "번째",
+            "start": 20015,
+            "end": 20516,
+            "confidence": 0.074,
+            "speaker": "A"
+          },
+          {
+            "text": "전시실을",
+            "start": 20716,
+            "end": 21536,
+            "confidence": 0.032,
+            "speaker": "A"
+          },
+          {
+            "text": "소개하는",
+            "start": 21716,
+            "end": 22336,
+            "confidence": 0.097,
+            "speaker": "A"
+          },
+          {
+            "text": "영어",
+            "start": 22776,
+            "end": 23056,
+            "confidence": 0.094,
+            "speaker": "A"
+          },
+          {
+            "text": "설명",
+            "start": 23176,
+            "end": 23497,
+            "confidence": 0.132,
+            "speaker": "A"
+          },
+          {
+            "text": "중에",
+            "start": 23637,
+            "end": 23897,
+            "confidence": 0.155,
+            "speaker": "A"
+          },
+          {
+            "text": "틀린",
+            "start": 24717,
+            "end": 25117,
+            "confidence": 0.072,
+            "speaker": "A"
+          },
+          {
+            "text": "단어가",
+            "start": 25237,
+            "end": 25717,
+            "confidence": 0.123,
+            "speaker": "A"
+          },
+          {
+            "text": "하나",
+            "start": 25998,
+            "end": 26318,
+            "confidence": 0.12,
+            "speaker": "A"
+          },
+          {
+            "text": "있더라고요.",
+            "start": 26418,
+            "end": 27258,
+            "confidence": 0.282,
+            "speaker": "A"
+          },
+          {
+            "text": "방물관에",
+            "start": 28493,
+            "end": 29333,
+            "confidence": 0.052,
+            "speaker": "A"
+          },
+          {
+            "text": "외국인도",
+            "start": 29874,
+            "end": 30554,
+            "confidence": 0.078,
+            "speaker": "A"
+          },
+          {
+            "text": "많던데",
+            "start": 30634,
+            "end": 31215,
+            "confidence": 0.01,
+            "speaker": "A"
+          },
+          {
+            "text": "빨리",
+            "start": 32095,
+            "end": 32534,
+            "confidence": 0.061,
+            "speaker": "A"
+          },
+          {
+            "text": "고쳐주시면",
+            "start": 32674,
+            "end": 33596,
+            "confidence": 0.096,
+            "speaker": "A"
+          },
+          {
+            "text": "좋겠어요.",
+            "start": 33936,
+            "end": 35537,
+            "confidence": 0.061,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "말씀해 주셔서 감사합니다. 바로 올라가서 확인해 보겠습니다. 다시 들으십시오.",
+        "confidence": 0.045444444,
+        "start": 36037,
+        "end": 47224,
+        "words": [
+          {
+            "text": "말씀해",
+            "start": 36037,
+            "end": 36498,
+            "confidence": 0.008,
+            "speaker": "B"
+          },
+          {
+            "text": "주셔서",
+            "start": 36598,
+            "end": 37318,
+            "confidence": 0.055,
+            "speaker": "B"
+          },
+          {
+            "text": "감사합니다.",
+            "start": 37558,
+            "end": 38639,
+            "confidence": 0.039,
+            "speaker": "B"
+          },
+          {
+            "text": "바로",
+            "start": 39539,
+            "end": 39920,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "올라가서",
+            "start": 40020,
+            "end": 40760,
+            "confidence": 0.083,
+            "speaker": "B"
+          },
+          {
+            "text": "확인해",
+            "start": 41300,
+            "end": 41701,
+            "confidence": 0.076,
+            "speaker": "B"
+          },
+          {
+            "text": "보겠습니다.",
+            "start": 41801,
+            "end": 43782,
+            "confidence": 0.087,
+            "speaker": "B"
+          },
+          {
+            "text": "다시",
+            "start": 44242,
+            "end": 44762,
+            "confidence": 0.034,
+            "speaker": "B"
+          },
+          {
+            "text": "들으십시오.",
+            "start": 44943,
+            "end": 47224,
+            "confidence": 0.027,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "방금 3층 상설 전시관에서 관람하고 내려왔는데요. 전시관에 써놓은 설명 내용에 잘못된 게 있어서요.",
+        "confidence": 0.085,
+        "start": 47244,
+        "end": 60341,
+        "words": [
+          {
+            "text": "방금",
+            "start": 47244,
+            "end": 47644,
+            "confidence": 0.056,
+            "speaker": "A"
+          },
+          {
+            "text": "3층",
+            "start": 48505,
+            "end": 48685,
+            "confidence": 0.059,
+            "speaker": "A"
+          },
+          {
+            "text": "상설",
+            "start": 48905,
+            "end": 49345,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "전시관에서",
+            "start": 49465,
+            "end": 50386,
+            "confidence": 0.072,
+            "speaker": "A"
+          },
+          {
+            "text": "관람하고",
+            "start": 50726,
+            "end": 51406,
+            "confidence": 0.103,
+            "speaker": "A"
+          },
+          {
+            "text": "내려왔는데요.",
+            "start": 51566,
+            "end": 52507,
+            "confidence": 0.218,
+            "speaker": "A"
+          },
+          {
+            "text": "전시관에",
+            "start": 53738,
+            "end": 54618,
+            "confidence": 0.05,
+            "speaker": "A"
+          },
+          {
+            "text": "써놓은",
+            "start": 54859,
+            "end": 55299,
+            "confidence": 0.111,
+            "speaker": "A"
+          },
+          {
+            "text": "설명",
+            "start": 55659,
+            "end": 56059,
+            "confidence": 0.072,
+            "speaker": "A"
+          },
+          {
+            "text": "내용에",
+            "start": 56179,
+            "end": 56599,
+            "confidence": 0.143,
+            "speaker": "A"
+          },
+          {
+            "text": "잘못된",
+            "start": 57280,
+            "end": 57920,
+            "confidence": 0.099,
+            "speaker": "A"
+          },
+          {
+            "text": "게",
+            "start": 58040,
+            "end": 58240,
+            "confidence": 0.099,
+            "speaker": "A"
+          },
+          {
+            "text": "있어서요.",
+            "start": 58360,
+            "end": 60341,
+            "confidence": 0.023,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "죄송합니다. 뭐가 잘못되어 있나요?",
+        "confidence": 0.0165,
+        "start": 60541,
+        "end": 66064,
+        "words": [
+          {
+            "text": "죄송합니다.",
+            "start": 60541,
+            "end": 61642,
+            "confidence": 0.028,
+            "speaker": "B"
+          },
+          {
+            "text": "뭐가",
+            "start": 62723,
+            "end": 63243,
+            "confidence": 0.037,
+            "speaker": "B"
+          },
+          {
+            "text": "잘못되어",
+            "start": 63463,
+            "end": 64123,
+            "confidence": 0.001,
+            "speaker": "B"
+          },
+          {
+            "text": "있나요?",
+            "start": 64143,
+            "end": 66064,
+            "speaker": "B",
+            "confidence": 0.0
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "첫 번째 전시실을 소개하는 영어 설명 중에 틀린 단어가 하나 있더라고요. 박물관에 외국인도 많던데 빨리 고쳐주시면 좋겠어요.",
+        "confidence": 0.096705884,
+        "start": 66244,
+        "end": 81292,
+        "words": [
+          {
+            "text": "첫",
+            "start": 66244,
+            "end": 66344,
+            "confidence": 0.175,
+            "speaker": "A"
+          },
+          {
+            "text": "번째",
+            "start": 66484,
+            "end": 67005,
+            "confidence": 0.074,
+            "speaker": "A"
+          },
+          {
+            "text": "전시실을",
+            "start": 67185,
+            "end": 68005,
+            "confidence": 0.017,
+            "speaker": "A"
+          },
+          {
+            "text": "소개하는",
+            "start": 68205,
+            "end": 68806,
+            "confidence": 0.078,
+            "speaker": "A"
+          },
+          {
+            "text": "영어",
+            "start": 69246,
+            "end": 69526,
+            "confidence": 0.024,
+            "speaker": "A"
+          },
+          {
+            "text": "설명",
+            "start": 69666,
+            "end": 69986,
+            "confidence": 0.126,
+            "speaker": "A"
+          },
+          {
+            "text": "중에",
+            "start": 70106,
+            "end": 70366,
+            "confidence": 0.155,
+            "speaker": "A"
+          },
+          {
+            "text": "틀린",
+            "start": 71187,
+            "end": 71587,
+            "confidence": 0.072,
+            "speaker": "A"
+          },
+          {
+            "text": "단어가",
+            "start": 71707,
+            "end": 72207,
+            "confidence": 0.074,
+            "speaker": "A"
+          },
+          {
+            "text": "하나",
+            "start": 72468,
+            "end": 72788,
+            "confidence": 0.125,
+            "speaker": "A"
+          },
+          {
+            "text": "있더라고요.",
+            "start": 72908,
+            "end": 74669,
+            "confidence": 0.117,
+            "speaker": "A"
+          },
+          {
+            "text": "박물관에",
+            "start": 75069,
+            "end": 75829,
+            "confidence": 0.073,
+            "speaker": "A"
+          },
+          {
+            "text": "외국인도",
+            "start": 76349,
+            "end": 77030,
+            "confidence": 0.046,
+            "speaker": "A"
+          },
+          {
+            "text": "많던데",
+            "start": 77130,
+            "end": 78070,
+            "confidence": 0.066,
+            "speaker": "A"
+          },
+          {
+            "text": "빨리",
+            "start": 78591,
+            "end": 79011,
+            "confidence": 0.063,
+            "speaker": "A"
+          },
+          {
+            "text": "고쳐주시면",
+            "start": 79171,
+            "end": 80071,
+            "confidence": 0.09,
+            "speaker": "A"
+          },
+          {
+            "text": "좋겠어요.",
+            "start": 80412,
+            "end": 81292,
+            "confidence": 0.269,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "말씀해 주셔서 감사합니다. 바로 올라가서 확인해 보겠습니다.",
+        "confidence": 0.13842857,
+        "start": 82409,
+        "end": 89210,
+        "words": [
+          {
+            "text": "말씀해",
+            "start": 82409,
+            "end": 82971,
+            "confidence": 0.132,
+            "speaker": "B"
+          },
+          {
+            "text": "주셔서",
+            "start": 83091,
+            "end": 83793,
+            "confidence": 0.091,
+            "speaker": "B"
+          },
+          {
+            "text": "감사합니다.",
+            "start": 84034,
+            "end": 84937,
+            "confidence": 0.093,
+            "speaker": "B"
+          },
+          {
+            "text": "바로",
+            "start": 86020,
+            "end": 86381,
+            "confidence": 0.111,
+            "speaker": "B"
+          },
+          {
+            "text": "올라가서",
+            "start": 86502,
+            "end": 87264,
+            "confidence": 0.113,
+            "speaker": "B"
+          },
+          {
+            "text": "확인해",
+            "start": 87786,
+            "end": 88187,
+            "confidence": 0.143,
+            "speaker": "B"
+          },
+          {
+            "text": "보겠습니다.",
+            "start": 88287,
+            "end": 89210,
+            "confidence": 0.286,
+            "speaker": "B"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.09020253,
+    "audio_duration": 92
+  },
+  {
+    "status_script": "completed",
+    "id": "3fc044f5-a2b1-412a-bf54-99a9d45890ef",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_25-26.mp3",
+    "text": "서장님, 인주경찰서가 작년에 이어 올해도 전국에서 범인 검거율이 가장 높은 곳으로 선정되었던데 어떻게 이런 성과를 낼 수 있었나요? 무엇보다 현장 대응력을 높이기 위한 훈련 덕분이라고 생각합니다. 이 지역은 번화한 곳이라서 사건, 사고가 많지요. 그래서 다른 곳에 비해 인력도 많은데 대부분 젊은 경찰관들입니다. 젊은 경찰관들은 아무래도 현장 경험이 부족하기 때문에 다양한 모의 상황을 만들어 현장 대응력을 강화하는 훈련을 반복해서 했습니다. 그렇게 하니까 실제 상황에서도 효과가 있었던 것 같습니다. 다시 들으십시오. 서장님, 인주경찰서가 작년에 이어 올해도 전국에서 범인 검거율이 가장 높은 곳으로 선정되었던데 어떻게 이런 성과를 낼 수 있었나요? 무엇보다 현장 대응력을 높이기 위한 훈련 덕분이라고 생각합니다. 이 지역은 번화한 곳이라서 사건, 사고가 많지요. 그래서 다른 곳에 비해 인력도 많은데 대부분 젊은 경찰관들입니다. 젊은 경찰관들은 아무래도 현장 경험이 부족하기 때문에 다양한 모의 상황을 만들어 현장 대응력을 강화하는 훈련을 반복해서 했습니다. 그렇게 하니까 실제 상황에서도 효과가 있었던 것 같습니다.",
+    "utterances": [
+      {
+        "speaker": "A",
+        "text": "서장님, 인주경찰서가 작년에 이어 올해도 전국에서 범인 검거율이 가장 높은 곳으로 선정되었던데 어떻게 이런 성과를 낼 수 있었나요?",
+        "confidence": 0.10322222,
+        "start": 1020,
+        "end": 18768,
+        "words": [
+          {
+            "text": "서장님,",
+            "start": 1020,
+            "end": 1701,
+            "confidence": 0.042,
+            "speaker": "A"
+          },
+          {
+            "text": "인주경찰서가",
+            "start": 2782,
+            "end": 4302,
+            "confidence": 0.084,
+            "speaker": "A"
+          },
+          {
+            "text": "작년에",
+            "start": 5003,
+            "end": 5523,
+            "confidence": 0.12,
+            "speaker": "A"
+          },
+          {
+            "text": "이어",
+            "start": 5603,
+            "end": 5983,
+            "confidence": 0.108,
+            "speaker": "A"
+          },
+          {
+            "text": "올해도",
+            "start": 6263,
+            "end": 6863,
+            "confidence": 0.038,
+            "speaker": "A"
+          },
+          {
+            "text": "전국에서",
+            "start": 7624,
+            "end": 8484,
+            "confidence": 0.083,
+            "speaker": "A"
+          },
+          {
+            "text": "범인",
+            "start": 8824,
+            "end": 9244,
+            "confidence": 0.066,
+            "speaker": "A"
+          },
+          {
+            "text": "검거율이",
+            "start": 9444,
+            "end": 10185,
+            "confidence": 0.116,
+            "speaker": "A"
+          },
+          {
+            "text": "가장",
+            "start": 10665,
+            "end": 11045,
+            "confidence": 0.106,
+            "speaker": "A"
+          },
+          {
+            "text": "높은",
+            "start": 11185,
+            "end": 11525,
+            "confidence": 0.129,
+            "speaker": "A"
+          },
+          {
+            "text": "곳으로",
+            "start": 11605,
+            "end": 12106,
+            "confidence": 0.103,
+            "speaker": "A"
+          },
+          {
+            "text": "선정되었던데",
+            "start": 12266,
+            "end": 13986,
+            "confidence": 0.035,
+            "speaker": "A"
+          },
+          {
+            "text": "어떻게",
+            "start": 14446,
+            "end": 15127,
+            "confidence": 0.089,
+            "speaker": "A"
+          },
+          {
+            "text": "이런",
+            "start": 15387,
+            "end": 15667,
+            "confidence": 0.146,
+            "speaker": "A"
+          },
+          {
+            "text": "성과를",
+            "start": 15787,
+            "end": 16327,
+            "confidence": 0.093,
+            "speaker": "A"
+          },
+          {
+            "text": "낼",
+            "start": 16527,
+            "end": 16647,
+            "confidence": 0.167,
+            "speaker": "A"
+          },
+          {
+            "text": "수",
+            "start": 16787,
+            "end": 16867,
+            "confidence": 0.25,
+            "speaker": "A"
+          },
+          {
+            "text": "있었나요?",
+            "start": 16907,
+            "end": 18768,
+            "confidence": 0.083,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "무엇보다 현장 대응력을 높이기 위한 훈련 덕분이라고 생각합니다. 이 지역은 번화한 곳이라서 사건, 사고가 많지요. 그래서 다른 곳에 비해 인력도 많은데 대부분 젊은 경찰관들입니다. 젊은 경찰관들은 아무래도 현장 경험이 부족하기 때문에 다양한 모의 상황을 만들어 현장 대응력을 강화하는 훈련을 반복해서 했습니다. 그렇게 하니까 실제 상황에서도 효과가 있었던 것 같습니다.",
+        "confidence": 0.09008163,
+        "start": 19148,
+        "end": 62626,
+        "words": [
+          {
+            "text": "무엇보다",
+            "start": 19148,
+            "end": 19869,
+            "confidence": 0.01,
+            "speaker": "B"
+          },
+          {
+            "text": "현장",
+            "start": 20549,
+            "end": 21029,
+            "confidence": 0.006,
+            "speaker": "B"
+          },
+          {
+            "text": "대응력을",
+            "start": 21189,
+            "end": 21809,
+            "confidence": 0.124,
+            "speaker": "B"
+          },
+          {
+            "text": "높이기",
+            "start": 21930,
+            "end": 22410,
+            "confidence": 0.124,
+            "speaker": "B"
+          },
+          {
+            "text": "위한",
+            "start": 22490,
+            "end": 22850,
+            "confidence": 0.106,
+            "speaker": "B"
+          },
+          {
+            "text": "훈련",
+            "start": 22870,
+            "end": 23730,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "덕분이라고",
+            "start": 23950,
+            "end": 24631,
+            "confidence": 0.102,
+            "speaker": "B"
+          },
+          {
+            "text": "생각합니다.",
+            "start": 24791,
+            "end": 25591,
+            "confidence": 0.149,
+            "speaker": "B"
+          },
+          {
+            "text": "이",
+            "start": 26738,
+            "end": 26938,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "지역은",
+            "start": 27078,
+            "end": 27498,
+            "confidence": 0.142,
+            "speaker": "B"
+          },
+          {
+            "text": "번화한",
+            "start": 28039,
+            "end": 28579,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "곳이라서",
+            "start": 28659,
+            "end": 29199,
+            "confidence": 0.13,
+            "speaker": "B"
+          },
+          {
+            "text": "사건,",
+            "start": 29980,
+            "end": 30420,
+            "confidence": 0.034,
+            "speaker": "B"
+          },
+          {
+            "text": "사고가",
+            "start": 30740,
+            "end": 31120,
+            "confidence": 0.072,
+            "speaker": "B"
+          },
+          {
+            "text": "많지요.",
+            "start": 31221,
+            "end": 31761,
+            "confidence": 0.051,
+            "speaker": "B"
+          },
+          {
+            "text": "그래서",
+            "start": 32961,
+            "end": 33402,
+            "confidence": 0.145,
+            "speaker": "B"
+          },
+          {
+            "text": "다른",
+            "start": 34102,
+            "end": 34342,
+            "confidence": 0.166,
+            "speaker": "B"
+          },
+          {
+            "text": "곳에",
+            "start": 34462,
+            "end": 34682,
+            "confidence": 0.036,
+            "speaker": "B"
+          },
+          {
+            "text": "비해",
+            "start": 34803,
+            "end": 35243,
+            "confidence": 0.081,
+            "speaker": "B"
+          },
+          {
+            "text": "인력도",
+            "start": 35583,
+            "end": 36083,
+            "confidence": 0.109,
+            "speaker": "B"
+          },
+          {
+            "text": "많은데",
+            "start": 36183,
+            "end": 37384,
+            "confidence": 0.014,
+            "speaker": "B"
+          },
+          {
+            "text": "대부분",
+            "start": 37724,
+            "end": 38184,
+            "confidence": 0.143,
+            "speaker": "B"
+          },
+          {
+            "text": "젊은",
+            "start": 38625,
+            "end": 39045,
+            "confidence": 0.101,
+            "speaker": "B"
+          },
+          {
+            "text": "경찰관들입니다.",
+            "start": 39265,
+            "end": 41166,
+            "confidence": 0.007,
+            "speaker": "B"
+          },
+          {
+            "text": "젊은",
+            "start": 41526,
+            "end": 41886,
+            "confidence": 0.084,
+            "speaker": "B"
+          },
+          {
+            "text": "경찰관들은",
+            "start": 42067,
+            "end": 42907,
+            "confidence": 0.096,
+            "speaker": "B"
+          },
+          {
+            "text": "아무래도",
+            "start": 43607,
+            "end": 44208,
+            "confidence": 0.118,
+            "speaker": "B"
+          },
+          {
+            "text": "현장",
+            "start": 44228,
+            "end": 45108,
+            "confidence": 0.056,
+            "speaker": "B"
+          },
+          {
+            "text": "경험이",
+            "start": 45268,
+            "end": 45649,
+            "confidence": 0.069,
+            "speaker": "B"
+          },
+          {
+            "text": "부족하기",
+            "start": 45789,
+            "end": 46269,
+            "confidence": 0.056,
+            "speaker": "B"
+          },
+          {
+            "text": "때문에",
+            "start": 46389,
+            "end": 47470,
+            "confidence": 0.134,
+            "speaker": "B"
+          },
+          {
+            "text": "다양한",
+            "start": 47790,
+            "end": 48230,
+            "confidence": 0.137,
+            "speaker": "B"
+          },
+          {
+            "text": "모의",
+            "start": 48650,
+            "end": 48910,
+            "confidence": 0.042,
+            "speaker": "B"
+          },
+          {
+            "text": "상황을",
+            "start": 49051,
+            "end": 49391,
+            "confidence": 0.15,
+            "speaker": "B"
+          },
+          {
+            "text": "만들어",
+            "start": 49511,
+            "end": 49911,
+            "confidence": 0.151,
+            "speaker": "B"
+          },
+          {
+            "text": "현장",
+            "start": 50691,
+            "end": 51192,
+            "confidence": 0.062,
+            "speaker": "B"
+          },
+          {
+            "text": "대응력을",
+            "start": 51372,
+            "end": 52012,
+            "confidence": 0.113,
+            "speaker": "B"
+          },
+          {
+            "text": "강화하는",
+            "start": 52332,
+            "end": 52833,
+            "confidence": 0.084,
+            "speaker": "B"
+          },
+          {
+            "text": "훈련을",
+            "start": 52973,
+            "end": 53333,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "반복해서",
+            "start": 53853,
+            "end": 54574,
+            "confidence": 0.05,
+            "speaker": "B"
+          },
+          {
+            "text": "했습니다.",
+            "start": 54594,
+            "end": 55274,
+            "confidence": 0.306,
+            "speaker": "B"
+          },
+          {
+            "text": "그렇게",
+            "start": 56202,
+            "end": 56602,
+            "confidence": 0.147,
+            "speaker": "B"
+          },
+          {
+            "text": "하니까",
+            "start": 56702,
+            "end": 57163,
+            "confidence": 0.124,
+            "speaker": "B"
+          },
+          {
+            "text": "실제",
+            "start": 57963,
+            "end": 58263,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "상황에서도",
+            "start": 58383,
+            "end": 59084,
+            "confidence": 0.074,
+            "speaker": "B"
+          },
+          {
+            "text": "효과가",
+            "start": 59704,
+            "end": 60244,
+            "confidence": 0.05,
+            "speaker": "B"
+          },
+          {
+            "text": "있었던",
+            "start": 60405,
+            "end": 60805,
+            "confidence": 0.15,
+            "speaker": "B"
+          },
+          {
+            "text": "것",
+            "start": 60865,
+            "end": 60945,
+            "confidence": 0.042,
+            "speaker": "B"
+          },
+          {
+            "text": "같습니다.",
+            "start": 61065,
+            "end": 62626,
+            "confidence": 0.267,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "다시 들으십시오. 서장님, 인주경찰서가 작년에 이어 올해도 전국에서 범인 검거율이 가장 높은 곳으로 선정되었던데 어떻게 이런 성과를 낼 수 있었나요?",
+        "confidence": 0.11045,
+        "start": 63046,
+        "end": 82898,
+        "words": [
+          {
+            "text": "다시",
+            "start": 63046,
+            "end": 63506,
+            "confidence": 0.086,
+            "speaker": "A"
+          },
+          {
+            "text": "들으십시오.",
+            "start": 63727,
+            "end": 65908,
+            "confidence": 0.035,
+            "speaker": "A"
+          },
+          {
+            "text": "서장님,",
+            "start": 66388,
+            "end": 66948,
+            "confidence": 0.046,
+            "speaker": "A"
+          },
+          {
+            "text": "인주경찰서가",
+            "start": 68029,
+            "end": 69570,
+            "confidence": 0.084,
+            "speaker": "A"
+          },
+          {
+            "text": "작년에",
+            "start": 70250,
+            "end": 70771,
+            "confidence": 0.122,
+            "speaker": "A"
+          },
+          {
+            "text": "이어",
+            "start": 70851,
+            "end": 71231,
+            "confidence": 0.108,
+            "speaker": "A"
+          },
+          {
+            "text": "올해도",
+            "start": 71511,
+            "end": 72112,
+            "confidence": 0.036,
+            "speaker": "A"
+          },
+          {
+            "text": "전국에서",
+            "start": 72872,
+            "end": 73733,
+            "confidence": 0.098,
+            "speaker": "A"
+          },
+          {
+            "text": "범인",
+            "start": 74073,
+            "end": 74493,
+            "confidence": 0.085,
+            "speaker": "A"
+          },
+          {
+            "text": "검거율이",
+            "start": 74693,
+            "end": 75434,
+            "confidence": 0.119,
+            "speaker": "A"
+          },
+          {
+            "text": "가장",
+            "start": 75914,
+            "end": 76294,
+            "confidence": 0.106,
+            "speaker": "A"
+          },
+          {
+            "text": "높은",
+            "start": 76434,
+            "end": 76774,
+            "confidence": 0.129,
+            "speaker": "A"
+          },
+          {
+            "text": "곳으로",
+            "start": 76854,
+            "end": 77355,
+            "confidence": 0.103,
+            "speaker": "A"
+          },
+          {
+            "text": "선정되었던데",
+            "start": 77515,
+            "end": 79176,
+            "confidence": 0.049,
+            "speaker": "A"
+          },
+          {
+            "text": "어떻게",
+            "start": 79696,
+            "end": 80376,
+            "confidence": 0.089,
+            "speaker": "A"
+          },
+          {
+            "text": "이런",
+            "start": 80637,
+            "end": 80917,
+            "confidence": 0.146,
+            "speaker": "A"
+          },
+          {
+            "text": "성과를",
+            "start": 81037,
+            "end": 81577,
+            "confidence": 0.057,
+            "speaker": "A"
+          },
+          {
+            "text": "낼",
+            "start": 81757,
+            "end": 81897,
+            "confidence": 0.143,
+            "speaker": "A"
+          },
+          {
+            "text": "수",
+            "start": 82037,
+            "end": 82118,
+            "confidence": 0.25,
+            "speaker": "A"
+          },
+          {
+            "text": "있었나요?",
+            "start": 82158,
+            "end": 82898,
+            "confidence": 0.318,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "무엇보다 현장 대응력을 높이기 위한 훈련 덕분이라고 생각합니다. 이 지역은 번화한 곳이라서 사건, 사고가 많지요. 그래서 다른 곳에 비해 인력도 많은데 대부분 젊은 경찰관들입니다. 젊은 경찰관들은 아무래도 현장 경험이 부족하기 때문에 다양한 모의 상황을 만들어 현장 대응력을 강화하는 훈련을 반복해서 했습니다. 그렇게 하니까 실제 상황에서도 효과가 있었던 것 같습니다.",
+        "confidence": 0.09181633,
+        "start": 84248,
+        "end": 127027,
+        "words": [
+          {
+            "text": "무엇보다",
+            "start": 84248,
+            "end": 85068,
+            "confidence": 0.056,
+            "speaker": "B"
+          },
+          {
+            "text": "현장",
+            "start": 85769,
+            "end": 86269,
+            "confidence": 0.086,
+            "speaker": "B"
+          },
+          {
+            "text": "대응력을",
+            "start": 86409,
+            "end": 87049,
+            "confidence": 0.128,
+            "speaker": "B"
+          },
+          {
+            "text": "높이기",
+            "start": 87169,
+            "end": 87629,
+            "confidence": 0.165,
+            "speaker": "B"
+          },
+          {
+            "text": "위한",
+            "start": 87709,
+            "end": 88090,
+            "confidence": 0.105,
+            "speaker": "B"
+          },
+          {
+            "text": "훈련",
+            "start": 88530,
+            "end": 88950,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "덕분이라고",
+            "start": 89170,
+            "end": 89890,
+            "confidence": 0.128,
+            "speaker": "B"
+          },
+          {
+            "text": "생각합니다.",
+            "start": 90030,
+            "end": 92171,
+            "confidence": 0.077,
+            "speaker": "B"
+          },
+          {
+            "text": "이",
+            "start": 92191,
+            "end": 92211,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "지역은",
+            "start": 92331,
+            "end": 92751,
+            "confidence": 0.144,
+            "speaker": "B"
+          },
+          {
+            "text": "번화한",
+            "start": 93272,
+            "end": 93832,
+            "confidence": 0.002,
+            "speaker": "B"
+          },
+          {
+            "text": "곳이라서",
+            "start": 93912,
+            "end": 94452,
+            "confidence": 0.118,
+            "speaker": "B"
+          },
+          {
+            "text": "사건,",
+            "start": 95212,
+            "end": 95672,
+            "confidence": 0.074,
+            "speaker": "B"
+          },
+          {
+            "text": "사고가",
+            "start": 95993,
+            "end": 96353,
+            "confidence": 0.073,
+            "speaker": "B"
+          },
+          {
+            "text": "많지요.",
+            "start": 96453,
+            "end": 97793,
+            "confidence": 0.029,
+            "speaker": "B"
+          },
+          {
+            "text": "그래서",
+            "start": 98193,
+            "end": 98634,
+            "confidence": 0.139,
+            "speaker": "B"
+          },
+          {
+            "text": "다른",
+            "start": 99334,
+            "end": 99594,
+            "confidence": 0.154,
+            "speaker": "B"
+          },
+          {
+            "text": "곳에",
+            "start": 99694,
+            "end": 99934,
+            "confidence": 0.002,
+            "speaker": "B"
+          },
+          {
+            "text": "비해",
+            "start": 100034,
+            "end": 100474,
+            "confidence": 0.042,
+            "speaker": "B"
+          },
+          {
+            "text": "인력도",
+            "start": 100494,
+            "end": 101335,
+            "confidence": 0.083,
+            "speaker": "B"
+          },
+          {
+            "text": "많은데",
+            "start": 101415,
+            "end": 102615,
+            "confidence": 0.009,
+            "speaker": "B"
+          },
+          {
+            "text": "대부분",
+            "start": 102955,
+            "end": 103415,
+            "confidence": 0.142,
+            "speaker": "B"
+          },
+          {
+            "text": "젊은",
+            "start": 103876,
+            "end": 104276,
+            "confidence": 0.079,
+            "speaker": "B"
+          },
+          {
+            "text": "경찰관들입니다.",
+            "start": 104516,
+            "end": 106357,
+            "confidence": 0.035,
+            "speaker": "B"
+          },
+          {
+            "text": "젊은",
+            "start": 106777,
+            "end": 107117,
+            "confidence": 0.088,
+            "speaker": "B"
+          },
+          {
+            "text": "경찰관들은",
+            "start": 107317,
+            "end": 108157,
+            "confidence": 0.113,
+            "speaker": "B"
+          },
+          {
+            "text": "아무래도",
+            "start": 108838,
+            "end": 109458,
+            "confidence": 0.126,
+            "speaker": "B"
+          },
+          {
+            "text": "현장",
+            "start": 109858,
+            "end": 110358,
+            "confidence": 0.049,
+            "speaker": "B"
+          },
+          {
+            "text": "경험이",
+            "start": 110518,
+            "end": 110878,
+            "confidence": 0.059,
+            "speaker": "B"
+          },
+          {
+            "text": "부족하기",
+            "start": 111018,
+            "end": 111519,
+            "confidence": 0.081,
+            "speaker": "B"
+          },
+          {
+            "text": "때문에",
+            "start": 111639,
+            "end": 111879,
+            "confidence": 0.184,
+            "speaker": "B"
+          },
+          {
+            "text": "다양한",
+            "start": 112987,
+            "end": 113468,
+            "confidence": 0.089,
+            "speaker": "B"
+          },
+          {
+            "text": "모의",
+            "start": 113868,
+            "end": 114169,
+            "confidence": 0.015,
+            "speaker": "B"
+          },
+          {
+            "text": "상황을",
+            "start": 114269,
+            "end": 114629,
+            "confidence": 0.107,
+            "speaker": "B"
+          },
+          {
+            "text": "만들어",
+            "start": 114729,
+            "end": 115150,
+            "confidence": 0.166,
+            "speaker": "B"
+          },
+          {
+            "text": "현장",
+            "start": 115931,
+            "end": 116432,
+            "confidence": 0.086,
+            "speaker": "B"
+          },
+          {
+            "text": "대응력을",
+            "start": 116592,
+            "end": 117253,
+            "confidence": 0.111,
+            "speaker": "B"
+          },
+          {
+            "text": "강화하는",
+            "start": 117574,
+            "end": 118054,
+            "confidence": 0.131,
+            "speaker": "B"
+          },
+          {
+            "text": "훈련을",
+            "start": 118214,
+            "end": 118575,
+            "confidence": 0.094,
+            "speaker": "B"
+          },
+          {
+            "text": "반복해서",
+            "start": 119096,
+            "end": 119777,
+            "confidence": 0.072,
+            "speaker": "B"
+          },
+          {
+            "text": "했습니다.",
+            "start": 119817,
+            "end": 121199,
+            "confidence": 0.057,
+            "speaker": "B"
+          },
+          {
+            "text": "그렇게",
+            "start": 121519,
+            "end": 121860,
+            "confidence": 0.192,
+            "speaker": "B"
+          },
+          {
+            "text": "하니까",
+            "start": 121940,
+            "end": 122400,
+            "confidence": 0.132,
+            "speaker": "B"
+          },
+          {
+            "text": "실제",
+            "start": 123222,
+            "end": 123522,
+            "confidence": 0.15,
+            "speaker": "B"
+          },
+          {
+            "text": "상황에서도",
+            "start": 123642,
+            "end": 124343,
+            "confidence": 0.147,
+            "speaker": "B"
+          },
+          {
+            "text": "효과가",
+            "start": 124964,
+            "end": 125525,
+            "confidence": 0.029,
+            "speaker": "B"
+          },
+          {
+            "text": "있었던",
+            "start": 125645,
+            "end": 126066,
+            "confidence": 0.149,
+            "speaker": "B"
+          },
+          {
+            "text": "것",
+            "start": 126126,
+            "end": 126306,
+            "confidence": 0.008,
+            "speaker": "B"
+          },
+          {
+            "text": "같습니다.",
+            "start": 126326,
+            "end": 127027,
+            "confidence": 0.194,
+            "speaker": "B"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.10062016,
+    "audio_duration": 128
+  },
+  {
+    "status_script": "completed",
+    "id": "23f318a1-c384-45f0-ba05-575284d0b542",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_27-28.mp3",
+    "text": "올해 우리 대학 축제에 가수 김민수 씨가 온대. 언제부턴가 대학 축제가 가수 콘서트처럼 변해가는 것 같아. 난 좋은데. 김민수 씨 팬인데 표가 비싸서 콘서트에 못 갔거든. 작년 축제 때 학과에서 하는 행사엔 참여하지 않고 공연만 보러 오는 학생들이 많았잖아. 관심이 공연에만 집중되는 것 같아서 좀 씁쓸해. 그래도 유명 가수가 오면 학교 홍보도 되고 좋은 면도 있을 거야. 올해는 작년보다 학생이 직접 참여하고 교류하는 행사가 더 줄어들었어. 그건 좀 잘못된 것 같아. 다시 들으십시오. 올해 우리 대학 축제에 가수 김민수 씨가 온대. 언제부턴가 대학 축제가 가수 콘서트처럼 변해가는 것 같아. 난 좋은데? 김민수 씨 팬인데 표가 비싸서 콘서트에 못 갔거든. 작년 축제 때 학과에서 하는 행사엔 참여하지 않고 공연만 보러 오는 학생들이 많았잖아. 관심이 공연에만 집중되는 것 같아서 좀 씁쓸해. 그래도 유명 가수가 오면 학교 홍보도 되고 좋은 면도 있을 거야. 올해는 작년보다 학생이 직접 참여하고 교류하는 행사가 더 줄어들었어. 그건 좀 잘못된 것 같아.",
+    "utterances": [
+      {
+        "speaker": "A",
+        "text": "올해 우리 대학 축제에 가수 김민수 씨가 온대. 언제부턴가 대학 축제가 가수 콘서트처럼 변해가는 것 같아.",
+        "confidence": 0.0736875,
+        "start": 8,
+        "end": 13557,
+        "words": [
+          {
+            "text": "올해",
+            "start": 8,
+            "end": 1029,
+            "confidence": 0.03,
+            "speaker": "A"
+          },
+          {
+            "text": "우리",
+            "start": 1389,
+            "end": 1649,
+            "confidence": 0.154,
+            "speaker": "A"
+          },
+          {
+            "text": "대학",
+            "start": 1749,
+            "end": 2009,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "축제에",
+            "start": 2249,
+            "end": 2830,
+            "confidence": 0.038,
+            "speaker": "A"
+          },
+          {
+            "text": "가수",
+            "start": 3570,
+            "end": 4011,
+            "confidence": 0.098,
+            "speaker": "A"
+          },
+          {
+            "text": "김민수",
+            "start": 4351,
+            "end": 4951,
+            "confidence": 0.131,
+            "speaker": "A"
+          },
+          {
+            "text": "씨가",
+            "start": 5171,
+            "end": 5431,
+            "confidence": 0.126,
+            "speaker": "A"
+          },
+          {
+            "text": "온대.",
+            "start": 5551,
+            "end": 5912,
+            "confidence": 0.02,
+            "speaker": "A"
+          },
+          {
+            "text": "언제부턴가",
+            "start": 6992,
+            "end": 8013,
+            "confidence": 0.034,
+            "speaker": "A"
+          },
+          {
+            "text": "대학",
+            "start": 8653,
+            "end": 8994,
+            "confidence": 0.002,
+            "speaker": "A"
+          },
+          {
+            "text": "축제가",
+            "start": 9154,
+            "end": 9774,
+            "confidence": 0.017,
+            "speaker": "A"
+          },
+          {
+            "text": "가수",
+            "start": 10375,
+            "end": 10735,
+            "confidence": 0.158,
+            "speaker": "A"
+          },
+          {
+            "text": "콘서트처럼",
+            "start": 10895,
+            "end": 11835,
+            "confidence": 0.054,
+            "speaker": "A"
+          },
+          {
+            "text": "변해가는",
+            "start": 12236,
+            "end": 12896,
+            "confidence": 0.081,
+            "speaker": "A"
+          },
+          {
+            "text": "것",
+            "start": 12976,
+            "end": 13076,
+            "confidence": 0.2,
+            "speaker": "A"
+          },
+          {
+            "text": "같아.",
+            "start": 13136,
+            "end": 13557,
+            "confidence": 0.036,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "난 좋은데. 김민수 씨 팬인데 표가 비싸서 콘서트에 못 갔거든.",
+        "confidence": 0.0279,
+        "start": 14997,
+        "end": 23423,
+        "words": [
+          {
+            "text": "난",
+            "start": 14997,
+            "end": 15178,
+            "confidence": 0.001,
+            "speaker": "B"
+          },
+          {
+            "text": "좋은데.",
+            "start": 15738,
+            "end": 16318,
+            "confidence": 0.06,
+            "speaker": "B"
+          },
+          {
+            "text": "김민수",
+            "start": 17339,
+            "end": 17859,
+            "confidence": 0.09,
+            "speaker": "B"
+          },
+          {
+            "text": "씨",
+            "start": 17999,
+            "end": 18139,
+            "confidence": 0.013,
+            "speaker": "B"
+          },
+          {
+            "text": "팬인데",
+            "start": 18299,
+            "end": 19080,
+            "confidence": 0.062,
+            "speaker": "B"
+          },
+          {
+            "text": "표가",
+            "start": 19840,
+            "end": 20141,
+            "confidence": 0.002,
+            "speaker": "B"
+          },
+          {
+            "text": "비싸서",
+            "start": 20281,
+            "end": 20941,
+            "confidence": 0.002,
+            "speaker": "B"
+          },
+          {
+            "text": "콘서트에",
+            "start": 21522,
+            "end": 22422,
+            "confidence": 0.049,
+            "speaker": "B"
+          },
+          {
+            "text": "못",
+            "start": 22442,
+            "end": 22802,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "갔거든.",
+            "start": 22962,
+            "end": 23423,
+            "speaker": "B",
+            "confidence": 0.0
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "작년 축제 때 학과에서 하는 행사엔 참여하지 않고 공연만 보러 오는 학생들이 많았잖아. 관심이 공연에만 집중되는 것 같아서 좀 씁쓸해.",
+        "confidence": 0.08935,
+        "start": 25203,
+        "end": 41872,
+        "words": [
+          {
+            "text": "작년",
+            "start": 25203,
+            "end": 25743,
+            "confidence": 0.062,
+            "speaker": "A"
+          },
+          {
+            "text": "축제",
+            "start": 25903,
+            "end": 26184,
+            "confidence": 0.002,
+            "speaker": "A"
+          },
+          {
+            "text": "때",
+            "start": 26404,
+            "end": 26664,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "학과에서",
+            "start": 27464,
+            "end": 28205,
+            "confidence": 0.072,
+            "speaker": "A"
+          },
+          {
+            "text": "하는",
+            "start": 28305,
+            "end": 28565,
+            "confidence": 0.155,
+            "speaker": "A"
+          },
+          {
+            "text": "행사엔",
+            "start": 28725,
+            "end": 29325,
+            "confidence": 0.059,
+            "speaker": "A"
+          },
+          {
+            "text": "참여하지",
+            "start": 29665,
+            "end": 30306,
+            "confidence": 0.123,
+            "speaker": "A"
+          },
+          {
+            "text": "않고",
+            "start": 30346,
+            "end": 30746,
+            "confidence": 0.119,
+            "speaker": "A"
+          },
+          {
+            "text": "공연만",
+            "start": 31526,
+            "end": 32127,
+            "confidence": 0.051,
+            "speaker": "A"
+          },
+          {
+            "text": "보러",
+            "start": 32267,
+            "end": 32487,
+            "confidence": 0.105,
+            "speaker": "A"
+          },
+          {
+            "text": "오는",
+            "start": 32587,
+            "end": 32847,
+            "confidence": 0.155,
+            "speaker": "A"
+          },
+          {
+            "text": "학생들이",
+            "start": 33247,
+            "end": 34028,
+            "confidence": 0.112,
+            "speaker": "A"
+          },
+          {
+            "text": "많았잖아.",
+            "start": 34148,
+            "end": 34648,
+            "confidence": 0.038,
+            "speaker": "A"
+          },
+          {
+            "text": "관심이",
+            "start": 36009,
+            "end": 36669,
+            "confidence": 0.099,
+            "speaker": "A"
+          },
+          {
+            "text": "공연에만",
+            "start": 37209,
+            "end": 37910,
+            "confidence": 0.065,
+            "speaker": "A"
+          },
+          {
+            "text": "집중되는",
+            "start": 38110,
+            "end": 38790,
+            "confidence": 0.142,
+            "speaker": "A"
+          },
+          {
+            "text": "것",
+            "start": 38890,
+            "end": 38990,
+            "confidence": 0.198,
+            "speaker": "A"
+          },
+          {
+            "text": "같아서",
+            "start": 39050,
+            "end": 39590,
+            "confidence": 0.096,
+            "speaker": "A"
+          },
+          {
+            "text": "좀",
+            "start": 40331,
+            "end": 40491,
+            "confidence": 0.125,
+            "speaker": "A"
+          },
+          {
+            "text": "씁쓸해.",
+            "start": 40951,
+            "end": 41872,
+            "confidence": 0.009,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "그래도 유명 가수가 오면 학교 홍보도 되고 좋은 면도 있을 거야.",
+        "confidence": 0.048181817,
+        "start": 42792,
+        "end": 50716,
+        "words": [
+          {
+            "text": "그래도",
+            "start": 42792,
+            "end": 43512,
+            "confidence": 0.065,
+            "speaker": "B"
+          },
+          {
+            "text": "유명",
+            "start": 44273,
+            "end": 44733,
+            "confidence": 0.002,
+            "speaker": "B"
+          },
+          {
+            "text": "가수가",
+            "start": 44933,
+            "end": 45393,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "오면",
+            "start": 45473,
+            "end": 45673,
+            "confidence": 0.062,
+            "speaker": "B"
+          },
+          {
+            "text": "학교",
+            "start": 46554,
+            "end": 47034,
+            "confidence": 0.052,
+            "speaker": "B"
+          },
+          {
+            "text": "홍보도",
+            "start": 47194,
+            "end": 47654,
+            "confidence": 0.004,
+            "speaker": "B"
+          },
+          {
+            "text": "되고",
+            "start": 47775,
+            "end": 48195,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "좋은",
+            "start": 48895,
+            "end": 49195,
+            "confidence": 0.125,
+            "speaker": "B"
+          },
+          {
+            "text": "면도",
+            "start": 49335,
+            "end": 49836,
+            "confidence": 0.067,
+            "speaker": "B"
+          },
+          {
+            "text": "있을",
+            "start": 49956,
+            "end": 50276,
+            "confidence": 0.096,
+            "speaker": "B"
+          },
+          {
+            "text": "거야.",
+            "start": 50416,
+            "end": 50716,
+            "confidence": 0.057,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "올해는 작년보다 학생이 직접 참여하고 교류하는 행사가 더 줄어들었어. 그건 좀 잘못된 것 같아.",
+        "confidence": 0.11435714,
+        "start": 52457,
+        "end": 65761,
+        "words": [
+          {
+            "text": "올해는",
+            "start": 52457,
+            "end": 52917,
+            "confidence": 0.052,
+            "speaker": "A"
+          },
+          {
+            "text": "작년보다",
+            "start": 53638,
+            "end": 54478,
+            "confidence": 0.294,
+            "speaker": "A"
+          },
+          {
+            "text": "학생이",
+            "start": 54734,
+            "end": 55394,
+            "confidence": 0.078,
+            "speaker": "A"
+          },
+          {
+            "text": "직접",
+            "start": 55655,
+            "end": 56015,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "참여하고",
+            "start": 56215,
+            "end": 56915,
+            "confidence": 0.12,
+            "speaker": "A"
+          },
+          {
+            "text": "교류하는",
+            "start": 57376,
+            "end": 57936,
+            "confidence": 0.13,
+            "speaker": "A"
+          },
+          {
+            "text": "행사가",
+            "start": 58036,
+            "end": 58617,
+            "confidence": 0.109,
+            "speaker": "A"
+          },
+          {
+            "text": "더",
+            "start": 58997,
+            "end": 59197,
+            "confidence": 0.044,
+            "speaker": "A"
+          },
+          {
+            "text": "줄어들었어.",
+            "start": 59497,
+            "end": 60318,
+            "confidence": 0.117,
+            "speaker": "A"
+          },
+          {
+            "text": "그건",
+            "start": 61398,
+            "end": 61719,
+            "confidence": 0.123,
+            "speaker": "A"
+          },
+          {
+            "text": "좀",
+            "start": 62399,
+            "end": 62599,
+            "confidence": 0.1,
+            "speaker": "A"
+          },
+          {
+            "text": "잘못된",
+            "start": 63019,
+            "end": 63600,
+            "confidence": 0.109,
+            "speaker": "A"
+          },
+          {
+            "text": "것",
+            "start": 63680,
+            "end": 63780,
+            "confidence": 0.2,
+            "speaker": "A"
+          },
+          {
+            "text": "같아.",
+            "start": 63920,
+            "end": 65761,
+            "confidence": 0.125,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "다시 들으십시오.",
+        "confidence": 0.0155,
+        "start": 65781,
+        "end": 67302,
+        "words": [
+          {
+            "text": "다시",
+            "start": 65781,
+            "end": 66302,
+            "confidence": 0.014,
+            "speaker": "B"
+          },
+          {
+            "text": "들으십시오.",
+            "start": 66462,
+            "end": 67302,
+            "confidence": 0.017,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "올해 우리 대학 축제에 가수 김민수 씨가 온대. 언제부턴가 대학 축제가 가수 콘서트처럼 변해가는 것 같아.",
+        "confidence": 0.107375,
+        "start": 68803,
+        "end": 81852,
+        "words": [
+          {
+            "text": "올해",
+            "start": 68803,
+            "end": 69224,
+            "confidence": 0.073,
+            "speaker": "A"
+          },
+          {
+            "text": "우리",
+            "start": 69564,
+            "end": 69824,
+            "confidence": 0.148,
+            "speaker": "A"
+          },
+          {
+            "text": "대학",
+            "start": 69944,
+            "end": 70204,
+            "confidence": 0.162,
+            "speaker": "A"
+          },
+          {
+            "text": "축제에",
+            "start": 70424,
+            "end": 71045,
+            "confidence": 0.029,
+            "speaker": "A"
+          },
+          {
+            "text": "가수",
+            "start": 71765,
+            "end": 72206,
+            "confidence": 0.084,
+            "speaker": "A"
+          },
+          {
+            "text": "김민수",
+            "start": 72546,
+            "end": 73106,
+            "confidence": 0.335,
+            "speaker": "A"
+          },
+          {
+            "text": "씨가",
+            "start": 73346,
+            "end": 73627,
+            "confidence": 0.1,
+            "speaker": "A"
+          },
+          {
+            "text": "온대.",
+            "start": 73727,
+            "end": 74127,
+            "confidence": 0.013,
+            "speaker": "A"
+          },
+          {
+            "text": "언제부턴가",
+            "start": 75168,
+            "end": 76208,
+            "confidence": 0.036,
+            "speaker": "A"
+          },
+          {
+            "text": "대학",
+            "start": 76849,
+            "end": 77169,
+            "confidence": 0.166,
+            "speaker": "A"
+          },
+          {
+            "text": "축제가",
+            "start": 77349,
+            "end": 77969,
+            "confidence": 0.054,
+            "speaker": "A"
+          },
+          {
+            "text": "가수",
+            "start": 78570,
+            "end": 78930,
+            "confidence": 0.132,
+            "speaker": "A"
+          },
+          {
+            "text": "콘서트처럼",
+            "start": 79070,
+            "end": 80031,
+            "confidence": 0.037,
+            "speaker": "A"
+          },
+          {
+            "text": "변해가는",
+            "start": 80431,
+            "end": 81071,
+            "confidence": 0.08,
+            "speaker": "A"
+          },
+          {
+            "text": "것",
+            "start": 81172,
+            "end": 81252,
+            "confidence": 0.25,
+            "speaker": "A"
+          },
+          {
+            "text": "같아.",
+            "start": 81312,
+            "end": 81852,
+            "confidence": 0.019,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "난 좋은데? 김민수 씨 팬인데 표가 비싸서 콘서트에 못 갔거든.",
+        "confidence": 0.0283,
+        "start": 83067,
+        "end": 91731,
+        "words": [
+          {
+            "text": "난",
+            "start": 83067,
+            "end": 83367,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "좋은데?",
+            "start": 83887,
+            "end": 84488,
+            "confidence": 0.037,
+            "speaker": "B"
+          },
+          {
+            "text": "김민수",
+            "start": 85508,
+            "end": 86028,
+            "confidence": 0.061,
+            "speaker": "B"
+          },
+          {
+            "text": "씨",
+            "start": 86169,
+            "end": 86309,
+            "confidence": 0.024,
+            "speaker": "B"
+          },
+          {
+            "text": "팬인데",
+            "start": 86469,
+            "end": 87249,
+            "confidence": 0.062,
+            "speaker": "B"
+          },
+          {
+            "text": "표가",
+            "start": 88009,
+            "end": 88310,
+            "confidence": 0.046,
+            "speaker": "B"
+          },
+          {
+            "text": "비싸서",
+            "start": 88450,
+            "end": 89110,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "콘서트에",
+            "start": 89690,
+            "end": 90571,
+            "confidence": 0.053,
+            "speaker": "B"
+          },
+          {
+            "text": "못",
+            "start": 90591,
+            "end": 90611,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "갔거든.",
+            "start": 90871,
+            "end": 91731,
+            "speaker": "B",
+            "confidence": 0.0
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "작년 축제 때 학과에서 하는 행사엔 참여하지 않고 공연만 보러 오는 학생들이 많았잖아. 관심이 공연에만 집중되는 것 같아서 좀 씁쓸해.",
+        "confidence": 0.0917,
+        "start": 93492,
+        "end": 109580,
+        "words": [
+          {
+            "text": "작년",
+            "start": 93492,
+            "end": 93912,
+            "confidence": 0.093,
+            "speaker": "A"
+          },
+          {
+            "text": "축제",
+            "start": 94092,
+            "end": 94373,
+            "confidence": 0.025,
+            "speaker": "A"
+          },
+          {
+            "text": "때",
+            "start": 94593,
+            "end": 94853,
+            "confidence": 0.001,
+            "speaker": "A"
+          },
+          {
+            "text": "학과에서",
+            "start": 95633,
+            "end": 96393,
+            "confidence": 0.076,
+            "speaker": "A"
+          },
+          {
+            "text": "하는",
+            "start": 96494,
+            "end": 96754,
+            "confidence": 0.155,
+            "speaker": "A"
+          },
+          {
+            "text": "행사엔",
+            "start": 96914,
+            "end": 97474,
+            "confidence": 0.061,
+            "speaker": "A"
+          },
+          {
+            "text": "참여하지",
+            "start": 97834,
+            "end": 98474,
+            "confidence": 0.12,
+            "speaker": "A"
+          },
+          {
+            "text": "않고",
+            "start": 98535,
+            "end": 98935,
+            "confidence": 0.11,
+            "speaker": "A"
+          },
+          {
+            "text": "공연만",
+            "start": 99715,
+            "end": 100315,
+            "confidence": 0.061,
+            "speaker": "A"
+          },
+          {
+            "text": "보러",
+            "start": 100435,
+            "end": 100676,
+            "confidence": 0.128,
+            "speaker": "A"
+          },
+          {
+            "text": "오는",
+            "start": 100776,
+            "end": 101036,
+            "confidence": 0.154,
+            "speaker": "A"
+          },
+          {
+            "text": "학생들이",
+            "start": 101416,
+            "end": 102196,
+            "confidence": 0.096,
+            "speaker": "A"
+          },
+          {
+            "text": "많았잖아.",
+            "start": 102336,
+            "end": 103077,
+            "confidence": 0.036,
+            "speaker": "A"
+          },
+          {
+            "text": "관심이",
+            "start": 104177,
+            "end": 104838,
+            "confidence": 0.102,
+            "speaker": "A"
+          },
+          {
+            "text": "공연에만",
+            "start": 105378,
+            "end": 106098,
+            "confidence": 0.04,
+            "speaker": "A"
+          },
+          {
+            "text": "집중되는",
+            "start": 106298,
+            "end": 106979,
+            "confidence": 0.136,
+            "speaker": "A"
+          },
+          {
+            "text": "것",
+            "start": 107059,
+            "end": 107159,
+            "confidence": 0.2,
+            "speaker": "A"
+          },
+          {
+            "text": "같아서",
+            "start": 107219,
+            "end": 107779,
+            "confidence": 0.116,
+            "speaker": "A"
+          },
+          {
+            "text": "좀",
+            "start": 108499,
+            "end": 108659,
+            "confidence": 0.124,
+            "speaker": "A"
+          },
+          {
+            "text": "씁쓸해.",
+            "start": 109140,
+            "end": 109580,
+            "speaker": "A",
+            "confidence": 0.0
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "그래도 유명 가수가 오면 학교 홍보도 되고 좋은 면도 있을 거야.",
+        "confidence": 0.06409091,
+        "start": 110843,
+        "end": 118870,
+        "words": [
+          {
+            "text": "그래도",
+            "start": 110843,
+            "end": 111684,
+            "confidence": 0.013,
+            "speaker": "B"
+          },
+          {
+            "text": "유명",
+            "start": 112444,
+            "end": 112905,
+            "confidence": 0.001,
+            "speaker": "B"
+          },
+          {
+            "text": "가수가",
+            "start": 113085,
+            "end": 113545,
+            "confidence": 0.006,
+            "speaker": "B"
+          },
+          {
+            "text": "오면",
+            "start": 113645,
+            "end": 113846,
+            "confidence": 0.059,
+            "speaker": "B"
+          },
+          {
+            "text": "학교",
+            "start": 114706,
+            "end": 115187,
+            "confidence": 0.085,
+            "speaker": "B"
+          },
+          {
+            "text": "홍보도",
+            "start": 115347,
+            "end": 115847,
+            "confidence": 0.035,
+            "speaker": "B"
+          },
+          {
+            "text": "되고",
+            "start": 115947,
+            "end": 116348,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "좋은",
+            "start": 117068,
+            "end": 117389,
+            "confidence": 0.126,
+            "speaker": "B"
+          },
+          {
+            "text": "면도",
+            "start": 117509,
+            "end": 118009,
+            "confidence": 0.062,
+            "speaker": "B"
+          },
+          {
+            "text": "있을",
+            "start": 118129,
+            "end": 118450,
+            "confidence": 0.146,
+            "speaker": "B"
+          },
+          {
+            "text": "거야.",
+            "start": 118590,
+            "end": 118870,
+            "confidence": 0.172,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "올해는 작년보다 학생이 직접 참여하고 교류하는 행사가 더 줄어들었어. 그건 좀 잘못된 것 같아.",
+        "confidence": 0.1105,
+        "start": 120632,
+        "end": 132562,
+        "words": [
+          {
+            "text": "올해는",
+            "start": 120632,
+            "end": 121112,
+            "confidence": 0.061,
+            "speaker": "A"
+          },
+          {
+            "text": "작년보다",
+            "start": 121793,
+            "end": 122593,
+            "confidence": 0.083,
+            "speaker": "A"
+          },
+          {
+            "text": "학생이",
+            "start": 122994,
+            "end": 123574,
+            "confidence": 0.072,
+            "speaker": "A"
+          },
+          {
+            "text": "직접",
+            "start": 123834,
+            "end": 124195,
+            "confidence": 0.137,
+            "speaker": "A"
+          },
+          {
+            "text": "참여하고",
+            "start": 124415,
+            "end": 125095,
+            "confidence": 0.128,
+            "speaker": "A"
+          },
+          {
+            "text": "교류하는",
+            "start": 125556,
+            "end": 126116,
+            "confidence": 0.15,
+            "speaker": "A"
+          },
+          {
+            "text": "행사가",
+            "start": 126216,
+            "end": 126817,
+            "confidence": 0.106,
+            "speaker": "A"
+          },
+          {
+            "text": "더",
+            "start": 127197,
+            "end": 127397,
+            "confidence": 0.086,
+            "speaker": "A"
+          },
+          {
+            "text": "줄어들었어.",
+            "start": 127678,
+            "end": 128478,
+            "confidence": 0.12,
+            "speaker": "A"
+          },
+          {
+            "text": "그건",
+            "start": 129579,
+            "end": 129919,
+            "confidence": 0.118,
+            "speaker": "A"
+          },
+          {
+            "text": "좀",
+            "start": 130580,
+            "end": 130780,
+            "confidence": 0.1,
+            "speaker": "A"
+          },
+          {
+            "text": "잘못된",
+            "start": 131201,
+            "end": 131781,
+            "confidence": 0.114,
+            "speaker": "A"
+          },
+          {
+            "text": "것",
+            "start": 131881,
+            "end": 131961,
+            "confidence": 0.25,
+            "speaker": "A"
+          },
+          {
+            "text": "같아.",
+            "start": 132102,
+            "end": 132562,
+            "confidence": 0.022,
+            "speaker": "A"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.08774046,
+    "audio_duration": 135
+  },
+  {
+    "status_script": "completed",
+    "id": "5faa840b-dce0-4fa2-a182-fdd64a5dc724",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_29-30.mp3",
+    "text": "박사님께서는 지난 20년 동안 제주 바다와 함께 오셨는데요. 현재 제주 바다의 해양 상태는 어떤가요? 해조류가 줄어들고 아열대 생물들이 늘어나고 있습니다. 기후 변화 때문이죠. 해조류를 먹이로 하는 생물들도 영향을 받고 있고요. 그동안은 제주 바다의 수온 변화와 생태계 관계에 대한 논문을 많이 발표해 오셨는데요. 최근에는 어떤 연구를 수행하고 계신지요? 작년부터 다른 국가와 공동으로 팀을 꾸려서 태평양의 어종 분포에 대해 조사하고 있습니다. 다시 들으십시오. 박사님께서는 지난 20년 동안 제주 바다와 함께 오셨는데요. 현재 제주 바다의 해양 상태는 어떤가요? 해조류가 줄어들고 아열대 생물들이 늘어나고 있습니다. 기후 변화 때문이죠. 해조류를 먹이로 하는 생물들도 영향을 받고 있고요. 그동안은 제주 바다의 수온 변화와 생태계 관계에 대한 논문을 많이 발표해 오셨는데요. 최근에는 어떤 연구를 수행하고 계신지요? 작년부터 다른 국가와 공동으로 팀을 꾸려서 태평양의 어종 분포에 대해 조사하고 있습니다.",
+    "utterances": [
+      {
+        "speaker": "A",
+        "text": "박사님께서는 지난 20년 동안 제주 바다와 함께 오셨는데요. 현재 제주 바다의 해양 상태는 어떤가요?",
+        "confidence": 0.06871428,
+        "start": 8,
+        "end": 15212,
+        "words": [
+          {
+            "text": "박사님께서는",
+            "start": 8,
+            "end": 1508,
+            "confidence": 0.076,
+            "speaker": "A"
+          },
+          {
+            "text": "지난",
+            "start": 2389,
+            "end": 3409,
+            "confidence": 0.068,
+            "speaker": "A"
+          },
+          {
+            "text": "20년",
+            "start": 3549,
+            "end": 3689,
+            "confidence": 0.143,
+            "speaker": "A"
+          },
+          {
+            "text": "동안",
+            "start": 3829,
+            "end": 4169,
+            "confidence": 0.028,
+            "speaker": "A"
+          },
+          {
+            "text": "제주",
+            "start": 5029,
+            "end": 5509,
+            "confidence": 0.062,
+            "speaker": "A"
+          },
+          {
+            "text": "바다와",
+            "start": 5629,
+            "end": 6330,
+            "confidence": 0.081,
+            "speaker": "A"
+          },
+          {
+            "text": "함께",
+            "start": 6690,
+            "end": 7250,
+            "confidence": 0.071,
+            "speaker": "A"
+          },
+          {
+            "text": "오셨는데요.",
+            "start": 7310,
+            "end": 9290,
+            "confidence": 0.054,
+            "speaker": "A"
+          },
+          {
+            "text": "현재",
+            "start": 9490,
+            "end": 10070,
+            "confidence": 0.068,
+            "speaker": "A"
+          },
+          {
+            "text": "제주",
+            "start": 10631,
+            "end": 11071,
+            "confidence": 0.074,
+            "speaker": "A"
+          },
+          {
+            "text": "바다의",
+            "start": 11191,
+            "end": 11791,
+            "confidence": 0.038,
+            "speaker": "A"
+          },
+          {
+            "text": "해양",
+            "start": 12211,
+            "end": 12571,
+            "confidence": 0.112,
+            "speaker": "A"
+          },
+          {
+            "text": "상태는",
+            "start": 12751,
+            "end": 13351,
+            "confidence": 0.041,
+            "speaker": "A"
+          },
+          {
+            "text": "어떤가요?",
+            "start": 13671,
+            "end": 15212,
+            "confidence": 0.046,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "해조류가 줄어들고 아열대 생물들이 늘어나고 있습니다. 기후 변화 때문이죠. 해조류를 먹이로 하는 생물들도 영향을 받고 있고요.",
+        "confidence": 0.1108125,
+        "start": 15652,
+        "end": 29455,
+        "words": [
+          {
+            "text": "해조류가",
+            "start": 15652,
+            "end": 16432,
+            "confidence": 0.006,
+            "speaker": "B"
+          },
+          {
+            "text": "줄어들고",
+            "start": 16612,
+            "end": 17252,
+            "confidence": 0.124,
+            "speaker": "B"
+          },
+          {
+            "text": "아열대",
+            "start": 18012,
+            "end": 18612,
+            "confidence": 0.017,
+            "speaker": "B"
+          },
+          {
+            "text": "생물들이",
+            "start": 18752,
+            "end": 19453,
+            "confidence": 0.112,
+            "speaker": "B"
+          },
+          {
+            "text": "늘어나고",
+            "start": 19913,
+            "end": 20393,
+            "confidence": 0.196,
+            "speaker": "B"
+          },
+          {
+            "text": "있습니다.",
+            "start": 20453,
+            "end": 22233,
+            "confidence": 0.104,
+            "speaker": "B"
+          },
+          {
+            "text": "기후",
+            "start": 22253,
+            "end": 22553,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "변화",
+            "start": 22693,
+            "end": 22933,
+            "confidence": 0.002,
+            "speaker": "B"
+          },
+          {
+            "text": "때문이죠.",
+            "start": 23053,
+            "end": 24474,
+            "confidence": 0.052,
+            "speaker": "B"
+          },
+          {
+            "text": "해조류를",
+            "start": 24894,
+            "end": 25554,
+            "confidence": 0.054,
+            "speaker": "B"
+          },
+          {
+            "text": "먹이로",
+            "start": 25734,
+            "end": 26074,
+            "confidence": 0.167,
+            "speaker": "B"
+          },
+          {
+            "text": "하는",
+            "start": 26154,
+            "end": 26354,
+            "confidence": 0.209,
+            "speaker": "B"
+          },
+          {
+            "text": "생물들도",
+            "start": 26494,
+            "end": 27194,
+            "confidence": 0.116,
+            "speaker": "B"
+          },
+          {
+            "text": "영향을",
+            "start": 27875,
+            "end": 28375,
+            "confidence": 0.122,
+            "speaker": "B"
+          },
+          {
+            "text": "받고",
+            "start": 28515,
+            "end": 28835,
+            "confidence": 0.168,
+            "speaker": "B"
+          },
+          {
+            "text": "있고요.",
+            "start": 28895,
+            "end": 29455,
+            "confidence": 0.324,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "그동안은 제주 바다의 수온 변화와 생태계 관계에 대한 논문을 많이 발표해 오셨는데요. 최근에는 어떤 연구를 수행하고 계신지요?",
+        "confidence": 0.09258824,
+        "start": 30653,
+        "end": 47224,
+        "words": [
+          {
+            "text": "그동안은",
+            "start": 30653,
+            "end": 31494,
+            "confidence": 0.05,
+            "speaker": "A"
+          },
+          {
+            "text": "제주",
+            "start": 32234,
+            "end": 32613,
+            "confidence": 0.114,
+            "speaker": "A"
+          },
+          {
+            "text": "바다의",
+            "start": 32753,
+            "end": 33395,
+            "confidence": 0.07,
+            "speaker": "A"
+          },
+          {
+            "text": "수온",
+            "start": 33715,
+            "end": 34015,
+            "confidence": 0.062,
+            "speaker": "A"
+          },
+          {
+            "text": "변화와",
+            "start": 34195,
+            "end": 34836,
+            "confidence": 0.094,
+            "speaker": "A"
+          },
+          {
+            "text": "생태계",
+            "start": 35676,
+            "end": 36377,
+            "confidence": 0.065,
+            "speaker": "A"
+          },
+          {
+            "text": "관계에",
+            "start": 36537,
+            "end": 37057,
+            "confidence": 0.179,
+            "speaker": "A"
+          },
+          {
+            "text": "대한",
+            "start": 37158,
+            "end": 37338,
+            "confidence": 0.224,
+            "speaker": "A"
+          },
+          {
+            "text": "논문을",
+            "start": 37458,
+            "end": 38058,
+            "confidence": 0.028,
+            "speaker": "A"
+          },
+          {
+            "text": "많이",
+            "start": 38659,
+            "end": 39059,
+            "confidence": 0.103,
+            "speaker": "A"
+          },
+          {
+            "text": "발표해",
+            "start": 39219,
+            "end": 39739,
+            "confidence": 0.026,
+            "speaker": "A"
+          },
+          {
+            "text": "오셨는데요.",
+            "start": 39779,
+            "end": 41541,
+            "confidence": 0.057,
+            "speaker": "A"
+          },
+          {
+            "text": "최근에는",
+            "start": 41981,
+            "end": 42621,
+            "confidence": 0.124,
+            "speaker": "A"
+          },
+          {
+            "text": "어떤",
+            "start": 43202,
+            "end": 43642,
+            "confidence": 0.098,
+            "speaker": "A"
+          },
+          {
+            "text": "연구를",
+            "start": 43822,
+            "end": 44423,
+            "confidence": 0.121,
+            "speaker": "A"
+          },
+          {
+            "text": "수행하고",
+            "start": 44763,
+            "end": 45383,
+            "confidence": 0.13,
+            "speaker": "A"
+          },
+          {
+            "text": "계신지요?",
+            "start": 45523,
+            "end": 47224,
+            "confidence": 0.029,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "작년부터 다른 국가와 공동으로 팀을 꾸려서 태평양의 어종 분포에 대해 조사하고 있습니다.",
+        "confidence": 0.062583335,
+        "start": 47565,
+        "end": 58092,
+        "words": [
+          {
+            "text": "작년부터",
+            "start": 47565,
+            "end": 48565,
+            "confidence": 0.073,
+            "speaker": "B"
+          },
+          {
+            "text": "다른",
+            "start": 49406,
+            "end": 49746,
+            "confidence": 0.077,
+            "speaker": "B"
+          },
+          {
+            "text": "국가와",
+            "start": 49946,
+            "end": 50587,
+            "confidence": 0.095,
+            "speaker": "B"
+          },
+          {
+            "text": "공동으로",
+            "start": 50907,
+            "end": 51668,
+            "confidence": 0.133,
+            "speaker": "B"
+          },
+          {
+            "text": "팀을",
+            "start": 51948,
+            "end": 52188,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "꾸려서",
+            "start": 52348,
+            "end": 53329,
+            "confidence": 0.044,
+            "speaker": "B"
+          },
+          {
+            "text": "태평양의",
+            "start": 53689,
+            "end": 54490,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "어종",
+            "start": 54770,
+            "end": 55150,
+            "confidence": 0.04,
+            "speaker": "B"
+          },
+          {
+            "text": "분포에",
+            "start": 55310,
+            "end": 55770,
+            "confidence": 0.016,
+            "speaker": "B"
+          },
+          {
+            "text": "대해",
+            "start": 55910,
+            "end": 56211,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "조사하고",
+            "start": 56751,
+            "end": 57311,
+            "confidence": 0.175,
+            "speaker": "B"
+          },
+          {
+            "text": "있습니다.",
+            "start": 57351,
+            "end": 58092,
+            "confidence": 0.098,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "다시 들으십시오. 박사님께서는 지난 20년 동안 제주 바다와 함께 오셨는데요. 현재 제주 바다의 해양 상태는 어떤가요?",
+        "confidence": 0.0738125,
+        "start": 59273,
+        "end": 77278,
+        "words": [
+          {
+            "text": "다시",
+            "start": 59273,
+            "end": 59813,
+            "confidence": 0.035,
+            "speaker": "A"
+          },
+          {
+            "text": "들으십시오.",
+            "start": 60053,
+            "end": 60733,
+            "confidence": 0.045,
+            "speaker": "A"
+          },
+          {
+            "text": "박사님께서는",
+            "start": 62294,
+            "end": 63594,
+            "confidence": 0.089,
+            "speaker": "A"
+          },
+          {
+            "text": "지난",
+            "start": 64455,
+            "end": 65474,
+            "confidence": 0.067,
+            "speaker": "A"
+          },
+          {
+            "text": "20년",
+            "start": 65595,
+            "end": 65735,
+            "confidence": 0.143,
+            "speaker": "A"
+          },
+          {
+            "text": "동안",
+            "start": 65895,
+            "end": 66255,
+            "confidence": 0.064,
+            "speaker": "A"
+          },
+          {
+            "text": "제주",
+            "start": 67095,
+            "end": 67576,
+            "confidence": 0.078,
+            "speaker": "A"
+          },
+          {
+            "text": "바다와",
+            "start": 67696,
+            "end": 68396,
+            "confidence": 0.077,
+            "speaker": "A"
+          },
+          {
+            "text": "함께",
+            "start": 68736,
+            "end": 69296,
+            "confidence": 0.072,
+            "speaker": "A"
+          },
+          {
+            "text": "오셨는데요.",
+            "start": 69376,
+            "end": 71077,
+            "confidence": 0.054,
+            "speaker": "A"
+          },
+          {
+            "text": "현재",
+            "start": 71557,
+            "end": 72117,
+            "confidence": 0.071,
+            "speaker": "A"
+          },
+          {
+            "text": "제주",
+            "start": 72677,
+            "end": 73117,
+            "confidence": 0.072,
+            "speaker": "A"
+          },
+          {
+            "text": "바다의",
+            "start": 73237,
+            "end": 73857,
+            "confidence": 0.069,
+            "speaker": "A"
+          },
+          {
+            "text": "해양",
+            "start": 74278,
+            "end": 74638,
+            "confidence": 0.092,
+            "speaker": "A"
+          },
+          {
+            "text": "상태는",
+            "start": 74818,
+            "end": 75418,
+            "confidence": 0.083,
+            "speaker": "A"
+          },
+          {
+            "text": "어떤가요?",
+            "start": 75718,
+            "end": 77278,
+            "confidence": 0.07,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "해조류가 줄어들고 아열대 생물들이 늘어나고 있습니다. 기후 변화 때문이죠. 해조류를 먹이로 하는 생물들도 영향을 받고 있고요.",
+        "confidence": 0.1025,
+        "start": 77719,
+        "end": 92457,
+        "words": [
+          {
+            "text": "해조류가",
+            "start": 77719,
+            "end": 78499,
+            "confidence": 0.016,
+            "speaker": "B"
+          },
+          {
+            "text": "줄어들고",
+            "start": 78659,
+            "end": 79319,
+            "confidence": 0.079,
+            "speaker": "B"
+          },
+          {
+            "text": "아열대",
+            "start": 80059,
+            "end": 80679,
+            "confidence": 0.011,
+            "speaker": "B"
+          },
+          {
+            "text": "생물들이",
+            "start": 80799,
+            "end": 81500,
+            "confidence": 0.1,
+            "speaker": "B"
+          },
+          {
+            "text": "늘어나고",
+            "start": 81980,
+            "end": 82460,
+            "confidence": 0.197,
+            "speaker": "B"
+          },
+          {
+            "text": "있습니다.",
+            "start": 82500,
+            "end": 84301,
+            "confidence": 0.312,
+            "speaker": "B"
+          },
+          {
+            "text": "기후",
+            "start": 84321,
+            "end": 84601,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "변화",
+            "start": 84761,
+            "end": 85001,
+            "confidence": 0.004,
+            "speaker": "B"
+          },
+          {
+            "text": "때문이죠.",
+            "start": 85101,
+            "end": 85801,
+            "confidence": 0.048,
+            "speaker": "B"
+          },
+          {
+            "text": "해조류를",
+            "start": 86915,
+            "end": 87595,
+            "confidence": 0.045,
+            "speaker": "B"
+          },
+          {
+            "text": "먹이로",
+            "start": 87775,
+            "end": 88136,
+            "confidence": 0.167,
+            "speaker": "B"
+          },
+          {
+            "text": "하는",
+            "start": 88216,
+            "end": 88396,
+            "confidence": 0.225,
+            "speaker": "B"
+          },
+          {
+            "text": "생물들도",
+            "start": 88556,
+            "end": 89256,
+            "confidence": 0.106,
+            "speaker": "B"
+          },
+          {
+            "text": "영향을",
+            "start": 89916,
+            "end": 90416,
+            "confidence": 0.098,
+            "speaker": "B"
+          },
+          {
+            "text": "받고",
+            "start": 90577,
+            "end": 90897,
+            "confidence": 0.186,
+            "speaker": "B"
+          },
+          {
+            "text": "있고요.",
+            "start": 90957,
+            "end": 92457,
+            "confidence": 0.046,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "그동안은 제주 바다의 수온 변화와 생태계 관계에 대한 논문을 많이 발표해 오셨는데요. 최근에는 어떤 연구를 수행하고 계신지요?",
+        "confidence": 0.0917647,
+        "start": 92797,
+        "end": 109304,
+        "words": [
+          {
+            "text": "그동안은",
+            "start": 92797,
+            "end": 93558,
+            "confidence": 0.075,
+            "speaker": "A"
+          },
+          {
+            "text": "제주",
+            "start": 94298,
+            "end": 94678,
+            "confidence": 0.093,
+            "speaker": "A"
+          },
+          {
+            "text": "바다의",
+            "start": 94798,
+            "end": 95459,
+            "confidence": 0.067,
+            "speaker": "A"
+          },
+          {
+            "text": "수온",
+            "start": 95759,
+            "end": 96059,
+            "confidence": 0.054,
+            "speaker": "A"
+          },
+          {
+            "text": "변화와",
+            "start": 96239,
+            "end": 96899,
+            "confidence": 0.091,
+            "speaker": "A"
+          },
+          {
+            "text": "생태계",
+            "start": 97740,
+            "end": 98440,
+            "confidence": 0.049,
+            "speaker": "A"
+          },
+          {
+            "text": "관계에",
+            "start": 98600,
+            "end": 99120,
+            "confidence": 0.179,
+            "speaker": "A"
+          },
+          {
+            "text": "대한",
+            "start": 99200,
+            "end": 99400,
+            "confidence": 0.208,
+            "speaker": "A"
+          },
+          {
+            "text": "논문을",
+            "start": 99520,
+            "end": 100121,
+            "confidence": 0.028,
+            "speaker": "A"
+          },
+          {
+            "text": "많이",
+            "start": 100721,
+            "end": 101121,
+            "confidence": 0.104,
+            "speaker": "A"
+          },
+          {
+            "text": "발표해",
+            "start": 101281,
+            "end": 101801,
+            "confidence": 0.042,
+            "speaker": "A"
+          },
+          {
+            "text": "오셨는데요.",
+            "start": 101841,
+            "end": 103602,
+            "confidence": 0.055,
+            "speaker": "A"
+          },
+          {
+            "text": "최근에는",
+            "start": 104042,
+            "end": 104662,
+            "confidence": 0.129,
+            "speaker": "A"
+          },
+          {
+            "text": "어떤",
+            "start": 105263,
+            "end": 105703,
+            "confidence": 0.098,
+            "speaker": "A"
+          },
+          {
+            "text": "연구를",
+            "start": 105883,
+            "end": 106483,
+            "confidence": 0.12,
+            "speaker": "A"
+          },
+          {
+            "text": "수행하고",
+            "start": 106823,
+            "end": 107444,
+            "confidence": 0.13,
+            "speaker": "A"
+          },
+          {
+            "text": "계신지요?",
+            "start": 107584,
+            "end": 109304,
+            "confidence": 0.038,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "작년부터 다른 국가와 공동으로 팀을 꾸려서 태평양의 어종 분포에 대해 조사하고 있습니다.",
+        "confidence": 0.123333335,
+        "start": 109625,
+        "end": 120108,
+        "words": [
+          {
+            "text": "작년부터",
+            "start": 109625,
+            "end": 110625,
+            "confidence": 0.064,
+            "speaker": "B"
+          },
+          {
+            "text": "다른",
+            "start": 111465,
+            "end": 111805,
+            "confidence": 0.062,
+            "speaker": "B"
+          },
+          {
+            "text": "국가와",
+            "start": 112006,
+            "end": 112646,
+            "confidence": 0.084,
+            "speaker": "B"
+          },
+          {
+            "text": "공동으로",
+            "start": 112966,
+            "end": 113726,
+            "confidence": 0.124,
+            "speaker": "B"
+          },
+          {
+            "text": "팀을",
+            "start": 114006,
+            "end": 114246,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "꾸려서",
+            "start": 114407,
+            "end": 114747,
+            "confidence": 0.323,
+            "speaker": "B"
+          },
+          {
+            "text": "태평양의",
+            "start": 115653,
+            "end": 116536,
+            "confidence": 0.002,
+            "speaker": "B"
+          },
+          {
+            "text": "어종",
+            "start": 116817,
+            "end": 117178,
+            "confidence": 0.04,
+            "speaker": "B"
+          },
+          {
+            "text": "분포에",
+            "start": 117359,
+            "end": 117860,
+            "confidence": 0.118,
+            "speaker": "B"
+          },
+          {
+            "text": "대해",
+            "start": 117941,
+            "end": 118282,
+            "confidence": 0.118,
+            "speaker": "B"
+          },
+          {
+            "text": "조사하고",
+            "start": 118784,
+            "end": 119345,
+            "confidence": 0.215,
+            "speaker": "B"
+          },
+          {
+            "text": "있습니다.",
+            "start": 119406,
+            "end": 120108,
+            "confidence": 0.33,
+            "speaker": "B"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.09579825,
+    "audio_duration": 123
+  },
+  {
+    "status_script": "completed",
+    "id": "819782f5-4c11-419f-94b8-494485c4297f",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_31-32.mp3",
+    "text": "오토바이 사고를 줄이려면 현재 뒷면에 있는 번호판을 더 크게 만들고 단속을 강화하는 것이 최선의 방안이라고 생각합니다. 그런데 현재 단속 시스템으로는 번호판이 아무리 커도 뒷면에 있어서 식별이 어렵습니다. 앞에도 번호판을 달아야 합니다. 하지만 오토바이는 앞면에 번호판을 부착하기 어려운 구조입니다. 그런 문제 때문에 앞면에 스티커로 된 번호판을 부착한 해외의 사례도 있습니다. 매년 증가하는 오토바이 사고를 감소시키려면 더 이상 미룰 수만은 없는 문제입니다. 다시 들으십시오. 오토바이 사고를 줄이려면 현재 뒷면에 있는 번호판을 더 크게 만들고 단속을 강화하는 것이 최선의 방안이라고 생각합니다. 그런데 현재 단속 시스템으로는 번호판이 아무리 커도 뒷면에 있어서 식별이 어렵습니다. 앞에도 번호판을 달아야 합니다. 하지만 오토바이는 앞면에 번호판을 부착하기 어려운 구조입니다. 그런 문제 때문에 앞면에 스티커로 된 번호판을 부착한 해외의 사례도 있습니다. 매년 증가하는 오토바이 사고를 감소시키려면 더 이상 미룰 수만은 없는 문제입니다.",
+    "utterances": [
+      {
+        "speaker": "A",
+        "text": "오토바이 사고를 줄이려면 현재 뒷면에 있는 번호판을 더 크게 만들고 단속을 강화하는 것이 최선의 방안이라고 생각합니다.",
+        "confidence": 0.0945625,
+        "start": 1105,
+        "end": 17010,
+        "words": [
+          {
+            "text": "오토바이",
+            "start": 1105,
+            "end": 2065,
+            "confidence": 0.054,
+            "speaker": "A"
+          },
+          {
+            "text": "사고를",
+            "start": 2345,
+            "end": 2826,
+            "confidence": 0.125,
+            "speaker": "A"
+          },
+          {
+            "text": "줄이려면",
+            "start": 3026,
+            "end": 3746,
+            "confidence": 0.113,
+            "speaker": "A"
+          },
+          {
+            "text": "현재",
+            "start": 4506,
+            "end": 5086,
+            "confidence": 0.069,
+            "speaker": "A"
+          },
+          {
+            "text": "뒷면에",
+            "start": 5406,
+            "end": 5967,
+            "confidence": 0.101,
+            "speaker": "A"
+          },
+          {
+            "text": "있는",
+            "start": 6027,
+            "end": 6407,
+            "confidence": 0.108,
+            "speaker": "A"
+          },
+          {
+            "text": "번호판을",
+            "start": 6647,
+            "end": 7467,
+            "confidence": 0.038,
+            "speaker": "A"
+          },
+          {
+            "text": "더",
+            "start": 8186,
+            "end": 8347,
+            "confidence": 0.101,
+            "speaker": "A"
+          },
+          {
+            "text": "크게",
+            "start": 8628,
+            "end": 8868,
+            "confidence": 0.172,
+            "speaker": "A"
+          },
+          {
+            "text": "만들고",
+            "start": 8988,
+            "end": 9648,
+            "confidence": 0.083,
+            "speaker": "A"
+          },
+          {
+            "text": "단속을",
+            "start": 10408,
+            "end": 11148,
+            "confidence": 0.082,
+            "speaker": "A"
+          },
+          {
+            "text": "강화하는",
+            "start": 11509,
+            "end": 12129,
+            "confidence": 0.125,
+            "speaker": "A"
+          },
+          {
+            "text": "것이",
+            "start": 12209,
+            "end": 12649,
+            "confidence": 0.094,
+            "speaker": "A"
+          },
+          {
+            "text": "최선의",
+            "start": 13349,
+            "end": 13989,
+            "confidence": 0.061,
+            "speaker": "A"
+          },
+          {
+            "text": "방안이라고",
+            "start": 14229,
+            "end": 15030,
+            "confidence": 0.112,
+            "speaker": "A"
+          },
+          {
+            "text": "생각합니다.",
+            "start": 15250,
+            "end": 17010,
+            "confidence": 0.075,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "그런데 현재 단속 시스템으로는 번호판이 아무리 커도 뒷면에 있어서 식별이 어렵습니다. 앞에도 번호판을 달아야 합니다.",
+        "confidence": 0.1098,
+        "start": 17411,
+        "end": 32770,
+        "words": [
+          {
+            "text": "그런데",
+            "start": 17411,
+            "end": 17951,
+            "confidence": 0.095,
+            "speaker": "B"
+          },
+          {
+            "text": "현재",
+            "start": 18911,
+            "end": 19411,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "단속",
+            "start": 19611,
+            "end": 19951,
+            "confidence": 0.166,
+            "speaker": "B"
+          },
+          {
+            "text": "시스템으로는",
+            "start": 20151,
+            "end": 20992,
+            "confidence": 0.072,
+            "speaker": "B"
+          },
+          {
+            "text": "번호판이",
+            "start": 21672,
+            "end": 22452,
+            "confidence": 0.011,
+            "speaker": "B"
+          },
+          {
+            "text": "아무리",
+            "start": 22712,
+            "end": 23092,
+            "confidence": 0.2,
+            "speaker": "B"
+          },
+          {
+            "text": "커도",
+            "start": 23272,
+            "end": 23573,
+            "confidence": 0.002,
+            "speaker": "B"
+          },
+          {
+            "text": "뒷면에",
+            "start": 24353,
+            "end": 24873,
+            "confidence": 0.034,
+            "speaker": "B"
+          },
+          {
+            "text": "있어서",
+            "start": 24913,
+            "end": 25473,
+            "confidence": 0.11,
+            "speaker": "B"
+          },
+          {
+            "text": "식별이",
+            "start": 26033,
+            "end": 26594,
+            "confidence": 0.001,
+            "speaker": "B"
+          },
+          {
+            "text": "어렵습니다.",
+            "start": 26754,
+            "end": 27734,
+            "confidence": 0.281,
+            "speaker": "B"
+          },
+          {
+            "text": "앞에도",
+            "start": 28628,
+            "end": 29268,
+            "confidence": 0.079,
+            "speaker": "B"
+          },
+          {
+            "text": "번호판을",
+            "start": 29729,
+            "end": 30489,
+            "confidence": 0.085,
+            "speaker": "B"
+          },
+          {
+            "text": "달아야",
+            "start": 30749,
+            "end": 31169,
+            "confidence": 0.15,
+            "speaker": "B"
+          },
+          {
+            "text": "합니다.",
+            "start": 31229,
+            "end": 32770,
+            "confidence": 0.361,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "하지만 오토바이는 앞면에 번호판을 부착하기 어려운 구조입니다.",
+        "confidence": 0.06414286,
+        "start": 32990,
+        "end": 41075,
+        "words": [
+          {
+            "text": "하지만",
+            "start": 32990,
+            "end": 33471,
+            "confidence": 0.129,
+            "speaker": "A"
+          },
+          {
+            "text": "오토바이는",
+            "start": 33951,
+            "end": 34771,
+            "confidence": 0.035,
+            "speaker": "A"
+          },
+          {
+            "text": "앞면에",
+            "start": 35532,
+            "end": 36172,
+            "confidence": 0.044,
+            "speaker": "A"
+          },
+          {
+            "text": "번호판을",
+            "start": 36352,
+            "end": 37093,
+            "confidence": 0.031,
+            "speaker": "A"
+          },
+          {
+            "text": "부착하기",
+            "start": 37293,
+            "end": 38153,
+            "confidence": 0.001,
+            "speaker": "A"
+          },
+          {
+            "text": "어려운",
+            "start": 38413,
+            "end": 38894,
+            "confidence": 0.138,
+            "speaker": "A"
+          },
+          {
+            "text": "구조입니다.",
+            "start": 39134,
+            "end": 41075,
+            "confidence": 0.071,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "그런 문제 때문에 앞면에 스티커로 된 번호판을 부착한 해외의 사례도 있습니다. 매년 증가하는 오토바이 사고를 감소시키려면 더 이상 미룰 수만은 없는 문제입니다.",
+        "confidence": 0.09127273,
+        "start": 41475,
+        "end": 61183,
+        "words": [
+          {
+            "text": "그런",
+            "start": 41475,
+            "end": 41775,
+            "confidence": 0.122,
+            "speaker": "B"
+          },
+          {
+            "text": "문제",
+            "start": 41975,
+            "end": 42316,
+            "confidence": 0.142,
+            "speaker": "B"
+          },
+          {
+            "text": "때문에",
+            "start": 42456,
+            "end": 43236,
+            "confidence": 0.121,
+            "speaker": "B"
+          },
+          {
+            "text": "앞면에",
+            "start": 43636,
+            "end": 44237,
+            "confidence": 0.079,
+            "speaker": "B"
+          },
+          {
+            "text": "스티커로",
+            "start": 44697,
+            "end": 45557,
+            "confidence": 0.044,
+            "speaker": "B"
+          },
+          {
+            "text": "된",
+            "start": 45577,
+            "end": 45598,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "번호판을",
+            "start": 45858,
+            "end": 46578,
+            "confidence": 0.082,
+            "speaker": "B"
+          },
+          {
+            "text": "부착한",
+            "start": 46758,
+            "end": 47338,
+            "confidence": 0.053,
+            "speaker": "B"
+          },
+          {
+            "text": "해외의",
+            "start": 47939,
+            "end": 48519,
+            "confidence": 0.047,
+            "speaker": "B"
+          },
+          {
+            "text": "사례도",
+            "start": 48759,
+            "end": 49240,
+            "confidence": 0.039,
+            "speaker": "B"
+          },
+          {
+            "text": "있습니다.",
+            "start": 49280,
+            "end": 50060,
+            "confidence": 0.312,
+            "speaker": "B"
+          },
+          {
+            "text": "매년",
+            "start": 51038,
+            "end": 51478,
+            "confidence": 0.054,
+            "speaker": "B"
+          },
+          {
+            "text": "증가하는",
+            "start": 51698,
+            "end": 52299,
+            "confidence": 0.113,
+            "speaker": "B"
+          },
+          {
+            "text": "오토바이",
+            "start": 52779,
+            "end": 53459,
+            "confidence": 0.14,
+            "speaker": "B"
+          },
+          {
+            "text": "사고를",
+            "start": 53639,
+            "end": 54160,
+            "confidence": 0.08,
+            "speaker": "B"
+          },
+          {
+            "text": "감소시키려면",
+            "start": 54360,
+            "end": 55420,
+            "confidence": 0.066,
+            "speaker": "B"
+          },
+          {
+            "text": "더",
+            "start": 56341,
+            "end": 56461,
+            "confidence": 0.166,
+            "speaker": "B"
+          },
+          {
+            "text": "이상",
+            "start": 56521,
+            "end": 56881,
+            "confidence": 0.112,
+            "speaker": "B"
+          },
+          {
+            "text": "미룰",
+            "start": 57421,
+            "end": 57682,
+            "confidence": 0.072,
+            "speaker": "B"
+          },
+          {
+            "text": "수만은",
+            "start": 57842,
+            "end": 58262,
+            "confidence": 0.005,
+            "speaker": "B"
+          },
+          {
+            "text": "없는",
+            "start": 58602,
+            "end": 59002,
+            "confidence": 0.099,
+            "speaker": "B"
+          },
+          {
+            "text": "문제입니다.",
+            "start": 59222,
+            "end": 61183,
+            "confidence": 0.06,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "다시 들으십시오. 오토바이 사고를 줄이려면 현재 뒷면에 있는 번호판을 더 크게 만들고 단속을 강화하는 것이 최선의 방안이라고 생각합니다.",
+        "confidence": 0.10383333,
+        "start": 61524,
+        "end": 79473,
+        "words": [
+          {
+            "text": "다시",
+            "start": 61524,
+            "end": 62004,
+            "confidence": 0.084,
+            "speaker": "A"
+          },
+          {
+            "text": "들으십시오.",
+            "start": 62224,
+            "end": 64605,
+            "confidence": 0.014,
+            "speaker": "A"
+          },
+          {
+            "text": "오토바이",
+            "start": 64625,
+            "end": 65446,
+            "confidence": 0.05,
+            "speaker": "A"
+          },
+          {
+            "text": "사고를",
+            "start": 65726,
+            "end": 66206,
+            "confidence": 0.125,
+            "speaker": "A"
+          },
+          {
+            "text": "줄이려면",
+            "start": 66406,
+            "end": 67106,
+            "confidence": 0.099,
+            "speaker": "A"
+          },
+          {
+            "text": "현재",
+            "start": 67887,
+            "end": 68447,
+            "confidence": 0.071,
+            "speaker": "A"
+          },
+          {
+            "text": "뒷면에",
+            "start": 68787,
+            "end": 69348,
+            "confidence": 0.083,
+            "speaker": "A"
+          },
+          {
+            "text": "있는",
+            "start": 69408,
+            "end": 69768,
+            "confidence": 0.117,
+            "speaker": "A"
+          },
+          {
+            "text": "번호판을",
+            "start": 70028,
+            "end": 70828,
+            "confidence": 0.062,
+            "speaker": "A"
+          },
+          {
+            "text": "더",
+            "start": 71549,
+            "end": 71709,
+            "confidence": 0.125,
+            "speaker": "A"
+          },
+          {
+            "text": "크게",
+            "start": 71989,
+            "end": 72249,
+            "confidence": 0.162,
+            "speaker": "A"
+          },
+          {
+            "text": "만들고",
+            "start": 72349,
+            "end": 73030,
+            "confidence": 0.095,
+            "speaker": "A"
+          },
+          {
+            "text": "단속을",
+            "start": 73770,
+            "end": 74530,
+            "confidence": 0.08,
+            "speaker": "A"
+          },
+          {
+            "text": "강화하는",
+            "start": 74891,
+            "end": 75491,
+            "confidence": 0.135,
+            "speaker": "A"
+          },
+          {
+            "text": "것이",
+            "start": 75591,
+            "end": 76031,
+            "confidence": 0.092,
+            "speaker": "A"
+          },
+          {
+            "text": "최선의",
+            "start": 76732,
+            "end": 77372,
+            "confidence": 0.091,
+            "speaker": "A"
+          },
+          {
+            "text": "방안이라고",
+            "start": 77592,
+            "end": 78412,
+            "confidence": 0.105,
+            "speaker": "A"
+          },
+          {
+            "text": "생각합니다.",
+            "start": 78633,
+            "end": 79473,
+            "confidence": 0.279,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "그런데 현재 단속 시스템으로는 번호판이 아무리 커도 뒷면에 있어서 식별이 어렵습니다. 앞에도 번호판을 달아야 합니다.",
+        "confidence": 0.08513334,
+        "start": 80705,
+        "end": 96119,
+        "words": [
+          {
+            "text": "그런데",
+            "start": 80705,
+            "end": 81306,
+            "confidence": 0.061,
+            "speaker": "B"
+          },
+          {
+            "text": "현재",
+            "start": 82286,
+            "end": 82787,
+            "confidence": 0.002,
+            "speaker": "B"
+          },
+          {
+            "text": "단속",
+            "start": 82967,
+            "end": 83307,
+            "confidence": 0.2,
+            "speaker": "B"
+          },
+          {
+            "text": "시스템으로는",
+            "start": 83527,
+            "end": 84348,
+            "confidence": 0.057,
+            "speaker": "B"
+          },
+          {
+            "text": "번호판이",
+            "start": 85029,
+            "end": 85810,
+            "confidence": 0.04,
+            "speaker": "B"
+          },
+          {
+            "text": "아무리",
+            "start": 86070,
+            "end": 86470,
+            "confidence": 0.172,
+            "speaker": "B"
+          },
+          {
+            "text": "커도",
+            "start": 86630,
+            "end": 86930,
+            "confidence": 0.034,
+            "speaker": "B"
+          },
+          {
+            "text": "뒷면에",
+            "start": 87731,
+            "end": 88232,
+            "confidence": 0.048,
+            "speaker": "B"
+          },
+          {
+            "text": "있어서",
+            "start": 88272,
+            "end": 88852,
+            "confidence": 0.093,
+            "speaker": "B"
+          },
+          {
+            "text": "식별이",
+            "start": 89393,
+            "end": 89953,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "어렵습니다.",
+            "start": 90113,
+            "end": 91735,
+            "confidence": 0.162,
+            "speaker": "B"
+          },
+          {
+            "text": "앞에도",
+            "start": 92075,
+            "end": 92636,
+            "confidence": 0.112,
+            "speaker": "B"
+          },
+          {
+            "text": "번호판을",
+            "start": 93116,
+            "end": 93877,
+            "confidence": 0.079,
+            "speaker": "B"
+          },
+          {
+            "text": "달아야",
+            "start": 94137,
+            "end": 94537,
+            "confidence": 0.184,
+            "speaker": "B"
+          },
+          {
+            "text": "합니다.",
+            "start": 94617,
+            "end": 96119,
+            "confidence": 0.033,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "하지만 오토바이는 앞면에 번호판을 부착하기 어려운 구조입니다.",
+        "confidence": 0.089,
+        "start": 96359,
+        "end": 103365,
+        "words": [
+          {
+            "text": "하지만",
+            "start": 96359,
+            "end": 96859,
+            "confidence": 0.123,
+            "speaker": "A"
+          },
+          {
+            "text": "오토바이는",
+            "start": 97320,
+            "end": 98160,
+            "confidence": 0.049,
+            "speaker": "A"
+          },
+          {
+            "text": "앞면에",
+            "start": 98901,
+            "end": 99562,
+            "confidence": 0.061,
+            "speaker": "A"
+          },
+          {
+            "text": "번호판을",
+            "start": 99742,
+            "end": 100462,
+            "confidence": 0.022,
+            "speaker": "A"
+          },
+          {
+            "text": "부착하기",
+            "start": 100663,
+            "end": 101523,
+            "confidence": 0.034,
+            "speaker": "A"
+          },
+          {
+            "text": "어려운",
+            "start": 101784,
+            "end": 102284,
+            "confidence": 0.134,
+            "speaker": "A"
+          },
+          {
+            "text": "구조입니다.",
+            "start": 102524,
+            "end": 103365,
+            "confidence": 0.2,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "그런 문제 때문에 앞면에 스티커로 된 번호판을 부착한 해외의 사례도 있습니다. 매년 증가하는 오토바이 사고를 감소시키려면 더 이상 미룰 수만은 없는 문제입니다.",
+        "confidence": 0.098136365,
+        "start": 104768,
+        "end": 123415,
+        "words": [
+          {
+            "text": "그런",
+            "start": 104768,
+            "end": 105148,
+            "confidence": 0.056,
+            "speaker": "B"
+          },
+          {
+            "text": "문제",
+            "start": 105348,
+            "end": 105688,
+            "confidence": 0.142,
+            "speaker": "B"
+          },
+          {
+            "text": "때문에",
+            "start": 105828,
+            "end": 106609,
+            "confidence": 0.116,
+            "speaker": "B"
+          },
+          {
+            "text": "앞면에",
+            "start": 106989,
+            "end": 107609,
+            "confidence": 0.038,
+            "speaker": "B"
+          },
+          {
+            "text": "스티커로",
+            "start": 108049,
+            "end": 108669,
+            "confidence": 0.128,
+            "speaker": "B"
+          },
+          {
+            "text": "된",
+            "start": 108790,
+            "end": 108970,
+            "confidence": 0.111,
+            "speaker": "B"
+          },
+          {
+            "text": "번호판을",
+            "start": 109230,
+            "end": 109930,
+            "confidence": 0.014,
+            "speaker": "B"
+          },
+          {
+            "text": "부착한",
+            "start": 110110,
+            "end": 110710,
+            "confidence": 0.102,
+            "speaker": "B"
+          },
+          {
+            "text": "해외의",
+            "start": 111310,
+            "end": 111871,
+            "confidence": 0.039,
+            "speaker": "B"
+          },
+          {
+            "text": "사례도",
+            "start": 112131,
+            "end": 112611,
+            "confidence": 0.097,
+            "speaker": "B"
+          },
+          {
+            "text": "있습니다.",
+            "start": 112651,
+            "end": 114011,
+            "confidence": 0.068,
+            "speaker": "B"
+          },
+          {
+            "text": "매년",
+            "start": 114512,
+            "end": 114832,
+            "confidence": 0.124,
+            "speaker": "B"
+          },
+          {
+            "text": "증가하는",
+            "start": 115072,
+            "end": 115672,
+            "confidence": 0.128,
+            "speaker": "B"
+          },
+          {
+            "text": "오토바이",
+            "start": 116132,
+            "end": 116853,
+            "confidence": 0.117,
+            "speaker": "B"
+          },
+          {
+            "text": "사고를",
+            "start": 117033,
+            "end": 117513,
+            "confidence": 0.091,
+            "speaker": "B"
+          },
+          {
+            "text": "감소시키려면",
+            "start": 117733,
+            "end": 118793,
+            "confidence": 0.068,
+            "speaker": "B"
+          },
+          {
+            "text": "더",
+            "start": 119714,
+            "end": 119814,
+            "confidence": 0.191,
+            "speaker": "B"
+          },
+          {
+            "text": "이상",
+            "start": 119874,
+            "end": 120234,
+            "confidence": 0.111,
+            "speaker": "B"
+          },
+          {
+            "text": "미룰",
+            "start": 120794,
+            "end": 121034,
+            "confidence": 0.059,
+            "speaker": "B"
+          },
+          {
+            "text": "수만은",
+            "start": 121214,
+            "end": 121634,
+            "confidence": 0.007,
+            "speaker": "B"
+          },
+          {
+            "text": "없는",
+            "start": 122034,
+            "end": 122395,
+            "confidence": 0.072,
+            "speaker": "B"
+          },
+          {
+            "text": "문제입니다.",
+            "start": 122595,
+            "end": 123415,
+            "confidence": 0.28,
+            "speaker": "B"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.097016804,
+    "audio_duration": 126
+  },
+  {
+    "status_script": "completed",
+    "id": "fb5b5356-497d-496c-96cc-774fe0b27657",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_33-34.mp3",
+    "text": "목까지 올라오는 옷이나 넥타이를 착용하는 걸 불편해하는 사람들이 있습니다. 그건 뇌의 신경망이 피부를 압박하는 자극을 위험한 신호로 과도하게 인식해서 나타나는 증상입니다. 이걸 촉각 방어라고 하죠. 이 증상은 신체 어디에서나 생길 수 있지만, 특히 목에 많이 나타나는데요. 심한 경우 미용실에서 머리를 감거나 자를 때 목이 닿는 것이 걱정돼 거부 반응을 보이기도 합니다. 이런 증상은 보통 성장하면서 자연스럽게 없어집니다. 하지만 성인이 되고도 남아 있거나 악화되는 경우도 있습니다. 다시 들으십시오. 목까지 올라오는 옷이나 넥타이를 착용하는 걸 불편해하는 사람들이 있습니다. 그건 뇌의 신경망이 피부를 압박하는 자극을 위험한 신호로 과도하게 인식해서 나타나는 증상입니다. 이걸 촉각 방어라고 하죠. 이 증상은 신체 어디에서나 생길 수 있지만 특히 목에 많이 나타나는데요. 심한 경우 미용실에서 머리를 감거나 자를 때 목이 닿는 것이 걱정돼 거부 반응을 보이기도 합니다. 이런 증상은 보통 성장하면서 자연스럽게 없어집니다. 하지만 성인이 되고도 남아 있거나 악화되는 경우도 있습니다.",
+    "utterances": [
+      {
+        "speaker": "A",
+        "text": "목까지 올라오는 옷이나 넥타이를 착용하는 걸 불편해하는 사람들이 있습니다. 그건 뇌의 신경망이 피부를 압박하는 자극을 위험한 신호로 과도하게 인식해서 나타나는 증상입니다. 이걸 촉각 방어라고 하죠. 이 증상은 신체 어디에서나 생길 수 있지만, 특히 목에 많이 나타나는데요. 심한 경우 미용실에서 머리를 감거나 자를 때 목이 닿는 것이 걱정돼 거부 반응을 보이기도 합니다. 이런 증상은 보통 성장하면서 자연스럽게 없어집니다. 하지만 성인이 되고도 남아 있거나 악화되는 경우도 있습니다. 다시 들으십시오. 목까지 올라오는 옷이나 넥타이를 착용하는 걸 불편해하는 사람들이 있습니다. 그건 뇌의 신경망이 피부를 압박하는 자극을 위험한 신호로 과도하게 인식해서 나타나는 증상입니다. 이걸 촉각 방어라고 하죠. 이 증상은 신체 어디에서나 생길 수 있지만 특히 목에 많이 나타나는데요. 심한 경우 미용실에서 머리를 감거나 자를 때 목이 닿는 것이 걱정돼 거부 반응을 보이기도 합니다. 이런 증상은 보통 성장하면서 자연스럽게 없어집니다. 하지만 성인이 되고도 남아 있거나 악화되는 경우도 있습니다.",
+        "confidence": 0.10221212,
+        "start": 852,
+        "end": 131600,
+        "words": [
+          {
+            "text": "목까지",
+            "start": 852,
+            "end": 1713,
+            "confidence": 0.044,
+            "speaker": "A"
+          },
+          {
+            "text": "올라오는",
+            "start": 1913,
+            "end": 2613,
+            "confidence": 0.115,
+            "speaker": "A"
+          },
+          {
+            "text": "옷이나",
+            "start": 2773,
+            "end": 3314,
+            "confidence": 0.037,
+            "speaker": "A"
+          },
+          {
+            "text": "넥타이를",
+            "start": 4134,
+            "end": 4854,
+            "confidence": 0.121,
+            "speaker": "A"
+          },
+          {
+            "text": "착용하는",
+            "start": 5015,
+            "end": 5575,
+            "confidence": 0.107,
+            "speaker": "A"
+          },
+          {
+            "text": "걸",
+            "start": 5695,
+            "end": 5915,
+            "confidence": 0.091,
+            "speaker": "A"
+          },
+          {
+            "text": "불편해하는",
+            "start": 6415,
+            "end": 7176,
+            "confidence": 0.068,
+            "speaker": "A"
+          },
+          {
+            "text": "사람들이",
+            "start": 7316,
+            "end": 7836,
+            "confidence": 0.163,
+            "speaker": "A"
+          },
+          {
+            "text": "있습니다.",
+            "start": 7956,
+            "end": 9637,
+            "confidence": 0.079,
+            "speaker": "A"
+          },
+          {
+            "text": "그건",
+            "start": 9818,
+            "end": 10138,
+            "confidence": 0.128,
+            "speaker": "A"
+          },
+          {
+            "text": "뇌의",
+            "start": 10898,
+            "end": 11358,
+            "confidence": 0.062,
+            "speaker": "A"
+          },
+          {
+            "text": "신경망이",
+            "start": 11539,
+            "end": 12359,
+            "confidence": 0.083,
+            "speaker": "A"
+          },
+          {
+            "text": "피부를",
+            "start": 12999,
+            "end": 13500,
+            "confidence": 0.122,
+            "speaker": "A"
+          },
+          {
+            "text": "압박하는",
+            "start": 13640,
+            "end": 14400,
+            "confidence": 0.072,
+            "speaker": "A"
+          },
+          {
+            "text": "자극을",
+            "start": 14560,
+            "end": 15101,
+            "confidence": 0.084,
+            "speaker": "A"
+          },
+          {
+            "text": "위험한",
+            "start": 15781,
+            "end": 16280,
+            "confidence": 0.122,
+            "speaker": "A"
+          },
+          {
+            "text": "신호로",
+            "start": 16422,
+            "end": 16922,
+            "confidence": 0.081,
+            "speaker": "A"
+          },
+          {
+            "text": "과도하게",
+            "start": 17362,
+            "end": 18103,
+            "confidence": 0.111,
+            "speaker": "A"
+          },
+          {
+            "text": "인식해서",
+            "start": 18223,
+            "end": 19023,
+            "confidence": 0.094,
+            "speaker": "A"
+          },
+          {
+            "text": "나타나는",
+            "start": 19423,
+            "end": 20044,
+            "confidence": 0.096,
+            "speaker": "A"
+          },
+          {
+            "text": "증상입니다.",
+            "start": 20304,
+            "end": 22205,
+            "confidence": 0.047,
+            "speaker": "A"
+          },
+          {
+            "text": "이걸",
+            "start": 22405,
+            "end": 22725,
+            "confidence": 0.127,
+            "speaker": "A"
+          },
+          {
+            "text": "촉각",
+            "start": 23346,
+            "end": 23826,
+            "confidence": 0.036,
+            "speaker": "A"
+          },
+          {
+            "text": "방어라고",
+            "start": 24166,
+            "end": 24707,
+            "confidence": 0.146,
+            "speaker": "A"
+          },
+          {
+            "text": "하죠.",
+            "start": 24767,
+            "end": 25287,
+            "confidence": 0.02,
+            "speaker": "A"
+          },
+          {
+            "text": "이",
+            "start": 26333,
+            "end": 26573,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "증상은",
+            "start": 26753,
+            "end": 27334,
+            "confidence": 0.106,
+            "speaker": "A"
+          },
+          {
+            "text": "신체",
+            "start": 28395,
+            "end": 28876,
+            "confidence": 0.012,
+            "speaker": "A"
+          },
+          {
+            "text": "어디에서나",
+            "start": 29036,
+            "end": 29937,
+            "confidence": 0.117,
+            "speaker": "A"
+          },
+          {
+            "text": "생길",
+            "start": 30177,
+            "end": 30497,
+            "confidence": 0.146,
+            "speaker": "A"
+          },
+          {
+            "text": "수",
+            "start": 30698,
+            "end": 30838,
+            "confidence": 0.143,
+            "speaker": "A"
+          },
+          {
+            "text": "있지만,",
+            "start": 30958,
+            "end": 31499,
+            "confidence": 0.09,
+            "speaker": "A"
+          },
+          {
+            "text": "특히",
+            "start": 32540,
+            "end": 32920,
+            "confidence": 0.106,
+            "speaker": "A"
+          },
+          {
+            "text": "목에",
+            "start": 33661,
+            "end": 34121,
+            "confidence": 0.008,
+            "speaker": "A"
+          },
+          {
+            "text": "많이",
+            "start": 34342,
+            "end": 34742,
+            "confidence": 0.118,
+            "speaker": "A"
+          },
+          {
+            "text": "나타나는데요.",
+            "start": 34822,
+            "end": 36904,
+            "confidence": 0.078,
+            "speaker": "A"
+          },
+          {
+            "text": "심한",
+            "start": 37205,
+            "end": 37505,
+            "confidence": 0.106,
+            "speaker": "A"
+          },
+          {
+            "text": "경우",
+            "start": 37605,
+            "end": 37965,
+            "confidence": 0.112,
+            "speaker": "A"
+          },
+          {
+            "text": "미용실에서",
+            "start": 38786,
+            "end": 39747,
+            "confidence": 0.11,
+            "speaker": "A"
+          },
+          {
+            "text": "머리를",
+            "start": 40148,
+            "end": 40588,
+            "confidence": 0.148,
+            "speaker": "A"
+          },
+          {
+            "text": "감거나",
+            "start": 40728,
+            "end": 41429,
+            "confidence": 0.071,
+            "speaker": "A"
+          },
+          {
+            "text": "자를",
+            "start": 41689,
+            "end": 41970,
+            "confidence": 0.138,
+            "speaker": "A"
+          },
+          {
+            "text": "때",
+            "start": 42130,
+            "end": 42310,
+            "confidence": 0.111,
+            "speaker": "A"
+          },
+          {
+            "text": "목이",
+            "start": 43271,
+            "end": 43611,
+            "confidence": 0.015,
+            "speaker": "A"
+          },
+          {
+            "text": "닿는",
+            "start": 43772,
+            "end": 44172,
+            "confidence": 0.084,
+            "speaker": "A"
+          },
+          {
+            "text": "것이",
+            "start": 44292,
+            "end": 44733,
+            "confidence": 0.092,
+            "speaker": "A"
+          },
+          {
+            "text": "걱정돼",
+            "start": 44953,
+            "end": 45614,
+            "confidence": 0.099,
+            "speaker": "A"
+          },
+          {
+            "text": "거부",
+            "start": 46314,
+            "end": 46675,
+            "confidence": 0.125,
+            "speaker": "A"
+          },
+          {
+            "text": "반응을",
+            "start": 46815,
+            "end": 47255,
+            "confidence": 0.105,
+            "speaker": "A"
+          },
+          {
+            "text": "보이기도",
+            "start": 47556,
+            "end": 48076,
+            "confidence": 0.132,
+            "speaker": "A"
+          },
+          {
+            "text": "합니다.",
+            "start": 48156,
+            "end": 48777,
+            "confidence": 0.383,
+            "speaker": "A"
+          },
+          {
+            "text": "이런",
+            "start": 49705,
+            "end": 50065,
+            "confidence": 0.062,
+            "speaker": "A"
+          },
+          {
+            "text": "증상은",
+            "start": 50225,
+            "end": 50766,
+            "confidence": 0.112,
+            "speaker": "A"
+          },
+          {
+            "text": "보통",
+            "start": 51606,
+            "end": 52006,
+            "confidence": 0.1,
+            "speaker": "A"
+          },
+          {
+            "text": "성장하면서",
+            "start": 52587,
+            "end": 53707,
+            "confidence": 0.09,
+            "speaker": "A"
+          },
+          {
+            "text": "자연스럽게",
+            "start": 54088,
+            "end": 55068,
+            "confidence": 0.107,
+            "speaker": "A"
+          },
+          {
+            "text": "없어집니다.",
+            "start": 55368,
+            "end": 56549,
+            "confidence": 0.021,
+            "speaker": "A"
+          },
+          {
+            "text": "하지만",
+            "start": 57450,
+            "end": 57870,
+            "confidence": 0.145,
+            "speaker": "A"
+          },
+          {
+            "text": "성인이",
+            "start": 58650,
+            "end": 59171,
+            "confidence": 0.131,
+            "speaker": "A"
+          },
+          {
+            "text": "되고도",
+            "start": 59311,
+            "end": 59831,
+            "confidence": 0.082,
+            "speaker": "A"
+          },
+          {
+            "text": "남아",
+            "start": 60211,
+            "end": 60491,
+            "confidence": 0.174,
+            "speaker": "A"
+          },
+          {
+            "text": "있거나",
+            "start": 60551,
+            "end": 61052,
+            "confidence": 0.123,
+            "speaker": "A"
+          },
+          {
+            "text": "악화되는",
+            "start": 61672,
+            "end": 62413,
+            "confidence": 0.096,
+            "speaker": "A"
+          },
+          {
+            "text": "경우도",
+            "start": 62533,
+            "end": 62993,
+            "confidence": 0.132,
+            "speaker": "A"
+          },
+          {
+            "text": "있습니다.",
+            "start": 63253,
+            "end": 65233,
+            "confidence": 0.05,
+            "speaker": "A"
+          },
+          {
+            "text": "다시",
+            "start": 65474,
+            "end": 65915,
+            "confidence": 0.094,
+            "speaker": "A"
+          },
+          {
+            "text": "들으십시오.",
+            "start": 66155,
+            "end": 68436,
+            "confidence": 0.029,
+            "speaker": "A"
+          },
+          {
+            "text": "목까지",
+            "start": 68456,
+            "end": 69237,
+            "confidence": 0.062,
+            "speaker": "A"
+          },
+          {
+            "text": "올라오는",
+            "start": 69417,
+            "end": 70137,
+            "confidence": 0.114,
+            "speaker": "A"
+          },
+          {
+            "text": "옷이나",
+            "start": 70297,
+            "end": 70838,
+            "confidence": 0.034,
+            "speaker": "A"
+          },
+          {
+            "text": "넥타이를",
+            "start": 71638,
+            "end": 72378,
+            "confidence": 0.05,
+            "speaker": "A"
+          },
+          {
+            "text": "착용하는",
+            "start": 72519,
+            "end": 73079,
+            "confidence": 0.171,
+            "speaker": "A"
+          },
+          {
+            "text": "걸",
+            "start": 73199,
+            "end": 73439,
+            "confidence": 0.083,
+            "speaker": "A"
+          },
+          {
+            "text": "불편해하는",
+            "start": 73939,
+            "end": 74700,
+            "confidence": 0.075,
+            "speaker": "A"
+          },
+          {
+            "text": "사람들이",
+            "start": 74840,
+            "end": 75380,
+            "confidence": 0.156,
+            "speaker": "A"
+          },
+          {
+            "text": "있습니다.",
+            "start": 75460,
+            "end": 76621,
+            "confidence": 0.314,
+            "speaker": "A"
+          },
+          {
+            "text": "그건",
+            "start": 77228,
+            "end": 77648,
+            "confidence": 0.05,
+            "speaker": "A"
+          },
+          {
+            "text": "뇌의",
+            "start": 78409,
+            "end": 78849,
+            "confidence": 0.063,
+            "speaker": "A"
+          },
+          {
+            "text": "신경망이",
+            "start": 79029,
+            "end": 79849,
+            "confidence": 0.087,
+            "speaker": "A"
+          },
+          {
+            "text": "피부를",
+            "start": 80510,
+            "end": 80990,
+            "confidence": 0.126,
+            "speaker": "A"
+          },
+          {
+            "text": "압박하는",
+            "start": 81130,
+            "end": 81890,
+            "confidence": 0.086,
+            "speaker": "A"
+          },
+          {
+            "text": "자극을",
+            "start": 82071,
+            "end": 82591,
+            "confidence": 0.112,
+            "speaker": "A"
+          },
+          {
+            "text": "위험한",
+            "start": 83291,
+            "end": 83772,
+            "confidence": 0.13,
+            "speaker": "A"
+          },
+          {
+            "text": "신호로",
+            "start": 83912,
+            "end": 84412,
+            "confidence": 0.076,
+            "speaker": "A"
+          },
+          {
+            "text": "과도하게",
+            "start": 84852,
+            "end": 85592,
+            "confidence": 0.112,
+            "speaker": "A"
+          },
+          {
+            "text": "인식해서",
+            "start": 85713,
+            "end": 86533,
+            "confidence": 0.085,
+            "speaker": "A"
+          },
+          {
+            "text": "나타나는",
+            "start": 86913,
+            "end": 87534,
+            "confidence": 0.105,
+            "speaker": "A"
+          },
+          {
+            "text": "증상입니다.",
+            "start": 87794,
+            "end": 89875,
+            "confidence": 0.04,
+            "speaker": "A"
+          },
+          {
+            "text": "이걸",
+            "start": 89895,
+            "end": 90215,
+            "confidence": 0.127,
+            "speaker": "A"
+          },
+          {
+            "text": "촉각",
+            "start": 90835,
+            "end": 91316,
+            "confidence": 0.034,
+            "speaker": "A"
+          },
+          {
+            "text": "방어라고",
+            "start": 91656,
+            "end": 92196,
+            "confidence": 0.154,
+            "speaker": "A"
+          },
+          {
+            "text": "하죠.",
+            "start": 92276,
+            "end": 94077,
+            "confidence": 0.006,
+            "speaker": "A"
+          },
+          {
+            "text": "이",
+            "start": 94097,
+            "end": 94117,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "증상은",
+            "start": 94277,
+            "end": 94837,
+            "confidence": 0.112,
+            "speaker": "A"
+          },
+          {
+            "text": "신체",
+            "start": 95918,
+            "end": 96378,
+            "confidence": 0.045,
+            "speaker": "A"
+          },
+          {
+            "text": "어디에서나",
+            "start": 96558,
+            "end": 97439,
+            "confidence": 0.117,
+            "speaker": "A"
+          },
+          {
+            "text": "생길",
+            "start": 97699,
+            "end": 98019,
+            "confidence": 0.115,
+            "speaker": "A"
+          },
+          {
+            "text": "수",
+            "start": 98219,
+            "end": 98359,
+            "confidence": 0.143,
+            "speaker": "A"
+          },
+          {
+            "text": "있지만",
+            "start": 98479,
+            "end": 98960,
+            "confidence": 0.13,
+            "speaker": "A"
+          },
+          {
+            "text": "특히",
+            "start": 100040,
+            "end": 100420,
+            "confidence": 0.106,
+            "speaker": "A"
+          },
+          {
+            "text": "목에",
+            "start": 101161,
+            "end": 101621,
+            "confidence": 0.01,
+            "speaker": "A"
+          },
+          {
+            "text": "많이",
+            "start": 101861,
+            "end": 102241,
+            "confidence": 0.122,
+            "speaker": "A"
+          },
+          {
+            "text": "나타나는데요.",
+            "start": 102341,
+            "end": 103382,
+            "confidence": 0.237,
+            "speaker": "A"
+          },
+          {
+            "text": "심한",
+            "start": 104532,
+            "end": 104992,
+            "confidence": 0.03,
+            "speaker": "A"
+          },
+          {
+            "text": "경우",
+            "start": 105092,
+            "end": 105472,
+            "confidence": 0.108,
+            "speaker": "A"
+          },
+          {
+            "text": "미용실에서",
+            "start": 106273,
+            "end": 107233,
+            "confidence": 0.11,
+            "speaker": "A"
+          },
+          {
+            "text": "머리를",
+            "start": 107633,
+            "end": 108093,
+            "confidence": 0.137,
+            "speaker": "A"
+          },
+          {
+            "text": "감거나",
+            "start": 108233,
+            "end": 108913,
+            "confidence": 0.094,
+            "speaker": "A"
+          },
+          {
+            "text": "자를",
+            "start": 109193,
+            "end": 109453,
+            "confidence": 0.133,
+            "speaker": "A"
+          },
+          {
+            "text": "때",
+            "start": 109614,
+            "end": 109814,
+            "confidence": 0.1,
+            "speaker": "A"
+          },
+          {
+            "text": "목이",
+            "start": 110754,
+            "end": 111094,
+            "confidence": 0.09,
+            "speaker": "A"
+          },
+          {
+            "text": "닿는",
+            "start": 111274,
+            "end": 111654,
+            "confidence": 0.1,
+            "speaker": "A"
+          },
+          {
+            "text": "것이",
+            "start": 111774,
+            "end": 112214,
+            "confidence": 0.092,
+            "speaker": "A"
+          },
+          {
+            "text": "걱정돼",
+            "start": 112434,
+            "end": 113075,
+            "confidence": 0.083,
+            "speaker": "A"
+          },
+          {
+            "text": "거부",
+            "start": 113795,
+            "end": 114155,
+            "confidence": 0.125,
+            "speaker": "A"
+          },
+          {
+            "text": "반응을",
+            "start": 114295,
+            "end": 114755,
+            "confidence": 0.129,
+            "speaker": "A"
+          },
+          {
+            "text": "보이기도",
+            "start": 115035,
+            "end": 115535,
+            "confidence": 0.171,
+            "speaker": "A"
+          },
+          {
+            "text": "합니다.",
+            "start": 115655,
+            "end": 116856,
+            "confidence": 0.049,
+            "speaker": "A"
+          },
+          {
+            "text": "이런",
+            "start": 117296,
+            "end": 117576,
+            "confidence": 0.146,
+            "speaker": "A"
+          },
+          {
+            "text": "증상은",
+            "start": 117716,
+            "end": 118276,
+            "confidence": 0.108,
+            "speaker": "A"
+          },
+          {
+            "text": "보통",
+            "start": 119116,
+            "end": 119516,
+            "confidence": 0.088,
+            "speaker": "A"
+          },
+          {
+            "text": "성장하면서",
+            "start": 120077,
+            "end": 121217,
+            "confidence": 0.075,
+            "speaker": "A"
+          },
+          {
+            "text": "자연스럽게",
+            "start": 121557,
+            "end": 122577,
+            "confidence": 0.121,
+            "speaker": "A"
+          },
+          {
+            "text": "없어집니다.",
+            "start": 122877,
+            "end": 124058,
+            "confidence": 0.025,
+            "speaker": "A"
+          },
+          {
+            "text": "하지만",
+            "start": 124958,
+            "end": 125378,
+            "confidence": 0.143,
+            "speaker": "A"
+          },
+          {
+            "text": "성인이",
+            "start": 126158,
+            "end": 126679,
+            "confidence": 0.131,
+            "speaker": "A"
+          },
+          {
+            "text": "되고도",
+            "start": 126799,
+            "end": 127339,
+            "confidence": 0.11,
+            "speaker": "A"
+          },
+          {
+            "text": "남아",
+            "start": 127719,
+            "end": 127999,
+            "confidence": 0.175,
+            "speaker": "A"
+          },
+          {
+            "text": "있거나",
+            "start": 128038,
+            "end": 128559,
+            "confidence": 0.117,
+            "speaker": "A"
+          },
+          {
+            "text": "악화되는",
+            "start": 129179,
+            "end": 129919,
+            "confidence": 0.1,
+            "speaker": "A"
+          },
+          {
+            "text": "경우도",
+            "start": 130039,
+            "end": 130479,
+            "confidence": 0.14,
+            "speaker": "A"
+          },
+          {
+            "text": "있습니다.",
+            "start": 130759,
+            "end": 131600,
+            "confidence": 0.314,
+            "speaker": "A"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.10378461,
+    "audio_duration": 134
+  },
+  {
+    "status_script": "completed",
+    "id": "dce1bc51-927c-41e2-b314-7745bff3ce89",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_35-36.mp3",
+    "text": "오늘 이렇게 배구 선수로서의 마지막 경기를 마련해 주신 대한배구협회와 국내뿐만 아니라 해외에서도 와주신 팬분들께 감사드립니다. 고등학교 때 처음 국가대표 유니폼을 입고 17년 동안 3번의 올림픽과 4번의 아시안게임에 출전하면서 우리나라를 대표할 수 있어 영광이었습니다. 다만, 2년 전 올림픽에서 우승하지 못한 것이 조금 아쉽기는 한데요. 저의 이런 아쉬움은 앞으로 태극마크를 달고 뛸 후배들이 달래줄 거라 믿습니다. 저는 코트를 떠나지만 배구에 대한 여러분의 사랑은 변함없으리라 생각합니다. 감사합니다. 다시 들으십시오. 오늘 이렇게 배구 선수로서의 마지막 경기를 마련해 주신 대한배구협회와 국내뿐만 아니라 해외에서도 와주신 팬분들께 감사드립니다. 고등학교 때 처음 국가대표 유니폼을 입고 17년 동안 3번의 올림픽과 4번의 아시안게임에 출전하면서 우리나라를 대표할 수 있어 영광이었습니다. 다만 2년 전 올림픽에서 우승하지 못한 것이 조금 아쉽기는 한데요. 저의 이런 아쉬움은 앞으로 태극마크를 달고 뛸 후배들이 달래줄 거라 믿습니다. 저는 코트를 떠나지만 배구에 대한 여러분의 사랑은 변함없으리라 생각합니다. 감사합니다.",
+    "utterances": [
+      {
+        "speaker": "A",
+        "text": "오늘 이렇게 배구 선수로서의 마지막 경기를 마련해 주신 대한배구협회와 국내뿐만 아니라 해외에서도 와주신 팬분들께 감사드립니다. 고등학교 때 처음 국가대표 유니폼을 입고 17년 동안 3번의 올림픽과 4번의 아시안게임에 출전하면서 우리나라를 대표할 수 있어 영광이었습니다. 다만, 2년 전 올림픽에서 우승하지 못한 것이 조금 아쉽기는 한데요. 저의 이런 아쉬움은 앞으로 태극마크를 달고 뛸 후배들이 달래줄 거라 믿습니다. 저는 코트를 떠나지만 배구에 대한 여러분의 사랑은 변함없으리라 생각합니다. 감사합니다. 다시 들으십시오. 오늘 이렇게 배구 선수로서의 마지막 경기를 마련해 주신 대한배구협회와 국내뿐만 아니라 해외에서도 와주신 팬분들께 감사드립니다. 고등학교 때 처음 국가대표 유니폼을 입고 17년 동안 3번의 올림픽과 4번의 아시안게임에 출전하면서 우리나라를 대표할 수 있어 영광이었습니다. 다만 2년 전 올림픽에서 우승하지 못한 것이 조금 아쉽기는 한데요. 저의 이런 아쉬움은 앞으로 태극마크를 달고 뛸 후배들이 달래줄 거라 믿습니다. 저는 코트를 떠나지만 배구에 대한 여러분의 사랑은 변함없으리라 생각합니다. 감사합니다.",
+        "confidence": 0.1037,
+        "start": 8,
+        "end": 136983,
+        "words": [
+          {
+            "text": "오늘",
+            "start": 8,
+            "end": 648,
+            "confidence": 0.035,
+            "speaker": "A"
+          },
+          {
+            "text": "이렇게",
+            "start": 788,
+            "end": 1368,
+            "confidence": 0.056,
+            "speaker": "A"
+          },
+          {
+            "text": "배구",
+            "start": 2309,
+            "end": 2629,
+            "confidence": 0.002,
+            "speaker": "A"
+          },
+          {
+            "text": "선수로서의",
+            "start": 2749,
+            "end": 3669,
+            "confidence": 0.084,
+            "speaker": "A"
+          },
+          {
+            "text": "마지막",
+            "start": 4029,
+            "end": 4449,
+            "confidence": 0.145,
+            "speaker": "A"
+          },
+          {
+            "text": "경기를",
+            "start": 4569,
+            "end": 5109,
+            "confidence": 0.14,
+            "speaker": "A"
+          },
+          {
+            "text": "마련해",
+            "start": 5309,
+            "end": 5629,
+            "confidence": 0.214,
+            "speaker": "A"
+          },
+          {
+            "text": "주신",
+            "start": 5709,
+            "end": 6009,
+            "confidence": 0.04,
+            "speaker": "A"
+          },
+          {
+            "text": "대한배구협회와",
+            "start": 6870,
+            "end": 8210,
+            "confidence": 0.026,
+            "speaker": "A"
+          },
+          {
+            "text": "국내뿐만",
+            "start": 9410,
+            "end": 10110,
+            "confidence": 0.125,
+            "speaker": "A"
+          },
+          {
+            "text": "아니라",
+            "start": 10170,
+            "end": 10550,
+            "confidence": 0.173,
+            "speaker": "A"
+          },
+          {
+            "text": "해외에서도",
+            "start": 11371,
+            "end": 12111,
+            "confidence": 0.106,
+            "speaker": "A"
+          },
+          {
+            "text": "와주신",
+            "start": 12251,
+            "end": 12751,
+            "confidence": 0.078,
+            "speaker": "A"
+          },
+          {
+            "text": "팬분들께",
+            "start": 13071,
+            "end": 13951,
+            "confidence": 0.047,
+            "speaker": "A"
+          },
+          {
+            "text": "감사드립니다.",
+            "start": 14651,
+            "end": 15272,
+            "confidence": 0.108,
+            "speaker": "A"
+          },
+          {
+            "text": "고등학교",
+            "start": 17092,
+            "end": 17412,
+            "confidence": 0.143,
+            "speaker": "A"
+          },
+          {
+            "text": "때",
+            "start": 17672,
+            "end": 17972,
+            "confidence": 0.001,
+            "speaker": "A"
+          },
+          {
+            "text": "처음",
+            "start": 18712,
+            "end": 19092,
+            "confidence": 0.053,
+            "speaker": "A"
+          },
+          {
+            "text": "국가대표",
+            "start": 19793,
+            "end": 20553,
+            "confidence": 0.066,
+            "speaker": "A"
+          },
+          {
+            "text": "유니폼을",
+            "start": 20693,
+            "end": 21213,
+            "confidence": 0.06,
+            "speaker": "A"
+          },
+          {
+            "text": "입고",
+            "start": 21273,
+            "end": 23153,
+            "confidence": 0.044,
+            "speaker": "A"
+          },
+          {
+            "text": "17년",
+            "start": 23213,
+            "end": 23353,
+            "confidence": 0.143,
+            "speaker": "A"
+          },
+          {
+            "text": "동안",
+            "start": 23473,
+            "end": 23734,
+            "confidence": 0.162,
+            "speaker": "A"
+          },
+          {
+            "text": "3번의",
+            "start": 24614,
+            "end": 24954,
+            "confidence": 0.044,
+            "speaker": "A"
+          },
+          {
+            "text": "올림픽과",
+            "start": 25134,
+            "end": 25994,
+            "confidence": 0.001,
+            "speaker": "A"
+          },
+          {
+            "text": "4번의",
+            "start": 27134,
+            "end": 27434,
+            "confidence": 0.056,
+            "speaker": "A"
+          },
+          {
+            "text": "아시안게임에",
+            "start": 27694,
+            "end": 28775,
+            "confidence": 0.071,
+            "speaker": "A"
+          },
+          {
+            "text": "출전하면서",
+            "start": 29015,
+            "end": 29695,
+            "confidence": 0.26,
+            "speaker": "A"
+          },
+          {
+            "text": "우리나라를",
+            "start": 30856,
+            "end": 31656,
+            "confidence": 0.108,
+            "speaker": "A"
+          },
+          {
+            "text": "대표할",
+            "start": 31957,
+            "end": 32517,
+            "confidence": 0.12,
+            "speaker": "A"
+          },
+          {
+            "text": "수",
+            "start": 32697,
+            "end": 32777,
+            "confidence": 0.25,
+            "speaker": "A"
+          },
+          {
+            "text": "있어",
+            "start": 32797,
+            "end": 33237,
+            "confidence": 0.098,
+            "speaker": "A"
+          },
+          {
+            "text": "영광이었습니다.",
+            "start": 33818,
+            "end": 36719,
+            "confidence": 0.078,
+            "speaker": "A"
+          },
+          {
+            "text": "다만,",
+            "start": 36739,
+            "end": 37760,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "2년",
+            "start": 37840,
+            "end": 38000,
+            "confidence": 0.007,
+            "speaker": "A"
+          },
+          {
+            "text": "전",
+            "start": 38140,
+            "end": 38300,
+            "confidence": 0.124,
+            "speaker": "A"
+          },
+          {
+            "text": "올림픽에서",
+            "start": 38760,
+            "end": 39661,
+            "confidence": 0.107,
+            "speaker": "A"
+          },
+          {
+            "text": "우승하지",
+            "start": 40281,
+            "end": 40881,
+            "confidence": 0.062,
+            "speaker": "A"
+          },
+          {
+            "text": "못한",
+            "start": 41001,
+            "end": 41381,
+            "confidence": 0.113,
+            "speaker": "A"
+          },
+          {
+            "text": "것이",
+            "start": 41481,
+            "end": 41882,
+            "confidence": 0.101,
+            "speaker": "A"
+          },
+          {
+            "text": "조금",
+            "start": 42522,
+            "end": 42842,
+            "confidence": 0.125,
+            "speaker": "A"
+          },
+          {
+            "text": "아쉽기는",
+            "start": 43182,
+            "end": 43763,
+            "confidence": 0.088,
+            "speaker": "A"
+          },
+          {
+            "text": "한데요.",
+            "start": 43863,
+            "end": 46124,
+            "confidence": 0.018,
+            "speaker": "A"
+          },
+          {
+            "text": "저의",
+            "start": 46144,
+            "end": 46184,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "이런",
+            "start": 46364,
+            "end": 46724,
+            "confidence": 0.026,
+            "speaker": "A"
+          },
+          {
+            "text": "아쉬움은",
+            "start": 46804,
+            "end": 47384,
+            "confidence": 0.003,
+            "speaker": "A"
+          },
+          {
+            "text": "앞으로",
+            "start": 48525,
+            "end": 48985,
+            "confidence": 0.142,
+            "speaker": "A"
+          },
+          {
+            "text": "태극마크를",
+            "start": 49506,
+            "end": 50306,
+            "confidence": 0.111,
+            "speaker": "A"
+          },
+          {
+            "text": "달고",
+            "start": 50406,
+            "end": 51126,
+            "confidence": 0.06,
+            "speaker": "A"
+          },
+          {
+            "text": "뛸",
+            "start": 51136,
+            "end": 51437,
+            "confidence": 0.5,
+            "speaker": "A"
+          },
+          {
+            "text": "후배들이",
+            "start": 51447,
+            "end": 52007,
+            "confidence": 0.115,
+            "speaker": "A"
+          },
+          {
+            "text": "달래줄",
+            "start": 52847,
+            "end": 53307,
+            "confidence": 0.115,
+            "speaker": "A"
+          },
+          {
+            "text": "거라",
+            "start": 53448,
+            "end": 53748,
+            "confidence": 0.138,
+            "speaker": "A"
+          },
+          {
+            "text": "믿습니다.",
+            "start": 53888,
+            "end": 55629,
+            "confidence": 0.087,
+            "speaker": "A"
+          },
+          {
+            "text": "저는",
+            "start": 55829,
+            "end": 56129,
+            "confidence": 0.064,
+            "speaker": "A"
+          },
+          {
+            "text": "코트를",
+            "start": 56849,
+            "end": 57310,
+            "confidence": 0.074,
+            "speaker": "A"
+          },
+          {
+            "text": "떠나지만",
+            "start": 57450,
+            "end": 57850,
+            "confidence": 0.368,
+            "speaker": "A"
+          },
+          {
+            "text": "배구에",
+            "start": 59273,
+            "end": 59693,
+            "confidence": 0.138,
+            "speaker": "A"
+          },
+          {
+            "text": "대한",
+            "start": 59793,
+            "end": 60073,
+            "confidence": 0.142,
+            "speaker": "A"
+          },
+          {
+            "text": "여러분의",
+            "start": 60533,
+            "end": 61013,
+            "confidence": 0.179,
+            "speaker": "A"
+          },
+          {
+            "text": "사랑은",
+            "start": 61133,
+            "end": 61534,
+            "confidence": 0.098,
+            "speaker": "A"
+          },
+          {
+            "text": "변함없으리라",
+            "start": 62294,
+            "end": 63194,
+            "confidence": 0.073,
+            "speaker": "A"
+          },
+          {
+            "text": "생각합니다.",
+            "start": 63574,
+            "end": 65175,
+            "confidence": 0.083,
+            "speaker": "A"
+          },
+          {
+            "text": "감사합니다.",
+            "start": 65615,
+            "end": 67775,
+            "confidence": 0.107,
+            "speaker": "A"
+          },
+          {
+            "text": "다시",
+            "start": 67795,
+            "end": 68215,
+            "confidence": 0.007,
+            "speaker": "A"
+          },
+          {
+            "text": "들으십시오.",
+            "start": 68375,
+            "end": 69036,
+            "confidence": 0.042,
+            "speaker": "A"
+          },
+          {
+            "text": "오늘",
+            "start": 70896,
+            "end": 71336,
+            "confidence": 0.104,
+            "speaker": "A"
+          },
+          {
+            "text": "이렇게",
+            "start": 71456,
+            "end": 72036,
+            "confidence": 0.109,
+            "speaker": "A"
+          },
+          {
+            "text": "배구",
+            "start": 72997,
+            "end": 73317,
+            "confidence": 0.007,
+            "speaker": "A"
+          },
+          {
+            "text": "선수로서의",
+            "start": 73417,
+            "end": 74337,
+            "confidence": 0.121,
+            "speaker": "A"
+          },
+          {
+            "text": "마지막",
+            "start": 74697,
+            "end": 75117,
+            "confidence": 0.151,
+            "speaker": "A"
+          },
+          {
+            "text": "경기를",
+            "start": 75237,
+            "end": 75797,
+            "confidence": 0.137,
+            "speaker": "A"
+          },
+          {
+            "text": "마련해",
+            "start": 75977,
+            "end": 76297,
+            "confidence": 0.214,
+            "speaker": "A"
+          },
+          {
+            "text": "주신",
+            "start": 76377,
+            "end": 76678,
+            "confidence": 0.071,
+            "speaker": "A"
+          },
+          {
+            "text": "대한배구협회와",
+            "start": 77538,
+            "end": 78878,
+            "confidence": 0.05,
+            "speaker": "A"
+          },
+          {
+            "text": "국내뿐만",
+            "start": 80078,
+            "end": 80799,
+            "confidence": 0.115,
+            "speaker": "A"
+          },
+          {
+            "text": "아니라",
+            "start": 80839,
+            "end": 81199,
+            "confidence": 0.17,
+            "speaker": "A"
+          },
+          {
+            "text": "해외에서도",
+            "start": 81219,
+            "end": 82779,
+            "confidence": 0.11,
+            "speaker": "A"
+          },
+          {
+            "text": "와주신",
+            "start": 82919,
+            "end": 83439,
+            "confidence": 0.093,
+            "speaker": "A"
+          },
+          {
+            "text": "팬분들께",
+            "start": 83759,
+            "end": 84620,
+            "confidence": 0.003,
+            "speaker": "A"
+          },
+          {
+            "text": "감사드립니다.",
+            "start": 85320,
+            "end": 86240,
+            "confidence": 0.212,
+            "speaker": "A"
+          },
+          {
+            "text": "고등학교",
+            "start": 87691,
+            "end": 88632,
+            "confidence": 0.08,
+            "speaker": "A"
+          },
+          {
+            "text": "때",
+            "start": 88652,
+            "end": 88672,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "처음",
+            "start": 89372,
+            "end": 89753,
+            "confidence": 0.078,
+            "speaker": "A"
+          },
+          {
+            "text": "국가대표",
+            "start": 90473,
+            "end": 91214,
+            "confidence": 0.083,
+            "speaker": "A"
+          },
+          {
+            "text": "유니폼을",
+            "start": 91354,
+            "end": 91874,
+            "confidence": 0.042,
+            "speaker": "A"
+          },
+          {
+            "text": "입고",
+            "start": 91934,
+            "end": 93836,
+            "confidence": 0.008,
+            "speaker": "A"
+          },
+          {
+            "text": "17년",
+            "start": 93896,
+            "end": 94016,
+            "confidence": 0.167,
+            "speaker": "A"
+          },
+          {
+            "text": "동안",
+            "start": 94156,
+            "end": 94396,
+            "confidence": 0.15,
+            "speaker": "A"
+          },
+          {
+            "text": "3번의",
+            "start": 95277,
+            "end": 95617,
+            "confidence": 0.042,
+            "speaker": "A"
+          },
+          {
+            "text": "올림픽과",
+            "start": 95798,
+            "end": 96658,
+            "confidence": 0.042,
+            "speaker": "A"
+          },
+          {
+            "text": "4번의",
+            "start": 97799,
+            "end": 98099,
+            "confidence": 0.054,
+            "speaker": "A"
+          },
+          {
+            "text": "아시안게임에",
+            "start": 98360,
+            "end": 99460,
+            "confidence": 0.086,
+            "speaker": "A"
+          },
+          {
+            "text": "출전하면서",
+            "start": 99681,
+            "end": 101142,
+            "confidence": 0.095,
+            "speaker": "A"
+          },
+          {
+            "text": "우리나라를",
+            "start": 101622,
+            "end": 102323,
+            "confidence": 0.147,
+            "speaker": "A"
+          },
+          {
+            "text": "대표할",
+            "start": 102643,
+            "end": 103183,
+            "confidence": 0.061,
+            "speaker": "A"
+          },
+          {
+            "text": "수",
+            "start": 103364,
+            "end": 103444,
+            "confidence": 0.24,
+            "speaker": "A"
+          },
+          {
+            "text": "있어",
+            "start": 103484,
+            "end": 103924,
+            "confidence": 0.098,
+            "speaker": "A"
+          },
+          {
+            "text": "영광이었습니다.",
+            "start": 104504,
+            "end": 107407,
+            "confidence": 0.064,
+            "speaker": "A"
+          },
+          {
+            "text": "다만",
+            "start": 107427,
+            "end": 108428,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "2년",
+            "start": 108528,
+            "end": 108688,
+            "confidence": 0.125,
+            "speaker": "A"
+          },
+          {
+            "text": "전",
+            "start": 108808,
+            "end": 108988,
+            "confidence": 0.1,
+            "speaker": "A"
+          },
+          {
+            "text": "올림픽에서",
+            "start": 109428,
+            "end": 110349,
+            "confidence": 0.069,
+            "speaker": "A"
+          },
+          {
+            "text": "우승하지",
+            "start": 110970,
+            "end": 111570,
+            "confidence": 0.037,
+            "speaker": "A"
+          },
+          {
+            "text": "못한",
+            "start": 111690,
+            "end": 112051,
+            "confidence": 0.106,
+            "speaker": "A"
+          },
+          {
+            "text": "것이",
+            "start": 112151,
+            "end": 112551,
+            "confidence": 0.101,
+            "speaker": "A"
+          },
+          {
+            "text": "조금",
+            "start": 113211,
+            "end": 113552,
+            "confidence": 0.118,
+            "speaker": "A"
+          },
+          {
+            "text": "아쉽기는",
+            "start": 113852,
+            "end": 114432,
+            "confidence": 0.11,
+            "speaker": "A"
+          },
+          {
+            "text": "한데요.",
+            "start": 114533,
+            "end": 115113,
+            "confidence": 0.38,
+            "speaker": "A"
+          },
+          {
+            "text": "저의",
+            "start": 116260,
+            "end": 116841,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "이런",
+            "start": 117041,
+            "end": 117501,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "아쉬움은",
+            "start": 117521,
+            "end": 118082,
+            "confidence": 0.021,
+            "speaker": "A"
+          },
+          {
+            "text": "앞으로",
+            "start": 119203,
+            "end": 119644,
+            "confidence": 0.153,
+            "speaker": "A"
+          },
+          {
+            "text": "태극마크를",
+            "start": 120164,
+            "end": 120965,
+            "confidence": 0.088,
+            "speaker": "A"
+          },
+          {
+            "text": "달고",
+            "start": 121065,
+            "end": 121766,
+            "confidence": 0.022,
+            "speaker": "A"
+          },
+          {
+            "text": "뛸",
+            "start": 121776,
+            "end": 122096,
+            "confidence": 0.5,
+            "speaker": "A"
+          },
+          {
+            "text": "후배들이",
+            "start": 122106,
+            "end": 122667,
+            "confidence": 0.109,
+            "speaker": "A"
+          },
+          {
+            "text": "달래줄",
+            "start": 123508,
+            "end": 123989,
+            "confidence": 0.095,
+            "speaker": "A"
+          },
+          {
+            "text": "거라",
+            "start": 124109,
+            "end": 124409,
+            "confidence": 0.138,
+            "speaker": "A"
+          },
+          {
+            "text": "믿습니다.",
+            "start": 124549,
+            "end": 125991,
+            "confidence": 0.07,
+            "speaker": "A"
+          },
+          {
+            "text": "저는",
+            "start": 126491,
+            "end": 126792,
+            "confidence": 0.134,
+            "speaker": "A"
+          },
+          {
+            "text": "코트를",
+            "start": 127512,
+            "end": 127973,
+            "confidence": 0.064,
+            "speaker": "A"
+          },
+          {
+            "text": "떠나지만",
+            "start": 128113,
+            "end": 128594,
+            "confidence": 0.168,
+            "speaker": "A"
+          },
+          {
+            "text": "배구에",
+            "start": 130014,
+            "end": 130376,
+            "confidence": 0.115,
+            "speaker": "A"
+          },
+          {
+            "text": "대한",
+            "start": 130476,
+            "end": 130756,
+            "confidence": 0.143,
+            "speaker": "A"
+          },
+          {
+            "text": "여러분의",
+            "start": 131217,
+            "end": 131697,
+            "confidence": 0.18,
+            "speaker": "A"
+          },
+          {
+            "text": "사랑은",
+            "start": 131817,
+            "end": 132218,
+            "confidence": 0.126,
+            "speaker": "A"
+          },
+          {
+            "text": "변함없으리라",
+            "start": 132979,
+            "end": 133880,
+            "confidence": 0.055,
+            "speaker": "A"
+          },
+          {
+            "text": "생각합니다.",
+            "start": 134260,
+            "end": 135842,
+            "confidence": 0.078,
+            "speaker": "A"
+          },
+          {
+            "text": "감사합니다.",
+            "start": 136302,
+            "end": 136983,
+            "confidence": 0.318,
+            "speaker": "A"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.10871774,
+    "audio_duration": 140
+  },
+  {
+    "status_script": "completed",
+    "id": "a82afbd1-c35d-4bf0-8e06-73ad3070e6b7",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_37-38.mp3",
+    "text": "요즘 각 도시마다 도심의 공원을 늘리는 추세인데요. 공원을 조성할 때 어떤 점에 신경을 써야 하나요? 예전에 만든 공원은 어디에 있든 구조나 시설이 비슷비슷했죠. 하지만 최근에 공원을 보면 그곳을 주로 찾는. 사람들의 생활을 분석하여 반영했음을 알 수 있습니다. 인주시립영원에 있는 공원이 좋은 예죠. 인주시는 이 공원을 조성하면서 주변이 보이지 않을. 정도로 빽빽하게 나무를 심어 숲을 만들었는데요. 거기에서 주변을 신경 쓰지 않고 환자들이 혼자만의 시간을 갖기도 하고 간호하느라 지친 보호자나 의료진이. 언제든지 찾아와 아늑함을 느끼며 쉴 수 있도록 한 것이죠. 다시 들으십시오. 요즘 각 도시마다 도심의 공원을 늘리는 추세인데요. 공원을 조성할 때 어떤 점에 신경을 써야 하나요? 예전에 만든 공원은 어디에 있든 구조나 시설이 비슷비슷했죠. 하지만 최근에 공원을 보면 그곳을 주로 찾는. 사람들의 생활을 분석하여 반영했음을 알 수 있습니다. 인주시립영원에 있는 공원이 좋은 예죠. 인주시는 이 공원을 조성하면서 주변이 보이지 않을. 정도로 빽빽하게 나무를 심어 숲을 만들었는데요. 거기에서 주변을 신경 쓰지 않고 환자들이 혼자만의 시간을 갖기도 하고 간호하느라 지친 보호자나 의료진이. 언제든지 찾아와 아늑함을 느끼며 쉴 수 있도록 한 것이죠.",
+    "utterances": [
+      {
+        "speaker": "A",
+        "text": "요즘 각 도시마다 도심의 공원을 늘리는 추세인데요. 공원을 조성할 때 어떤 점에 신경을 써야 하나요?",
+        "confidence": 0.083,
+        "start": 1156,
+        "end": 13342,
+        "words": [
+          {
+            "text": "요즘",
+            "start": 1156,
+            "end": 1636,
+            "confidence": 0.006,
+            "speaker": "A"
+          },
+          {
+            "text": "각",
+            "start": 2096,
+            "end": 2196,
+            "confidence": 0.13,
+            "speaker": "A"
+          },
+          {
+            "text": "도시마다",
+            "start": 2417,
+            "end": 3157,
+            "confidence": 0.057,
+            "speaker": "A"
+          },
+          {
+            "text": "도심의",
+            "start": 3657,
+            "end": 4237,
+            "confidence": 0.067,
+            "speaker": "A"
+          },
+          {
+            "text": "공원을",
+            "start": 4578,
+            "end": 5038,
+            "confidence": 0.13,
+            "speaker": "A"
+          },
+          {
+            "text": "늘리는",
+            "start": 5158,
+            "end": 5578,
+            "confidence": 0.145,
+            "speaker": "A"
+          },
+          {
+            "text": "추세인데요.",
+            "start": 5778,
+            "end": 7039,
+            "confidence": 0.005,
+            "speaker": "A"
+          },
+          {
+            "text": "공원을",
+            "start": 7539,
+            "end": 7999,
+            "confidence": 0.131,
+            "speaker": "A"
+          },
+          {
+            "text": "조성할",
+            "start": 8159,
+            "end": 8579,
+            "confidence": 0.146,
+            "speaker": "A"
+          },
+          {
+            "text": "때",
+            "start": 8759,
+            "end": 8899,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "어떤",
+            "start": 9500,
+            "end": 9880,
+            "confidence": 0.113,
+            "speaker": "A"
+          },
+          {
+            "text": "점에",
+            "start": 10040,
+            "end": 10440,
+            "confidence": 0.002,
+            "speaker": "A"
+          },
+          {
+            "text": "신경을",
+            "start": 10800,
+            "end": 11361,
+            "confidence": 0.076,
+            "speaker": "A"
+          },
+          {
+            "text": "써야",
+            "start": 11601,
+            "end": 11821,
+            "confidence": 0.195,
+            "speaker": "A"
+          },
+          {
+            "text": "하나요?",
+            "start": 11921,
+            "end": 13342,
+            "confidence": 0.042,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "예전에 만든 공원은 어디에 있든 구조나 시설이 비슷비슷했죠. 하지만 최근에 공원을 보면 그곳을 주로 찾는.",
+        "confidence": 0.088866666,
+        "start": 13822,
+        "end": 27989,
+        "words": [
+          {
+            "text": "예전에",
+            "start": 13822,
+            "end": 14362,
+            "confidence": 0.071,
+            "speaker": "B"
+          },
+          {
+            "text": "만든",
+            "start": 14462,
+            "end": 14902,
+            "confidence": 0.102,
+            "speaker": "B"
+          },
+          {
+            "text": "공원은",
+            "start": 15162,
+            "end": 15703,
+            "confidence": 0.038,
+            "speaker": "B"
+          },
+          {
+            "text": "어디에",
+            "start": 16463,
+            "end": 16903,
+            "confidence": 0.147,
+            "speaker": "B"
+          },
+          {
+            "text": "있든",
+            "start": 16923,
+            "end": 17303,
+            "confidence": 0.071,
+            "speaker": "B"
+          },
+          {
+            "text": "구조나",
+            "start": 17884,
+            "end": 18464,
+            "confidence": 0.077,
+            "speaker": "B"
+          },
+          {
+            "text": "시설이",
+            "start": 18644,
+            "end": 19284,
+            "confidence": 0.062,
+            "speaker": "B"
+          },
+          {
+            "text": "비슷비슷했죠.",
+            "start": 19664,
+            "end": 20665,
+            "confidence": 0.01,
+            "speaker": "B"
+          },
+          {
+            "text": "하지만",
+            "start": 22125,
+            "end": 22606,
+            "confidence": 0.126,
+            "speaker": "B"
+          },
+          {
+            "text": "최근에",
+            "start": 23346,
+            "end": 23866,
+            "confidence": 0.119,
+            "speaker": "B"
+          },
+          {
+            "text": "공원을",
+            "start": 24086,
+            "end": 24587,
+            "confidence": 0.126,
+            "speaker": "B"
+          },
+          {
+            "text": "보면",
+            "start": 24687,
+            "end": 24887,
+            "confidence": 0.049,
+            "speaker": "B"
+          },
+          {
+            "text": "그곳을",
+            "start": 26148,
+            "end": 26888,
+            "confidence": 0.048,
+            "speaker": "B"
+          },
+          {
+            "text": "주로",
+            "start": 27168,
+            "end": 27388,
+            "confidence": 0.183,
+            "speaker": "B"
+          },
+          {
+            "text": "찾는.",
+            "start": 27549,
+            "end": 27989,
+            "confidence": 0.104,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "C",
+        "text": "사람들의 생활을 분석하여 반영했음을 알 수 있습니다.",
+        "confidence": 0.128,
+        "start": 28189,
+        "end": 34451,
+        "words": [
+          {
+            "text": "사람들의",
+            "start": 28189,
+            "end": 28889,
+            "confidence": 0.121,
+            "speaker": "C"
+          },
+          {
+            "text": "생활을",
+            "start": 29069,
+            "end": 29589,
+            "confidence": 0.113,
+            "speaker": "C"
+          },
+          {
+            "text": "분석하여",
+            "start": 29769,
+            "end": 30650,
+            "confidence": 0.07,
+            "speaker": "C"
+          },
+          {
+            "text": "반영했음을",
+            "start": 31010,
+            "end": 31970,
+            "confidence": 0.026,
+            "speaker": "C"
+          },
+          {
+            "text": "알",
+            "start": 32270,
+            "end": 32390,
+            "confidence": 0.167,
+            "speaker": "C"
+          },
+          {
+            "text": "수",
+            "start": 32549,
+            "end": 32610,
+            "confidence": 0.333,
+            "speaker": "C"
+          },
+          {
+            "text": "있습니다.",
+            "start": 32630,
+            "end": 34451,
+            "confidence": 0.066,
+            "speaker": "C"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "인주시립영원에 있는 공원이 좋은 예죠. 인주시는 이 공원을 조성하면서 주변이 보이지 않을.",
+        "confidence": 0.11991667,
+        "start": 34791,
+        "end": 46596,
+        "words": [
+          {
+            "text": "인주시립영원에",
+            "start": 34791,
+            "end": 36332,
+            "confidence": 0.079,
+            "speaker": "B"
+          },
+          {
+            "text": "있는",
+            "start": 36372,
+            "end": 36712,
+            "confidence": 0.096,
+            "speaker": "B"
+          },
+          {
+            "text": "공원이",
+            "start": 36972,
+            "end": 37472,
+            "confidence": 0.114,
+            "speaker": "B"
+          },
+          {
+            "text": "좋은",
+            "start": 38052,
+            "end": 38353,
+            "confidence": 0.13,
+            "speaker": "B"
+          },
+          {
+            "text": "예죠.",
+            "start": 38553,
+            "end": 38773,
+            "confidence": 0.221,
+            "speaker": "B"
+          },
+          {
+            "text": "인주시는",
+            "start": 40453,
+            "end": 41194,
+            "confidence": 0.065,
+            "speaker": "B"
+          },
+          {
+            "text": "이",
+            "start": 42014,
+            "end": 42174,
+            "confidence": 0.125,
+            "speaker": "B"
+          },
+          {
+            "text": "공원을",
+            "start": 42334,
+            "end": 42894,
+            "confidence": 0.109,
+            "speaker": "B"
+          },
+          {
+            "text": "조성하면서",
+            "start": 43134,
+            "end": 44135,
+            "confidence": 0.101,
+            "speaker": "B"
+          },
+          {
+            "text": "주변이",
+            "start": 44935,
+            "end": 45475,
+            "confidence": 0.116,
+            "speaker": "B"
+          },
+          {
+            "text": "보이지",
+            "start": 45695,
+            "end": 46135,
+            "confidence": 0.145,
+            "speaker": "B"
+          },
+          {
+            "text": "않을.",
+            "start": 46295,
+            "end": 46596,
+            "confidence": 0.138,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "C",
+        "text": "정도로 빽빽하게 나무를 심어 숲을 만들었는데요.",
+        "confidence": 0.108666666,
+        "start": 46756,
+        "end": 53198,
+        "words": [
+          {
+            "text": "정도로",
+            "start": 46756,
+            "end": 47356,
+            "confidence": 0.101,
+            "speaker": "C"
+          },
+          {
+            "text": "빽빽하게",
+            "start": 48536,
+            "end": 49036,
+            "confidence": 0.084,
+            "speaker": "C"
+          },
+          {
+            "text": "나무를",
+            "start": 49477,
+            "end": 49997,
+            "confidence": 0.077,
+            "speaker": "C"
+          },
+          {
+            "text": "심어",
+            "start": 50217,
+            "end": 50557,
+            "confidence": 0.112,
+            "speaker": "C"
+          },
+          {
+            "text": "숲을",
+            "start": 51077,
+            "end": 51657,
+            "confidence": 0.024,
+            "speaker": "C"
+          },
+          {
+            "text": "만들었는데요.",
+            "start": 52038,
+            "end": 53198,
+            "confidence": 0.254,
+            "speaker": "C"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "거기에서 주변을 신경 쓰지 않고 환자들이 혼자만의 시간을 갖기도 하고 간호하느라 지친 보호자나 의료진이.",
+        "confidence": 0.09157143,
+        "start": 54346,
+        "end": 69179,
+        "words": [
+          {
+            "text": "거기에서",
+            "start": 54346,
+            "end": 55327,
+            "confidence": 0.067,
+            "speaker": "B"
+          },
+          {
+            "text": "주변을",
+            "start": 55947,
+            "end": 56548,
+            "confidence": 0.101,
+            "speaker": "B"
+          },
+          {
+            "text": "신경",
+            "start": 56828,
+            "end": 57188,
+            "confidence": 0.112,
+            "speaker": "B"
+          },
+          {
+            "text": "쓰지",
+            "start": 57369,
+            "end": 57629,
+            "confidence": 0.178,
+            "speaker": "B"
+          },
+          {
+            "text": "않고",
+            "start": 57709,
+            "end": 58189,
+            "confidence": 0.092,
+            "speaker": "B"
+          },
+          {
+            "text": "환자들이",
+            "start": 59010,
+            "end": 59831,
+            "confidence": 0.097,
+            "speaker": "B"
+          },
+          {
+            "text": "혼자만의",
+            "start": 60431,
+            "end": 61232,
+            "confidence": 0.049,
+            "speaker": "B"
+          },
+          {
+            "text": "시간을",
+            "start": 61412,
+            "end": 61993,
+            "confidence": 0.105,
+            "speaker": "B"
+          },
+          {
+            "text": "갖기도",
+            "start": 62193,
+            "end": 62633,
+            "confidence": 0.133,
+            "speaker": "B"
+          },
+          {
+            "text": "하고",
+            "start": 62713,
+            "end": 63094,
+            "confidence": 0.096,
+            "speaker": "B"
+          },
+          {
+            "text": "간호하느라",
+            "start": 64495,
+            "end": 65376,
+            "confidence": 0.084,
+            "speaker": "B"
+          },
+          {
+            "text": "지친",
+            "start": 65596,
+            "end": 66256,
+            "confidence": 0.022,
+            "speaker": "B"
+          },
+          {
+            "text": "보호자나",
+            "start": 66517,
+            "end": 68338,
+            "confidence": 0.044,
+            "speaker": "B"
+          },
+          {
+            "text": "의료진이.",
+            "start": 68358,
+            "end": 69179,
+            "confidence": 0.102,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "C",
+        "text": "언제든지 찾아와 아늑함을 느끼며 쉴 수 있도록 한 것이죠. 다시 들으십시오.",
+        "confidence": 0.1289091,
+        "start": 69559,
+        "end": 79388,
+        "words": [
+          {
+            "text": "언제든지",
+            "start": 69559,
+            "end": 70420,
+            "confidence": 0.04,
+            "speaker": "C"
+          },
+          {
+            "text": "찾아와",
+            "start": 70600,
+            "end": 71181,
+            "confidence": 0.044,
+            "speaker": "C"
+          },
+          {
+            "text": "아늑함을",
+            "start": 71861,
+            "end": 72742,
+            "confidence": 0.062,
+            "speaker": "C"
+          },
+          {
+            "text": "느끼며",
+            "start": 72962,
+            "end": 73663,
+            "confidence": 0.061,
+            "speaker": "C"
+          },
+          {
+            "text": "쉴",
+            "start": 73673,
+            "end": 74434,
+            "confidence": 0.5,
+            "speaker": "C"
+          },
+          {
+            "text": "수",
+            "start": 74444,
+            "end": 74544,
+            "confidence": 0.199,
+            "speaker": "C"
+          },
+          {
+            "text": "있도록",
+            "start": 74604,
+            "end": 75184,
+            "confidence": 0.037,
+            "speaker": "C"
+          },
+          {
+            "text": "한",
+            "start": 75445,
+            "end": 75625,
+            "confidence": 0.077,
+            "speaker": "C"
+          },
+          {
+            "text": "것이죠.",
+            "start": 75745,
+            "end": 76405,
+            "confidence": 0.036,
+            "speaker": "C"
+          },
+          {
+            "text": "다시",
+            "start": 77767,
+            "end": 78267,
+            "confidence": 0.08,
+            "speaker": "C"
+          },
+          {
+            "text": "들으십시오.",
+            "start": 78487,
+            "end": 79388,
+            "confidence": 0.282,
+            "speaker": "C"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "요즘 각 도시마다 도심의 공원을 늘리는 추세인데요. 공원을 조성할 때 어떤 점에 신경을 써야 하나요?",
+        "confidence": 0.08166666,
+        "start": 80772,
+        "end": 92976,
+        "words": [
+          {
+            "text": "요즘",
+            "start": 80772,
+            "end": 81272,
+            "confidence": 0.004,
+            "speaker": "A"
+          },
+          {
+            "text": "각",
+            "start": 81732,
+            "end": 81832,
+            "confidence": 0.123,
+            "speaker": "A"
+          },
+          {
+            "text": "도시마다",
+            "start": 82072,
+            "end": 82793,
+            "confidence": 0.062,
+            "speaker": "A"
+          },
+          {
+            "text": "도심의",
+            "start": 83293,
+            "end": 83873,
+            "confidence": 0.067,
+            "speaker": "A"
+          },
+          {
+            "text": "공원을",
+            "start": 84213,
+            "end": 84653,
+            "confidence": 0.138,
+            "speaker": "A"
+          },
+          {
+            "text": "늘리는",
+            "start": 84793,
+            "end": 85193,
+            "confidence": 0.155,
+            "speaker": "A"
+          },
+          {
+            "text": "추세인데요.",
+            "start": 85414,
+            "end": 86674,
+            "confidence": 0.006,
+            "speaker": "A"
+          },
+          {
+            "text": "공원을",
+            "start": 87174,
+            "end": 87634,
+            "confidence": 0.131,
+            "speaker": "A"
+          },
+          {
+            "text": "조성할",
+            "start": 87794,
+            "end": 88214,
+            "confidence": 0.146,
+            "speaker": "A"
+          },
+          {
+            "text": "때",
+            "start": 88395,
+            "end": 88535,
+            "confidence": 0.001,
+            "speaker": "A"
+          },
+          {
+            "text": "어떤",
+            "start": 89135,
+            "end": 89515,
+            "confidence": 0.113,
+            "speaker": "A"
+          },
+          {
+            "text": "점에",
+            "start": 89675,
+            "end": 90075,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "신경을",
+            "start": 90435,
+            "end": 90995,
+            "confidence": 0.074,
+            "speaker": "A"
+          },
+          {
+            "text": "써야",
+            "start": 91235,
+            "end": 91476,
+            "confidence": 0.164,
+            "speaker": "A"
+          },
+          {
+            "text": "하나요?",
+            "start": 91556,
+            "end": 92976,
+            "confidence": 0.041,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "예전에 만든 공원은 어디에 있든 구조나 시설이 비슷비슷했죠. 하지만 최근에 공원을 보면 그곳을 주로 찾는.",
+        "confidence": 0.087466665,
+        "start": 93456,
+        "end": 107641,
+        "words": [
+          {
+            "text": "예전에",
+            "start": 93456,
+            "end": 93996,
+            "confidence": 0.076,
+            "speaker": "B"
+          },
+          {
+            "text": "만든",
+            "start": 94096,
+            "end": 94537,
+            "confidence": 0.104,
+            "speaker": "B"
+          },
+          {
+            "text": "공원은",
+            "start": 94797,
+            "end": 95337,
+            "confidence": 0.061,
+            "speaker": "B"
+          },
+          {
+            "text": "어디에",
+            "start": 96097,
+            "end": 96537,
+            "confidence": 0.147,
+            "speaker": "B"
+          },
+          {
+            "text": "있든",
+            "start": 96557,
+            "end": 96937,
+            "confidence": 0.071,
+            "speaker": "B"
+          },
+          {
+            "text": "구조나",
+            "start": 97517,
+            "end": 98098,
+            "confidence": 0.062,
+            "speaker": "B"
+          },
+          {
+            "text": "시설이",
+            "start": 98278,
+            "end": 98898,
+            "confidence": 0.072,
+            "speaker": "B"
+          },
+          {
+            "text": "비슷비슷했죠.",
+            "start": 99298,
+            "end": 100398,
+            "confidence": 0.003,
+            "speaker": "B"
+          },
+          {
+            "text": "하지만",
+            "start": 101759,
+            "end": 102239,
+            "confidence": 0.126,
+            "speaker": "B"
+          },
+          {
+            "text": "최근에",
+            "start": 102979,
+            "end": 103499,
+            "confidence": 0.118,
+            "speaker": "B"
+          },
+          {
+            "text": "공원을",
+            "start": 103720,
+            "end": 104220,
+            "confidence": 0.132,
+            "speaker": "B"
+          },
+          {
+            "text": "보면",
+            "start": 104320,
+            "end": 104520,
+            "confidence": 0.008,
+            "speaker": "B"
+          },
+          {
+            "text": "그곳을",
+            "start": 105781,
+            "end": 106521,
+            "confidence": 0.05,
+            "speaker": "B"
+          },
+          {
+            "text": "주로",
+            "start": 106801,
+            "end": 107021,
+            "confidence": 0.184,
+            "speaker": "B"
+          },
+          {
+            "text": "찾는.",
+            "start": 107201,
+            "end": 107641,
+            "confidence": 0.098,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "C",
+        "text": "사람들의 생활을 분석하여 반영했음을 알 수 있습니다.",
+        "confidence": 0.12328571,
+        "start": 107822,
+        "end": 114083,
+        "words": [
+          {
+            "text": "사람들의",
+            "start": 107822,
+            "end": 108522,
+            "confidence": 0.11,
+            "speaker": "C"
+          },
+          {
+            "text": "생활을",
+            "start": 108702,
+            "end": 109222,
+            "confidence": 0.11,
+            "speaker": "C"
+          },
+          {
+            "text": "분석하여",
+            "start": 109402,
+            "end": 110282,
+            "confidence": 0.068,
+            "speaker": "C"
+          },
+          {
+            "text": "반영했음을",
+            "start": 110642,
+            "end": 111603,
+            "confidence": 0.025,
+            "speaker": "C"
+          },
+          {
+            "text": "알",
+            "start": 111903,
+            "end": 112023,
+            "confidence": 0.167,
+            "speaker": "C"
+          },
+          {
+            "text": "수",
+            "start": 112183,
+            "end": 112243,
+            "confidence": 0.333,
+            "speaker": "C"
+          },
+          {
+            "text": "있습니다.",
+            "start": 112283,
+            "end": 114083,
+            "confidence": 0.05,
+            "speaker": "C"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "인주시립영원에 있는 공원이 좋은 예죠. 인주시는 이 공원을 조성하면서 주변이 보이지 않을.",
+        "confidence": 0.10841667,
+        "start": 114423,
+        "end": 126226,
+        "words": [
+          {
+            "text": "인주시립영원에",
+            "start": 114423,
+            "end": 115964,
+            "confidence": 0.076,
+            "speaker": "B"
+          },
+          {
+            "text": "있는",
+            "start": 116004,
+            "end": 116364,
+            "confidence": 0.109,
+            "speaker": "B"
+          },
+          {
+            "text": "공원이",
+            "start": 116604,
+            "end": 117104,
+            "confidence": 0.122,
+            "speaker": "B"
+          },
+          {
+            "text": "좋은",
+            "start": 117684,
+            "end": 117984,
+            "confidence": 0.128,
+            "speaker": "B"
+          },
+          {
+            "text": "예죠.",
+            "start": 118184,
+            "end": 118424,
+            "confidence": 0.065,
+            "speaker": "B"
+          },
+          {
+            "text": "인주시는",
+            "start": 120085,
+            "end": 120825,
+            "confidence": 0.06,
+            "speaker": "B"
+          },
+          {
+            "text": "이",
+            "start": 121665,
+            "end": 121805,
+            "confidence": 0.143,
+            "speaker": "B"
+          },
+          {
+            "text": "공원을",
+            "start": 121965,
+            "end": 122525,
+            "confidence": 0.109,
+            "speaker": "B"
+          },
+          {
+            "text": "조성하면서",
+            "start": 122765,
+            "end": 123766,
+            "confidence": 0.089,
+            "speaker": "B"
+          },
+          {
+            "text": "주변이",
+            "start": 124566,
+            "end": 125106,
+            "confidence": 0.117,
+            "speaker": "B"
+          },
+          {
+            "text": "보이지",
+            "start": 125326,
+            "end": 125766,
+            "confidence": 0.145,
+            "speaker": "B"
+          },
+          {
+            "text": "않을.",
+            "start": 125926,
+            "end": 126226,
+            "confidence": 0.138,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "C",
+        "text": "정도로 빽빽하게 나무를 심어 숲을 만들었는데요.",
+        "confidence": 0.107,
+        "start": 126386,
+        "end": 132848,
+        "words": [
+          {
+            "text": "정도로",
+            "start": 126386,
+            "end": 127006,
+            "confidence": 0.087,
+            "speaker": "C"
+          },
+          {
+            "text": "빽빽하게",
+            "start": 128167,
+            "end": 128687,
+            "confidence": 0.078,
+            "speaker": "C"
+          },
+          {
+            "text": "나무를",
+            "start": 129107,
+            "end": 129627,
+            "confidence": 0.081,
+            "speaker": "C"
+          },
+          {
+            "text": "심어",
+            "start": 129847,
+            "end": 130187,
+            "confidence": 0.116,
+            "speaker": "C"
+          },
+          {
+            "text": "숲을",
+            "start": 130727,
+            "end": 131308,
+            "confidence": 0.026,
+            "speaker": "C"
+          },
+          {
+            "text": "만들었는데요.",
+            "start": 131688,
+            "end": 132848,
+            "confidence": 0.254,
+            "speaker": "C"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "거기에서 주변을 신경 쓰지 않고 환자들이 혼자만의 시간을 갖기도 하고 간호하느라 지친 보호자나 의료진이.",
+        "confidence": 0.092857145,
+        "start": 133979,
+        "end": 148802,
+        "words": [
+          {
+            "text": "거기에서",
+            "start": 133979,
+            "end": 134959,
+            "confidence": 0.075,
+            "speaker": "B"
+          },
+          {
+            "text": "주변을",
+            "start": 135599,
+            "end": 136180,
+            "confidence": 0.106,
+            "speaker": "B"
+          },
+          {
+            "text": "신경",
+            "start": 136460,
+            "end": 136820,
+            "confidence": 0.117,
+            "speaker": "B"
+          },
+          {
+            "text": "쓰지",
+            "start": 137000,
+            "end": 137280,
+            "confidence": 0.138,
+            "speaker": "B"
+          },
+          {
+            "text": "않고",
+            "start": 137360,
+            "end": 137840,
+            "confidence": 0.089,
+            "speaker": "B"
+          },
+          {
+            "text": "환자들이",
+            "start": 138640,
+            "end": 139460,
+            "confidence": 0.101,
+            "speaker": "B"
+          },
+          {
+            "text": "혼자만의",
+            "start": 140080,
+            "end": 140881,
+            "confidence": 0.05,
+            "speaker": "B"
+          },
+          {
+            "text": "시간을",
+            "start": 141061,
+            "end": 141621,
+            "confidence": 0.111,
+            "speaker": "B"
+          },
+          {
+            "text": "갖기도",
+            "start": 141821,
+            "end": 142261,
+            "confidence": 0.154,
+            "speaker": "B"
+          },
+          {
+            "text": "하고",
+            "start": 142341,
+            "end": 142701,
+            "confidence": 0.124,
+            "speaker": "B"
+          },
+          {
+            "text": "간호하느라",
+            "start": 144121,
+            "end": 145022,
+            "confidence": 0.075,
+            "speaker": "B"
+          },
+          {
+            "text": "지친",
+            "start": 145222,
+            "end": 145782,
+            "confidence": 0.028,
+            "speaker": "B"
+          },
+          {
+            "text": "보호자나",
+            "start": 146142,
+            "end": 147242,
+            "confidence": 0.032,
+            "speaker": "B"
+          },
+          {
+            "text": "의료진이.",
+            "start": 147982,
+            "end": 148802,
+            "confidence": 0.1,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "C",
+        "text": "언제든지 찾아와 아늑함을 느끼며 쉴 수 있도록 한 것이죠.",
+        "confidence": 0.11433333,
+        "start": 149182,
+        "end": 155984,
+        "words": [
+          {
+            "text": "언제든지",
+            "start": 149182,
+            "end": 150043,
+            "confidence": 0.08,
+            "speaker": "C"
+          },
+          {
+            "text": "찾아와",
+            "start": 150243,
+            "end": 150823,
+            "confidence": 0.048,
+            "speaker": "C"
+          },
+          {
+            "text": "아늑함을",
+            "start": 151483,
+            "end": 152363,
+            "confidence": 0.061,
+            "speaker": "C"
+          },
+          {
+            "text": "느끼며",
+            "start": 152583,
+            "end": 153303,
+            "confidence": 0.026,
+            "speaker": "C"
+          },
+          {
+            "text": "쉴",
+            "start": 153313,
+            "end": 154054,
+            "confidence": 0.5,
+            "speaker": "C"
+          },
+          {
+            "text": "수",
+            "start": 154064,
+            "end": 154164,
+            "confidence": 0.199,
+            "speaker": "C"
+          },
+          {
+            "text": "있도록",
+            "start": 154224,
+            "end": 154804,
+            "confidence": 0.02,
+            "speaker": "C"
+          },
+          {
+            "text": "한",
+            "start": 155064,
+            "end": 155244,
+            "confidence": 0.03,
+            "speaker": "C"
+          },
+          {
+            "text": "것이죠.",
+            "start": 155364,
+            "end": 155984,
+            "confidence": 0.065,
+            "speaker": "C"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.10216026,
+    "audio_duration": 158
+  },
+  {
+    "status_script": "completed",
+    "id": "20a7b0a0-aa38-40bb-a114-89e46c096655",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_39-40.mp3",
+    "text": "그럼 본인이 희망하면 성인이 된 후에도 보육원에서 지낼 수 있게 된 거네요. 보육원 퇴소 시기가 만 18세에서 24세까지로 늦춰진 거죠? 네. 그뿐만 아니라 정부에서는 사업비 규모를 늘려 보육원에서. 나온 청년이 자립을 하는 데에 필요한 지원을 확대하고 있는데요. 올해부터 매달 주는 자립수당을 50만 원으로 올렸고 의료비도 일부 보조합니다. 또한 기존 담당 부서에 심리 상담이 가능한. 전담 인력도 보충해 상담 서비스를 지원하고 있고요. 전국 17개 시도에서는 천만 원 이상의 자립정착금도 지급하고 있습니다. 다시 들으십시오. 그럼 본인이 희망하면 성인이 된 후에도 보육원에서 지낼 수 있게 된 거네요. 보육원 퇴소 시기가 만 18세에서 24세까지로 늦춰진 거죠? 네. 그뿐만 아니라 정부에서는 사업비 규모를 늘려 보육원에서. 나온 청년이 자립을 하는 데 필요한 지원을 확대하고 있는데요. 올해부터 매달 주는 자립수당을 50만원으로 올렸고 의료비도 일부 보조합니다. 또한 기존 담당 부서에 심리상담이 가능한 전담인력도. 보충해 상담 서비스를 지원하고 있고요. 전국 17개 시도에서는 천만원 이상의 자립정착금도 지급하고 있습니다.",
+    "utterances": [
+      {
+        "speaker": "A",
+        "text": "그럼 본인이 희망하면 성인이 된 후에도 보육원에서 지낼 수 있게 된 거네요. 보육원 퇴소 시기가 만 18세에서 24세까지로 늦춰진 거죠?",
+        "confidence": 0.08505,
+        "start": 8,
+        "end": 20073,
+        "words": [
+          {
+            "text": "그럼",
+            "start": 8,
+            "end": 428,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "본인이",
+            "start": 1308,
+            "end": 1868,
+            "confidence": 0.071,
+            "speaker": "A"
+          },
+          {
+            "text": "희망하면",
+            "start": 2069,
+            "end": 2869,
+            "confidence": 0.066,
+            "speaker": "A"
+          },
+          {
+            "text": "성인이",
+            "start": 3809,
+            "end": 4329,
+            "confidence": 0.123,
+            "speaker": "A"
+          },
+          {
+            "text": "된",
+            "start": 4469,
+            "end": 4649,
+            "confidence": 0.108,
+            "speaker": "A"
+          },
+          {
+            "text": "후에도",
+            "start": 4829,
+            "end": 5309,
+            "confidence": 0.125,
+            "speaker": "A"
+          },
+          {
+            "text": "보육원에서",
+            "start": 5950,
+            "end": 6950,
+            "confidence": 0.07,
+            "speaker": "A"
+          },
+          {
+            "text": "지낼",
+            "start": 7270,
+            "end": 7550,
+            "confidence": 0.06,
+            "speaker": "A"
+          },
+          {
+            "text": "수",
+            "start": 7730,
+            "end": 7870,
+            "confidence": 0.143,
+            "speaker": "A"
+          },
+          {
+            "text": "있게",
+            "start": 8029,
+            "end": 8370,
+            "confidence": 0.142,
+            "speaker": "A"
+          },
+          {
+            "text": "된",
+            "start": 8450,
+            "end": 8550,
+            "confidence": 0.2,
+            "speaker": "A"
+          },
+          {
+            "text": "거네요.",
+            "start": 8650,
+            "end": 10351,
+            "confidence": 0.022,
+            "speaker": "A"
+          },
+          {
+            "text": "보육원",
+            "start": 10651,
+            "end": 11231,
+            "confidence": 0.031,
+            "speaker": "A"
+          },
+          {
+            "text": "퇴소",
+            "start": 11471,
+            "end": 11871,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "시기가",
+            "start": 12011,
+            "end": 12491,
+            "confidence": 0.094,
+            "speaker": "A"
+          },
+          {
+            "text": "만",
+            "start": 13171,
+            "end": 13411,
+            "confidence": 0.082,
+            "speaker": "A"
+          },
+          {
+            "text": "18세에서",
+            "start": 14432,
+            "end": 14872,
+            "confidence": 0.115,
+            "speaker": "A"
+          },
+          {
+            "text": "24세까지로",
+            "start": 16271,
+            "end": 16952,
+            "confidence": 0.128,
+            "speaker": "A"
+          },
+          {
+            "text": "늦춰진",
+            "start": 17433,
+            "end": 17933,
+            "confidence": 0.12,
+            "speaker": "A"
+          },
+          {
+            "text": "거죠?",
+            "start": 18013,
+            "end": 20073,
+            "confidence": 0.001,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "네.",
+        "start": 20953,
+        "end": 20973,
+        "words": [
+          {
+            "text": "네.",
+            "start": 20953,
+            "end": 20973,
+            "speaker": "B",
+            "confidence": 0.0
+          }
+        ],
+        "confidence": 0.0
+      },
+      {
+        "speaker": "C",
+        "text": "그뿐만 아니라 정부에서는 사업비 규모를 늘려 보육원에서.",
+        "confidence": 0.099857144,
+        "start": 21153,
+        "end": 27848,
+        "words": [
+          {
+            "text": "그뿐만",
+            "start": 21153,
+            "end": 21634,
+            "confidence": 0.137,
+            "speaker": "C"
+          },
+          {
+            "text": "아니라",
+            "start": 21674,
+            "end": 22134,
+            "confidence": 0.141,
+            "speaker": "C"
+          },
+          {
+            "text": "정부에서는",
+            "start": 22954,
+            "end": 23734,
+            "confidence": 0.126,
+            "speaker": "C"
+          },
+          {
+            "text": "사업비",
+            "start": 24534,
+            "end": 25155,
+            "confidence": 0.067,
+            "speaker": "C"
+          },
+          {
+            "text": "규모를",
+            "start": 25335,
+            "end": 25655,
+            "confidence": 0.135,
+            "speaker": "C"
+          },
+          {
+            "text": "늘려",
+            "start": 25695,
+            "end": 25815,
+            "speaker": "C",
+            "confidence": 0.0
+          },
+          {
+            "text": "보육원에서.",
+            "start": 27008,
+            "end": 27848,
+            "confidence": 0.093,
+            "speaker": "C"
+          }
+        ]
+      },
+      {
+        "speaker": "D",
+        "text": "나온 청년이 자립을 하는 데에 필요한 지원을 확대하고 있는데요. 올해부터 매달 주는 자립수당을 50만 원으로 올렸고 의료비도 일부 보조합니다.",
+        "confidence": 0.104157895,
+        "start": 27928,
+        "end": 44931,
+        "words": [
+          {
+            "text": "나온",
+            "start": 27928,
+            "end": 28168,
+            "confidence": 0.188,
+            "speaker": "D"
+          },
+          {
+            "text": "청년이",
+            "start": 28408,
+            "end": 28948,
+            "confidence": 0.032,
+            "speaker": "D"
+          },
+          {
+            "text": "자립을",
+            "start": 29788,
+            "end": 30249,
+            "confidence": 0.056,
+            "speaker": "D"
+          },
+          {
+            "text": "하는",
+            "start": 30349,
+            "end": 30549,
+            "confidence": 0.208,
+            "speaker": "D"
+          },
+          {
+            "text": "데에",
+            "start": 30709,
+            "end": 30989,
+            "confidence": 0.038,
+            "speaker": "D"
+          },
+          {
+            "text": "필요한",
+            "start": 31309,
+            "end": 31749,
+            "confidence": 0.082,
+            "speaker": "D"
+          },
+          {
+            "text": "지원을",
+            "start": 31929,
+            "end": 32308,
+            "confidence": 0.116,
+            "speaker": "D"
+          },
+          {
+            "text": "확대하고",
+            "start": 32869,
+            "end": 33509,
+            "confidence": 0.166,
+            "speaker": "D"
+          },
+          {
+            "text": "있는데요.",
+            "start": 33589,
+            "end": 35329,
+            "confidence": 0.067,
+            "speaker": "D"
+          },
+          {
+            "text": "올해부터",
+            "start": 35669,
+            "end": 36310,
+            "confidence": 0.067,
+            "speaker": "D"
+          },
+          {
+            "text": "매달",
+            "start": 37190,
+            "end": 37590,
+            "confidence": 0.043,
+            "speaker": "D"
+          },
+          {
+            "text": "주는",
+            "start": 37710,
+            "end": 37930,
+            "confidence": 0.183,
+            "speaker": "D"
+          },
+          {
+            "text": "자립수당을",
+            "start": 38130,
+            "end": 38870,
+            "confidence": 0.116,
+            "speaker": "D"
+          },
+          {
+            "text": "50만",
+            "start": 39770,
+            "end": 39910,
+            "speaker": "D",
+            "confidence": 0.0
+          },
+          {
+            "text": "원으로",
+            "start": 40190,
+            "end": 40470,
+            "confidence": 0.239,
+            "speaker": "D"
+          },
+          {
+            "text": "올렸고",
+            "start": 40550,
+            "end": 42051,
+            "confidence": 0.063,
+            "speaker": "D"
+          },
+          {
+            "text": "의료비도",
+            "start": 42491,
+            "end": 43091,
+            "confidence": 0.12,
+            "speaker": "D"
+          },
+          {
+            "text": "일부",
+            "start": 43691,
+            "end": 44091,
+            "confidence": 0.104,
+            "speaker": "D"
+          },
+          {
+            "text": "보조합니다.",
+            "start": 44411,
+            "end": 44931,
+            "confidence": 0.091,
+            "speaker": "D"
+          }
+        ]
+      },
+      {
+        "speaker": "C",
+        "text": "또한 기존 담당 부서에 심리 상담이 가능한.",
+        "confidence": 0.10742857,
+        "start": 46451,
+        "end": 51472,
+        "words": [
+          {
+            "text": "또한",
+            "start": 46451,
+            "end": 46731,
+            "confidence": 0.142,
+            "speaker": "C"
+          },
+          {
+            "text": "기존",
+            "start": 47591,
+            "end": 47912,
+            "confidence": 0.126,
+            "speaker": "C"
+          },
+          {
+            "text": "담당",
+            "start": 48232,
+            "end": 48612,
+            "confidence": 0.012,
+            "speaker": "C"
+          },
+          {
+            "text": "부서에",
+            "start": 48752,
+            "end": 49192,
+            "confidence": 0.083,
+            "speaker": "C"
+          },
+          {
+            "text": "심리",
+            "start": 49912,
+            "end": 50272,
+            "confidence": 0.114,
+            "speaker": "C"
+          },
+          {
+            "text": "상담이",
+            "start": 50392,
+            "end": 50892,
+            "confidence": 0.13,
+            "speaker": "C"
+          },
+          {
+            "text": "가능한.",
+            "start": 51032,
+            "end": 51472,
+            "confidence": 0.145,
+            "speaker": "C"
+          }
+        ]
+      },
+      {
+        "speaker": "D",
+        "text": "전담 인력도 보충해 상담 서비스를 지원하고 있고요.",
+        "confidence": 0.15371428,
+        "start": 51712,
+        "end": 56573,
+        "words": [
+          {
+            "text": "전담",
+            "start": 51712,
+            "end": 52112,
+            "confidence": 0.039,
+            "speaker": "D"
+          },
+          {
+            "text": "인력도",
+            "start": 52132,
+            "end": 52632,
+            "confidence": 0.111,
+            "speaker": "D"
+          },
+          {
+            "text": "보충해",
+            "start": 52792,
+            "end": 53272,
+            "confidence": 0.045,
+            "speaker": "D"
+          },
+          {
+            "text": "상담",
+            "start": 54053,
+            "end": 54453,
+            "confidence": 0.118,
+            "speaker": "D"
+          },
+          {
+            "text": "서비스를",
+            "start": 54613,
+            "end": 55173,
+            "confidence": 0.159,
+            "speaker": "D"
+          },
+          {
+            "text": "지원하고",
+            "start": 55473,
+            "end": 55953,
+            "confidence": 0.228,
+            "speaker": "D"
+          },
+          {
+            "text": "있고요.",
+            "start": 55993,
+            "end": 56573,
+            "confidence": 0.376,
+            "speaker": "D"
+          }
+        ]
+      },
+      {
+        "speaker": "C",
+        "text": "전국 17개 시도에서는 천만 원 이상의 자립정착금도 지급하고 있습니다.",
+        "confidence": 0.063,
+        "start": 57755,
+        "end": 67218,
+        "words": [
+          {
+            "text": "전국",
+            "start": 57755,
+            "end": 59236,
+            "confidence": 0.01,
+            "speaker": "C"
+          },
+          {
+            "text": "17개",
+            "start": 59356,
+            "end": 59636,
+            "speaker": "C",
+            "confidence": 0.0
+          },
+          {
+            "text": "시도에서는",
+            "start": 59956,
+            "end": 60776,
+            "confidence": 0.097,
+            "speaker": "C"
+          },
+          {
+            "text": "천만",
+            "start": 61756,
+            "end": 62257,
+            "confidence": 0.012,
+            "speaker": "C"
+          },
+          {
+            "text": "원",
+            "start": 62277,
+            "end": 62297,
+            "speaker": "C",
+            "confidence": 0.0
+          },
+          {
+            "text": "이상의",
+            "start": 62397,
+            "end": 62877,
+            "confidence": 0.118,
+            "speaker": "C"
+          },
+          {
+            "text": "자립정착금도",
+            "start": 63137,
+            "end": 64397,
+            "confidence": 0.013,
+            "speaker": "C"
+          },
+          {
+            "text": "지급하고",
+            "start": 64918,
+            "end": 65438,
+            "confidence": 0.223,
+            "speaker": "C"
+          },
+          {
+            "text": "있습니다.",
+            "start": 65477,
+            "end": 67218,
+            "confidence": 0.094,
+            "speaker": "C"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "다시 들으십시오. 그럼 본인이 희망하면 성인이 된 후에도 보육원에서 지낼 수 있게 된 거네요. 보육원 퇴소 시기가 만 18세에서 24세까지로 늦춰진 거죠?",
+        "confidence": 0.068,
+        "start": 67639,
+        "end": 89329,
+        "words": [
+          {
+            "text": "다시",
+            "start": 67639,
+            "end": 68139,
+            "confidence": 0.005,
+            "speaker": "A"
+          },
+          {
+            "text": "들으십시오.",
+            "start": 68339,
+            "end": 70620,
+            "confidence": 0.033,
+            "speaker": "A"
+          },
+          {
+            "text": "그럼",
+            "start": 70640,
+            "end": 71020,
+            "confidence": 0.016,
+            "speaker": "A"
+          },
+          {
+            "text": "본인이",
+            "start": 71900,
+            "end": 72460,
+            "confidence": 0.107,
+            "speaker": "A"
+          },
+          {
+            "text": "희망하면",
+            "start": 72660,
+            "end": 73441,
+            "confidence": 0.074,
+            "speaker": "A"
+          },
+          {
+            "text": "성인이",
+            "start": 74401,
+            "end": 74921,
+            "confidence": 0.122,
+            "speaker": "A"
+          },
+          {
+            "text": "된",
+            "start": 75061,
+            "end": 75221,
+            "confidence": 0.117,
+            "speaker": "A"
+          },
+          {
+            "text": "후에도",
+            "start": 75421,
+            "end": 75882,
+            "confidence": 0.132,
+            "speaker": "A"
+          },
+          {
+            "text": "보육원에서",
+            "start": 76542,
+            "end": 77542,
+            "confidence": 0.056,
+            "speaker": "A"
+          },
+          {
+            "text": "지낼",
+            "start": 77862,
+            "end": 78142,
+            "confidence": 0.034,
+            "speaker": "A"
+          },
+          {
+            "text": "수",
+            "start": 78322,
+            "end": 78462,
+            "confidence": 0.051,
+            "speaker": "A"
+          },
+          {
+            "text": "있게",
+            "start": 78622,
+            "end": 78963,
+            "confidence": 0.142,
+            "speaker": "A"
+          },
+          {
+            "text": "된",
+            "start": 79043,
+            "end": 79163,
+            "confidence": 0.166,
+            "speaker": "A"
+          },
+          {
+            "text": "거네요.",
+            "start": 79243,
+            "end": 80063,
+            "confidence": 0.023,
+            "speaker": "A"
+          },
+          {
+            "text": "보육원",
+            "start": 81042,
+            "end": 81823,
+            "confidence": 0.018,
+            "speaker": "A"
+          },
+          {
+            "text": "퇴소",
+            "start": 82063,
+            "end": 82463,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "시기가",
+            "start": 82583,
+            "end": 83064,
+            "confidence": 0.12,
+            "speaker": "A"
+          },
+          {
+            "text": "만",
+            "start": 83764,
+            "end": 83984,
+            "confidence": 0.089,
+            "speaker": "A"
+          },
+          {
+            "text": "18세에서",
+            "start": 85005,
+            "end": 85446,
+            "confidence": 0.093,
+            "speaker": "A"
+          },
+          {
+            "text": "24세까지로",
+            "start": 86847,
+            "end": 87547,
+            "confidence": 0.077,
+            "speaker": "A"
+          },
+          {
+            "text": "늦춰진",
+            "start": 88028,
+            "end": 88448,
+            "confidence": 0.021,
+            "speaker": "A"
+          },
+          {
+            "text": "거죠?",
+            "start": 88508,
+            "end": 89329,
+            "speaker": "A",
+            "confidence": 0.0
+          }
+        ]
+      },
+      {
+        "speaker": "C",
+        "text": "네. 그뿐만 아니라 정부에서는 사업비 규모를 늘려 보육원에서.",
+        "confidence": 0.10675,
+        "start": 90410,
+        "end": 98457,
+        "words": [
+          {
+            "text": "네.",
+            "start": 90410,
+            "end": 90670,
+            "confidence": 0.077,
+            "speaker": "C"
+          },
+          {
+            "text": "그뿐만",
+            "start": 91751,
+            "end": 92231,
+            "confidence": 0.128,
+            "speaker": "C"
+          },
+          {
+            "text": "아니라",
+            "start": 92271,
+            "end": 92712,
+            "confidence": 0.158,
+            "speaker": "C"
+          },
+          {
+            "text": "정부에서는",
+            "start": 93552,
+            "end": 94333,
+            "confidence": 0.146,
+            "speaker": "C"
+          },
+          {
+            "text": "사업비",
+            "start": 95114,
+            "end": 95754,
+            "confidence": 0.072,
+            "speaker": "C"
+          },
+          {
+            "text": "규모를",
+            "start": 95914,
+            "end": 96255,
+            "confidence": 0.183,
+            "speaker": "C"
+          },
+          {
+            "text": "늘려",
+            "start": 96375,
+            "end": 97376,
+            "speaker": "C",
+            "confidence": 0.0
+          },
+          {
+            "text": "보육원에서.",
+            "start": 97776,
+            "end": 98457,
+            "confidence": 0.09,
+            "speaker": "C"
+          }
+        ]
+      },
+      {
+        "speaker": "D",
+        "text": "나온 청년이 자립을 하는 데 필요한 지원을 확대하고 있는데요. 올해부터 매달 주는 자립수당을 50만원으로 올렸고 의료비도 일부 보조합니다.",
+        "confidence": 0.12561111,
+        "start": 98537,
+        "end": 115842,
+        "words": [
+          {
+            "text": "나온",
+            "start": 98537,
+            "end": 98797,
+            "confidence": 0.155,
+            "speaker": "D"
+          },
+          {
+            "text": "청년이",
+            "start": 98997,
+            "end": 99557,
+            "confidence": 0.042,
+            "speaker": "D"
+          },
+          {
+            "text": "자립을",
+            "start": 100378,
+            "end": 100859,
+            "confidence": 0.081,
+            "speaker": "D"
+          },
+          {
+            "text": "하는",
+            "start": 100959,
+            "end": 101159,
+            "confidence": 0.208,
+            "speaker": "D"
+          },
+          {
+            "text": "데",
+            "start": 101319,
+            "end": 101579,
+            "confidence": 0.076,
+            "speaker": "D"
+          },
+          {
+            "text": "필요한",
+            "start": 101919,
+            "end": 102360,
+            "confidence": 0.094,
+            "speaker": "D"
+          },
+          {
+            "text": "지원을",
+            "start": 102520,
+            "end": 102920,
+            "confidence": 0.15,
+            "speaker": "D"
+          },
+          {
+            "text": "확대하고",
+            "start": 103461,
+            "end": 104121,
+            "confidence": 0.145,
+            "speaker": "D"
+          },
+          {
+            "text": "있는데요.",
+            "start": 104201,
+            "end": 105903,
+            "confidence": 0.067,
+            "speaker": "D"
+          },
+          {
+            "text": "올해부터",
+            "start": 106283,
+            "end": 106723,
+            "confidence": 0.29,
+            "speaker": "D"
+          },
+          {
+            "text": "매달",
+            "start": 107620,
+            "end": 108160,
+            "confidence": 0.072,
+            "speaker": "D"
+          },
+          {
+            "text": "주는",
+            "start": 108300,
+            "end": 108500,
+            "confidence": 0.2,
+            "speaker": "D"
+          },
+          {
+            "text": "자립수당을",
+            "start": 108720,
+            "end": 110481,
+            "confidence": 0.093,
+            "speaker": "D"
+          },
+          {
+            "text": "50만원으로",
+            "start": 110621,
+            "end": 111061,
+            "confidence": 0.196,
+            "speaker": "D"
+          },
+          {
+            "text": "올렸고",
+            "start": 111141,
+            "end": 111601,
+            "confidence": 0.066,
+            "speaker": "D"
+          },
+          {
+            "text": "의료비도",
+            "start": 113062,
+            "end": 113682,
+            "confidence": 0.127,
+            "speaker": "D"
+          },
+          {
+            "text": "일부",
+            "start": 114282,
+            "end": 114662,
+            "confidence": 0.113,
+            "speaker": "D"
+          },
+          {
+            "text": "보조합니다.",
+            "start": 114982,
+            "end": 115842,
+            "confidence": 0.086,
+            "speaker": "D"
+          }
+        ]
+      },
+      {
+        "speaker": "C",
+        "text": "또한 기존 담당 부서에 심리상담이 가능한 전담인력도.",
+        "confidence": 0.09857143,
+        "start": 117043,
+        "end": 123244,
+        "words": [
+          {
+            "text": "또한",
+            "start": 117043,
+            "end": 117303,
+            "confidence": 0.154,
+            "speaker": "C"
+          },
+          {
+            "text": "기존",
+            "start": 118183,
+            "end": 118503,
+            "confidence": 0.127,
+            "speaker": "C"
+          },
+          {
+            "text": "담당",
+            "start": 118823,
+            "end": 119203,
+            "confidence": 0.018,
+            "speaker": "C"
+          },
+          {
+            "text": "부서에",
+            "start": 119343,
+            "end": 119763,
+            "confidence": 0.102,
+            "speaker": "C"
+          },
+          {
+            "text": "심리상담이",
+            "start": 120484,
+            "end": 121484,
+            "confidence": 0.055,
+            "speaker": "C"
+          },
+          {
+            "text": "가능한",
+            "start": 121624,
+            "end": 122044,
+            "confidence": 0.145,
+            "speaker": "C"
+          },
+          {
+            "text": "전담인력도.",
+            "start": 122304,
+            "end": 123244,
+            "confidence": 0.089,
+            "speaker": "C"
+          }
+        ]
+      },
+      {
+        "speaker": "D",
+        "text": "보충해 상담 서비스를 지원하고 있고요.",
+        "confidence": 0.1624,
+        "start": 123384,
+        "end": 126845,
+        "words": [
+          {
+            "text": "보충해",
+            "start": 123384,
+            "end": 123884,
+            "confidence": 0.044,
+            "speaker": "D"
+          },
+          {
+            "text": "상담",
+            "start": 124625,
+            "end": 125025,
+            "confidence": 0.114,
+            "speaker": "D"
+          },
+          {
+            "text": "서비스를",
+            "start": 125185,
+            "end": 125765,
+            "confidence": 0.15,
+            "speaker": "D"
+          },
+          {
+            "text": "지원하고",
+            "start": 126065,
+            "end": 126545,
+            "confidence": 0.229,
+            "speaker": "D"
+          },
+          {
+            "text": "있고요.",
+            "start": 126585,
+            "end": 126845,
+            "confidence": 0.275,
+            "speaker": "D"
+          }
+        ]
+      },
+      {
+        "speaker": "C",
+        "text": "전국 17개 시도에서는 천만원 이상의 자립정착금도 지급하고 있습니다.",
+        "confidence": 0.13025,
+        "start": 128466,
+        "end": 136628,
+        "words": [
+          {
+            "text": "전국",
+            "start": 128466,
+            "end": 129566,
+            "confidence": 0.048,
+            "speaker": "C"
+          },
+          {
+            "text": "17개",
+            "start": 129946,
+            "end": 130226,
+            "speaker": "C",
+            "confidence": 0.0
+          },
+          {
+            "text": "시도에서는",
+            "start": 130545,
+            "end": 131367,
+            "confidence": 0.134,
+            "speaker": "C"
+          },
+          {
+            "text": "천만원",
+            "start": 132367,
+            "end": 132847,
+            "confidence": 0.135,
+            "speaker": "C"
+          },
+          {
+            "text": "이상의",
+            "start": 132967,
+            "end": 133467,
+            "confidence": 0.122,
+            "speaker": "C"
+          },
+          {
+            "text": "자립정착금도",
+            "start": 133747,
+            "end": 134988,
+            "confidence": 0.044,
+            "speaker": "C"
+          },
+          {
+            "text": "지급하고",
+            "start": 135508,
+            "end": 136028,
+            "confidence": 0.218,
+            "speaker": "C"
+          },
+          {
+            "text": "있습니다.",
+            "start": 136068,
+            "end": 136628,
+            "confidence": 0.341,
+            "speaker": "C"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.109677166,
+    "audio_duration": 139
+  },
+  {
+    "status_script": "completed",
+    "id": "72821655-8041-4973-a547-720f6d05facd",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_41-42.mp3",
+    "text": "여기 사진에 붉은 벽돌과 푸른빛의 창틀이 어우러진 프랑스풍의 서양식 2층 건물 보이시죠? 이곳은 바로 돈덕전입니다. 서양 열강에 근대화된 나라의 위상을 보여주고 싶었던 고종은 즉위 40주년을 경축하는 국제적인 행사를 하기 위해 1902년부터 1년여에 걸쳐 이곳을 만들었습니다. 이곳은 한동안 고종이 외교사절을 접견하고 국외 주요 인사들과 연회를 베푸는 장소이자 국빈급 외국인의 숙소로 사용됐습니다. 이렇게 돈덕전은 근대 국가로서의 위상을 국제사회에 한껏 드러내고자 한 곳이었습니다. 다시 들으십시오. 여기 사진에 붉은 벽돌과 푸른빛의 창틀이 어우러진 프랑스풍의 서양식 2층 건물 보이시죠? 이곳은 바로 돈덕전입니다. 서양 열강에 근대화된 나라의 위상을 보여주고 싶었던 고종은 즉위 40주년을 경축하는 국제적인 행사를 하기 위해 1902년부터 1년여에 걸쳐 이곳을 만들었습니다. 이곳은 한동안 고종이 외교사절을 접견하고 국외 주요 인사들과 연회를 베푸는 장소이자 국빈급 외국인의 숙소로 사용됐습니다. 이렇게 돈덕전은 근대 국가로서의 위상을 국제사회에 한껏 드러내고자 한 곳이었습니다.",
+    "utterances": [
+      {
+        "speaker": "A",
+        "text": "여기 사진에 붉은 벽돌과 푸른빛의 창틀이 어우러진 프랑스풍의 서양식 2층 건물 보이시죠? 이곳은 바로 돈덕전입니다. 서양 열강에 근대화된 나라의 위상을 보여주고 싶었던 고종은 즉위 40주년을 경축하는 국제적인 행사를 하기 위해 1902년부터 1년여에 걸쳐 이곳을 만들었습니다. 이곳은 한동안 고종이 외교사절을 접견하고 국외 주요 인사들과 연회를 베푸는 장소이자 국빈급 외국인의 숙소로 사용됐습니다. 이렇게 돈덕전은 근대 국가로서의 위상을 국제사회에 한껏 드러내고자 한 곳이었습니다. 다시 들으십시오. 여기 사진에 붉은 벽돌과 푸른빛의 창틀이 어우러진 프랑스풍의 서양식 2층 건물 보이시죠? 이곳은 바로 돈덕전입니다. 서양 열강에 근대화된 나라의 위상을 보여주고 싶었던 고종은 즉위 40주년을 경축하는 국제적인 행사를 하기 위해 1902년부터 1년여에 걸쳐 이곳을 만들었습니다. 이곳은 한동안 고종이 외교사절을 접견하고 국외 주요 인사들과 연회를 베푸는 장소이자 국빈급 외국인의 숙소로 사용됐습니다. 이렇게 돈덕전은 근대 국가로서의 위상을 국제사회에 한껏 드러내고자 한 곳이었습니다.",
+        "confidence": 0.08727869,
+        "start": 262,
+        "end": 138890,
+        "words": [
+          {
+            "text": "여기",
+            "start": 262,
+            "end": 923,
+            "confidence": 0.009,
+            "speaker": "A"
+          },
+          {
+            "text": "사진에",
+            "start": 1283,
+            "end": 1783,
+            "confidence": 0.117,
+            "speaker": "A"
+          },
+          {
+            "text": "붉은",
+            "start": 2444,
+            "end": 2804,
+            "confidence": 0.07,
+            "speaker": "A"
+          },
+          {
+            "text": "벽돌과",
+            "start": 2964,
+            "end": 3845,
+            "confidence": 0.031,
+            "speaker": "A"
+          },
+          {
+            "text": "푸른빛의",
+            "start": 4326,
+            "end": 5186,
+            "confidence": 0.103,
+            "speaker": "A"
+          },
+          {
+            "text": "창틀이",
+            "start": 5407,
+            "end": 5987,
+            "confidence": 0.061,
+            "speaker": "A"
+          },
+          {
+            "text": "어우러진",
+            "start": 6147,
+            "end": 7328,
+            "confidence": 0.009,
+            "speaker": "A"
+          },
+          {
+            "text": "프랑스풍의",
+            "start": 7528,
+            "end": 8489,
+            "confidence": 0.085,
+            "speaker": "A"
+          },
+          {
+            "text": "서양식",
+            "start": 8870,
+            "end": 9450,
+            "confidence": 0.09,
+            "speaker": "A"
+          },
+          {
+            "text": "2층",
+            "start": 10011,
+            "end": 10171,
+            "confidence": 0.001,
+            "speaker": "A"
+          },
+          {
+            "text": "건물",
+            "start": 10291,
+            "end": 10751,
+            "confidence": 0.001,
+            "speaker": "A"
+          },
+          {
+            "text": "보이시죠?",
+            "start": 11031,
+            "end": 12653,
+            "confidence": 0.05,
+            "speaker": "A"
+          },
+          {
+            "text": "이곳은",
+            "start": 13033,
+            "end": 13474,
+            "confidence": 0.14,
+            "speaker": "A"
+          },
+          {
+            "text": "바로",
+            "start": 14034,
+            "end": 14454,
+            "confidence": 0.096,
+            "speaker": "A"
+          },
+          {
+            "text": "돈덕전입니다.",
+            "start": 14855,
+            "end": 17157,
+            "confidence": 0.054,
+            "speaker": "A"
+          },
+          {
+            "text": "서양",
+            "start": 17497,
+            "end": 17797,
+            "confidence": 0.094,
+            "speaker": "A"
+          },
+          {
+            "text": "열강에",
+            "start": 17958,
+            "end": 18718,
+            "confidence": 0.049,
+            "speaker": "A"
+          },
+          {
+            "text": "근대화된",
+            "start": 19199,
+            "end": 19999,
+            "confidence": 0.076,
+            "speaker": "A"
+          },
+          {
+            "text": "나라의",
+            "start": 20220,
+            "end": 20640,
+            "confidence": 0.15,
+            "speaker": "A"
+          },
+          {
+            "text": "위상을",
+            "start": 20820,
+            "end": 21381,
+            "confidence": 0.076,
+            "speaker": "A"
+          },
+          {
+            "text": "보여주고",
+            "start": 21581,
+            "end": 22181,
+            "confidence": 0.148,
+            "speaker": "A"
+          },
+          {
+            "text": "싶었던",
+            "start": 22301,
+            "end": 22922,
+            "confidence": 0.063,
+            "speaker": "A"
+          },
+          {
+            "text": "고종은",
+            "start": 23262,
+            "end": 23663,
+            "confidence": 0.345,
+            "speaker": "A"
+          },
+          {
+            "text": "즉위",
+            "start": 24713,
+            "end": 25313,
+            "confidence": 0.008,
+            "speaker": "A"
+          },
+          {
+            "text": "40주년을",
+            "start": 26194,
+            "end": 26734,
+            "confidence": 0.11,
+            "speaker": "A"
+          },
+          {
+            "text": "경축하는",
+            "start": 26994,
+            "end": 27875,
+            "confidence": 0.081,
+            "speaker": "A"
+          },
+          {
+            "text": "국제적인",
+            "start": 28575,
+            "end": 29256,
+            "confidence": 0.104,
+            "speaker": "A"
+          },
+          {
+            "text": "행사를",
+            "start": 29436,
+            "end": 30016,
+            "confidence": 0.119,
+            "speaker": "A"
+          },
+          {
+            "text": "하기",
+            "start": 30176,
+            "end": 30396,
+            "confidence": 0.229,
+            "speaker": "A"
+          },
+          {
+            "text": "위해",
+            "start": 30476,
+            "end": 31957,
+            "confidence": 0.063,
+            "speaker": "A"
+          },
+          {
+            "text": "1902년부터",
+            "start": 32637,
+            "end": 33398,
+            "confidence": 0.079,
+            "speaker": "A"
+          },
+          {
+            "text": "1년여에",
+            "start": 34359,
+            "end": 34619,
+            "confidence": 0.411,
+            "speaker": "A"
+          },
+          {
+            "text": "걸쳐",
+            "start": 34739,
+            "end": 35319,
+            "confidence": 0.068,
+            "speaker": "A"
+          },
+          {
+            "text": "이곳을",
+            "start": 35839,
+            "end": 36500,
+            "confidence": 0.091,
+            "speaker": "A"
+          },
+          {
+            "text": "만들었습니다.",
+            "start": 36820,
+            "end": 38461,
+            "confidence": 0.108,
+            "speaker": "A"
+          },
+          {
+            "text": "이곳은",
+            "start": 39021,
+            "end": 39541,
+            "confidence": 0.118,
+            "speaker": "A"
+          },
+          {
+            "text": "한동안",
+            "start": 40082,
+            "end": 40662,
+            "confidence": 0.106,
+            "speaker": "A"
+          },
+          {
+            "text": "고종이",
+            "start": 41282,
+            "end": 41863,
+            "confidence": 0.093,
+            "speaker": "A"
+          },
+          {
+            "text": "외교사절을",
+            "start": 42443,
+            "end": 43444,
+            "confidence": 0.106,
+            "speaker": "A"
+          },
+          {
+            "text": "접견하고",
+            "start": 43664,
+            "end": 44484,
+            "confidence": 0.043,
+            "speaker": "A"
+          },
+          {
+            "text": "국외",
+            "start": 45465,
+            "end": 45905,
+            "confidence": 0.062,
+            "speaker": "A"
+          },
+          {
+            "text": "주요",
+            "start": 46185,
+            "end": 46525,
+            "confidence": 0.118,
+            "speaker": "A"
+          },
+          {
+            "text": "인사들과",
+            "start": 46626,
+            "end": 47626,
+            "confidence": 0.083,
+            "speaker": "A"
+          },
+          {
+            "text": "연회를",
+            "start": 48266,
+            "end": 48707,
+            "confidence": 0.107,
+            "speaker": "A"
+          },
+          {
+            "text": "베푸는",
+            "start": 48847,
+            "end": 49367,
+            "confidence": 0.042,
+            "speaker": "A"
+          },
+          {
+            "text": "장소이자",
+            "start": 49607,
+            "end": 50208,
+            "confidence": 0.031,
+            "speaker": "A"
+          },
+          {
+            "text": "국빈급",
+            "start": 51258,
+            "end": 52079,
+            "confidence": 0.001,
+            "speaker": "A"
+          },
+          {
+            "text": "외국인의",
+            "start": 52499,
+            "end": 53220,
+            "confidence": 0.106,
+            "speaker": "A"
+          },
+          {
+            "text": "숙소로",
+            "start": 53480,
+            "end": 54080,
+            "confidence": 0.047,
+            "speaker": "A"
+          },
+          {
+            "text": "사용됐습니다.",
+            "start": 54341,
+            "end": 55141,
+            "confidence": 0.087,
+            "speaker": "A"
+          },
+          {
+            "text": "이렇게",
+            "start": 56923,
+            "end": 57603,
+            "confidence": 0.131,
+            "speaker": "A"
+          },
+          {
+            "text": "돈덕전은",
+            "start": 58004,
+            "end": 58904,
+            "confidence": 0.027,
+            "speaker": "A"
+          },
+          {
+            "text": "근대",
+            "start": 60005,
+            "end": 60426,
+            "confidence": 0.044,
+            "speaker": "A"
+          },
+          {
+            "text": "국가로서의",
+            "start": 60566,
+            "end": 61607,
+            "confidence": 0.079,
+            "speaker": "A"
+          },
+          {
+            "text": "위상을",
+            "start": 61847,
+            "end": 62387,
+            "confidence": 0.083,
+            "speaker": "A"
+          },
+          {
+            "text": "국제사회에",
+            "start": 63208,
+            "end": 64248,
+            "confidence": 0.1,
+            "speaker": "A"
+          },
+          {
+            "text": "한껏",
+            "start": 64629,
+            "end": 65090,
+            "confidence": 0.034,
+            "speaker": "A"
+          },
+          {
+            "text": "드러내고자",
+            "start": 65330,
+            "end": 66090,
+            "confidence": 0.105,
+            "speaker": "A"
+          },
+          {
+            "text": "한",
+            "start": 66170,
+            "end": 66291,
+            "confidence": 0.167,
+            "speaker": "A"
+          },
+          {
+            "text": "곳이었습니다.",
+            "start": 66411,
+            "end": 69173,
+            "confidence": 0.076,
+            "speaker": "A"
+          },
+          {
+            "text": "다시",
+            "start": 69193,
+            "end": 69233,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "들으십시오.",
+            "start": 69433,
+            "end": 70394,
+            "confidence": 0.047,
+            "speaker": "A"
+          },
+          {
+            "text": "여기",
+            "start": 71778,
+            "end": 72438,
+            "confidence": 0.008,
+            "speaker": "A"
+          },
+          {
+            "text": "사진에",
+            "start": 72818,
+            "end": 73299,
+            "confidence": 0.126,
+            "speaker": "A"
+          },
+          {
+            "text": "붉은",
+            "start": 73979,
+            "end": 74339,
+            "confidence": 0.065,
+            "speaker": "A"
+          },
+          {
+            "text": "벽돌과",
+            "start": 74499,
+            "end": 75379,
+            "confidence": 0.039,
+            "speaker": "A"
+          },
+          {
+            "text": "푸른빛의",
+            "start": 75860,
+            "end": 76720,
+            "confidence": 0.109,
+            "speaker": "A"
+          },
+          {
+            "text": "창틀이",
+            "start": 76940,
+            "end": 77520,
+            "confidence": 0.046,
+            "speaker": "A"
+          },
+          {
+            "text": "어우러진",
+            "start": 77680,
+            "end": 78861,
+            "confidence": 0.008,
+            "speaker": "A"
+          },
+          {
+            "text": "프랑스풍의",
+            "start": 79041,
+            "end": 80001,
+            "confidence": 0.071,
+            "speaker": "A"
+          },
+          {
+            "text": "서양식",
+            "start": 80402,
+            "end": 80982,
+            "confidence": 0.106,
+            "speaker": "A"
+          },
+          {
+            "text": "2층",
+            "start": 81542,
+            "end": 81702,
+            "confidence": 0.003,
+            "speaker": "A"
+          },
+          {
+            "text": "건물",
+            "start": 81822,
+            "end": 82282,
+            "confidence": 0.023,
+            "speaker": "A"
+          },
+          {
+            "text": "보이시죠?",
+            "start": 82542,
+            "end": 84183,
+            "confidence": 0.052,
+            "speaker": "A"
+          },
+          {
+            "text": "이곳은",
+            "start": 84543,
+            "end": 85004,
+            "confidence": 0.132,
+            "speaker": "A"
+          },
+          {
+            "text": "바로",
+            "start": 85544,
+            "end": 85964,
+            "confidence": 0.096,
+            "speaker": "A"
+          },
+          {
+            "text": "돈덕전입니다.",
+            "start": 86384,
+            "end": 88665,
+            "confidence": 0.077,
+            "speaker": "A"
+          },
+          {
+            "text": "서양",
+            "start": 89025,
+            "end": 89325,
+            "confidence": 0.115,
+            "speaker": "A"
+          },
+          {
+            "text": "열강에",
+            "start": 89485,
+            "end": 90226,
+            "confidence": 0.05,
+            "speaker": "A"
+          },
+          {
+            "text": "근대화된",
+            "start": 90726,
+            "end": 91506,
+            "confidence": 0.075,
+            "speaker": "A"
+          },
+          {
+            "text": "나라의",
+            "start": 91746,
+            "end": 92166,
+            "confidence": 0.147,
+            "speaker": "A"
+          },
+          {
+            "text": "위상을",
+            "start": 92327,
+            "end": 92907,
+            "confidence": 0.095,
+            "speaker": "A"
+          },
+          {
+            "text": "보여주고",
+            "start": 93087,
+            "end": 93687,
+            "confidence": 0.16,
+            "speaker": "A"
+          },
+          {
+            "text": "싶었던",
+            "start": 93807,
+            "end": 94447,
+            "confidence": 0.062,
+            "speaker": "A"
+          },
+          {
+            "text": "고종은",
+            "start": 94788,
+            "end": 95168,
+            "confidence": 0.313,
+            "speaker": "A"
+          },
+          {
+            "text": "즉위",
+            "start": 96230,
+            "end": 96830,
+            "confidence": 0.003,
+            "speaker": "A"
+          },
+          {
+            "text": "40주년을",
+            "start": 97731,
+            "end": 98251,
+            "confidence": 0.118,
+            "speaker": "A"
+          },
+          {
+            "text": "경축하는",
+            "start": 98531,
+            "end": 99391,
+            "confidence": 0.064,
+            "speaker": "A"
+          },
+          {
+            "text": "국제적인",
+            "start": 100092,
+            "end": 100792,
+            "confidence": 0.101,
+            "speaker": "A"
+          },
+          {
+            "text": "행사를",
+            "start": 100972,
+            "end": 101552,
+            "confidence": 0.12,
+            "speaker": "A"
+          },
+          {
+            "text": "하기",
+            "start": 101712,
+            "end": 101932,
+            "confidence": 0.196,
+            "speaker": "A"
+          },
+          {
+            "text": "위해",
+            "start": 102012,
+            "end": 103473,
+            "confidence": 0.064,
+            "speaker": "A"
+          },
+          {
+            "text": "1902년부터",
+            "start": 104153,
+            "end": 104934,
+            "confidence": 0.076,
+            "speaker": "A"
+          },
+          {
+            "text": "1년여에",
+            "start": 105694,
+            "end": 106154,
+            "confidence": 0.063,
+            "speaker": "A"
+          },
+          {
+            "text": "걸쳐",
+            "start": 106254,
+            "end": 106854,
+            "confidence": 0.06,
+            "speaker": "A"
+          },
+          {
+            "text": "이곳을",
+            "start": 107375,
+            "end": 108015,
+            "confidence": 0.077,
+            "speaker": "A"
+          },
+          {
+            "text": "만들었습니다.",
+            "start": 108335,
+            "end": 109996,
+            "confidence": 0.117,
+            "speaker": "A"
+          },
+          {
+            "text": "이곳은",
+            "start": 110536,
+            "end": 111076,
+            "confidence": 0.113,
+            "speaker": "A"
+          },
+          {
+            "text": "한동안",
+            "start": 111616,
+            "end": 112177,
+            "confidence": 0.109,
+            "speaker": "A"
+          },
+          {
+            "text": "고종이",
+            "start": 112797,
+            "end": 113397,
+            "confidence": 0.089,
+            "speaker": "A"
+          },
+          {
+            "text": "외교사절을",
+            "start": 113957,
+            "end": 114978,
+            "confidence": 0.102,
+            "speaker": "A"
+          },
+          {
+            "text": "접견하고",
+            "start": 115178,
+            "end": 115998,
+            "confidence": 0.053,
+            "speaker": "A"
+          },
+          {
+            "text": "국외",
+            "start": 116979,
+            "end": 117439,
+            "confidence": 0.055,
+            "speaker": "A"
+          },
+          {
+            "text": "주요",
+            "start": 117719,
+            "end": 118039,
+            "confidence": 0.125,
+            "speaker": "A"
+          },
+          {
+            "text": "인사들과",
+            "start": 118139,
+            "end": 119160,
+            "confidence": 0.08,
+            "speaker": "A"
+          },
+          {
+            "text": "연회를",
+            "start": 119780,
+            "end": 120240,
+            "confidence": 0.102,
+            "speaker": "A"
+          },
+          {
+            "text": "베푸는",
+            "start": 120380,
+            "end": 120880,
+            "confidence": 0.048,
+            "speaker": "A"
+          },
+          {
+            "text": "장소이자",
+            "start": 120900,
+            "end": 121741,
+            "confidence": 0.027,
+            "speaker": "A"
+          },
+          {
+            "text": "국빈급",
+            "start": 122791,
+            "end": 123592,
+            "confidence": 0.026,
+            "speaker": "A"
+          },
+          {
+            "text": "외국인의",
+            "start": 124012,
+            "end": 124753,
+            "confidence": 0.112,
+            "speaker": "A"
+          },
+          {
+            "text": "숙소로",
+            "start": 125014,
+            "end": 125614,
+            "confidence": 0.048,
+            "speaker": "A"
+          },
+          {
+            "text": "사용됐습니다.",
+            "start": 125875,
+            "end": 128257,
+            "confidence": 0.073,
+            "speaker": "A"
+          },
+          {
+            "text": "이렇게",
+            "start": 128458,
+            "end": 129138,
+            "confidence": 0.131,
+            "speaker": "A"
+          },
+          {
+            "text": "돈덕전은",
+            "start": 129538,
+            "end": 130419,
+            "confidence": 0.03,
+            "speaker": "A"
+          },
+          {
+            "text": "근대",
+            "start": 131541,
+            "end": 131942,
+            "confidence": 0.04,
+            "speaker": "A"
+          },
+          {
+            "text": "국가로서의",
+            "start": 132082,
+            "end": 133123,
+            "confidence": 0.095,
+            "speaker": "A"
+          },
+          {
+            "text": "위상을",
+            "start": 133384,
+            "end": 133904,
+            "confidence": 0.091,
+            "speaker": "A"
+          },
+          {
+            "text": "국제사회에",
+            "start": 134745,
+            "end": 135786,
+            "confidence": 0.087,
+            "speaker": "A"
+          },
+          {
+            "text": "한껏",
+            "start": 136167,
+            "end": 136627,
+            "confidence": 0.034,
+            "speaker": "A"
+          },
+          {
+            "text": "드러내고자",
+            "start": 136868,
+            "end": 137608,
+            "confidence": 0.119,
+            "speaker": "A"
+          },
+          {
+            "text": "한",
+            "start": 137689,
+            "end": 137829,
+            "confidence": 0.143,
+            "speaker": "A"
+          },
+          {
+            "text": "곳이었습니다.",
+            "start": 137949,
+            "end": 138890,
+            "confidence": 0.247,
+            "speaker": "A"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.088,
+    "audio_duration": 140
+  },
+  {
+    "status_script": "completed",
+    "id": "3c412257-340b-4609-a2fd-a07c7b16d5ce",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_43-44.mp3",
+    "text": "눈 덮인 설산 같은 소금더미 뜨거운 태양. 아래 소금 장인이 묵묵히 일하는 이곳 염전 드넓은 갯벌에 칼마귀를 만들고 바닷물을 가둬놓았다 바닷물이. 증발하면서 염전 바닥에 하얀 정육면체 결정이 생겨나기 시작한다. 태양이 좀 더 머물고 바람이 살랑살랑 불어주니. 소금 결정이 눈처럼 쌓인다. 이제 소금을 수확할 시간. 염전 일꾼은 끌개로 부지런히 염전 바닥 가득한. 소금 결정을 모아 한데 쌓아놓는다. 포장하기 전 소금에 남아있는 수분을 조금이라도 더 제거하기 위함이다. 이읕고 긴 인내의 끝에 자연과 인간이 빚어낸 소금이 탄생한다. 다시 들으십시오. 눈 덮인 설산 같은 소금더미 뜨거운 태양. 아래 소금 장인이 묵묵히 일하는 이곳 염전 드넓은 갯벌에 칼마귀를 만들고 바닷물을 가둬놓았다 바닷물이 증발하면서 염전 바닥에 하얀 정육면체 결정이 생겨나기 시작한다 태양이 좀 더 머물고 바람이 살랑살랑 불어주니. 소금 결정이 눈처럼 쌓인다. 이제 소금을 수확할 시간. 염전 일꾼은 끌개로 부지런히 염전 바닥 가득한. 소금 결정을 모아 한 대 쌓아놓는다. 포장하기 전, 소금에 남아있는 수분을 조금이라도 더 제거하기 위함이다. 이윽고 긴 인내의 끝에 자연과 인간이 빚어낸 소금이 탄생한다.",
+    "utterances": [
+      {
+        "speaker": "A",
+        "text": "눈 덮인 설산 같은 소금더미 뜨거운 태양.",
+        "confidence": 0.053142857,
+        "start": 987,
+        "end": 6550,
+        "words": [
+          {
+            "text": "눈",
+            "start": 987,
+            "end": 1087,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "덮인",
+            "start": 1367,
+            "end": 1767,
+            "confidence": 0.052,
+            "speaker": "A"
+          },
+          {
+            "text": "설산",
+            "start": 2068,
+            "end": 2528,
+            "confidence": 0.01,
+            "speaker": "A"
+          },
+          {
+            "text": "같은",
+            "start": 2628,
+            "end": 3008,
+            "confidence": 0.111,
+            "speaker": "A"
+          },
+          {
+            "text": "소금더미",
+            "start": 3388,
+            "end": 4089,
+            "confidence": 0.001,
+            "speaker": "A"
+          },
+          {
+            "text": "뜨거운",
+            "start": 5549,
+            "end": 5970,
+            "confidence": 0.119,
+            "speaker": "A"
+          },
+          {
+            "text": "태양.",
+            "start": 6230,
+            "end": 6550,
+            "confidence": 0.079,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "아래 소금 장인이 묵묵히 일하는 이곳 염전 드넓은 갯벌에 칼마귀를 만들고 바닷물을 가둬놓았다 바닷물이.",
+        "confidence": 0.052285716,
+        "start": 6590,
+        "end": 21958,
+        "words": [
+          {
+            "text": "아래",
+            "start": 6590,
+            "end": 6870,
+            "confidence": 0.097,
+            "speaker": "B"
+          },
+          {
+            "text": "소금",
+            "start": 7530,
+            "end": 7831,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "장인이",
+            "start": 7991,
+            "end": 8451,
+            "confidence": 0.037,
+            "speaker": "B"
+          },
+          {
+            "text": "묵묵히",
+            "start": 9051,
+            "end": 9932,
+            "confidence": 0.001,
+            "speaker": "B"
+          },
+          {
+            "text": "일하는",
+            "start": 10052,
+            "end": 10472,
+            "confidence": 0.124,
+            "speaker": "B"
+          },
+          {
+            "text": "이곳",
+            "start": 10912,
+            "end": 11192,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "염전",
+            "start": 11613,
+            "end": 12113,
+            "confidence": 0.006,
+            "speaker": "B"
+          },
+          {
+            "text": "드넓은",
+            "start": 13594,
+            "end": 14134,
+            "confidence": 0.094,
+            "speaker": "B"
+          },
+          {
+            "text": "갯벌에",
+            "start": 14314,
+            "end": 14914,
+            "confidence": 0.006,
+            "speaker": "B"
+          },
+          {
+            "text": "칼마귀를",
+            "start": 15455,
+            "end": 16114,
+            "confidence": 0.067,
+            "speaker": "B"
+          },
+          {
+            "text": "만들고",
+            "start": 16235,
+            "end": 16815,
+            "confidence": 0.101,
+            "speaker": "B"
+          },
+          {
+            "text": "바닷물을",
+            "start": 17576,
+            "end": 18356,
+            "confidence": 0.061,
+            "speaker": "B"
+          },
+          {
+            "text": "가둬놓았다",
+            "start": 18716,
+            "end": 20658,
+            "confidence": 0.051,
+            "speaker": "B"
+          },
+          {
+            "text": "바닷물이.",
+            "start": 21298,
+            "end": 21958,
+            "confidence": 0.087,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "증발하면서 염전 바닥에 하얀 정육면체 결정이 생겨나기 시작한다.",
+        "confidence": 0.076125,
+        "start": 22178,
+        "end": 30923,
+        "words": [
+          {
+            "text": "증발하면서",
+            "start": 22178,
+            "end": 23099,
+            "confidence": 0.093,
+            "speaker": "A"
+          },
+          {
+            "text": "염전",
+            "start": 23899,
+            "end": 24319,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "바닥에",
+            "start": 24460,
+            "end": 24940,
+            "confidence": 0.039,
+            "speaker": "A"
+          },
+          {
+            "text": "하얀",
+            "start": 25840,
+            "end": 26261,
+            "confidence": 0.047,
+            "speaker": "A"
+          },
+          {
+            "text": "정육면체",
+            "start": 26561,
+            "end": 27621,
+            "confidence": 0.017,
+            "speaker": "A"
+          },
+          {
+            "text": "결정이",
+            "start": 27801,
+            "end": 28462,
+            "confidence": 0.102,
+            "speaker": "A"
+          },
+          {
+            "text": "생겨나기",
+            "start": 29002,
+            "end": 29822,
+            "confidence": 0.019,
+            "speaker": "A"
+          },
+          {
+            "text": "시작한다.",
+            "start": 30123,
+            "end": 30923,
+            "confidence": 0.292,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "태양이 좀 더 머물고 바람이 살랑살랑 불어주니.",
+        "confidence": 0.08857143,
+        "start": 32357,
+        "end": 37959,
+        "words": [
+          {
+            "text": "태양이",
+            "start": 32357,
+            "end": 33018,
+            "confidence": 0.074,
+            "speaker": "B"
+          },
+          {
+            "text": "좀",
+            "start": 33278,
+            "end": 33418,
+            "confidence": 0.143,
+            "speaker": "B"
+          },
+          {
+            "text": "더",
+            "start": 33578,
+            "end": 33758,
+            "confidence": 0.104,
+            "speaker": "B"
+          },
+          {
+            "text": "머물고",
+            "start": 33878,
+            "end": 34419,
+            "confidence": 0.049,
+            "speaker": "B"
+          },
+          {
+            "text": "바람이",
+            "start": 35279,
+            "end": 35799,
+            "confidence": 0.116,
+            "speaker": "B"
+          },
+          {
+            "text": "살랑살랑",
+            "start": 36159,
+            "end": 37059,
+            "confidence": 0.058,
+            "speaker": "B"
+          },
+          {
+            "text": "불어주니.",
+            "start": 37339,
+            "end": 37959,
+            "confidence": 0.076,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "소금 결정이 눈처럼 쌓인다.",
+        "confidence": 0.02525,
+        "start": 39020,
+        "end": 43781,
+        "words": [
+          {
+            "text": "소금",
+            "start": 39020,
+            "end": 39340,
+            "confidence": 0.009,
+            "speaker": "A"
+          },
+          {
+            "text": "결정이",
+            "start": 39520,
+            "end": 40120,
+            "confidence": 0.052,
+            "speaker": "A"
+          },
+          {
+            "text": "눈처럼",
+            "start": 40720,
+            "end": 41420,
+            "confidence": 0.019,
+            "speaker": "A"
+          },
+          {
+            "text": "쌓인다.",
+            "start": 41741,
+            "end": 43781,
+            "confidence": 0.021,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "이제 소금을 수확할 시간. 염전 일꾼은 끌개로 부지런히 염전 바닥 가득한.",
+        "confidence": 0.030636363,
+        "start": 43801,
+        "end": 54244,
+        "words": [
+          {
+            "text": "이제",
+            "start": 43801,
+            "end": 44221,
+            "confidence": 0.096,
+            "speaker": "B"
+          },
+          {
+            "text": "소금을",
+            "start": 44941,
+            "end": 45462,
+            "confidence": 0.041,
+            "speaker": "B"
+          },
+          {
+            "text": "수확할",
+            "start": 45842,
+            "end": 46382,
+            "confidence": 0.101,
+            "speaker": "B"
+          },
+          {
+            "text": "시간.",
+            "start": 46582,
+            "end": 48142,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "염전",
+            "start": 48302,
+            "end": 48822,
+            "confidence": 0.009,
+            "speaker": "B"
+          },
+          {
+            "text": "일꾼은",
+            "start": 48962,
+            "end": 49563,
+            "confidence": 0.001,
+            "speaker": "B"
+          },
+          {
+            "text": "끌개로",
+            "start": 50243,
+            "end": 50743,
+            "confidence": 0.048,
+            "speaker": "B"
+          },
+          {
+            "text": "부지런히",
+            "start": 51343,
+            "end": 52043,
+            "confidence": 0.039,
+            "speaker": "B"
+          },
+          {
+            "text": "염전",
+            "start": 52463,
+            "end": 52883,
+            "confidence": 0.002,
+            "speaker": "B"
+          },
+          {
+            "text": "바닥",
+            "start": 53064,
+            "end": 53324,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "가득한.",
+            "start": 53644,
+            "end": 54244,
+            "speaker": "B",
+            "confidence": 0.0
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "소금 결정을 모아 한데 쌓아놓는다.",
+        "confidence": 0.0958,
+        "start": 54644,
+        "end": 58565,
+        "words": [
+          {
+            "text": "소금",
+            "start": 54644,
+            "end": 54944,
+            "confidence": 0.032,
+            "speaker": "A"
+          },
+          {
+            "text": "결정을",
+            "start": 55124,
+            "end": 55724,
+            "confidence": 0.107,
+            "speaker": "A"
+          },
+          {
+            "text": "모아",
+            "start": 55904,
+            "end": 56164,
+            "confidence": 0.114,
+            "speaker": "A"
+          },
+          {
+            "text": "한데",
+            "start": 56184,
+            "end": 57305,
+            "confidence": 0.01,
+            "speaker": "A"
+          },
+          {
+            "text": "쌓아놓는다.",
+            "start": 57625,
+            "end": 58565,
+            "confidence": 0.216,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "포장하기 전 소금에 남아있는 수분을 조금이라도 더 제거하기 위함이다. 이읕고 긴 인내의 끝에 자연과 인간이 빚어낸 소금이 탄생한다.",
+        "confidence": 0.05733333,
+        "start": 59932,
+        "end": 78241,
+        "words": [
+          {
+            "text": "포장하기",
+            "start": 59932,
+            "end": 60752,
+            "confidence": 0.078,
+            "speaker": "B"
+          },
+          {
+            "text": "전",
+            "start": 60872,
+            "end": 61053,
+            "confidence": 0.084,
+            "speaker": "B"
+          },
+          {
+            "text": "소금에",
+            "start": 62033,
+            "end": 62573,
+            "confidence": 0.036,
+            "speaker": "B"
+          },
+          {
+            "text": "남아있는",
+            "start": 62673,
+            "end": 63354,
+            "confidence": 0.122,
+            "speaker": "B"
+          },
+          {
+            "text": "수분을",
+            "start": 63634,
+            "end": 64114,
+            "confidence": 0.124,
+            "speaker": "B"
+          },
+          {
+            "text": "조금이라도",
+            "start": 64834,
+            "end": 65655,
+            "confidence": 0.108,
+            "speaker": "B"
+          },
+          {
+            "text": "더",
+            "start": 65995,
+            "end": 66215,
+            "confidence": 0.083,
+            "speaker": "B"
+          },
+          {
+            "text": "제거하기",
+            "start": 66415,
+            "end": 67195,
+            "confidence": 0.036,
+            "speaker": "B"
+          },
+          {
+            "text": "위함이다.",
+            "start": 67375,
+            "end": 69276,
+            "confidence": 0.006,
+            "speaker": "B"
+          },
+          {
+            "text": "이읕고",
+            "start": 69416,
+            "end": 69997,
+            "confidence": 0.072,
+            "speaker": "B"
+          },
+          {
+            "text": "긴",
+            "start": 70697,
+            "end": 70977,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "인내의",
+            "start": 71277,
+            "end": 71738,
+            "confidence": 0.026,
+            "speaker": "B"
+          },
+          {
+            "text": "끝에",
+            "start": 71978,
+            "end": 72538,
+            "confidence": 0.006,
+            "speaker": "B"
+          },
+          {
+            "text": "자연과",
+            "start": 73238,
+            "end": 73919,
+            "confidence": 0.053,
+            "speaker": "B"
+          },
+          {
+            "text": "인간이",
+            "start": 74179,
+            "end": 74679,
+            "confidence": 0.114,
+            "speaker": "B"
+          },
+          {
+            "text": "빚어낸",
+            "start": 74819,
+            "end": 75299,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "소금이",
+            "start": 76020,
+            "end": 76560,
+            "confidence": 0.034,
+            "speaker": "B"
+          },
+          {
+            "text": "탄생한다.",
+            "start": 77020,
+            "end": 78241,
+            "confidence": 0.05,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "C",
+        "text": "다시 들으십시오.",
+        "confidence": 0.018,
+        "start": 79661,
+        "end": 81102,
+        "words": [
+          {
+            "text": "다시",
+            "start": 79661,
+            "end": 80181,
+            "confidence": 0.001,
+            "speaker": "C"
+          },
+          {
+            "text": "들으십시오.",
+            "start": 80342,
+            "end": 81102,
+            "confidence": 0.035,
+            "speaker": "C"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "눈 덮인 설산 같은 소금더미 뜨거운 태양.",
+        "confidence": 0.05757143,
+        "start": 82747,
+        "end": 88369,
+        "words": [
+          {
+            "text": "눈",
+            "start": 82747,
+            "end": 82887,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "덮인",
+            "start": 83147,
+            "end": 83567,
+            "confidence": 0.054,
+            "speaker": "A"
+          },
+          {
+            "text": "설산",
+            "start": 83867,
+            "end": 84328,
+            "confidence": 0.001,
+            "speaker": "A"
+          },
+          {
+            "text": "같은",
+            "start": 84408,
+            "end": 84808,
+            "confidence": 0.102,
+            "speaker": "A"
+          },
+          {
+            "text": "소금더미",
+            "start": 85168,
+            "end": 85888,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "뜨거운",
+            "start": 87349,
+            "end": 87749,
+            "confidence": 0.144,
+            "speaker": "A"
+          },
+          {
+            "text": "태양.",
+            "start": 88029,
+            "end": 88369,
+            "confidence": 0.102,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "아래 소금 장인이 묵묵히 일하는 이곳 염전 드넓은 갯벌에 칼마귀를 만들고 바닷물을 가둬놓았다 바닷물이 증발하면서 염전 바닥에 하얀 정육면체 결정이 생겨나기 시작한다 태양이 좀 더 머물고 바람이 살랑살랑 불어주니.",
+        "confidence": 0.06865517,
+        "start": 88389,
+        "end": 119752,
+        "words": [
+          {
+            "text": "아래",
+            "start": 88389,
+            "end": 88669,
+            "confidence": 0.104,
+            "speaker": "B"
+          },
+          {
+            "text": "소금",
+            "start": 89329,
+            "end": 89629,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "장인이",
+            "start": 89789,
+            "end": 90250,
+            "confidence": 0.048,
+            "speaker": "B"
+          },
+          {
+            "text": "묵묵히",
+            "start": 90850,
+            "end": 91670,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "일하는",
+            "start": 91830,
+            "end": 92250,
+            "confidence": 0.094,
+            "speaker": "B"
+          },
+          {
+            "text": "이곳",
+            "start": 92690,
+            "end": 92970,
+            "confidence": 0.055,
+            "speaker": "B"
+          },
+          {
+            "text": "염전",
+            "start": 93411,
+            "end": 93571,
+            "confidence": 0.004,
+            "speaker": "B"
+          },
+          {
+            "text": "드넓은",
+            "start": 95391,
+            "end": 95931,
+            "confidence": 0.103,
+            "speaker": "B"
+          },
+          {
+            "text": "갯벌에",
+            "start": 96111,
+            "end": 96712,
+            "confidence": 0.028,
+            "speaker": "B"
+          },
+          {
+            "text": "칼마귀를",
+            "start": 97252,
+            "end": 97912,
+            "confidence": 0.059,
+            "speaker": "B"
+          },
+          {
+            "text": "만들고",
+            "start": 98032,
+            "end": 98612,
+            "confidence": 0.099,
+            "speaker": "B"
+          },
+          {
+            "text": "바닷물을",
+            "start": 99353,
+            "end": 100153,
+            "confidence": 0.087,
+            "speaker": "B"
+          },
+          {
+            "text": "가둬놓았다",
+            "start": 100513,
+            "end": 102434,
+            "confidence": 0.049,
+            "speaker": "B"
+          },
+          {
+            "text": "바닷물이",
+            "start": 103074,
+            "end": 103754,
+            "confidence": 0.058,
+            "speaker": "B"
+          },
+          {
+            "text": "증발하면서",
+            "start": 103974,
+            "end": 104894,
+            "confidence": 0.092,
+            "speaker": "B"
+          },
+          {
+            "text": "염전",
+            "start": 105695,
+            "end": 106095,
+            "confidence": 0.002,
+            "speaker": "B"
+          },
+          {
+            "text": "바닥에",
+            "start": 106255,
+            "end": 106715,
+            "confidence": 0.014,
+            "speaker": "B"
+          },
+          {
+            "text": "하얀",
+            "start": 107615,
+            "end": 108055,
+            "confidence": 0.045,
+            "speaker": "B"
+          },
+          {
+            "text": "정육면체",
+            "start": 108356,
+            "end": 109396,
+            "confidence": 0.036,
+            "speaker": "B"
+          },
+          {
+            "text": "결정이",
+            "start": 109596,
+            "end": 110236,
+            "confidence": 0.103,
+            "speaker": "B"
+          },
+          {
+            "text": "생겨나기",
+            "start": 110796,
+            "end": 111617,
+            "confidence": 0.027,
+            "speaker": "B"
+          },
+          {
+            "text": "시작한다",
+            "start": 111897,
+            "end": 112717,
+            "confidence": 0.29,
+            "speaker": "B"
+          },
+          {
+            "text": "태양이",
+            "start": 114151,
+            "end": 114811,
+            "confidence": 0.073,
+            "speaker": "B"
+          },
+          {
+            "text": "좀",
+            "start": 115071,
+            "end": 115211,
+            "confidence": 0.143,
+            "speaker": "B"
+          },
+          {
+            "text": "더",
+            "start": 115371,
+            "end": 115551,
+            "confidence": 0.11,
+            "speaker": "B"
+          },
+          {
+            "text": "머물고",
+            "start": 115651,
+            "end": 116192,
+            "confidence": 0.033,
+            "speaker": "B"
+          },
+          {
+            "text": "바람이",
+            "start": 117072,
+            "end": 117592,
+            "confidence": 0.116,
+            "speaker": "B"
+          },
+          {
+            "text": "살랑살랑",
+            "start": 117932,
+            "end": 118852,
+            "confidence": 0.051,
+            "speaker": "B"
+          },
+          {
+            "text": "불어주니.",
+            "start": 119112,
+            "end": 119752,
+            "confidence": 0.068,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "소금 결정이 눈처럼 쌓인다.",
+        "confidence": 0.03225,
+        "start": 120813,
+        "end": 125574,
+        "words": [
+          {
+            "text": "소금",
+            "start": 120813,
+            "end": 121133,
+            "confidence": 0.02,
+            "speaker": "A"
+          },
+          {
+            "text": "결정이",
+            "start": 121313,
+            "end": 121913,
+            "confidence": 0.048,
+            "speaker": "A"
+          },
+          {
+            "text": "눈처럼",
+            "start": 122513,
+            "end": 123153,
+            "confidence": 0.029,
+            "speaker": "A"
+          },
+          {
+            "text": "쌓인다.",
+            "start": 123514,
+            "end": 125574,
+            "confidence": 0.032,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "이제 소금을 수확할 시간. 염전 일꾼은 끌개로 부지런히 염전 바닥 가득한.",
+        "confidence": 0.03909091,
+        "start": 125594,
+        "end": 136037,
+        "words": [
+          {
+            "text": "이제",
+            "start": 125594,
+            "end": 125994,
+            "confidence": 0.098,
+            "speaker": "B"
+          },
+          {
+            "text": "소금을",
+            "start": 126734,
+            "end": 127295,
+            "confidence": 0.049,
+            "speaker": "B"
+          },
+          {
+            "text": "수확할",
+            "start": 127635,
+            "end": 128134,
+            "confidence": 0.112,
+            "speaker": "B"
+          },
+          {
+            "text": "시간.",
+            "start": 128375,
+            "end": 129914,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "염전",
+            "start": 130095,
+            "end": 130615,
+            "confidence": 0.014,
+            "speaker": "B"
+          },
+          {
+            "text": "일꾼은",
+            "start": 130755,
+            "end": 131336,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "끌개로",
+            "start": 132036,
+            "end": 132536,
+            "confidence": 0.089,
+            "speaker": "B"
+          },
+          {
+            "text": "부지런히",
+            "start": 133136,
+            "end": 133836,
+            "confidence": 0.068,
+            "speaker": "B"
+          },
+          {
+            "text": "염전",
+            "start": 134236,
+            "end": 134676,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "바닥",
+            "start": 134837,
+            "end": 135117,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "가득한.",
+            "start": 135437,
+            "end": 136037,
+            "speaker": "B",
+            "confidence": 0.0
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "소금 결정을 모아 한 대 쌓아놓는다.",
+        "confidence": 0.08916666,
+        "start": 136437,
+        "end": 140358,
+        "words": [
+          {
+            "text": "소금",
+            "start": 136437,
+            "end": 136737,
+            "confidence": 0.048,
+            "speaker": "A"
+          },
+          {
+            "text": "결정을",
+            "start": 136897,
+            "end": 137517,
+            "confidence": 0.106,
+            "speaker": "A"
+          },
+          {
+            "text": "모아",
+            "start": 137677,
+            "end": 137937,
+            "confidence": 0.089,
+            "speaker": "A"
+          },
+          {
+            "text": "한",
+            "start": 137957,
+            "end": 137977,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "대",
+            "start": 138898,
+            "end": 139078,
+            "confidence": 0.055,
+            "speaker": "A"
+          },
+          {
+            "text": "쌓아놓는다.",
+            "start": 139418,
+            "end": 140358,
+            "confidence": 0.237,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "포장하기 전, 소금에 남아있는 수분을 조금이라도 더 제거하기 위함이다. 이윽고 긴 인내의 끝에 자연과 인간이 빚어낸 소금이 탄생한다.",
+        "confidence": 0.07488889,
+        "start": 141708,
+        "end": 159629,
+        "words": [
+          {
+            "text": "포장하기",
+            "start": 141708,
+            "end": 142549,
+            "confidence": 0.082,
+            "speaker": "B"
+          },
+          {
+            "text": "전,",
+            "start": 142649,
+            "end": 142829,
+            "confidence": 0.095,
+            "speaker": "B"
+          },
+          {
+            "text": "소금에",
+            "start": 143830,
+            "end": 144351,
+            "confidence": 0.036,
+            "speaker": "B"
+          },
+          {
+            "text": "남아있는",
+            "start": 144471,
+            "end": 145152,
+            "confidence": 0.119,
+            "speaker": "B"
+          },
+          {
+            "text": "수분을",
+            "start": 145432,
+            "end": 145893,
+            "confidence": 0.131,
+            "speaker": "B"
+          },
+          {
+            "text": "조금이라도",
+            "start": 146634,
+            "end": 147435,
+            "confidence": 0.114,
+            "speaker": "B"
+          },
+          {
+            "text": "더",
+            "start": 147795,
+            "end": 148015,
+            "confidence": 0.058,
+            "speaker": "B"
+          },
+          {
+            "text": "제거하기",
+            "start": 148216,
+            "end": 148997,
+            "confidence": 0.036,
+            "speaker": "B"
+          },
+          {
+            "text": "위함이다.",
+            "start": 149157,
+            "end": 151039,
+            "confidence": 0.021,
+            "speaker": "B"
+          },
+          {
+            "text": "이윽고",
+            "start": 151199,
+            "end": 151780,
+            "confidence": 0.083,
+            "speaker": "B"
+          },
+          {
+            "text": "긴",
+            "start": 151800,
+            "end": 151820,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "인내의",
+            "start": 153081,
+            "end": 153542,
+            "confidence": 0.033,
+            "speaker": "B"
+          },
+          {
+            "text": "끝에",
+            "start": 153782,
+            "end": 154223,
+            "confidence": 0.046,
+            "speaker": "B"
+          },
+          {
+            "text": "자연과",
+            "start": 155044,
+            "end": 155724,
+            "confidence": 0.043,
+            "speaker": "B"
+          },
+          {
+            "text": "인간이",
+            "start": 155985,
+            "end": 156465,
+            "confidence": 0.119,
+            "speaker": "B"
+          },
+          {
+            "text": "빚어낸",
+            "start": 156625,
+            "end": 157086,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "소금이",
+            "start": 157827,
+            "end": 158368,
+            "confidence": 0.019,
+            "speaker": "B"
+          },
+          {
+            "text": "탄생한다.",
+            "start": 158808,
+            "end": 159629,
+            "confidence": 0.313,
+            "speaker": "B"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.070415385,
+    "audio_duration": 162
+  },
+  {
+    "status_script": "completed",
+    "id": "74b71b16-6287-4b93-80d2-4a2a8ccb08c2",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_45-46.mp3",
+    "text": "새로 만든 전통 가마솥에 밥을 지으면 밥맛이 참 좋은데요. 왜 그런 걸까요? 첫째, 솥뚜껑 무게 때문입니다. 솥뚜껑은 손 무게의 3분의 1에 달할 정도로 무겁습니다. 이 솥뚜껑으로 솥을 덮으면 공기와 수증기가 빠져나가지 못하도록 밀폐할 수 있죠. 덕분에 내부 압력이 올라가고 고온 상태가 유지돼 쌀이 익는 속도가 빨라집니다. 이렇게 익히면 쌀의 전분이 포도당으로 빨리 분해돼 밥의 풍미가 올라갑니다. 둘째, 솥 바닥의 두께 때문에 밥맛이 깊어집니다. 불에 닿는 중앙 부분은 두껍고 가장자리로 갈수록 얇아지는데요. 그래서 열이 솥 전체에 균일하게 전달돼 쌀알 하나하나가 골고루 잘 익는 겁니다. 다시 들으십시오. 무쇠로 만든 전통 가마솥에 밥을 지으면 밥맛이 참 좋은데요. 왜 그런 걸까요? 첫째, 솥뚜껑 무게 때문입니다. 솥뚜껑은 손 무게의 3분의 1에 달할 정도로 무겁습니다. 이 솥뚜껑으로 솥을 덮으면 공기와 수증기가 빠져나가지 못하도록 밀폐할 수 있죠. 덕분에 내부 압력이 올라가고 고온 상태가 유지돼 쌀이 익는 속도가 빨라집니다. 이렇게 익히면 쌀의 전분이 포도당으로 빨리 분해돼 밥의 풍미가 올라갑니다. 둘째, 솥 바닥의 두께 때문에 밥맛이 깊어집니다. 불에 닿는 중앙 부분은 두껍고 가장자리로 갈수록 얇아지는데요. 그래서 열이 솥 전체에 균일하게 전달돼 쌀알 하나하나가 골고루 잘 익는 겁니다.",
+    "utterances": [
+      {
+        "speaker": "A",
+        "text": "새로 만든 전통 가마솥에 밥을 지으면 밥맛이 참 좋은데요. 왜 그런 걸까요? 첫째, 솥뚜껑 무게 때문입니다. 솥뚜껑은 손 무게의 3분의 1에 달할 정도로 무겁습니다. 이 솥뚜껑으로 솥을 덮으면 공기와 수증기가 빠져나가지 못하도록 밀폐할 수 있죠. 덕분에 내부 압력이 올라가고 고온 상태가 유지돼 쌀이 익는 속도가 빨라집니다. 이렇게 익히면 쌀의 전분이 포도당으로 빨리 분해돼 밥의 풍미가 올라갑니다. 둘째, 솥 바닥의 두께 때문에 밥맛이 깊어집니다. 불에 닿는 중앙 부분은 두껍고 가장자리로 갈수록 얇아지는데요. 그래서 열이 솥 전체에 균일하게 전달돼 쌀알 하나하나가 골고루 잘 익는 겁니다. 다시 들으십시오. 무쇠로 만든 전통 가마솥에 밥을 지으면 밥맛이 참 좋은데요. 왜 그런 걸까요? 첫째, 솥뚜껑 무게 때문입니다. 솥뚜껑은 손 무게의 3분의 1에 달할 정도로 무겁습니다. 이 솥뚜껑으로 솥을 덮으면 공기와 수증기가 빠져나가지 못하도록 밀폐할 수 있죠. 덕분에 내부 압력이 올라가고 고온 상태가 유지돼 쌀이 익는 속도가 빨라집니다. 이렇게 익히면 쌀의 전분이 포도당으로 빨리 분해돼 밥의 풍미가 올라갑니다. 둘째, 솥 바닥의 두께 때문에 밥맛이 깊어집니다. 불에 닿는 중앙 부분은 두껍고 가장자리로 갈수록 얇아지는데요. 그래서 열이 솥 전체에 균일하게 전달돼 쌀알 하나하나가 골고루 잘 익는 겁니다.",
+        "confidence": 0.07577976,
+        "start": 8,
+        "end": 169585,
+        "words": [
+          {
+            "text": "새로",
+            "start": 8,
+            "end": 448,
+            "confidence": 0.062,
+            "speaker": "A"
+          },
+          {
+            "text": "만든",
+            "start": 548,
+            "end": 1029,
+            "confidence": 0.085,
+            "speaker": "A"
+          },
+          {
+            "text": "전통",
+            "start": 1329,
+            "end": 1789,
+            "confidence": 0.086,
+            "speaker": "A"
+          },
+          {
+            "text": "가마솥에",
+            "start": 1969,
+            "end": 2910,
+            "confidence": 0.001,
+            "speaker": "A"
+          },
+          {
+            "text": "밥을",
+            "start": 3450,
+            "end": 3850,
+            "confidence": 0.004,
+            "speaker": "A"
+          },
+          {
+            "text": "지으면",
+            "start": 4030,
+            "end": 4551,
+            "confidence": 0.096,
+            "speaker": "A"
+          },
+          {
+            "text": "밥맛이",
+            "start": 5271,
+            "end": 6032,
+            "confidence": 0.007,
+            "speaker": "A"
+          },
+          {
+            "text": "참",
+            "start": 6292,
+            "end": 6492,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "좋은데요.",
+            "start": 6732,
+            "end": 7453,
+            "confidence": 0.099,
+            "speaker": "A"
+          },
+          {
+            "text": "왜",
+            "start": 8393,
+            "end": 8573,
+            "confidence": 0.103,
+            "speaker": "A"
+          },
+          {
+            "text": "그런",
+            "start": 8733,
+            "end": 8934,
+            "confidence": 0.063,
+            "speaker": "A"
+          },
+          {
+            "text": "걸까요?",
+            "start": 9014,
+            "end": 9614,
+            "confidence": 0.058,
+            "speaker": "A"
+          },
+          {
+            "text": "첫째,",
+            "start": 10975,
+            "end": 11435,
+            "confidence": 0.077,
+            "speaker": "A"
+          },
+          {
+            "text": "솥뚜껑",
+            "start": 12216,
+            "end": 12896,
+            "confidence": 0.047,
+            "speaker": "A"
+          },
+          {
+            "text": "무게",
+            "start": 13256,
+            "end": 13596,
+            "confidence": 0.065,
+            "speaker": "A"
+          },
+          {
+            "text": "때문입니다.",
+            "start": 13757,
+            "end": 15838,
+            "confidence": 0.106,
+            "speaker": "A"
+          },
+          {
+            "text": "솥뚜껑은",
+            "start": 15958,
+            "end": 16698,
+            "confidence": 0.082,
+            "speaker": "A"
+          },
+          {
+            "text": "손",
+            "start": 17499,
+            "end": 17659,
+            "confidence": 0.06,
+            "speaker": "A"
+          },
+          {
+            "text": "무게의",
+            "start": 17819,
+            "end": 18480,
+            "confidence": 0.016,
+            "speaker": "A"
+          },
+          {
+            "text": "3분의",
+            "start": 19080,
+            "end": 19360,
+            "confidence": 0.14,
+            "speaker": "A"
+          },
+          {
+            "text": "1에",
+            "start": 19660,
+            "end": 19840,
+            "confidence": 0.111,
+            "speaker": "A"
+          },
+          {
+            "text": "달할",
+            "start": 20000,
+            "end": 20341,
+            "confidence": 0.091,
+            "speaker": "A"
+          },
+          {
+            "text": "정도로",
+            "start": 20461,
+            "end": 21141,
+            "confidence": 0.097,
+            "speaker": "A"
+          },
+          {
+            "text": "무겁습니다.",
+            "start": 21461,
+            "end": 22182,
+            "confidence": 0.086,
+            "speaker": "A"
+          },
+          {
+            "text": "이",
+            "start": 23701,
+            "end": 24061,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "솥뚜껑으로",
+            "start": 24301,
+            "end": 25262,
+            "confidence": 0.094,
+            "speaker": "A"
+          },
+          {
+            "text": "솥을",
+            "start": 25682,
+            "end": 26142,
+            "confidence": 0.001,
+            "speaker": "A"
+          },
+          {
+            "text": "덮으면",
+            "start": 26302,
+            "end": 26882,
+            "confidence": 0.038,
+            "speaker": "A"
+          },
+          {
+            "text": "공기와",
+            "start": 27843,
+            "end": 28583,
+            "confidence": 0.083,
+            "speaker": "A"
+          },
+          {
+            "text": "수증기가",
+            "start": 28923,
+            "end": 29743,
+            "confidence": 0.08,
+            "speaker": "A"
+          },
+          {
+            "text": "빠져나가지",
+            "start": 30084,
+            "end": 31104,
+            "confidence": 0.099,
+            "speaker": "A"
+          },
+          {
+            "text": "못하도록",
+            "start": 31364,
+            "end": 32084,
+            "confidence": 0.03,
+            "speaker": "A"
+          },
+          {
+            "text": "밀폐할",
+            "start": 32525,
+            "end": 33045,
+            "confidence": 0.056,
+            "speaker": "A"
+          },
+          {
+            "text": "수",
+            "start": 33185,
+            "end": 33265,
+            "confidence": 0.25,
+            "speaker": "A"
+          },
+          {
+            "text": "있죠.",
+            "start": 33285,
+            "end": 33545,
+            "confidence": 0.5,
+            "speaker": "A"
+          },
+          {
+            "text": "덕분에",
+            "start": 35206,
+            "end": 35846,
+            "confidence": 0.078,
+            "speaker": "A"
+          },
+          {
+            "text": "내부",
+            "start": 36406,
+            "end": 36706,
+            "confidence": 0.169,
+            "speaker": "A"
+          },
+          {
+            "text": "압력이",
+            "start": 36826,
+            "end": 37527,
+            "confidence": 0.001,
+            "speaker": "A"
+          },
+          {
+            "text": "올라가고",
+            "start": 37707,
+            "end": 38547,
+            "confidence": 0.075,
+            "speaker": "A"
+          },
+          {
+            "text": "고온",
+            "start": 39327,
+            "end": 39628,
+            "confidence": 0.052,
+            "speaker": "A"
+          },
+          {
+            "text": "상태가",
+            "start": 39728,
+            "end": 40328,
+            "confidence": 0.104,
+            "speaker": "A"
+          },
+          {
+            "text": "유지돼",
+            "start": 40488,
+            "end": 41148,
+            "confidence": 0.091,
+            "speaker": "A"
+          },
+          {
+            "text": "쌀이",
+            "start": 41728,
+            "end": 42109,
+            "confidence": 0.025,
+            "speaker": "A"
+          },
+          {
+            "text": "익는",
+            "start": 42309,
+            "end": 42729,
+            "confidence": 0.072,
+            "speaker": "A"
+          },
+          {
+            "text": "속도가",
+            "start": 42869,
+            "end": 43489,
+            "confidence": 0.046,
+            "speaker": "A"
+          },
+          {
+            "text": "빨라집니다.",
+            "start": 43709,
+            "end": 44490,
+            "confidence": 0.078,
+            "speaker": "A"
+          },
+          {
+            "text": "이렇게",
+            "start": 46350,
+            "end": 46850,
+            "confidence": 0.136,
+            "speaker": "A"
+          },
+          {
+            "text": "익히면",
+            "start": 46971,
+            "end": 47551,
+            "confidence": 0.001,
+            "speaker": "A"
+          },
+          {
+            "text": "쌀의",
+            "start": 48631,
+            "end": 48891,
+            "confidence": 0.002,
+            "speaker": "A"
+          },
+          {
+            "text": "전분이",
+            "start": 49011,
+            "end": 49772,
+            "confidence": 0.067,
+            "speaker": "A"
+          },
+          {
+            "text": "포도당으로",
+            "start": 50232,
+            "end": 51072,
+            "confidence": 0.079,
+            "speaker": "A"
+          },
+          {
+            "text": "빨리",
+            "start": 51552,
+            "end": 51953,
+            "confidence": 0.118,
+            "speaker": "A"
+          },
+          {
+            "text": "분해돼",
+            "start": 52113,
+            "end": 52513,
+            "confidence": 0.083,
+            "speaker": "A"
+          },
+          {
+            "text": "밥의",
+            "start": 53418,
+            "end": 53878,
+            "confidence": 0.031,
+            "speaker": "A"
+          },
+          {
+            "text": "풍미가",
+            "start": 54079,
+            "end": 54739,
+            "confidence": 0.092,
+            "speaker": "A"
+          },
+          {
+            "text": "올라갑니다.",
+            "start": 54999,
+            "end": 56641,
+            "confidence": 0.092,
+            "speaker": "A"
+          },
+          {
+            "text": "둘째,",
+            "start": 57361,
+            "end": 57842,
+            "confidence": 0.06,
+            "speaker": "A"
+          },
+          {
+            "text": "솥",
+            "start": 58923,
+            "end": 59003,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "바닥의",
+            "start": 59203,
+            "end": 59783,
+            "confidence": 0.001,
+            "speaker": "A"
+          },
+          {
+            "text": "두께",
+            "start": 59983,
+            "end": 60304,
+            "confidence": 0.044,
+            "speaker": "A"
+          },
+          {
+            "text": "때문에",
+            "start": 60444,
+            "end": 61024,
+            "confidence": 0.109,
+            "speaker": "A"
+          },
+          {
+            "text": "밥맛이",
+            "start": 61565,
+            "end": 62265,
+            "confidence": 0.002,
+            "speaker": "A"
+          },
+          {
+            "text": "깊어집니다.",
+            "start": 62445,
+            "end": 64387,
+            "confidence": 0.064,
+            "speaker": "A"
+          },
+          {
+            "text": "불에",
+            "start": 64907,
+            "end": 65188,
+            "confidence": 0.057,
+            "speaker": "A"
+          },
+          {
+            "text": "닿는",
+            "start": 65308,
+            "end": 65708,
+            "confidence": 0.063,
+            "speaker": "A"
+          },
+          {
+            "text": "중앙",
+            "start": 65948,
+            "end": 66249,
+            "confidence": 0.058,
+            "speaker": "A"
+          },
+          {
+            "text": "부분은",
+            "start": 66369,
+            "end": 66789,
+            "confidence": 0.134,
+            "speaker": "A"
+          },
+          {
+            "text": "두껍고",
+            "start": 67049,
+            "end": 67730,
+            "confidence": 0.076,
+            "speaker": "A"
+          },
+          {
+            "text": "가장자리로",
+            "start": 68470,
+            "end": 69491,
+            "confidence": 0.097,
+            "speaker": "A"
+          },
+          {
+            "text": "갈수록",
+            "start": 69631,
+            "end": 70212,
+            "confidence": 0.034,
+            "speaker": "A"
+          },
+          {
+            "text": "얇아지는데요.",
+            "start": 70492,
+            "end": 72273,
+            "confidence": 0.06,
+            "speaker": "A"
+          },
+          {
+            "text": "그래서",
+            "start": 72914,
+            "end": 73454,
+            "confidence": 0.128,
+            "speaker": "A"
+          },
+          {
+            "text": "열이",
+            "start": 73935,
+            "end": 74275,
+            "confidence": 0.11,
+            "speaker": "A"
+          },
+          {
+            "text": "솥",
+            "start": 74295,
+            "end": 74315,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "전체에",
+            "start": 74876,
+            "end": 75636,
+            "confidence": 0.052,
+            "speaker": "A"
+          },
+          {
+            "text": "균일하게",
+            "start": 75977,
+            "end": 76577,
+            "confidence": 0.062,
+            "speaker": "A"
+          },
+          {
+            "text": "전달돼",
+            "start": 76697,
+            "end": 77418,
+            "confidence": 0.067,
+            "speaker": "A"
+          },
+          {
+            "text": "쌀알",
+            "start": 78138,
+            "end": 78499,
+            "confidence": 0.062,
+            "speaker": "A"
+          },
+          {
+            "text": "하나하나가",
+            "start": 78699,
+            "end": 79620,
+            "confidence": 0.079,
+            "speaker": "A"
+          },
+          {
+            "text": "골고루",
+            "start": 80120,
+            "end": 80780,
+            "confidence": 0.055,
+            "speaker": "A"
+          },
+          {
+            "text": "잘",
+            "start": 81061,
+            "end": 81401,
+            "confidence": 0.006,
+            "speaker": "A"
+          },
+          {
+            "text": "익는",
+            "start": 81601,
+            "end": 81961,
+            "confidence": 0.1,
+            "speaker": "A"
+          },
+          {
+            "text": "겁니다.",
+            "start": 82062,
+            "end": 82662,
+            "confidence": 0.379,
+            "speaker": "A"
+          },
+          {
+            "text": "다시",
+            "start": 83978,
+            "end": 84498,
+            "confidence": 0.046,
+            "speaker": "A"
+          },
+          {
+            "text": "들으십시오.",
+            "start": 84738,
+            "end": 86499,
+            "confidence": 0.07,
+            "speaker": "A"
+          },
+          {
+            "text": "무쇠로",
+            "start": 86959,
+            "end": 87480,
+            "confidence": 0.075,
+            "speaker": "A"
+          },
+          {
+            "text": "만든",
+            "start": 87580,
+            "end": 88060,
+            "confidence": 0.085,
+            "speaker": "A"
+          },
+          {
+            "text": "전통",
+            "start": 88340,
+            "end": 88820,
+            "confidence": 0.088,
+            "speaker": "A"
+          },
+          {
+            "text": "가마솥에",
+            "start": 89000,
+            "end": 89921,
+            "confidence": 0.002,
+            "speaker": "A"
+          },
+          {
+            "text": "밥을",
+            "start": 90461,
+            "end": 90881,
+            "confidence": 0.006,
+            "speaker": "A"
+          },
+          {
+            "text": "지으면",
+            "start": 91061,
+            "end": 91581,
+            "confidence": 0.076,
+            "speaker": "A"
+          },
+          {
+            "text": "밥맛이",
+            "start": 92282,
+            "end": 93062,
+            "confidence": 0.006,
+            "speaker": "A"
+          },
+          {
+            "text": "참",
+            "start": 93322,
+            "end": 93502,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "좋은데요.",
+            "start": 93742,
+            "end": 94483,
+            "confidence": 0.076,
+            "speaker": "A"
+          },
+          {
+            "text": "왜",
+            "start": 95423,
+            "end": 95603,
+            "confidence": 0.088,
+            "speaker": "A"
+          },
+          {
+            "text": "그런",
+            "start": 95743,
+            "end": 95963,
+            "confidence": 0.178,
+            "speaker": "A"
+          },
+          {
+            "text": "걸까요?",
+            "start": 96043,
+            "end": 97984,
+            "confidence": 0.363,
+            "speaker": "A"
+          },
+          {
+            "text": "첫째,",
+            "start": 98004,
+            "end": 98444,
+            "confidence": 0.072,
+            "speaker": "A"
+          },
+          {
+            "text": "솥뚜껑",
+            "start": 99225,
+            "end": 99925,
+            "confidence": 0.048,
+            "speaker": "A"
+          },
+          {
+            "text": "무게",
+            "start": 100285,
+            "end": 100605,
+            "confidence": 0.07,
+            "speaker": "A"
+          },
+          {
+            "text": "때문입니다.",
+            "start": 100765,
+            "end": 102866,
+            "confidence": 0.105,
+            "speaker": "A"
+          },
+          {
+            "text": "솥뚜껑은",
+            "start": 102986,
+            "end": 103707,
+            "confidence": 0.089,
+            "speaker": "A"
+          },
+          {
+            "text": "손",
+            "start": 104527,
+            "end": 104667,
+            "confidence": 0.083,
+            "speaker": "A"
+          },
+          {
+            "text": "무게의",
+            "start": 104847,
+            "end": 105487,
+            "confidence": 0.017,
+            "speaker": "A"
+          },
+          {
+            "text": "3분의",
+            "start": 106108,
+            "end": 106368,
+            "confidence": 0.076,
+            "speaker": "A"
+          },
+          {
+            "text": "1에",
+            "start": 106688,
+            "end": 106868,
+            "confidence": 0.111,
+            "speaker": "A"
+          },
+          {
+            "text": "달할",
+            "start": 107028,
+            "end": 107348,
+            "confidence": 0.092,
+            "speaker": "A"
+          },
+          {
+            "text": "정도로",
+            "start": 107488,
+            "end": 108168,
+            "confidence": 0.097,
+            "speaker": "A"
+          },
+          {
+            "text": "무겁습니다.",
+            "start": 108469,
+            "end": 109209,
+            "confidence": 0.09,
+            "speaker": "A"
+          },
+          {
+            "text": "이",
+            "start": 110725,
+            "end": 111085,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "솥뚜껑으로",
+            "start": 111325,
+            "end": 112266,
+            "confidence": 0.094,
+            "speaker": "A"
+          },
+          {
+            "text": "솥을",
+            "start": 112686,
+            "end": 113146,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "덮으면",
+            "start": 113307,
+            "end": 113907,
+            "confidence": 0.022,
+            "speaker": "A"
+          },
+          {
+            "text": "공기와",
+            "start": 114868,
+            "end": 115608,
+            "confidence": 0.083,
+            "speaker": "A"
+          },
+          {
+            "text": "수증기가",
+            "start": 115948,
+            "end": 116769,
+            "confidence": 0.082,
+            "speaker": "A"
+          },
+          {
+            "text": "빠져나가지",
+            "start": 117089,
+            "end": 118130,
+            "confidence": 0.098,
+            "speaker": "A"
+          },
+          {
+            "text": "못하도록",
+            "start": 118370,
+            "end": 119110,
+            "confidence": 0.014,
+            "speaker": "A"
+          },
+          {
+            "text": "밀폐할",
+            "start": 119550,
+            "end": 120071,
+            "confidence": 0.056,
+            "speaker": "A"
+          },
+          {
+            "text": "수",
+            "start": 120211,
+            "end": 120271,
+            "confidence": 0.333,
+            "speaker": "A"
+          },
+          {
+            "text": "있죠.",
+            "start": 120311,
+            "end": 120951,
+            "confidence": 0.038,
+            "speaker": "A"
+          },
+          {
+            "text": "덕분에",
+            "start": 122212,
+            "end": 122872,
+            "confidence": 0.062,
+            "speaker": "A"
+          },
+          {
+            "text": "내부",
+            "start": 123413,
+            "end": 123733,
+            "confidence": 0.138,
+            "speaker": "A"
+          },
+          {
+            "text": "압력이",
+            "start": 123853,
+            "end": 124533,
+            "confidence": 0.007,
+            "speaker": "A"
+          },
+          {
+            "text": "올라가고",
+            "start": 124734,
+            "end": 125574,
+            "confidence": 0.097,
+            "speaker": "A"
+          },
+          {
+            "text": "고온",
+            "start": 126355,
+            "end": 126655,
+            "confidence": 0.062,
+            "speaker": "A"
+          },
+          {
+            "text": "상태가",
+            "start": 126755,
+            "end": 127355,
+            "confidence": 0.104,
+            "speaker": "A"
+          },
+          {
+            "text": "유지돼",
+            "start": 127515,
+            "end": 128175,
+            "confidence": 0.092,
+            "speaker": "A"
+          },
+          {
+            "text": "쌀이",
+            "start": 128756,
+            "end": 129136,
+            "confidence": 0.046,
+            "speaker": "A"
+          },
+          {
+            "text": "익는",
+            "start": 129336,
+            "end": 129737,
+            "confidence": 0.086,
+            "speaker": "A"
+          },
+          {
+            "text": "속도가",
+            "start": 129896,
+            "end": 130517,
+            "confidence": 0.052,
+            "speaker": "A"
+          },
+          {
+            "text": "빨라집니다.",
+            "start": 130717,
+            "end": 131878,
+            "confidence": 0.085,
+            "speaker": "A"
+          },
+          {
+            "text": "이렇게",
+            "start": 133379,
+            "end": 133859,
+            "confidence": 0.142,
+            "speaker": "A"
+          },
+          {
+            "text": "익히면",
+            "start": 133999,
+            "end": 134580,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "쌀의",
+            "start": 135640,
+            "end": 135920,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "전분이",
+            "start": 136041,
+            "end": 136781,
+            "confidence": 0.075,
+            "speaker": "A"
+          },
+          {
+            "text": "포도당으로",
+            "start": 137241,
+            "end": 138102,
+            "confidence": 0.073,
+            "speaker": "A"
+          },
+          {
+            "text": "빨리",
+            "start": 138582,
+            "end": 138982,
+            "confidence": 0.118,
+            "speaker": "A"
+          },
+          {
+            "text": "분해돼",
+            "start": 139142,
+            "end": 139543,
+            "confidence": 0.079,
+            "speaker": "A"
+          },
+          {
+            "text": "밥의",
+            "start": 140442,
+            "end": 140882,
+            "confidence": 0.05,
+            "speaker": "A"
+          },
+          {
+            "text": "풍미가",
+            "start": 141123,
+            "end": 141763,
+            "confidence": 0.076,
+            "speaker": "A"
+          },
+          {
+            "text": "올라갑니다.",
+            "start": 142023,
+            "end": 143645,
+            "confidence": 0.068,
+            "speaker": "A"
+          },
+          {
+            "text": "둘째,",
+            "start": 144385,
+            "end": 144865,
+            "confidence": 0.062,
+            "speaker": "A"
+          },
+          {
+            "text": "솥",
+            "start": 145946,
+            "end": 146026,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "바닥의",
+            "start": 146227,
+            "end": 146787,
+            "confidence": 0.001,
+            "speaker": "A"
+          },
+          {
+            "text": "두께",
+            "start": 147007,
+            "end": 147327,
+            "confidence": 0.004,
+            "speaker": "A"
+          },
+          {
+            "text": "때문에",
+            "start": 147468,
+            "end": 148048,
+            "confidence": 0.113,
+            "speaker": "A"
+          },
+          {
+            "text": "밥맛이",
+            "start": 148588,
+            "end": 149289,
+            "confidence": 0.002,
+            "speaker": "A"
+          },
+          {
+            "text": "깊어집니다.",
+            "start": 149469,
+            "end": 151411,
+            "confidence": 0.071,
+            "speaker": "A"
+          },
+          {
+            "text": "불에",
+            "start": 151931,
+            "end": 152211,
+            "confidence": 0.064,
+            "speaker": "A"
+          },
+          {
+            "text": "닿는",
+            "start": 152311,
+            "end": 152732,
+            "confidence": 0.062,
+            "speaker": "A"
+          },
+          {
+            "text": "중앙",
+            "start": 152972,
+            "end": 153252,
+            "confidence": 0.023,
+            "speaker": "A"
+          },
+          {
+            "text": "부분은",
+            "start": 153392,
+            "end": 153793,
+            "confidence": 0.104,
+            "speaker": "A"
+          },
+          {
+            "text": "두껍고",
+            "start": 154053,
+            "end": 154753,
+            "confidence": 0.068,
+            "speaker": "A"
+          },
+          {
+            "text": "가장자리로",
+            "start": 155494,
+            "end": 156515,
+            "confidence": 0.089,
+            "speaker": "A"
+          },
+          {
+            "text": "갈수록",
+            "start": 156635,
+            "end": 157235,
+            "confidence": 0.072,
+            "speaker": "A"
+          },
+          {
+            "text": "얇아지는데요.",
+            "start": 157495,
+            "end": 159297,
+            "confidence": 0.07,
+            "speaker": "A"
+          },
+          {
+            "text": "그래서",
+            "start": 159937,
+            "end": 160458,
+            "confidence": 0.13,
+            "speaker": "A"
+          },
+          {
+            "text": "열이",
+            "start": 160938,
+            "end": 161298,
+            "confidence": 0.111,
+            "speaker": "A"
+          },
+          {
+            "text": "솥",
+            "start": 161318,
+            "end": 161338,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "전체에",
+            "start": 161899,
+            "end": 162660,
+            "confidence": 0.067,
+            "speaker": "A"
+          },
+          {
+            "text": "균일하게",
+            "start": 163000,
+            "end": 163600,
+            "confidence": 0.071,
+            "speaker": "A"
+          },
+          {
+            "text": "전달돼",
+            "start": 163720,
+            "end": 164441,
+            "confidence": 0.079,
+            "speaker": "A"
+          },
+          {
+            "text": "쌀알",
+            "start": 165162,
+            "end": 165522,
+            "confidence": 0.06,
+            "speaker": "A"
+          },
+          {
+            "text": "하나하나가",
+            "start": 165722,
+            "end": 166643,
+            "confidence": 0.08,
+            "speaker": "A"
+          },
+          {
+            "text": "골고루",
+            "start": 167143,
+            "end": 167784,
+            "confidence": 0.071,
+            "speaker": "A"
+          },
+          {
+            "text": "잘",
+            "start": 168084,
+            "end": 168424,
+            "confidence": 0.014,
+            "speaker": "A"
+          },
+          {
+            "text": "익는",
+            "start": 168624,
+            "end": 168985,
+            "confidence": 0.1,
+            "speaker": "A"
+          },
+          {
+            "text": "겁니다.",
+            "start": 169085,
+            "end": 169585,
+            "confidence": 0.378,
+            "speaker": "A"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.08108917,
+    "audio_duration": 172
+  },
+  {
+    "status_script": "completed",
+    "id": "b96ebca7-9381-499e-89e2-5e1ac36ed7d9",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_47-48.mp3",
+    "text": "건실한 기업을 만들고자 도입된 사회이사제도가 법제화된 지도 벌써 25년이 지났는데요. 그 실효성 논란이 끊이지 않습니다. 사회이사제도는 기업 내부자 이외에 외부 전문가도 이사회에 참여시키는 제도로 기업 내 권력 집중을 막고 경영에 전문 지식을 활용하기 위해 도입됐습니다. 그러나 경영진에게도 사회 이사 추천권이 있어서 자신들과 친분이 있는 인물을 추천하고 그러다 보니 이들이 경영진을 견제하기란 쉽지 않습니다. 또 전문성이 검증되지 않은 인물이 선임되기도 해 제도의 취지를 무색하게 하죠. 후보 추천 방법을 개선하고 자격 검증을 강화하는 등의 대책 마련이 시급합니다. 다시 들으십시오. 건실한 기업을 만들고자 도입된 사회이사제도가 법제화된 지도 벌써 25년이 지났는데요. 그 실효성 논란이 끊이지 않습니다. 사회이사제도는 기업 내부자 이외에 외부 전문가도 이사회에 참여시키는 제도로 기업 내 권력 집중을 막고 경영에 전문 지식을 활용하기 위해 도입됐습니다. 그러나 경영진에게도 사회 이사 추천권이 있어서 자신들과 친분이 있는 인물을 추천하고 그러다 보니 이들이 경영진을 견제하기란 쉽지 않습니다. 또 전문성이 검증되지 않은 인물이 선임되기도 해 제도의 취지를 무색하게 하죠. 후보 추천 방법을 개선하고 자격 검증을 강화하는 등의 대책 마련이 시급합니다.",
+    "utterances": [
+      {
+        "speaker": "A",
+        "text": "건실한 기업을 만들고자 도입된 사회이사제도가 법제화된 지도 벌써 25년이 지났는데요. 그 실효성 논란이 끊이지 않습니다.",
+        "confidence": 0.07593333,
+        "start": 937,
+        "end": 18124,
+        "words": [
+          {
+            "text": "건실한",
+            "start": 937,
+            "end": 1537,
+            "confidence": 0.002,
+            "speaker": "A"
+          },
+          {
+            "text": "기업을",
+            "start": 1737,
+            "end": 2298,
+            "confidence": 0.109,
+            "speaker": "A"
+          },
+          {
+            "text": "만들고자",
+            "start": 2438,
+            "end": 3278,
+            "confidence": 0.083,
+            "speaker": "A"
+          },
+          {
+            "text": "도입된",
+            "start": 3418,
+            "end": 3978,
+            "confidence": 0.116,
+            "speaker": "A"
+          },
+          {
+            "text": "사회이사제도가",
+            "start": 4759,
+            "end": 6359,
+            "confidence": 0.081,
+            "speaker": "A"
+          },
+          {
+            "text": "법제화된",
+            "start": 6999,
+            "end": 7760,
+            "confidence": 0.09,
+            "speaker": "A"
+          },
+          {
+            "text": "지도",
+            "start": 7920,
+            "end": 8340,
+            "confidence": 0.098,
+            "speaker": "A"
+          },
+          {
+            "text": "벌써",
+            "start": 8980,
+            "end": 9480,
+            "confidence": 0.03,
+            "speaker": "A"
+          },
+          {
+            "text": "25년이",
+            "start": 10561,
+            "end": 10941,
+            "confidence": 0.112,
+            "speaker": "A"
+          },
+          {
+            "text": "지났는데요.",
+            "start": 11141,
+            "end": 13422,
+            "confidence": 0.027,
+            "speaker": "A"
+          },
+          {
+            "text": "그",
+            "start": 13442,
+            "end": 13462,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "실효성",
+            "start": 13822,
+            "end": 14442,
+            "confidence": 0.084,
+            "speaker": "A"
+          },
+          {
+            "text": "논란이",
+            "start": 14623,
+            "end": 15283,
+            "confidence": 0.091,
+            "speaker": "A"
+          },
+          {
+            "text": "끊이지",
+            "start": 15743,
+            "end": 16163,
+            "confidence": 0.152,
+            "speaker": "A"
+          },
+          {
+            "text": "않습니다.",
+            "start": 16203,
+            "end": 18124,
+            "confidence": 0.064,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "사회이사제도는 기업 내부자 이외에 외부 전문가도 이사회에 참여시키는 제도로 기업 내 권력 집중을 막고 경영에 전문 지식을 활용하기 위해 도입됐습니다. 그러나 경영진에게도 사회 이사 추천권이 있어서 자신들과 친분이 있는 인물을 추천하고 그러다 보니 이들이 경영진을 견제하기란 쉽지 않습니다. 또 전문성이 검증되지 않은 인물이 선임되기도 해 제도의 취지를 무색하게 하죠. 후보 추천 방법을 개선하고 자격 검증을 강화하는 등의 대책 마련이 시급합니다.",
+        "confidence": 0.11161666,
+        "start": 18584,
+        "end": 76000,
+        "words": [
+          {
+            "text": "사회이사제도는",
+            "start": 18584,
+            "end": 19845,
+            "confidence": 0.04,
+            "speaker": "B"
+          },
+          {
+            "text": "기업",
+            "start": 20905,
+            "end": 21165,
+            "confidence": 0.096,
+            "speaker": "B"
+          },
+          {
+            "text": "내부자",
+            "start": 21345,
+            "end": 21905,
+            "confidence": 0.038,
+            "speaker": "B"
+          },
+          {
+            "text": "이외에",
+            "start": 22026,
+            "end": 22506,
+            "confidence": 0.038,
+            "speaker": "B"
+          },
+          {
+            "text": "외부",
+            "start": 23246,
+            "end": 23586,
+            "confidence": 0.1,
+            "speaker": "B"
+          },
+          {
+            "text": "전문가도",
+            "start": 23706,
+            "end": 24447,
+            "confidence": 0.085,
+            "speaker": "B"
+          },
+          {
+            "text": "이사회에",
+            "start": 25027,
+            "end": 25727,
+            "confidence": 0.021,
+            "speaker": "B"
+          },
+          {
+            "text": "참여시키는",
+            "start": 25907,
+            "end": 26687,
+            "confidence": 0.057,
+            "speaker": "B"
+          },
+          {
+            "text": "제도로",
+            "start": 26847,
+            "end": 27188,
+            "confidence": 0.307,
+            "speaker": "B"
+          },
+          {
+            "text": "기업",
+            "start": 28443,
+            "end": 28783,
+            "confidence": 0.099,
+            "speaker": "B"
+          },
+          {
+            "text": "내",
+            "start": 28923,
+            "end": 29063,
+            "confidence": 0.142,
+            "speaker": "B"
+          },
+          {
+            "text": "권력",
+            "start": 29343,
+            "end": 29724,
+            "confidence": 0.044,
+            "speaker": "B"
+          },
+          {
+            "text": "집중을",
+            "start": 29864,
+            "end": 30304,
+            "confidence": 0.153,
+            "speaker": "B"
+          },
+          {
+            "text": "막고",
+            "start": 30424,
+            "end": 30744,
+            "confidence": 0.25,
+            "speaker": "B"
+          },
+          {
+            "text": "경영에",
+            "start": 31685,
+            "end": 32125,
+            "confidence": 0.089,
+            "speaker": "B"
+          },
+          {
+            "text": "전문",
+            "start": 32564,
+            "end": 32985,
+            "confidence": 0.012,
+            "speaker": "B"
+          },
+          {
+            "text": "지식을",
+            "start": 33065,
+            "end": 33465,
+            "confidence": 0.153,
+            "speaker": "B"
+          },
+          {
+            "text": "활용하기",
+            "start": 33785,
+            "end": 34366,
+            "confidence": 0.078,
+            "speaker": "B"
+          },
+          {
+            "text": "위해",
+            "start": 34446,
+            "end": 34786,
+            "confidence": 0.058,
+            "speaker": "B"
+          },
+          {
+            "text": "도입됐습니다.",
+            "start": 34926,
+            "end": 35866,
+            "confidence": 0.108,
+            "speaker": "B"
+          },
+          {
+            "text": "그러나",
+            "start": 37247,
+            "end": 37627,
+            "confidence": 0.164,
+            "speaker": "B"
+          },
+          {
+            "text": "경영진에게도",
+            "start": 38568,
+            "end": 39488,
+            "confidence": 0.142,
+            "speaker": "B"
+          },
+          {
+            "text": "사회",
+            "start": 40288,
+            "end": 40589,
+            "confidence": 0.134,
+            "speaker": "B"
+          },
+          {
+            "text": "이사",
+            "start": 40689,
+            "end": 41009,
+            "confidence": 0.06,
+            "speaker": "B"
+          },
+          {
+            "text": "추천권이",
+            "start": 41189,
+            "end": 41889,
+            "confidence": 0.097,
+            "speaker": "B"
+          },
+          {
+            "text": "있어서",
+            "start": 41949,
+            "end": 42470,
+            "confidence": 0.122,
+            "speaker": "B"
+          },
+          {
+            "text": "자신들과",
+            "start": 43690,
+            "end": 44390,
+            "confidence": 0.119,
+            "speaker": "B"
+          },
+          {
+            "text": "친분이",
+            "start": 44751,
+            "end": 45191,
+            "confidence": 0.159,
+            "speaker": "B"
+          },
+          {
+            "text": "있는",
+            "start": 45231,
+            "end": 45451,
+            "confidence": 0.194,
+            "speaker": "B"
+          },
+          {
+            "text": "인물을",
+            "start": 45591,
+            "end": 46031,
+            "confidence": 0.018,
+            "speaker": "B"
+          },
+          {
+            "text": "추천하고",
+            "start": 46231,
+            "end": 46792,
+            "confidence": 0.092,
+            "speaker": "B"
+          },
+          {
+            "text": "그러다",
+            "start": 48192,
+            "end": 48512,
+            "confidence": 0.195,
+            "speaker": "B"
+          },
+          {
+            "text": "보니",
+            "start": 48612,
+            "end": 48872,
+            "confidence": 0.155,
+            "speaker": "B"
+          },
+          {
+            "text": "이들이",
+            "start": 49733,
+            "end": 50053,
+            "confidence": 0.198,
+            "speaker": "B"
+          },
+          {
+            "text": "경영진을",
+            "start": 50593,
+            "end": 51334,
+            "confidence": 0.095,
+            "speaker": "B"
+          },
+          {
+            "text": "견제하기란",
+            "start": 51514,
+            "end": 52334,
+            "confidence": 0.133,
+            "speaker": "B"
+          },
+          {
+            "text": "쉽지",
+            "start": 52354,
+            "end": 53455,
+            "confidence": 0.034,
+            "speaker": "B"
+          },
+          {
+            "text": "않습니다.",
+            "start": 53535,
+            "end": 54295,
+            "confidence": 0.32,
+            "speaker": "B"
+          },
+          {
+            "text": "또",
+            "start": 55730,
+            "end": 55970,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "전문성이",
+            "start": 55990,
+            "end": 57511,
+            "confidence": 0.094,
+            "speaker": "B"
+          },
+          {
+            "text": "검증되지",
+            "start": 57711,
+            "end": 58451,
+            "confidence": 0.145,
+            "speaker": "B"
+          },
+          {
+            "text": "않은",
+            "start": 58491,
+            "end": 58691,
+            "confidence": 0.1,
+            "speaker": "B"
+          },
+          {
+            "text": "인물이",
+            "start": 58812,
+            "end": 59272,
+            "confidence": 0.141,
+            "speaker": "B"
+          },
+          {
+            "text": "선임되기도",
+            "start": 59452,
+            "end": 60132,
+            "confidence": 0.147,
+            "speaker": "B"
+          },
+          {
+            "text": "해",
+            "start": 60252,
+            "end": 60853,
+            "confidence": 0.033,
+            "speaker": "B"
+          },
+          {
+            "text": "제도의",
+            "start": 61553,
+            "end": 62093,
+            "confidence": 0.075,
+            "speaker": "B"
+          },
+          {
+            "text": "취지를",
+            "start": 62373,
+            "end": 62874,
+            "confidence": 0.121,
+            "speaker": "B"
+          },
+          {
+            "text": "무색하게",
+            "start": 63494,
+            "end": 64154,
+            "confidence": 0.096,
+            "speaker": "B"
+          },
+          {
+            "text": "하죠.",
+            "start": 64194,
+            "end": 65155,
+            "confidence": 0.038,
+            "speaker": "B"
+          },
+          {
+            "text": "후보",
+            "start": 66095,
+            "end": 66395,
+            "confidence": 0.134,
+            "speaker": "B"
+          },
+          {
+            "text": "추천",
+            "start": 66615,
+            "end": 66976,
+            "confidence": 0.074,
+            "speaker": "B"
+          },
+          {
+            "text": "방법을",
+            "start": 67096,
+            "end": 67536,
+            "confidence": 0.153,
+            "speaker": "B"
+          },
+          {
+            "text": "개선하고",
+            "start": 67676,
+            "end": 68316,
+            "confidence": 0.119,
+            "speaker": "B"
+          },
+          {
+            "text": "자격",
+            "start": 69257,
+            "end": 69537,
+            "confidence": 0.083,
+            "speaker": "B"
+          },
+          {
+            "text": "검증을",
+            "start": 69677,
+            "end": 70257,
+            "confidence": 0.124,
+            "speaker": "B"
+          },
+          {
+            "text": "강화하는",
+            "start": 70577,
+            "end": 71038,
+            "confidence": 0.097,
+            "speaker": "B"
+          },
+          {
+            "text": "등의",
+            "start": 71138,
+            "end": 71318,
+            "confidence": 0.21,
+            "speaker": "B"
+          },
+          {
+            "text": "대책",
+            "start": 71698,
+            "end": 72158,
+            "confidence": 0.061,
+            "speaker": "B"
+          },
+          {
+            "text": "마련이",
+            "start": 72258,
+            "end": 72678,
+            "confidence": 0.144,
+            "speaker": "B"
+          },
+          {
+            "text": "시급합니다.",
+            "start": 73299,
+            "end": 76000,
+            "confidence": 0.109,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "다시 들으십시오. 건실한 기업을 만들고자 도입된 사회이사제도가 법제화된 지도 벌써 25년이 지났는데요. 그 실효성 논란이 끊이지 않습니다.",
+        "confidence": 0.08235294,
+        "start": 76020,
+        "end": 96533,
+        "words": [
+          {
+            "text": "다시",
+            "start": 76020,
+            "end": 76540,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "들으십시오.",
+            "start": 76700,
+            "end": 77701,
+            "confidence": 0.021,
+            "speaker": "A"
+          },
+          {
+            "text": "건실한",
+            "start": 79321,
+            "end": 79961,
+            "confidence": 0.002,
+            "speaker": "A"
+          },
+          {
+            "text": "기업을",
+            "start": 80162,
+            "end": 80702,
+            "confidence": 0.114,
+            "speaker": "A"
+          },
+          {
+            "text": "만들고자",
+            "start": 80862,
+            "end": 81703,
+            "confidence": 0.09,
+            "speaker": "A"
+          },
+          {
+            "text": "도입된",
+            "start": 81823,
+            "end": 82383,
+            "confidence": 0.11,
+            "speaker": "A"
+          },
+          {
+            "text": "사회이사제도가",
+            "start": 83164,
+            "end": 84765,
+            "confidence": 0.09,
+            "speaker": "A"
+          },
+          {
+            "text": "법제화된",
+            "start": 85405,
+            "end": 86166,
+            "confidence": 0.066,
+            "speaker": "A"
+          },
+          {
+            "text": "지도",
+            "start": 86346,
+            "end": 86746,
+            "confidence": 0.105,
+            "speaker": "A"
+          },
+          {
+            "text": "벌써",
+            "start": 87387,
+            "end": 87887,
+            "confidence": 0.034,
+            "speaker": "A"
+          },
+          {
+            "text": "25년이",
+            "start": 88968,
+            "end": 89348,
+            "confidence": 0.111,
+            "speaker": "A"
+          },
+          {
+            "text": "지났는데요.",
+            "start": 89548,
+            "end": 91850,
+            "confidence": 0.027,
+            "speaker": "A"
+          },
+          {
+            "text": "그",
+            "start": 91870,
+            "end": 91890,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "실효성",
+            "start": 92230,
+            "end": 92851,
+            "confidence": 0.088,
+            "speaker": "A"
+          },
+          {
+            "text": "논란이",
+            "start": 93031,
+            "end": 93691,
+            "confidence": 0.091,
+            "speaker": "A"
+          },
+          {
+            "text": "끊이지",
+            "start": 94151,
+            "end": 94572,
+            "confidence": 0.158,
+            "speaker": "A"
+          },
+          {
+            "text": "않습니다.",
+            "start": 94612,
+            "end": 96533,
+            "confidence": 0.293,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "사회이사제도는 기업 내부자 이외에 외부 전문가도 이사회에 참여시키는 제도로 기업 내 권력 집중을 막고 경영에 전문 지식을 활용하기 위해 도입됐습니다. 그러나 경영진에게도 사회 이사 추천권이 있어서 자신들과 친분이 있는 인물을 추천하고 그러다 보니 이들이 경영진을 견제하기란 쉽지 않습니다. 또 전문성이 검증되지 않은 인물이 선임되기도 해 제도의 취지를 무색하게 하죠. 후보 추천 방법을 개선하고 자격 검증을 강화하는 등의 대책 마련이 시급합니다.",
+        "confidence": 0.113416664,
+        "start": 96993,
+        "end": 152457,
+        "words": [
+          {
+            "text": "사회이사제도는",
+            "start": 96993,
+            "end": 98274,
+            "confidence": 0.043,
+            "speaker": "B"
+          },
+          {
+            "text": "기업",
+            "start": 99335,
+            "end": 99575,
+            "confidence": 0.113,
+            "speaker": "B"
+          },
+          {
+            "text": "내부자",
+            "start": 99755,
+            "end": 100336,
+            "confidence": 0.049,
+            "speaker": "B"
+          },
+          {
+            "text": "이외에",
+            "start": 100456,
+            "end": 100936,
+            "confidence": 0.038,
+            "speaker": "B"
+          },
+          {
+            "text": "외부",
+            "start": 101657,
+            "end": 102017,
+            "confidence": 0.098,
+            "speaker": "B"
+          },
+          {
+            "text": "전문가도",
+            "start": 102117,
+            "end": 102858,
+            "confidence": 0.106,
+            "speaker": "B"
+          },
+          {
+            "text": "이사회에",
+            "start": 103438,
+            "end": 104139,
+            "confidence": 0.024,
+            "speaker": "B"
+          },
+          {
+            "text": "참여시키는",
+            "start": 104319,
+            "end": 105139,
+            "confidence": 0.064,
+            "speaker": "B"
+          },
+          {
+            "text": "제도로",
+            "start": 105279,
+            "end": 105620,
+            "confidence": 0.056,
+            "speaker": "B"
+          },
+          {
+            "text": "기업",
+            "start": 106878,
+            "end": 107198,
+            "confidence": 0.098,
+            "speaker": "B"
+          },
+          {
+            "text": "내",
+            "start": 107338,
+            "end": 107479,
+            "confidence": 0.141,
+            "speaker": "B"
+          },
+          {
+            "text": "권력",
+            "start": 107759,
+            "end": 108139,
+            "confidence": 0.072,
+            "speaker": "B"
+          },
+          {
+            "text": "집중을",
+            "start": 108279,
+            "end": 108720,
+            "confidence": 0.152,
+            "speaker": "B"
+          },
+          {
+            "text": "막고",
+            "start": 108840,
+            "end": 109180,
+            "confidence": 0.166,
+            "speaker": "B"
+          },
+          {
+            "text": "경영에",
+            "start": 110101,
+            "end": 110541,
+            "confidence": 0.089,
+            "speaker": "B"
+          },
+          {
+            "text": "전문",
+            "start": 110981,
+            "end": 111382,
+            "confidence": 0.056,
+            "speaker": "B"
+          },
+          {
+            "text": "지식을",
+            "start": 111482,
+            "end": 111882,
+            "confidence": 0.153,
+            "speaker": "B"
+          },
+          {
+            "text": "활용하기",
+            "start": 112203,
+            "end": 112763,
+            "confidence": 0.051,
+            "speaker": "B"
+          },
+          {
+            "text": "위해",
+            "start": 112863,
+            "end": 113183,
+            "confidence": 0.08,
+            "speaker": "B"
+          },
+          {
+            "text": "도입됐습니다.",
+            "start": 113344,
+            "end": 114284,
+            "confidence": 0.117,
+            "speaker": "B"
+          },
+          {
+            "text": "그러나",
+            "start": 115665,
+            "end": 116046,
+            "confidence": 0.164,
+            "speaker": "B"
+          },
+          {
+            "text": "경영진에게도",
+            "start": 116987,
+            "end": 117907,
+            "confidence": 0.142,
+            "speaker": "B"
+          },
+          {
+            "text": "사회",
+            "start": 118708,
+            "end": 119008,
+            "confidence": 0.134,
+            "speaker": "B"
+          },
+          {
+            "text": "이사",
+            "start": 119108,
+            "end": 119409,
+            "confidence": 0.162,
+            "speaker": "B"
+          },
+          {
+            "text": "추천권이",
+            "start": 119609,
+            "end": 120309,
+            "confidence": 0.109,
+            "speaker": "B"
+          },
+          {
+            "text": "있어서",
+            "start": 120370,
+            "end": 120890,
+            "confidence": 0.118,
+            "speaker": "B"
+          },
+          {
+            "text": "자신들과",
+            "start": 122111,
+            "end": 122832,
+            "confidence": 0.114,
+            "speaker": "B"
+          },
+          {
+            "text": "친분이",
+            "start": 123172,
+            "end": 123612,
+            "confidence": 0.16,
+            "speaker": "B"
+          },
+          {
+            "text": "있는",
+            "start": 123652,
+            "end": 123872,
+            "confidence": 0.192,
+            "speaker": "B"
+          },
+          {
+            "text": "인물을",
+            "start": 124013,
+            "end": 124453,
+            "confidence": 0.052,
+            "speaker": "B"
+          },
+          {
+            "text": "추천하고",
+            "start": 124653,
+            "end": 125194,
+            "confidence": 0.073,
+            "speaker": "B"
+          },
+          {
+            "text": "그러다",
+            "start": 126615,
+            "end": 126935,
+            "confidence": 0.198,
+            "speaker": "B"
+          },
+          {
+            "text": "보니",
+            "start": 127035,
+            "end": 127315,
+            "confidence": 0.146,
+            "speaker": "B"
+          },
+          {
+            "text": "이들이",
+            "start": 128136,
+            "end": 128476,
+            "confidence": 0.192,
+            "speaker": "B"
+          },
+          {
+            "text": "경영진을",
+            "start": 129017,
+            "end": 129758,
+            "confidence": 0.083,
+            "speaker": "B"
+          },
+          {
+            "text": "견제하기란",
+            "start": 129937,
+            "end": 130738,
+            "confidence": 0.135,
+            "speaker": "B"
+          },
+          {
+            "text": "쉽지",
+            "start": 130758,
+            "end": 131859,
+            "confidence": 0.009,
+            "speaker": "B"
+          },
+          {
+            "text": "않습니다.",
+            "start": 131939,
+            "end": 132680,
+            "confidence": 0.319,
+            "speaker": "B"
+          },
+          {
+            "text": "또",
+            "start": 134131,
+            "end": 134391,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "전문성이",
+            "start": 135171,
+            "end": 135932,
+            "confidence": 0.106,
+            "speaker": "B"
+          },
+          {
+            "text": "검증되지",
+            "start": 136132,
+            "end": 136872,
+            "confidence": 0.149,
+            "speaker": "B"
+          },
+          {
+            "text": "않은",
+            "start": 136912,
+            "end": 137112,
+            "confidence": 0.101,
+            "speaker": "B"
+          },
+          {
+            "text": "인물이",
+            "start": 137212,
+            "end": 137692,
+            "confidence": 0.142,
+            "speaker": "B"
+          },
+          {
+            "text": "선임되기도",
+            "start": 137852,
+            "end": 138552,
+            "confidence": 0.143,
+            "speaker": "B"
+          },
+          {
+            "text": "해",
+            "start": 138652,
+            "end": 139273,
+            "confidence": 0.032,
+            "speaker": "B"
+          },
+          {
+            "text": "제도의",
+            "start": 139973,
+            "end": 140493,
+            "confidence": 0.088,
+            "speaker": "B"
+          },
+          {
+            "text": "취지를",
+            "start": 140773,
+            "end": 141293,
+            "confidence": 0.11,
+            "speaker": "B"
+          },
+          {
+            "text": "무색하게",
+            "start": 141894,
+            "end": 142554,
+            "confidence": 0.095,
+            "speaker": "B"
+          },
+          {
+            "text": "하죠.",
+            "start": 142594,
+            "end": 144154,
+            "confidence": 0.036,
+            "speaker": "B"
+          },
+          {
+            "text": "후보",
+            "start": 144494,
+            "end": 144794,
+            "confidence": 0.139,
+            "speaker": "B"
+          },
+          {
+            "text": "추천",
+            "start": 145015,
+            "end": 145375,
+            "confidence": 0.099,
+            "speaker": "B"
+          },
+          {
+            "text": "방법을",
+            "start": 145515,
+            "end": 145935,
+            "confidence": 0.164,
+            "speaker": "B"
+          },
+          {
+            "text": "개선하고",
+            "start": 146095,
+            "end": 146715,
+            "confidence": 0.129,
+            "speaker": "B"
+          },
+          {
+            "text": "자격",
+            "start": 147675,
+            "end": 147936,
+            "confidence": 0.119,
+            "speaker": "B"
+          },
+          {
+            "text": "검증을",
+            "start": 148076,
+            "end": 148656,
+            "confidence": 0.119,
+            "speaker": "B"
+          },
+          {
+            "text": "강화하는",
+            "start": 148976,
+            "end": 149456,
+            "confidence": 0.102,
+            "speaker": "B"
+          },
+          {
+            "text": "등의",
+            "start": 149556,
+            "end": 149736,
+            "confidence": 0.174,
+            "speaker": "B"
+          },
+          {
+            "text": "대책",
+            "start": 150116,
+            "end": 150556,
+            "confidence": 0.073,
+            "speaker": "B"
+          },
+          {
+            "text": "마련이",
+            "start": 150676,
+            "end": 151097,
+            "confidence": 0.119,
+            "speaker": "B"
+          },
+          {
+            "text": "시급합니다.",
+            "start": 151717,
+            "end": 152457,
+            "confidence": 0.298,
+            "speaker": "B"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.10912245,
+    "audio_duration": 156
+  },
+  {
+    "status_script": "completed",
+    "id": "2ddb4253-a027-437e-8b1a-a98b0c880405",
+    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_49-50.mp3",
+    "text": "얼마 전, 대한민국의 로켓 누리호가 우주 상공에 위성을 올려놓기 위해 발사됐는데요. 그 시각이 콕 집어 저녁 6시 24분이었습니다. 왜 발사 시각을 분 단위까지 철저히 계산했을까요? 이는 누리호에 실린 위성 때문이었습니다. 이 위성에는 정교한 관측 자료를 제공해줄 영상 레이더가 탑재돼 있는데요. 전력 소비가 굉장해 이 위성이 임무를 수행하려면 항상 전력이 필요합니다. 이러한 이유로 태양전지를 부착해 충전하게 하였죠. 그래서 24시간 내내 태양을 볼 수 있는 궤도 안에 위성을 안착시켜야 했는데요. 누리호 발사 위치와 지구의 움직임 등을 따져서 이 궤도에 진입할 수 있는 시점을 계산하니. 그 시각이 딱 6시 24분이었던 겁니다. 다시 들으십시오. 얼마 전 대한민국의 로켓 누리호가 우주 상공에 위성을 올려놓기 위해 발사됐는데요. 그 시각이 콕 집어 저녁 6시 24분이었습니다. 왜 발사 시각을 분 단위까지 철저히 계산했을까요? 이는 누리호에 실린 위성 때문이었습니다. 이 위성에는 정교한 관측 자료를 제공해줄 영상 레이더가 탑재되어 있는데요. 전력 소비가 굉장해 이 위성이 임무를 수행하려면 항상 전력이 필요합니다. 이러한 이유로 태양전지를 부착해 충전하게 하였죠. 그래서 24시간 내내 태양을 볼 수 있는 궤도 안에 위성을 안착시켜야 했는데요. 누리호 발사 위치와 지구의 움직임 등을 따져서 이 궤도에 진입할 수 있는 시점을 계산하니. 그 시각이 딱 6시 24분이었던 겁니다.",
+    "utterances": [
+      {
+        "speaker": "A",
+        "text": "얼마 전, 대한민국의 로켓 누리호가 우주 상공에 위성을 올려놓기 위해 발사됐는데요.",
+        "confidence": 0.085,
+        "start": 8,
+        "end": 11553,
+        "words": [
+          {
+            "text": "얼마",
+            "start": 8,
+            "end": 948,
+            "confidence": 0.125,
+            "speaker": "A"
+          },
+          {
+            "text": "전,",
+            "start": 1028,
+            "end": 1209,
+            "confidence": 0.111,
+            "speaker": "A"
+          },
+          {
+            "text": "대한민국의",
+            "start": 1909,
+            "end": 2989,
+            "confidence": 0.089,
+            "speaker": "A"
+          },
+          {
+            "text": "로켓",
+            "start": 3129,
+            "end": 3510,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "누리호가",
+            "start": 3930,
+            "end": 4510,
+            "confidence": 0.104,
+            "speaker": "A"
+          },
+          {
+            "text": "우주",
+            "start": 5350,
+            "end": 5691,
+            "confidence": 0.122,
+            "speaker": "A"
+          },
+          {
+            "text": "상공에",
+            "start": 5831,
+            "end": 6431,
+            "confidence": 0.054,
+            "speaker": "A"
+          },
+          {
+            "text": "위성을",
+            "start": 6971,
+            "end": 7531,
+            "confidence": 0.103,
+            "speaker": "A"
+          },
+          {
+            "text": "올려놓기",
+            "start": 7691,
+            "end": 8432,
+            "confidence": 0.09,
+            "speaker": "A"
+          },
+          {
+            "text": "위해",
+            "start": 8532,
+            "end": 8932,
+            "confidence": 0.081,
+            "speaker": "A"
+          },
+          {
+            "text": "발사됐는데요.",
+            "start": 9212,
+            "end": 11553,
+            "confidence": 0.056,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "그 시각이 콕 집어 저녁 6시 24분이었습니다.",
+        "confidence": 0.12385714,
+        "start": 11573,
+        "end": 19156,
+        "words": [
+          {
+            "text": "그",
+            "start": 11573,
+            "end": 11593,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "시각이",
+            "start": 11753,
+            "end": 12233,
+            "confidence": 0.13,
+            "speaker": "B"
+          },
+          {
+            "text": "콕",
+            "start": 12243,
+            "end": 13144,
+            "confidence": 0.5,
+            "speaker": "B"
+          },
+          {
+            "text": "집어",
+            "start": 13154,
+            "end": 13394,
+            "confidence": 0.102,
+            "speaker": "B"
+          },
+          {
+            "text": "저녁",
+            "start": 13974,
+            "end": 14294,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "6시",
+            "start": 15335,
+            "end": 15555,
+            "confidence": 0.046,
+            "speaker": "B"
+          },
+          {
+            "text": "24분이었습니다.",
+            "start": 16395,
+            "end": 19156,
+            "confidence": 0.089,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "왜 발사 시각을 분 단위까지 철저히 계산했을까요? 이는 누리호에 실린 위성 때문이었습니다. 이 위성에는 정교한 관측 자료를 제공해줄 영상 레이더가 탑재돼 있는데요. 전력 소비가 굉장해 이 위성이 임무를 수행하려면 항상 전력이 필요합니다. 이러한 이유로 태양전지를 부착해 충전하게 하였죠. 그래서 24시간 내내 태양을 볼 수 있는 궤도 안에 위성을 안착시켜야 했는데요. 누리호 발사 위치와 지구의 움직임 등을 따져서 이 궤도에 진입할 수 있는 시점을 계산하니.",
+        "confidence": 0.089375,
+        "start": 19176,
+        "end": 76361,
+        "words": [
+          {
+            "text": "왜",
+            "start": 19176,
+            "end": 19196,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "발사",
+            "start": 19397,
+            "end": 19797,
+            "confidence": 0.1,
+            "speaker": "A"
+          },
+          {
+            "text": "시각을",
+            "start": 19937,
+            "end": 20457,
+            "confidence": 0.115,
+            "speaker": "A"
+          },
+          {
+            "text": "분",
+            "start": 21177,
+            "end": 21337,
+            "confidence": 0.006,
+            "speaker": "A"
+          },
+          {
+            "text": "단위까지",
+            "start": 21698,
+            "end": 22438,
+            "confidence": 0.083,
+            "speaker": "A"
+          },
+          {
+            "text": "철저히",
+            "start": 22998,
+            "end": 23658,
+            "confidence": 0.052,
+            "speaker": "A"
+          },
+          {
+            "text": "계산했을까요?",
+            "start": 23839,
+            "end": 24899,
+            "confidence": 0.229,
+            "speaker": "A"
+          },
+          {
+            "text": "이는",
+            "start": 26182,
+            "end": 26562,
+            "confidence": 0.062,
+            "speaker": "A"
+          },
+          {
+            "text": "누리호에",
+            "start": 27322,
+            "end": 27902,
+            "confidence": 0.091,
+            "speaker": "A"
+          },
+          {
+            "text": "실린",
+            "start": 28082,
+            "end": 28442,
+            "confidence": 0.108,
+            "speaker": "A"
+          },
+          {
+            "text": "위성",
+            "start": 28862,
+            "end": 29203,
+            "confidence": 0.089,
+            "speaker": "A"
+          },
+          {
+            "text": "때문이었습니다.",
+            "start": 29383,
+            "end": 32023,
+            "confidence": 0.111,
+            "speaker": "A"
+          },
+          {
+            "text": "이",
+            "start": 32043,
+            "end": 32063,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "위성에는",
+            "start": 32203,
+            "end": 32863,
+            "confidence": 0.114,
+            "speaker": "A"
+          },
+          {
+            "text": "정교한",
+            "start": 33503,
+            "end": 34063,
+            "confidence": 0.095,
+            "speaker": "A"
+          },
+          {
+            "text": "관측",
+            "start": 34283,
+            "end": 34783,
+            "confidence": 0.035,
+            "speaker": "A"
+          },
+          {
+            "text": "자료를",
+            "start": 34803,
+            "end": 35204,
+            "confidence": 0.101,
+            "speaker": "A"
+          },
+          {
+            "text": "제공해줄",
+            "start": 35384,
+            "end": 36004,
+            "confidence": 0.079,
+            "speaker": "A"
+          },
+          {
+            "text": "영상",
+            "start": 36584,
+            "end": 37004,
+            "confidence": 0.106,
+            "speaker": "A"
+          },
+          {
+            "text": "레이더가",
+            "start": 37164,
+            "end": 37704,
+            "confidence": 0.138,
+            "speaker": "A"
+          },
+          {
+            "text": "탑재돼",
+            "start": 37964,
+            "end": 38484,
+            "confidence": 0.031,
+            "speaker": "A"
+          },
+          {
+            "text": "있는데요.",
+            "start": 38544,
+            "end": 40264,
+            "confidence": 0.081,
+            "speaker": "A"
+          },
+          {
+            "text": "전력",
+            "start": 40644,
+            "end": 41045,
+            "confidence": 0.119,
+            "speaker": "A"
+          },
+          {
+            "text": "소비가",
+            "start": 41185,
+            "end": 41625,
+            "confidence": 0.114,
+            "speaker": "A"
+          },
+          {
+            "text": "굉장해",
+            "start": 41805,
+            "end": 43225,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "이",
+            "start": 43245,
+            "end": 43265,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "위성이",
+            "start": 43385,
+            "end": 44005,
+            "confidence": 0.079,
+            "speaker": "A"
+          },
+          {
+            "text": "임무를",
+            "start": 44305,
+            "end": 44845,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "수행하려면",
+            "start": 45025,
+            "end": 45745,
+            "confidence": 0.109,
+            "speaker": "A"
+          },
+          {
+            "text": "항상",
+            "start": 46385,
+            "end": 46846,
+            "confidence": 0.064,
+            "speaker": "A"
+          },
+          {
+            "text": "전력이",
+            "start": 47266,
+            "end": 47866,
+            "confidence": 0.117,
+            "speaker": "A"
+          },
+          {
+            "text": "필요합니다.",
+            "start": 48046,
+            "end": 49906,
+            "confidence": 0.056,
+            "speaker": "A"
+          },
+          {
+            "text": "이러한",
+            "start": 50246,
+            "end": 50686,
+            "confidence": 0.139,
+            "speaker": "A"
+          },
+          {
+            "text": "이유로",
+            "start": 50826,
+            "end": 51246,
+            "confidence": 0.148,
+            "speaker": "A"
+          },
+          {
+            "text": "태양전지를",
+            "start": 51826,
+            "end": 52687,
+            "confidence": 0.089,
+            "speaker": "A"
+          },
+          {
+            "text": "부착해",
+            "start": 52827,
+            "end": 53427,
+            "confidence": 0.101,
+            "speaker": "A"
+          },
+          {
+            "text": "충전하게",
+            "start": 53847,
+            "end": 54467,
+            "confidence": 0.131,
+            "speaker": "A"
+          },
+          {
+            "text": "하였죠.",
+            "start": 54587,
+            "end": 55207,
+            "confidence": 0.053,
+            "speaker": "A"
+          },
+          {
+            "text": "그래서",
+            "start": 56472,
+            "end": 56992,
+            "confidence": 0.086,
+            "speaker": "A"
+          },
+          {
+            "text": "24시간",
+            "start": 58333,
+            "end": 58593,
+            "confidence": 0.153,
+            "speaker": "A"
+          },
+          {
+            "text": "내내",
+            "start": 58713,
+            "end": 59013,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "태양을",
+            "start": 59613,
+            "end": 60174,
+            "confidence": 0.106,
+            "speaker": "A"
+          },
+          {
+            "text": "볼",
+            "start": 60354,
+            "end": 60514,
+            "confidence": 0.125,
+            "speaker": "A"
+          },
+          {
+            "text": "수",
+            "start": 60674,
+            "end": 60774,
+            "confidence": 0.2,
+            "speaker": "A"
+          },
+          {
+            "text": "있는",
+            "start": 60814,
+            "end": 61154,
+            "confidence": 0.122,
+            "speaker": "A"
+          },
+          {
+            "text": "궤도",
+            "start": 61614,
+            "end": 61994,
+            "confidence": 0.1,
+            "speaker": "A"
+          },
+          {
+            "text": "안에",
+            "start": 62115,
+            "end": 62435,
+            "confidence": 0.081,
+            "speaker": "A"
+          },
+          {
+            "text": "위성을",
+            "start": 62935,
+            "end": 63455,
+            "confidence": 0.064,
+            "speaker": "A"
+          },
+          {
+            "text": "안착시켜야",
+            "start": 63695,
+            "end": 64616,
+            "confidence": 0.057,
+            "speaker": "A"
+          },
+          {
+            "text": "했는데요.",
+            "start": 64775,
+            "end": 66597,
+            "confidence": 0.083,
+            "speaker": "A"
+          },
+          {
+            "text": "누리호",
+            "start": 67057,
+            "end": 67557,
+            "confidence": 0.053,
+            "speaker": "A"
+          },
+          {
+            "text": "발사",
+            "start": 67697,
+            "end": 68117,
+            "confidence": 0.114,
+            "speaker": "A"
+          },
+          {
+            "text": "위치와",
+            "start": 68217,
+            "end": 68757,
+            "confidence": 0.115,
+            "speaker": "A"
+          },
+          {
+            "text": "지구의",
+            "start": 69418,
+            "end": 69918,
+            "confidence": 0.123,
+            "speaker": "A"
+          },
+          {
+            "text": "움직임",
+            "start": 70118,
+            "end": 70598,
+            "confidence": 0.053,
+            "speaker": "A"
+          },
+          {
+            "text": "등을",
+            "start": 70718,
+            "end": 70958,
+            "confidence": 0.162,
+            "speaker": "A"
+          },
+          {
+            "text": "따져서",
+            "start": 71099,
+            "end": 71579,
+            "confidence": 0.105,
+            "speaker": "A"
+          },
+          {
+            "text": "이",
+            "start": 72319,
+            "end": 72479,
+            "confidence": 0.125,
+            "speaker": "A"
+          },
+          {
+            "text": "궤도에",
+            "start": 72679,
+            "end": 73219,
+            "confidence": 0.055,
+            "speaker": "A"
+          },
+          {
+            "text": "진입할",
+            "start": 73420,
+            "end": 73860,
+            "confidence": 0.113,
+            "speaker": "A"
+          },
+          {
+            "text": "수",
+            "start": 74020,
+            "end": 74120,
+            "confidence": 0.2,
+            "speaker": "A"
+          },
+          {
+            "text": "있는",
+            "start": 74160,
+            "end": 74480,
+            "confidence": 0.134,
+            "speaker": "A"
+          },
+          {
+            "text": "시점을",
+            "start": 75120,
+            "end": 75681,
+            "confidence": 0.02,
+            "speaker": "A"
+          },
+          {
+            "text": "계산하니.",
+            "start": 75841,
+            "end": 76361,
+            "confidence": 0.026,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "그 시각이 딱 6시 24분이었던 겁니다. 다시 들으십시오.",
+        "confidence": 0.049125,
+        "start": 77181,
+        "end": 85445,
+        "words": [
+          {
+            "text": "그",
+            "start": 77181,
+            "end": 77341,
+            "confidence": 0.125,
+            "speaker": "B"
+          },
+          {
+            "text": "시각이",
+            "start": 77561,
+            "end": 78062,
+            "confidence": 0.063,
+            "speaker": "B"
+          },
+          {
+            "text": "딱",
+            "start": 78782,
+            "end": 79822,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "6시",
+            "start": 80003,
+            "end": 80263,
+            "confidence": 0.032,
+            "speaker": "B"
+          },
+          {
+            "text": "24분이었던",
+            "start": 81243,
+            "end": 81823,
+            "confidence": 0.108,
+            "speaker": "B"
+          },
+          {
+            "text": "겁니다.",
+            "start": 81923,
+            "end": 84465,
+            "confidence": 0.037,
+            "speaker": "B"
+          },
+          {
+            "text": "다시",
+            "start": 84485,
+            "end": 84525,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "들으십시오.",
+            "start": 84665,
+            "end": 85445,
+            "confidence": 0.028,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "얼마 전 대한민국의 로켓 누리호가 우주 상공에 위성을 올려놓기 위해 발사됐는데요.",
+        "confidence": 0.08427273,
+        "start": 86813,
+        "end": 97777,
+        "words": [
+          {
+            "text": "얼마",
+            "start": 86813,
+            "end": 87173,
+            "confidence": 0.125,
+            "speaker": "A"
+          },
+          {
+            "text": "전",
+            "start": 87273,
+            "end": 87453,
+            "confidence": 0.111,
+            "speaker": "A"
+          },
+          {
+            "text": "대한민국의",
+            "start": 88133,
+            "end": 89214,
+            "confidence": 0.09,
+            "speaker": "A"
+          },
+          {
+            "text": "로켓",
+            "start": 89354,
+            "end": 89734,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "누리호가",
+            "start": 90154,
+            "end": 90734,
+            "confidence": 0.098,
+            "speaker": "A"
+          },
+          {
+            "text": "우주",
+            "start": 91595,
+            "end": 91935,
+            "confidence": 0.118,
+            "speaker": "A"
+          },
+          {
+            "text": "상공에",
+            "start": 92055,
+            "end": 92655,
+            "confidence": 0.068,
+            "speaker": "A"
+          },
+          {
+            "text": "위성을",
+            "start": 93195,
+            "end": 93756,
+            "confidence": 0.096,
+            "speaker": "A"
+          },
+          {
+            "text": "올려놓기",
+            "start": 93916,
+            "end": 94676,
+            "confidence": 0.101,
+            "speaker": "A"
+          },
+          {
+            "text": "위해",
+            "start": 94756,
+            "end": 95156,
+            "confidence": 0.066,
+            "speaker": "A"
+          },
+          {
+            "text": "발사됐는데요.",
+            "start": 95436,
+            "end": 97777,
+            "confidence": 0.054,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "그 시각이 콕 집어 저녁 6시 24분이었습니다.",
+        "confidence": 0.13014285,
+        "start": 97797,
+        "end": 105380,
+        "words": [
+          {
+            "text": "그",
+            "start": 97797,
+            "end": 97817,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "시각이",
+            "start": 97997,
+            "end": 98457,
+            "confidence": 0.136,
+            "speaker": "B"
+          },
+          {
+            "text": "콕",
+            "start": 98467,
+            "end": 99368,
+            "confidence": 0.5,
+            "speaker": "B"
+          },
+          {
+            "text": "집어",
+            "start": 99378,
+            "end": 99618,
+            "confidence": 0.124,
+            "speaker": "B"
+          },
+          {
+            "text": "저녁",
+            "start": 100198,
+            "end": 100518,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "6시",
+            "start": 101558,
+            "end": 101779,
+            "confidence": 0.086,
+            "speaker": "B"
+          },
+          {
+            "text": "24분이었습니다.",
+            "start": 102619,
+            "end": 105380,
+            "confidence": 0.065,
+            "speaker": "B"
+          }
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "왜 발사 시각을 분 단위까지 철저히 계산했을까요? 이는 누리호에 실린 위성 때문이었습니다. 이 위성에는 정교한 관측 자료를 제공해줄 영상 레이더가 탑재되어 있는데요. 전력 소비가 굉장해 이 위성이 임무를 수행하려면 항상 전력이 필요합니다. 이러한 이유로 태양전지를 부착해 충전하게 하였죠. 그래서 24시간 내내 태양을 볼 수 있는 궤도 안에 위성을 안착시켜야 했는데요. 누리호 발사 위치와 지구의 움직임 등을 따져서 이 궤도에 진입할 수 있는 시점을 계산하니.",
+        "confidence": 0.099609375,
+        "start": 105400,
+        "end": 162601,
+        "words": [
+          {
+            "text": "왜",
+            "start": 105400,
+            "end": 105420,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "발사",
+            "start": 105620,
+            "end": 106020,
+            "confidence": 0.1,
+            "speaker": "A"
+          },
+          {
+            "text": "시각을",
+            "start": 106160,
+            "end": 106680,
+            "confidence": 0.116,
+            "speaker": "A"
+          },
+          {
+            "text": "분",
+            "start": 107401,
+            "end": 107561,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "단위까지",
+            "start": 107581,
+            "end": 108681,
+            "confidence": 0.073,
+            "speaker": "A"
+          },
+          {
+            "text": "철저히",
+            "start": 109221,
+            "end": 109902,
+            "confidence": 0.049,
+            "speaker": "A"
+          },
+          {
+            "text": "계산했을까요?",
+            "start": 110062,
+            "end": 112102,
+            "confidence": 0.041,
+            "speaker": "A"
+          },
+          {
+            "text": "이는",
+            "start": 112502,
+            "end": 112783,
+            "confidence": 0.142,
+            "speaker": "A"
+          },
+          {
+            "text": "누리호에",
+            "start": 113563,
+            "end": 114143,
+            "confidence": 0.06,
+            "speaker": "A"
+          },
+          {
+            "text": "실린",
+            "start": 114323,
+            "end": 114663,
+            "confidence": 0.118,
+            "speaker": "A"
+          },
+          {
+            "text": "위성",
+            "start": 115103,
+            "end": 115404,
+            "confidence": 0.092,
+            "speaker": "A"
+          },
+          {
+            "text": "때문이었습니다.",
+            "start": 115624,
+            "end": 116564,
+            "confidence": 0.264,
+            "speaker": "A"
+          },
+          {
+            "text": "이",
+            "start": 117998,
+            "end": 118278,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "위성에는",
+            "start": 118438,
+            "end": 119079,
+            "confidence": 0.129,
+            "speaker": "A"
+          },
+          {
+            "text": "정교한",
+            "start": 119739,
+            "end": 120300,
+            "confidence": 0.09,
+            "speaker": "A"
+          },
+          {
+            "text": "관측",
+            "start": 120520,
+            "end": 120840,
+            "confidence": 0.028,
+            "speaker": "A"
+          },
+          {
+            "text": "자료를",
+            "start": 121021,
+            "end": 121421,
+            "confidence": 0.114,
+            "speaker": "A"
+          },
+          {
+            "text": "제공해줄",
+            "start": 121601,
+            "end": 122222,
+            "confidence": 0.09,
+            "speaker": "A"
+          },
+          {
+            "text": "영상",
+            "start": 122822,
+            "end": 123222,
+            "confidence": 0.082,
+            "speaker": "A"
+          },
+          {
+            "text": "레이더가",
+            "start": 123403,
+            "end": 123943,
+            "confidence": 0.152,
+            "speaker": "A"
+          },
+          {
+            "text": "탑재되어",
+            "start": 124203,
+            "end": 124724,
+            "confidence": 0.038,
+            "speaker": "A"
+          },
+          {
+            "text": "있는데요.",
+            "start": 124784,
+            "end": 126866,
+            "confidence": 0.084,
+            "speaker": "A"
+          },
+          {
+            "text": "전력",
+            "start": 126886,
+            "end": 127286,
+            "confidence": 0.11,
+            "speaker": "A"
+          },
+          {
+            "text": "소비가",
+            "start": 127426,
+            "end": 127846,
+            "confidence": 0.143,
+            "speaker": "A"
+          },
+          {
+            "text": "굉장해",
+            "start": 128026,
+            "end": 128847,
+            "confidence": 0.02,
+            "speaker": "A"
+          },
+          {
+            "text": "이",
+            "start": 129328,
+            "end": 129488,
+            "confidence": 0.125,
+            "speaker": "A"
+          },
+          {
+            "text": "위성이",
+            "start": 129608,
+            "end": 130228,
+            "confidence": 0.081,
+            "speaker": "A"
+          },
+          {
+            "text": "임무를",
+            "start": 130529,
+            "end": 131089,
+            "confidence": 0.006,
+            "speaker": "A"
+          },
+          {
+            "text": "수행하려면",
+            "start": 131269,
+            "end": 131990,
+            "confidence": 0.083,
+            "speaker": "A"
+          },
+          {
+            "text": "항상",
+            "start": 132630,
+            "end": 133091,
+            "confidence": 0.063,
+            "speaker": "A"
+          },
+          {
+            "text": "전력이",
+            "start": 133511,
+            "end": 134092,
+            "confidence": 0.122,
+            "speaker": "A"
+          },
+          {
+            "text": "필요합니다.",
+            "start": 134292,
+            "end": 136153,
+            "confidence": 0.064,
+            "speaker": "A"
+          },
+          {
+            "text": "이러한",
+            "start": 136494,
+            "end": 136934,
+            "confidence": 0.139,
+            "speaker": "A"
+          },
+          {
+            "text": "이유로",
+            "start": 137074,
+            "end": 137495,
+            "confidence": 0.151,
+            "speaker": "A"
+          },
+          {
+            "text": "태양전지를",
+            "start": 138055,
+            "end": 138936,
+            "confidence": 0.121,
+            "speaker": "A"
+          },
+          {
+            "text": "부착해",
+            "start": 139076,
+            "end": 139656,
+            "confidence": 0.101,
+            "speaker": "A"
+          },
+          {
+            "text": "충전하게",
+            "start": 140077,
+            "end": 140717,
+            "confidence": 0.13,
+            "speaker": "A"
+          },
+          {
+            "text": "하였죠.",
+            "start": 140837,
+            "end": 141438,
+            "confidence": 0.058,
+            "speaker": "A"
+          },
+          {
+            "text": "그래서",
+            "start": 142703,
+            "end": 143223,
+            "confidence": 0.086,
+            "speaker": "A"
+          },
+          {
+            "text": "24시간",
+            "start": 144565,
+            "end": 144825,
+            "confidence": 0.152,
+            "speaker": "A"
+          },
+          {
+            "text": "내내",
+            "start": 144945,
+            "end": 145245,
+            "speaker": "A",
+            "confidence": 0.0
+          },
+          {
+            "text": "태양을",
+            "start": 145846,
+            "end": 146386,
+            "confidence": 0.112,
+            "speaker": "A"
+          },
+          {
+            "text": "볼",
+            "start": 146587,
+            "end": 146747,
+            "confidence": 0.125,
+            "speaker": "A"
+          },
+          {
+            "text": "수",
+            "start": 146907,
+            "end": 147007,
+            "confidence": 0.2,
+            "speaker": "A"
+          },
+          {
+            "text": "있는",
+            "start": 147047,
+            "end": 147387,
+            "confidence": 0.122,
+            "speaker": "A"
+          },
+          {
+            "text": "궤도",
+            "start": 147848,
+            "end": 148228,
+            "confidence": 0.084,
+            "speaker": "A"
+          },
+          {
+            "text": "안에",
+            "start": 148348,
+            "end": 148669,
+            "confidence": 0.079,
+            "speaker": "A"
+          },
+          {
+            "text": "위성을",
+            "start": 149149,
+            "end": 149689,
+            "confidence": 0.09,
+            "speaker": "A"
+          },
+          {
+            "text": "안착시켜야",
+            "start": 149930,
+            "end": 150871,
+            "confidence": 0.102,
+            "speaker": "A"
+          },
+          {
+            "text": "했는데요.",
+            "start": 151011,
+            "end": 152132,
+            "confidence": 0.3,
+            "speaker": "A"
+          },
+          {
+            "text": "누리호",
+            "start": 153293,
+            "end": 153793,
+            "confidence": 0.064,
+            "speaker": "A"
+          },
+          {
+            "text": "발사",
+            "start": 153933,
+            "end": 154354,
+            "confidence": 0.116,
+            "speaker": "A"
+          },
+          {
+            "text": "위치와",
+            "start": 154434,
+            "end": 154994,
+            "confidence": 0.112,
+            "speaker": "A"
+          },
+          {
+            "text": "지구의",
+            "start": 155655,
+            "end": 156155,
+            "confidence": 0.123,
+            "speaker": "A"
+          },
+          {
+            "text": "움직임",
+            "start": 156356,
+            "end": 156816,
+            "confidence": 0.063,
+            "speaker": "A"
+          },
+          {
+            "text": "등을",
+            "start": 156956,
+            "end": 157196,
+            "confidence": 0.128,
+            "speaker": "A"
+          },
+          {
+            "text": "따져서",
+            "start": 157337,
+            "end": 157817,
+            "confidence": 0.106,
+            "speaker": "A"
+          },
+          {
+            "text": "이",
+            "start": 158558,
+            "end": 158718,
+            "confidence": 0.125,
+            "speaker": "A"
+          },
+          {
+            "text": "궤도에",
+            "start": 158918,
+            "end": 159459,
+            "confidence": 0.048,
+            "speaker": "A"
+          },
+          {
+            "text": "진입할",
+            "start": 159659,
+            "end": 160119,
+            "confidence": 0.136,
+            "speaker": "A"
+          },
+          {
+            "text": "수",
+            "start": 160259,
+            "end": 160359,
+            "confidence": 0.2,
+            "speaker": "A"
+          },
+          {
+            "text": "있는",
+            "start": 160399,
+            "end": 160700,
+            "confidence": 0.15,
+            "speaker": "A"
+          },
+          {
+            "text": "시점을",
+            "start": 161360,
+            "end": 161921,
+            "confidence": 0.047,
+            "speaker": "A"
+          },
+          {
+            "text": "계산하니.",
+            "start": 162081,
+            "end": 162601,
+            "confidence": 0.126,
+            "speaker": "A"
+          }
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "그 시각이 딱 6시 24분이었던 겁니다.",
+        "confidence": 0.1195,
+        "start": 163422,
+        "end": 168607,
+        "words": [
+          {
+            "text": "그",
+            "start": 163422,
+            "end": 163582,
+            "confidence": 0.125,
+            "speaker": "B"
+          },
+          {
+            "text": "시각이",
+            "start": 163783,
+            "end": 164303,
+            "confidence": 0.086,
+            "speaker": "B"
+          },
+          {
+            "text": "딱",
+            "start": 165024,
+            "end": 166505,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "6시",
+            "start": 166945,
+            "end": 167346,
+            "speaker": "B",
+            "confidence": 0.0
+          },
+          {
+            "text": "24분이었던",
+            "start": 167486,
+            "end": 168066,
+            "confidence": 0.109,
+            "speaker": "B"
+          },
+          {
+            "text": "겁니다.",
+            "start": 168167,
+            "end": 168607,
+            "confidence": 0.397,
+            "speaker": "B"
+          }
+        ]
+      }
+    ],
+    "confidence": 0.10661393,
+    "audio_duration": 171
   }
+
 
   ]

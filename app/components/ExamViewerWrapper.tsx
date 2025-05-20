@@ -326,7 +326,7 @@ const ExamViewerWrapper: React.FC<ExamViewerWrapperProps> = ({ examData }) => {
 
   const handleSkipLoginAndSubmit = () => {
     setShowLoginPromptModal(false);
-    if (isClient) alert("Kết quả của bạn sẽ được hiển thị nhưng không được lưu vào lịch sử.");
+    // if (isClient) alert("Kết quả của bạn sẽ được hiển thị nhưng không được lưu vào lịch sử.");
     setScoreForApi(null); 
     pendingSubmissionDataRef.current = null;
   };
