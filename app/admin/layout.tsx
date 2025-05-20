@@ -1,90 +1,144 @@
 // app/admin/layout.tsx
-'use client'; // This component will run on the client side
+'use client';
 
 import Link from 'next/link';
 import { ReactNode, useEffect, useState } from 'react';
-import { useRouter, usePathname } from 'next/navigation'; // Import usePathname
-import { cn } from '@/lib/utils'; // Assuming you have this utility
+import { useRouter, usePathname } from 'next/navigation';
+import { cn } from '@/lib/utils';
+import { useAuthStore, UserData } from '../store/authStore'; // Import UserData từ store
 
-// Define a type for your user data for clarity
-interface UserData {
-  _id: string;
-  email: string;
-  role: string; // e.g., 'admin', 'user'
-  // Add any other relevant user fields
-}
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || 'https://soometa-be.onrender.com';
 
 const sidebarItems = [
   { name: 'Dashboard', href: '/admin/dashboard' },
   { name: 'Users', href: '/admin/users' },
   { name: 'Transcriptions', href: '/admin/transcriptions' },
-  // Add other admin links here
 ];
 
 export default function AdminLayout({ children }: { children: ReactNode }) {
   const router = useRouter();
-  const pathname = usePathname(); // Get the current path
+  const pathname = usePathname();
+
+  // Lấy trạng thái và actions từ Zustand store
+  // Chỉ lấy những gì thực sự cần để trigger re-render ban đầu
+  const initialCurrentUserFromStore = useAuthStore((state) => state.currentUser);
+  const tokenFromStore = useAuthStore((state) => state.token);
+  const isLoadingAuthFromStore = useAuthStore((state) => state._isLoadingAuth);
+  const logout = useAuthStore((state) => state.logout);
+  const setRefreshedUser = useAuthStore((state) => state.setRefreshedUser);
+
+
+  const [isClient, setIsClient] = useState(false);
   const [isAuthorized, setIsAuthorized] = useState(false);
-  const [isLoading, setIsLoading] = useState(true);
+  const [isCheckingAuthorization, setIsCheckingAuthorization] = useState(true);
 
   useEffect(() => {
-    // Check for user token and user data in localStorage
-    const token = localStorage.getItem('userToken');
-    const userDataString = localStorage.getItem('userData');
+    setIsClient(true);
+  }, []);
 
-    if (!token || !userDataString) {
-      // If no token or user data, redirect to homepage
-      console.log('AdminLayout: No token or user data found. Redirecting to /');
-      router.replace('/'); // Use replace to avoid adding to history stack
+  useEffect(() => {
+    if (!isClient || isLoadingAuthFromStore) {
+      // Vẫn đang trong quá trình loading ban đầu của client hoặc store
+      // isCheckingAuthorization vẫn là true, UI loading sẽ được hiển thị
       return;
     }
 
-    try {
-      const userData: UserData = JSON.parse(userDataString);
-      if (userData && userData.role === 'admin') {
-        // User is an admin
-        setIsAuthorized(true);
-      } else {
-        // User is not an admin or data is malformed
-        console.log('AdminLayout: User is not an admin or data is malformed. Redirecting to /');
-        router.replace('/');
-      }
-    } catch (error) {
-      // Error parsing user data (e.g., corrupted data)
-      console.error('AdminLayout: Error parsing user data from localStorage. Redirecting to /', error);
-      localStorage.removeItem('userToken'); // Clear potentially corrupted data
-      localStorage.removeItem('userData');
-      localStorage.removeItem('loggedInUserEmail');
-      router.replace('/');
-    } finally {
-      setIsLoading(false);
-    }
-  }, [router]); // router is a stable dependency
+    // Từ đây, isClient = true và isLoadingAuthFromStore = false
+    // Store đã load xong trạng thái từ localStorage (nếu có)
 
-  if (isLoading) {
-    // Show a loading state while checking authorization
-    // This prevents a flash of admin content if the user is not authorized
+    const currentToken = useAuthStore.getState().token; // Lấy token mới nhất từ store
+    const userForIdCheck = useAuthStore.getState().currentUser; // Lấy user mới nhất để lấy ID
+
+    if (!currentToken || !userForIdCheck?._id) {
+      console.log('AdminLayout: Không có token hoặc user ID trong store. Chuyển hướng về /');
+      router.replace('/');
+      setIsCheckingAuthorization(false); // Kết thúc kiểm tra (thất bại)
+      return;
+    }
+
+    const fetchAndVerifyAdmin = async () => {
+      // setIsCheckingAuthorization(true) đã được set ở state khởi tạo
+      try {
+        const response = await fetch(`${API_BASE_URL}/users/${userForIdCheck._id}`, {
+          headers: {
+            'Authorization': `Bearer ${currentToken}`,
+            'Content-Type': 'application/json',
+          },
+        });
+
+        if (response.status === 401 || response.status === 403) {
+          console.log('AdminLayout: Token không hợp lệ hoặc hết hạn. Đăng xuất và chuyển hướng.');
+          logout(); // Store sẽ cập nhật currentUser và token thành null
+          // router.replace('/'); // logout có thể đã xử lý redirect hoặc useEffect này sẽ chạy lại và redirect
+          return; // setIsCheckingAuthorization(false) sẽ được gọi ở finally
+        }
+
+        if (!response.ok) {
+          console.error(`AdminLayout: Lỗi API khi lấy thông tin user. Status: ${response.status}`);
+          router.replace('/');
+          return;
+        }
+
+        const apiUserData: UserData = await response.json();
+
+        // Quan trọng: Cập nhật lại currentUser trong store với dữ liệu mới nhất từ API
+        // Giả sử token không thay đổi, nếu có, API nên trả về token mới
+        setRefreshedUser(apiUserData, currentToken); 
+
+        if (apiUserData.role === 'admin') {
+          console.log('AdminLayout: API xác nhận user là admin.');
+          setIsAuthorized(true);
+        } else {
+          console.log('AdminLayout: API xác nhận user KHÔNG PHẢI admin. Chuyển hướng.');
+          router.replace('/');
+        }
+      } catch (error) {
+        console.error('AdminLayout: Exception trong quá trình fetchAndVerifyAdmin:', error);
+        // Cân nhắc logout nếu lỗi mạng nghiêm trọng hoặc không rõ nguyên nhân
+        // logout(); 
+        router.replace('/');
+      } finally {
+        setIsCheckingAuthorization(false); // Hoàn tất kiểm tra ủy quyền
+      }
+    };
+
+    fetchAndVerifyAdmin();
+
+  }, [isClient, isLoadingAuthFromStore, router, logout, setRefreshedUser]); // Các dependencies chính
+
+
+  const handleLogout = () => {
+    logout();
+    // router.replace('/'); // useEffect sẽ tự động xử lý redirect khi currentUser/token thay đổi
+  };
+
+  // Điều kiện loading UI kết hợp
+  if (!isClient || isLoadingAuthFromStore || isCheckingAuthorization) {
     return (
-      <div className="flex h-screen items-center justify-center bg-gray-50">
-        <p className="text-lg text-gray-600">Loading Admin Panel...</p>
-        {/* You can add a spinner icon here */}
+      <div className="flex h-screen items-center justify-center bg-gray-100">
+        <div className="text-center">
+          <svg className="mx-auto h-12 w-12 text-sky-500 animate-spin" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+            <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+            <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+          </svg>
+          <p className="mt-4 text-lg font-medium text-gray-700">Đang tải trang quản trị...</p>
+        </div>
       </div>
     );
   }
 
   if (!isAuthorized) {
-    // This case should ideally be handled by the redirect in useEffect,
-    // but as a fallback, or if the redirect hasn't completed, don't render the admin layout.
-    // It's better to ensure the redirect in useEffect is robust.
-    // Returning null or a "Not Authorized" message here can also be an option,
-    // but the redirect is cleaner.
-    return null; // Or a "Not Authorized" component
+    // Trường hợp này xảy ra nếu người dùng không phải admin và đang chờ redirect,
+    // hoặc nếu có lỗi nào đó mà isAuthorized không được set true.
+    // useEffect đã gọi router.replace('/') nên trình duyệt sẽ sớm chuyển hướng.
+    // Trả về null để không render gì trong lúc chờ.
+    console.log("AdminLayout: Không được ủy quyền (fallback, chờ redirect).");
+    return null; 
   }
 
-  // If authorized, render the admin layout
+  // Nếu đã ủy quyền, render layout admin
   return (
     <div className="flex h-screen bg-gray-50">
-      {/* Sidebar */}
       <aside className="w-64 bg-slate-800 text-slate-100 border-r border-slate-700 p-5 flex flex-col">
         <div className="mb-8">
           <Link href="/admin/dashboard">
@@ -112,19 +166,16 @@ export default function AdminLayout({ children }: { children: ReactNode }) {
             );
           })}
         </nav>
-        {/* Optional: Add a logout button or user info at the bottom of the sidebar */}
         <div className="mt-auto pt-4 border-t border-slate-700">
-            {/* Example: Logout button - you'll need a handleLogout function */}
-            {/* <button 
+            <button 
                 onClick={handleLogout} 
                 className="w-full px-4 py-2.5 rounded-md text-sm font-medium text-slate-300 hover:bg-rose-600 hover:text-white transition-colors text-left"
             >
                 Đăng xuất
-            </button> */}
+            </button>
         </div>
       </aside>
 
-      {/* Main content */}
       <main className="flex-1 p-6 md:p-8 lg:p-10 overflow-y-auto bg-slate-100">
         {children}
       </main>

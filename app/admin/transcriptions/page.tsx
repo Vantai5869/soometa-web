@@ -19,6 +19,7 @@ type Transcription = {
   deviceId: string;
   data: any[]; // Giả sử data là mảng
 };
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL;
 
 export default function TranscriptionsPage() {
   const [transcriptions, setTranscriptions] = useState<Transcription[]>([]);
@@ -30,7 +31,7 @@ export default function TranscriptionsPage() {
   const limit = 8;
 
   useEffect(() => {
-    fetch(`https://soometa-be.onrender.com/transcriptions?deviceId=000&page=${page}`)
+    fetch(`${API_BASE_URL}/transcriptions?deviceId=000&page=${page}`)
       .then((res) => res.json())
       .then((data) => {
         setTranscriptions(data.transcriptions);
@@ -43,7 +44,7 @@ export default function TranscriptionsPage() {
   const totalPages = Math.ceil(total / limit);
 
   const handleDelete = (id: string) => {
-    fetch(`https://soometa-be.onrender.com/transcriptions/${id}`, {
+    fetch(`${API_BASE_URL}/transcriptions/${id}`, {
       method: 'DELETE',
     })
       .then((res) => {
@@ -55,9 +56,8 @@ export default function TranscriptionsPage() {
       })
       .catch((error) => alert('Có lỗi xảy ra'));
   };
-
   const handleViewDetails = (id: string) => {
-    fetch(`https://soometa-be.onrender.com/transcriptions/${id}`)
+    fetch(`${API_BASE_URL}/transcriptions/${id}`)
       .then((res) => res.json())
       .then((data) => {
         setSelectedItem(data);

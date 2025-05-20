@@ -3,7 +3,7 @@ import { useEffect, useRef } from 'react';
 import { io, Socket } from 'socket.io-client';
 
 // Lấy URL từ biến môi trường, nếu không có thì dùng giá trị mặc định
-const SOCKET_SERVER_URL = process.env.NEXT_PUBLIC_SOCKET_SERVER_URL || 'http://localhost:8080'; // Thay bằng URL server của bạn
+const SOCKET_SERVER_URL = process.env.NEXT_PUBLIC_API_BASE_UR; // Thay bằng URL server của bạn
 
 interface LoggedInUserData { // Định nghĩa kiểu dữ liệu cho người dùng đã đăng nhập (nếu có)
   _id: string;

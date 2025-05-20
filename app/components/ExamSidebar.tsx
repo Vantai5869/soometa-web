@@ -2,19 +2,20 @@
 'use client';
 
 import React from 'react';
-import styles from './../exams/Exam.module.css';
-import type { InstructionGroup, Question, SelectedAnswers, CorrectAnswersMap } from './types';
+import styles from './../exams/Exam.module.css'; // Đảm bảo đường dẫn CSS đúng
+import type { InstructionGroup, Question, SelectedAnswers, CorrectAnswersMap } from './types'; // Đảm bảo đường dẫn types đúng
 
 interface ExamSidebarProps {
-  instructionGroups: InstructionGroup[];
+  instructionGroups: InstructionGroup[]; // Nên là InstructionGroup[] | undefined | null nếu có thể không có
   selectedAnswers: SelectedAnswers;
   isSubmitted: boolean;
   correctAnswersMap: CorrectAnswersMap;
   onScrollToQuestion: (questionNumber: number) => void;
-  timerComponent: React.ReactNode; // Prop mới để nhận component timer
-  onSubmit: () => void;
+  timerComponent: React.ReactNode;
+  onSubmit: () => void; // Giữ nguyên là required, ExamViewerWrapper sẽ truyền () => {} nếu cần
   score: number;
   totalQuestions: number;
+  isReviewing?: boolean; // THÊM PROP NÀY (optional để không phá vỡ nếu có chỗ khác dùng mà chưa truyền)
 }
 
 const ExamSidebar: React.FC<ExamSidebarProps> = ({
@@ -23,23 +24,28 @@ const ExamSidebar: React.FC<ExamSidebarProps> = ({
   isSubmitted,
   correctAnswersMap,
   onScrollToQuestion,
-  timerComponent, // Nhận timer component
+  timerComponent,
   onSubmit,
   score,
-  totalQuestions
+  totalQuestions,
+  isReviewing, // Nhận prop mới
 }) => {
-  const allQuestions: Question[] = instructionGroups.flatMap(group => group.questions || []);
+  // Xử lý an toàn nếu instructionGroups có thể là undefined hoặc null
+  const allQuestions: Question[] = instructionGroups?.flatMap(group => group.questions || []) || [];
+
+  const shouldShowSubmitButton = !isSubmitted && !isReviewing;
 
   return (
     <div id="sidebar" className={styles.sidebar}>
       {/* Khu vực Đồng hồ và Nút Nộp bài */}
       <div className={styles.sidebarActionArea}>
          {timerComponent} {/* Render component timer được truyền vào */}
-        {!isSubmitted ? (
+        
+        {shouldShowSubmitButton ? (
             <button
                 onClick={onSubmit}
                 className={`${styles.submitButton} ${styles.submitButtonSidebar}`}
-                disabled={isSubmitted}
+                // disabled không cần thiết ở đây nữa vì button sẽ không render nếu isSubmitted hoặc isReviewing
             >
                 Nộp bài
             </button>
@@ -52,21 +58,21 @@ const ExamSidebar: React.FC<ExamSidebarProps> = ({
 
       {/* Khu vực điều hướng câu hỏi */}
       <ul className={styles.questionNavList}>
-        {allQuestions.map((q: Question) => {
-          if (!q || typeof q.number !== 'number') return null; // Kiểm tra an toàn
+        {allQuestions.map((q: Question | null | undefined) => { // Cho phép q có thể null/undefined
+          if (!q || typeof q.number !== 'number') return null; 
           const questionNumber = q.number;
           const selectedOptionIndex = selectedAnswers[questionNumber];
           const correctAnswerIndex = correctAnswersMap[questionNumber];
           let stateClass = '';
 
-          if (isSubmitted) {
+          if (isSubmitted || isReviewing) { // Cập nhật điều kiện: nếu đã nộp hoặc đang review thì hiển thị màu đúng/sai
             if (selectedOptionIndex !== undefined) {
               stateClass = (typeof correctAnswerIndex === 'number' && selectedOptionIndex === correctAnswerIndex)
                            ? styles.navCorrect : styles.navIncorrect;
             } else {
-              stateClass = styles.navUnanswered;
+              stateClass = styles.navUnanswered; // Vẫn là chưa trả lời nếu không có lựa chọn
             }
-          } else if (selectedOptionIndex !== undefined) {
+          } else if (selectedOptionIndex !== undefined) { // Chưa nộp, chưa review, nhưng đã trả lời
              stateClass = styles.navAnswered;
           }
 

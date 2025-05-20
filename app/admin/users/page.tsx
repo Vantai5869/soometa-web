@@ -1,70 +1,50 @@
 // app/admin/users/page.tsx
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useCallback } from 'react';
 import { useRouter } from 'next/navigation';
 import { Badge } from '../components/badge'; // Đường dẫn tới Badge component của bạn
 import UserDetailModal from './../components/UserDetailModal'; // Component Modal mới
+import { useAuthStore, UserData as AuthUserData } from '../../store/authStore'; // Import store và UserData từ store
 
-// **THÊM export cho User type để UserDetailModal có thể sử dụng**
-export type User = {
-  _id: string;
-  email: string;
-  deviceId: string; // Assuming deviceId is always a string based on usage. Nullable if it can be.
-  platform: 'iOS' | 'Android' | 'WEB' | string; // Allow string for flexibility if API returns other values
-  createdAt: string; // ISO date string
-  role: string; // e.g., 'admin', 'user'
+// Sử dụng UserData từ store để đảm bảo tính nhất quán, hoặc định nghĩa lại nếu cần
+export type User = AuthUserData & { // Mở rộng UserData từ store nếu cần thêm trường
+  deviceId: string;
+  platform: 'iOS' | 'Android' | 'WEB' | string;
+  createdAt: string;
   isActive: boolean;
-  lastLogin: string | null; // ISO date string
-  name?: string; // Optional name field
+  lastLogin: string | null;
+  name?: string;
 };
 
-const API_BASE_URL = 'https://soometa-be.onrender.com';
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || 'https://soometa-be.onrender.com'; // Lấy từ env
 
 export default function UserListPage() {
   const [users, setUsers] = useState<User[]>([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
-  const [isAuthorized, setIsAuthorized] = useState(false); // Tracks if the user is an admin
+  const [pageLoading, setPageLoading] = useState(true); // Đổi tên state loading chính
+  const [fetchError, setFetchError] = useState<string | null>(null);
+  const [isAuthorized, setIsAuthorized] = useState(false);
   const router = useRouter();
 
-  // State cho User Detail Modal
   const [isDetailModalOpen, setIsDetailModalOpen] = useState(false);
   const [selectedUser, setSelectedUser] = useState<User | null>(null);
 
+  const [isClient, setIsClient] = useState(false);
   useEffect(() => {
-    const token = localStorage.getItem('userToken');
-    const userDataString = localStorage.getItem('userData');
+    setIsClient(true);
+  }, []);
 
-    if (!token || !userDataString) {
-      router.push('/login'); // Redirect to login if no token or user data
-      return;
-    }
+  // Lấy trạng thái từ store
+  const tokenFromStore = useAuthStore((state) => state.token);
+  const currentUserFromStore = useAuthStore((state) => state.currentUser);
+  const isLoadingAuthFromStore = useAuthStore((state) => state._isLoadingAuth);
+  const logout = useAuthStore((state) => state.logout);
 
-    try {
-      const userData = JSON.parse(userDataString);
-      // Check if user data exists and role is admin
-      if (userData && userData.role === 'admin') {
-        setIsAuthorized(true);
-        fetchUsers(token); // Fetch users if authorized
-      } else {
-        setError('Truy cập bị từ chối. Bạn không có quyền vào trang này.');
-        setIsAuthorized(false); // Explicitly set to false
-        setLoading(false);
-        // Optionally, redirect non-admins away, e.g., router.push('/');
-      }
-    } catch (e) {
-      console.error("Lỗi xử lý thông tin người dùng:", e);
-      // Clear corrupted or invalid auth data and redirect to login
-      localStorage.removeItem('userToken');
-      localStorage.removeItem('userData');
-      router.push('/login');
-    }
-  }, [router]); // Add router to dependency array
 
-  const fetchUsers = async (token: string) => {
-    setLoading(true);
-    setError(null);
+  const fetchUsers = useCallback(async (token: string) => {
+    console.log("UserListPage: Bắt đầu fetchUsers với token.");
+    setPageLoading(true); // Bắt đầu loading cho việc fetch users
+    setFetchError(null);
     try {
       const response = await fetch(`${API_BASE_URL}/users`, {
         headers: {
@@ -72,98 +52,155 @@ export default function UserListPage() {
         },
       });
 
+      if (response.status === 401 || response.status === 403) {
+        if (isClient) alert("Phiên đăng nhập không hợp lệ hoặc đã hết hạn.");
+        logout(); // Logout người dùng
+        router.push('/login'); // Chuyển hướng về trang đăng nhập
+        return; // Không xử lý thêm
+      }
+
       if (!response.ok) {
-        // Try to parse error message from API, otherwise use status text or generic error
         const errorData = await response.json().catch(() => ({ message: response.statusText }));
         throw new Error(errorData.message || `Lỗi ${response.status}: Không thể tải dữ liệu.`);
       }
 
       const data = await response.json();
-      setUsers(Array.isArray(data) ? data : []); // Ensure data is an array
+      // API của bạn trả về mảng user trong data.users, hoặc trực tiếp data là mảng user?
+      // Giả sử API trả về { users: User[] } hoặc User[]
+      const usersArray = Array.isArray(data) ? data : (data.users && Array.isArray(data.users)) ? data.users : [];
+      setUsers(usersArray as User[]);
+      console.log("UserListPage: fetchUsers thành công, số lượng user:", usersArray.length);
     } catch (err: any) {
-      console.error("Lỗi khi tải danh sách người dùng:", err);
-      setError(err.message || 'Không thể tải dữ liệu người dùng. Vui lòng thử lại.');
+      console.error("UserListPage: Lỗi khi tải danh sách người dùng:", err);
+      setFetchError(err.message || 'Không thể tải dữ liệu người dùng. Vui lòng thử lại.');
     } finally {
-      setLoading(false);
+      setPageLoading(false); // Kết thúc loading cho việc fetch users
     }
-  };
+  }, [isClient, router, logout]); // Thêm isClient, router, logout
 
-  // Helper function to truncate text
-  const truncateText = (text: string | null | undefined, maxLength: number = 10): string => {
-    if (!text) return 'N/A'; // Return 'N/A' or empty string if text is null/undefined
-    if (text.length <= maxLength) {
-      return text;
+  useEffect(() => {
+    // Chờ client mount và store auth sẵn sàng
+    if (!isClient || isLoadingAuthFromStore) {
+      console.log("UserListPage: Chờ client mount hoặc store auth load...");
+      setPageLoading(true); // Hiển thị loading chính
+      return;
     }
+
+    console.log("UserListPage: Client đã mount, store auth đã load. Token:", tokenFromStore, "User:", currentUserFromStore);
+
+    if (!tokenFromStore || !currentUserFromStore) {
+      console.log("UserListPage: Không có token hoặc user. Chuyển hướng về /login.");
+      router.push('/login');
+      setPageLoading(false); // Dừng loading
+      return;
+    }
+
+    if (currentUserFromStore.role === 'admin') {
+      console.log("UserListPage: User là admin. Set isAuthorized và gọi fetchUsers.");
+      setIsAuthorized(true);
+      fetchUsers(tokenFromStore); // Gọi fetchUsers sau khi xác nhận admin
+    } else {
+      console.log("UserListPage: User không phải admin. Từ chối truy cập.");
+      setFetchError('Truy cập bị từ chối. Bạn không có quyền vào trang này.');
+      setIsAuthorized(false);
+      setPageLoading(false); // Dừng loading
+      // Cân nhắc redirect về trang chủ nếu không phải admin
+      // router.push('/');
+    }
+  }, [isClient, isLoadingAuthFromStore, tokenFromStore, currentUserFromStore, router, fetchUsers]);
+
+
+  const truncateText = (text: string | null | undefined, maxLength: number = 10): string => {
+    if (!text) return 'N/A';
+    if (text.length <= maxLength) return text;
     return `${text.substring(0, maxLength)}...`;
   };
 
-  // Function to open the detail modal
   const handleOpenDetailModal = (user: User) => {
     setSelectedUser(user);
     setIsDetailModalOpen(true);
   };
 
-  // Function to close the detail modal
   const handleCloseDetailModal = () => {
     setIsDetailModalOpen(false);
-    // Delay resetting selectedUser to allow for modal close animation, if any
-    setTimeout(() => {
-        setSelectedUser(null);
-    }, 300); 
+    setTimeout(() => { setSelectedUser(null); }, 300); 
   };
 
-  // Function to handle the actual deletion of a user
   const handleConfirmDeleteUser = async (userId: string) => {
-    const token = localStorage.getItem('userToken');
+    const token = useAuthStore.getState().token; // Lấy token mới nhất từ store
     if (!token) {
-        setError("Phiên làm việc hết hạn hoặc không tìm thấy token. Vui lòng đăng nhập lại.");
+        setFetchError("Phiên làm việc hết hạn. Vui lòng đăng nhập lại.");
+        if (isClient) alert("Phiên làm việc hết hạn. Vui lòng đăng nhập lại.");
+        logout();
         router.push('/login');
         return;
     }
 
-    console.log(`Yêu cầu xoá người dùng với ID: ${userId}`);
-    // **THAY THẾ BẰNG LOGIC GỌI API XOÁ USER THỰC TẾ CỦA BẠN**
+    console.log(`UserListPage: Yêu cầu xoá người dùng với ID: ${userId}`);
+    // setPageLoading(true); // Có thể thêm loading cho hành động xoá
     try {
-        // Example API call (replace with your actual endpoint and logic)
         const response = await fetch(`${API_BASE_URL}/users/${userId}`, {
           method: 'DELETE',
-          headers: {
-            'Authorization': `Bearer ${token}`,
-          },
+          headers: { 'Authorization': `Bearer ${token}` },
         });
 
+        if (response.status === 401 || response.status === 403) {
+          if (isClient) alert("Token không hợp lệ hoặc bạn không có quyền xoá.");
+          logout();
+          router.push('/login');
+          return;
+        }
         if (!response.ok) {
           const errorData = await response.json().catch(() => ({ message: `Lỗi ${response.status} khi xoá`}));
           throw new Error(errorData.message || `Không thể xoá người dùng.`);
         }
         
-        // Nếu API call thành công:
         setUsers(prevUsers => prevUsers.filter(user => user._id !== userId));
-        alert(`(Demo) Người dùng với ID: ${userId} đã được xoá.`); // Replace with a proper notification/toast
+        if (isClient) alert(`Người dùng với ID: ${userId} đã được xoá.`);
         
     } catch (err: any) {
-        console.error("Lỗi khi xoá người dùng:", err);
-        setError(err.message || "Đã có lỗi xảy ra khi cố gắng xoá người dùng.");
-        // Optionally, display a toast message to the user
+        console.error("UserListPage: Lỗi khi xoá người dùng:", err);
+        setFetchError(err.message || "Đã có lỗi xảy ra khi cố gắng xoá người dùng.");
     } finally {
-        handleCloseDetailModal(); // Đóng modal sau khi xoá (thành công hoặc thất bại)
+        // setPageLoading(false);
+        handleCloseDetailModal();
     }
   };
 
-
-  // Conditional rendering based on loading, error, and authorization states
-  if (loading) {
-    return <div className="flex justify-center items-center h-screen"><p className="text-xl text-gray-600">Đang tải dữ liệu người dùng...</p></div>;
+  if (!isClient || isLoadingAuthFromStore || pageLoading && !fetchError && !isAuthorized) {
+    // Điều kiện loading này bao gồm cả lúc chờ store, chờ client, và chờ fetchUsers (nếu isAuthorized)
+    return (
+        <div className="flex justify-center items-center h-screen">
+            <div className="text-center">
+                <svg className="mx-auto h-12 w-12 text-sky-500 animate-spin" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                    <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                    <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                </svg>
+                <p className="mt-4 text-lg font-medium text-gray-700">Đang tải dữ liệu...</p>
+            </div>
+        </div>
+    );
   }
   
-  if (!isAuthorized && !error) { // If still checking authorization or explicitly denied without a fetch error
-    return <div className="flex justify-center items-center h-screen"><p className="text-xl text-yellow-600">Đang xác thực quyền truy cập...</p></div>;
+  // Nếu không được ủy quyền và đã hết loading, hiển thị lỗi (nếu có) hoặc thông báo
+  if (!isAuthorized) {
+    return (
+      <div className="flex justify-center items-center h-screen">
+        <p className="text-xl text-red-600">
+          {fetchError || 'Truy cập bị từ chối. Bạn không có quyền vào trang này.'}
+        </p>
+      </div>
+    );
   }
 
-  if (error && !users.length) { // Display any error that occurred, especially if no users are loaded
-    return <div className="flex justify-center items-center h-screen"><p className="text-xl text-red-600">Lỗi: {error}</p></div>;
+  // Nếu có lỗi fetch sau khi đã được ủy quyền, nhưng không load được user
+  if (fetchError && users.length === 0) { 
+    return (
+      <div className="flex justify-center items-center h-screen">
+        <p className="text-xl text-red-600">Lỗi: {fetchError}</p>
+      </div>
+    );
   }
-
 
   return (
     <>
@@ -172,18 +209,16 @@ export default function UserListPage() {
           <h1 className="text-3xl font-bold text-gray-800">Danh sách người dùng</h1>
         </header>
         
-        {/* Display general error if it occurred but users might still be visible from a previous successful fetch */}
-        {error && users.length > 0 && (
+        {fetchError && users.length > 0 && (
             <div className="mb-4 p-3 bg-red-100 text-red-700 border border-red-300 rounded-md">
-                <p><strong>Đã có lỗi xảy ra:</strong> {error}</p>
+                <p><strong>Đã có lỗi xảy ra:</strong> {fetchError}</p>
                 <p>Dữ liệu hiển thị bên dưới có thể không phải là mới nhất.</p>
             </div>
         )}
 
-        {users.length === 0 && !loading && !error ? ( // Check !error here
+        {users.length === 0 && !pageLoading && !fetchError ? (
           <div className="text-center py-10">
             <p className="text-gray-600 text-lg">Không có người dùng nào để hiển thị.</p>
-            {/* Optionally, add a button to refresh or guide the admin */}
           </div>
         ) : (
           <div className="bg-white shadow-xl rounded-lg overflow-hidden">
@@ -206,10 +241,7 @@ export default function UserListPage() {
                     <tr key={user._id} className="hover:bg-gray-50 transition-colors duration-150 ease-in-out">
                       <td className="p-3 text-gray-700 whitespace-nowrap">{user.email}</td>
                       <td className="p-3 whitespace-nowrap">
-                        <Badge
-                          variant={user.role === 'admin' ? 'destructive' : 'secondary'}
-                          className={`capitalize`} // Removed redundant color classes, assuming Badge handles them
-                        >
+                        <Badge variant={user.role === 'admin' ? 'destructive' : 'secondary'}>
                           {user.role}
                         </Badge>
                       </td>
@@ -250,12 +282,11 @@ export default function UserListPage() {
         )}
       </div>
 
-      {/* Render User Detail Modal */}
       {isDetailModalOpen && selectedUser && (
         <UserDetailModal 
             user={selectedUser} 
             onClose={handleCloseDetailModal} 
-            onConfirmDelete={handleConfirmDeleteUser} // **ĐÃ THÊM PROP onConfirmDelete**
+            onConfirmDelete={handleConfirmDeleteUser}
         />
       )}
     </>

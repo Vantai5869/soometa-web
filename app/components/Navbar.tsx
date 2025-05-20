@@ -1,459 +1,167 @@
-// app/components/Navbar.tsx (or your path)
+// app/components/Navbar.tsx
 "use client";
 
 import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
 import styles from './Navbar.module.css';
-import { useState, useEffect, FormEvent, useRef } from 'react';
-import { useHomepageSocket } from '../hooks/useHomepageSocket'; // Ensure this path is correct
-
-// Define a type for your user data for better type safety
-type UserData = {
-  _id: string;
-  email: string;
-  role: string;
-  // Add other user properties if they exist
-  [key: string]: any; // Allow other properties
-};
+import { useState, useEffect, useRef } from 'react';
+import { useAuthStore } from '../store/authStore';
+import GlobalLoginModal from './GlobalLoginModal'; // Navbar sẽ render GlobalLoginModal
 
 export default function Navbar() {
   const pathname = usePathname();
   const router = useRouter();
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const [isLoginModalOpen, setIsLoginModalOpen] = useState(false);
-  const [email, setEmail] = useState('');
-  const [verificationCodeInput, setVerificationCodeInput] = useState('');
-  const [sentCode, setSentCode] = useState<string | null>(null);
-  const [isCodeSent, setIsCodeSent] = useState(false);
-  const [countdown, setCountdown] = useState(0);
-  const [isLoading, setIsLoading] = useState(false);
-  const [errorMessage, setErrorMessage] = useState('');
-  
-  const [loggedInUserEmail, setLoggedInUserEmail] = useState<string | null>(null);
+  const [isClient, setIsClient] = useState(false);
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
+  const currentUser = useAuthStore((state) => state.currentUser);
+  const openLoginModal = useAuthStore((state) => state.openLoginModal);
+  const logout = useAuthStore((state) => state.logout);
+  const isLoadingAuth = useAuthStore((state) => state._isLoadingAuth);
+  const storeIsLoginModalOpen = useAuthStore((state) => state.isLoginModalOpen);
+
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isUserMenuOpen, setIsUserMenuOpen] = useState(false);
   const userMenuRef = useRef<HTMLDivElement>(null);
 
-  const API_BASE_URL = 'https://soometa-be.onrender.com';
-
-  // State to hold the raw user data string from localStorage
-  const [currentUserDataString, setCurrentUserDataString] = useState<string | null>(null);
-  // State to hold the parsed user object
-  const [currentUser, setCurrentUser] = useState<UserData | null>(null);
-
-  // Effect 1: Check localStorage on mount to set initial login state
-  useEffect(() => {
-    const storedEmail = localStorage.getItem('loggedInUserEmail');
-    const storedToken = localStorage.getItem('userToken');
-    const storedUserDataStr = localStorage.getItem('userData');
-
-    if (storedEmail && storedToken && storedUserDataStr) {
-      try {
-        const userData: UserData = JSON.parse(storedUserDataStr);
-        if (userData && userData.email === storedEmail) {
-          setLoggedInUserEmail(storedEmail);
-          // currentUserDataString and currentUser will be set by Effect 2
-        } else {
-          // Data inconsistency, log out
-          handleLogout();
-        }
-      } catch (e) {
-        console.error("Lỗi parse userData từ localStorage khi mount:", e);
-        handleLogout(); // Corrupted data, log out
-      }
-    } else {
-      // If any essential item is missing, ensure logged-out state
-      // No need to call handleLogout() here as it might cause issues if router is not ready
-      // Just clear localStorage and reset states
-      localStorage.removeItem('loggedInUserEmail');
-      localStorage.removeItem('userToken');
-      localStorage.removeItem('userData');
-      setLoggedInUserEmail(null);
-      setCurrentUserDataString(null); // Ensure string state is also reset
-      setCurrentUser(null);         // Ensure parsed object state is reset
-    }
-  }, []); // Empty dependency array: runs only once on mount
-
-  // Effect 2: Update currentUserDataString when loggedInUserEmail changes
-  useEffect(() => {
-    if (loggedInUserEmail) {
-      const storedUserData = localStorage.getItem('userData');
-      setCurrentUserDataString(storedUserData); // This might be null if 'userData' is missing
-    } else {
-      setCurrentUserDataString(null);
-    }
-  }, [loggedInUserEmail]); // Runs when loggedInUserEmail changes
-
-  // Effect 3: Parse currentUserDataString to set currentUser
-  // This makes `currentUser` a more stable object reference.
-  useEffect(() => {
-    if (currentUserDataString) {
-      try {
-        const parsedData: UserData = JSON.parse(currentUserDataString);
-        // Only update currentUser if it's different to prevent unnecessary re-renders
-        // This is a shallow comparison, for deep comparison, a library or more complex logic is needed
-        // But changing the reference only when the string changes is often enough.
-        if (JSON.stringify(currentUser) !== JSON.stringify(parsedData)) {
-             setCurrentUser(parsedData);
-        }
-      } catch (e) {
-        console.error("Lỗi parse currentUserDataString:", e);
-        setCurrentUser(null); // Set to null if parsing fails
-      }
-    } else {
-      if (currentUser !== null) { // Only update if it's actually changing
-        setCurrentUser(null);
-      }
-    }
-  }, [currentUserDataString]); // Runs when currentUserDataString changes
-
-  // console.log('Navbar render: currentUser:', currentUser, 'loggedInUserEmail:', loggedInUserEmail);
-  
-  // Custom hook for homepage socket connection
-  // `currentUser` is now more stable by reference.
-  useHomepageSocket(currentUser); 
-  
   const isActive = (href: string): boolean => {
-    if (href === '/') {
-      return pathname === href;
-    }
+    if (href === '/') return pathname === href;
     return pathname.startsWith(href);
   };
 
   const toggleMobileMenu = () => setIsMenuOpen(!isMenuOpen);
-  const closeMobileMenu = () => setIsMenuOpen(false);
+  const closeMobileMenu = () => {
+    setIsMenuOpen(false);
+    if (isClient && !storeIsLoginModalOpen) { // Chỉ remove nếu login modal cũng không mở
+        document.body.classList.remove(styles.noScroll);
+    }
+  };
+
+  useEffect(() => { closeMobileMenu(); }, [pathname]);
 
   useEffect(() => {
-    closeMobileMenu();
-  }, [pathname]);
-
-  useEffect(() => {
-    if (isMenuOpen || isLoginModalOpen) {
+    if (!isClient) return;
+    if (isMenuOpen || storeIsLoginModalOpen) {
       document.body.classList.add(styles.noScroll);
     } else {
       document.body.classList.remove(styles.noScroll);
     }
     return () => {
-      document.body.classList.remove(styles.noScroll);
+      if (isClient) document.body.classList.remove(styles.noScroll);
     };
-  }, [isMenuOpen, isLoginModalOpen]);
+  }, [isMenuOpen, storeIsLoginModalOpen, isClient]);
 
-  const getOrGenerateDeviceId = (): string => {
-    const storageKey = 'deviceIdSoometa'; // Use a more specific key
-    let deviceId = localStorage.getItem(storageKey);
-
-    if (!deviceId) {
-      const userAgent = navigator.userAgent || "";
-      const ipPlaceholder = "CLIENT_IP_UNAVAILABLE"; 
-      
-      if (userAgent) {
-        deviceId = `${ipPlaceholder}__${userAgent}`;
-      } else {
-        console.warn("User-Agent string is empty. Falling back to UUID generation for deviceId.");
-        deviceId = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
-            const r = Math.random() * 16 | 0, v = c === 'x' ? r : (r & 0x3 | 0x8);
-            return v.toString(16);
-        });
-      }
-      localStorage.setItem(storageKey, deviceId);
-    }
-    return deviceId;
-  };
-
-  const handleOpenLoginModal = () => {
-    setIsLoginModalOpen(true);
-    setEmail('');
-    setVerificationCodeInput('');
-    setSentCode(null);
-    setIsCodeSent(false);
-    setCountdown(0);
-    setErrorMessage('');
-  };
-
-  const handleCloseLoginModal = () => {
-    setIsLoginModalOpen(false);
-  };
-
-  const generateVerificationCode = (): string => {
-    return Math.floor(1000 + Math.random() * 9000).toString();
-  };
-
-  const handleSendVerificationCode = async () => {
-    if (!email || !email.includes('@')) {
-      setErrorMessage('Vui lòng nhập email hợp lệ.');
-      return;
-    }
-    setIsLoading(true);
-    setErrorMessage('');
-    const code = generateVerificationCode();
-    setSentCode(code);
-
-    try {
-      const response = await fetch(`${API_BASE_URL}/send-mail`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email, code }),
-      });
-
-      const responseData = await response.json().catch(() => ({message: "Lỗi không xác định khi parse JSON"}));
-
-      if (!response.ok) {
-        if (response.status === 403 && responseData.code === 'DEVICE_BLOCKED') {
-            setErrorMessage('Thiết bị của bạn đã bị chặn truy cập. Vui lòng liên hệ hỗ trợ.');
-            setIsLoginModalOpen(false); // Close modal on device block
-            if (loggedInUserEmail) handleLogout(); // Log out if a user was somehow logged in
-        } else {
-            setErrorMessage(responseData.message || 'Không thể gửi mã xác nhận. Vui lòng thử lại.');
-        }
-        setSentCode(null); // Reset sent code on error
-        return; // Important to return here
-      }
-      // If response is ok
-      setIsCodeSent(true);
-      setCountdown(60);
-    } catch (error: any) {
-      setErrorMessage(error.message || 'Đã xảy ra lỗi mạng. Vui lòng thử lại.');
-      setSentCode(null);
-    } finally {
-      setIsLoading(false);
-    }
-  };
-
-  useEffect(() => {
-    let timer: NodeJS.Timeout;
-    if (countdown > 0) {
-      timer = setTimeout(() => setCountdown(countdown - 1), 1000);
-    }
-    return () => clearTimeout(timer);
-  }, [countdown]);
-
-  const handleVerifyCode = async () => {
-    if (!verificationCodeInput || verificationCodeInput.length !== 4) {
-      setErrorMessage('Mã xác nhận phải gồm 4 chữ số.');
-      return;
-    }
-    if (verificationCodeInput !== sentCode) {
-      setErrorMessage('Mã xác nhận không đúng.');
-      return;
-    }
-
-    setIsLoading(true);
-    setErrorMessage('');
-    const deviceId = getOrGenerateDeviceId();
-
-    try {
-      const userResponse = await fetch(`${API_BASE_URL}/users`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email, deviceId, platform: 'WEB' }),
-      });
-
-      const data = await userResponse.json(); 
-
-      if (userResponse.ok) {
-        if (data.token && data.user && data.user.email) {
-          localStorage.setItem('userToken', data.token);
-          localStorage.setItem('loggedInUserEmail', data.user.email);
-          localStorage.setItem('userData', JSON.stringify(data.user));
-          
-          setLoggedInUserEmail(data.user.email); // This will trigger Effect 2, then Effect 3
-          
-          handleCloseLoginModal();
-          setIsUserMenuOpen(false);
-
-          if (data.user.role === 'admin') {
-            router.push('/admin/dashboard');
-          }
-        } else {
-          setErrorMessage('Đăng nhập thành công nhưng thiếu thông tin token hoặc user. Vui lòng thử lại.');
-        }
-      } else {
-        if (userResponse.status === 403 && data.code === 'DEVICE_BLOCKED') {
-          setErrorMessage('Thiết bị của bạn đã bị chặn đăng nhập. Vui lòng liên hệ hỗ trợ.');
-          setIsLoginModalOpen(false);
-        } else {
-          setErrorMessage(data.message || data.error || 'Lỗi khi đăng ký hoặc xác thực người dùng.');
-        }
-      }
-    } catch (error: any) {
-      console.error('Error during user registration/login API call:', error);
-      setErrorMessage('Đã có lỗi mạng hoặc lỗi không mong muốn. Vui lòng thử lại.');
-    } finally {
-      setIsLoading(false);
-    }
-  };
-
-  const handleLogout = () => {
-    localStorage.removeItem('loggedInUserEmail');
-    localStorage.removeItem('userToken');
-    localStorage.removeItem('userData');
-    setLoggedInUserEmail(null); // This will trigger Effect 2, then Effect 3 to set currentUser to null
+  const handleLogoutAndCloseMenu = () => {
+    logout();
     setIsUserMenuOpen(false);
-    if (pathname.startsWith('/admin')) { // Redirect from admin pages on logout
-        router.push('/'); 
+    closeMobileMenu();
+    if (currentUser?.role === 'admin' && pathname.startsWith('/admin')) {
+      router.push('/');
     }
-    // No explicit router.push('/') here to avoid navigation if already on a public page.
-    // Let the app's routing logic handle redirection if needed based on logged-out state.
+  };
+
+  const handleOpenLoginAndCloseMobileMenu = () => {
+    openLoginModal(); 
+    closeMobileMenu();
   };
 
   const getDisplayEmail = (userEmail: string | null): string => {
     if (!userEmail) return '';
     const atIndex = userEmail.indexOf('@');
     let namePart = userEmail.substring(0, atIndex !== -1 ? atIndex : userEmail.length);
-    if (namePart.length > 10) {
-      namePart = namePart.substring(0, 10) + '...';
-    }
+    if (namePart.length > 10) namePart = namePart.substring(0, 10) + '...';
     return namePart || 'User';
   };
 
   const toggleUserMenu = () => setIsUserMenuOpen(prev => !prev);
 
   useEffect(() => {
+    if(!isClient) return;
     const handleClickOutside = (event: MouseEvent) => {
       if (userMenuRef.current && !userMenuRef.current.contains(event.target as Node)) {
         setIsUserMenuOpen(false);
       }
     };
-    if (isUserMenuOpen) {
-      document.addEventListener('mousedown', handleClickOutside);
-    } else {
-      document.removeEventListener('mousedown', handleClickOutside);
-    }
+    if (isUserMenuOpen) document.addEventListener('mousedown', handleClickOutside);
+    else document.removeEventListener('mousedown', handleClickOutside);
     return () => {
-      document.removeEventListener('mousedown', handleClickOutside);
+      if(isClient) document.removeEventListener('mousedown', handleClickOutside);
     };
-  }, [isUserMenuOpen]);
+  }, [isUserMenuOpen, isClient]);
 
-  return (
-    <>
-      <nav className={styles.navbar} >
-        <div className={styles.logo}>
-          <Link href="/" className={isActive('/') ? styles.activeLink : ''}>
-            <span>TopikGo</span>
-          </Link>
-        </div>
-
+  if (!isClient || isLoadingAuth) {
+    return (
+      <nav className={styles.navbar}>
+        <div className={styles.logo}><Link href="/"><span>TopikGo</span></Link></div>
         <div className={styles.navRightContainer}>
           <ul className={styles.navList}>
             <li><Link href="/exams" className={isActive('/exams') ? styles.activeLink : ''}>Luyện Thi Theo Đề</Link></li>
             <li><Link href="/practice" className={isActive('/practice') ? styles.activeLink : ''}>Luyện Thi Theo Dạng</Link></li>
           </ul>
+          <div className={styles.navAuth} style={{ minWidth: '100px', height: '24px', backgroundColor: '#e2e8f0', borderRadius: '4px' }} />
+        </div>
+        <button className={styles.hamburgerButton} aria-label="Mở menu">
+          {[1,2,3].map(i => <span key={`hamb-line-load-${i}`} className={styles.hamburgerLine}></span>)}
+        </button>
+      </nav>
+    );
+  }
 
+  return (
+    <>
+      <nav className={styles.navbar}>
+        <div className={styles.logo}>
+          <Link href="/" className={isActive('/') ? styles.activeLink : ''}><span>TopikGo</span></Link>
+        </div>
+        <div className={styles.navRightContainer}>
+          <ul className={styles.navList}>
+            <li><Link href="/exams" className={isActive('/exams') ? styles.activeLink : ''}>Luyện Thi Theo Đề</Link></li>
+            <li><Link href="/practice" className={isActive('/practice') ? styles.activeLink : ''}>Luyện Thi Theo Dạng</Link></li>
+          </ul>
           <div className={styles.navAuth} ref={userMenuRef}>
-            {loggedInUserEmail ? (
+            {currentUser ? (
               <div className={styles.loggedInUserContainer}>
                 <button onClick={toggleUserMenu} className={styles.userMenuButton} aria-expanded={isUserMenuOpen} aria-haspopup="true">
-                  <span title={loggedInUserEmail}>{getDisplayEmail(loggedInUserEmail)}</span>
-                  <svg className={`${styles.userMenuArrow} ${isUserMenuOpen ? styles.open : ''}`} viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M7 10l5 5 5-5H7z"></path></svg>
+                  <span title={currentUser.email}>{getDisplayEmail(currentUser.email)}</span>
+                  <svg className={`${styles.userMenuArrow} ${isUserMenuOpen ? styles.open : ''}`} viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M7 10l5 5 5-5H7z"></path></svg>
                 </button>
                 {isUserMenuOpen && (
                   <div className={styles.userDropdown}>
-                    {currentUser && currentUser.role === 'admin' && (
-                        <Link href="/admin/dashboard" className={styles.dropdownLinkItem} onClick={() => setIsUserMenuOpen(false)}>
-                            Trang Admin
-                        </Link>
-                    )}
-                    <button onClick={handleLogout} className={styles.logoutButtonDropdown}>Đăng xuất</button>
+                    {currentUser.role === 'admin' && (<Link href="/admin/dashboard" className={styles.dropdownLinkItem} onClick={() => setIsUserMenuOpen(false)}>Trang Admin</Link>)}
+                    <button onClick={handleLogoutAndCloseMenu} className={styles.logoutButtonDropdown}>Đăng xuất</button>
                   </div>
                 )}
               </div>
             ) : (
-              <button onClick={handleOpenLoginModal} className={styles.loginButton}>Đăng nhập</button>
+              <button onClick={() => openLoginModal()} className={styles.loginButton}>Đăng nhập</button>
             )}
           </div>
         </div>
-
-        <button
-          className={`${styles.hamburgerButton} ${isMenuOpen ? styles.open : ''}`}
-          onClick={toggleMobileMenu}
-          aria-label={isMenuOpen ? "Đóng menu" : "Mở menu"}
-          aria-expanded={isMenuOpen}
-        >
-          <span className={styles.hamburgerLine}></span>
-          <span className={styles.hamburgerLine}></span>
-          <span className={styles.hamburgerLine}></span>
+        <button className={`${styles.hamburgerButton} ${isMenuOpen ? styles.open : ''}`} onClick={toggleMobileMenu} aria-label={isMenuOpen ? "Đóng menu" : "Mở menu"} aria-expanded={isMenuOpen}>
+          {[1,2,3].map(i => <span key={`hamb-line-${i}`} className={styles.hamburgerLine}></span>)}
         </button>
-
         {isMenuOpen && <div className={styles.overlayMobile} onClick={closeMobileMenu}></div>}
-        
         <div className={`${styles.mobileMenu} ${isMenuOpen ? styles.open : ''}`}>
           <ul>
             <li><Link href="/" onClick={closeMobileMenu} className={isActive('/') ? styles.mobileActiveLink : ''}>Trang Chủ</Link></li>
             <li><Link href="/exams" onClick={closeMobileMenu} className={isActive('/exams') ? styles.mobileActiveLink : ''}>Luyện Thi Theo Đề</Link></li>
             <li><Link href="/practice" onClick={closeMobileMenu} className={isActive('/practice') ? styles.mobileActiveLink : ''}>Luyện Thi Theo Dạng</Link></li>
-             {loggedInUserEmail ? (
-                <>
-                  {currentUser && currentUser.role === 'admin' && (
-                     <li><Link href="/admin/dashboard" onClick={closeMobileMenu} className={styles.mobileAuthButton}>Trang Admin</Link></li>
-                  )}
-                  <li><button onClick={() => { handleLogout(); closeMobileMenu(); }} className={styles.mobileAuthButton}>Đăng xuất ({getDisplayEmail(loggedInUserEmail)})</button></li>
-                </>
+            {currentUser ? (
+              <>
+                {currentUser.role === 'admin' && (<li><Link href="/admin/dashboard" onClick={closeMobileMenu} className={styles.mobileAuthButton}>Trang Admin</Link></li>)}
+                <li><button onClick={handleLogoutAndCloseMenu} className={styles.mobileAuthButton}>Đăng xuất ({getDisplayEmail(currentUser.email)})</button></li>
+              </>
             ) : (
-                <li><button onClick={() => { handleOpenLoginModal(); closeMobileMenu(); }} className={styles.mobileAuthButton}>Đăng nhập</button></li>
+              <li><button onClick={handleOpenLoginAndCloseMobileMenu} className={styles.mobileAuthButton}>Đăng nhập</button></li>
             )}
           </ul>
         </div>
       </nav>
-
-      {isLoginModalOpen && (
-        <div className={styles.modalOverlayLogin} onClick={handleCloseLoginModal}>
-          <div className={styles.loginModal} onClick={(e) => e.stopPropagation()}>
-            <button className={styles.modalCloseButton} onClick={handleCloseLoginModal} aria-label="Đóng modal đăng nhập">&times;</button>
-            <h2>Đăng nhập / Đăng ký</h2>
-            {errorMessage && <p className={styles.errorMessage}>{errorMessage}</p>}
-            {!isCodeSent ? (
-              <>
-                <div className={styles.formGroup}>
-                  <label htmlFor="email">Email:</label>
-                  <input
-                    type="email" id="email" value={email}
-                    onChange={(e) => { setEmail(e.target.value); if(errorMessage) setErrorMessage('');}}
-                    placeholder="Nhập email của bạn" disabled={isLoading}
-                  />
-                </div>
-                <button onClick={handleSendVerificationCode} disabled={isLoading || !email || !email.includes('@')} className={styles.modalButtonPrimary}>
-                  {isLoading ? 'Đang gửi...' : 'Lấy mã xác nhận'}
-                </button>
-              </>
-            ) : (
-              <>
-                <p className={styles.infoMessage}>Một mã xác nhận đã được gửi đến {email}. Vui lòng kiểm tra hộp thư của bạn (kể cả spam).</p>
-                <div className={styles.formGroup}>
-                  <label htmlFor="verificationCode">Mã xác nhận (4 chữ số):</label>
-                  <input
-                    type="text" id="verificationCode" value={verificationCodeInput}
-                    onChange={(e) => { setVerificationCodeInput(e.target.value.replace(/\D/g, '').slice(0,4)); if(errorMessage) setErrorMessage('');}}
-                    placeholder="Nhập mã 4 chữ số" maxLength={4} disabled={isLoading}
-                  />
-                </div>
-                <button onClick={handleVerifyCode} disabled={isLoading || verificationCodeInput.length !== 4} className={styles.modalButtonPrimary}>
-                  {isLoading ? 'Đang xác nhận...' : 'Xác nhận'}
-                </button>
-                <button
-                  onClick={handleSendVerificationCode}
-                  disabled={isLoading || countdown > 0}
-                  className={`${styles.modalButtonSecondary} ${styles.resendButton}`}
-                >
-                  {countdown > 0 ? `Gửi lại mã sau (${countdown}s)` : 'Gửi lại mã'}
-                </button>
-                 <button
-                    onClick={() => {
-                        setIsCodeSent(false);
-                        setSentCode(null);
-                        setVerificationCodeInput('');
-                        setErrorMessage('');
-                        // Keep email for convenience or clear it: setEmail('');
-                    }}
-                    disabled={isLoading}
-                    className={`${styles.modalButtonSecondary} ${styles.changeEmailButton}`}
-                >
-                    Thay đổi Email
-                </button>
-              </>
-            )}
-          </div>
-        </div>
-      )}
+      {/* GlobalLoginModal được render ở đây để nó là một phần của Navbar client component tree */}
+      {isClient && <GlobalLoginModal />}
     </>
   );
 }
