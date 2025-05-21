@@ -132,6 +132,7 @@ export default function Navbar() {
                   <div className={styles.userDropdown}>
                     {currentUser.role === 'admin' && (<Link href="/admin/dashboard" className={styles.dropdownLinkItem} onClick={() => setIsUserMenuOpen(false)}>Trang Admin</Link>)}
                    <Link className={styles.logoutButtonDropdown} href="/history" >Lịch Sử Luyện Thi</Link>
+                   <Link className={styles.logoutButtonDropdown} href="/my-vocabulary" >Từ vựng đã lưu</Link>
                     <button onClick={handleLogoutAndCloseMenu} className={styles.logoutButtonDropdown}>Đăng xuất</button>
                   </div>
                 )}

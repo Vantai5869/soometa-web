@@ -4,7 +4,7 @@
 import { useEffect, useState, useCallback } from 'react';
 import { useRouter } from 'next/navigation';
 import { Badge } from '../components/badge'; // Đường dẫn tới Badge component của bạn
-import UserDetailModal from './../components/UserDetailModal'; // Component Modal mới
+import UserDetailModal from './components/UserDetailModal'; // Component Modal mới
 import { useAuthStore, UserData as AuthUserData } from '../../store/authStore'; // Import store và UserData từ store
 
 // Sử dụng UserData từ store để đảm bảo tính nhất quán, hoặc định nghĩa lại nếu cần

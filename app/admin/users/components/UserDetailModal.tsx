@@ -1,22 +1,25 @@
-// app/admin/users/UserDetailModal.tsx (hoặc vị trí bạn muốn)
+// app/admin/users/UserDetailModal.tsx (hoặc vị trí bạn đặt)
 'use client';
 
-import React, { useState }from 'react';
-import { Badge } from '../components/badge'; // **ĐIỀU CHỈNH ĐƯỜN DẪN NÀY** cho đúng với vị trí Badge component của bạn
-import type { User } from './../users/page'; // Import User type từ page.tsx
+import React, { useState, useEffect } from 'react'; // Thêm useEffect nếu chưa có
+import Link from 'next/link'; // Import Link để điều hướng
+import { Badge } from '../../components/badge'; // **ĐIỀU CHỈNH ĐƯỜN DẪN NÀY** cho đúng
+import type { User } from './../../users/page'; // Import User type từ page.tsx
 
 interface UserDetailModalProps {
-  user: User | null; // Allow user to be null for initial state or when no user is selected
+  user: User | null; 
+  // isOpen prop không còn cần thiết nếu modal này tự quản lý việc render dựa trên user !== null
+  // Hoặc nếu component cha vẫn dùng isOpen để render có điều kiện UserDetailModal thì giữ lại
   onClose: () => void;
-  onConfirmDelete: (userId: string) => void; // Callback for when delete is confirmed
+  onConfirmDelete: (userId: string) => void;
 }
 
-// Helper component để hiển thị từng mục chi tiết cho nhất quán
 const DetailItem: React.FC<{ label: string; value: React.ReactNode; isMonospace?: boolean }> = ({ label, value, isMonospace }) => (
   <div className="flex flex-col sm:flex-row py-2 border-b border-gray-100 last:border-b-0">
     <p className="w-full sm:w-1/3 text-gray-500 font-medium mb-1 sm:mb-0">{label}:</p>
     <div className={`w-full sm:w-2/3 text-gray-800 break-words ${isMonospace ? 'font-mono text-xs bg-gray-50 p-1 rounded' : ''}`}>
-      {value}
+      {/* Thêm kiểm tra giá trị để hiển thị 'N/A' nếu rỗng hoặc undefined */}
+      {value === undefined || value === null || value === '' ? <span className="italic text-gray-400">N/A</span> : value}
     </div>
   </div>
 );
@@ -24,15 +27,14 @@ const DetailItem: React.FC<{ label: string; value: React.ReactNode; isMonospace?
 export default function UserDetailModal({ user, onClose, onConfirmDelete }: UserDetailModalProps) {
   const [viewMode, setViewMode] = useState<'details' | 'confirmDelete'>('details');
 
-  // Effect to reset viewMode to 'details' when the user prop changes (e.g., modal is opened for a new user)
-  // or when the modal is closed and re-opened.
-  React.useEffect(() => {
+  // Reset viewMode về 'details' khi user prop thay đổi (ví dụ mở modal cho user khác)
+  useEffect(() => {
     if (user) {
       setViewMode('details');
     }
   }, [user]);
 
-  if (!user) return null;
+  if (!user) return null; // Nếu không có user, không render gì cả
 
   const handleInitiateDelete = () => {
     setViewMode('confirmDelete');
@@ -44,24 +46,31 @@ export default function UserDetailModal({ user, onClose, onConfirmDelete }: User
 
   const handleConfirmDeleteAction = () => {
     onConfirmDelete(user._id);
-    // The parent component should call onClose after the delete operation is complete.
-    // Or, if you want the modal to close immediately after clicking confirm:
-    // onClose(); 
+    // onClose(); // Component cha sẽ quyết định khi nào đóng modal sau khi xóa
+  };
+
+  const formatDate = (dateString?: string | null) => { // Thêm ? cho dateString
+    if (!dateString) return 'Chưa có';
+    try {
+        return new Date(dateString).toLocaleString('vi-VN', { dateStyle: 'short', timeStyle: 'medium'});
+    } catch (e) {
+        return 'Ngày không hợp lệ';
+    }
   };
 
   return (
     <div 
       className="fixed inset-0 z-[100] flex items-center justify-center bg-black bg-opacity-70 p-4 transition-opacity duration-300 ease-in-out"
-      onClick={onClose} // Đóng modal khi click vào overlay
+      onClick={onClose} 
     >
       <div 
         className="bg-white rounded-xl shadow-2xl p-6 w-full max-w-2xl max-h-[90vh] overflow-y-auto transform transition-all duration-300 ease-in-out"
-        onClick={(e) => e.stopPropagation()} // Ngăn việc click bên trong modal làm đóng modal
+        onClick={(e) => e.stopPropagation()} 
       >
-        {/* Header chung cho cả hai view */}
         <div className="flex justify-between items-center mb-5 pb-3 border-b border-gray-200">
           <h2 className="text-2xl font-semibold text-gray-800">
-            {viewMode === 'details' ? 'Chi tiết người dùng' : 'Xác nhận xoá người dùng'}
+            {/* Hiển thị email nếu user.name không có */}
+            {viewMode === 'details' ? `Chi tiết: ${user.name || user.email}` : 'Xác nhận xoá người dùng'}
           </h2>
           <button
             onClick={onClose}
@@ -72,12 +81,13 @@ export default function UserDetailModal({ user, onClose, onConfirmDelete }: User
           </button>
         </div>
         
-        {/* Nội dung thay đổi dựa trên viewMode */}
         {viewMode === 'details' && (
           <>
             <div className="space-y-2 text-sm">
               <DetailItem label="ID" value={user._id} isMonospace />
               <DetailItem label="Email" value={user.email} />
+              {/* Thêm user.name vào DetailItem nếu có */}
+              {user.name && <DetailItem label="Tên" value={user.name} />}
               <DetailItem 
                 label="Vai trò" 
                 value={
@@ -108,13 +118,34 @@ export default function UserDetailModal({ user, onClose, onConfirmDelete }: User
               />
               <DetailItem 
                 label="Đăng nhập cuối" 
-                value={user.lastLogin ? new Date(user.lastLogin).toLocaleString('vi-VN', { dateStyle: 'short', timeStyle: 'medium'}) : 'Chưa có'} 
+                value={formatDate(user.lastLogin)} 
               />
               <DetailItem 
                 label="Ngày tạo" 
-                value={new Date(user.createdAt).toLocaleString('vi-VN', { dateStyle: 'short', timeStyle: 'medium'})} 
+                value={formatDate(user.createdAt)} 
               />
             </div>
+
+            {/* ===== BẮT ĐẦU PHẦN THÊM MỚI ===== */}
+            <div className="mt-6 pt-4 border-t border-gray-200 grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <Link href={`/admin/users/${user._id}/exam-history`} passHref>
+                <button
+                  type="button"
+                  className="w-full px-4 py-2.5 text-sm font-medium text-white bg-sky-600 rounded-lg hover:bg-sky-700 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:ring-offset-2 transition-colors shadow-sm"
+                >
+                  Lịch sử làm bài
+                </button>
+              </Link>
+              <Link href={`/admin/users/${user._id}/vocabulary`} passHref>
+                <button
+                  type="button"
+                  className="w-full px-4 py-2.5 text-sm font-medium text-white bg-purple-600 rounded-lg hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 transition-colors shadow-sm"
+                >
+                  Từ vựng đã lưu
+                </button>
+              </Link>
+            </div>
+            {/* ===== KẾT THÚC PHẦN THÊM MỚI ===== */}
 
             <div className="mt-8 pt-4 border-t border-gray-200 flex justify-end space-x-3">
               <button
@@ -161,6 +192,12 @@ export default function UserDetailModal({ user, onClose, onConfirmDelete }: User
           </>
         )}
       </div>
+       {/* CSS cho scrollbar và animation (nếu cần từ UserDetailModal gốc của bạn) */}
+       {/* <style jsx global>{`
+        .custom-scrollbar::-webkit-scrollbar { width: 6px; }
+        .custom-scrollbar::-webkit-scrollbar-track { background: transparent; }
+        // ... (phần còn lại của style scrollbar nếu có) ...
+      `}</style> */}
     </div>
   );
 }
