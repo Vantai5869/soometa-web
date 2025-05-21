@@ -332,7 +332,8 @@ const ExamViewerWrapper: React.FC<ExamViewerWrapperProps> = ({ examData }) => {
   };
 
   if (!isClient || _isLoadingAuth || isInitiallyLoadingLocal) {
-    return <div className={styles.loading}>Đang xử lý dữ liệu...</div>;
+    // return <div className={styles.loading}>Đang xử lý dữ liệu...</div>;
+    return <></>
   }
 
   if (!examData) {

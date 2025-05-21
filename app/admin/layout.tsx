@@ -13,6 +13,7 @@ const sidebarItems = [
   { name: 'Dashboard', href: '/admin/dashboard' },
   { name: 'Users', href: '/admin/users' },
   { name: 'Transcriptions', href: '/admin/transcriptions' },
+  { name: 'exam-stats', href: '/admin/exam-stats' },
 ];
 
 export default function AdminLayout({ children }: { children: ReactNode }) {

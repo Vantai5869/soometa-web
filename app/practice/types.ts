@@ -49,6 +49,7 @@ export interface Exam {
     instruction_groups: InstructionGroup[] | null | undefined;
 }
 
+
 // Interfaces used internally by the components
 export interface ReactSelectOption {
     value: string;

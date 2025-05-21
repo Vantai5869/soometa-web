@@ -131,6 +131,7 @@ export default function Navbar() {
                 {isUserMenuOpen && (
                   <div className={styles.userDropdown}>
                     {currentUser.role === 'admin' && (<Link href="/admin/dashboard" className={styles.dropdownLinkItem} onClick={() => setIsUserMenuOpen(false)}>Trang Admin</Link>)}
+                   <Link className={styles.logoutButtonDropdown} href="/history" >Lịch Sử Luyện Thi</Link>
                     <button onClick={handleLogoutAndCloseMenu} className={styles.logoutButtonDropdown}>Đăng xuất</button>
                   </div>
                 )}
@@ -152,7 +153,9 @@ export default function Navbar() {
             {currentUser ? (
               <>
                 {currentUser.role === 'admin' && (<li><Link href="/admin/dashboard" onClick={closeMobileMenu} className={styles.mobileAuthButton}>Trang Admin</Link></li>)}
+                <li><Link href="/history" >Lịch Sử Luyện Thi</Link></li>
                 <li><button onClick={handleLogoutAndCloseMenu} className={styles.mobileAuthButton}>Đăng xuất ({getDisplayEmail(currentUser.email)})</button></li>
+
               </>
             ) : (
               <li><button onClick={handleOpenLoginAndCloseMobileMenu} className={styles.mobileAuthButton}>Đăng nhập</button></li>
