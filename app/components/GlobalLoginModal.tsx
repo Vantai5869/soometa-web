@@ -104,7 +104,7 @@ export default function GlobalLoginModal() {
           </>
         ) : (
           <>
-            <p className={styles.infoMessage}>Một mã xác nhận (gồm 4 chữ số) đã được gửi đến {email}.</p>
+            <p className={styles.infoMessage}>Một mã xác nhận (gồm 4 chữ số) đã được gửi đến {email} (vui lòng kiểm tra cả mục spam).</p>
             <div className={styles.formGroup}>
               <label htmlFor="global-login-verificationCode">Mã xác nhận:</label>
               <input
