@@ -277,7 +277,7 @@ const PracticeByTypeClient: React.FC<PracticeByTypeClientProps> = ({ allExams })
 
     return (
         // Removed bg-gray-50 from the main container
-        <div className="font-sans max-w-5xl mx-auto px-4 md:px-6 lg:px-8 py-8">
+        <div data-selectable-area="true" className="font-sans max-w-5xl mx-auto px-4 md:px-6 lg:px-8 py-8">
             <h1 className="text-center text-gray-800 text-2xl md:text-3xl font-bold mb-10 md:mb-12">
                 Luyện tập theo dạng yêu cầu
             </h1>

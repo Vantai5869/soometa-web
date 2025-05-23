@@ -98,7 +98,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
       <body>
         <Navbar />
         <main
-          data-selectable-area="true" // **** CHO PHÉP BÔI ĐEN TOÀN BỘ KHỐI CÂU HỎI ****
+           // **** CHO PHÉP BÔI ĐEN TOÀN BỘ KHỐI CÂU HỎI ****
 
         >{children}</main>
         <Footer />

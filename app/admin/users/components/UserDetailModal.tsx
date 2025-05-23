@@ -144,6 +144,14 @@ export default function UserDetailModal({ user, onClose, onConfirmDelete }: User
                   Từ vựng đã lưu
                 </button>
               </Link>
+              <Link href={`/admin/users/${user._id}/edit`} passHref>
+                <button
+                  type="button"
+                  className="w-full px-4 py-2.5 text-sm font-medium text-white bg-purple-600 rounded-lg hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 transition-colors shadow-sm"
+                >
+                  Chỉnh sửa thông tin
+                </button>
+              </Link>
             </div>
             {/* ===== KẾT THÚC PHẦN THÊM MỚI ===== */}
 

@@ -352,7 +352,7 @@ const ExamViewerWrapper: React.FC<ExamViewerWrapperProps> = ({ examData }) => {
 
   return (
     <>
-      <div className={`${styles.appContainer} ${isSubmitted ? styles.submitted : ''}`}>
+      <div data-selectable-area="true" className={`${styles.appContainer} ${isSubmitted ? styles.submitted : ''}`}>
         <div className={styles.mainContent}>
           <h1 className={styles.examTitle}>
             {examData.exam_number_description} TOPIK {examData.level} -{' '}

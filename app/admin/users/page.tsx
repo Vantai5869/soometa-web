@@ -15,6 +15,8 @@ export type User = AuthUserData & { // Mở rộng UserData từ store nếu c�
   isActive: boolean;
   lastLogin: string | null;
   name?: string;
+  subscriptionTier?: string;
+
 };
 
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || 'https://soometa-be.onrender.com'; // Lấy từ env
@@ -228,7 +230,7 @@ export default function UserListPage() {
                   <tr>
                     <th className="p-3 text-left font-semibold text-gray-600 uppercase tracking-wider">Email</th>
                     <th className="p-3 text-left font-semibold text-gray-600 uppercase tracking-wider">Vai trò</th>
-                    <th className="p-3 text-left font-semibold text-gray-600 uppercase tracking-wider">Platform</th>
+                    <th className="p-3 text-left font-semibold text-gray-600 uppercase tracking-wider">Gói</th>
                     <th className="p-3 text-left font-semibold text-gray-600 uppercase tracking-wider">Device ID</th>
                     <th className="p-3 text-center font-semibold text-gray-600 uppercase tracking-wider">Trạng thái</th>
                     <th className="p-3 text-left font-semibold text-gray-600 uppercase tracking-wider">Đăng nhập cuối</th>
@@ -247,7 +249,7 @@ export default function UserListPage() {
                       </td>
                       <td className="p-3 whitespace-nowrap">
                         <Badge variant="outline" className="border-gray-300 text-gray-600">
-                          {user.platform}
+                          {user.subscriptionTier}
                         </Badge>
                       </td>
                       <td className="p-3 text-gray-500 whitespace-nowrap" title={user.deviceId}>
