@@ -44,6 +44,24 @@ const CrownIcon = React.memo(() => (
   </svg>
 ));
 CrownIcon.displayName = 'CrownIcon';
+
+// ... các imports khác ...
+
+// Icon Bút Chì (Edit)
+const EditPencilIcon = React.memo(() => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4">
+    <path d="M2.695 14.763l-1.262 3.154a.5.5 0 00.65.65l3.155-1.262a4 4 0 001.343-.885L17.5 5.5a2.121 2.121 0 00-3-3L3.58 13.42a4 4 0 00-.885 1.343z" />
+  </svg>
+));
+EditPencilIcon.displayName = 'EditPencilIcon';
+
+// Icon Dấu Tick (Confirm/Save)
+const CheckIcon = React.memo(() => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4">
+    <path fillRule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clipRule="evenodd" />
+  </svg>
+));
+CheckIcon.displayName = 'CheckIcon';
 // --- Hết SVG Icons ---
 
 export default function Navbar() {
@@ -59,12 +77,88 @@ export default function Navbar() {
   const logout = useAuthStore((state) => state.logout);
   const isLoadingAuth = useAuthStore((state) => state._isLoadingAuth);
   const storeIsLoginModalOpen = useAuthStore((state) => state.isLoginModalOpen);
-
+  const setRefreshedUser = useAuthStore((state) => state.setRefreshedUser);
+  const token = useAuthStore((state) => state.token);
   // Giữ nguyên các state local
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isUserMenuOpen, setIsUserMenuOpen] = useState(false);
   const userMenuRef = useRef<HTMLDivElement>(null);
 
+
+  // Bên trong component Navbar() của bạn:
+
+// ... (các state hiện có: isClient, currentUser, token, setRefreshedUser, openLoginModal, logout, etc.)
+
+const [isEditingName, setIsEditingName] = useState(false);
+const [editedName, setEditedName] = useState('');
+const [nameUpdateError, setNameUpdateError] = useState<string | null>(null);
+
+// useEffect để khởi tạo editedName khi currentUser.name thay đổi (và không đang edit)
+useEffect(() => {
+  if (currentUser && !isEditingName) {
+    setEditedName(currentUser.name || ''); // Lấy tên hiện tại hoặc chuỗi rỗng nếu chưa có
+  }
+}, [currentUser, isEditingName]);
+
+const handleEditNameClick = () => {
+  if (!currentUser) return;
+  setEditedName(currentUser.name || getDisplayEmail(currentUser)); // Sử dụng tên hiện tại hoặc display email làm giá trị ban đầu
+  setIsEditingName(true);
+  setNameUpdateError(null); // Xóa lỗi cũ (nếu có)
+};
+
+const handleCancelEditName = () => {
+  setIsEditingName(false);
+  if (currentUser) {
+    setEditedName(currentUser.name || ''); // Reset về tên ban đầu
+  }
+  setNameUpdateError(null);
+};
+
+const handleSaveName = async () => {
+  if (!currentUser || !token) {
+    alert("Vui lòng đăng nhập lại để cập nhật tên.");
+    return;
+  }
+  if (editedName.trim() === (currentUser.name || '')) { // Không có gì thay đổi
+    setIsEditingName(false);
+    return;
+  }
+
+  setNameUpdateError(null); // Xóa lỗi cũ
+  // Giả sử bạn có một biến môi trường cho API base URL
+  const NEXT_API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || '';
+
+  try {
+    const response = await fetch(`${NEXT_API_BASE_URL}/users/${currentUser._id}`, { // Hoặc API endpoint riêng cho cập nhật tên
+      method: 'PUT',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${token}`,
+      },
+      body: JSON.stringify({ name: editedName.trim() }), // Chỉ gửi trường name
+    });
+
+    const result = await response.json();
+
+    if (!response.ok) {
+      throw new Error(result.message || 'Lỗi khi cập nhật tên.');
+    }
+
+    // Cập nhật thành công, làm mới currentUser trong store
+    if (result.user) {
+      setRefreshedUser(result.user as UserData, token); // Giả sử API trả về user object đã cập nhật
+    }
+    setIsEditingName(false);
+    // alert('Đã cập nhật tên thành công!'); // Bạn có thể dùng một thông báo tinh tế hơn
+
+  } catch (error: any) {
+    console.error("Lỗi cập nhật tên:", error);
+    setNameUpdateError(error.message || "Không thể cập nhật tên. Vui lòng thử lại.");
+  }
+};
+
+// ... (các hàm và useEffect khác của bạn giữ nguyên) ...
   // Giữ nguyên các hàm helper và useEffects bạn đã có
   // Chỉ thêm useCallback và dependencies nếu chúng thực sự cần thiết và chưa có
   const isActive = useCallback((href: string): boolean => {
@@ -226,18 +320,75 @@ export default function Navbar() {
                 {isUserMenuOpen && (
                   <div className="absolute top-full right-0 mt-2 w-64 origin-top-right bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 rounded-lg shadow-xl z-50 py-1.5 ring-1 ring-black ring-opacity-5 focus:outline-none">
                     {/* User Info Header in Dropdown */}
-                    <div className="px-4 py-3 border-b border-gray-200 dark:border-slate-700">
-                        <p className="text-sm font-medium text-gray-900 dark:text-slate-100 truncate" title={currentUser.email}>
-                            {currentUser.name || getDisplayEmail(currentUser)}
-                        </p>
-                        <p className="text-xs text-gray-500 dark:text-slate-400 truncate">{currentUser.email}</p>
-                        {currentUser.role === 'admin' && (
-                            <span className="mt-1 inline-block px-2 py-0.5 text-xs font-semibold bg-red-100 text-red-700 dark:bg-red-700 dark:text-red-100 rounded-full">Quản trị viên</span>
-                        )}
-                        {currentUser.role === 'user' && currentUser.subscriptionTier === 'premium' && (
-                            <span className="mt-1 inline-block px-2 py-0.5 text-xs font-semibold bg-yellow-100 text-yellow-700 dark:bg-yellow-700 dark:text-yellow-100 rounded-full">Premium</span>
-                        )}
-                    </div>
+                    {isUserMenuOpen && (
+  <div >
+    {/* User Info Header in Dropdown */}
+    <div className="px-4 py-3 border-b border-gray-200 dark:border-slate-700">
+      <div className="flex items-center justify-between mb-1">
+        {!isEditingName ? (
+          <>
+            <p 
+              className="text-sm font-medium text-gray-900 dark:text-slate-100 truncate flex-grow" 
+              title={currentUser?.email || ''}
+            >
+              {currentUser?.name || getDisplayEmail(currentUser)}
+            </p>
+            <button 
+              onClick={handleEditNameClick} 
+              className="ml-2 p-1 text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 rounded-full focus:outline-none focus:ring-1 focus:ring-sky-500"
+              title="Sửa tên hiển thị"
+            >
+              <EditPencilIcon />
+            </button>
+          </>
+        ) : (
+          <div className="flex items-center w-full space-x-1.5">
+            <input
+              type="text"
+              value={editedName}
+              onChange={(e) => setEditedName(e.target.value)}
+              onKeyDown={(e) => { if (e.key === 'Enter') handleSaveName(); if (e.key === 'Escape') handleCancelEditName(); }}
+              className="flex-grow px-2 py-1 text-sm border border-sky-300 dark:border-sky-700 rounded-md focus:ring-1 focus:ring-sky-500 focus:border-sky-500 bg-white dark:bg-slate-700 text-gray-900 dark:text-slate-100"
+              autoFocus
+              maxLength={50}
+            />
+            <button 
+              onClick={handleSaveName}
+              className="p-1.5 text-green-500 hover:text-green-700 dark:hover:text-green-400 rounded-full focus:outline-none focus:ring-1 focus:ring-green-500"
+              title="Lưu tên"
+            >
+              <CheckIcon />
+            </button>
+             
+            <button 
+              onClick={handleCancelEditName}
+              className="p-1.5 text-red-500 hover:text-red-700 dark:hover:text-red-400 rounded-full focus:outline-none focus:ring-1 focus:ring-red-500"
+              title="Hủy"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4">
+                <path d="M6.28 5.22a.75.75 0 00-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 101.06 1.06L10 11.06l3.72 3.72a.75.75 0 101.06-1.06L11.06 10l3.72-3.72a.75.75 0 00-1.06-1.06L10 8.94 6.28 5.22z" />
+              </svg>
+            </button>
+            
+          </div>
+        )}
+      </div>
+      {nameUpdateError && <p className="px-4 text-xs text-red-600 pt-0.5 pb-1">{nameUpdateError}</p>}
+
+      <p className="px-4 text-xs text-gray-500 dark:text-slate-400 truncate pb-1.5">
+        {currentUser?.email}
+      </p>
+      {currentUser?.role === 'admin' && (
+        <span className="ml-4 mb-1.5 inline-block px-2 py-0.5 text-xs font-semibold bg-red-100 text-red-700 dark:bg-red-700 dark:text-red-100 rounded-full">Quản trị viên</span>
+      )}
+      {currentUser?.role === 'user' && currentUser?.subscriptionTier === 'premium' && (
+        <span className="ml-4 mb-1.5 inline-block px-2 py-0.5 text-xs font-semibold bg-yellow-100 text-yellow-700 dark:bg-yellow-700 dark:text-yellow-100 rounded-full">Premium</span>
+      )}
+    </div>
+    {/* Các Link items trong dropdown như cũ */}
+    {/* ... */}
+  </div>
+)}
 
                     <div className="py-1"> {/* Thêm padding cho nhóm link */}
                         {currentUser.role === 'admin' && (
