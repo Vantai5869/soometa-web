@@ -30,7 +30,6 @@ async function fetchChatResponse(
   chatHistory: ChatMessage[],
   newMessage: string
 ): Promise<string> {
-    console.log("Gọi fetchChatResponse với context:", contextText, "new:", newMessage);
     const apiRequestBody: any = {
       task: 'getAdvancedChatResponse', // Đảm bảo task này được backend xử lý
       newMessage: newMessage,
@@ -59,7 +58,6 @@ async function fetchChatResponse(
 }
 
 async function fetchInitialDataForSelection(text: string): Promise<InitialData> {
-    console.log("Gọi fetchInitialDataForSelection với text:", text);
     // Giả sử endpoint API của bạn là /api/gemini
     const response = await fetch(`/api/gemini`, {
         method: 'POST',

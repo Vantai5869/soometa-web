@@ -35,7 +35,6 @@ export const useHomepageSocket = (loggedInUser: LoggedInUserData | null) => {
     const socket = socketRef.current;
 
     socket.on('connect', () => {
-      console.log('Trang chủ: Đã kết nối tới máy chủ Socket.IO. ID:', socket.id);
       
       // Gửi thông tin định danh lên server
       if (loggedInUser) {

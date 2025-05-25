@@ -82,7 +82,6 @@ export const useAuthStore = create<AuthState>()(
 
       // --- Actions ---
       openLoginModal: (onSuccess, onCancel) => {
-        console.log("AuthStore: action openLoginModal");
         set({
           isLoginModalOpen: true,
           onLoginSuccessCallback: onSuccess || null,
@@ -93,7 +92,6 @@ export const useAuthStore = create<AuthState>()(
       },
 
       closeLoginModal: (cancelledByUser = true) => {
-        console.log("AuthStore: action closeLoginModal, cancelledByUser:", cancelledByUser);
         const { onLoginCancelCallback } = get();
         if (cancelledByUser && onLoginCancelCallback) {
           onLoginCancelCallback(); // Gọi callback nếu người dùng chủ động đóng/hủy
@@ -107,7 +105,6 @@ export const useAuthStore = create<AuthState>()(
       },
       
       loginSuccess: (userData, token) => {
-        console.log("AuthStore: action loginSuccess for user:", userData.email);
         // localStorage sẽ tự động được cập nhật bởi persist middleware
         set({ 
             currentUser: userData, 
@@ -125,7 +122,6 @@ export const useAuthStore = create<AuthState>()(
       },
 
       logout: () => {
-        console.log("AuthStore: action logout");
         // localStorage sẽ tự động được cập nhật bởi persist middleware (currentUser và token sẽ thành null)
         set({ 
             currentUser: null, 
@@ -142,7 +138,6 @@ export const useAuthStore = create<AuthState>()(
       },
 
       setRefreshedUser: (userData, newToken) => {
-        console.log("AuthStore: action setRefreshedUser for user:", userData.email);
         set((state) => ({
           currentUser: userData,
           token: newToken || state.token, // Cập nhật token nếu có, nếu không giữ token cũ
@@ -208,12 +203,10 @@ export const useAuthStore = create<AuthState>()(
       onRehydrateStorage: () => {
         return (state, error) => {
           if (error) {
-            console.error("AuthStore: Lỗi khi rehydrate từ localStorage:", error);
             // Nếu có lỗi, vẫn set _isLoadingAuth để ứng dụng không bị kẹt ở trạng thái loading
             if (state) state._isLoadingAuth = false;
             else useAuthStore.setState({ _isLoadingAuth: false }); // Trường hợp state không tồn tại
           } else {
-            console.log("AuthStore: onRehydrateStorage hoàn tất, _isLoadingAuth được set thành false.");
             if (state) state._isLoadingAuth = false;
           }
         }

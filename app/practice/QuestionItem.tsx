@@ -37,7 +37,6 @@ const QuestionItem: React.FC<QuestionItemProps> = ({
     const handleCheckQuestion = useCallback(() => {
         if (currentSelectionIndex !== undefined) {
              setIsChecked(true);
-             console.log(`Checked question ${uniqueQuestionId}. Selected: ${currentSelectionIndex}, Correct: ${question.options?.[currentSelectionIndex]?.is_correct}`);
         } else {
              console.warn(`Check button clicked for ${uniqueQuestionId} but no option selected.`);
         }

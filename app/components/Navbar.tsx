@@ -180,8 +180,6 @@ const handleSaveName = async () => {
     if(isMenuOpen) closeMobileMenu();
   }, [pathname]);
 
-  console.log("Navbar: isMenuOpen", isMenuOpen);
-  console.log("Navbar: storeIsLoginModalOpen", storeIsLoginModalOpen);
   useEffect(() => {
     if (!isClient) return;
     // Sử dụng storeIsLoginModalOpen từ state đã select để có tính reactive trong effect này
@@ -260,7 +258,6 @@ const handleSaveName = async () => {
     );
   }
 
-  console.log("Navbar: currentUser", currentUser);
   return (
     <>
       <nav className={styles.navbar}>
@@ -272,10 +269,12 @@ const handleSaveName = async () => {
             {/* Giữ nguyên các link navList bạn đã cung cấp */}
             <li><Link href="/exams" className={isActive('/exams') ? styles.activeLink : styles.navLinkItem}>Thi Thử</Link></li>
             <li><Link href="/practice" className={isActive('/practice') ? styles.activeLink : styles.navLinkItem}>Luyện Tập</Link></li>
+            <li><Link href="/topik-30-days" className={isActive('//topik-30-days') ? styles.activeLink : styles.navLinkItem}>Topik 30 days</Link></li>
             <li><Link href="/guide" className={isActive('/guide') ? styles.activeLink : styles.navLinkItem}>Hướng Dẫn</Link></li>
-            {currentUser && (
+            
+            {/* {currentUser && (
                  <li><Link href="/my-progress" className={isActive('/my-progress') ? styles.activeLink : styles.navLinkItem}>Tiến Độ</Link></li>
-            )}
+            )} */}
           </ul>
           <div className="relative" ref={userMenuRef}>
             {currentUser ? (
@@ -432,13 +431,15 @@ const handleSaveName = async () => {
             <li><Link href="/" onClick={closeMobileMenu} className={isActive('/') ? styles.mobileActiveLink : styles.mobileNavLinkItem}>Trang Chủ</Link></li>
             <li><Link href="/exams" onClick={closeMobileMenu} className={isActive('/exams') ? styles.mobileActiveLink : styles.mobileNavLinkItem}>Luyện Đề</Link></li>
             <li><Link href="/practice" onClick={closeMobileMenu} className={isActive('/practice') ? styles.mobileActiveLink : styles.mobileNavLinkItem}>Luyện Dạng</Link></li>
+            <li><Link href="/practice" onClick={closeMobileMenu} className={isActive('/topik-30-days') ? styles.mobileActiveLink : styles.mobileNavLinkItem}>Topik 30 days</Link></li>
             <li><Link href="/guide" onClick={closeMobileMenu} className={isActive('/guide') ? styles.mobileActiveLink : styles.mobileNavLinkItem}>Hướng Dẫn</Link></li>
-            {currentUser && (
+            {/* {currentUser && (
                  <li><Link href="/my-progress" onClick={closeMobileMenu} className={isActive('/my-progress') ? styles.mobileActiveLink : styles.mobileAuthButton}>Tiến Độ Học Tập</Link></li>
-            )}
+            )} */}
             {currentUser ? (
               <>
                 {currentUser.role === 'admin' && (<li><Link href="/admin/dashboard" onClick={closeMobileMenu} className={styles.mobileAuthButton}>Trang Quản Trị</Link></li>)}
+                <li><Link href="/my-progress" onClick={closeMobileMenu} className={isActive('/my-progress') ? styles.mobileActiveLink : styles.mobileAuthButton}>Tiến Độ Học Tập</Link></li>
                 <li><Link href="/history" onClick={closeMobileMenu} className={styles.mobileAuthButton}>Lịch Sử Thi</Link></li>
                 <li><Link href="/my-vocabulary" onClick={closeMobileMenu} className={styles.mobileAuthButton}>Từ Vựng</Link></li>
                 <li>
