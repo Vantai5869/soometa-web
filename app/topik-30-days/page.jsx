@@ -1,8 +1,8 @@
 'use client';
 
-import { useState, useEffect, useRef, useMemo } from 'react';
+import { useState, useEffect, useRef, useMemo, useCallback } from 'react';
 import Head from 'next/head';
-import transcriptData from '../../data/topik-30-days.json'; // Giữ nguyên import file gốc
+import transcriptData from '../../data/topik-30-days.json';
 
 // Biểu tượng SVG đơn giản cho Menu và Close
 const MenuIcon = () => (
@@ -24,49 +24,41 @@ export default function Home() {
   const [viewMode, setViewMode] = useState('transcript');
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const audioRef = useRef(null);
-  const animationFrameRef = useRef(null);
 
-  // Hàm cập nhật thời gian
-  const updateTime = () => {
+  // Hàm xử lý sự kiện 'timeupdate'
+  const handleTimeUpdate = useCallback(() => {
     if (audioRef.current) {
-      const newTime = audioRef.current.currentTime * 1000;
-      setCurrentTime(newTime);
-      animationFrameRef.current = requestAnimationFrame(updateTime);
+      setCurrentTime(audioRef.current.currentTime * 1000);
     }
-  };
+  }, []);
 
-  // Hàm bắt đầu cập nhật
-  const startUpdatingTime = () => {
-    cancelAnimationFrame(animationFrameRef.current);
-    animationFrameRef.current = requestAnimationFrame(updateTime);
-  };
+  // Hàm xử lý khi audio đang tua (seeking)
+  const handleSeeking = useCallback(() => {
+    // Logic khi audio đang tua, nếu cần
+  }, []);
 
-  // Hàm dừng cập nhật
-  const stopUpdatingTime = () => {
-    cancelAnimationFrame(animationFrameRef.current);
-  };
+  // Hàm xử lý khi audio đã tua xong (seeked)
+  const handleSeeked = useCallback(() => {
+    if (audioRef.current) {
+      setCurrentTime(audioRef.current.currentTime * 1000);
+    }
+  }, []);
 
   useEffect(() => {
     const audio = audioRef.current;
     if (!audio) return;
 
-    audio.addEventListener('play', startUpdatingTime);
-    audio.addEventListener('pause', stopUpdatingTime);
-    audio.addEventListener('ended', () => {
-      stopUpdatingTime();
-      setCurrentTime(0);
-    });
-    // Đảm bảo dừng khi component unmount hoặc selectedDay thay đổi
+    audio.addEventListener('timeupdate', handleTimeUpdate);
+    audio.addEventListener('seeking', handleSeeking);
+    audio.addEventListener('seeked', handleSeeked);
+    
+    // Cleanup function
     return () => {
-      stopUpdatingTime();
-      audio.removeEventListener('play', startUpdatingTime);
-      audio.removeEventListener('pause', stopUpdatingTime);
-      audio.removeEventListener('ended', () => {
-        stopUpdatingTime();
-        setCurrentTime(0);
-      });
+      audio.removeEventListener('timeupdate', handleTimeUpdate);
+      audio.removeEventListener('seeking', handleSeeking);
+      audio.removeEventListener('seeked', handleSeeked);
     };
-  }, [selectedDay]);
+  }, [selectedDay, handleTimeUpdate, handleSeeking, handleSeeked]);
 
   // Lấy dữ liệu transcript thô
   const selectedTranscript = transcriptData[selectedDay - 1] || {};
@@ -80,24 +72,22 @@ export default function Home() {
 
     const sentences = [];
     let currentSentence = [];
-    let lastNumericListItem = 0; // Theo dõi số cuối cùng được phát hiện
-    let previousWordText = ''; // Để lưu từ trước đó
+    let lastNumericListItem = 0; 
+    let previousWordText = ''; 
 
     for (let i = 0; i < wordsToProcess.length; i++) {
       const word = wordsToProcess[i];
       const wordText = word.text.trim();
 
       if (!wordText) {
-        // Cập nhật từ trước đó ngay cả khi từ hiện tại rỗng
         previousWordText = wordText;
         continue;
       }
 
       const lastChar = wordText.slice(-1);
-      let isNumericListItem = false; // "1."
+      let isNumericListItem = false; 
       let currentNumber = null;
 
-      // Kiểm tra số có dấu chấm (e.g., "1.")
       if (lastChar === '.' && wordText.length > 1) {
         const potentialNumber = parseInt(wordText.slice(0, -1), 10);
         if (!isNaN(potentialNumber) && potentialNumber > 0) {
@@ -106,13 +96,11 @@ export default function Home() {
         }
       }
       
-      let isStandaloneNumber = false; // "1"
+      let isStandaloneNumber = false; 
       let standaloneNumberValue = null;
-      // Kiểm tra số đơn lẻ không có dấu chấm (e.g., "1")
-      // Chỉ kiểm tra nếu nó chưa được xác định là số có dấu chấm
+      
       if (!isNumericListItem) {
           const potentialStandaloneNumber = parseInt(wordText, 10);
-          // Đảm bảo nó là số và không có ký tự khác
           if (!isNaN(potentialStandaloneNumber) && potentialStandaloneNumber > 0 && wordText === potentialStandaloneNumber.toString()) {
               isStandaloneNumber = true;
               standaloneNumberValue = potentialStandaloneNumber;
@@ -121,32 +109,25 @@ export default function Home() {
 
       let shouldStartNewSentenceHere = false;
 
-      // BỔ SUNG: Bỏ qua số ngay sau "데이"
+      // BỎ QUA SỐ NGAY SAU "데이"
       if (i > 0 && previousWordText === '데이' && (isNumericListItem || isStandaloneNumber)) {
-          // Không xử lý đây là điểm bắt đầu câu mới
-          // Quan trọng: Đặt lại lastNumericListItem để không ảnh hưởng đến các số thứ tự thực sự sau này
           lastNumericListItem = 0; 
-          currentSentence.push({ ...word }); // Vẫn thêm từ vào câu hiện tại
-          previousWordText = wordText; // Cập nhật từ trước đó
-          continue; // Bỏ qua phần còn lại của vòng lặp cho từ này
+          currentSentence.push({ ...word }); 
+          previousWordText = wordText; 
+          continue; 
       }
 
-      // Logic cũ: nếu là số có dấu chấm và theo thứ tự
       if (isNumericListItem && currentNumber === lastNumericListItem + 1) {
           shouldStartNewSentenceHere = true;
           lastNumericListItem = currentNumber;
       } 
-      // Logic mới: nếu là số đơn lẻ và theo thứ tự
       else if (isStandaloneNumber && standaloneNumberValue === lastNumericListItem + 1) {
           shouldStartNewSentenceHere = true;
           lastNumericListItem = standaloneNumberValue;
       }
-      // Logic cuối cùng cho từ cuối cùng của transcript
       else if (i === wordsToProcess.length - 1 && currentSentence.length > 0) {
-          // Nếu đây là từ cuối cùng và đã có từ trong câu hiện tại, kết thúc câu
           shouldStartNewSentenceHere = true;
       }
-
 
       if (shouldStartNewSentenceHere) {
           if (currentSentence.length > 0) {
@@ -156,10 +137,9 @@ export default function Home() {
       }
       
       currentSentence.push({ ...word });
-      previousWordText = wordText; // Cập nhật từ trước đó sau khi xử lý
+      previousWordText = wordText; 
     }
 
-    // Đảm bảo thêm câu cuối cùng nếu có
     if (currentSentence.length > 0) {
       sentences.push({ words: currentSentence });
     }
@@ -171,13 +151,11 @@ export default function Home() {
             const potentialNumberWithDot = parseInt(firstWordText.slice(0, -1), 10);
             const potentialStandaloneNumber = parseInt(firstWordText, 10);
 
-            // Kiểm tra số có dấu chấm hoặc số đơn lẻ
             const isNumericListItemAtStart = (lastCharOfFirstWord === '.' && !isNaN(potentialNumberWithDot) && potentialNumberWithDot > 0);
             const isStandaloneNumberAtStart = (!isNaN(potentialStandaloneNumber) && potentialStandaloneNumber > 0 && firstWordText === potentialStandaloneNumber.toString());
 
 
             if (isNumericListItemAtStart || isStandaloneNumberAtStart) {
-                // Đánh dấu từ thứ hai là từ khóa (chỉ nếu có từ thứ hai)
                 const updatedWords = sentence.words.map((w, idx) => {
                     if (idx === 1) {
                         return { ...w, isKeyword: true };
@@ -193,28 +171,23 @@ export default function Home() {
     return finalSentences;
   };
 
-  // Sử dụng useMemo để chỉ xử lý lại khi 'words' thay đổi
   const sentences = useMemo(() => groupWordsIntoSentences(words), [words]);
 
-  // Xử lý click vào từ
   const handleWordClick = (startTime) => {
     if (audioRef.current) {
       audioRef.current.currentTime = startTime / 1000;
-      audioRef.current.play();
+      audioRef.current.play(); 
+      setCurrentTime(startTime);
     }
   };
 
-  // Xử lý chọn ngày mới
   const handleDaySelect = (day) => {
     setSelectedDay(day);
-    setCurrentTime(0);
-    setIsSidebarOpen(false); // Đóng sidebar trên mobile sau khi chọn
+    setCurrentTime(0); 
+    setIsSidebarOpen(false); 
+
     if (audioRef.current) {
       audioRef.current.pause();
-      // Cần đợi một chút để audio src cập nhật trước khi set currentTime
-      setTimeout(() => {
-        if (audioRef.current) audioRef.current.currentTime = 0;
-      }, 100);
     }
   }
 
@@ -235,7 +208,7 @@ export default function Home() {
           ></div>
         )}
 
-        {/* Thanh bên trái (Sidebar) - ĐÃ BỎ rounded-xl */}
+        {/* Thanh bên trái (Sidebar) */}
         <div
           className={`fixed lg:static inset-y-0 left-0 w-64 lg:w-1/4 bg-white shadow-xl p-6 overflow-y-auto transform ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full'} lg:translate-x-0 transition-transform duration-300 ease-in-out z-40`}
         >
@@ -253,7 +226,7 @@ export default function Home() {
               <li key={index}>
                 <button
                   className={`w-full text-left p-3.5 rounded-lg transition-all duration-200 ease-in-out ${selectedDay === index + 1
-                      ? 'bg-blue-100 text-blue-800 shadow-sm' // ĐÃ THAY ĐỔI HIGHLIGHT STYLE TẠI ĐÂY
+                      ? 'bg-blue-100 text-blue-800 shadow-sm' 
                       : 'text-gray-600 hover:bg-blue-50 hover:text-blue-700'
                     }`}
                   onClick={() => handleDaySelect(index + 1)}
@@ -267,40 +240,31 @@ export default function Home() {
 
         {/* Nội dung bên phải */}
         <div className="flex-1 flex flex-col overflow-hidden">
-          {/* Header trên Mobile */}
-          <div className="lg:hidden p-4 bg-white shadow-sm flex flex-col">
-            <div className="flex items-center mb-4">
+          {/* Header ĐỒNG NHẤT cho cả Mobile và Desktop */}
+          <div className="p-4 md:p-6 lg:p-4 bg-white shadow-sm flex flex-col lg:flex-row lg:items-center lg:justify-between">
+            {/* Nút menu và tiêu đề trên Mobile */}
+            <div className="flex items-center mb-4 lg:mb-0 lg:w-1/3"> {/* Điều chỉnh width trên lg */}
               <button
-                className="text-gray-600 hover:text-gray-900 mr-4"
+                className="lg:hidden text-gray-600 hover:text-gray-900 mr-4"
                 onClick={() => setIsSidebarOpen(true)}
               >
                 <MenuIcon />
               </button>
-              <h2 className="text-xl font-semibold text-gray-800">{title}</h2>
+              <h2 className="text-xl lg:text-2xl font-semibold text-gray-800 flex-grow">{title}</h2> {/* Giảm text-3xl xuống text-2xl trên lg */}
             </div>
+
+            {/* Audio Player */}
             <audio
               ref={audioRef}
               controls
               src={selectedTranscript.audio_url}
-              className="w-full rounded-md" 
+              className="w-full lg:w-2/3 rounded-md lg:ml-4" // Điều chỉnh width và margin trên lg
               key={selectedDay}
             ></audio>
           </div>
 
-          {/* Header trên Desktop */}
-          <h2 className="hidden lg:block text-3xl font-bold p-4 md:p-6 lg:p-8 mb-6 text-gray-800">{title}</h2>
-          
-          {/* Audio player cho Desktop (không sticky) */}
-          <audio
-            ref={audioRef}
-            controls
-            src={selectedTranscript.audio_url}
-            className="w-full mb-6 rounded-md hidden lg:block px-4 md:px-6 lg:px-8" // Ẩn trên mobile, hiển thị trên desktop
-            key={selectedDay}
-          ></audio>
-
           {/* Nút chuyển đổi chế độ xem (Tabs) */}
-          <div className="mb-6 px-4 md:px-6 lg:px-8">
+          <div className="mb-6 px-4 md:px-6 lg:px-8 pt-4"> {/* Thêm pt-4 để tách khỏi header */}
             <div className="border-b border-gray-200">
               <nav className="-mb-px flex space-x-6" aria-label="Tabs">
                 <button
@@ -340,19 +304,17 @@ export default function Home() {
             ) : sentences.length > 0 ? (
               <div className="text-base md:text-lg text-gray-800 leading-relaxed">
                 {sentences.map((sentenceObj, sentenceIndex) => (
-                  // Mỗi câu trong một thẻ <p> riêng biệt
                   <p key={`sentence-${sentenceIndex}`} className="mb-4">
                     {sentenceObj.words.map((word, wordIndex) => (
                       <span
                         key={`word-${sentenceIndex}-${wordIndex}`}
-                        // Thêm lớp CSS để tô đậm từ khóa
                         className={`inline-block mx-0.5 px-1 py-0.5 rounded transition-colors duration-150 cursor-pointer ${
                           currentTime >= word.start && currentTime < word.end
-                            ? 'bg-blue-100 text-blue-700 font-medium' // Tô sáng từ hiện tại
-                            : 'bg-transparent hover:bg-gray-100'     // Hiệu ứng hover nhẹ nhàng hơn
+                            ? 'bg-blue-100 text-blue-700 font-medium' 
+                            : 'bg-transparent hover:bg-gray-100'     
                           } ${
-                            word.isKeyword // Tô đậm nếu từ được đánh dấu là từ khóa
-                              ? 'font-bold text-red-600' // Màu đỏ đậm cho từ khóa
+                            word.isKeyword 
+                              ? 'font-bold text-red-600' 
                               : ''
                           }`}
                         onClick={() => handleWordClick(word.start)}
