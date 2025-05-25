@@ -81,103 +81,113 @@ export default function Home() {
     const sentences = [];
     let currentSentence = [];
     let lastNumericListItem = 0; // Theo dõi số cuối cùng được phát hiện
-
-    // Định nghĩa các ký tự kết thúc câu tiêu chuẩn (chỉ dùng cho mục đích phụ trợ nếu không có số đếm)
-    // const sentenceEnders = ['.', '?', '!', '…']; // Bỏ comment nếu muốn sử dụng
+    let previousWordText = ''; // Để lưu từ trước đó
 
     for (let i = 0; i < wordsToProcess.length; i++) {
       const word = wordsToProcess[i];
       const wordText = word.text.trim();
 
-      // Bỏ qua từ rỗng
       if (!wordText) {
+        // Cập nhật từ trước đó ngay cả khi từ hiện tại rỗng
+        previousWordText = wordText;
         continue;
       }
 
       const lastChar = wordText.slice(-1);
-      let isNumericListItem = false;
+      let isNumericListItem = false; // "1."
       let currentNumber = null;
 
-      // Kiểm tra xem từ có phải là một mục danh sách số không (ví dụ: "1.", "34.")
+      // Kiểm tra số có dấu chấm (e.g., "1.")
       if (lastChar === '.' && wordText.length > 1) {
         const potentialNumber = parseInt(wordText.slice(0, -1), 10);
-        if (!isNaN(potentialNumber) && potentialNumber > 0) { // Đảm bảo đó là số dương
+        if (!isNaN(potentialNumber) && potentialNumber > 0) {
             isNumericListItem = true;
             currentNumber = potentialNumber;
         }
       }
       
+      let isStandaloneNumber = false; // "1"
+      let standaloneNumberValue = null;
+      // Kiểm tra số đơn lẻ không có dấu chấm (e.g., "1")
+      // Chỉ kiểm tra nếu nó chưa được xác định là số có dấu chấm
+      if (!isNumericListItem) {
+          const potentialStandaloneNumber = parseInt(wordText, 10);
+          // Đảm bảo nó là số và không có ký tự khác
+          if (!isNaN(potentialStandaloneNumber) && potentialStandaloneNumber > 0 && wordText === potentialStandaloneNumber.toString()) {
+              isStandaloneNumber = true;
+              standaloneNumberValue = potentialStandaloneNumber;
+          }
+      }
+
       let shouldStartNewSentenceHere = false;
 
-      // Điều kiện chính để bắt đầu một câu mới: khi gặp một số đếm tăng chính xác +1
+      // BỔ SUNG: Bỏ qua số ngay sau "데이"
+      if (i > 0 && previousWordText === '데이' && (isNumericListItem || isStandaloneNumber)) {
+          // Không xử lý đây là điểm bắt đầu câu mới
+          // Quan trọng: Đặt lại lastNumericListItem để không ảnh hưởng đến các số thứ tự thực sự sau này
+          lastNumericListItem = 0; 
+          currentSentence.push({ ...word }); // Vẫn thêm từ vào câu hiện tại
+          previousWordText = wordText; // Cập nhật từ trước đó
+          continue; // Bỏ qua phần còn lại của vòng lặp cho từ này
+      }
+
+      // Logic cũ: nếu là số có dấu chấm và theo thứ tự
       if (isNumericListItem && currentNumber === lastNumericListItem + 1) {
           shouldStartNewSentenceHere = true;
-          lastNumericListItem = currentNumber; // Cập nhật số đếm cuối cùng
+          lastNumericListItem = currentNumber;
       } 
-      // Xử lý từ cuối cùng của transcript nếu nó chưa được thêm vào câu nào
+      // Logic mới: nếu là số đơn lẻ và theo thứ tự
+      else if (isStandaloneNumber && standaloneNumberValue === lastNumericListItem + 1) {
+          shouldStartNewSentenceHere = true;
+          lastNumericListItem = standaloneNumberValue;
+      }
+      // Logic cuối cùng cho từ cuối cùng của transcript
       else if (i === wordsToProcess.length - 1 && currentSentence.length > 0) {
-          // Nếu đây là từ cuối cùng VÀ câu hiện tại không rỗng,
-          // chúng ta cần đảm bảo câu đó được thêm vào.
-          // Đây là trường hợp catch-all để không bỏ sót từ cuối cùng.
-          // Không nên coi là bắt đầu câu mới ở đây, mà chỉ là kết thúc câu đang xây dựng.
-          // Logic này đã được xử lý bởi if (currentSentence.length > 0) sau vòng lặp.
+          // Nếu đây là từ cuối cùng và đã có từ trong câu hiện tại, kết thúc câu
+          shouldStartNewSentenceHere = true;
       }
 
 
-      // Nếu chúng ta nên bắt đầu một câu mới ở đây (do gặp số đếm tăng)
       if (shouldStartNewSentenceHere) {
-          // Kết thúc câu hiện tại nếu nó không rỗng
           if (currentSentence.length > 0) {
               sentences.push({ words: currentSentence });
           }
-          currentSentence = []; // Bắt đầu một câu mới
-      }
-
-      // Đánh dấu từ khóa: Từ ngay sau số đếm (là từ vựng)
-      // Từ số đếm hiện tại là wordsToProcess[i]
-      // currentSentence là mảng chứa các từ của câu mới (đã reset nếu shouldStartNewSentenceHere là true)
-      // Nếu từ hiện tại là một số đếm (vd: "1."), và nó là từ đầu tiên của một câu mới được khởi tạo
-      // VÀ CÓ từ tiếp theo, thì từ tiếp theo đó chính là từ vựng.
-      const wordWithFlags = { ...word }; // Tạo bản sao của từ để thêm cờ
-      if (isNumericListItem && wordWithFlags.text.trim() === `${lastNumericListItem}.` && (i + 1 < wordsToProcess.length)) {
-          // Chúng ta sẽ đánh dấu từ *tiếp theo* là từ khóa.
-          // Tuy nhiên, vì chúng ta đang lặp và push từng từ,
-          // việc đánh dấu từ tiếp theo cần được xử lý cẩn thận.
-          // Cách an toàn hơn là đánh dấu sau khi đã push từ số đếm vào currentSentence.
-          // Hoặc đánh dấu trực tiếp vào đối tượng từ trong wordsToProcess.
-          // Dưới đây, chúng ta sẽ dựa vào vị trí của từ trong câu (sau này khi render).
-          // Hoặc có thể thêm cờ vào wordWithFlags.
+          currentSentence = [];
       }
       
-      currentSentence.push(wordWithFlags); // Luôn thêm từ vào câu hiện tại
+      currentSentence.push({ ...word });
+      previousWordText = wordText; // Cập nhật từ trước đó sau khi xử lý
     }
 
-    // Sau khi vòng lặp kết thúc, nếu còn từ trong currentSentence, thêm chúng vào sentences
+    // Đảm bảo thêm câu cuối cùng nếu có
     if (currentSentence.length > 0) {
       sentences.push({ words: currentSentence });
     }
 
-    // Bước phụ trợ: Sau khi đã có các câu được phân tách, duyệt lại để đánh dấu từ khóa.
-    // Việc này giúp tách biệt logic phân tách câu và logic đánh dấu từ khóa.
     const finalSentences = sentences.map(sentence => {
-        if (sentence.words.length > 1) { // Đảm bảo câu có ít nhất 2 từ (số đếm và từ vựng)
+        if (sentence.words.length > 1) {
             const firstWordText = sentence.words[0].text.trim();
             const lastCharOfFirstWord = firstWordText.slice(-1);
-            const potentialNumber = parseInt(firstWordText.slice(0, -1), 10);
+            const potentialNumberWithDot = parseInt(firstWordText.slice(0, -1), 10);
+            const potentialStandaloneNumber = parseInt(firstWordText, 10);
 
-            // Nếu từ đầu tiên của câu là một số đếm hợp lệ (vd: "1.", "34.")
-            if (lastCharOfFirstWord === '.' && !isNaN(potentialNumber) && potentialNumber > 0) {
-                // Từ thứ hai của câu (chỉ số 1) chính là từ vựng
+            // Kiểm tra số có dấu chấm hoặc số đơn lẻ
+            const isNumericListItemAtStart = (lastCharOfFirstWord === '.' && !isNaN(potentialNumberWithDot) && potentialNumberWithDot > 0);
+            const isStandaloneNumberAtStart = (!isNaN(potentialStandaloneNumber) && potentialStandaloneNumber > 0 && firstWordText === potentialStandaloneNumber.toString());
+
+
+            if (isNumericListItemAtStart || isStandaloneNumberAtStart) {
+                // Đánh dấu từ thứ hai là từ khóa (chỉ nếu có từ thứ hai)
                 const updatedWords = sentence.words.map((w, idx) => {
                     if (idx === 1) {
-                        return { ...w, isKeyword: true }; // Đánh dấu từ thứ hai là từ khóa
+                        return { ...w, isKeyword: true };
                     }
                     return w;
                 });
                 return { words: updatedWords };
             }
         }
-        return sentence; // Trả về câu gốc nếu không phải dạng số đếm-từ vựng
+        return sentence;
     });
 
     return finalSentences;
@@ -216,7 +226,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="flex h-screen bg-gray-50 text-gray-900">
+      <div className="flex min-h-screen bg-gray-50 text-gray-900">
         {/* Lớp phủ cho sidebar trên mobile */}
         {isSidebarOpen && (
           <div
@@ -225,9 +235,9 @@ export default function Home() {
           ></div>
         )}
 
-        {/* Thanh bên trái (Sidebar) */}
+        {/* Thanh bên trái (Sidebar) - ĐÃ BỎ rounded-xl */}
         <div
-          className={`fixed lg:static inset-y-0 left-0 w-64 lg:w-1/4 bg-white rounded-xl shadow-xl p-6 overflow-y-auto transform ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full'} lg:translate-x-0 transition-transform duration-300 ease-in-out z-40`}
+          className={`fixed lg:static inset-y-0 left-0 w-64 lg:w-1/4 bg-white shadow-xl p-6 overflow-y-auto transform ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full'} lg:translate-x-0 transition-transform duration-300 ease-in-out z-40`}
         >
           <div className="flex justify-between items-center mb-6">
             <h1 className="text-2xl font-bold text-gray-800">TOPIK in 30 Days</h1>
@@ -243,7 +253,7 @@ export default function Home() {
               <li key={index}>
                 <button
                   className={`w-full text-left p-3.5 rounded-lg transition-all duration-200 ease-in-out ${selectedDay === index + 1
-                      ? 'bg-blue-600 text-white shadow-md'
+                      ? 'bg-blue-100 text-blue-800 shadow-sm' // ĐÃ THAY ĐỔI HIGHLIGHT STYLE TẠI ĐÂY
                       : 'text-gray-600 hover:bg-blue-50 hover:text-blue-700'
                     }`}
                   onClick={() => handleDaySelect(index + 1)}
@@ -258,98 +268,106 @@ export default function Home() {
         {/* Nội dung bên phải */}
         <div className="flex-1 flex flex-col overflow-hidden">
           {/* Header trên Mobile */}
-          <div className="lg:hidden p-4 bg-white shadow-sm flex items-center">
-            <button
-              className="text-gray-600 hover:text-gray-900 mr-4"
-              onClick={() => setIsSidebarOpen(true)}
-            >
-              <MenuIcon />
-            </button>
-            <h2 className="text-xl font-semibold text-gray-800">{title}</h2>
-          </div>
-
-          {/* Khu vực nội dung chính */}
-          <div className="flex-1 p-4 md:p-6 lg:p-8 overflow-y-auto">
-            <h2 className="hidden lg:block text-3xl font-bold mb-6 text-gray-800">{title}</h2>
-
+          <div className="lg:hidden p-4 bg-white shadow-sm flex flex-col">
+            <div className="flex items-center mb-4">
+              <button
+                className="text-gray-600 hover:text-gray-900 mr-4"
+                onClick={() => setIsSidebarOpen(true)}
+              >
+                <MenuIcon />
+              </button>
+              <h2 className="text-xl font-semibold text-gray-800">{title}</h2>
+            </div>
             <audio
               ref={audioRef}
               controls
               src={selectedTranscript.audio_url}
-              className="w-full mb-6 rounded-md"
+              className="w-full rounded-md" 
               key={selectedDay}
             ></audio>
+          </div>
 
-            {/* Nút chuyển đổi chế độ xem (Tabs) */}
-            <div className="mb-6">
-              <div className="border-b border-gray-200">
-                <nav className="-mb-px flex space-x-6" aria-label="Tabs">
-                  <button
-                    onClick={() => setViewMode('transcript')}
-                    className={`whitespace-nowrap py-3 px-1 border-b-2 font-medium text-sm ${viewMode === 'transcript'
+          {/* Header trên Desktop */}
+          <h2 className="hidden lg:block text-3xl font-bold p-4 md:p-6 lg:p-8 mb-6 text-gray-800">{title}</h2>
+          
+          {/* Audio player cho Desktop (không sticky) */}
+          <audio
+            ref={audioRef}
+            controls
+            src={selectedTranscript.audio_url}
+            className="w-full mb-6 rounded-md hidden lg:block px-4 md:px-6 lg:px-8" // Ẩn trên mobile, hiển thị trên desktop
+            key={selectedDay}
+          ></audio>
+
+          {/* Nút chuyển đổi chế độ xem (Tabs) */}
+          <div className="mb-6 px-4 md:px-6 lg:px-8">
+            <div className="border-b border-gray-200">
+              <nav className="-mb-px flex space-x-6" aria-label="Tabs">
+                <button
+                  onClick={() => setViewMode('transcript')}
+                  className={`whitespace-nowrap py-3 px-1 border-b-2 font-medium text-sm ${viewMode === 'transcript'
                         ? 'border-blue-500 text-blue-600'
                         : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'
                       }`}
-                  >
-                    Transcript
-                  </button>
-                  <button
-                    onClick={() => setViewMode('pdf')}
-                    className={`whitespace-nowrap py-3 px-1 border-b-2 font-medium text-sm ${viewMode === 'pdf'
+                >
+                  Transcript
+                </button>
+                <button
+                  onClick={() => setViewMode('pdf')}
+                  className={`whitespace-nowrap py-3 px-1 border-b-2 font-medium text-sm ${viewMode === 'pdf'
                         ? 'border-blue-500 text-blue-600'
                         : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'
                       }`}
-                  >
-                    PDF
-                  </button>
-                </nav>
+                >
+                  PDF
+                </button>
+              </nav>
+            </div>
+          </div>
+
+          {/* Khu vực hiển thị nội dung */}
+          <div data-selectable-area="true" className="flex-1 min-h-[400px] mx-4 md:mx-6 lg:mx-8 mb-4">
+            {viewMode === 'pdf' ? (
+              <div className="h-[600px] lg:h-[800px] -m-6 md:-m-8 rounded-xl overflow-hidden">
+                <iframe
+                  src="https://drive.google.com/file/d/1hmZlCYFE5s034vjWCfKh3qWALkgqHIv_/preview"
+                  width="100%"
+                  height="100%"
+                  title="PDF Viewer"
+                  className="border-none"
+                ></iframe>
               </div>
-            </div>
-
-            {/* Khu vực hiển thị nội dung */}
-            <div data-selectable-area="true" className="bg-white p-6 md:p-8 rounded-xl shadow-lg min-h-[400px]">
-              {viewMode === 'pdf' ? (
-                <div className="h-[600px] lg:h-[800px] -m-6 md:-m-8 rounded-xl overflow-hidden">
-                  <iframe
-                    src="https://drive.google.com/file/d/1hmZlCYFE5s034vjWCfKh3qWALkgqHIv_/preview"
-                    width="100%"
-                    height="100%"
-                    title="PDF Viewer"
-                    className="border-none"
-                  ></iframe>
-                </div>
-              ) : sentences.length > 0 ? (
-                <div className="text-base md:text-lg text-gray-800 leading-relaxed">
-                  {sentences.map((sentenceObj, sentenceIndex) => (
-                    // Mỗi câu trong một thẻ <p> riêng biệt
-                    <p key={`sentence-${sentenceIndex}`} className="mb-4">
-                      {sentenceObj.words.map((word, wordIndex) => (
-                        <span
-                          key={`word-${sentenceIndex}-${wordIndex}`}
-                          // Thêm lớp CSS để tô đậm từ khóa
-                          className={`inline-block mx-0.5 px-1 py-0.5 rounded transition-colors duration-150 cursor-pointer ${
-                            currentTime >= word.start && currentTime < word.end
-                              ? 'bg-blue-100 text-blue-700 font-medium' // Tô sáng từ hiện tại
-                              : 'bg-transparent hover:bg-gray-100'     // Hiệu ứng hover nhẹ nhàng hơn
-                            } ${
-                              word.isKeyword // Tô đậm nếu từ được đánh dấu là từ khóa
-                                ? 'font-bold text-red-600' // Màu đỏ đậm cho từ khóa
-                                : ''
-                            }`}
-                          onClick={() => handleWordClick(word.start)}
-                        >
-                          {word.text}{' '}
-                        </span>
-                      ))}
-                    </p>
-                  ))}
-                </div>
-              ) : (
-                <div className="flex items-center justify-center h-[400px]">
-                  <p className="text-gray-500 text-lg">No transcript available for this day.</p>
-                </div>
-              )}
-            </div>
+            ) : sentences.length > 0 ? (
+              <div className="text-base md:text-lg text-gray-800 leading-relaxed">
+                {sentences.map((sentenceObj, sentenceIndex) => (
+                  // Mỗi câu trong một thẻ <p> riêng biệt
+                  <p key={`sentence-${sentenceIndex}`} className="mb-4">
+                    {sentenceObj.words.map((word, wordIndex) => (
+                      <span
+                        key={`word-${sentenceIndex}-${wordIndex}`}
+                        // Thêm lớp CSS để tô đậm từ khóa
+                        className={`inline-block mx-0.5 px-1 py-0.5 rounded transition-colors duration-150 cursor-pointer ${
+                          currentTime >= word.start && currentTime < word.end
+                            ? 'bg-blue-100 text-blue-700 font-medium' // Tô sáng từ hiện tại
+                            : 'bg-transparent hover:bg-gray-100'     // Hiệu ứng hover nhẹ nhàng hơn
+                          } ${
+                            word.isKeyword // Tô đậm nếu từ được đánh dấu là từ khóa
+                              ? 'font-bold text-red-600' // Màu đỏ đậm cho từ khóa
+                              : ''
+                          }`}
+                        onClick={() => handleWordClick(word.start)}
+                      >
+                        {word.text}{' '}
+                      </span>
+                    ))}
+                  </p>
+                ))}
+              </div>
+            ) : (
+              <div className="flex items-center justify-center h-[400px]">
+                <p className="text-gray-500 text-lg">No transcript available for this day.</p>
+              </div>
+            )}
           </div>
         </div>
       </div>
