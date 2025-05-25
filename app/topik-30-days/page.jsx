@@ -145,7 +145,7 @@ export default function Home() {
         </div>
 
         {/* Nội dung bên phải */}
-        <div className="flex-1 flex flex-col overflow-hidden">
+        <div data-selectable-area="true" className="flex-1 flex flex-col overflow-hidden">
           {/* Header trên Mobile */}
           <div className="lg:hidden p-4 bg-white shadow-sm flex items-center">
             <button
