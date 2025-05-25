@@ -141,13 +141,6 @@ const ShareButtonClient: React.FC<ShareButtonProps> = ({ titleToShare, urlToShar
             </button>
         </div>
       )}
-       <style jsx global>{`
-        @keyframes fadeInUp {
-          from { opacity: 0; transform: translateY(10px) ${typeof window !== 'undefined' && window.innerWidth >= 640 ? 'translateX(-50%)' : ''}; }
-          to { opacity: 1; transform: translateY(0) ${typeof window !== 'undefined' && window.innerWidth >= 640 ? 'translateX(-50%)' : ''}; }
-        }
-        /* Đảm bảo .animate-fadeInUp sử dụng keyframes này nếu bạn có class đó */
-      `}</style>
     </div>
   );
 };
