@@ -32,7 +32,7 @@ interface AdminData {
     role: string;
 }
 
-const SOCKET_SERVER_URL = process.env.NEXT_PUBLIC_API_BASE_URL;
+const SOCKET_SERVER_URL = process.env.NEXT_PUBLIC_SOCKET_SERVER_URL;
 
 export default function RealTimeVisitors() {
   const [visitorData, setVisitorData] = useState<VisitorData>({ count: 0, users: [] });

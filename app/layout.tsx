@@ -2,6 +2,7 @@
 import Footer from './components/Footer';
 import GlobalSelectionPopup from './components/GlobalSelectionPopup';
 import Navbar from './components/Navbar';
+import UserActivityTracker from './components/UserActivityTracker';
 import './globals.css'; // Import CSS toàn cục
 
 import { Metadata } from 'next';
@@ -103,6 +104,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
         >{children}</main>
         <Footer />
         <GlobalSelectionPopup />
+        <UserActivityTracker />
       </body>
     </html>
   );
