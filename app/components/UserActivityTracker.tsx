@@ -35,7 +35,6 @@ export default function UserActivityTracker() {
               // Bạn có thể thêm các thông tin khác nếu muốn, ví dụ: deviceId, platform (nếu có thể lấy từ frontend)
             }),
           });
-          console.log(response)
 
           if (!response.ok) {
             const errorData = await response.json();
