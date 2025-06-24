@@ -11,9 +11,10 @@ const API_KEYS = [
     process.env.GEMINI_API_KEY_1,
     process.env.GEMINI_API_KEY_2,
     process.env.GEMINI_API_KEY_3,
+    process.env.GEMINI_API_KEY_4,
 ].filter((key): key is string => !!key && key.trim() !== '');
 
-const MODEL_NAME = "gemini-1.5-flash-latest";
+const MODEL_NAME = "gemini-2.0-flash";
 
 // --- Initialize Gemini Client ---
 let currentApiKeyIndex = 0;
@@ -260,6 +261,9 @@ Nếu không tìm thấy thông tin hoặc không thể cung cấp định nghĩ
         return NextResponse.json(responseData);
     } catch (error: any) {
         // ... (error handling giữ nguyên)
+        console.log('============== LỖI XẢY RA ========');
+        console.log({error})
+        console.log('============== LỖI XẢY RA ========');
         console.error(`[API Route] Lỗi cuối cùng khi xử lý task "${requestBodyForLogging?.task || 'không xác định'}":`, error.message, error.stack);
         let errorMessage = error.message || 'Lỗi không xác định từ API';
         let statusCode = 500;
