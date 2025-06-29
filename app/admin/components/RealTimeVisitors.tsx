@@ -2,11 +2,12 @@
 'use client';
 
 import React, { useState, useEffect, useRef } from 'react';
-import { io, Socket } from 'socket.io-client';
-import { Badge } from './badge'; // Đảm bảo component Badge của bạn được import đúng
+import { Socket } from 'socket.io-client';
+import { Badge } from '@/components/ui/badge';
 import { 
-    User, Users, XCircle, Wifi, WifiOff, ShieldCheck, Eye, Mail, Clock, ServerIcon, Fingerprint, LogOut, Maximize2, Minimize2, UserCog, Info, UserCheck
+    User, Users, XCircle, Wifi, WifiOff, ShieldCheck, Eye, Mail, Clock, ServerIcon, Fingerprint, LogOut, Maximize2, Minimize2, UserCog, Info, UserCheck, Globe, Monitor, MapPin, Smartphone, MonitorSmartphone
 } from 'lucide-react';
+import { initializeSocket, disconnectSocket } from '../../../lib/configSocket';
 
 // Cập nhật Visitor interface để bao gồm các thông tin chi tiết
 interface Visitor {
@@ -32,8 +33,6 @@ interface AdminData {
     role: string;
 }
 
-const SOCKET_SERVER_URL = process.env.NEXT_PUBLIC_SOCKET_SERVER_URL;
-
 export default function RealTimeVisitors() {
   const [visitorData, setVisitorData] = useState<VisitorData>({ count: 0, users: [] });
   const [isConnected, setIsConnected] = useState(false);
@@ -58,18 +57,8 @@ export default function RealTimeVisitors() {
 
   // Effect 2: Setup Socket.IO
   useEffect(() => {
-    if (!SOCKET_SERVER_URL) {
-        console.warn("Admin Socket: URL máy chủ Socket chưa được định nghĩa.");
-        setError("URL máy chủ Socket chưa được định nghĩa.");
-        return;
-    }
-    
-    const adminToken = localStorage.getItem('userToken'); 
-
-    socketRef.current = io(SOCKET_SERVER_URL, {
-      reconnectionAttempts: 5,
-      auth: { token: adminToken }
-    });
+    // Khởi tạo kết nối Socket.IO sử dụng configSocket
+    socketRef.current = initializeSocket();
 
     const socket = socketRef.current;
 
@@ -105,7 +94,7 @@ export default function RealTimeVisitors() {
     return () => {
       if (socket) {
         console.log('Admin: Đang ngắt kết nối socket...');
-        socket.disconnect();
+        disconnectSocket();
       }
     };
   }, [currentAdmin]);
@@ -167,7 +156,7 @@ export default function RealTimeVisitors() {
             {isConnected ? <Wifi className="text-emerald-400 mr-2.5" size={20} /> : <WifiOff className="text-rose-400 mr-2.5" size={20} />}
             <h3 className="text-lg font-semibold text-slate-50">Khách Online</h3>
             {isPanelOpen && (
-                <Badge variant={isConnected ? "default" : "destructive"} className={`ml-3 text-xs ${isConnected ? 'bg-emerald-500/20 text-emerald-300 border-emerald-500/30' : 'bg-rose-500/20 text-rose-300 border-rose-500/30'}`}>
+                <Badge variant={isConnected ? "outline" : "solid"} className={`ml-3 text-xs ${isConnected ? 'bg-emerald-500/20 text-emerald-300 border-emerald-500/30' : 'bg-rose-500/20 text-rose-300 border-rose-500/30'}`}>
                     {visitorData.count}
                 </Badge>
             )}

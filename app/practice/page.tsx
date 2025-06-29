@@ -38,7 +38,7 @@ const EXAMS_DATA_PATH: string = path.join(process.cwd(), 'data', 'data.json');
 
 // --- Hàm đọc và LỌC dữ liệu từ file JSON ---
 async function getFilteredExamData(): Promise<Exam[]> {
-  const EXCLUDED_IDS_PREFIX = [ "35-", "36-"]; // Các ID cần loại bỏ (bắt đầu bằng)
+  const EXCLUDED_IDS_PREFIX = [ "35-", "36-","37-"]; // Các ID cần loại bỏ (bắt đầu bằng)
 
   try {
     // Đọc nội dung file JSON

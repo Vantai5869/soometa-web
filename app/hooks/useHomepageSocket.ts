@@ -1,6 +1,7 @@
 // hooks/useHomepageSocket.ts (Frontend - Đặt trong thư mục hooks của bạn)
 import { useEffect, useRef } from 'react';
-import { io, Socket } from 'socket.io-client';
+import { Socket } from 'socket.io-client';
+import { initializeSocket, disconnectSocket } from '../../lib/configSocket';
 
 // Lấy URL từ biến môi trường, nếu không có thì dùng giá trị mặc định
 const SOCKET_SERVER_URL = process.env.NEXT_PUBLIC_SOCKET_SERVER_URL; // Thay bằng URL server của bạn
@@ -20,22 +21,12 @@ export const useHomepageSocket = (loggedInUser: LoggedInUserData | null) => {
   const socketRef = useRef<Socket | null>(null);
 
   useEffect(() => {
-    if (!SOCKET_SERVER_URL) {
-        console.warn("Homepage Socket: URL máy chủ Socket chưa được định nghĩa.");
-        return;
-    }
-
-    // Khởi tạo kết nối Socket.IO
-    // Không gửi auth token ở đây trừ khi người dùng trang chủ cũng cần xác thực qua token với socket
-    socketRef.current = io(SOCKET_SERVER_URL, {
-      reconnectionAttempts: 3, // Số lần thử kết nối lại
-      transports: ['websocket', 'polling'] // Ưu tiên WebSocket
-    });
+    // Khởi tạo kết nối Socket.IO sử dụng configSocket
+    socketRef.current = initializeSocket();
 
     const socket = socketRef.current;
 
     socket.on('connect', () => {
-      
       // Gửi thông tin định danh lên server
       if (loggedInUser) {
         socket.emit('USER_CAME_ONLINE', {
@@ -64,7 +55,7 @@ export const useHomepageSocket = (loggedInUser: LoggedInUserData | null) => {
     return () => {
       if (socket) {
         console.log('Trang chủ: Đang ngắt kết nối socket...');
-        socket.disconnect();
+        disconnectSocket();
       }
     };
   }, [loggedInUser]); // Chạy lại effect nếu trạng thái đăng nhập của người dùng thay đổi
