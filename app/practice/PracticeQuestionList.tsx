@@ -6,10 +6,8 @@ import { DisplayGroup } from './types';
 
 interface PracticeQuestionListProps {
     groupsToDisplay: DisplayGroup[];
-    practiceAnswers: { [key: string]: number };
     handlePracticeAnswerSelect: (uniqueQuestionId: string, optionIndex: number) => void;
     selectedSkill: string;
-    // handleAudioPlay: (event: React.SyntheticEvent<HTMLAudioElement>) => void;
     selectedExamId: string;
     selectedLevel: string;
     selectedSkillForMessage: string;
@@ -17,10 +15,8 @@ interface PracticeQuestionListProps {
 
 const PracticeQuestionList: React.FC<PracticeQuestionListProps> = ({
     groupsToDisplay,
-    practiceAnswers,
     handlePracticeAnswerSelect,
     selectedSkill,
-    // handleAudioPlay,
     selectedExamId,
     selectedLevel,
     selectedSkillForMessage,
@@ -36,10 +32,8 @@ const PracticeQuestionList: React.FC<PracticeQuestionListProps> = ({
                         key={`${group.examId}-group-${groupIndex}`}
                         group={group}
                         groupIndex={groupIndex}
-                        practiceAnswers={practiceAnswers}
                         handlePracticeAnswerSelect={handlePracticeAnswerSelect}
                         selectedSkill={selectedSkill}
-                        // handleAudioPlay={handleAudioPlay}
                     />
                 ))
             ) : (

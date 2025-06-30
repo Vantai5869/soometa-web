@@ -7,7 +7,7 @@ import { useRouter } from 'next/navigation'; // Import nếu bạn cần redirec
 import { useAuthStore } from './../store/authStore'; // Điều chỉnh đường dẫn cho chính xác
 
 // Import cho Chart.js và react-chartjs-2
-import { Line } from 'react-chartjs-2';
+import { Line, Pie } from 'react-chartjs-2';
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -24,6 +24,10 @@ import {
   ChartData,        // Kiểu cho data của Chart
   ChartDataset      // Kiểu cho dataset
 } from 'chart.js';
+
+import { usePracticeStatistics, parseQuestionId } from '../practice/StatisticPieChart';
+import { hardcodedInstructions } from '../practice/PracticeByTypeClient';
+import InstructionStatsChart from '../components/InstructionStatsChart';
 
 // Đăng ký các thành phần cần thiết cho Chart.js
 ChartJS.register(
@@ -92,6 +96,26 @@ export default function MyProgressPage() {
   const router = useRouter();
   
   const [hasAttemptedInitialFetch, setHasAttemptedInitialFetch] = useState(false);
+
+  // Thêm state chọn level/skill nếu muốn cho phép người dùng chọn
+  const [selectedLevel, setSelectedLevel] = useState('TOPIK Ⅰ');
+  const [selectedSkill, setSelectedSkill] = useState('듣기');
+
+  // Thống kê dạng câu (dùng chung hook)
+  const { loading: loadingStats, instructionStats, filteredInstructions } = usePracticeStatistics(
+    currentUser?._id || '',
+    hardcodedInstructions,
+    selectedLevel,
+    selectedSkill
+  );
+
+  // Fetch all practiceHistory once for the user
+  const { practiceHistory } = usePracticeStatistics(
+    currentUser?._id || '',
+    hardcodedInstructions,
+    'TOPIK Ⅰ', // dummy, chỉ cần lấy practiceHistory
+    '듣기'
+  );
 
   const fetchProgressData = useCallback(async () => {
     // isClient đã được kiểm tra ở useEffect gọi hàm này
@@ -416,13 +440,39 @@ export default function MyProgressPage() {
                     <p className="text-gray-500 dark:text-slate-400 py-6 text-center">Chưa có bài làm nào được ghi lại.</p>
                 )}
             </section>
-            <div className="mt-12 text-center">
-                <Link href="/exams" className="px-6 py-3 bg-sky-600 text-white font-semibold rounded-lg hover:bg-sky-700 transition-colors shadow-md">
-                    Tiếp tục luyện thi
-                </Link>
-            </div>
         </>
       )}
+      {/* Thống kê dạng câu cho tất cả kỹ năng và cấp độ */}
+      <section className="my-12">
+        <h2 className="text-2xl md:text-3xl font-semibold text-gray-700 dark:text-slate-200 mb-10 text-center sm:text-left">Thống kê theo từng dạng (Tất cả kỹ năng & cấp độ)</h2>
+        <div className="grid grid-cols-1 gap-10">
+          {['TOPIK Ⅰ', 'TOPIK Ⅱ'].map(level =>
+            ['듣기', '읽기'].map(skill => {
+              const hasData = practiceHistory.some(h => {
+                const parsed = parseQuestionId(h.questionId);
+                return parsed && parsed.level === level && parsed.skill === skill;
+              });
+              if (!hasData) return null;
+              return (
+                <div key={level + '-' + skill} className="mb-8">
+                  <h3 className="text-lg font-bold mb-2 text-center">{level} - {skill}</h3>
+                  <InstructionStatsChart
+                    userId={currentUser?._id || ''}
+                    hardcodedInstructions={hardcodedInstructions}
+                    selectedLevel={level}
+                    selectedSkill={skill}
+                  />
+                </div>
+              );
+            })
+          )}
+        </div>
+      </section>
+      <div className="mt-12 text-center w-full">
+        <Link href="/exams" className="px-6 py-3 bg-sky-600 text-white font-semibold rounded-lg hover:bg-sky-700 transition-colors shadow-md">
+          Tiếp tục luyện thi
+        </Link>
+      </div>
     </div>
   );
 }

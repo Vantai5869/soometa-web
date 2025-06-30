@@ -89,78 +89,78 @@ export default function Navbar() {
   const [isUserMenuOpen, setIsUserMenuOpen] = useState(false);
   const userMenuRef = useRef<HTMLDivElement>(null);
 
-  // ... (các state hiện có: isClient, currentUser, token, setRefreshedUser, openLoginModal, logout, etc.)
+// ... (các state hiện có: isClient, currentUser, token, setRefreshedUser, openLoginModal, logout, etc.)
 
-  const [isEditingName, setIsEditingName] = useState(false);
-  const [editedName, setEditedName] = useState('');
-  const [nameUpdateError, setNameUpdateError] = useState<string | null>(null);
+const [isEditingName, setIsEditingName] = useState(false);
+const [editedName, setEditedName] = useState('');
+const [nameUpdateError, setNameUpdateError] = useState<string | null>(null);
 
-  // useEffect để khởi tạo editedName khi currentUser.name thay đổi (và không đang edit)
-  useEffect(() => {
-    if (currentUser && !isEditingName) {
-      setEditedName(currentUser.name || ''); // Lấy tên hiện tại hoặc chuỗi rỗng nếu chưa có
-    }
-  }, [currentUser, isEditingName]);
+// useEffect để khởi tạo editedName khi currentUser.name thay đổi (và không đang edit)
+useEffect(() => {
+  if (currentUser && !isEditingName) {
+    setEditedName(currentUser.name || ''); // Lấy tên hiện tại hoặc chuỗi rỗng nếu chưa có
+  }
+}, [currentUser, isEditingName]);
 
-  const handleEditNameClick = () => {
-    if (!currentUser) return;
-    setEditedName(currentUser.name || getDisplayEmail(currentUser)); // Sử dụng tên hiện tại hoặc display email làm giá trị ban đầu
-    setIsEditingName(true);
-    setNameUpdateError(null); // Xóa lỗi cũ (nếu có)
-  };
+const handleEditNameClick = () => {
+  if (!currentUser) return;
+  setEditedName(currentUser.name || getDisplayEmail(currentUser)); // Sử dụng tên hiện tại hoặc display email làm giá trị ban đầu
+  setIsEditingName(true);
+  setNameUpdateError(null); // Xóa lỗi cũ (nếu có)
+};
 
-  const handleCancelEditName = () => {
+const handleCancelEditName = () => {
+  setIsEditingName(false);
+  if (currentUser) {
+    setEditedName(currentUser.name || ''); // Reset về tên ban đầu
+  }
+  setNameUpdateError(null);
+};
+
+const handleSaveName = async () => {
+  if (!currentUser || !token) {
+    alert("Vui lòng đăng nhập lại để cập nhật tên.");
+    return;
+  }
+  if (editedName.trim() === (currentUser.name || '')) { // Không có gì thay đổi
     setIsEditingName(false);
-    if (currentUser) {
-      setEditedName(currentUser.name || ''); // Reset về tên ban đầu
+    return;
+  }
+
+  setNameUpdateError(null); // Xóa lỗi cũ
+  // Giả sử bạn có một biến môi trường cho API base URL
+  const NEXT_API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || '';
+
+  try {
+    const response = await fetch(`${NEXT_API_BASE_URL}/users/${currentUser._id}`, { // Hoặc API endpoint riêng cho cập nhật tên
+      method: 'PUT',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${token}`,
+      },
+      body: JSON.stringify({ name: editedName.trim() }), // Chỉ gửi trường name
+    });
+
+    const result = await response.json();
+
+    if (!response.ok) {
+      throw new Error(result.message || 'Lỗi khi cập nhật tên.');
     }
-    setNameUpdateError(null);
-  };
 
-  const handleSaveName = async () => {
-    if (!currentUser || !token) {
-      alert("Vui lòng đăng nhập lại để cập nhật tên.");
-      return;
+    // Cập nhật thành công, làm mới currentUser trong store
+    if (result.user) {
+      setRefreshedUser(result.user as UserData, token); // Giả sử API trả về user object đã cập nhật
     }
-    if (editedName.trim() === (currentUser.name || '')) { // Không có gì thay đổi
-      setIsEditingName(false);
-      return;
-    }
+    setIsEditingName(false);
+    // alert('Đã cập nhật tên thành công!'); // Bạn có thể dùng một thông báo tinh tế hơn
 
-    setNameUpdateError(null); // Xóa lỗi cũ
-    // Giả sử bạn có một biến môi trường cho API base URL
-    const NEXT_API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || '';
+  } catch (error: any) {
+    console.error("Lỗi cập nhật tên:", error);
+    setNameUpdateError(error.message || "Không thể cập nhật tên. Vui lòng thử lại.");
+  }
+};
 
-    try {
-      const response = await fetch(`${NEXT_API_BASE_URL}/users/${currentUser._id}`, { // Hoặc API endpoint riêng cho cập nhật tên
-        method: 'PUT',
-        headers: {
-          'Content-Type': 'application/json',
-          'Authorization': `Bearer ${token}`,
-        },
-        body: JSON.stringify({ name: editedName.trim() }), // Chỉ gửi trường name
-      });
-
-      const result = await response.json();
-
-      if (!response.ok) {
-        throw new Error(result.message || 'Lỗi khi cập nhật tên.');
-      }
-
-      // Cập nhật thành công, làm mới currentUser trong store
-      if (result.user) {
-        setRefreshedUser(result.user as UserData, token); // Giả sử API trả về user object đã cập nhật
-      }
-      setIsEditingName(false);
-      // alert('Đã cập nhật tên thành công!'); // Bạn có thể dùng một thông báo tinh tế hơn
-
-    } catch (error: any) {
-      console.error("Lỗi cập nhật tên:", error);
-      setNameUpdateError(error.message || "Không thể cập nhật tên. Vui lòng thử lại.");
-    }
-  };
-
-  // ... (các hàm và useEffect khác của bạn giữ nguyên) ...
+// ... (các hàm và useEffect khác của bạn giữ nguyên) ...
   // Giữ nguyên các hàm helper và useEffects bạn đã có
   // Chỉ thêm useCallback và dependencies nếu chúng thực sự cần thiết và chưa có
   const isActive = useCallback((href: string): boolean => {

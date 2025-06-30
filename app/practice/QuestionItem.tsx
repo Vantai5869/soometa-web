@@ -9,10 +9,8 @@ import { renderContent } from './utils'; // Adjust import path
 interface QuestionItemProps {
     question: Question;
     uniqueQuestionId: string;
-    currentSelectionIndex: number | undefined;
     handlePracticeAnswerSelect: (uniqueQuestionId: string, optionIndex: number) => void;
     selectedSkill: string;
-    // handleAudioPlay: (event: React.SyntheticEvent<HTMLAudioElement>) => void;
 }
 
 const optionMarkers = ['①', '②', '③', '④'];
@@ -20,35 +18,38 @@ const optionMarkers = ['①', '②', '③', '④'];
 const QuestionItem: React.FC<QuestionItemProps> = ({
     question,
     uniqueQuestionId,
-    currentSelectionIndex,
     handlePracticeAnswerSelect,
     selectedSkill,
-    // handleAudioPlay,
 }) => {
     const isImageOptions = question.option_type === 'image';
     const showQuestionAudio = selectedSkill === '듣기' && question.question_audio_url;
 
+    const [selectedIndex, setSelectedIndex] = useState<number | undefined>(undefined);
     const [isChecked, setIsChecked] = useState(false);
 
     useEffect(() => {
         setIsChecked(false);
-    }, [currentSelectionIndex, question, uniqueQuestionId]);
+        setSelectedIndex(undefined);
+    }, [question, uniqueQuestionId]);
+
+    const handleSelect = (index: number) => {
+        setSelectedIndex(index);
+    };
 
     const handleCheckQuestion = useCallback(() => {
-        if (currentSelectionIndex !== undefined) {
-             setIsChecked(true);
+        if (selectedIndex !== undefined) {
+            setIsChecked(true);
+            handlePracticeAnswerSelect(uniqueQuestionId, selectedIndex);
         } else {
-             console.warn(`Check button clicked for ${uniqueQuestionId} but no option selected.`);
+            console.warn(`Check button clicked for ${uniqueQuestionId} but no option selected.`);
         }
-    }, [currentSelectionIndex, question.options, uniqueQuestionId]);
-
+    }, [selectedIndex, handlePracticeAnswerSelect, uniqueQuestionId]);
 
     if (!question.options || question.options.length === 0 || !question.content?.type) {
          return null;
     }
 
-    const showCheckButton = currentSelectionIndex !== undefined && !isChecked;
-
+    const showCheckButton = !isChecked && selectedIndex !== undefined;
 
     return (
         // Sử dụng cấu trúc và styling bạn cung cấp
@@ -78,39 +79,40 @@ const QuestionItem: React.FC<QuestionItemProps> = ({
                 >
                     {question.options.map((opt, index) => {
                         if (!opt) return null;
-                        const isSelected = currentSelectionIndex === index;
                         const inputId = `q-${uniqueQuestionId}-o-${index}`;
 
-                        // Sử dụng logic styling item, text, marker bạn cung cấp (không nền cho li)
-                         let itemStyling = '';
-                         let textStyling = '';
-                         let markerStyling = '';
+                        let itemStyling = '';
+                        let textStyling = '';
+                        let markerStyling = '';
 
-                         if (isChecked) {
-                             if (opt.is_correct) {
-                                 itemStyling = '';
-                                 textStyling = 'text-green-800 font-semibold';
-                                 markerStyling = 'text-green-700 font-bold';
-                             } else if (isSelected && !opt.is_correct) {
-                                 itemStyling = 'line-through';
-                                 textStyling = 'text-red-800 font-semibold';
-                                 markerStyling = 'text-red-700 font-bold';
-                             } else {
-                                 itemStyling = 'opacity-70';
-                                 textStyling = 'text-gray-600';
-                                 markerStyling = 'text-gray-500';
-                             }
-                         } else {
-                             if (isSelected) {
-                                 itemStyling = '';
-                                 textStyling = 'text-blue-800 font-semibold';
-                                 markerStyling = 'text-blue-700 font-bold';
-                             } else {
-                                 itemStyling = '';
-                                 textStyling = 'text-gray-700 group-hover:text-gray-900';
-                                 markerStyling = 'text-gray-600 group-hover:text-blue-600';
-                             }
-                         }
+                        if (isChecked) {
+                            if (opt.is_correct) {
+                                // Đáp án đúng: highlight xanh
+                                itemStyling = '';
+                                textStyling = 'text-green-800 font-semibold';
+                                markerStyling = 'text-green-700 font-bold';
+                            } else if (selectedIndex === index) {
+                                // Đáp án sai mà user chọn: gạch đỏ
+                                itemStyling = 'line-through';
+                                textStyling = 'text-red-800 font-semibold';
+                                markerStyling = 'text-red-700 font-bold';
+                            } else {
+                                // Các đáp án sai khác: không gạch, mờ đi
+                                itemStyling = 'opacity-70';
+                                textStyling = 'text-gray-600';
+                                markerStyling = 'text-gray-500';
+                            }
+                        } else {
+                            if (selectedIndex === index) {
+                                itemStyling = '';
+                                textStyling = 'text-blue-800 font-semibold';
+                                markerStyling = 'text-blue-700 font-bold';
+                            } else {
+                                itemStyling = '';
+                                textStyling = 'text-gray-700 group-hover:text-gray-900';
+                                markerStyling = 'text-gray-600 group-hover:text-blue-600';
+                            }
+                        }
 
                         // Sử dụng liClassName bạn cung cấp
                         const liClassName = `optionItem rounded-lg transition duration-150 ease-in-out relative flex items-baseline text-left p-0 border-none ${itemStyling} ${isImageOptions ? 'flex-col items-center justify-center text-center' : ''} ${isChecked ? 'pointer-events-none cursor-default' : 'cursor-pointer'} mb-3 last:mb-0 last:border-none ml-6 mr-6`;
@@ -120,19 +122,19 @@ const QuestionItem: React.FC<QuestionItemProps> = ({
                             <li
                                 key={opt.id || `opt-${question.id}-${index}`}
                                 className={liClassName}
-                                onClick={isChecked ? undefined : () => handlePracticeAnswerSelect(uniqueQuestionId, index)}
+                                onClick={isChecked ? undefined : () => handleSelect(index)}
                                 role="radio"
-                                aria-checked={isSelected}
+                                aria-checked={selectedIndex === index}
                                 aria-labelledby={`label-${inputId}`}
-                                tabIndex={isChecked ? -1 : 0}
+                                tabIndex={showCheckButton ? 0 : -1}
                             >
                                 <input
                                     type="radio"
                                     name={`q-${uniqueQuestionId}`}
                                     id={inputId}
                                     value={index}
-                                    checked={isSelected}
-                                    onChange={() => handlePracticeAnswerSelect(uniqueQuestionId, index)}
+                                    checked={selectedIndex === index}
+                                    onChange={() => handleSelect(index)}
                                     className="absolute opacity-0 pointer-events-none peer"
                                      disabled={isChecked}
                                 />
@@ -154,10 +156,15 @@ const QuestionItem: React.FC<QuestionItemProps> = ({
                                                 src={opt.image_src}
                                                 alt={opt.alt || `Lựa chọn ${index + 1}`}
                                                 className={`optionImage max-w-[210px] max-h-[210px] rounded-md mx-auto block object-contain bg-white ${
-                                                    isSelected && !isChecked ? 'border-2 border-blue-500' : // Selected (before check)
-                                                    isChecked && opt.is_correct ? 'border-2 border-green-500' : // Correct (after check)
-                                                    isChecked && isSelected && !opt.is_correct ? 'border-2 border-red-500' : // Incorrect Selected (after check)
-                                                    'border border-gray-300' // Default subtle border
+                                                    isChecked
+                                                        ? (opt.is_correct
+                                                            ? 'border-2 border-green-500'
+                                                            : selectedIndex === index
+                                                                ? 'border-2 border-red-500'
+                                                                : 'border border-gray-300')
+                                                        : selectedIndex === index
+                                                            ? 'border-2 border-blue-500'
+                                                            : 'border border-gray-300'
                                                 }`}
                                                 loading="lazy"
                                                 onError={(e) => { e.currentTarget.outerHTML = `<span class="text-red-600 italic">[Ảnh lỗi]</span>`; }}

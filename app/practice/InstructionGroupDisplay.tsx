@@ -10,19 +10,15 @@ import { renderContent } from './utils'; // Adjust import path - renderContent s
 interface InstructionGroupDisplayProps {
     group: DisplayGroup;
     groupIndex: number;
-    practiceAnswers: { [key: string]: number };
     handlePracticeAnswerSelect: (uniqueQuestionId: string, optionIndex: number) => void;
     selectedSkill: string;
-    // handleAudioPlay: (event: React.SyntheticEvent<HTMLAudioElement>) => void;
 }
 
 const InstructionGroupDisplay: React.FC<InstructionGroupDisplayProps> = ({
     group,
     groupIndex,
-    practiceAnswers,
     handlePracticeAnswerSelect,
     selectedSkill,
-    // handleAudioPlay,
 }) => {
     const questionsInGroupToDisplay = group.questions as Question[];
     const showGroupAudio = selectedSkill === '듣기' && group.group_audio_url;
@@ -64,17 +60,14 @@ const InstructionGroupDisplay: React.FC<InstructionGroupDisplayProps> = ({
             )}
             {questionsInGroupToDisplay.map((question) => {
                 const uniqueQuestionId = `${group.examId}-${question.id}`;
-                const currentSelectionIndex = practiceAnswers[uniqueQuestionId];
 
                 return (
                     <QuestionItem
                         key={uniqueQuestionId} // Key duy nhất cho mỗi QuestionItem
                         question={question}
                         uniqueQuestionId={uniqueQuestionId}
-                        currentSelectionIndex={currentSelectionIndex}
                         handlePracticeAnswerSelect={handlePracticeAnswerSelect}
                         selectedSkill={selectedSkill}
-                        // handleAudioPlay={handleAudioPlay} // Truyền xuống nếu cần quản lý dừng audio toàn cục
                     />
                 );
             })}
