@@ -6,9 +6,9 @@ const STATS_PATH = path.join(process.cwd(), 'data', 'download-stats.json');
 
 export async function POST(
   request: NextRequest,
-  { params }: { params: { examFileId: string } }
+  { params }: { params: Promise<{ examFileId: string }> }
 ) {
-  const { examFileId } = params;
+  const { examFileId } = await params;
   if (!examFileId) {
     return NextResponse.json({ error: 'examFileId is required' }, { status: 400 });
   }
