@@ -80,10 +80,10 @@ let comments: Array<{
 // POST /api/comments/[commentId]/like
 export async function POST(
   request: NextRequest,
-  { params }: { params: { commentId: string } }
+  { params }: { params: Promise<{ commentId: string }> }
 ) {
   try {
-    const { commentId } = params;
+    const { commentId } = await params;
     const body = await request.json();
     const { userId } = body;
 

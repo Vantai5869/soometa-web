@@ -77,10 +77,10 @@ let comments: Array<{
 // GET /api/comments/[commentId]/replies
 export async function GET(
   request: NextRequest,
-  { params }: { params: { commentId: string } }
+  { params }: { params: Promise<{ commentId: string }> }
 ) {
   try {
-    const { commentId } = params;
+    const { commentId } = await params;
     const { searchParams } = new URL(request.url);
     const userId = searchParams.get('userId'); // Để check like status
 

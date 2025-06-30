@@ -77,10 +77,10 @@ let comments: Array<{
 // DELETE /api/comments/[commentId]
 export async function DELETE(
   request: NextRequest,
-  { params }: { params: { commentId: string } }
+  { params }: { params: Promise<{ commentId: string }> }
 ) {
   try {
-    const { commentId } = params;
+    const { commentId } = await params;
 
     if (!commentId) {
       return NextResponse.json(
