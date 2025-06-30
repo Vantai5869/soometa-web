@@ -43,13 +43,16 @@ export default function SessionDetailClient({ session }: SessionDetailClientProp
     setIsModalOpen(true);
   };
 
-  const handleDownload = (exam: { name: string; driveLink: string }) => {
+  const handleDownload = async (exam: { id: string; name: string; driveLink: string }) => {
+    // Gọi API tăng lượt download
+    try {
+      await fetch(`/api/downloads/${exam.id}`, { method: 'POST' });
+    } catch {}
     // Tạo download link từ drive link
     const match = exam.driveLink.match(/\/file\/d\/([a-zA-Z0-9_-]+)/);
     if (match) {
       const fileId = match[1];
       const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
-      
       const link = document.createElement('a');
       link.href = downloadUrl;
       link.download = `${exam.name}.pdf`;

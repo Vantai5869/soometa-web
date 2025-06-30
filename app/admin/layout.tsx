@@ -14,6 +14,7 @@ const sidebarItems = [
   { name: 'Users', href: '/admin/users' },
   { name: 'Transcriptions', href: '/admin/transcriptions' },
   { name: 'Exam stats', href: '/admin/exam-stats' },
+  { name: 'Download Stats', href: '/admin/download-stats' },
   { name: 'Feedback', href: '/admin/feedback' },
   { name: 'Analytics', href: '/admin/analytics' },
 ];
