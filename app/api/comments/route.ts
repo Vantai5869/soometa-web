@@ -15,21 +15,24 @@ export async function GET(request: NextRequest) {
       );
     }
 
-    // TODO: Thay thế bằng database query thật
-    // Hiện tại trả về empty array để test với data thật từ frontend
-    const comments: any[] = [];
+    // TODO: Implement with real database
+    // 1. Query comments by examId
+    // 2. Add isLiked property based on userId if provided
+    // 3. Sort comments based on sort parameter
+    // 4. Implement pagination if needed
 
     return NextResponse.json({
       success: true,
       data: {
-        comments: comments,
+        comments: [],
         pagination: {
           page: 1,
-          limit: comments.length,
-          total: comments.length,
+          limit: 0,
+          total: 0,
           totalPages: 1
         }
-      }
+      },
+      message: 'Comments functionality will be implemented with real database'
     });
 
   } catch (error) {
@@ -61,22 +64,14 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // TODO: Thay thế bằng database insert thật
-    const newComment = {
-      _id: Date.now().toString(),
-      examId,
-      userId,
-      userName,
-      content: content.trim(),
-      createdAt: new Date().toISOString(),
-      likes: 0,
-      likedBy: [],
-      parentId: parentId || null
-    };
+    // TODO: Implement with real database
+    // 1. Insert new comment into database
+    // 2. Update replyCount of parent comment if this is a reply
+    // 3. Return the newly created comment
 
     return NextResponse.json({
       success: true,
-      data: newComment
+      message: 'Comment creation will be implemented with real database'
     }, { status: 201 });
 
   } catch (error) {

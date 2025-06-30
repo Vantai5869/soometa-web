@@ -70,46 +70,11 @@ const CommentSection: React.FC<CommentSectionProps> = ({ examId }) => {
           setComments([]);
         }
       } else {
-        // Fallback to mock data if API is not available
-        const mockComments: Comment[] = [
-          {
-            _id: '1',
-            examId,
-            userId: 'user1',
-            userName: 'Nguyễn Văn A',
-            content: 'Đề thi này khá hay, phần nghe có audio rõ ràng. Cảm ơn TopikGo!',
-            createdAt: '2024-01-15T10:30:00Z',
-            likes: 5,
-            isLiked: false,
-            replyCount: 2
-          },
-          {
-            _id: '2',
-            examId,
-            userId: 'user2',
-            userName: 'Trần Thị B',
-            content: 'Mình vừa làm xong đề này, độ khó vừa phải. Phù hợp để ôn luyện.',
-            createdAt: '2024-01-14T15:45:00Z',
-            likes: 3,
-            isLiked: true,
-            replyCount: 1
-          },
-          {
-            _id: '3',
-            examId,
-            userId: 'user3',
-            userName: 'Lê Văn C',
-            content: 'Có ai biết cách làm câu 15 không? Mình thấy khó quá.',
-            createdAt: '2024-01-13T09:20:00Z',
-            likes: 2,
-            isLiked: false,
-            replyCount: 0
-          }
-        ];
-        setComments(mockComments);
+        // API không thành công, trả về empty array
+        setComments([]);
       }
     } catch (error) {
-      // Fallback to empty array when there's an error
+      // Có lỗi, trả về empty array
       setComments([]);
     } finally {
       setIsLoading(false);
