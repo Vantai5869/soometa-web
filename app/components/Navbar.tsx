@@ -270,8 +270,8 @@ const handleSaveName = async () => {
             {/* Giữ nguyên các link navList bạn đã cung cấp */}
             <li><Link href="/exams" className={isActive('/exams') ? styles.activeLink : styles.navLinkItem}>Thi Thử</Link></li>
             <li><Link href="/practice" className={isActive('/practice') ? styles.activeLink : styles.navLinkItem}>Luyện Tập</Link></li>
-            <li><Link href="/topik-30-days" className={isActive('/topik-30-days') ? styles.activeLink : styles.navLinkItem}>Topik 30 days</Link></li>
             <li><Link href="/download" className={isActive('/download') ? styles.activeLink : styles.navLinkItem}>Tải Đề</Link></li>
+            <li><Link href="/topik-30-days" className={isActive('/topik-30-days') ? styles.activeLink : styles.navLinkItem}>Topik 30 days</Link></li>
             <li><Link href="/guide" className={isActive('/guide') ? styles.activeLink : styles.navLinkItem}>Hướng Dẫn</Link></li>
             
             {/* {currentUser && (
@@ -436,8 +436,8 @@ const handleSaveName = async () => {
             <li><Link href="/" onClick={closeMobileMenu} className={isActive('/') ? styles.mobileActiveLink : styles.mobileNavLinkItem}>Trang Chủ</Link></li>
             <li><Link href="/exams" onClick={closeMobileMenu} className={isActive('/exams') ? styles.mobileActiveLink : styles.mobileNavLinkItem}>Luyện Đề</Link></li>
             <li><Link href="/practice" onClick={closeMobileMenu} className={isActive('/practice') ? styles.mobileActiveLink : styles.mobileNavLinkItem}>Luyện Dạng</Link></li>
-            <li><Link href="/topik-30-days" onClick={closeMobileMenu} className={isActive('/topik-30-days') ? styles.mobileActiveLink : styles.mobileNavLinkItem}>Topik 30 days</Link></li>
             <li><Link href="/download" onClick={closeMobileMenu} className={isActive('/download') ? styles.mobileActiveLink : styles.mobileNavLinkItem}>Tải Đề</Link></li>
+            <li><Link href="/topik-30-days" onClick={closeMobileMenu} className={isActive('/topik-30-days') ? styles.mobileActiveLink : styles.mobileNavLinkItem}>Topik 30 days</Link></li>
             <li><Link href="/guide" onClick={closeMobileMenu} className={isActive('/guide') ? styles.mobileActiveLink : styles.mobileNavLinkItem}>Hướng Dẫn</Link></li>
             {/* {currentUser && (
                  <li><Link href="/my-progress" onClick={closeMobileMenu} className={isActive('/my-progress') ? styles.mobileActiveLink : styles.mobileAuthButton}>Tiến Độ Học Tập</Link></li>
