@@ -234,7 +234,7 @@ export default function HistoryPage() {
                 khác của đề thi trong examMeta.
               */}
               <Link 
-                href={`/exams/${session.examId}?reviewSessionId=${session._id}`} 
+                href={`/exams/${session.examId}/take?reviewSessionId=${session._id}`} 
                 className={styles.detailsButton}
               >
                 Xem Chi Tiết

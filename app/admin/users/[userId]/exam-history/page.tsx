@@ -136,7 +136,7 @@ export default function UserExamHistoryPage() {
               </div>
                {/* Nút xem chi tiết bài làm nếu có */}
                 <div className="mt-3 text-right">
-                    <Link href={`/exams/${session.examId.toString()}?reviewSessionId=${session._id}`} 
+                    <Link href={`/exams/${session.examId.toString()}/take?reviewSessionId=${session._id}`} 
                           className="text-xs text-white bg-sky-500 hover:bg-sky-600 px-3 py-1.5 rounded-md transition-colors">
                         Xem lại bài làm
                     </Link>
