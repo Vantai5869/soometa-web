@@ -62,7 +62,12 @@ const CheckIcon = React.memo(() => (
   </svg>
 ));
 CheckIcon.displayName = 'CheckIcon';
-// --- Hết SVG Icons ---
+
+// Icon cho Download
+const DownloadIcon = React.memo(() => <svg className="w-4 h-4 mr-2.5 text-slate-500 dark:text-slate-400 group-hover:text-current" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>);
+DownloadIcon.displayName = 'DownloadIcon';
+
+// ... các hàm và useEffects khác của bạn giữ nguyên ...
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -84,81 +89,78 @@ export default function Navbar() {
   const [isUserMenuOpen, setIsUserMenuOpen] = useState(false);
   const userMenuRef = useRef<HTMLDivElement>(null);
 
+  // ... (các state hiện có: isClient, currentUser, token, setRefreshedUser, openLoginModal, logout, etc.)
 
-  // Bên trong component Navbar() của bạn:
+  const [isEditingName, setIsEditingName] = useState(false);
+  const [editedName, setEditedName] = useState('');
+  const [nameUpdateError, setNameUpdateError] = useState<string | null>(null);
 
-// ... (các state hiện có: isClient, currentUser, token, setRefreshedUser, openLoginModal, logout, etc.)
+  // useEffect để khởi tạo editedName khi currentUser.name thay đổi (và không đang edit)
+  useEffect(() => {
+    if (currentUser && !isEditingName) {
+      setEditedName(currentUser.name || ''); // Lấy tên hiện tại hoặc chuỗi rỗng nếu chưa có
+    }
+  }, [currentUser, isEditingName]);
 
-const [isEditingName, setIsEditingName] = useState(false);
-const [editedName, setEditedName] = useState('');
-const [nameUpdateError, setNameUpdateError] = useState<string | null>(null);
+  const handleEditNameClick = () => {
+    if (!currentUser) return;
+    setEditedName(currentUser.name || getDisplayEmail(currentUser)); // Sử dụng tên hiện tại hoặc display email làm giá trị ban đầu
+    setIsEditingName(true);
+    setNameUpdateError(null); // Xóa lỗi cũ (nếu có)
+  };
 
-// useEffect để khởi tạo editedName khi currentUser.name thay đổi (và không đang edit)
-useEffect(() => {
-  if (currentUser && !isEditingName) {
-    setEditedName(currentUser.name || ''); // Lấy tên hiện tại hoặc chuỗi rỗng nếu chưa có
-  }
-}, [currentUser, isEditingName]);
-
-const handleEditNameClick = () => {
-  if (!currentUser) return;
-  setEditedName(currentUser.name || getDisplayEmail(currentUser)); // Sử dụng tên hiện tại hoặc display email làm giá trị ban đầu
-  setIsEditingName(true);
-  setNameUpdateError(null); // Xóa lỗi cũ (nếu có)
-};
-
-const handleCancelEditName = () => {
-  setIsEditingName(false);
-  if (currentUser) {
-    setEditedName(currentUser.name || ''); // Reset về tên ban đầu
-  }
-  setNameUpdateError(null);
-};
-
-const handleSaveName = async () => {
-  if (!currentUser || !token) {
-    alert("Vui lòng đăng nhập lại để cập nhật tên.");
-    return;
-  }
-  if (editedName.trim() === (currentUser.name || '')) { // Không có gì thay đổi
+  const handleCancelEditName = () => {
     setIsEditingName(false);
-    return;
-  }
+    if (currentUser) {
+      setEditedName(currentUser.name || ''); // Reset về tên ban đầu
+    }
+    setNameUpdateError(null);
+  };
 
-  setNameUpdateError(null); // Xóa lỗi cũ
-  // Giả sử bạn có một biến môi trường cho API base URL
-  const NEXT_API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || '';
-
-  try {
-    const response = await fetch(`${NEXT_API_BASE_URL}/users/${currentUser._id}`, { // Hoặc API endpoint riêng cho cập nhật tên
-      method: 'PUT',
-      headers: {
-        'Content-Type': 'application/json',
-        'Authorization': `Bearer ${token}`,
-      },
-      body: JSON.stringify({ name: editedName.trim() }), // Chỉ gửi trường name
-    });
-
-    const result = await response.json();
-
-    if (!response.ok) {
-      throw new Error(result.message || 'Lỗi khi cập nhật tên.');
+  const handleSaveName = async () => {
+    if (!currentUser || !token) {
+      alert("Vui lòng đăng nhập lại để cập nhật tên.");
+      return;
+    }
+    if (editedName.trim() === (currentUser.name || '')) { // Không có gì thay đổi
+      setIsEditingName(false);
+      return;
     }
 
-    // Cập nhật thành công, làm mới currentUser trong store
-    if (result.user) {
-      setRefreshedUser(result.user as UserData, token); // Giả sử API trả về user object đã cập nhật
+    setNameUpdateError(null); // Xóa lỗi cũ
+    // Giả sử bạn có một biến môi trường cho API base URL
+    const NEXT_API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || '';
+
+    try {
+      const response = await fetch(`${NEXT_API_BASE_URL}/users/${currentUser._id}`, { // Hoặc API endpoint riêng cho cập nhật tên
+        method: 'PUT',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${token}`,
+        },
+        body: JSON.stringify({ name: editedName.trim() }), // Chỉ gửi trường name
+      });
+
+      const result = await response.json();
+
+      if (!response.ok) {
+        throw new Error(result.message || 'Lỗi khi cập nhật tên.');
+      }
+
+      // Cập nhật thành công, làm mới currentUser trong store
+      if (result.user) {
+        setRefreshedUser(result.user as UserData, token); // Giả sử API trả về user object đã cập nhật
+      }
+      setIsEditingName(false);
+      // alert('Đã cập nhật tên thành công!'); // Bạn có thể dùng một thông báo tinh tế hơn
+
+    } catch (error: any) {
+      console.error("Lỗi cập nhật tên:", error);
+      setNameUpdateError(error.message || "Không thể cập nhật tên. Vui lòng thử lại.");
     }
-    setIsEditingName(false);
-    // alert('Đã cập nhật tên thành công!'); // Bạn có thể dùng một thông báo tinh tế hơn
+  };
 
-  } catch (error: any) {
-    console.error("Lỗi cập nhật tên:", error);
-    setNameUpdateError(error.message || "Không thể cập nhật tên. Vui lòng thử lại.");
-  }
-};
-
-// ... (các hàm và useEffect khác của bạn giữ nguyên) ...
+  // ... (các hàm và useEffect khác của bạn giữ nguyên) ...
   // Giữ nguyên các hàm helper và useEffects bạn đã có
   // Chỉ thêm useCallback và dependencies nếu chúng thực sự cần thiết và chưa có
   const isActive = useCallback((href: string): boolean => {
@@ -237,7 +239,6 @@ const handleSaveName = async () => {
     };
   }, [isUserMenuOpen, isClient]);
 
-
   // Placeholder khi đang load auth state (giữ nguyên)
   if (!isClient || isLoadingAuth) {
     return (
@@ -270,6 +271,7 @@ const handleSaveName = async () => {
             <li><Link href="/exams" className={isActive('/exams') ? styles.activeLink : styles.navLinkItem}>Thi Thử</Link></li>
             <li><Link href="/practice" className={isActive('/practice') ? styles.activeLink : styles.navLinkItem}>Luyện Tập</Link></li>
             <li><Link href="/topik-30-days" className={isActive('/topik-30-days') ? styles.activeLink : styles.navLinkItem}>Topik 30 days</Link></li>
+            <li><Link href="/download" className={isActive('/download') ? styles.activeLink : styles.navLinkItem}>Tải Đề</Link></li>
             <li><Link href="/guide" className={isActive('/guide') ? styles.activeLink : styles.navLinkItem}>Hướng Dẫn</Link></li>
             
             {/* {currentUser && (
@@ -405,6 +407,9 @@ const handleSaveName = async () => {
                         <Link href="/my-vocabulary" className="group flex items-center w-full px-4 py-2.5 text-sm text-gray-700 dark:text-slate-300 hover:bg-gray-100 dark:hover:bg-slate-700 hover:text-gray-900 dark:hover:text-slate-100" onClick={() => setIsUserMenuOpen(false)}>
                            <VocabularyIcon/> Từ vựng đã lưu
                         </Link>
+                        <Link href="/download" className="group flex items-center w-full px-4 py-2.5 text-sm text-gray-700 dark:text-slate-300 hover:bg-gray-100 dark:hover:bg-slate-700 hover:text-gray-900 dark:hover:text-slate-100" onClick={() => setIsUserMenuOpen(false)}>
+                           <DownloadIcon /> Tải Đề Thi
+                        </Link>
                         <Link href="/guide" className="group flex items-center w-full px-4 py-2.5 text-sm text-gray-700 dark:text-slate-300 hover:bg-gray-100 dark:hover:bg-slate-700 hover:text-gray-900 dark:hover:text-slate-100" onClick={() => setIsUserMenuOpen(false)}>
                            <GuideIcon /> Hướng dẫn sử dụng
                         </Link>
@@ -432,6 +437,7 @@ const handleSaveName = async () => {
             <li><Link href="/exams" onClick={closeMobileMenu} className={isActive('/exams') ? styles.mobileActiveLink : styles.mobileNavLinkItem}>Luyện Đề</Link></li>
             <li><Link href="/practice" onClick={closeMobileMenu} className={isActive('/practice') ? styles.mobileActiveLink : styles.mobileNavLinkItem}>Luyện Dạng</Link></li>
             <li><Link href="/topik-30-days" onClick={closeMobileMenu} className={isActive('/topik-30-days') ? styles.mobileActiveLink : styles.mobileNavLinkItem}>Topik 30 days</Link></li>
+            <li><Link href="/download" onClick={closeMobileMenu} className={isActive('/download') ? styles.mobileActiveLink : styles.mobileNavLinkItem}>Tải Đề</Link></li>
             <li><Link href="/guide" onClick={closeMobileMenu} className={isActive('/guide') ? styles.mobileActiveLink : styles.mobileNavLinkItem}>Hướng Dẫn</Link></li>
             {/* {currentUser && (
                  <li><Link href="/my-progress" onClick={closeMobileMenu} className={isActive('/my-progress') ? styles.mobileActiveLink : styles.mobileAuthButton}>Tiến Độ Học Tập</Link></li>
@@ -442,6 +448,7 @@ const handleSaveName = async () => {
                 <li><Link href="/my-progress" onClick={closeMobileMenu} className={isActive('/my-progress') ? styles.mobileActiveLink : styles.mobileAuthButton}>Tiến Độ Học Tập</Link></li>
                 <li><Link href="/history" onClick={closeMobileMenu} className={styles.mobileAuthButton}>Lịch Sử Thi</Link></li>
                 <li><Link href="/my-vocabulary" onClick={closeMobileMenu} className={styles.mobileAuthButton}>Từ Vựng</Link></li>
+                <li><Link href="/download" onClick={closeMobileMenu} className={styles.mobileAuthButton}>Tải Đề Thi</Link></li>
                 <li>
                   <button onClick={handleLogoutAndCloseMenu} className={styles.mobileAuthButton}>
                     Đăng xuất ({getDisplayEmail(currentUser)})
