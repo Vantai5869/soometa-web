@@ -7,31 +7,68 @@ const HISTORY_PATH = path.join(process.cwd(), 'data', 'practice-history.json');
 // POST: Lưu lịch sử làm bài (theo questionId, mỗi questionId có correctUsers, wrongUsers)
 export async function POST(request: NextRequest) {
   try {
+    console.log('Practice history POST request received');
+    
     const body = await request.json();
     const { userId, questionId, answer, isCorrect, timestamp } = body;
+    
+    console.log('Request data:', { userId, questionId, answer, isCorrect, timestamp });
+    
     if (!userId || !questionId || typeof answer === 'undefined' || typeof isCorrect === 'undefined') {
-      return NextResponse.json({ error: 'Missing required fields' }, { status: 400 });
+      console.error('Missing required fields:', { userId, questionId, answer, isCorrect });
+      return NextResponse.json({ 
+        error: 'Missing required fields',
+        details: { userId: !!userId, questionId: !!questionId, answer: typeof answer, isCorrect: typeof isCorrect }
+      }, { status: 400 });
     }
+    
+    console.log('Reading history file from:', HISTORY_PATH);
     let history: Record<string, any> = {};
     try {
       const file = await fs.readFile(HISTORY_PATH, 'utf-8');
       history = JSON.parse(file);
-    } catch { history = {}; }
+      console.log('Successfully loaded history, total questions:', Object.keys(history).length);
+    } catch (fileError: any) {
+      console.log('No existing history file or invalid JSON, creating new one:', fileError.message);
+      history = {};
+    }
+    
     if (!history[questionId]) {
       history[questionId] = { correctUsers: [], wrongUsers: [] };
+      console.log('Created new entry for questionId:', questionId);
     }
+    
     // Xoá userId khỏi cả 2 mảng trước khi thêm lại
+    const wasInCorrect = history[questionId].correctUsers.includes(userId);
+    const wasInWrong = history[questionId].wrongUsers.includes(userId);
+    
     history[questionId].correctUsers = history[questionId].correctUsers.filter((id: string) => id !== userId);
     history[questionId].wrongUsers = history[questionId].wrongUsers.filter((id: string) => id !== userId);
+    
     if (isCorrect) {
       history[questionId].correctUsers.push(userId);
+      console.log(`User ${userId} answered correctly for question ${questionId}`);
     } else {
       history[questionId].wrongUsers.push(userId);
+      console.log(`User ${userId} answered incorrectly for question ${questionId}`);
     }
+    
+    console.log('Writing updated history to file...');
     await fs.writeFile(HISTORY_PATH, JSON.stringify(history, null, 2), 'utf-8');
+    console.log('Practice history saved successfully');
+    
     return NextResponse.json({ success: true });
-  } catch (error) {
-    return NextResponse.json({ error: 'Internal server error' }, { status: 500 });
+  } catch (error: any) {
+    console.error('Practice history POST error:', error);
+    console.error('Error stack:', error.stack);
+    console.error('Error name:', error.name);
+    console.error('Error message:', error.message);
+    
+    return NextResponse.json({ 
+      error: 'Internal server error',
+      details: error.message,
+      type: error.name
+    }, { status: 500 });
   }
 }
 

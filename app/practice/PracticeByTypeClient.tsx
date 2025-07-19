@@ -130,19 +130,44 @@ const FILTER_LABELS: Record<string, string> = {
 };
 
 // Hàm gọi API lưu lịch sử
-async function savePracticeHistory({ userId, questionId, answer, isCorrect }: { userId: string, questionId: string, answer: number, isCorrect: boolean }) {
-  try {
-  const res = await fetch('/api/practice-history', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ userId, questionId, answer, isCorrect, timestamp: new Date().toISOString() })
-  });
-  const data = await res.json();
-  console.log('savePracticeHistory', data);
-  } catch (error) {
-    console.error('Error saving practice history:', error);
+  async function savePracticeHistory({ userId, questionId, answer, isCorrect }: { userId: string, questionId: string, answer: number, isCorrect: boolean }) {
+    try {
+      console.log('Saving practice history:', { userId, questionId, answer, isCorrect });
+      
+      const res = await fetch('/api/practice-history', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ userId, questionId, answer, isCorrect, timestamp: new Date().toISOString() })
+      });
+      
+      console.log('Response status:', res.status);
+      console.log('Response headers:', Object.fromEntries(res.headers.entries()));
+      
+      const data = await res.json();
+      console.log('savePracticeHistory response:', data);
+      
+      if (!res.ok) {
+        console.error('Practice history save failed:', {
+          status: res.status,
+          statusText: res.statusText,
+          error: data.error,
+          details: data.details,
+          type: data.type
+        });
+        throw new Error(`Failed to save practice history: ${data.error}${data.details ? ` - ${data.details}` : ''}`);
+      }
+      
+      return data;
+    } catch (error: any) {
+      console.error('Error saving practice history:', error);
+      console.error('Error details:', {
+        name: error.name,
+        message: error.message,
+        stack: error.stack
+      });
+      throw error;
+    }
   }
-}
 
 // Hàm lấy instruction cho 1 questionId dựa vào hardcodedInstructions
 function getInstructionForQuestion(questionId: string, skill: string, instructions: string[]): string | undefined {
