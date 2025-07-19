@@ -137,7 +137,7 @@ async function savePracticeHistory({ userId, questionId, answer, isCorrect }: { 
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ userId, questionId, answer, isCorrect, timestamp: new Date().toISOString() })
   });
-  console.log('savePracticeHistory', res);
+  console.log('savePracticeHistory', res.json());
   } catch (error) {
     console.error('Error saving practice history:', error);
   }
