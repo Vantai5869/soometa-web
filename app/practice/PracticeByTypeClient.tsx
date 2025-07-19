@@ -131,11 +131,16 @@ const FILTER_LABELS: Record<string, string> = {
 
 // Hàm gọi API lưu lịch sử
 async function savePracticeHistory({ userId, questionId, answer, isCorrect }: { userId: string, questionId: string, answer: number, isCorrect: boolean }) {
-  await fetch('/api/practice-history', {
+  try {
+  const res = await fetch('/api/practice-history', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ userId, questionId, answer, isCorrect, timestamp: new Date().toISOString() })
   });
+  console.log('savePracticeHistory', res);
+  } catch (error) {
+    console.error('Error saving practice history:', error);
+  }
 }
 
 // Hàm lấy instruction cho 1 questionId dựa vào hardcodedInstructions
@@ -161,6 +166,7 @@ function getInstructionForQuestion(questionId: string, skill: string, instructio
 
 // --- Component Chính ---
 const PracticeByTypeClient: React.FC<PracticeByTypeClientProps> = ({ allExams }) => {
+  console.log("debug 19/07")
     const LOCAL_STORAGE_KEY = 'practiceTypeConfig_v5_reactSelectUI';
 
     const initialConfig = useMemo(() => getInitialStateFromLocalStorage<PracticeConfig>(LOCAL_STORAGE_KEY, { level: 'TOPIK Ⅰ', skill: '듣기', examId: 'all', selectedInstructions: [] }), []);
@@ -330,6 +336,7 @@ const PracticeByTypeClient: React.FC<PracticeByTypeClientProps> = ({ allExams })
     }, [selectedInstructions, examsToProcess]);
 
     const handlePracticeAnswerSelect = useCallback((uniqueQuestionId: string, optionIndex: number) => {
+        console.log('handlePracticeAnswerSelect', uniqueQuestionId, optionIndex, currentUser);
         if (currentUser?._id) {
             let foundQuestion: Question | undefined;
             for (const group of groupsToDisplay) {
