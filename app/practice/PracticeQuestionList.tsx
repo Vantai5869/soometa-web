@@ -11,6 +11,7 @@ interface PracticeQuestionListProps {
     selectedExamId: string;
     selectedLevel: string;
     selectedSkillForMessage: string;
+    getAnsweredIndex: (uniqueQuestionId: string) => number | undefined;
 }
 
 const PracticeQuestionList: React.FC<PracticeQuestionListProps> = ({
@@ -20,6 +21,7 @@ const PracticeQuestionList: React.FC<PracticeQuestionListProps> = ({
     selectedExamId,
     selectedLevel,
     selectedSkillForMessage,
+    getAnsweredIndex,
 }) => {
     const totalQuestionsDisplayed = groupsToDisplay.reduce((count, group) => count + (group.questions?.length || 0), 0);
 
@@ -34,6 +36,7 @@ const PracticeQuestionList: React.FC<PracticeQuestionListProps> = ({
                         groupIndex={groupIndex}
                         handlePracticeAnswerSelect={handlePracticeAnswerSelect}
                         selectedSkill={selectedSkill}
+                        getAnsweredIndex={getAnsweredIndex}
                     />
                 ))
             ) : (

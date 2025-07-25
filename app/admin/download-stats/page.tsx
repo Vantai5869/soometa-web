@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { topikISessions, topikIISessions, ExamSession, ExamFile } from '@/data/download-data';
+import { api } from '@/lib/configAxios';
 
 interface DownloadStats {
   [examFileId: string]: number;
@@ -27,8 +28,7 @@ export default function DownloadStatsPage() {
     const fetchStats = async () => {
       setLoading(true);
       try {
-        const res = await fetch('/api/downloads/stats');
-        const data = await res.json();
+        const data = await api.get('/download-stats');
         if (data.success) setStats(data.data || {});
         else setStats({});
       } catch {

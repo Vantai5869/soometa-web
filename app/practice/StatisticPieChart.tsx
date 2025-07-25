@@ -6,6 +6,7 @@ import {
   Tooltip,
   Legend
 } from 'chart.js';
+import { api } from '@/lib/configAxios';
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 
@@ -14,6 +15,7 @@ interface StatisticPieChartProps {
   hardcodedInstructions: Record<string, Record<string, string[]>>;
   selectedLevel: string;
   selectedSkill: string;
+  refreshKey?: any;
 }
 
 // --- Reusable hook for statistics ---
@@ -28,22 +30,21 @@ export function parseQuestionId(questionId: string) {
   return { level, skill, number };
 }
 
-export function usePracticeStatistics(userId: string, hardcodedInstructions: Record<string, Record<string, string[]>>, selectedLevel: string, selectedSkill: string) {
+export function usePracticeStatistics(userId: string, hardcodedInstructions: Record<string, Record<string, string[]>>, selectedLevel: string, selectedSkill: string, refreshKey?: any) {
   const [practiceHistory, setPracticeHistory] = React.useState<any[]>([]);
   const [loading, setLoading] = React.useState(false);
 
   React.useEffect(() => {
     if (!userId) return;
     setLoading(true);
-    fetch(`/api/practice-history?userId=${userId}`)
-      .then(res => res.json())
+    api.get('/practice-history')
       .then(data => {
-        if (data.success) setPracticeHistory(data.data || []);
+        if (data.history) setPracticeHistory(data.history);
         else setPracticeHistory([]);
       })
       .catch(() => setPracticeHistory([]))
       .finally(() => setLoading(false));
-  }, [userId]);
+  }, [userId, refreshKey]);
 
   // Hàm lấy instruction cho 1 questionId dựa vào hardcodedInstructions
   function getInstructionForQuestion(questionId: string, instructions: string[]): string | undefined {
@@ -96,8 +97,8 @@ export function usePracticeStatistics(userId: string, hardcodedInstructions: Rec
   };
 }
 
-export const StatisticPieChart: React.FC<StatisticPieChartProps> = ({ userId, hardcodedInstructions, selectedLevel, selectedSkill }) => {
-  const { loading, instructionStats, filteredInstructions } = usePracticeStatistics(userId, hardcodedInstructions, selectedLevel, selectedSkill);
+export const StatisticPieChart: React.FC<StatisticPieChartProps> = ({ userId, hardcodedInstructions, selectedLevel, selectedSkill, refreshKey }) => {
+  const { loading, instructionStats, filteredInstructions } = usePracticeStatistics(userId, hardcodedInstructions, selectedLevel, selectedSkill, refreshKey);
 
   const pieData = React.useMemo(() => {
     const labels = filteredInstructions;

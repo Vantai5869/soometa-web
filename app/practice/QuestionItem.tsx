@@ -11,6 +11,7 @@ interface QuestionItemProps {
     uniqueQuestionId: string;
     handlePracticeAnswerSelect: (uniqueQuestionId: string, optionIndex: number) => void;
     selectedSkill: string;
+    answeredIndex?: number;
 }
 
 const optionMarkers = ['①', '②', '③', '④'];
@@ -20,17 +21,18 @@ const QuestionItem: React.FC<QuestionItemProps> = ({
     uniqueQuestionId,
     handlePracticeAnswerSelect,
     selectedSkill,
+    answeredIndex,
 }) => {
     const isImageOptions = question.option_type === 'image';
     const showQuestionAudio = selectedSkill === '듣기' && question.question_audio_url;
 
-    const [selectedIndex, setSelectedIndex] = useState<number | undefined>(undefined);
-    const [isChecked, setIsChecked] = useState(false);
+    const [selectedIndex, setSelectedIndex] = useState<number | undefined>(answeredIndex);
+    const [isChecked, setIsChecked] = useState(answeredIndex !== undefined);
 
     useEffect(() => {
-        setIsChecked(false);
-        setSelectedIndex(undefined);
-    }, [question, uniqueQuestionId]);
+        setIsChecked(answeredIndex !== undefined);
+        setSelectedIndex(answeredIndex);
+    }, [question, uniqueQuestionId, answeredIndex]);
 
     const handleSelect = (index: number) => {
         setSelectedIndex(index);

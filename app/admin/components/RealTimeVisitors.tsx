@@ -63,7 +63,6 @@ export default function RealTimeVisitors() {
     const socket = socketRef.current;
 
     socket.on('connect', () => {
-      console.log('Admin: Đã kết nối Socket.IO. ID:', socket.id);
       setIsConnected(true);
       setError(null);
       if (currentAdmin) {
@@ -76,7 +75,6 @@ export default function RealTimeVisitors() {
     });
 
     socket.on('disconnect', (reason: Socket.DisconnectReason) => {
-      console.log('Admin: Ngắt kết nối Socket.IO:', reason);
       setIsConnected(false);
       setError(reason === 'io server disconnect' ? 'Bị ngắt kết nối bởi máy chủ.' : 'Mất kết nối, đang thử lại...');
     });
@@ -93,7 +91,6 @@ export default function RealTimeVisitors() {
 
     return () => {
       if (socket) {
-        console.log('Admin: Đang ngắt kết nối socket...');
         disconnectSocket();
       }
     };

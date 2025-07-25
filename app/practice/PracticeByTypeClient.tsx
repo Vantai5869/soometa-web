@@ -26,6 +26,7 @@ import PracticeQuestionList from './PracticeQuestionList'; // Adjust import path
 import { useAuthStore } from '../store/authStore';
 import { usePracticeStatistics, parseQuestionId } from './StatisticPieChart';
 import InstructionStatsChart from '../components/InstructionStatsChart';
+import { api } from '@/lib/configAxios';
 
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend, ArcElement);
 
@@ -130,41 +131,17 @@ const FILTER_LABELS: Record<string, string> = {
 };
 
 // Hàm gọi API lưu lịch sử
-  async function savePracticeHistory({ userId, questionId, answer, isCorrect }: { userId: string, questionId: string, answer: number, isCorrect: boolean }) {
+  async function savePracticeHistory({ questionId, answer, isCorrect }: { questionId: string, answer: number, isCorrect: boolean }) {
     try {
-      console.log('Saving practice history:', { userId, questionId, answer, isCorrect });
-      
-      const res = await fetch('/api/practice-history', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ userId, questionId, answer, isCorrect, timestamp: new Date().toISOString() })
+      const res = await api.post('/practice-history', {
+        questionId,
+        answer,
+        isCorrect,
+        timestamp: new Date().toISOString()
       });
-      
-      console.log('Response status:', res.status);
-      console.log('Response headers:', Object.fromEntries(res.headers.entries()));
-      
-      const data = await res.json();
-      console.log('savePracticeHistory response:', data);
-      
-      if (!res.ok) {
-        console.error('Practice history save failed:', {
-          status: res.status,
-          statusText: res.statusText,
-          error: data.error,
-          details: data.details,
-          type: data.type
-        });
-        throw new Error(`Failed to save practice history: ${data.error}${data.details ? ` - ${data.details}` : ''}`);
-      }
-      
-      return data;
+      return res;
     } catch (error: any) {
       console.error('Error saving practice history:', error);
-      console.error('Error details:', {
-        name: error.name,
-        message: error.message,
-        stack: error.stack
-      });
       throw error;
     }
   }
@@ -190,9 +167,7 @@ function getInstructionForQuestion(questionId: string, skill: string, instructio
   return undefined;
 }
 
-// --- Component Chính ---
 const PracticeByTypeClient: React.FC<PracticeByTypeClientProps> = ({ allExams }) => {
-  console.log("debug 19/07")
     const LOCAL_STORAGE_KEY = 'practiceTypeConfig_v5_reactSelectUI';
 
     const initialConfig = useMemo(() => getInitialStateFromLocalStorage<PracticeConfig>(LOCAL_STORAGE_KEY, { level: 'TOPIK Ⅰ', skill: '듣기', examId: 'all', selectedInstructions: [] }), []);
@@ -209,6 +184,8 @@ const PracticeByTypeClient: React.FC<PracticeByTypeClientProps> = ({ allExams })
 
     const [hasHydrated, setHasHydrated] = useState(false);
     const [localAnsweredIds, setLocalAnsweredIds] = useState<Set<string>>(new Set());
+    const [pendingAnsweredIds, setPendingAnsweredIds] = useState<Set<string>>(new Set());
+    const [pendingPracticeHistory, setPendingPracticeHistory] = useState<any[]>([]);
 
     useEffect(() => {
         setHasHydrated(true);
@@ -257,11 +234,10 @@ const PracticeByTypeClient: React.FC<PracticeByTypeClientProps> = ({ allExams })
     useEffect(() => {
       if (hasHydrated && currentUser?._id) {
         setLoadingHistory(true);
-        fetch(`/api/practice-history?userId=${currentUser._id}`)
-          .then(res => res.json())
+        api.get('/practice-history')
           .then(data => {
-            if (data.success && Array.isArray(data.data)) {
-              setPracticeHistory(data.data);
+            if (data.history && Array.isArray(data.history)) {
+              setPracticeHistory(data.history);
             } else {
               setPracticeHistory([]);
             }
@@ -362,7 +338,6 @@ const PracticeByTypeClient: React.FC<PracticeByTypeClientProps> = ({ allExams })
     }, [selectedInstructions, examsToProcess]);
 
     const handlePracticeAnswerSelect = useCallback((uniqueQuestionId: string, optionIndex: number) => {
-        console.log('handlePracticeAnswerSelect', uniqueQuestionId, optionIndex, currentUser);
         if (currentUser?._id) {
             let foundQuestion: Question | undefined;
             for (const group of groupsToDisplay) {
@@ -375,41 +350,72 @@ const PracticeByTypeClient: React.FC<PracticeByTypeClientProps> = ({ allExams })
             }
             if (foundQuestion && Array.isArray(foundQuestion.options) && foundQuestion.options[optionIndex]) {
                 const isCorrect = !!foundQuestion.options[optionIndex].is_correct;
-                // Cập nhật practiceHistory local: xoá bản cũ nếu trùng questionId, thêm bản mới
-                setPracticeHistory(prev => {
-                    const filtered = prev.filter(h => h.questionId !== uniqueQuestionId);
-                    return [...filtered, { userId: currentUser._id, questionId: uniqueQuestionId, answer: optionIndex, isCorrect, timestamp: new Date().toISOString() }];
-                });
+                if (activeFilter === FILTER_UNDONE) {
+                    // Chỉ lưu tạm, chưa cập nhật vào practiceHistory/localAnsweredIds
+                    setPendingAnsweredIds(prev => new Set(prev).add(uniqueQuestionId));
+                    setPendingPracticeHistory(prev => {
+                        const filtered = prev.filter(h => h.questionId !== uniqueQuestionId);
+                        return [...filtered, { userId: currentUser._id, questionId: uniqueQuestionId, answer: optionIndex, isCorrect, timestamp: new Date().toISOString() }];
+                    });
+                } else {
+                    // Cập nhật ngay như cũ
+                    setPracticeHistory(prev => {
+                        const filtered = prev.filter(h => h.questionId !== uniqueQuestionId);
+                        return [...filtered, { userId: currentUser._id, questionId: uniqueQuestionId, answer: optionIndex, isCorrect, timestamp: new Date().toISOString() }];
+                    });
+                    setLocalAnsweredIds(prev => new Set(prev).add(uniqueQuestionId));
+                }
                 savePracticeHistory({
-                    userId: currentUser._id,
                     questionId: uniqueQuestionId,
                     answer: optionIndex,
                     isCorrect
                 });
-                setLocalAnsweredIds(prev => new Set(prev).add(uniqueQuestionId));
             }
         }
-    }, [currentUser, groupsToDisplay]);
+    }, [currentUser, groupsToDisplay, activeFilter]);
 
-    // Cập nhật filteredGroupsToDisplay để chỉ lọc theo practiceHistory
+    // Khi chuyển tab khỏi FILTER_UNDONE, merge pending vào state chính
+    useEffect(() => {
+        if (activeFilter !== FILTER_UNDONE && (pendingAnsweredIds.size > 0 || pendingPracticeHistory.length > 0)) {
+            setLocalAnsweredIds(prev => {
+                const merged = new Set(prev);
+                pendingAnsweredIds.forEach(id => merged.add(id));
+                return merged;
+            });
+            setPracticeHistory(prev => {
+                const filtered = prev.filter(h => !pendingAnsweredIds.has(h.questionId));
+                return [...filtered, ...pendingPracticeHistory];
+            });
+            setPendingAnsweredIds(new Set());
+            setPendingPracticeHistory([]);
+        }
+    }, [activeFilter]);
+
+    // Cập nhật filteredGroupsToDisplay để chỉ lọc theo practiceHistory, localAnsweredIds, pending khi ở FILTER_UNDONE
     const filteredGroupsToDisplay = useMemo(() => {
-      if (!groupsToDisplay) return [];
-      // Kết hợp các câu đã làm từ practiceHistory và localAnsweredIds
-      const doneSet = new Set([
-        ...practiceHistory.map(h => h.questionId),
-        ...localAnsweredIds
-      ]);
-      if (activeFilter === FILTER_ALL) return groupsToDisplay;
-      return groupsToDisplay.map(group => ({
-        ...group,
-        questions: Array.isArray(group.questions) ? group.questions.filter(q => {
-          const examId = group.examId || '';
-          const uniqueId = examId + '-' + q.id;
-          if (activeFilter === FILTER_DONE) return doneSet.has(uniqueId);
-          if (activeFilter === FILTER_UNDONE) return !doneSet.has(uniqueId);
-          return true;
-        }) : []
-      })).filter(group => Array.isArray(group.questions) && group.questions.length > 0);
+        if (!groupsToDisplay) return [];
+        let doneSet = new Set([
+            ...practiceHistory.map(h => h.questionId),
+            ...localAnsweredIds
+        ]);
+        if (activeFilter === FILTER_UNDONE) {
+            // Khi ở tab chưa làm, chưa loại bỏ các câu vừa làm tạm thời
+            doneSet = new Set([
+                ...practiceHistory.map(h => h.questionId),
+                ...localAnsweredIds,
+                // KHÔNG thêm pendingAnsweredIds vào doneSet ở đây
+            ]);
+        }
+        return groupsToDisplay.map(group => ({
+            ...group,
+            questions: Array.isArray(group.questions) ? group.questions.filter(q => {
+                const examId = group.examId || '';
+                const uniqueId = examId + '-' + q.id;
+                if (activeFilter === FILTER_DONE) return doneSet.has(uniqueId);
+                if (activeFilter === FILTER_UNDONE) return !doneSet.has(uniqueId);
+                return true;
+            }) : []
+        })).filter(group => Array.isArray(group.questions) && group.questions.length > 0);
     }, [groupsToDisplay, practiceHistory, localAnsweredIds, activeFilter]);
 
     // Khi đổi bộ đề, reset localAnsweredIds
@@ -422,7 +428,8 @@ const PracticeByTypeClient: React.FC<PracticeByTypeClientProps> = ({ allExams })
       currentUser?._id || '',
       hardcodedInstructions,
       'TOPIK Ⅰ', // dummy, just to get practiceHistory
-      '듣기'
+      '듣기',
+      activeFilter
     );
 
     const pieData = useMemo(() => {
@@ -465,6 +472,16 @@ const PracticeByTypeClient: React.FC<PracticeByTypeClientProps> = ({ allExams })
         title: { display: false }
       }
     };
+
+    const getAnsweredIndex = useCallback((uniqueQuestionId: string) => {
+      if (activeFilter === FILTER_UNDONE) {
+        const pending = pendingPracticeHistory.find((h: any) => h.questionId === uniqueQuestionId);
+        if (pending) return pending.answer;
+      }
+      const done = practiceHistory.find((h: any) => h.questionId === uniqueQuestionId);
+      if (done && typeof done.answer !== 'undefined') return done.answer;
+      return undefined;
+    }, [practiceHistory, pendingPracticeHistory, activeFilter]);
 
     if (!hasHydrated) {
         // Removed bg-gray-50 from the loading state container
@@ -549,6 +566,7 @@ const PracticeByTypeClient: React.FC<PracticeByTypeClientProps> = ({ allExams })
                                   hardcodedInstructions={hardcodedInstructions}
                                   selectedLevel={level}
                                   selectedSkill={skill}
+                                  refreshKey={activeFilter}
                                 />
                               </div>
                             );
@@ -566,6 +584,7 @@ const PracticeByTypeClient: React.FC<PracticeByTypeClientProps> = ({ allExams })
                                 selectedExamId={selectedExamId}
                                 selectedLevel={selectedLevel}
                                 selectedSkillForMessage={selectedSkill}
+                                getAnsweredIndex={getAnsweredIndex}
                             />
                         </>
                     ) : (

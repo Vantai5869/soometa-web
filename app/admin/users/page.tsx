@@ -44,7 +44,6 @@ export default function UserListPage() {
 
 
   const fetchUsers = useCallback(async (token: string) => {
-    console.log("UserListPage: Bắt đầu fetchUsers với token.");
     setPageLoading(true); // Bắt đầu loading cho việc fetch users
     setFetchError(null);
     try {
@@ -71,9 +70,7 @@ export default function UserListPage() {
       // Giả sử API trả về { users: User[] } hoặc User[]
       const usersArray = Array.isArray(data) ? data : (data.users && Array.isArray(data.users)) ? data.users : [];
       setUsers(usersArray as User[]);
-      console.log("UserListPage: fetchUsers thành công, số lượng user:", usersArray.length);
     } catch (err: any) {
-      console.error("UserListPage: Lỗi khi tải danh sách người dùng:", err);
       setFetchError(err.message || 'Không thể tải dữ liệu người dùng. Vui lòng thử lại.');
     } finally {
       setPageLoading(false); // Kết thúc loading cho việc fetch users
@@ -83,26 +80,20 @@ export default function UserListPage() {
   useEffect(() => {
     // Chờ client mount và store auth sẵn sàng
     if (!isClient || isLoadingAuthFromStore) {
-      console.log("UserListPage: Chờ client mount hoặc store auth load...");
       setPageLoading(true); // Hiển thị loading chính
       return;
     }
 
-    console.log("UserListPage: Client đã mount, store auth đã load. Token:", tokenFromStore, "User:", currentUserFromStore);
-
     if (!tokenFromStore || !currentUserFromStore) {
-      console.log("UserListPage: Không có token hoặc user. Chuyển hướng về /login.");
       router.push('/login');
       setPageLoading(false); // Dừng loading
       return;
     }
 
     if (currentUserFromStore.role === 'admin') {
-      console.log("UserListPage: User là admin. Set isAuthorized và gọi fetchUsers.");
       setIsAuthorized(true);
       fetchUsers(tokenFromStore); // Gọi fetchUsers sau khi xác nhận admin
     } else {
-      console.log("UserListPage: User không phải admin. Từ chối truy cập.");
       setFetchError('Truy cập bị từ chối. Bạn không có quyền vào trang này.');
       setIsAuthorized(false);
       setPageLoading(false); // Dừng loading
@@ -138,8 +129,6 @@ export default function UserListPage() {
         return;
     }
 
-    console.log(`UserListPage: Yêu cầu xoá người dùng với ID: ${userId}`);
-    // setPageLoading(true); // Có thể thêm loading cho hành động xoá
     try {
         const response = await fetch(`${API_BASE_URL}/users/${userId}`, {
           method: 'DELETE',
@@ -161,10 +150,8 @@ export default function UserListPage() {
         if (isClient) alert(`Người dùng với ID: ${userId} đã được xoá.`);
         
     } catch (err: any) {
-        console.error("UserListPage: Lỗi khi xoá người dùng:", err);
         setFetchError(err.message || "Đã có lỗi xảy ra khi cố gắng xoá người dùng.");
     } finally {
-        // setPageLoading(false);
         handleCloseDetailModal();
     }
   };

@@ -101,7 +101,6 @@ const ExamViewerWrapper: React.FC<ExamViewerWrapperProps> = ({ examData }) => {
       setIsReviewingSpecificSession(false); 
 
       if (reviewSessionId) {
-        console.log(`Chế độ review phiên cụ thể, sessionId: ${reviewSessionId}`);
         const currentToken = useAuthStore.getState().token;
         if (!currentToken) {
           if (isClient) alert("Bạn cần đăng nhập để xem lại chi tiết bài làm.");
@@ -169,7 +168,6 @@ const ExamViewerWrapper: React.FC<ExamViewerWrapperProps> = ({ examData }) => {
     
     const saveDataWithExistingToken = async (tokenToUse: string) => {
         const finalData = { ...submissionData, userId: userIdToUse };
-        // console.log("Đẩy dữ liệu lên API:", JSON.parse(JSON.stringify(finalData)));
         let unauthorizedOrForbidden = false;
         try {
           const response = await fetch(`${NEXT_API_BASE_URL}/exam-sessions`, {
@@ -197,7 +195,6 @@ const ExamViewerWrapper: React.FC<ExamViewerWrapperProps> = ({ examData }) => {
                     const refreshedUser = useAuthStore.getState().currentUser;
                     const refreshedToken = useAuthStore.getState().token;
                     if(refreshedUser?._id && refreshedToken && pendingSubmissionDataRef.current) {
-                         console.log("Đăng nhập lại thành công, thử lưu bài với token mới.");
                          saveDataWithExistingToken(refreshedToken); 
                     } else {
                        pendingSubmissionDataRef.current = null; 

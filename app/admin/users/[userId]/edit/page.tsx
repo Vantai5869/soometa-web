@@ -44,7 +44,6 @@ export default function EditUserPage() {
         setIsLoading(false);
         return;
     }
-    console.log(`Workspaceing user data for ID: ${userId}`);
     setIsLoading(true);
     setError(null);
     try {
@@ -71,7 +70,6 @@ export default function EditUserPage() {
         platform: data.platform,
         // deviceId thường không nên cho admin sửa trực tiếp
       });
-      console.log("Fetched user data:", data);
     } catch (err: any) {
       console.error("Error fetching user to edit:", err);
       if (err.message !== "Unauthorized or Forbidden") setError(err.message);
@@ -141,8 +139,6 @@ export default function EditUserPage() {
     // Nếu muốn cho sửa, thêm vào payload:
     // if (formData.platform) payloadToUpdate.platform = formData.platform;
 
-
-    console.log("Payload to update:", payloadToUpdate);
 
     try {
       const response = await fetch(`${NEXT_API_BASE_URL}/users/${userToEdit._id}`, {

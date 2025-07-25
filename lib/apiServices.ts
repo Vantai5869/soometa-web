@@ -77,7 +77,6 @@ export const commentService = {
 
             // Đảm bảo response có format đúng
             if (response && response.success) {
-                console.log('Raw API Response:', response);
                 
                 // Kiểm tra format mới: { data: { comments: [], pagination: {} } }
                 if (response.data && typeof response.data === 'object' && 'comments' in response.data) {

@@ -48,20 +48,6 @@ apiClient.interceptors.request.use(
       config.headers.Authorization = `Bearer ${token}`;
     }
     
-    // Log request trong development
-    if (process.env.NODE_ENV === 'development') {
-      console.log('🚀 API Request:', {
-        method: config.method?.toUpperCase(),
-        url: config.url,
-        headers: {
-          ...config.headers,
-          Authorization: token ? `Bearer ${token.substring(0, 10)}...` : 'No token'
-        },
-        data: config.data,
-        params: config.params,
-      });
-    }
-    
     return config;
   },
   (error) => {
@@ -73,15 +59,6 @@ apiClient.interceptors.request.use(
 // Response interceptor
 apiClient.interceptors.response.use(
   (response: AxiosResponse) => {
-    // Log response trong development
-    if (process.env.NODE_ENV === 'development') {
-      console.log('✅ API Response:', {
-        status: response.status,
-        url: response.config.url,
-        data: response.data,
-      });
-    }
-    
     return response;
   },
   (error) => {

@@ -54,7 +54,6 @@ export default function AdminLayout({ children }: { children: ReactNode }) {
     const userForIdCheck = useAuthStore.getState().currentUser; // Lấy user mới nhất để lấy ID
 
     if (!currentToken || !userForIdCheck?._id) {
-      console.log('AdminLayout: Không có token hoặc user ID trong store. Chuyển hướng về /');
       router.replace('/');
       setIsCheckingAuthorization(false); // Kết thúc kiểm tra (thất bại)
       return;
@@ -71,7 +70,6 @@ export default function AdminLayout({ children }: { children: ReactNode }) {
         });
 
         if (response.status === 401 || response.status === 403) {
-          console.log('AdminLayout: Token không hợp lệ hoặc hết hạn. Đăng xuất và chuyển hướng.');
           logout(); // Store sẽ cập nhật currentUser và token thành null
           // router.replace('/'); // logout có thể đã xử lý redirect hoặc useEffect này sẽ chạy lại và redirect
           return; // setIsCheckingAuthorization(false) sẽ được gọi ở finally
@@ -90,10 +88,8 @@ export default function AdminLayout({ children }: { children: ReactNode }) {
         setRefreshedUser(apiUserData, currentToken); 
 
         if (apiUserData.role === 'admin') {
-          console.log('AdminLayout: API xác nhận user là admin.');
           setIsAuthorized(true);
         } else {
-          console.log('AdminLayout: API xác nhận user KHÔNG PHẢI admin. Chuyển hướng.');
           router.replace('/');
         }
       } catch (error) {
@@ -136,7 +132,6 @@ export default function AdminLayout({ children }: { children: ReactNode }) {
     // hoặc nếu có lỗi nào đó mà isAuthorized không được set true.
     // useEffect đã gọi router.replace('/') nên trình duyệt sẽ sớm chuyển hướng.
     // Trả về null để không render gì trong lúc chờ.
-    console.log("AdminLayout: Không được ủy quyền (fallback, chờ redirect).");
     return null; 
   }
 

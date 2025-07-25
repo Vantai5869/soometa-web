@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { ChevronLeft, Eye, Download, FileText } from 'lucide-react';
 import { ExamSession } from '@/data/download-data';
 import PdfViewerModal from '../components/PdfViewerModal';
+import { api } from '@/lib/configAxios';
 
 interface SessionDetailClientProps {
   session: ExamSession | undefined;
@@ -44,9 +45,8 @@ export default function SessionDetailClient({ session }: SessionDetailClientProp
   };
 
   const handleDownload = async (exam: { id: string; name: string; driveLink: string }) => {
-    // Gọi API tăng lượt download
     try {
-      await fetch(`/api/downloads/${exam.id}`, { method: 'POST' });
+      await api.post(`/download-stats/${exam.id}`);
     } catch {}
     // Tạo download link từ drive link
     const match = exam.driveLink.match(/\/file\/d\/([a-zA-Z0-9_-]+)/);

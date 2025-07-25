@@ -12,6 +12,7 @@ interface InstructionGroupDisplayProps {
     groupIndex: number;
     handlePracticeAnswerSelect: (uniqueQuestionId: string, optionIndex: number) => void;
     selectedSkill: string;
+    getAnsweredIndex: (uniqueQuestionId: string) => number | undefined;
 }
 
 const InstructionGroupDisplay: React.FC<InstructionGroupDisplayProps> = ({
@@ -19,6 +20,7 @@ const InstructionGroupDisplay: React.FC<InstructionGroupDisplayProps> = ({
     groupIndex,
     handlePracticeAnswerSelect,
     selectedSkill,
+    getAnsweredIndex,
 }) => {
     const questionsInGroupToDisplay = group.questions as Question[];
     const showGroupAudio = selectedSkill === '듣기' && group.group_audio_url;
@@ -68,6 +70,7 @@ const InstructionGroupDisplay: React.FC<InstructionGroupDisplayProps> = ({
                         uniqueQuestionId={uniqueQuestionId}
                         handlePracticeAnswerSelect={handlePracticeAnswerSelect}
                         selectedSkill={selectedSkill}
+                        answeredIndex={getAnsweredIndex(uniqueQuestionId)}
                     />
                 );
             })}

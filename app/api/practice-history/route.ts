@@ -34,7 +34,7 @@ export async function POST(request: NextRequest) {
     }
     
     if (!history[questionId]) {
-      history[questionId] = { correctUsers: [], wrongUsers: [] };
+      history[questionId] = { correctUsers: [], wrongUsers: [], answers: [] };
       console.log('Created new entry for questionId:', questionId);
     }
     
@@ -44,6 +44,13 @@ export async function POST(request: NextRequest) {
     
     history[questionId].correctUsers = history[questionId].correctUsers.filter((id: string) => id !== userId);
     history[questionId].wrongUsers = history[questionId].wrongUsers.filter((id: string) => id !== userId);
+    
+    // Xoá bản ghi cũ của user trong answers
+    history[questionId].answers = Array.isArray(history[questionId].answers)
+      ? history[questionId].answers.filter((a: any) => a.userId !== userId)
+      : [];
+    // Thêm bản ghi mới vào answers
+    history[questionId].answers.push({ userId, answer, isCorrect, timestamp });
     
     if (isCorrect) {
       history[questionId].correctUsers.push(userId);
@@ -85,13 +92,14 @@ export async function GET(request: NextRequest) {
       const file = await fs.readFile(HISTORY_PATH, 'utf-8');
       history = JSON.parse(file);
     } catch { history = {}; }
-    // Duyệt toàn bộ file, trả về các câu user đã làm
+    // Duyệt toàn bộ file, trả về các câu user đã làm cùng đáp án đã chọn
     const userHistory: any[] = [];
     Object.entries(history).forEach(([questionId, q]: [string, any]) => {
-      if (Array.isArray(q.correctUsers) && q.correctUsers.includes(userId)) {
-        userHistory.push({ questionId, isCorrect: true });
-      } else if (Array.isArray(q.wrongUsers) && q.wrongUsers.includes(userId)) {
-        userHistory.push({ questionId, isCorrect: false });
+      if (Array.isArray(q.answers)) {
+        const answerObj = q.answers.find((a: any) => a.userId === userId);
+        if (answerObj) {
+          userHistory.push({ questionId, ...answerObj });
+        }
       }
     });
     return NextResponse.json({ success: true, data: userHistory });
