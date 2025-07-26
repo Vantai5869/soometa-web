@@ -24,8 +24,7 @@ import { extractRange, isNumberInRange, normalizeInstruction } from './utils';
 import PracticeFilters from './PracticeFilters'; // Adjust import path
 import PracticeQuestionList from './PracticeQuestionList'; // Adjust import path
 import { useAuthStore } from '../store/authStore';
-import { usePracticeStatistics, parseQuestionId } from './StatisticPieChart';
-import InstructionStatsChart from '../components/InstructionStatsChart';
+import { usePracticeStatistics, parseQuestionId, StatisticPieChart } from './StatisticPieChart';
 import { api } from '@/lib/configAxios';
 
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend, ArcElement);
@@ -561,7 +560,7 @@ const PracticeByTypeClient: React.FC<PracticeByTypeClientProps> = ({ allExams })
                             return (
                               <div key={level + '-' + skill} className="mb-8">
                                 <h3 className="text-lg font-bold mb-2 text-center">{level} - {skill}</h3>
-                                <InstructionStatsChart
+                                <StatisticPieChart
                                   userId={currentUser?._id || ''}
                                   hardcodedInstructions={hardcodedInstructions}
                                   selectedLevel={level}
