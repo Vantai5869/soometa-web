@@ -169,6 +169,15 @@ export default function GuidePage() {
   const handleEmailSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     
+    if (!isClient) return;
+
+    // Kiểm tra đăng nhập trước
+    if (!currentUser || !token) {
+      alert("Vui lòng đăng nhập để đăng ký trải nghiệm ứng dụng.");
+      openLoginModal();
+      return;
+    }
+    
     // Validate email
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!email.trim()) {
@@ -186,12 +195,8 @@ export default function GuidePage() {
     try {
       const headers: HeadersInit = {
         'Content-Type': 'application/json',
+        'Authorization': `Bearer ${token}`,
       };
-      
-      // Thêm token nếu người dùng đã đăng nhập
-      if (token) {
-        headers['Authorization'] = `Bearer ${token}`;
-      }
 
       const response = await fetch(`${NEXT_API_BASE_URL}/feedback`, {
         method: 'POST',
