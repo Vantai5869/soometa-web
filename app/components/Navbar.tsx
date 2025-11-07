@@ -248,7 +248,7 @@ const handleSaveName = async () => {
           <ul className={styles.navList}>
             <li><Link href="/exams" className={isActive('/exams') ? styles.activeLink : styles.navLinkItem}>Luyện Đề</Link></li>
             <li><Link href="/practice" className={isActive('/practice') ? styles.activeLink : styles.navLinkItem}>Luyện Dạng</Link></li>
-            <li><Link href="/guide" className={isActive('/guide') ? styles.activeLink : styles.navLinkItem}>Hướng Dẫn</Link></li>
+            <li><Link href="/guide" className={isActive('/guide') ? styles.activeLink : styles.navLinkItem}>Tải app</Link></li>
           </ul>
           <div className="w-24 h-8 bg-gray-200 dark:bg-slate-700 rounded-md animate-pulse" />
         </div>
@@ -272,7 +272,7 @@ const handleSaveName = async () => {
             <li><Link href="/practice" className={isActive('/practice') ? styles.activeLink : styles.navLinkItem}>Luyện Tập</Link></li>
             <li><Link href="/download" className={isActive('/download') ? styles.activeLink : styles.navLinkItem}>Tải Đề</Link></li>
             <li><Link href="/topik-30-days" className={isActive('/topik-30-days') ? styles.activeLink : styles.navLinkItem}>Topik 30 days</Link></li>
-            <li><Link href="/guide" className={isActive('/guide') ? styles.activeLink : styles.navLinkItem}>Hướng Dẫn</Link></li>
+            <li><Link href="/guide" className={isActive('/guide') ? styles.activeLink : styles.navLinkItem}>Tải app</Link></li>
             
             {/* {currentUser && (
                  <li><Link href="/my-progress" className={isActive('/my-progress') ? styles.activeLink : styles.navLinkItem}>Tiến Độ</Link></li>
@@ -411,7 +411,7 @@ const handleSaveName = async () => {
                            <DownloadIcon /> Tải Đề Thi
                         </Link>
                         <Link href="/guide" className="group flex items-center w-full px-4 py-2.5 text-sm text-gray-700 dark:text-slate-300 hover:bg-gray-100 dark:hover:bg-slate-700 hover:text-gray-900 dark:hover:text-slate-100" onClick={() => setIsUserMenuOpen(false)}>
-                           <GuideIcon /> Hướng dẫn sử dụng
+                           <GuideIcon /> Tải app
                         </Link>
                     </div>
                     <div className="my-1 h-px bg-gray-200 dark:bg-slate-700 mx-2"></div> 
@@ -438,7 +438,7 @@ const handleSaveName = async () => {
             <li><Link href="/practice" onClick={closeMobileMenu} className={isActive('/practice') ? styles.mobileActiveLink : styles.mobileNavLinkItem}>Luyện Dạng</Link></li>
             <li><Link href="/download" onClick={closeMobileMenu} className={isActive('/download') ? styles.mobileActiveLink : styles.mobileNavLinkItem}>Tải Đề</Link></li>
             <li><Link href="/topik-30-days" onClick={closeMobileMenu} className={isActive('/topik-30-days') ? styles.mobileActiveLink : styles.mobileNavLinkItem}>Topik 30 days</Link></li>
-            <li><Link href="/guide" onClick={closeMobileMenu} className={isActive('/guide') ? styles.mobileActiveLink : styles.mobileNavLinkItem}>Hướng Dẫn</Link></li>
+            <li><Link href="/guide" onClick={closeMobileMenu} className={isActive('/guide') ? styles.mobileActiveLink : styles.mobileNavLinkItem}>Tải app</Link></li>
             {/* {currentUser && (
                  <li><Link href="/my-progress" onClick={closeMobileMenu} className={isActive('/my-progress') ? styles.mobileActiveLink : styles.mobileAuthButton}>Tiến Độ Học Tập</Link></li>
             )} */}

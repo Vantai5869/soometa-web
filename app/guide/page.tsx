@@ -125,6 +125,100 @@ export default function GuidePage() {
   const openLoginModal = useAuthStore(state => state.openLoginModal);
 
   const [showFeedbackForm, setShowFeedbackForm] = useState(false);
+  const [enlargedImage, setEnlargedImage] = useState<number | null>(null);
+  const [email, setEmail] = useState('');
+  const [isSubmittingEmail, setIsSubmittingEmail] = useState(false);
+  const [emailError, setEmailError] = useState<string | null>(null);
+  const [showThankYouModal, setShowThankYouModal] = useState(false);
+
+  // Validate email format
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  const isValidEmail = email.trim() !== '' && emailRegex.test(email.trim());
+
+  const handleImageClick = (imageNum: number) => {
+    setEnlargedImage(imageNum);
+  };
+
+  const handleCloseEnlarged = () => {
+    setEnlargedImage(null);
+  };
+
+  // Đóng modal khi nhấn ESC
+  useEffect(() => {
+    if (!isClient) return;
+    const handleEscape = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') {
+        if (enlargedImage !== null) {
+          setEnlargedImage(null);
+        }
+        if (showThankYouModal) {
+          setShowThankYouModal(false);
+        }
+      }
+    };
+    if (enlargedImage !== null || showThankYouModal) {
+      document.addEventListener('keydown', handleEscape);
+      document.body.style.overflow = 'hidden'; // Ngăn scroll khi modal mở
+    }
+    return () => {
+      document.removeEventListener('keydown', handleEscape);
+      document.body.style.overflow = 'unset';
+    };
+  }, [enlargedImage, showThankYouModal, isClient]);
+
+  const handleEmailSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    
+    // Validate email
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!email.trim()) {
+      setEmailError("Vui lòng nhập email.");
+      return;
+    }
+    if (!emailRegex.test(email.trim())) {
+      setEmailError("Email không hợp lệ.");
+      return;
+    }
+
+    setIsSubmittingEmail(true);
+    setEmailError(null);
+
+    try {
+      const headers: HeadersInit = {
+        'Content-Type': 'application/json',
+      };
+      
+      // Thêm token nếu người dùng đã đăng nhập
+      if (token) {
+        headers['Authorization'] = `Bearer ${token}`;
+      }
+
+      const response = await fetch(`${NEXT_API_BASE_URL}/feedback`, {
+        method: 'POST',
+        headers,
+        body: JSON.stringify({ 
+          feedbackText: `Đăng ký trải nghiệm ứng dụng - Email: ${email.trim()}`,
+          pageContext: window.location.pathname
+        }),
+      });
+
+      const result = await response.json();
+      
+      if (!response.ok) {
+        throw new Error(result.message || "Không thể gửi đăng ký.");
+      }
+
+      // Gửi thành công
+      setEmail('');
+      setShowThankYouModal(true);
+      
+    } catch (error: unknown) {
+      const msg = error instanceof Error ? error.message : "Lỗi không xác định.";
+      setEmailError(msg);
+    } finally {
+      setIsSubmittingEmail(false);
+    }
+  };
 
   const handleFeedbackButtonClick = () => {
     if (!isClient) return;
@@ -161,6 +255,173 @@ export default function GuidePage() {
           Nền tảng toàn diện giúp bạn chinh phục kỳ thi TOPIK và nâng cao năng lực tiếng Hàn một cách hiệu quả.
         </p>
       </header>
+
+      {/* Form đăng ký trải nghiệm ứng dụng */}
+      <section className="mb-12 max-w-3xl mx-auto">
+        <div className="bg-white dark:bg-slate-800 rounded-lg shadow-lg p-6 md:p-8 border border-gray-200 dark:border-slate-700">
+          <h2 className="text-2xl md:text-3xl font-bold text-sky-600 dark:text-sky-400 mb-4 text-center">
+            Đăng ký trải nghiệm ứng dụng
+          </h2>
+          <p className="text-sm text-amber-600 dark:text-amber-400 mb-4 p-3 bg-amber-50 dark:bg-amber-900/20 rounded-lg border border-amber-200 dark:border-amber-800">
+            <strong>Lưu ý:</strong> Hiện tại bản thử nghiệm chỉ có trên CH Play, chưa có trên App Store. Do đó, người dùng điện thoại iPhone sẽ chưa thể trải nghiệm ứng dụng.
+          </p>
+          <form onSubmit={handleEmailSubmit} className="space-y-4">
+            <div>
+              <label htmlFor="email" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                Email của bạn
+              </label>
+              <input
+                type="email"
+                id="email"
+                value={email}
+                onChange={(e) => {
+                  setEmail(e.target.value);
+                  setEmailError(null);
+                }}
+                placeholder="Nhập email của bạn"
+                className="w-full px-4 py-2 border border-gray-300 dark:border-slate-500 rounded-md focus:ring-2 focus:ring-sky-500 focus:border-sky-500 dark:bg-slate-700 dark:text-slate-100"
+                required
+                disabled={isSubmittingEmail}
+              />
+              {emailError && (
+                <p className="mt-2 text-sm text-red-600 dark:text-red-400">{emailError}</p>
+              )}
+            </div>
+            <button
+              type="submit"
+              disabled={isSubmittingEmail || !isValidEmail}
+              className="w-full px-6 py-3 text-base font-medium text-white bg-sky-600 hover:bg-sky-700 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-slate-800 focus:ring-sky-500 disabled:opacity-50 disabled:cursor-not-allowed enabled:cursor-pointer transition-colors"
+            >
+              {isSubmittingEmail ? 'Đang gửi...' : 'Đăng ký trải nghiệm'}
+            </button>
+          </form>
+        </div>
+      </section>
+
+      {/* Phần hiển thị ảnh mobile preview */}
+      <section className="mb-12">
+        <h2 className="text-3xl md:text-4xl font-bold text-sky-600 dark:text-sky-400 mb-8 text-center">
+          Hình ảnh ứng dụng
+        </h2>
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 md:gap-6 max-w-3xl mx-auto">
+          {Array.from({ length: 12 }, (_, i) => i + 1).map((num) => (
+            <div 
+              key={num} 
+              className="relative group cursor-pointer"
+              onClick={() => handleImageClick(num)}
+            >
+              <div className="aspect-[9/16] w-full overflow-hidden rounded-lg shadow-lg bg-gray-100 dark:bg-slate-800">
+                <img
+                  src={`/mobile-preview/${num}.png`}
+                  alt={`Mobile preview ${num}`}
+                  className="w-full h-full object-contain transition-transform duration-300 group-hover:scale-105"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Modal phóng to ảnh */}
+      {enlargedImage !== null && (
+        <div 
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75 p-4"
+          onClick={handleCloseEnlarged}
+        >
+          <div 
+            className="relative max-w-4xl max-h-[90vh] w-full h-full flex items-center justify-center"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button
+              onClick={handleCloseEnlarged}
+              className="absolute top-4 right-4 z-10 text-white hover:text-gray-300 transition-colors bg-black bg-opacity-50 rounded-full p-2"
+              aria-label="Đóng"
+            >
+              <svg 
+                className="w-6 h-6" 
+                fill="none" 
+                stroke="currentColor" 
+                viewBox="0 0 24 24"
+              >
+                <path 
+                  strokeLinecap="round" 
+                  strokeLinejoin="round" 
+                  strokeWidth={2} 
+                  d="M6 18L18 6M6 6l12 12" 
+                />
+              </svg>
+            </button>
+            <img
+              src={`/mobile-preview/${enlargedImage}.png`}
+              alt={`Mobile preview ${enlargedImage} - phóng to`}
+              className="max-w-full max-h-full object-contain rounded-lg shadow-2xl"
+            />
+          </div>
+        </div>
+      )}
+
+      {/* Modal cảm ơn */}
+      {showThankYouModal && (
+        <div 
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75 p-4"
+          onClick={() => setShowThankYouModal(false)}
+        >
+          <div 
+            className="relative bg-white dark:bg-slate-800 rounded-lg shadow-2xl max-w-md w-full p-6 md:p-8"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button
+              onClick={() => setShowThankYouModal(false)}
+              className="absolute top-4 right-4 text-gray-400 hover:text-gray-600 dark:hover:text-gray-200 transition-colors"
+              aria-label="Đóng"
+            >
+              <svg 
+                className="w-6 h-6" 
+                fill="none" 
+                stroke="currentColor" 
+                viewBox="0 0 24 24"
+              >
+                <path 
+                  strokeLinecap="round" 
+                  strokeLinejoin="round" 
+                  strokeWidth={2} 
+                  d="M6 18L18 6M6 6l12 12" 
+                />
+              </svg>
+            </button>
+            <div className="text-center">
+              <div className="mb-4">
+                <svg 
+                  className="mx-auto h-16 w-16 text-green-500" 
+                  fill="none" 
+                  stroke="currentColor" 
+                  viewBox="0 0 24 24"
+                >
+                  <path 
+                    strokeLinecap="round" 
+                    strokeLinejoin="round" 
+                    strokeWidth={2} 
+                    d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" 
+                  />
+                </svg>
+              </div>
+              <h3 className="text-2xl font-bold text-gray-900 dark:text-slate-100 mb-4">
+                Cảm ơn bạn đã đăng ký!
+              </h3>
+              <p className="text-gray-600 dark:text-gray-300 leading-relaxed mb-6">
+                Cảm ơn bạn đã đăng ký trải nghiệm ứng dụng. Chúng tôi sẽ gửi email chứa link CH Play ứng dụng ngay khi vừa phát hành.
+              </p>
+              <button
+                onClick={() => setShowThankYouModal(false)}
+                className="w-full px-6 py-3 text-base font-medium text-white bg-sky-600 hover:bg-sky-700 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-slate-800 focus:ring-sky-500 transition-colors"
+              >
+                Đóng
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
 
       <div className="max-w-3xl mx-auto">
         <GuideSection title="TopikGo là gì?" id="gioi-thieu">
