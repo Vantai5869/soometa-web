@@ -3,7 +3,7 @@ export const transAudio= [
    {
       "status_script": "completed",
       "id": "09da3688-6290-407e-8149-206f34c88c43",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503771/soometa/91-I-listening/38_01.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-I-listening/38_01.mp3",
       "text": "1번. 학생이에요?",
       "utterances": [
         {
@@ -36,7 +36,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "64b0d25f-9c34-43d8-a83d-6dc1f793115f",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503771/soometa/91-I-listening/38_02.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-I-listening/38_02.mp3",
       "text": "과자를 좋아해요?",
       "utterances": [
         {
@@ -69,7 +69,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "2fd8d131-ec25-42ff-a542-fe0c0d01bb82",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503771/soometa/91-I-listening/38_03.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-I-listening/38_03.mp3",
       "text": "3번 지금 무엇을 마셔요?",
       "utterances": [
         {
@@ -116,7 +116,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "062879c6-89f2-44f0-a9f7-7042f6a766f4",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503771/soometa/91-I-listening/38_04.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-I-listening/38_04.mp3",
       "text": "학교에 어떻게 가요?",
       "utterances": [
         {
@@ -156,7 +156,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "0fd7f074-2812-48a0-996d-574791ff968c",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503771/soometa/91-I-listening/38_05.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-I-listening/38_05.mp3",
       "text": "많이 드세요.",
       "utterances": [
         {
@@ -189,7 +189,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "d540409a-bd11-4baa-832c-e9032d6f9b16",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503771/soometa/91-I-listening/38_06.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-I-listening/38_06.mp3",
       "text": "6번 여보세요? 수미 씨 좀 바꿔주세요. 여보세요? 수미 씨 좀 바꿔주세요.",
       "utterances": [
         {
@@ -285,7 +285,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "c79c52aa-8371-4135-acff-7f8c414acfac",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503771/soometa/91-I-listening/38_07.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-I-listening/38_07.mp3",
       "text": "7번 1시 영화표. 두 장. 주세요. 네, 여기 있습니다. 다시 들으십시오. 1시 영화표. 두 장. 주세요. 네, 여기 있습니다.",
       "utterances": [
         {
@@ -500,7 +500,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "3056348b-d6d3-47c2-b7f3-d6c5bfff29ce",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503771/soometa/91-I-listening/38_08.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-I-listening/38_08.mp3",
       "text": "8번. 민수 씨, 3번 버스 타요? 네, 저기 오네요. 저 먼저 갈게요. 다시 들으십시오. 민수 씨, 3번 버스 타요? 네, 저기 오네요. 저 먼저 갈게요.",
       "utterances": [
         {
@@ -730,7 +730,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "897a71a4-6d0e-4ec6-a322-db634abe5ec6",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503771/soometa/91-I-listening/38_09.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-I-listening/38_09.mp3",
       "text": "9번 요리책은 어디 있어요? 2층으로 가세요, 손님. 다시 들으십시오. 요리책은 어디 있어요? 2층으로 가세요, 손님.",
       "utterances": [
         {
@@ -881,7 +881,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "d2c30d64-46f9-4344-854b-a3840fd0af72",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503771/soometa/91-I-listening/38_10.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-I-listening/38_10.mp3",
       "text": "10번. 이 운동화 신어 봐도 돼요? 네. 이쪽에 앉아서 신어 보세요. 다시 들으십시오. 이 운동화 신어 봐도 돼요? 네, 이쪽에 앉아서 신어 보세요.",
       "utterances": [
         {
@@ -1097,7 +1097,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "62d1717b-2be6-415d-8473-3a55f121f89c",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503771/soometa/91-I-listening/38_11.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-I-listening/38_11.mp3",
       "text": "11번 수미 씨, 떡볶이가 어때요? 조금 매워요. 다시 들으십시오. 수미 씨, 떡볶이가 어때요? 조금 매워요.",
       "utterances": [
         {
@@ -1248,7 +1248,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "597d7720-10cc-4a78-8a19-c3501189bed7",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503771/soometa/91-I-listening/38_12.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-I-listening/38_12.mp3",
       "text": "우리. 내일 카페에서 만날까요? 좋아요. 인주 카페에서 만나요. 다시 들으십시오. 우리 내일 카페에서 만날까요? 좋아요. 인주카페에서 만나요.",
       "utterances": [
         {
@@ -1422,7 +1422,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "0eb503e2-e9a1-49a7-8fd3-95b8b10067f6",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503771/soometa/91-I-listening/38_13.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-I-listening/38_13.mp3",
       "text": "13번 오늘 좀 춥네요. 네, 춥고 바람도 많이 불어요. 다시 들으십시오. 오늘 좀 춥네요. 네, 춥고 바람도 많이 불어요.",
       "utterances": [
         {
@@ -1601,7 +1601,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "09b114bb-fc86-4f6e-b24b-e74b54c08e71",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503771/soometa/91-I-listening/38_14.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-I-listening/38_14.mp3",
       "text": "14번. 민수 씨는 부산에서 태어났어요? 네, 부산에서 고등학생 때까지 살았어요. 다시 들으십시오. 민수 씨는 부산에서 태어났어요? 네, 부산에서 고등학생 때까지 살았어요.",
       "utterances": [
         {
@@ -1803,7 +1803,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "2bb82697-efbc-4095-ac7b-a2262d935b1e",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503771/soometa/91-I-listening/38_15.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-I-listening/38_15.mp3",
       "text": "이것보다 작은 가방 있어요? 네, 가게 안에 있어요. 들어와서 보세요. 다시 들으십시오. 이것보다 작은 가방 있어요? 네, 가게 안에 있어요. 들어와서 보세요.",
       "utterances": [
         {
@@ -2003,7 +2003,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "fab5dda1-9d52-4460-a339-9f2708eccde6",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503771/soometa/91-I-listening/38_16.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-I-listening/38_16.mp3",
       "text": "16번. 책상 위에 물이 있네요. 그럼 이걸로 닦으세요. 다시 들으십시오. 책상 위에 물이 있네요. 그럼 이걸로 닦으세요.",
       "utterances": [
         {
@@ -2177,7 +2177,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "f49eef4e-17fa-4cf9-b1e0-1a16ee783055",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503771/soometa/91-I-listening/38_17.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-I-listening/38_17.mp3",
       "text": "17번. 민수 씨, 오랜만이에요. 방학 잘 보냈어요? 네. 외국어 공부도 하고 아르바이트도 했어요. 수미 씨는요? 저는 이번에 여행을 많이 했어요. 다시 들으십시오. 민수 씨, 오랜만이에요. 방학 잘 보냈어요? 네. 외국어 공부도 하고 아르바이트도 했어요. 수미 씨는요? 저는 이번에 여행을 많이 했어요.",
       "utterances": [
         {
@@ -2528,7 +2528,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "99c0a407-5f55-4bda-a57c-f8b5a8147bf1",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503771/soometa/91-I-listening/38_18.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-I-listening/38_18.mp3",
       "text": "18번 어제 제가 일하는 곳에 가수 김준 씨가 왔어요. 정말요? 제가 좋아하는 가수예요. 같이 사진도 찍었는데 볼래요? 네. 와, 멋있네요. 저도 한번 만나보고 싶어요. 다시 들으십시오. 어제 제가 일하는 곳에 가수 김준 씨가 왔어요. 정말요? 제가 좋아하는 가수예요. 같이 사진도 찍었는데. 볼래요? 네. 와, 멋있네요. 저도 한번 만나보고 싶어요.",
       "utterances": [
         {
@@ -2953,7 +2953,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "c0594115-60c7-4754-9f81-7d1aa3253457",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503771/soometa/91-I-listening/38_19.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-I-listening/38_19.mp3",
       "text": "19번. 오후에 친구들하고 축구를 보기로 했는데 민수 씨도 올래요? 어디에서 볼 거예요? 우리 집에서 볼 거예요. 축구 본 후에 저녁도 같이 먹어요. 좋아요. 수업 끝나고 바로 갈게요. 다시 들으십시오. 오후에 친구들하고 축구를 보기로 했는데, 민수 씨도 올래요? 어디에서 볼 거예요? 우리 집에서 볼 거예요. 축구 본 후에 저녁도 같이 먹어요. 좋아요. 수업 끝나고 바로 갈게요.",
       "utterances": [
         {
@@ -3429,7 +3429,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "06d50762-dda8-4688-b231-4bf6d18fbc40",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503771/soometa/91-I-listening/38_20.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-I-listening/38_20.mp3",
       "text": "20번. 민수 씨는 기타를 정말 잘 치네요. 얼마나 쳤어요? 저는 5년 정도 기타를 쳤어요. 전 한 달 전에 치기 시작했어요. 그런데 혼자 연습하니까 어렵네요. 그럼 제가 좀 가르쳐 줄까요? 주말에는 시간이 있으니까 연락 주세요. 다시 들으십시오. 민수 씨는 기타를 정말 잘 치네요. 얼마나 쳤어요? 저는 5년 정도 기타를 쳤어요. 전 한 달 전에 치기 시작했어요. 그런데 혼자 연습하니까 어렵네요. 그럼 제가 좀 가르쳐 줄까요? 주말에는 시간이 있으니까 연락 주세요.",
       "utterances": [
         {
@@ -4003,7 +4003,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "dda2b186-26e5-4485-9113-7e3b2ac77cc4",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503771/soometa/91-I-listening/38_21.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-I-listening/38_21.mp3",
       "text": "21번. 손님, 무엇을 도와드릴까요? 이 휴대전화요. 소리가 안 들려서요. 음, 고칠 수는 있는데 한 시간 정도 걸릴 것 같습니다. 네, 알겠습니다. 그럼 여기서 기다릴게요. 다시 들으십시오. 손님, 무엇을 도와드릴까요? 이 휴대전화요. 소리가 안 들려서요. 음, 고칠 수는 있는데 한 시간 정도 걸릴 것 같습니다. 네, 알겠습니다. 그럼 여기서 기다릴게요.",
       "utterances": [
         {
@@ -4437,7 +4437,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "77733a57-f319-41a5-857d-2f2609309dce",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503771/soometa/91-I-listening/38_22.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-I-listening/38_22.mp3",
       "text": "22번 시험 때문에 아침에 일찍 일어나니까 공부도 안 되고 힘드네요. 그래요? 전 아침 일찍 공부하면 더 잘 되는데요. 전 일찍 일어나면 너무 피곤해요. 수미 씨는 괜찮아요? 네, 저는 피곤하지 않고 기분이 더 좋아요. 다시 들으십시오. 시험 때문에 아침에 일찍 일어나니까 공부도 안 되고 힘드네요. 그래요? 전 아침 일찍 공부하면 더 잘 되는데요. 전 일찍 일어나면 너무 피곤해요. 수미 씨는 괜찮아요? 네, 저는 피곤하지 않고 기분이 더 좋아요.",
       "utterances": [
         {
@@ -4988,7 +4988,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "8cef384b-4f7d-4826-864c-bc9d09745d2d",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503771/soometa/91-I-listening/38_23.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-I-listening/38_23.mp3",
       "text": "23번. 저기요, 아까 냉면을 주문했는데 언제 나와요? 조금만 더 기다려 주세요. 오늘은 손님이 좀 많아서요. 시간이 없어서 그런데 빨리 좀 주실 수 있어요? 네, 죄송합니다. 바로 확인해 보겠습니다. 다시 들으십시오. 저기요, 아까 냉면을 주문했는데 언제 나와요? 조금만 더 기다려 주세요. 오늘은 손님이 좀 많아서요. 시간이 없어서 그런데 빨리 좀 주실 수 있어요? 네, 죄송합니다. 바로 확인해 보겠습니다.",
       "utterances": [
         {
@@ -5478,7 +5478,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "79e9928f-d1fe-4835-9f25-b7bbeab48595",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503771/soometa/91-I-listening/38_24.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-I-listening/38_24.mp3",
       "text": "24번 미영 씨, 이제 수업 시작하는데 어디 가요? 수첩이 없어서 찾으러 가요. 음악실에 두고 온 것 같아요. 나중에 찾으러 가요. 그때 가서 없으면 새로 사고요. 중요한 수첩이라서요. 수업 전에 올 수 있어요. 다시 들으십시오. 미영 씨, 이제 수업 시작하는데 어디 가요? 수첩이 없어서 찾으러 가요. 음악실에 두고 온 것 같아요. 나중에 찾으러 가요. 그때 가서 없으면 새로 사고요. 중요한 수첩이라서요. 수업 전에 올 수 있어요.",
       "utterances": [
         {
@@ -6015,7 +6015,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "c505dd46-4633-46db-9ed5-2e667fe251c5",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503771/soometa/91-I-listening/38_25-26.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-I-listening/38_25-26.mp3",
       "text": "주말에도 우리 마트를 찾아주신 손님 여러분, 감사합니다. 신선한 채소, 맛있는 과일이 있는 인주 마트입니다. 마트 이용 시간은 평일 오전 9시부터 밤 9시까지입니다. 주말에는 밤 10시까지 이용할 수 있으니 편안하게 1시간 더 쇼핑하십시오. 많은 이용 부탁드리겠습니다. 감사합니다. 다시 들으십시오. 주말에도 우리 마트를 찾아주신 손님 여러분, 감사합니다. 신선한 채소, 맛있는 과일이 있는 인주 마트입니다. 마트 이용 시간은 평일 오전 9시부터 밤 9시까지입니다. 주말에는 밤 10시까지 이용할 수 있으니 편안하게 1시간 더 쇼핑하십시오. 많은 이용 부탁드리겠습니다. 감사합니다.",
       "utterances": [
         {
@@ -6552,7 +6552,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "b72ed9e3-b164-4ab4-889b-030714932523",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503771/soometa/91-I-listening/38_27-28.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-I-listening/38_27-28.mp3",
       "text": "수미 씨, 저 어제 인주시에 있는 종이 미술관에 갔다 왔어요. 그래요? 저는 못 가봤는데 어땠어요? 여러 나라의 종이가 많았어요. 그리고 종이로 만든 옷이나 그릇도 구경했는데 그건 살 수도 있었어요. 아, 그럼 이 필통도 거기서 산 거예요? 아니요. 이건 제가 만든 거예요. 거기서 필통이나 인형 같은 것도 만들어 볼 수 있어요. 재미있었겠네요. 저도 이번 주말에 가봐야겠어요. 다시 들으십시오. 수미 씨, 저 어제 인주시에 있는 종이 미술관에 갔다 왔어요. 그래요? 저는 못 가봤는데 어땠어요? 여러 나라의 종이가 많았어요. 그리고 종이로 만든 옷이나 그릇도 구경했는데 그건 살 수도 있었어요. 아, 그럼 이 필통도 거기서 산 거예요? 아니요. 이건 제가 만든 거예요. 거기서 필통이나 인형 같은 것도 만들어 볼 수 있어요. 재미있었겠네요. 저도 이번 주말에 가봐야겠어요.",
       "utterances": [
         {
@@ -7454,7 +7454,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "bc6895f5-142a-4d56-aaca-47c3f59af9b4",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503771/soometa/91-I-listening/38_29-30.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-I-listening/38_29-30.mp3",
       "text": "김수미 선수, 전국 수영대회 1등 축하드립니다. 기분이 어떠세요? 작년에는 팔을 다쳐서 대회에 못 나왔는데 올해는 이렇게 상을 받아서 정말 기쁩니다. 네. 그런데 김수미 선수는 어떻게 수영을 시작하게 됐어요? 초등학생 때 수영 경기를 본 적이 있어요. 한 선수가 가장 늦게 출발했는데 끝까지 열심히 해서 마지막에는 1등을 했어요. 그 모습이 너무 멋있었어요. 그 선수처럼 되고 싶어서 그때부터 수영을 배웠어요. 그렇군요. 다음 달에 열리는 수영 대회에도 참가하시나요? 그럼요. 그 대회가 끝나면 바로 외국에서 열리는 대회에도 나갈 겁니다. 다시 들으십시오. 김수미 선수, 전국 수영대회 1등 축하드립니다. 기분이 어떠세요? 작년에는 팔을 다쳐서 대회에 못 나왔는데, 올해는 이렇게 상을 받아서 정말 기쁩니다. 네. 그런데 김수미 선수는 어떻게 수영을 시작하게 됐어요? 초등학생 때 수영 경기를 본 적이 있어요. 한 선수가 가장 늦게 출발했는데 끝까지 열심히 해서 마지막에는 1등을 했어요. 그 모습이 너무 멋있었어요. 그 선수처럼 되고 싶어서 그때부터 수영을 배웠어요. 그렇군요. 다음 달에 열리는 수영 대회에도 참가하시나요? 그럼요. 그 대회가 끝나면 바로 외국에서 열리는 대회에도 나갈 겁니다.",
       "utterances": [
         {
@@ -8622,7 +8622,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "c6bd449c-b7c0-404f-a13d-ad1fb0b096d0",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746458843/soometa/91-II-listening/40_01.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-II-listening/40_01.mp3",
       "text": "손님. 마음에 드는 넥타이 있으세요? 제일 오른쪽에 있는 줄무늬 넥타이가 괜찮아 보이네요. 그럼 이걸로 꺼내서 보여드릴까요?",
       "utterances": [
         {
@@ -8780,7 +8780,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "02bf32c9-7cf5-43ee-bd32-f8e7b4450486",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746458843/soometa/91-II-listening/40_02.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-II-listening/40_02.mp3",
       "text": "2번 음, 이 사과 정말 달고 맛있네요. 그러네요. 하나 더 깎을까요? 네, 좋아요. 수미 씨는 먹고 있어요. 제가 할게요.",
       "utterances": [
         {
@@ -8950,7 +8950,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "2845296f-198c-4255-865b-adb39e5a567f",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746458843/soometa/91-II-listening/40_03.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-II-listening/40_03.mp3",
       "text": "3. 최근 한 조사에 따르면 성인 독서율이 계속 감소하고 있는 것으로 나타났습니다. 독서를 하지 않는 이유로는 일 때문에 시간이 없어서라는 응답이 가장 많았고 책 대신 다른 매체를 이용해서 책 읽는 습관이 안 들어서가 그 뒤를 이었습니다.",
       "utterances": [
         {
@@ -9221,7 +9221,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "cf023929-aeae-48a1-97c8-a937766e79a2",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746458843/soometa/91-II-listening/40_04.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-II-listening/40_04.mp3",
       "text": "4번. 어제 요가 학원에 왜 안 나왔어? 할머니 생신이라 부모님하고 할머니 댁에 갔다 왔어.",
       "utterances": [
         {
@@ -9347,7 +9347,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "390d0203-b48c-4ef0-adda-34d15d08d28b",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746458843/soometa/91-II-listening/40_05.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-II-listening/40_05.mp3",
       "text": "5번. 우리가 둘러본 가게들 중에 어느 가게의 소파가 괜찮았어요? 저는 처음에 갔던 가게의 소파들이 제일 나은 것 같아요.",
       "utterances": [
         {
@@ -9510,7 +9510,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "0616dfad-efbd-4161-8f05-2c3005055298",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746458843/soometa/91-II-listening/40_06.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-II-listening/40_06.mp3",
       "text": "6번 수미야, 오늘 면접 있지? 면접 잘 봐. 어쩌지? 벌써부터 너무 떨려서 아무 생각이 안 나.",
       "utterances": [
         {
@@ -9650,7 +9650,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "aa6ddd92-f9a8-4e86-bda5-bef0e340e5b9",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746458843/soometa/91-II-listening/40_07.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-II-listening/40_07.mp3",
       "text": "7번 이 드라마 처음 보는데 내용도 좋고 대사도 재미있네요. 그렇죠. 이 드라마 쓴 작가의 작품들은 다 재미있어요.",
       "utterances": [
         {
@@ -9797,7 +9797,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "f96cdd98-866e-47e4-aca3-e49a25b4d8a2",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746458843/soometa/91-II-listening/40_08.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-II-listening/40_08.mp3",
       "text": "8번 손님. 운동화에 얼룩이 많네요. 생긴 지 꽤 오래된 것 같은데요. 네, 제가 집에서 해봤는데 안 지워지더라고요. 깨끗하게 될까요?",
       "utterances": [
         {
@@ -9967,7 +9967,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "a0fd4e2f-33ef-40e0-afe1-dacf344b5905",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746458843/soometa/91-II-listening/40_09.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-II-listening/40_09.mp3",
       "text": "기차 탈 때까지 시간이 좀 남았네. 그러네. 저 카페에서 커피 한 잔 마시자. 응. 난 기차에서 먹을 김밥 좀 사서 갈 테니까 먼저 들어가 있어. 알았어. 카페에 앉아 있을게.",
       "utterances": [
         {
@@ -10216,7 +10216,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "516a54da-f3b6-4f24-a5b2-a40947d33324",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746458843/soometa/91-II-listening/40_10.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-II-listening/40_10.mp3",
       "text": "10번. 자동차 수리하러 왔는데요. 김수미로 예약했어요. 네, 차 열쇠 주시고 고객 대기실에서 잠깐 기다려 주세요. 열쇠는 차 안에 두었어요. 대기실은 이쪽으로 가면 되나요? 네, 자동차 상태 확인하고 말씀드리겠습니다.",
       "utterances": [
         {
@@ -10467,7 +10467,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "33daf0a4-c311-4127-ab6f-71db52eef08c",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746458843/soometa/91-II-listening/40_11.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-II-listening/40_11.mp3",
       "text": "11번 수미 씨, 미술연필은 골랐어요. 더 살 게 있어요? 물감을 사야 하는데 찾는 게 안 보이네요. 제품 이름 알려줘요. 직원한테 그 제품이 있는지 물어볼게요. 아니에요. 제가 물어보고 올 테니까 민수 씨는 여기에서 기다려요.",
       "utterances": [
         {
@@ -10744,7 +10744,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "ca574a82-f5b8-4eae-89a5-d36f72a5f9cb",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746458843/soometa/91-II-listening/40_12.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-II-listening/40_12.mp3",
       "text": "12번. 무대 점검 끝났습니다. 이제 무대 연습 진행할까요? 네. 지금 무대 앞으로 공연팀들을 데리고 와줄래요? 연습 전에 진행 순서 설명하게 해요. 알겠습니다. 촬영팀한테 연습 시작할 거라고 연락할까요? 그건 제가 할게요. 얼른 다녀오세요.",
       "utterances": [
         {
@@ -11023,7 +11023,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "cb9ab41a-7f31-4373-8a7a-f291e5427a88",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746458843/soometa/91-II-listening/40_13.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-II-listening/40_13.mp3",
       "text": "와. 10년 만에 와보니까 여기 많이 변했다. 응, 내가 알던 곳이 아닌 것 같아. 길도 넓어지고 가게도 많아지고. 그러네. 어? 그런데 저기 인주서점은 아직도 그대로 있어. 정말이네. 우리 대학 다닐 때 전공책 사러 자주 갔었잖아.",
       "utterances": [
         {
@@ -11323,7 +11323,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "65eb045e-5e24-4e5b-89d2-c2d9e0b2877d",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746458843/soometa/91-II-listening/40_14.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-II-listening/40_14.mp3",
       "text": "안내 말씀드립니다. 고객센터에서 빨간색 지갑을 보관하고 있습니다. 지갑은 조금 전에 1층 구두 매장에서 발견되었습니다. 잠시 후 8시에 백화점이 문을 닫으니 지갑을 분실하신 고객님께서는 그 전에 5층에 있는 고객센터로 와주시기 바랍니다.",
       "utterances": [
         {
@@ -11552,7 +11552,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "2065bf22-d584-4deb-a9dd-ab08d7e012f3",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746458843/soometa/91-II-listening/40_15.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-II-listening/40_15.mp3",
       "text": "15번 오늘 새벽 4시경 인주 앞바다에서 낚싯배가 바위에 부딪히는 사고가 발생했습니다. 배에 타고 있던 사람들은 경찰에 의해 모두 구조되었고 다행히 다친 사람은 없었습니다. 현재 경찰은 배에 타고 있던 사람들을 상대로 정확한 사고 원인을 파악하고 있습니다.",
       "utterances": [
         {
@@ -11816,7 +11816,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "7b24bf4b-41d9-4275-9675-8b52bc62b6d7",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746458843/soometa/91-II-listening/40_16.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-II-listening/40_16.mp3",
       "text": "16번 동물보건사라는 직업을 모르는 분들이 많은데요. 어떤 일을 하시나요? 저는 동물병원에서 아픈 동물을 돌보는 일을 하는데요. 동물의 상태도 살피고 수의사의 처방에 따라 약도 줍니다. 또 수의사가 진찰을 하거나 수술할 때 옆에서 돕는 일도 하죠. 그리고 보호자가 동물을 집에서 돌볼 때 주의할 사항을 알려드리기도 합니다.",
       "utterances": [
         {
@@ -12152,7 +12152,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "f37dacc4-1cd9-41da-9c3c-153854352200",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746458843/soometa/91-II-listening/40_17.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-II-listening/40_17.mp3",
       "text": "17번 피곤한데 오늘 저녁은 밖에서 먹고 들어가요. 그냥 집에 가서 먹어요. 식사 준비하는데 얼마 안 걸리잖아요. 피곤해서 집에 갈 힘도 없어요. 이럴 땐 그냥 밖에서 사 먹어요.",
       "utterances": [
         {
@@ -12378,7 +12378,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "2bd56be0-06db-484e-9107-75ba59393633",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746458843/soometa/91-II-listening/40_18.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-II-listening/40_18.mp3",
       "text": "18번 민수가 여자친구랑 헤어져서 힘든가 봐. 우리 만나서 위로해 주자. 정말? 근데 그럴 때는 혼자 있게 해주는 게 좋지 않을까? 지금이 바로 우리가 같이 있어줘야 할 때지. 그것만으로도 큰 힘이 될 거야.",
       "utterances": [
         {
@@ -12639,7 +12639,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "444e6408-3cb8-4579-8599-7050641584bb",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746458843/soometa/91-II-listening/40_19.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-II-listening/40_19.mp3",
       "text": "19번. 오늘 여행 일정이 많아서 서둘러야 해요. 먼저 박물관에 갔다가 미술관에 가요. 그 다음에 근처 유적지 둘러보고 연극 보러 가면 돼요. 일정이 너무 많아요. 전 좀 여유롭게 여행하고 싶어요. 모처럼 여행 왔는데 뭐든 많이 하면 좋잖아요. 그래도 시간을 갖고 천천히 보면 좋겠어요. 일정을 좀 줄이죠.",
       "utterances": [
         {
@@ -13009,7 +13009,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "f103c76a-23e6-4b49-9edd-eecfe5cc796b",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746458843/soometa/91-II-listening/40_20.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-II-listening/40_20.mp3",
       "text": "20번 감독님은 광고를 만들 때 어떤 부분에 신경을 쓰시나요? 대부분의 광고는 제품의 장점을 드러내는데 집중하는데요. 저는 호기심을 자극하는 것에 중점을 둡니다. 그러기 위해 사람들이 지금 보고 있는 게 무엇을 광고하는 것인지 끝까지 봐야 알 수 있도록 숨기는 거죠. 이렇게 대중의 궁금증을 유발하는 겁니다.",
       "utterances": [
         {
@@ -13329,7 +13329,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "2c3d5033-3585-4ab9-8f2b-20b3dc1b86f1",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746458843/soometa/91-II-listening/40_21-22.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-II-listening/40_21-22.mp3",
       "text": "부장님, 회의 때 사용할 발표 자료는 복사해서 회의실에 갖다 놓았습니다. 참고할 다른 자료도 복사할까요? 그건 참석자들에게 미리 이메일로 보내죠. 회의 때마다 낭비되는 종이가 너무 많은 것 같아요. 네, 바로 보내겠습니다. 지난번 회의처럼 대형 화면을 사용하실 거죠? 네. 그리고 앞으로는 발표 자료도 필요한 경우에만 복사하죠. 어차피 회의는 화면을 보면서 하는데 굳이 종이를 사용할 필요 없잖아요. 다시 들으십시오. 부장님, 회의 때 사용할 발표 자료는 복사해서 회의실에 갖다 놓았습니다. 참고할 다른 자료도 복사할까요? 그건 참석자들에게 미리 이메일로 보내죠. 회의 때마다 낭비되는 종이가 너무 많은 것 같아요. 네, 바로 보내겠습니다. 지난번 회의처럼 대형 화면을 사용하실 거죠? 네, 그리고 앞으로는 발표 자료도 필요한 경우에만 복사하죠. 어차피 회의는 화면을 보면서 하는데 굳이 종이를 사용할 필요 없잖아요.",
       "utterances": [
         {
@@ -14190,7 +14190,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "121555f4-b252-4528-8583-0246c3931acf",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746458843/soometa/91-II-listening/40_23-24.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-II-listening/40_23-24.mp3",
       "text": "카페에서 케이크 보관용으로 사용할 냉장고를 찾고 있는데요. 사용 기간이 얼마 안 된 중고 냉장고 있을까요? 손님들이 케이크를 보고 살 수 있게 유리문이 달린 걸 찾으시는 거죠? 아니요. 그건 이미 설치돼 있어요. 주방에서 쓸 거라서 안이 안 보여도 돼요. 케이크를 많이 넣을 수 있게 사이즈가 컸으면 좋겠어요. 이거 어떠세요? 저희 가게에 어제 들어온 제품인데요. 크기도 크고 6개월 정도 사용한 거라서 깨끗하고 좋아요. 다시 들으십시오. 카페에서 케이크 보관용으로 사용할 냉장고를 찾고 있는데요. 사용 기간이 얼마 안 된 중고 냉장고 있을까요? 손님들이 케이크를 보고 살 수 있게 유리문이 달린 걸 찾으시는 거죠? 아니요. 그건 이미 설치돼 있어요. 주방에서 쓸 거라서 안이 안 보여도 돼요. 케이크를 많이 넣을 수 있게 사이즈가 컸으면 좋겠어요. 이거 어떠세요? 저희 가게에 어제 들어온 제품인데요. 크기도 크고 6개월 정도 사용한 거라서 깨끗하고 좋아요.",
       "utterances": [
         {
@@ -15140,7 +15140,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "ad81d37e-a998-4bcb-b3b5-7e9e28f7644a",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746458843/soometa/91-II-listening/40_25-26.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-II-listening/40_25-26.mp3",
       "text": "올해로 3주년을 맞은 해바라기 축제에 정말 많은 분들이 찾아오고 있는데요. 어떻게 이렇게 성공할 수 있었나요? 마을의 장점을 살린 것이 좋은 결과로 이어졌다고 생각합니다. 우리 마을의 넓고 아름다운 해바라기 들판은 오래전부터 마을의 자랑이었는데요. 이런 특색을 활용해서 축제를 기획한 것이 관광객의 발길을 이끌었죠. 축제 기간에 특산품도 파는데요. 특히 해바라기씨로 만든 기름이 관광객들에게 인기가 좋습니다. 앞으로도 우리 마을이 가진 것을 잘 활용해서 이 축제를 더욱 발전시키려고 합니다. 다시 들으십시오. 올해로 3주년을 맞은 해바라기 축제에 정말 많은 분들이 찾아오고 있는데요. 어떻게 이렇게 성공할 수 있었나요? 마을의 장점을 살린 것이 좋은 결과로 이어졌다고 생각합니다. 우리 마을의 넓고 아름다운 해바라기 들판은 오래전부터 마을의 자랑이었는데요. 이런 특색을 활용해서 축제를 기획한 것이 관광객의 발길을 이끌었죠. 축제 기간에 특산품도 파는데요. 특히 해바라기씨로 만든 기름이 관광객들에게 인기가 좋습니다. 앞으로도 우리 마을이 가진 것을 잘 활용해서 이 축제를 더욱 발전시키려고 합니다.",
       "utterances": [
         {
@@ -16096,7 +16096,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "5cae4b9e-7366-4133-9ae0-1b80a741f6a0",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746458843/soometa/91-II-listening/40_27-28.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-II-listening/40_27-28.mp3",
       "text": "인주재과에서 새로 나온 과자 말이야. 맛있다고 해서 한번 먹어보고 싶은데 살 수가 없네. 여기저기 다 품절이래. 뉴스에서 들었는데 평소보다 4시간이나 더 작업해서 생산량을 두 배나 늘렸대. 그런데도 수요가 많아서 구하기 힘든 거래. 그래도 이렇게까지 사기 어려운 게 말이 돼? 과자를 사려고 하는 사람이 많으면 생산시설을 더 늘리면 되잖아. 그런 결정은 쉽지 않지. 그랬다가 과자의 인기가 식으면 비용을 들여 만든 시설이 쓸모없어지잖아. 그럼 회사의 손해가 클걸. 다시 들으십시오. 인주재과에서 새로 나온 과자 말이야. 맛있다고 해서 한번 먹어보고 싶은데 살 수가 없네. 여기저기 다 품절이래. 뉴스에서 들었는데 평소보다 4시간이나 더 작업해서 생산량을 두 배나 늘렸대. 그런데도 수요가 많아서 구하기 힘든 거래. 그래도 이렇게까지 사기 어려운 게 말이 돼? 과자를 사려고 하는 사람이 많으면 생산시설을 더 늘리면 되잖아. 그런 결정은 쉽지 않지. 그랬다가 과자의 인기가 식으면 비용을 들여 만든 시설이 쓸모없어지잖아. 그럼 회사의 손해가 클걸.",
       "utterances": [
         {
@@ -17102,7 +17102,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "213b6632-ca9b-4637-aca3-3040964f8c0c",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746458843/soometa/91-II-listening/40_29-30.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-II-listening/40_29-30.mp3",
       "text": "지금 하시는 일이 보통의 라디오 방송과 준비 과정이 다르다고요? 네. 저는 매일 오전 6시부터 오후 2시까지 30분마다 교통정보를 안내하고 있는데요. 도로에 설치된 여러 대의 CCTV와 시민들이 보낸. 문자를 보고 교통 상황을 분석해 시민들에게 전달합니다. 방송 중에도 도로 상황은 수시로 달라질 텐데요. 방송 내용을 미리 준비하기가 어려울 것 같습니다. 네. 미리 원고를 작성하기는 하지만 실시간 교통 상황을 보며 원고에 없는 내용을 전달할 때가 많습니다. 그래서 긴장을 늦출 수 없죠. 다시 들으십시오. 지금 하시는 일이 보통의 라디오 방송과 준비 과정이 다르다고요? 네, 저는 매일 오전 6시부터 오후 2시까지 30분마다 교통정보를 안내하고 있는데요. 도로에 설치된 여러 대의 CCTV와 시민들이 보낸. 문자를 보고 교통상황을 분석해 시민들에게 전달합니다. 방송 중에도 도로 상황은 수시로 달라질 텐데요. 방송 내용을 미리 준비하기가 어려울 것 같습니다. 네. 미리 원고를 작성하기는 하지만 실시간 교통 상황을 보며 원고에 없는 내용을 전달할 때가 많습니다. 그래서 긴장을 늦출 수 없죠.",
       "utterances": [
         {
@@ -18206,7 +18206,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "e9c792f2-8342-4173-a31b-ab6a05a9c7d6",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746458843/soometa/91-II-listening/40_31-32.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-II-listening/40_31-32.mp3",
       "text": "우리 지역에 생활 폐기물 처리 시설이 설치되는 것이 확정되면, 시설의 안전성 문제로 주민들의 반발이 거셀 텐데요. 지속적으로 주민 설명회를 열어 시설의 안전성에 대해 충분히 설명하고, 이미 안전성이 확인된 인주 씨의 사례를 적극적으로 알리면 우려하는 부분은 곧 해결될 겁니다. 그래도 우리 지역에는 안 된다는 인식을 바꾸기는 어려울 겁니다. 지역 광고도 하고 수영장 같은 여가시설이 보상으로 제공된다는 사실도 대대적으로 알리면 주민들의 인식도 분명히 바뀔 겁니다. 다시 들으십시오. 우리 지역에 생활 폐기물 처리 시설이 설치되는 것이 확정되면 시설의 안전성 문제로 주민들의 반발이 거셀 텐데요. 지속적으로 주민 설명회를 열어 시설의 안전성에 대해 충분히 설명하고 이미 안전성이 확인된 인주시의 사례를 적극적으로 알리면 우려하는 부분은 곧 해결될 겁니다. 그래도 우리 지역에는 안 된다는 인식을 바꾸기는 어려울 겁니다. 지역 광고도 하고 수영장 같은 여가시설이 보상으로 제공된다는 사실도 대대적으로 알리면 주민들의 인식도 분명히 바뀔 겁니다.",
       "utterances": [
         {
@@ -19177,7 +19177,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "4f1f1eeb-030d-4b39-b7bf-8befcfd7082a",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746458843/soometa/91-II-listening/40_33-34.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-II-listening/40_33-34.mp3",
       "text": "한 연구팀이 노화로 인해 인지 기능이 떨어지는 것을 막는데 음악 활동이 도움이 될 거라는 가설을 세우고 실험을 진행했습니다. 연구팀은 음악을 전문적으로 배운 적이 없는 노인들을 대상으로 6개월간 실험했는데요. 이 기간에 한 집단은 피아노를 배우게 했고 다른 집단은 음악 활동을 못하게 통제했습니다. 그 결과 음악 활동을 통제한 집단은 인지 기능의 저하가 진행된 데 비해 피아노를 배운 집단은 인지 기능이 떨어지지 않았습니다. 연구팀의 예상대로 음악 활동이 인지 기능의 저하를 막는데 긍정적으로 작용한 거죠. 다시 들으십시오. 한 연구팀이 노화로 인해 인지 기능이 떨어지는 것을 막는데 음악 활동이 도움이 될 거라는 가설을 세우고 실험을 진행했습니다. 연구팀은 음악을 전문적으로 배운 적이 없는 노인들을 대상으로 6개월간 실험했는데요. 이 기간에 한 집단은 피아노를 배우게 했고, 다른 집단은 음악 활동을 못하게 통제했습니다. 그 결과, 음악 활동을 통제한 집단은 인지 기능의 저하가 진행된 데 비해 피아노를 배운 집단은 인지 기능이 떨어지지 않았습니다. 연구팀의 예상대로 음악 활동이 인지 기능의 저하를 막는 데 긍정적으로 작용한 거죠.",
       "utterances": [
         {
@@ -20211,7 +20211,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "58dbd9ef-7112-495e-be08-761eb516adef",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746458843/soometa/91-II-listening/40_35-36.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-II-listening/40_35-36.mp3",
       "text": "오늘은 우리 박물관에 전시되어 있는 한 통의 편지가 국가 보물로 지정된 뜻깊은 날입니다. 이 편지는 조선 초기 한 군인이 아내에게 보낸 것인데요. 가족을 잘 보살펴달라는 당부와 입을 옷을 몇 벌 보내달라고 부탁하는 내용이 한글로 쓰여 있습니다. 평범한 사람이 쓴 일상적인 내용의 편지지만 학술적, 역사적 가치는 매우 큽니다. 조선 초기에 사용된 호칭과 높임말 같은 언어 생활을 비롯해 당시 사람들의 생활상과 복싱 문화 등을 알 수 있기 때문입니다. 앞으로 이 편지가 다양한 연구에 활용되길 기대합니다. 다시 들으십시오. 오늘은 우리 박물관에 전시되어 있는 한 통의 편지가 국가 보물로 지정된 뜻깊은 날입니다. 이 편지는 조선 초기 한 군인이 아내에게 보낸 것인데요. 가족을 잘 보살펴달라는 당부와 입을 옷을 몇 벌 보내달라고 부탁하는 내용이 한글로 쓰여 있습니다. 평범한 사람이 쓴 일상적인 내용의 편지지만 학술적, 역사적 가치는 매우 큽니다. 조선 초기에 사용된 호칭과 높임말 같은 언어 생활을 비롯해 당시 사람들의 생활상과 복싱 문화 등을 알 수 있기 때문입니다. 앞으로 이 편지가 다양한 연구에 활용되길 기대합니다.",
       "utterances": [
         {
@@ -21266,7 +21266,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "f4ebab4a-02ec-454c-9f18-508407aca7e6",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746458843/soometa/91-II-listening/40_37-38.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-II-listening/40_37-38.mp3",
       "text": "교수님, 한국의 산에는 30년 이상 된 오래된 나무가 많다고 하는데요. 어떻게 관리되어야 할까요? 네, 그런 나무가 72%나 되는데요. 그러다 보니 나무의 고령화로 인해 산림의 탄소 흡수량과 저장량이 줄어들고 있는 상황입니다. 나무가 30년 이상 되면 탄소를 흡수하고 저장하는 능력이 현저히 떨어지기 때문이죠. 그래서 오래된 나무를 베어내고 어린 나무를 심는 방식의 산림순환경영을 도입해 관리해야 합니다. 산림순환 경영을 도입하면 목재 활용 면에서도 유용한데요. 한국은 목재 수입 비중이 상당히 높은데 산림을 순환시키면 목재 수입량을 크게 줄일 수 있습니다. 다시 들으십시오. 교수님, 한국의 산에는 30년 이상 된 오래된 나무가 많다고 하는데요. 어떻게 관리되어야 할까요? 네, 그런 나무가 72%나 되는데요. 그러다 보니 나무의 고령화로 인해 산림의 탄소 흡수량과 저장량이 줄어들고 있는 상황입니다. 나무가 30년 이상 되면 탄소를 흡수하고 저장하는 능력이 현저히 떨어지기 때문이죠. 그래서 오래된 나무를 베어내고 어린 나무를 심는 방식의 산림순환경영을 도입해 관리해야 합니다. 산림순환 경영을 도입하면 목재 활용 면에서도 유용한데요. 한국은 목재 수입 비중이 상당히 높은데 산림을 순환시키면 목재 수입량을 크게 줄일 수 있습니다.",
       "utterances": [
         {
@@ -22362,7 +22362,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "3547f752-8f26-4bc1-84d2-efc69d0bfe08",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746458843/soometa/91-II-listening/40_39-40.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-II-listening/40_39-40.mp3",
       "text": "박사님, 대기권에서 그런 위험한 사고가 발생했었군요. 앞으로 인공위성이 더 많아지면 이로 인한 사고도 늘어날 텐데요. 네. 앞으로 더 많은 인공위성이 쏘아 올려지면 앞서 말씀드린 것과 같은 폭발 사고는 더 많아질 겁니다. 충돌 사고, 전파 방해 같은 사고도 일어날 수 있고요. 이런 걸 대비해 오래전에 만들어 놓은 우주 조약이 있긴 한데요. 문제는 내용이 구체적이지 않고 꼭 지켜야 한다는 강제성이 없다는 거죠. 앞으로 발생할 수 있는 여러 문제를 해결하기 위해서라도 우주 조약을 현실에 맞게 개정하고 보완해야 합니다. 나아가서는 법적 효력을 갖는 국제우주법을 제정해야 하고요. 다시 들으십시오. 박사님, 대기권에서 그런 위험한 사고가 발생했었군요. 앞으로 인공위성이 더 많아지면 이로 인한 사고도 늘어날 텐데요. 네. 앞으로 더 많은 인공위성이 쏘아 올려지면 앞서 말씀드린 것과 같은 폭발 사고는 더 많아질 겁니다. 충돌 사고, 전파 방해 같은 사고도 일어날 수 있고요. 이런 걸 대비해 오래전에 만들어 놓은 우주 조약이 있긴 한데요. 문제는 내용이 구체적이지 않고 꼭 지켜야 한다는 강제성이 없다는 거죠. 앞으로 발생할 수 있는 여러 문제를 해결하기 위해서라도 우주 조약을 현실에 맞게 개정하고 보완해야 합니다. 나아가서는 법적 효력을 갖는 국제 우주법을 제정해야 하고요.",
       "utterances": [
         {
@@ -23595,7 +23595,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "24b38bc6-440a-4d5e-bc75-c22598464fdf",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746458843/soometa/91-II-listening/40_41-42.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-II-listening/40_41-42.mp3",
       "text": "제조업체들이 서비스업을 병행하며 사업 영역을 확장해 나가고 있습니다. 즉, 고객에게 직접 서비스를 제공하면서 변화를 도모하고 있는 건데요. 선박 엔진을 생산하는 한 업체를 이해로 들어볼까요? 조선업계의 경기가 살아나면서 엔진 판매가 활발해졌는데요. 이 업체는 엔진 판매와 함께 엔진 상태를 실시간으로 점검해주는 서비스 사업도 하고 있습니다. 서비스 시스템 구축에 많은 비용이 들어갔지만, 이 서비스가 부품 판매와 수리 작업으로 이어져 안정적인 수입원이 되고 있죠. 이러한 방식을 통해 제조업이 한 단계 진화하고 있습니다. 다시 들으십시오. 제조업체들이 서비스업을 병행하며 사업 영역을 확장해 나가고 있습니다. 즉, 고객에게 직접 서비스를 제공하면서 변화를 도모하고 있는 건데요. 선박 엔진을 생산하는 한 업체를 이해로 들어볼까요? 조선업계의 경기가 살아나면서 엔진 판매가 활발해졌는데요. 이 업체는 엔진 판매와 함께 엔진 상태를 실시간으로 점검해주는 서비스 사업도 하고 있습니다. 서비스 시스템 구축에 많은 비용이 들어갔지만, 이 서비스가 부품 판매와 수리 작업으로 이어져 안정적인 수입원이 되고 있죠. 이러한 방식을 통해 제조업이 한 단계 진화하고 있습니다.",
       "utterances": [
         {
@@ -24580,7 +24580,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "34b85e1d-6e5a-4f92-93a8-ce9dcee274cd",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746458843/soometa/91-II-listening/40_43-44.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-II-listening/40_43-44.mp3",
       "text": "서울 도심 한가운데 다른 세상 같은 공간이 존재한다. 조선의 역대 왕과 왕비의 제사를 모시는 종묘의 정전이다. 낮은 담장을 지나 정전을 정면으로 마주한 순간 크기와 위험에 압도된다. 그 중 단연 눈에 띄는 것은 지붕이다. 가로 길이만 101미터다. 수평선처럼 일직선으로 길게 뻗은 지붕은 마치 바닥까지 덮을 듯 아래로 내려와 있다. 좌우가 완벽하게 대칭을 이룬 모습에 감탄이 절로 나온다. 지붕 아래엔 화려한 색깔 하나 없는 단아한 기둥들이 절묘한 균형을 이루며 줄지어 서 있다. 이렇듯 종묘 정전은 제사를 드리는 엄숙한 곳답게 절제된 아름다움으로 신성하고 장엄한 분위기를 자아낸다. 다시 들으십시오. 서울 도심 한가운데 다른 세상 같은 공간이 존재한다. 조선의 역대 왕과 왕비의 제사를 모시는 종묘의 정전이다. 낮은 담장을 지나 정전을 정면으로 마주한 순간 크기와 위험에 압도된다. 그중 단연 눈에 띄는 것은 지붕이다. 가로 길이만 101미터다. 수평선처럼 일직선으로 길게 뻗은 지붕은 마치 바닥까지 덮을 듯 아래로 내려와 있다. 좌우가 완벽하게 대칭을 이룬 모습에 감탄이 절로 나온다. 지붕 아래엔 화려한 색깔 하나 없는 단아한 기둥들이 절묘한 균형을 이루며 줄지어 서 있다. 이렇듯 종묘 정전은 제사를 드리는 엄숙한 곳답게 절제된 아름다움으로 신성하고 장엄한 분위기를 자아낸다.",
       "utterances": [
         {
@@ -25768,7 +25768,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "42b444d2-8bd6-4588-a7fb-d97d8d621e44",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746458843/soometa/91-II-listening/40_45-46.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-II-listening/40_45-46.mp3",
       "text": "여기 오른쪽 아랫배, 대장이 시작되는 부분에 주머니처럼 생긴 기관이 맹장인데요. 이 맹장 끝에 꼬리처럼 붙어 있는 게 충수입니다. 충수는 소화 과정에 전혀 관여하지 않고, 걸핏하면 염증을 일으켜 쓸모없는 기관으로 여겨졌습니다. 그래서 충수에 염증이 생기면 제거해버렸죠. 그런데 충수가 면역 기능을 강화하는 데에 기여한다는 사실이 밝혀졌습니다. 충수가 장내 미생물을 비축해두는 창고 역할을 한다는 것이죠. 대장의 탈이 나면 충수에 담겨있는 유산균 같은 미생물들이 대장으로 이동해 회복을 돕습니다. 그래서 최근에 충수염이 생겼을 때 충수를 보존하며 치료하는 방법이 연구되고 있습니다. 다시 들으십시오. 여기 오른쪽 아랫배, 대장이 시작되는 부분에 주머니처럼 생긴 기관이 맹장인데요. 이 맹장 끝에 꼬리처럼 붙어 있는 게 충수입니다. 충수는 소화 과정에 전혀 관여하지 않고, 걸핏하면 염증을 일으켜 쓸모없는 기관으로 여겨졌습니다. 그래서 충수에 염증이 생기면 제거해버렸죠. 그런데 충수가 면역 기능을 강화하는 데에 기여한다는 사실이 밝혀졌습니다. 충수가 장내 미생물을 비축해두는 창고 역할을 한다는 것이죠. 대장의 탈이 나면 충수에 담겨있는 유산균 같은 미생물들이 대장으로 이동해 회복을 돕습니다. 그래서 최근에 충수염이 생겼을 때 충수를 보존하며 치료하는 방법이 연구되고 있습니다.",
       "utterances": [
         {
@@ -26851,7 +26851,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "6265168f-a3f7-414c-b3b3-c2430ac7d9e3",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746458843/soometa/91-II-listening/40_47-48.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-II-listening/40_47-48.mp3",
       "text": "수익이 줄면서 부족해진 영업비용을 매우려고 불가피하게 빚을 내는 소상공인이 늘고 있습니다. 어떤 대책이 필요할까요? 경영에 어려움을 겪는 소상공인에게는 금융지원이 시급합니다. 이때 중요한 건 그들이 처한 상황에 따라 지원 방식이 달라야 한다는 겁니다. 가령, 대출 의존도가 높은 사업체는 이자율을 낮추거나 대출금을 나눠 갚는 식으로 채무를 조정해줘야 합니다. 또, 매출액이 적은 사업체는 영업비용을 줄일 수 있도록 인건비나 임대료 등의 고정비용을 지원하는 게 효과적이고요. 이처럼, 경영난을 해소하는데 실질적인 도움이 되는 지원책이 하루빨리 마련되면 좋겠습니다. 다시 들으십시오. 수익이 줄면서 부족해진 영업비용을 메우려고 불가피하게 빚을 내는 소상공인이 늘고 있습니다. 어떤 대책이 필요할까요? 경영에 어려움을 겪는 소상공인에게는 금융지원이 시급합니다. 이때 중요한 건 그들이 처한 상황에 따라 지원 방식이 달라야 한다는 겁니다. 가령, 대출 의존도가 높은 사업체는 이자율을 낮추거나 대출금을 나눠 갚는 식으로 채무를 조정해줘야 합니다. 또 매출액이 적은 사업체는 영업비용을 줄일 수 있도록 인건비나 임대료 등의 고정비용을 지원하는 게 효과적이고요. 이처럼 경영난을 해소하는 데 실질적인 도움이 되는 지원책이 하루빨리 마련되면 좋겠습니다.",
       "utterances": [
         {
@@ -27912,7 +27912,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "54e347bb-ff0c-4be8-b763-b51de6e168bb",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746458843/soometa/91-II-listening/40_49-50.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/91-II-listening/40_49-50.mp3",
       "text": "한 철학자는 행위의 결과와는 무관하게 인간이 지켜야 할 도덕적 의무만을 기준으로 도덕성을 판단해야 한다고 주장했는데요. 보편적 견해와 달리 동정심과 같은 행위자의 감정은 배제한 거죠. 예를 들어 연민의 감정에 이끌려 채권자에게 갚아야 할 돈으로 경제적 어려움에 빠진 이웃을 도와주는 것은 도덕적으로 정당한 행위가 아니라는 겁니다. 이 철학자의 기준에 따르면 도움을 청하는 사람을 외면하고 출근 시간을 지켜 회사에 간 사람이 도덕적으로 선한 사람이 됩니다. 물론 이 철학자의 견해는 인간의 감정을 고려하지 않았다는 점에서 이견이 있을 수는 있지만, 어느 한 면만을 보고 누군가의 도덕성을 판단하는 걸 자제해야 한다는 점을 다시 생각하게 합니다. 다시 들으십시오. 한 철학자는 행위의 결과와는 무관하게 인간이 지켜야 할 도덕적 의무만을 기준으로 도덕성을 판단해야 한다고 주장했는데요. 보편적 견해와 달리 동정심과 같은 행위자의 감정은 배제한 거죠. 예를 들어 연민의 감정에 이끌려 채권자에게 갚아야 할 돈으로 경제적 어려움에 빠진 이웃을 도와주는 것은 도덕적으로 정당한 행위가 아니라는 겁니다. 이 철학자의 기준에 따르면 도움을 청하는 사람을 외면하고 출근 시간을 지켜 회사에 간 사람이 도덕적으로 선한 사람이 됩니다. 물론 이 철학자의 견해는 인간의 감정을 고려하지 않았다는 점에서 이견이 있을 수는 있지만 어느 한 면만을 보고 누군가의 도덕성을 판단하는 걸 자제해야 한다는 점을 다시 생각하게 합니다.",
       "utterances": [
         {
@@ -29191,7 +29191,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "1a6bcbe6-4783-4159-9dae-09be073491a7",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503641/soometa/83-I-listening/2_01.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-I-listening/2_01.mp3",
       "text": "1번. 학생이에요?",
       "utterances": [
         {
@@ -29224,7 +29224,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "40d1e89e-fc34-4239-9ac8-49be19ca9b8a",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503641/soometa/83-I-listening/2_02.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-I-listening/2_02.mp3",
       "text": "책을 읽어요.",
       "utterances": [
         {
@@ -29257,7 +29257,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "3c96a21e-aabb-4a83-a8c6-2789e6a7dceb",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503641/soometa/83-I-listening/2_03.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-I-listening/2_03.mp3",
       "text": "3번. 우리 어디에서 이야기해요?",
       "utterances": [
         {
@@ -29304,7 +29304,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "3452da77-a928-4841-823c-204ae03f94cb",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503641/soometa/83-I-listening/2_04.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-I-listening/2_04.mp3",
       "text": "4번 공항에 어떻게 갔어요?",
       "utterances": [
         {
@@ -29351,7 +29351,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "29b4271f-709d-488b-9c34-94303e873df2",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503641/soometa/83-I-listening/2_05.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-I-listening/2_05.mp3",
       "text": "5번 미안해요.",
       "utterances": [
         {
@@ -29384,7 +29384,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "da2a0f1d-3505-4b56-8692-2c3f83f90fe5",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503641/soometa/83-I-listening/2_06.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-I-listening/2_06.mp3",
       "text": "6번 잠깐만 기다리세요.",
       "utterances": [
         {
@@ -29424,7 +29424,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "5af95568-8869-46c0-9748-ccbeab82b6d7",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503641/soometa/83-I-listening/2_07.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-I-listening/2_07.mp3",
       "text": "7번. 어서 오세요. 뭘 드릴까요? 오렌지. 10개 주세요. 다시 들으십시오. 어서 오세요. 뭘 드릴까요? 오렌지. 10개 주세요.",
       "utterances": [
         {
@@ -29634,7 +29634,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "0b5c631d-be91-4917-ae92-c0acb121c9be",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503641/soometa/83-I-listening/2_08.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-I-listening/2_08.mp3",
       "text": "여기는. 비빔밥이 맛있어요. 그럼 우리 비빔밥을 먹어요. 다시 들으십시오. 여기는 비빔밥이 맛있어요. 그럼 우리 비빔밥을 먹어요.",
       "utterances": [
         {
@@ -29801,7 +29801,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "5a617085-4833-43bb-9c4c-c5651b54dd4f",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503641/soometa/83-I-listening/2_09.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-I-listening/2_09.mp3",
       "text": "이. 구두를 신어보고. 싶어요. 네, 이쪽으로 오세요. 다시 들으십시오. 이 구두를 신어보고. 싶어요. 네, 이쪽으로 오세요.",
       "utterances": [
         {
@@ -29986,7 +29986,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "b32ab306-5525-455b-b82a-a7a09761ebc2",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503641/soometa/83-I-listening/2_10.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-I-listening/2_10.mp3",
       "text": "식사 후에 이 약을 드세요. 감사합니다. 얼마예요? 다시 들으십시오. 식사 후에 이 약을 드세요. 감사합니다. 얼마예요?",
       "utterances": [
         {
@@ -30144,7 +30144,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "651dd87b-35cb-4437-b05f-9daa15494878",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503641/soometa/83-I-listening/2_11.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-I-listening/2_11.mp3",
       "text": "11번. 수미 씨, 오빠가 있어요? 아니요. 언니가 있어요. 다시 들으십시오. 수미 씨, 오빠가 있어요? 아니요. 언니가 있어요.",
       "utterances": [
         {
@@ -30318,7 +30318,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "2fe4636d-a2ea-40c6-ba0b-198a537f661d",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503641/soometa/83-I-listening/2_12.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-I-listening/2_12.mp3",
       "text": "12번 내일 시험이 몇 시예요? 2시예요. 다시 들으십시오. 내일 시험이 몇 시예요? 2시예요.",
       "utterances": [
         {
@@ -30428,7 +30428,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "dc3763eb-c14c-4c9c-b6d0-b9e840bfa524",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503641/soometa/83-I-listening/2_13.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-I-listening/2_13.mp3",
       "text": "저는 농구를 좋아해요. 수미 씨는요? 저는 테니스를 좋아해요. 다시. 들으십시오. 저는 농구를 좋아해요. 수미 씨는요? 저는 테니스를 좋아해요.",
       "utterances": [
         {
@@ -30600,7 +30600,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "2128b880-be39-42a7-ab70-8549e03fa8ff",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503641/soometa/83-I-listening/2_14.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-I-listening/2_14.mp3",
       "text": "14번. 그 가방 좋네요. 비싼 거예요? 아니요. 비싸지. 않아요. 2만 원이에요. 다시 들으십시오. 그 가방 좋네요. 비싼 거예요? 아니요. 비싸지. 않아요. 2만 원이에요.",
       "utterances": [
         {
@@ -30852,7 +30852,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "f3fbc22a-b18e-4c87-89ff-3011b0c57300",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503641/soometa/83-I-listening/2_15.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-I-listening/2_15.mp3",
       "text": "15번 저 우산은 어디에 있어요? 저기 창문 밑에 있습니다. 다시 들으십시오. 저 우산은 어디에 있어요? 저기 창문 밑에 있습니다.",
       "utterances": [
         {
@@ -31031,7 +31031,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "a209ee3d-400b-4a47-8a50-832be9f8a90e",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503641/soometa/83-I-listening/2_16.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-I-listening/2_16.mp3",
       "text": "우리 15번 버스를 타지요. 네, 이 정류장에서 탈 수 있네요. 다시 들으십시오. 우리 15번 버스를 타지요. 네, 이 정류장에서 탈 수 있네요.",
       "utterances": [
         {
@@ -31204,7 +31204,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "c3131351-f4c9-4e6c-8d48-560ef478938f",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503641/soometa/83-I-listening/2_17.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-I-listening/2_17.mp3",
       "text": "17번. 민수 씨, 주말에 뭐 했어요? 드라마도 보고 집에서 쉬었어요. 수미 씨는요? 저는 일요일에 친구하고 수영장에 갔어요. 다시 들으십시오. 민수 씨, 주말에 뭐 했어요? 드라마도 보고 집에서 쉬었어요. 수미 씨는요? 저는 일요일에 친구하고 수영장에 갔어요.",
       "utterances": [
         {
@@ -31513,7 +31513,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "dd10b029-7af2-49e8-84e8-74d69322aaab",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503641/soometa/83-I-listening/2_18.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-I-listening/2_18.mp3",
       "text": "18번 와, 김치찌개 맛있네요. 그래요? 우리 어머니한테 배웠는데 괜찮아요? 네, 맛있어요. 저는 요리 잘 못하는데. 저도 아직 잘 못해서 어머니한테 가끔 배워요. 다시 들으십시오. 와, 김치찌개 맛있네요. 그래요? 우리 어머니한테 배웠는데 괜찮아요? 네, 맛있어요. 저는 요리 잘 못하는데. 저도 아직 잘 못해서 어머니한테 가끔 배워요.",
       "utterances": [
         {
@@ -31910,7 +31910,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "2fdedef5-5184-449b-a263-b467324aa834",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503641/soometa/83-I-listening/2_19.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-I-listening/2_19.mp3",
       "text": "우리 이따가 수업 끝나고 영화 보러 갈래요? 음... 날씨도 좋은데 한강 공원은 어때요? 좋아요. 거기 가요. 수업 끝나고 가면 시원하고 좋을 것 같아요. 그래요. 다음에는 영화 보러 가요. 다시 들으십시오. 우리 이따가 수업 끝나고 영화 보러 갈래요? 음... 날씨도 좋은데 한강 공원은 어때요? 좋아요. 거기 가요. 수업 끝나고 가면 시원하고 좋을 것 같아요. 그래요. 다음에는 영화 보러 가요.",
       "utterances": [
         {
@@ -32398,7 +32398,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "f83d3e5f-2ec9-43aa-b35b-aa19ea824f6c",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503641/soometa/83-I-listening/2_20.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-I-listening/2_20.mp3",
       "text": "20번. 민수 씨, 인터넷으로 안 쓰는 물건 팔아봤어요? 네, 많이 팔아봤어요. 왜요? 뭐 팔고 싶은 거 있어요? 작은 책상이 하나 있는데 팔고 싶어서요. 그런 물건을 팔 수 있는 인터넷 사이트가 많아요. 제가 알려드릴게요. 다시 들으십시오. 민수 씨, 인터넷으로 안 쓰는 물건 팔아봤어요? 네, 많이 팔아봤어요. 왜요? 뭐 팔고 싶은 거 있어요? 작은 책상이 하나 있는데 팔고 싶어서요. 그런 물건을 팔 수 있는 인터넷 사이트가 많아요. 제가 알려드릴게요.",
       "utterances": [
         {
@@ -32958,7 +32958,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "f1a77ed1-588d-423b-8279-44b00b6760c5",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503641/soometa/83-I-listening/2_21.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-I-listening/2_21.mp3",
       "text": "여보세요? 거기 사랑병원이죠? 수요일 오후에 예약하고 싶은데요. 수요일요? 잠시만요. 몇 시쯤 오시겠어요? 3시쯤 가도 될까요? 네, 됩니다. 이름과 전화번호를 말씀해 주세요. 다시 들으십시오. 여보세요? 거기 사랑병원이죠? 수요일 오후에 예약하고 싶은데요. 수요일요? 잠시만요. 몇 시쯤 오시겠어요? 3시쯤 가도 될까요? 네, 됩니다. 이름과 전화번호를 말씀해 주세요.",
       "utterances": [
         {
@@ -33348,7 +33348,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "f8646bb3-4abf-4297-ab83-575b9d538fac",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503641/soometa/83-I-listening/2_22.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-I-listening/2_22.mp3",
       "text": "22번 마이클 씨, 한국어 말하기 연습 많이 해요? 네, 선생님. 우리 반 친구들하고 자주 만나서 연습해요. 한국 사람하고도 이야기를 많이 해보세요. 도움이 될 거예요. 네, 저도 한국 사람하고 이야기 많이 하고 싶어요. 다시 들으십시오. 마이클 씨, 한국어 말하기 연습 많이 해요? 네, 선생님. 우리 반 친구들하고 자주 만나서 연습해요. 한국 사람하고도 이야기를 많이 해보세요. 도움이 될 거예요. 네, 저도 한국 사람하고 이야기 많이 하고 싶어요.",
       "utterances": [
         {
@@ -33822,7 +33822,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "12f83de2-07f1-46f1-b23f-2a964ec10c84",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503641/soometa/83-I-listening/2_23.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-I-listening/2_23.mp3",
       "text": "23번. 시계가 고장 났는데 고칠 수 있을까요? 한번 볼게요. 꽤 오래된 시계네요. 이거 제가 정말 좋아하는 시계예요. 계속 쓰고 싶어요. 네, 그럼 고쳐보고 연락드리겠습니다. 다시 들으십시오. 시계가 고장 났는데 고칠 수 있을까요? 한번 볼게요. 꽤 오래된 시계네요. 이거 제가 정말 좋아하는 시계예요.",
       "utterances": [
         {
@@ -34198,7 +34198,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "f05e070d-6395-4a39-ba1e-ad3d52b6f95a",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503641/soometa/83-I-listening/2_24.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-I-listening/2_24.mp3",
       "text": "24번 와, 케이팝 가수들은 노래도 잘하고 춤도 잘 추네요. 맞아요. 그런데 저는 춤을 추는 게 특히 멋있어 보여요. 그래요? 노래를 잘하는 게 더 멋있지 않아요? 아니에요. 공연장에 한번 가보세요. 춤이 정말 최고예요. 다시 들으십시오. 와, 케이팝 가수들은 노래도 잘하고 춤도 잘 추네요. 맞아요. 그런데 저는 춤을 추는 게 특히 멋있어 보여요. 그래요? 노래를 잘하는 게 더 멋있지 않아요? 아니에요. 공연장에 한번 가보세요. 춤이 정말 최고예요.",
       "utterances": [
         {
@@ -34735,7 +34735,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "09abe0b2-0a18-4e46-9c84-340c949c3207",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503641/soometa/83-I-listening/2_25-26.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-I-listening/2_25-26.mp3",
       "text": "다음을 듣고 물음에 답하십시오. 잠시 안내 말씀 드립니다. 우리 회사에서는 사랑의 아침밥 행사를 엽니다. 식사를 못하고 출근하시는 분들을 위해 내일부터 한 달 동안 아침 식사를 무료로 드립니다. 건강에 좋고 맛있는 식사가 준비됩니다. 1층 식당에 오셔서 아침을 드시고 즐거운 하루를 시작하시기 바랍니다. 감사합니다. 다시 들으십시오. 잠시 안내 말씀 드립니다. 우리 회사에서는 사랑의 아침밥 행사를 엽니다. 식사를 못하고 출근하시는 분들을 위해 내일부터 한 달 동안 아침 식사를 무료로 드립니다. 건강에 좋고 맛있는 식사가 준비됩니다. 1층 식당에 오셔서 아침을 드시고 즐거운 하루를 시작하시기 바랍니다. 감사합니다.",
       "utterances": [
         {
@@ -35328,7 +35328,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "e74f5b62-8bec-485c-af16-bf21c2ae26f8",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503641/soometa/83-I-listening/2_27-28.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-I-listening/2_27-28.mp3",
       "text": "다음을 듣고 물음에 답하십시오. 수미 씨, 꽃이 예쁘네요. 선물 받은 거예요? 아니요. 제가 산 거예요. 아, 왜요? 누구 생일이에요? 그냥 제 책상 위에 놓으려고요. 예쁜 꽃을 보면 기분이 좋아져서 자주 사요. 아, 그렇군요. 저는 선물하려고 가끔 사는데 그게 아니면 잘 안 사요. 보통 그래요. 특별한 날에 많이 사지요. 다시 들으십시오. 수미 씨, 꽃이 예쁘네요. 선물 받은 거예요? 아니요. 제가 산 거예요. 아, 왜요? 누구 생일이에요? 그냥 제 책상 위에 놓으려고요. 예쁜 꽃을 보면 기분이 좋아져서 자주 사요. 아, 그렇군요. 저는 선물하려고 가끔 사는데 그게 아니면 잘 안 사요. 보통 그래요. 특별한 날에 많이 사지요.",
       "utterances": [
         {
@@ -36104,7 +36104,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "385433e7-ba95-4ee9-8e56-eb566ca6948a",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503641/soometa/83-I-listening/2_29-30.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-I-listening/2_29-30.mp3",
       "text": "다음을 듣고 물음에 답하십시오. 김민수 경찰관님, 이번에 책을 쓰셨지요? 어떤 책입니까? 제가 경찰이 된 지 8년이 됐는데요. 그동안 경험한 일을 쓴 겁니다. 네, 특별히 이 책을 쓰신 이유가 있으세요? 사람들의 생각처럼 경찰관은 힘든 일을 많이 합니다. 하지만 기쁘고 행복한 일도 많아요. 이런 일들을 알려주려고 작년부터 글을 쓰기 시작했습니다. 아, 행복한 일들이요. 어떤 일들이죠? 몇 달 전에 제가 어떤 아이의 가방을 찾아줬어요. 그런데 그 아이가 일을 잘했다고 저에게 상을 주는 거예요. 아이가 직접 만든 상과 편지를 받았는데 칭찬을 받은 것 같아서 행복했어요. 다시 들으십시오. 김민수 경찰관님, 이번에 책을 쓰셨지요? 어떤 책입니까? 제가 경찰이 된 지 8년이 됐는데요. 그동안 경험한 일을 쓴 겁니다. 네, 특별히 이 책을 쓰신 이유가 있으세요? 사람들의 생각처럼 경찰관은 힘든 일을 많이 합니다. 하지만 기쁘고 행복한 일도 많아요. 이런 일들을 알려주려고 작년부터 글을 쓰기 시작했습니다. 아, 행복한 일들이요? 어떤 일들이죠? 몇 달 전에 제가 어떤 아이의 가방을 찾아줬어요. 그런데 그 아이가 일을 잘했다고 저에게 상을 주는 거예요. 아이가 직접 만든 상과 편지를 받았는데 칭찬을 받은 것 같아서 행복했어요. 29번.",
       "utterances": [
         {
@@ -37358,7 +37358,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "40ee9691-1ce7-4b45-8748-ea541120e9ce",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512342/soometa/83-II-listening/4_01.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-II-listening/4_01.mp3",
       "text": "1번. 지금 전시장에 들어갈 수 있어요? 잠시만 기다려주세요. 곧 입장 시작합니다. 네, 알겠습니다.",
       "utterances": [
         {
@@ -37495,7 +37495,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "93b3500f-5ffb-4a6b-9b78-8a7a4bf19ea4",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512342/soometa/83-II-listening/4_02.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-II-listening/4_02.mp3",
       "text": "2번 아, 무거워. 이 화분은 어디에 놓을까? 여기 창문 앞은 어때? 그래, 거기가 좋겠다.",
       "utterances": [
         {
@@ -37630,7 +37630,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "affed3e2-edd5-4792-9161-8e8c191fc44a",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512342/soometa/83-II-listening/4_03.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-II-listening/4_03.mp3",
       "text": "3번 외국인 관광객들이 한국을 방문하는 목적은 휴가가 가장 많았습니다. 다음으로 사업과 친척 방문이 뒤를 이었는데요. 그렇다면 외국인 관광객들은 누구와 함께 한국에 올까요? 가족이나 친구가 54%로 가장 많았고, 혼자가 33%, 동료가 10%로 나타났습니다.",
       "utterances": [
         {
@@ -37873,7 +37873,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "ee5f5436-5e47-4d68-ad66-566626c260d3",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512342/soometa/83-II-listening/4_04.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-II-listening/4_04.mp3",
       "text": "4번. 민수야, 내가 빌려준 책 읽고 있어? 재미있지? 응, 재미있어. 근데 언제까지 돌려주면 돼?",
       "utterances": [
         {
@@ -38008,7 +38008,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "ed4136fc-ea13-4449-a564-b3e47be6100b",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512342/soometa/83-II-listening/4_05.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-II-listening/4_05.mp3",
       "text": "아직도 아르바이트를 못 구했어요. 학교 앞 식당에서 일할 사람을 찾던데요.",
       "utterances": [
         {
@@ -38106,7 +38106,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "fde3e68c-a49b-4848-b3f7-7ed33818305c",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512342/soometa/83-II-listening/4_06.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-II-listening/4_06.mp3",
       "text": "나는. 이 운동화로 할래. 너는 뭐 살 거야? 난 파란색하고 하얀색 둘 다 마음에 드는데 뭐가 더 괜찮아?",
       "utterances": [
         {
@@ -38269,7 +38269,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "a58798d0-af9c-47d7-8830-2b66f78f587f",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512342/soometa/83-II-listening/4_07.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-II-listening/4_07.mp3",
       "text": "뉴스에서 봤는데 주말부터 장마가 시작된대요. 그래요? 올해도 작년만큼 비가 많이 올까요?",
       "utterances": [
         {
@@ -38374,7 +38374,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "bbda6388-9abc-42d2-ad63-5672e72c6ae1",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512342/soometa/83-II-listening/4_08.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-II-listening/4_08.mp3",
       "text": "8번. 고객센터죠? 일주일 전에 의자를 주문했는데 아직 안 와서요. 죄송합니다. 주문량이 많아서 배송이 늦어지고 있습니다.",
       "utterances": [
         {
@@ -38516,7 +38516,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "600e90b1-9473-4649-8e64-c69e0f7cce9d",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512342/soometa/83-II-listening/4_09.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-II-listening/4_09.mp3",
       "text": "사과는 다 씻었고 이제 자르면 되겠다. 자르는 건 내가 할 테니까 거기 있는 냄비 좀 줄래? 여기 있어. 근데 잼 만들려면 설탕이 더 필요하겠네. 내가 찾아올까? 응. 좀 갖다 줘.",
       "utterances": [
         {
@@ -38772,7 +38772,7 @@ export const transAudio= [
     {
       "status_script": "completed",
       "id": "458eae35-5a70-48e8-b34d-65433fc73cca",
-      "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512342/soometa/83-II-listening/4_10.mp3",
+      "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-II-listening/4_10.mp3",
       "text": "10번 손님, 놀이기구 타실 거죠? 그러면 가방은 여기에 보관하시겠어요? 네, 여기요. 모자는 쓰고 타도 돼요? 그것도 날아갈 수 있으니까 같이 보관해 드릴게요. 알겠습니다.",
       "utterances": [
         {
@@ -38980,7 +38980,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "8fff7c0c-566c-46b5-9b20-c574ac75c4dd",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512342/soometa/83-II-listening/4_11.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-II-listening/4_11.mp3",
     "text": "11번. 빨래방은 처음인데 먼저 코스 선택하고 세탁물 넣으면 되나? 여기 안내문 있다. 세탁물 넣은 후에 코스 선택하고 동전 넣으래. 나 동전은 없는데. 아, 저기 동전 교환기 있네. 바꿔올게. 응. 난 또 뭘 해야 되는지 읽어볼게.",
     "utterances": [
       {
@@ -39280,7 +39280,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "16c0d3f8-0ed3-4d22-a9db-f53802954c69",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512342/soometa/83-II-listening/4_12.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-II-listening/4_12.mp3",
     "text": "12번 감독님, 촬영 준비 끝났습니다. 물건들도 제자리에 놓았고요. 그럼 카메라 화면에서 어떻게 보이는지 확인해 봅시다. 저 거울이 꼭 필요할까요? 거울이 커서 그런지 사무실처럼 보이지가 않네요. 치울까요? 네, 그렇게 해주세요.",
     "utterances": [
       {
@@ -39502,7 +39502,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "4b2e9d8e-63b9-4437-ba92-70e478cbd84b",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512342/soometa/83-II-listening/4_13.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-II-listening/4_13.mp3",
     "text": "13번. 이 사진 좀 볼래? 이게 모형이래. 실제 배하고 똑같지? 와, 정말 잘 만들었다. 근데 뭐로 만든 거야? 나무인가? 아니, 가죽으로 만든 거래. 신기하다. 가죽을 이용해서 배 모형을 만들다니. 직접 한번 보고 싶다.",
     "utterances": [
       {
@@ -39788,7 +39788,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "14e55836-290d-4a69-9ce8-0ba6bb9465c2",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512342/soometa/83-II-listening/4_14.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-II-listening/4_14.mp3",
     "text": "14번 댄스 대회에 오신 여러분께 안내해 드립니다. 잠시 후 2시부터 개회식이 열립니다. 대기실에 계신 참가자들은 대회장으로 오시기 바랍니다. 개회식이 끝나는 대로 예선 경기가 시작되오니 그 자리에서 기다려 주십시오. 대회 중에는 촬영을 할 수 없으니 협조 부탁드립니다.",
     "utterances": [
       {
@@ -40059,7 +40059,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "f937dbf9-3c8a-4329-ac64-090b957c8298",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512342/soometa/83-II-listening/4_15.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-II-listening/4_15.mp3",
     "text": "15번 어젯밤 10시 인주산에서 길을 잃은 등산객 4명이 구조됐습니다. 등산객의 구조요청을 받은 구조대원들은 곧바로 수색작업을 시작해 2시간 만에 등산객 모두를 발견했습니다. 등산객들은 산 정상에서 내려오던 중 날이 어두워져 길을 잃은 것으로 확인됐습니다.",
     "utterances": [
       {
@@ -40302,7 +40302,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "e702a6a4-0096-409e-9b4d-32ef4032ac36",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512342/soometa/83-II-listening/4_16.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-II-listening/4_16.mp3",
     "text": "16번 작가님의 그림이 인기를 얻고 있는 이유는 뭐라고 생각하십니까? 우리 주변에 흔하고 평범한 소재를 따뜻하게 그리기 때문이 아닐까요? 저는 행복했던 어린 시절을 기억하고 싶어서 70세가 넘어서야 그림을 그리기 시작했어요. 물론 배운 적도 없고요. 꾸미지 않은 그런 느낌을 사람들이 좋아해 주는 것 같아요.",
     "utterances": [
       {
@@ -40615,7 +40615,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "c6884c50-1946-4203-89ca-c8fa89e88e0f",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512342/soometa/83-II-listening/4_17.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-II-listening/4_17.mp3",
     "text": "17번 수미야, 내가 보낸 메일 못 받았어? 아니, 받았어. 어떻게 쓸까 생각하느라고 아직 답장을 못 보냈어. 난 메일이 안 갔나 걱정했어. 기다렸는데 받았다는 말이라도 해주지.",
     "utterances": [
       {
@@ -40827,7 +40827,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "b008fd60-c92a-4b3d-8595-c997f6da6649",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512342/soometa/83-II-listening/4_18.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-II-listening/4_18.mp3",
     "text": "18번 요즘 새벽에 일어나서 공부하는데 집중이 잘 되더라. 그래? 난 새벽에 일어나면 많이 피곤할 것 같은데. 처음엔 나도 좀 피곤했는데 이제는 공부가 잘 돼서 좋아.",
     "utterances": [
       {
@@ -41039,7 +41039,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "bd9ed73d-e93b-4e43-8172-40833ecb80e4",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512342/soometa/83-II-listening/4_19.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-II-listening/4_19.mp3",
     "text": "지난번에. 갔던 직업인들과의 만남 프로그램 진짜 좋았지? 응. 다양한 직업을 가진 사람들의 이야기를 들으니까 참 좋았어. 맞아. 진로를 결정하는 데에도 꽤 도움이 됐어. 여러 분야의 사람들을 만나면 배울 것도 많은 것 같아.",
     "utterances": [
       {
@@ -41318,7 +41318,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "ca23ce13-443a-4fb4-b38e-788d18d04a08",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512342/soometa/83-II-listening/4_20.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-II-listening/4_20.mp3",
     "text": "20번. 선생님, 마을 이름에 대한 책을 내신 특별한 계기가 있으신가요? 네, 지명에는 지금은 안 쓰는 옛날 말이 많이 남아 있습니다. 특히 마을의 문화나 자연을 가리키는 말들 중에 무척 아름다운 표현들이 많은데요. 그런 표현들이 다시 우리의 일상으로 들어와 삶의 곳곳에서 사용됐으면 하는 마음으로 책을 쓰게 됐어요.",
     "utterances": [
       {
@@ -41670,7 +41670,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "c53700d6-ed17-46f4-b336-633ec3e98b47",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512342/soometa/83-II-listening/4_21-22.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-II-listening/4_21-22.mp3",
     "text": "교수님, 제 연구계획서인데요. 한번 봐주시겠어요? 성격과 여행지라. 성격이 여행지 결정에 미치는 영향을 알아보겠다는 거군요. 주제가 아주 새롭고 좋아요. 연구 방법으로는 설문조사를 선택했는데 계획이 거의 없네요. 설문조사는 조사하려는 내용이 분명해야 하니까 조사 대상과 내용을 잘 계획할 필요가 있어요. 네. 그런데 무엇부터 시작을 하면 좋을지 모르겠어요. 그럼 성격과 여행지의 유형을 나누는 것부터 시작해 보세요. 다시 들으십시오. 교수님, 제 연구계획서인데요. 한번 봐주시겠어요? 성격과 여행지라, 성격이 여행지 결정에 미치는 영향을 알아보겠다는 거군요. 주제가 아주 새롭고 좋아요. 연구 방법으로는 설문조사를 선택했는데, 계획이 거의 없네요. 설문조사는 조사하려는 내용이 분명해야 하니까 조사 대상과 내용을 잘 계획할 필요가 있어요. 네. 그런데 무엇부터 시작을 하면 좋을지 모르겠어요. 그럼 성격과 여행지의 유형을 나누는 것부터 시작해 보세요.",
     "utterances": [
       {
@@ -42431,7 +42431,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "c2fda789-a4d5-4798-a59e-6d563e55a0cf",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512342/soometa/83-II-listening/4_23-24.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-II-listening/4_23-24.mp3",
     "text": "안녕하십니까? 인주 상사입니다. 합격자분들에게 건강검진과 신입사원 연수 일정을 문자로 보내드렸는데 확인하셨나요? 네, 확인했습니다. 그런데 건강검진은 정해진 병원에서만 해야 하나요? 아닙니다. 집 근처 보건서나 병원에 가서 받으셔도 됩니다. 검진 결과는 연수 끝나고 출근 전까지 내시면 되고요. 신입사원 연수 때는 문자로 안내드린 증명서만 제출하시면 됩니다. 감사합니다. 그럼 연수 때 뵙겠습니다. 다시 들으십시오. 안녕하십니까? 인주 상사입니다. 합격자분들에게 건강검진과 신입사원 연수 일정을 문자로 보내드렸는데 확인하셨나요? 네, 확인했습니다. 그런데 건강검진은 정해진 병원에서만 해야 하나요? 아닙니다. 집 근처 보건서나 병원에 가서 받으셔도 됩니다. 검진 결과는 연수 끝나고 출근 전까지 내시면 되고요. 신입사원 연수 때는 문자로 안내드린 증명서만 제출하시면 됩니다. 감사합니다. 그럼 연수 때 뵙겠습니다.",
     "utterances": [
       {
@@ -43199,7 +43199,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "a4955eb3-f1f1-40c5-a6fe-59ba8f5409e2",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512342/soometa/83-II-listening/4_25-26.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-II-listening/4_25-26.mp3",
     "text": "잠시 안내 말씀 드립니다. 우리 회사에서는 사랑의 아침밥 행사를 엽니다. 식사를 못하고 출근하시는 분들을 위해 내일부터 한 달 동안 아침 식사를 무료로 드립니다. 건강에 좋고 맛있는 식사가 준비됩니다. 1층 식당에 오셔서 아침을 드시고 즐거운 하루를 시작하시기 바랍니다. 감사합니다. 다시 들으십시오. 잠시 안내 말씀 드립니다. 우리 회사에서는 사랑의 아침밥 행사를 엽니다. 식사를 못하고 출근하시는 분들을 위해 내일부터 한 달 동안 아침 식사를 무료로 드립니다. 건강에 좋고 맛있는 식사가 준비됩니다. 1층 식당에 오셔서 아침을 드시고 즐거운 하루를 시작하시기 바랍니다. 감사합니다.",
     "utterances": [
       {
@@ -43764,7 +43764,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "a434234e-fd48-4fdf-829d-0e9608db6edb",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512342/soometa/83-II-listening/4_27-28.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-II-listening/4_27-28.mp3",
     "text": "수미 씨, 꽃이 예쁘네요. 선물 받은 거예요? 아니요. 제가 산 거예요. 아, 왜요? 누구 생일이에요? 그냥 제 책상 위에 놓으려고요. 예쁜 꽃을 보면 기분이 좋아져서 자주 사요. 아, 그렇군요. 저는 선물하려고 가끔 사는데 그게 아니면 잘 안 사요. 보통 그래요. 특별한 날에 많이 사지요. 다시 들으십시오. 수미 씨, 꽃이 예쁘네요. 선물 받은 거예요? 아니요. 제가 산 거예요. 아, 왜요? 누구 생일이에요? 그냥 제 책상 위에 놓으려고요. 예쁜 꽃을 보면 기분이 좋아져서 자주 사요. 아, 그렇군요. 저는 선물하려고 가끔 사는데 그게 아니면 잘 안 사요. 보통 그래요. 특별한 날에 많이 사지요.",
     "utterances": [
       {
@@ -44512,7 +44512,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "26dbdba5-8540-4df3-b13c-4445da760922",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512342/soometa/83-II-listening/4_29-30.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-II-listening/4_29-30.mp3",
     "text": "김민수 경찰관님, 이번에 책을 쓰셨지요? 어떤 책입니까? 제가 경찰이 된 지 8년이 됐는데요. 그동안 경험한 일을 쓴 겁니다. 네, 특별히 이 책을 쓰신 이유가 있으세요? 사람들의 생각처럼 경찰관은 힘든 일을 많이 합니다. 하지만 기쁘고 행복한 일도 많아요. 이런 일들을 알려주려고 작년부터 글을 쓰기 시작했습니다. 아, 행복한 일들이요? 어떤 일들이지요? 몇 달 전에 제가 어떤 아이의 가방을 찾아줬어요. 그런데 그 아이가 일을 잘했다고 저에게 상을 주는 거예요. 아이가 직접 만든 상과 편지를 받았는데 칭찬을 받은 것 같아서 행복했어요. 다시 들으십시오. 김민수 경찰관님, 이번에 책을 쓰셨지요? 어떤 책입니까? 제가 경찰이 된 지 8년이 됐는데요. 그동안 경험한 일을 쓴 겁니다. 네, 특별히 이 책을 쓰신 이유가 있으세요? 사람들의 생각처럼 경찰관은 힘든 일을 많이 합니다. 하지만 기쁘고 행복한 일도 많아요. 이런 일들을 알려주려고 작년부터 글을 쓰기 시작했습니다. 아, 행복한 일들이요? 어떤 일들이지요? 몇 달 전에 제가 어떤 아이의 가방을 찾아줬어요. 그런데 그 아이가 일을 잘했다고 저에게 상을 주는 거예요. 아이가 직접 만든 상과 편지를 받았는데 칭찬을 받은 것 같아서 행복했어요. 29번.",
     "utterances": [
       {
@@ -45738,7 +45738,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "65319415-1847-4218-b40e-286230d186a0",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512342/soometa/83-II-listening/4_31-32.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-II-listening/4_31-32.mp3",
     "text": "현재 검토 중인 업무 관리 프로그램이요. 업무의 진행 상황과 자료를 실시간으로 공유할 수 있어서 일의 속도와 효율성을 향상시킬 것으로 보입니다. 새로운 프로그램에 직원들이 적응하는 게 쉽지는 않을 것 같은데요. 초기에는 어려움이 있겠지만, 장기적으로는 업무를 관리하는 데 큰 도움이 될 겁니다. 지속적으로 교육하면 직원들도 프로그램을 잘 활용할 수 있게 될 거고요. 직원 교육 문제는 여전히 부담스럽긴 해요. 더 신중히 생각해 보죠. 다시 들으십시오. 현재 검토 중인 업무 관리 프로그램이요. 업무의 진행 상황과 자료를 실시간으로 공유할 수 있어서 일의 속도와 효율성을 향상시킬 것으로 보입니다. 새로운 프로그램에 직원들이 적응하는 게 쉽지는 않을 것 같은데요. 초기에는 어려움이 있겠지만, 장기적으로는 업무를 관리하는 데 큰 도움이 될 겁니다. 지속적으로 교육하면 직원들도 프로그램을 잘 활용할 수 있게 될 거고요. 직원 교육 문제는 여전히 부담스럽긴 해요. 더 신중히 생각해 보죠.",
     "utterances": [
       {
@@ -46674,7 +46674,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "0bfd2348-9583-4999-a7ea-188704076402",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512342/soometa/83-II-listening/4_33-34.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-II-listening/4_33-34.mp3",
     "text": "이것은 옷이나 가방에서 볼 수 있는 지퍼가 처음 만들어졌을 때의 모습입니다. 지금과 달리 모양이 복잡했고 고장도 잦았죠. 그래서 처음 발명된 19세기 후반에는 시장의 주목을 받지 못했습니다. 그러다가 20세기 초에 오늘날과 같이 형태가 바뀌고 기능도 개선됐는데요. 지퍼를 단 지갑이 선원들에게 인기를 끌면서 지퍼가 알려지기 시작했습니다. 흔들리는 배에서도 동전을 잘 보관할 수 있었기 때문이죠. 이후, 지퍼 달린 장화가 깔끔한 디자인과 편리함을 앞세워 큰 성공을 거두면서 전 세계로 지퍼가 퍼지게 되었습니다. 다시 들으십시오. 이것은 옷이나 가방에서 볼 수 있는 지퍼가 처음 만들어졌을 때의 모습입니다. 지금과 달리 모양이 복잡했고 고장도 잦았죠. 그래서 처음 발명된 19세기 후반에는 시장의 주목을 받지 못했습니다. 그러다가 20세기 초에 오늘날과 같이 형태가 바뀌고 기능도 개선됐는데요. 지퍼를 단 지갑이 선원들에게 인기를 끌면서 지퍼가 알려지기 시작했습니다. 흔들리는 배에서도 동전을 잘 보관할 수 있었기 때문이죠. 이후, 지퍼 달린 장화가 깔끔한 디자인과 편리함을 앞세워 큰 성공을 거두면서 전 세계로 지퍼가 퍼지게 되었습니다.",
     "utterances": [
       {
@@ -47659,7 +47659,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "686a41e2-6690-462e-810e-9abfc4298000",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512342/soometa/83-II-listening/4_35-36.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-II-listening/4_35-36.mp3",
     "text": "오늘은 인주극장이 시민과 연극인 곁으로 다시 돌아오게 된 뜻깊은 날입니다. 몇 년 전 인주극장의 폐관 소식을 듣고. 우리 연극인들이 이곳을 지켜내지 못했구나 싶어 마음이 아팠습니다. 인주극장은 주인이 수차례 바뀌는 와중에도 400여 편의 연극을 올리고 수많은 연극인을 배출하는 등 한국 연극사의 발전을 이끌어왔습니다. 이번 재개관이 더욱 기쁜 것은 이런 역사를 이어가자는 데에 공감한 연극인들이 마음을 모아 이뤄낸 결과이기 때문입니다. 다시 문을 연 이곳이 시민과 연극인의 소중한 보금자리가 되어주리라 생각합니다. 다시 들으십시오. 오늘은 인주극장이 시민과 연극인 곁으로 다시 돌아오게 된 뜻깊은 날입니다. 몇 년 전 인주극장의 폐관 소식을 듣고. 우리 연극인들이 이곳을 지켜내지 못했구나 싶어 마음이 아팠습니다. 인주극장은 주인이 수차례 바뀌는 와중에도 400여 편의 연극을 올리고 수많은 연극인을 배출하는 등 한국 연극사의 발전을 이끌어왔습니다. 이번 재개관이 더욱 기쁜 것은 이런 역사를 이어가자는 데에 공감한 연극인들이 마음을 모아 이뤄낸 결과이기 때문입니다. 다시 문을 연 이곳이 시민과 연극인의 소중한 보금자리가 되어주리라 생각합니다.",
     "utterances": [
       {
@@ -48716,7 +48716,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "21b7c0fc-28fd-491e-ad48-11a62191a604",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512342/soometa/83-II-listening/4_37-38.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-II-listening/4_37-38.mp3",
     "text": "부모 세대가 사용했던 필름 카메라가 디지털에 익숙한 젊은 세대들의 마음을 사로잡고 있습니다. 네, 필름 사진만이 갖는 독특한 감성 때문입니다. 필름을 현상하기 위해 약품 처리를 하는 과정에서 묘한 색감과 분위기가 나는데 그것이 아주 매력적이죠. 또, 필름 카메라는 필름을 구하기도 어렵고 필름마다 찍을 수 있는 사진 수가 제한적이에요. 인화 과정을 거쳐야만 사진을 받아볼 수 있고요. 이런 번거로움이 오히려 젊은 세대들이 사진 한 장 한 장을 소중하고 특별하게 느끼는 이유가 됩니다. 다시 들으십시오. 부모 세대가 사용했던 필름 카메라가 디지털에 익숙한 젊은 세대들의 마음을 사로잡고 있습니다. 네, 필름 사진만이 갖는 독특한 감성 때문입니다. 필름을 현상하기 위해 약품 처리를 하는 과정에서 묘한 색감과 분위기가 나는데 그것이 아주 매력적이죠. 또 필름 카메라는 필름을 구하기도 어렵고 필름마다 찍을 수 있는 사진 수가 제한적이에요. 인화 과정을 거쳐야만 사진을 받아볼 수 있고요. 이런 번거로움이 오히려 젊은 세대들이 사진 한 장 한 장을 소중하고 특별하게 느끼는 이유가 됩니다.",
     "utterances": [
       {
@@ -49728,7 +49728,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "4dec05e5-fd6a-494c-aa89-5648fc003b0d",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512342/soometa/83-II-listening/4_39-40.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-II-listening/4_39-40.mp3",
     "text": "그렇다면 정부는 지난 10년간 해양 생태계 개선 사업이 성공적이었다고 판단한 거군요? 네, 최근에 해양 생태계의 환경이 개선되고 있다는 지표가 나오자 사업의 확대 시행까지 검토하고 있습니다. 이 사업에 대해 일부 어업인의 반대가 있는 것도 사실입니다. 바다 생물의 서식 환경이 개선되면 소득이 증대할 것이라 기대했으나 어획량은 기대만큼 늘지 않았기 때문입니다. 그러나 해양 생태계를 건강하게 만드는 것은 장기적인 관점에서 어업인들의 소득 증대로 이어질 수 있습니다. 사업의 필요성에 대한 공감대를 넓혀나가는 노력을 해야 할 것입니다. 다시 들으십시오. 그렇다면 정부는 지난 10년간 해양 생태계 개선 사업이 성공적이었다고 판단한 거군요. 네. 최근에 해양 생태계의 환경이 개선되고 있다는 지표가 나오자 사업의 확대 시행까지 검토하고 있습니다. 이 사업에 대해 일부 어업인의 반대가 있는 것도 사실입니다. 바다 생물의 서식 환경이 개선되면 소득이 증대할 것이라 기대했으나 어획량은 기대만큼 늘지 않았기 때문입니다. 그러나 해양 생태계를 건강하게 만드는 것은 장기적인 관점에서 어업인들의 소득 증대로 이어질 수 있습니다. 사업의 필요성에 대한 공감대를 넓혀나가는 노력을 해야 할 것입니다.",
     "utterances": [
       {
@@ -50782,7 +50782,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "cabf135f-d3c3-4f1b-a28c-ddd58da9c8bd",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512342/soometa/83-II-listening/4_41-42.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-II-listening/4_41-42.mp3",
     "text": "자, 이곳이 화성 탐사선입니다. 여기 바퀴를 자세히 보면 이렇게 접혀 있는 부분이 보이죠? 탐사선은 화성에 울퉁불퉁한 표면을 달려야 하는데요. 종이접기 기술이 적용된 이 부분을 펼쳤다 접었다 하면 양쪽 바퀴의 크기를 유연하게 바꿀 수 있어 균형 잡기가 쉽습니다. 만약 바퀴를 변형하는데 기계장치를 활용했다면 나사나 이은매 등 많은 부품이 필요했을 테고 구동 방식도 굉장히 복잡했을 겁니다. 하지만 종이접기 기술이 활용된 이 바퀴는 특별한 부품 없이 접는 선이 새겨진 얇은 판 한 장만으로 만들어졌습니다. 또, 판을 접었다 펴는 단순한 작동 원리로 기능을 효과적으로 수행할 것입니다. 다시 들으십시오. 자, 이곳이 화성 탐사선입니다. 여기 바퀴를 자세히 보면 이렇게 접혀 있는 부분이 보이죠? 탐사선은 화성의 울퉁불퉁한 표면을 달려야 하는데요. 종이접기 기술이 적용된 이 부분을 펼쳤다 접었다 하면 양쪽 바퀴의 크기를 유연하게 바꿀 수 있어 균형잡기가 쉽습니다. 만약 바퀴를 변형하는데 기계장치를 활용했다면 나사나 이은매 등 많은 부품이 필요했을 테고 구동 방식도 굉장히 복잡했을 겁니다. 하지만 종이접기 기술이 활용된 이 바퀴는 특별한 부품 없이 접는 선이 새겨진 얇은 판 한 장만으로 만들어졌습니다. 또, 판을 접었다 펴는 단순한 작동 원리로 기능을 효과적으로 수행할 것입니다.",
     "utterances": [
       {
@@ -51956,7 +51956,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "4981849e-4f55-4c1d-a33b-5fda9d00c838",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512342/soometa/83-II-listening/4_43-44.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-II-listening/4_43-44.mp3",
     "text": "지금 흥미로운 실험이 진행 중이다. 참가자들은 1분 동안 수백 장의 사진을 본다. 꽃, 책상, 사슴 등의 사진이 빠르게 지나간다. 그 사이로 인상을 쓴 얼굴 사진 하나가 스쳐간다. 순간 참가자들의 뇌에서 편도체가 활성화된다. 실험이 끝난 뒤 참가자들은 수많은 사진 중 인상 쓴 얼굴을 또렷이 기억했다. 편더체가 그것을 생존을 위협하는 요소로 인식해 재빨리 기억하도록 했기 때문이다. 특정 장면에 대한 공포는 생존을 위한 뇌의 학습 결과인 것이다. 동물도 마찬가지다. 쥐는 고양이를 만나면 공포를 느끼고 도망친다. 하지만 편도체가 손상된 쥐는 천적에 대한 기억이 없어 위험에 그대로 노출된다. 다시 들으십시오. 지금 흥미로운 실험이 진행 중이다. 참가자들은 1분 동안 수백 장의 사진을 본다. 꽃, 책상, 사슴 등의 사진이 빠르게 지나간다. 그 사이로 인상을 쓴 얼굴 사진 하나가 스쳐간다. 순간 참가자들의 뇌에서 편도체가 활성화된다. 실험이 끝난 뒤 참가자들은 수많은 사진 중 인상 쓴 얼굴을 또렷이 기억했다. 그것을 생존을 위협하는 요소로 인식해 재빨리 기억하도록 했기 때문이다. 특정 장면에 대한 공포는 생존을 위한 뇌의 학습 결과인 것이다. 동물도 마찬가지다. 쥐는 고양이를 만나면 공포를 느끼고 도망친다. 하지만 편도체가 손상된 쥐는 천적에 대한 기억이 없어 위험에 그대로 노출된다.",
     "utterances": [
       {
@@ -53144,7 +53144,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "eaf2a985-a687-4eca-9512-fe52be7faab7",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512342/soometa/83-II-listening/4_45-46.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-II-listening/4_45-46.mp3",
     "text": "조선시대, 왕실의 행사에는 늘 장학원의 음악인들이 있었습니다. 장학원은 조선의 국가음악기관으로서 궁중음악에 관한 모든 일을 관장했는데요. 각종 행사에 맞는 다양한 연주 방법과 횟수는 물론 천여명에 달하는 소속 음악인들의 연습 일정까지 법으로 정해놓을 만큼 철저하게 운영되었습니다. 또 내부 교육기관을 두어 전문 음악인을 양성하고 연주에 필요한 악기를 직접 제작하는 것도 장학원에서 담당했습니다. 당시 장학원의 음악적 완성도는 상당한 수준이었는데요. 그들의 음악은 궁중 의뢰에 경건함을 더하고 왕실에 권위를 부여해주는 핵심 요소였습니다. 다시 들으십시오. 조선시대, 왕실의 행사에는 늘 장학원의 음악인들이 있었습니다. 장학원은 조선의 국가음악기관으로서 궁중음악에 관한 모든 일을 관장했는데요. 각종 행사에 맞는 다양한 연주 방법과 횟수는 물론 천여명에 달하는 소속 음악인들의 연습 일정까지 법으로 정해놓을 만큼 철저하게 운영되었습니다. 또 내부 교육기관을 두어 전문음악인을 양성하고 연주에 필요한 악기를 직접 제작하는 것도 장악원에서 담당했습니다. 당시 장악원의 음악적 완성도는 상당한 수준이었는데요. 그들의 음악은 궁중 의례에 경건함을 더하고 왕실에 권위를 부여해주는 핵심 요소였습니다.",
     "utterances": [
       {
@@ -54094,7 +54094,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "e491373d-77e8-4ab1-884a-15e490f6dd67",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512342/soometa/83-II-listening/4_47-48.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-II-listening/4_47-48.mp3",
     "text": "박사님, 과거에는 한 국가의 경쟁력을 평가할 때 돈과 같은 물질 자본이 주된 기준이었는데요. 최근 경제학에서는 사회적 자본이 더 중요한 지표로 언급되고 있습니다. 네, 사회적 자본이 갖는 경제적 가치가 입증되었기 때문이죠. 사회적 자본은 구성원들 간의 신뢰를 측정한 값으로 정의되는데요. 사회적 자본이 확보되면 불신으로 인해 발생하는 불필요한 절차나 거래 비용이 줄어 일의 처리가 빨라집니다. 그럼 사회 전체의 효율성과 수익성이 높아지고 이는 곧 경제적 자본의 성장으로 이어지죠. 이처럼 사회적 자본은 경제성장의 원동력이 된다는 점에서 매우 중요합니다. 다시 들으십시오. 박사님, 과거에는 한 국가의 경쟁력을 평가할 때 돈과 같은 물질 자본이 주된 기준이었는데요. 최근 경제학에서는 사회적 자본이 더 중요한 지표로 언급되고 있습니다. 네, 사회적 자본이 갖는 경제적 가치가 입증되었기 때문이죠. 사회적 자본은 구성원들 간의 신뢰를 측정한 값으로 정의되는데요. 사회적 자본이 확보되면 불신으로 인해 발생하는 불필요한 절차나 거래 비용이 줄어 일의 처리가 빨라집니다. 그럼 사회 전체의 효율성과 수익성이 높아지고 이는 곧 경제적 자본의 성장으로 이어지죠. 이처럼 사회적 자본은 경제성장의 원동력이 된다는 점에서 매우 중요합니다.",
     "utterances": [
       {
@@ -55176,7 +55176,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "4ae5edb5-daed-467d-92f4-3960a96e27ba",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512342/soometa/83-II-listening/4_49-50.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/83-II-listening/4_49-50.mp3",
     "text": "여러분은 사법재판에서 가장 중요한 건 무엇이라고 생각하시나요? 아마도 공정함을 꼽을 것입니다. 많은 국가들이 이 공정함이라는 원칙을 수호하기 위해 심급제도를 시행하고 있는데요. 이는 한 사건에 대해 서로 다른 급의 법원에서 재판을 받을 수 있도록 보장하는 제도입니다. 만약 하급심의 법관이 법을 잘못 해석했거나 판결이 부당하다고 판단하면 누구나 이 제도를 통해 상급법원에 다시 재판을 청구할 수 있죠. 하지만 이 과정에는 많은 시간과 인적 자원이 소요되는 것이 사실입니다. 그래서 일부에서는 재판의 신속성을 위해 제도를 간소화하자는 목소리도 있습니다. 그럼에도 불구하고 심급제도는 법 앞에 공정함을 실현하도록 한다는 점에서 반드시 필요한 제도라 할 수 있습니다. 다시 들으십시오. 여러분은 사법재판에서 가장 중요한 건 무엇이라고 생각하시나요? 아마도 공정함을 꼽을 것입니다. 많은 국가들이 이 공정함이라는 원칙을 수호하기 위해 심급제도를 시행하고 있는데요. 이는 한 사건에 대해 서로 다른 급의 법원에서 재판을 받을 수 있도록 보장하는 제도입니다. 만약 하급심의 법관이 법을 잘못 해석했거나 판결이 부당하다고 판단하면 누구나 이 제도를 통해 상급법원에 다시 재판을 청구할 수 있죠. 하지만 이 과정에는 많은 시간과 인적 자원이 소요되는 것이 사실입니다. 그래서 일부에서는 재판의 신속성을 위해 제도를 간소화하자는 목소리도 있습니다. 그럼에도 불구하고 심급제도는 법 앞에 공정함을 실현하도록 한다는 점에서 반드시 필요한 제도라 할 수 있습니다.",
     "utterances": [
       {
@@ -56441,7 +56441,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "b3e5c544-489d-48b8-8ac8-74adb83719a8",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503865/soometa/64-I-listening/6_01.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-I-listening/6_01.mp3",
     "text": "책을 읽어요.",
     "utterances": [
       {
@@ -56474,7 +56474,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "c88fc47a-457f-4e07-b40b-b05faa7466ad",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503865/soometa/64-I-listening/6_02.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-I-listening/6_02.mp3",
     "text": "구두가 커요?",
     "utterances": [
       {
@@ -56507,7 +56507,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "73159c88-a517-425a-89ae-59009cca031b",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503865/soometa/64-I-listening/6_03.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-I-listening/6_03.mp3",
     "text": "지금 뭐 먹어요?",
     "utterances": [
       {
@@ -56547,7 +56547,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "d1609a9e-8363-4666-9d74-9291b136410e",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503865/soometa/64-I-listening/6_04.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-I-listening/6_04.mp3",
     "text": "친구를 몇 시에 만나요?",
     "utterances": [
       {
@@ -56594,7 +56594,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "f392fea0-6b95-47f2-9c86-6eb5e72a9e29",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503865/soometa/64-I-listening/6_05.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-I-listening/6_05.mp3",
     "text": "수미 씨, 연필 좀 주세요.",
     "utterances": [
       {
@@ -56648,7 +56648,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "62b6e1e4-3543-4289-8280-a2cb2ad2d7e5",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503865/soometa/64-I-listening/6_06.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-I-listening/6_06.mp3",
     "text": "오늘 도와줘서 고마웠어요.",
     "utterances": [
       {
@@ -56688,7 +56688,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "fe2230d6-56a2-44eb-8b29-186a4e5fd53a",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503865/soometa/64-I-listening/6_07.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-I-listening/6_07.mp3",
     "text": "7번. 뭘 드릴까요? 장미가. 예쁘네요. 장미 주세요. 다시 들으십시오. 뭘 드릴까요? 장미가. 예쁘네요. 장미 주세요.",
     "utterances": [
       {
@@ -56866,7 +56866,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "7296b8b6-b070-49d4-bd7b-8d8818e38e14",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503865/soometa/64-I-listening/6_08.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-I-listening/6_08.mp3",
     "text": "어서 오세요, 손님. 어디까지 가세요? 한국 대학교로 가주세요. 다시 들으십시오. 어서 오세요, 손님. 어디까지 가세요? 한국 대학교로 가주세요.",
     "utterances": [
       {
@@ -57038,7 +57038,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "0bbccf5a-2ecf-41ee-8deb-bdf392d0af7c",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503865/soometa/64-I-listening/6_09.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-I-listening/6_09.mp3",
     "text": "방은. 5층이고요. 501호입니다. 네, 아침 식사 시간은 언제예요? 다시 들으십시오. 방은 5층이고요. 501호입니다. 네. 아침 식사 시간은 언제예요?",
     "utterances": [
       {
@@ -57219,7 +57219,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "b83ad808-83d9-4718-828a-77b4263a2fcb",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503865/soometa/64-I-listening/6_10.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-I-listening/6_10.mp3",
     "text": "10번 저 여기 산책하러. 자주 오는데. 참 좋지요? 네, 나무도 많고 넓어서 좋네요. 다시 들으십시오. 저 여기 산책하러. 자주 오는데. 참 좋지요? 네, 나무도 많고 넓어서 좋네요.",
     "utterances": [
       {
@@ -57490,7 +57490,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "eddb383b-5179-42eb-a693-eb9868ec6520",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503865/soometa/64-I-listening/6_11.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-I-listening/6_11.mp3",
     "text": "아주머니, 이 음식 매워요? 네, 조금 매워요. 다시 들으십시오. 아주머니, 이 음식 매워요? 네, 조금 매워요.",
     "utterances": [
       {
@@ -57648,7 +57648,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "cab7e8cd-ac91-4276-826d-70f2b88bd382",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503865/soometa/64-I-listening/6_12.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-I-listening/6_12.mp3",
     "text": "12번. 민수 씨, 야구를 좋아해요? 아니요. 저는 축구가. 좋아요. 다시 들으십시오. 민수 씨, 야구를 좋아해요? 아니요. 저는 축구가. 좋아요.",
     "utterances": [
       {
@@ -57872,7 +57872,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "7e7d1b45-301d-4686-afc9-5a34a1c1d837",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503865/soometa/64-I-listening/6_13.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-I-listening/6_13.mp3",
     "text": "저는 방학 때 제주도에 갈 거예요. 수미 씨는요? 저는 고향에 갈 거예요. 다시 들으십시오. 저는 방학 때 제주도에 갈 거예요. 수미 씨는요? 저는 고향에 갈 거예요.",
     "utterances": [
       {
@@ -58100,7 +58100,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "48bd1fd1-e0ba-4def-b9ff-f97df743a911",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503865/soometa/64-I-listening/6_14.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-I-listening/6_14.mp3",
     "text": "14번. 저 행복마트가. 어디에. 있어요? 저기 은행 있지요? 은행 뒤로 가세요. 저 행복마트가. 어디에 있어요? 저기 은행 있지요? 은행 뒤로 가세요.",
     "utterances": [
       {
@@ -58329,7 +58329,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "97bacee7-d71e-416a-9a6a-75ebfd8b6074",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503865/soometa/64-I-listening/6_15.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-I-listening/6_15.mp3",
     "text": "어디가. 아파서 오셨어요? 어제부터. 계속. 배가 아파서요. 다시 들으십시오. 어디가 아파서 오셨어요? 어제부터. 계속. 배가 아파서요.",
     "utterances": [
       {
@@ -58532,7 +58532,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "686dfbdd-163d-4d40-8ea0-ec173dacfa95",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503865/soometa/64-I-listening/6_16.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-I-listening/6_16.mp3",
     "text": "식탁이 무거운데 같이 좀 들어줄래요? 네, 제가 여기를 들게요. 다시 들으십시오. 식탁이 무거운데 같이 좀 들어줄래요? 네, 제가 여기를 들게요.",
     "utterances": [
       {
@@ -58718,7 +58718,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "8c6a3d0f-1e0c-4eb5-814f-a5d3dfea4434",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503865/soometa/64-I-listening/6_17.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-I-listening/6_17.mp3",
     "text": "17번 수미 씨, 내일 출장 가지요? 잘 다녀오세요. 아침에는 회사에 올 거예요. 저녁에 출발해요. 아, 그래요? 그럼 내일 봐요. 다시 들으십시오. 수미 씨, 내일 출장 가지요? 잘 다녀오세요. 아침에는 회사에 올 거예요. 저녁에 출발해요. 아, 그래요? 그럼 내일 봐요.",
     "utterances": [
       {
@@ -59064,7 +59064,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "ed10b9af-a915-4175-a53b-15f8ea4ee97b",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503865/soometa/64-I-listening/6_18.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-I-listening/6_18.mp3",
     "text": "18번. 저 식빵은 없어요? 그럼 언제쯤 오면 돼요? 3시쯤 오시면 됩니다. 다시 들으십시오. 저 식빵은 없어요? 네, 다 팔려서 지금 다시 만들고 있습니다. 그럼 언제쯤 오면 돼요? 3시쯤 오시면 됩니다.",
     "utterances": [
       {
@@ -59347,7 +59347,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "5e9c4733-d105-4d5d-aa55-417be3efe922",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503865/soometa/64-I-listening/6_19.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-I-listening/6_19.mp3",
     "text": "19번 수미 씨, 미영 씨 결혼식이 7시지요? 이제 가야겠어요. 네, 그런데 우리 어떻게 갈까요? 차를 가지고 갈까요? 거기 너무 복잡하니까 지하철로 가는 게 어때요? 그래요. 길이 막힐 수도 있으니까 지하철로 가요. 다시 들으십시오. 수미 씨, 미영 씨 결혼식이 7시지요? 이제 가야겠어요. 네. 그런데 우리 어떻게 갈까요? 차를 가지고 갈까요? 거기 너무 복잡하니까 지하철로 가는 게 어때요? 그래요. 길이 막힐 수도 있으니까 지하철로 가요.",
     "utterances": [
       {
@@ -59870,7 +59870,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "15dc4abd-253e-4917-8c0c-379644baaa6f",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503865/soometa/64-I-listening/6_20.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-I-listening/6_20.mp3",
     "text": "20번. 손님, 식사 맛있게 하셨어요? 네, 맛있었어요. 얼마예요? 2만 원입니다. 인터넷으로 예약을 하셔서 5천 원 할인되었습니다. 이 카드로 계산해 주세요. 다시 들으십시오. 손님, 식사 맛있게 하셨어요? 네, 맛있었어요. 얼마예요? 2만 원입니다. 인터넷으로 예약을 하셔서 5,000원 할인되었습니다. 네. 이 카드로 계산해 주세요.",
     "utterances": [
       {
@@ -60248,7 +60248,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "d8061809-41f2-48f2-bfc1-4562b350c9fe",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503865/soometa/64-I-listening/6_21.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-I-listening/6_21.mp3",
     "text": "21번. 민수 씨, 아르바이트 할 곳을 찾았어요? 아니요. 아직 못 찾았어요. 제가 일하는 박물관에서 아르바이트 할 사람을 찾고 있는데 생각 있어요? 박물관 아르바이트는 안 해봤는데 한 번 해보고 싶네요. 다시 들으십시오. 민수 씨, 아르바이트 할 곳을 찾았어요? 아니요. 아직 못 찾았어요. 제가 일하는 박물관에서 아르바이트 할 사람을 찾고 있는데 생각 있어요? 박물관 아르바이트는 안 해봤는데 한 번 해보고 싶네요.",
     "utterances": [
       {
@@ -60752,7 +60752,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "cee6b962-4a11-4be8-8a0e-884031e9e58c",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503865/soometa/64-I-listening/6_22.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-I-listening/6_22.mp3",
     "text": "22번 민수 씨, 이 영화 봤어요? 정말 재미있어요. 꼭 보세요. 아, 이 영화요? 저는 나중에 집에서 보려고요. 이 영화는 영화관에서 크게 봐야 돼요. 안 그러면 재미없어요. 그래요? 그럼 저도 가서 봐야겠어요. 다시 들으십시오. 민수 씨, 이 영화 봤어요? 정말 재미있어요. 꼭 보세요. 아, 이 영화요? 저는 나중에 집에서 보려고요. 이 영화는 영화관에서 크게 봐야 돼요. 안 그러면 재미없어요. 그래요? 그럼 저도 가서 봐야겠어요.",
     "utterances": [
       {
@@ -61212,7 +61212,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "360cb793-41af-4a7d-bebd-199b866ac262",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503865/soometa/64-I-listening/6_23.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-I-listening/6_23.mp3",
     "text": "23번 무엇을 도와드릴까요? 제가 지금 영어 수업을 들었는데 혹시 다른 반은 없어요? 왜 그러세요? 무슨 문제가 있으세요? 네, 좀 어려워서요. 다른 수업을 들었으면 좋겠어요. 다시 들으십시오. 무엇을 도와드릴까요? 제가 지금 영어 수업을 들었는데 혹시 다른 반은 없어요? 왜 그러세요? 무슨 문제가 있으세요? 네, 좀 어려워서요. 다른 수업을 들었으면 좋겠어요.",
     "utterances": [
       {
@@ -61574,7 +61574,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "a0f29aca-95b3-4ae1-a89a-26a0f251c239",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503865/soometa/64-I-listening/6_24.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-I-listening/6_24.mp3",
     "text": "24번 수미 씨, 이거 주스병 아니에요? 네, 주스병을 버리지 않고 꽃병으로 쓰고 있어요. 전 이런 생각 못했는데. 이렇게 하면 쓰레기도 안 생기고 좋겠네요. 맞아요. 생각해 보면 버리지 않고 다시 쓸 수 있는 게 많아요. 다시 들으십시오. 수미. 씨, 이거 주스병 아니에요? 네, 주스병을 버리지 않고 꽃병으로 쓰고 있어요. 전 이런 생각 못했는데. 이렇게 하면 쓰레기도 안 생기고 좋겠네요. 맞아요. 생각해 보면 버리지 않고 다시 쓸 수 있는 게 많아요.",
     "utterances": [
       {
@@ -62139,7 +62139,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "18c22aed-6602-47a0-a6ba-06c836045528",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503865/soometa/64-I-listening/6_25-26.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-I-listening/6_25-26.mp3",
     "text": "잠시 안내 말씀 드립니다. 다음 달에 열리는 회사 사랑 걷기 대회에 참가 신청이 이번 주 금요일까지입니다. 그런데 아직 신청을 하신 분이 많지 않습니다. 올해는 특히 많은 선물이 준비되어 있으니 많이 참가해 주시기 바랍니다. 자세한 내용은 홈페이지를 확인해 주세요. 다시 들으십시오. 잠시 안내 말씀 드립니다. 다음 달에 열리는 회사 사랑 걷기 대회에 참가 신청이 이번 주 금요일까지입니다. 그런데 아직 신청을 하신 분이 많지 않습니다. 올해는 특히 많은 선물이 준비되어 있으니 많이 참가해 주시기 바랍니다. 자세한 내용은 홈페이지를 확인해 주세요.",
     "utterances": [
       {
@@ -62704,7 +62704,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "5772010d-d61d-48fc-a488-ba682778ff3a",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503865/soometa/64-I-listening/6_27-28.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-I-listening/6_27-28.mp3",
     "text": "27번 민수 씨, 어제 드라마 첫사랑 봤어요? 거기에서 두 사람이 어떤 섬에 갔는데 정말 아름다웠어요. 아, 저도 그거 봤어요. 거기 제가 작년 여름 휴가 때 간 곳이에요. 정말요? 그 섬이 어디예요? 여수에 있는 섬인데 경치가 아름다워서 드라마에 자주 나와요. 아, 그래요? 저도 다음에 한 번 가보고 싶어요. 가기 전에 궁금한 거 있으면 물어보세요. 다시 들으십시오. 민수 씨, 어제 드라마 첫사랑 봤어요? 거기에서 두 사람이 어떤 섬에 갔는데 정말 아름다웠어요. 아, 저도 그거 봤어요. 거기 제가 작년 여름 휴가 때 간 곳이에요. 정말요? 그 섬이 어디예요? 여수에 있는 섬인데 경치가 아름다워서 드라마에 자주 나와요. 아, 그래요? 저도 다음에 한 번 가보고 싶어요. 가기 전에 궁금한 거 있으면 물어보세요.",
     "utterances": [
       {
@@ -63571,7 +63571,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "6b912f4b-873d-4c67-8d89-5f84d4b9b614",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746503865/soometa/64-I-listening/6_29-30.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-I-listening/6_29-30.mp3",
     "text": "29번. 영화배우 김민수 씨, 요즘은 그림도 그리고 계시는데요. 언제부터 그림을 그리셨어요? 3년 전에 영화에서 화가 역할을 한 적이 있어요. 직접 그림을 그려야 해서 배우게 됐는데 지금까지 취미로 그리고 있어요. 그렇군요. 주로 어떤 그림을 그리세요? 처음엔 산을 많이 그렸는데 요즘은 사람들의 얼굴을 그리고 있어요. 곧 첫 번째 전시회를 하신다고요? 네, 같이 그림 그리는 친구들과 전시회를 하기로 했어요. 다시 들으십시오. 영화 배우 김민수 씨, 요즘은 그림도 그리고 계시는데요. 언제부터 그림을 그리셨어요? 3년 전에 영화에서 화가 역할을 한 적이 있어요. 직접 그림을 그려야 해서 배우게 됐는데 지금까지 취미로 그리고 있어요. 그렇군요. 주로 어떤 그림을 그리세요? 처음엔 산을 많이 그렸는데 요즘은 사람들의 얼굴을 그리고 있어요. 곧 첫 번째 전시회를 하신다고요? 네. 같이 그림 그리는 친구들과 전시회를 하기로 했어요.",
     "utterances": [
       {
@@ -64496,7 +64496,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "e95c94af-f415-4db5-8789-6710f11fa738",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512512/soometa/64-II-listening/8_01.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-II-listening/8_01.mp3",
     "text": "고객님. 어떤 문제가 있으세요? 노트북 화면이 안 나와서요. 네, 언제 구입하셨지요?",
     "utterances": [
       {
@@ -64619,7 +64619,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "43d27951-d182-4d90-9338-e64884ea54d9",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512512/soometa/64-II-listening/8_02.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-II-listening/8_02.mp3",
     "text": "공을 잘 들고 앞쪽을 봐. 이렇게? 그 다음에는 어떻게 해? 천천히 걸어가면서 공을 굴려봐.",
     "utterances": [
       {
@@ -64754,7 +64754,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "7fe9c857-de3f-4dcf-8525-6a5bfe89c076",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512512/soometa/64-II-listening/8_03.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-II-listening/8_03.mp3",
     "text": "3번 2015년 이후 영화관을 찾는 관객 수가 계속해서 감소하고 있습니다. 관객 수가 줄고 있는 이유로는 여가 활동이 다양해져서가 가장 많았고 영화를 모바일로 보는 경우가 늘어서 관람료가 올라서가 그 뒤를 이었습니다.",
     "utterances": [
       {
@@ -64983,7 +64983,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "de20565c-a498-47d3-a3d1-15e5e0caeccb",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512512/soometa/64-II-listening/8_04.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-II-listening/8_04.mp3",
     "text": "저는 내일 모임에 못 갈 것 같아요. 왜요? 무슨 일이 있어요?",
     "utterances": [
       {
@@ -65079,7 +65079,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "23e954e5-3e70-4aaa-bd36-001ddfad3415",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512512/soometa/64-II-listening/8_05.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-II-listening/8_05.mp3",
     "text": "약 좀 사가지고 올게. 머리가 계속 아프네. 지금 이 시간에도 문을 연 약국이 있을까?",
     "utterances": [
       {
@@ -65205,7 +65205,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "dac9b7bf-91e7-4dc5-b2b7-03360bcac951",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512512/soometa/64-II-listening/8_06.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-II-listening/8_06.mp3",
     "text": "토요일에. 3층 연습실 사용할 수 있어? 아직 관리실에 얘기를 못해서 잘 모르겠어.",
     "utterances": [
       {
@@ -65326,7 +65326,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "57f97f7d-8c90-4d0b-bca7-e26ccbf07c93",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512512/soometa/64-II-listening/8_07.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-II-listening/8_07.mp3",
     "text": "공사 소음 때문에 일에 집중이 안 되네요. 맞아요. 먼지도 심하고요.",
     "utterances": [
       {
@@ -65424,7 +65424,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "f44e78e7-36b0-47a1-80e7-7a947ca4fb50",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512512/soometa/64-II-listening/8_08.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-II-listening/8_08.mp3",
     "text": "첫. 방송에 대한 시청자 의견은 어때요? 재미있다는 의견이 많았습니다. 그런데 음악이 장면에 안 어울린다는 의견도 있었습니다.",
     "utterances": [
       {
@@ -65573,7 +65573,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "0734b48c-28e9-4c86-9a8b-43821d552ec0",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512512/soometa/64-II-listening/8_09.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-II-listening/8_09.mp3",
     "text": "선물도. 샀고 꽃도 준비했고 케이크는 어떻게 됐지? 케이크는 민수가 사온다고 했어. 그럼 난 생일 카드 좀 쓰고 있어야겠다. 그래. 난 민수 어디쯤 왔는지 전화해 볼게.",
     "utterances": [
       {
@@ -65803,7 +65803,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "6bf18dcc-b4e6-44a8-808a-e9e8e4ad9138",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512512/soometa/64-II-listening/8_10.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-II-listening/8_10.mp3",
     "text": "10번. 저 오늘 2시에 진료 예약했는데요. 김수미라고. 합니다. 네, 예약 확인되셨고요. 검사 전에 옷을 갈아입으셔야 해요. 그래요? 어디로 가면 되지요? 오른쪽으로 가시면 탈의실이 있습니다.",
     "utterances": [
       {
@@ -66026,7 +66026,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "848f3ce4-06a7-4ace-b5b6-59cdd7863d97",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512512/soometa/64-II-listening/8_11.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-II-listening/8_11.mp3",
     "text": "11번 토마토 심은 날짜까지 붙였으니까 이제 다 끝났어. 토마토 심는 게 생각보다 간단하다. 그렇지? 이제 화분을 베란다로 옮겨 놓을 테니까 네가 물을 좀 줘. 응, 알겠어.",
     "utterances": [
       {
@@ -66227,7 +66227,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "88488bd7-435c-4028-889e-45231ed5b20b",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512512/soometa/64-II-listening/8_12.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-II-listening/8_12.mp3",
     "text": "12번 김수미 씨, 직원 연수 프로그램은 확정됐나요? 아직 특강해 주실 분을 못 구했는데요. 오늘 박민석 선생님께 연락드려 보려고요. 그럼 좀 서둘러 주세요. 안 되면 다른 분을 찾아봐야 하니까요. 네, 바로 알아보겠습니다.",
     "utterances": [
       {
@@ -66490,7 +66490,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "b53dab54-f835-4ed1-920e-66073ff3ee8b",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512512/soometa/64-II-listening/8_13.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-II-listening/8_13.mp3",
     "text": "13번. 민수야, 너 작년에 심리학 개론 수업 들었지? 응, 진짜 좋았어. 너도 그 수업 들으려고? 수강 신청은 했는데 다른 학과 수업이라 걱정이 돼서. 그 수업? 내용도 재밌고 어렵지 않아서 괜찮을 거야.",
     "utterances": [
       {
@@ -66762,7 +66762,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "7266a1cd-a64d-4381-ac15-8b43c721849b",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512512/soometa/64-II-listening/8_14.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-II-listening/8_14.mp3",
     "text": "주민 여러분, 내일은 우리 아파트에 어울림 축제가 있는 날입니다. 놀이터 옆에 아이들을 위한 미니 수영장이 설치될 예정이고, 작년에 이어 올해도 야시장이 열립니다. 오후 3시 노래자랑 대회를 시작으로 다양한 행사가 준비되어 있으니 많은 참여 바랍니다.",
     "utterances": [
       {
@@ -67019,7 +67019,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "f255a4d3-2965-4869-8bb4-571134321016",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512512/soometa/64-II-listening/8_15.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-II-listening/8_15.mp3",
     "text": "오늘 오전 8시경 인주역에서 지하철 3호선 열차에 정전사고가 발생했습니다. 사고 열차가 10분간 멈추면서 출근길 시민들이 큰 불편을 겪었습니다. 이 열차는 지난주에도 정전사고가 한 차례 있었는데요. 현재 운행을 중단하고 정밀검사를 하고 있습니다.",
     "utterances": [
       {
@@ -67255,7 +67255,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "642a4cfd-5753-4435-b988-38c7576f9d6c",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512512/soometa/64-II-listening/8_16.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-II-listening/8_16.mp3",
     "text": "오랫동안. 나무를 치료해 오셨는데요. 나무는 어떻게 치료를 하나요? 병든 나무의 증상을 살피고 땅의 상태나 주변 나무들도 조사해요. 나무도 다른 식물들처럼 주변 환경에 민감하기 때문이죠. 병이 생긴 원인에 따라 주변 환경을 개선하거나 직접 나무에 약을 처방합니다.",
     "utterances": [
       {
@@ -67537,7 +67537,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "1d768813-ed96-4fb5-9f6e-4042ec425164",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512512/soometa/64-II-listening/8_17.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-II-listening/8_17.mp3",
     "text": "17번. 아무래도 요가 학원에. 다녀야겠어. 혼자서 운동을 하니까 동작이 맞는지. 모르겠고 효과도 없는 것 같아. 요즘은 인터넷 요가 영상도 많이 있던데 그걸 보는 건 어때? 영상만으로는. 안 될 것 같아. 내 동작이. 틀려도 알 수 없잖아.",
     "utterances": [
       {
@@ -67889,7 +67889,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "67a06161-9c66-4ed6-8bde-2b76de8f6c41",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512512/soometa/64-II-listening/8_18.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-II-listening/8_18.mp3",
     "text": "18번 수미야, 왜 아무 말도 안 해? 너도 어디 가고 싶은지 말을 해. 난 어디든 상관없어. 그냥 여러 사람이 원하는 곳으로 해. 모두가 만족할 수 있는 결정을 하려면 네 생각도 정확하게 말해줘야 돼.",
     "utterances": [
       {
@@ -68157,7 +68157,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "e821d0e7-631a-45d1-80f5-d9a691f933d2",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512512/soometa/64-II-listening/8_19.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-II-listening/8_19.mp3",
     "text": "이거. 조금 전에 받은 명함인데요. 디자인이 참 특이하죠? 그렇네요. 그림이 있는 것도 인상적이고요. 그런데 명함이라고 하기에는 정보가 좀 부족한 것 같지 않아요? 디자인 덕분에 이렇게 한 번 더 보게 되니까 전 좋은 것 같아요.",
     "utterances": [
       {
@@ -68450,7 +68450,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "780bf368-8d8c-471e-84cb-3b087a0bf004",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512512/soometa/64-II-listening/8_20.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-II-listening/8_20.mp3",
     "text": "20번. 기업 행사를 기획할 때는 어떤 부분에 신경을 써야 하나요? 행사의 목적이 무엇인지 잘 파악해야 합니다. 신제품 홍보를 위한 행사는 제품의 이미지에 맞게 분위기를 연출해야 하고요. 송년회 같이 직원들을 위한 행사는 친목을 위한 다양한 프로그램이 필요합니다.",
     "utterances": [
       {
@@ -68739,7 +68739,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "b86cdee6-8ecf-494b-80a2-5ba60c67e71a",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512512/soometa/64-II-listening/8_21-22.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-II-listening/8_21-22.mp3",
     "text": "최근 조사 자료를 보면 여행객들이 호텔을 선택할 때 가장 많이 참고하는 게 이용 후기라고 해요. 맞아요. 우리도 후기 관리에 더 신경을 써야 할 것 같아요. 우리 호텔은 고객 만족도는 높은 데 비해 이용 후기는 적은 편이잖아요. 그래서 고객들에게 후기 작성에 대해 적극적으로 알려야 할 것 같아요. 후기를 많이 남길 수 있도록 하는 이벤트도 해보고요. 좋네요. 그럼 어떤 이벤트가 좋을지 한번 생각해 봐요.",
     "utterances": [
       {
@@ -69219,7 +69219,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "28fa0bb7-b59f-4bc4-906a-6cfc71f0d0f1",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512512/soometa/64-II-listening/8_23-24.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-II-listening/8_23-24.mp3",
     "text": "23번 24번. 여보세요? 제가 운전면허증을 잃어버려서 다시 발급을 받고 싶은데요. 어떻게 하면 되나요? 운전면허 시험장으로 오시면 당일에 받을 수 있습니다. 오실 때 신분증을 꼭 챙겨 오셔야 하고요. 인터넷으로는 신청이 안 되나요? 면허 시험장이 너무 멀어서요. 인터넷으로도 가능합니다. 신청하실 때 가까운 경찰서를 지정해서 면허증을 받으시면 돼요. 그런데 시간은 두 주 정도 걸립니다.",
     "utterances": [
       {
@@ -69631,7 +69631,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "88174d70-cb96-4d98-9c8f-857f5515eac2",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512512/soometa/64-II-listening/8_25-26.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-II-listening/8_25-26.mp3",
     "text": "오늘은. 소방복을 재활용한 가방을 만들어 화제가 된 대학생들을 만나러 왔습니다. 어떻게 이런 일을 하게 되셨습니까? 소방관들이 시민을 위해 얼마나 힘든 환경에서 일하고 있는지를 알리고 싶었어요. 그래서 작년부터 저희의 전공을 살려 버려진 소방복을 재활용해 가방을 만들게 되었습니다. 가방의 소재가 특이하다 보니 자연스럽게 사람들의 관심을 모을 수 있었고 판매까지 하게 되었습니다. 현재는 가방을 판매한 수익금을 소방관의 활동을 알리는 데 사용하고 있습니다. 저희의 작은 노력이 소방관의 어려움을 한 번 더 떠올리는 계기가 되었으면 좋겠습니다.",
     "utterances": [
       {
@@ -70165,7 +70165,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "dd035865-81a5-47e5-a2f7-4a9268596253",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512512/soometa/64-II-listening/8_27-28.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-II-listening/8_27-28.mp3",
     "text": "27번 28번 이번에 김 과장님도 육아휴직을 신청했대요. 요즘 우리 회사 남자 직원들 중에 육아휴직을 신청하는 사람들이 점점 많아지고 있어요. 그러게요. 제도가 바뀌면서 휴직 기간 동안 월급도 주고 경력 인정도 되니까 예전보다 신청에 대한 부담이 적어진. 거겠죠. 제 생각엔 남성 육아를 긍정적으로 보는 시각이 많아진 게 큰 이유인 것 같아요. 정부나 회사에서 남성 육아를 권장하기도 하고요. 하긴 요즘 분위기가 많이 달라진 것 같긴 해요.",
     "utterances": [
       {
@@ -70652,7 +70652,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "1de7d9cd-2232-476c-b7ed-e4966352b327",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512512/soometa/64-II-listening/8_29-30.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-II-listening/8_29-30.mp3",
     "text": "29번 30번 독서를 위한 다양한 서비스를 제공한다는 점이겠죠. 우선 매달 이용료를 내면 수만 권의 책을 얼마든지 읽을 수 있고요. 어려운 책은 전문가의 해설을 들으면서 읽거나 요약본으로 볼 수도 있어요. 모든 책에 음성 지원이 가능해서 이동 중에도 내용을 들을 수 있습니다. 최근에는 책의 내용을 만화나 동영상 등으로 소개하는 기능도 추가하셨다고요. 네. 더 즐겁게 독서할 수 있는 여러 방법을 계속 고민 중이에요.",
     "utterances": [
       {
@@ -71118,7 +71118,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "dd7f9c66-8857-4f3c-abf1-8dceaa509c8e",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512512/soometa/64-II-listening/8_31-32.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-II-listening/8_31-32.mp3",
     "text": "제. 학생을 대상으로 한 창업 지원 사업은 사전 교육을 강화하는 방향으로 가야 한다고 생각합니다. 사전 교육과 함께 창업 지원금을 늘려서 더 많은 학생들이 실제로 창업을 해보게 하는 건 어떨까요? 지금 상황에서 창업을 해보게 하는 건 좀 이르지 않을까요? 교육이 부족하면 창업 과정에서 어려움이 많을 겁니다. 직접 부딪혀 봐야 배울 수 있는 것도 있잖아요. 그게 진정한 의미의 창업 교육인 것 같아요.",
     "utterances": [
       {
@@ -71593,7 +71593,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "88963d79-6c77-4304-8d8d-358ced448ecf",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512512/soometa/64-II-listening/8_33-34.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-II-listening/8_33-34.mp3",
     "text": "33번 34번 비행기가 착륙할 때 바퀴와 지면에 마찰로 인해 엄청난 열이 발생합니다. 그 온도가 워낙 높아 공기를 주입한 타이어에서는 공기에 포함된 산소가 자칫 폭발을 유도할 위험이 있습니다. 그래서 자동차 타이어와 달리 비행기 타이어에는 산소가 혼합되지 않은 질소만을 주입합니다. 타이어 표면의 무늬도 마찰열과 관계가 있는데요. 자동차 타이어에는 복잡한 무늬를 넣어 미끄러짐을 방지하지만, 비행기 타이어에는 단순한 세로 줄무늬를 사용하여 지면과의 마찰을 줄이고, 착륙 시 발생하는 열을 최소화해 줍니다.",
     "utterances": [
       {
@@ -72074,7 +72074,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "5783190a-3b69-49a1-9fc7-d85c4722cf2c",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512512/soometa/64-II-listening/8_35-36.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-II-listening/8_35-36.mp3",
     "text": "35번 36번 아역배우로 영화인생을 시작해서 78세의 나이로 눈을 감기까지 김민수 선배님의 삶은 오직 영화만을 위한 것이었습니다. 선배님은 배우로서 백여 편의 영화에 출연하며 특유의 개성 넘치는 연기로 우리를 울고 웃게 했습니다. 53세에는 감독으로서 첫 작품을 발표하고 이후 세 편의 영화를 더 남겼습니다. 마지막으로 연출한 작품으로 국제영화제에서 감독상을 수상하기도 했지요. 뿐만 아니라 영화 박물관의 대표로서 한국 영화의 역사를 기록하는 일에도 힘을 써온 누구보다 영화를 사랑하는 분이셨습니다.",
     "utterances": [
       {
@@ -72541,7 +72541,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "d60afa2e-fd7e-43a4-a0e3-c8868476bb7e",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512512/soometa/64-II-listening/8_37-38.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-II-listening/8_37-38.mp3",
     "text": "37번 38번 충치뿐 아니라 잇몸병으로 고생하는 젊은 분들이 상당히 많네요. 네, 그 수가 전체 인문병 환자의 3분의 1을 차지할 정도니까요. 20, 30대 환자는 최근 5년 사이에 약 60%나 증가했습니다. 젊은 분들은 잇몸병을 대수롭지 않게 여기는 경향이 있는데요. 손상된 잇몸은 원래대로 회복되지 않습니다. 게다가 잇몸병의 원인이 되는 세균이 온 몸을 돌아다니며 다른 신체기관에 악영향을 끼치기도 하고요. 심각한 경우에 이 세균이 심장병이나 치매를 유발할 수도 있어요. 건강할 때부터 잇몸을 잘 관리하는 것이 좋습니다.",
     "utterances": [
       {
@@ -73057,7 +73057,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "d682a010-e93c-423e-a64a-e0ca01ab3a9f",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512512/soometa/64-II-listening/8_39-40.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-II-listening/8_39-40.mp3",
     "text": "39번 40번. 국외로 유출된 문화재가 이렇게 많은데 어떤 방법으로 이런 문화재들을 다시 본국으로 가져올 수 있을까요? 관련된 국제협약이 1970년에 마련되었고 1990년대 후반부터 문화재 환수에 대한 관심이 높아지면서 국가 간 논의와 공조가 활발해졌습니다. 문화재 환수에는 정부 간 대여나 기증 등의 방식이 있는데요. 기증을 통한 영구적 환수가 바람직하겠지만 나라마다 문화재 보호에 관한 법이 서로 달라서 이것이 쉽지는 않습니다. 현재는 대여하는 방식으로 일시적 환수가 이루어지는 경우가 많습니다.",
     "utterances": [
       {
@@ -73542,7 +73542,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "45f75069-b118-40ba-a970-a65ad6cc65c6",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512512/soometa/64-II-listening/8_41-42.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-II-listening/8_41-42.mp3",
     "text": "41번 42번 과학자들은 오랜 논의를 거쳐 감칠맛을 다섯 번째 미각으로 인정했습니다. 감칠맛은 음식을 더 맛있게 느끼게 해 식욕을 당기게 합니다. 이제 과학자들은 여섯 번째 미각에 관심을 쏟고 있는데요. 여러 맛들이 언급되고 있지만 깊은 맛이 유력한 후보로 거론되고 있습니다. 깊은 맛은 식재료를 오래 끓이거나 숙성, 발효시키는 과정에서 우러나는 맛인데요. 그 자체로 맛을 가지고 있지는 않지만 다른 맛들과 결합해 음식의 풍미를 높여줍니다. 콩을 발효해 만든 된장이나 간장을 기본 양념으로 하는 한식에는 깊은 맛을 맛볼 수 있는 음식이 많습니다.",
     "utterances": [
       {
@@ -74093,7 +74093,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "7625e93a-f3d8-4850-8ce9-53b2ca9961f2",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512512/soometa/64-II-listening/8_43-44.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-II-listening/8_43-44.mp3",
     "text": "43번 44번 새끼 황갈색 수염 상어는 인간과 마찬가지로 이곳에서 약 10개월을 보낸다. 그런데 영양분을 공급받아야 할 탯줄이 보이지 않는다. 어떻게 영양분을 섭취하는 걸까? 어미 상어는 수정이 되지 않은 수십 개의 무정란을 자궁 속에 가지고 있다. 탯줄이 없어 움직임이 자유로운 새끼 상어는 이 알들을 찾아다니며 먹는다. 어미 상어 배 속에서부터 헤엄치는 법과 먹이 찾는 법을 함께 익히고 있는 샘이다. 세상을 살아갈 만반의 준비를 모두 마친 후, 마침내 새끼 상어는 자궁 밖으로 나온다.",
     "utterances": [
       {
@@ -74609,7 +74609,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "edad064a-4811-45b1-b620-f485aeedfe6d",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512512/soometa/64-II-listening/8_45-46.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-II-listening/8_45-46.mp3",
     "text": "45번 46번 이 사진 속의 악기는 여러분이 잘 알고 있는 색소폰입니다. 색소폰은 다른 클래식 악기들에 비해 늦은 시기인 19세기에 유럽에서 발명됐는데요. 당시 음악계에서 별로 환영을 받지 못했습니다. 음악계를 주도했던 오케스트라는 이미 악기 편성이 확립돼 있었고 다른 악기들과 조화를 이루어 연주하기에 색소폰의 음색이 너무 튀었기 때문이죠. 색소폰이 인기를 얻기 시작한 건 20세기 들어 불기 시작한 재즈 열풍 덕분이었는데요. 흔들리듯 불안하게 들리는 색소폰의 음색이 자유로운 분위기의 재즈와 잘 맞아 떨어진 겁니다. 관능적이고 호소력 짙은 소리가 독특한 음색으로 인정받게 된 것이죠.",
     "utterances": [
       {
@@ -75174,7 +75174,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "53324978-0225-4528-a68d-29d3d459de90",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512512/soometa/64-II-listening/8_47-48.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-II-listening/8_47-48.mp3",
     "text": "47번 48번 국가지점번호라. 저는 좀 생소한데요. 이미 시행 중인 제도라고요? 네. 국가지점번호 제도는 조난이 발생했을 때 그 위치를 정확하게 알 수 있도록 지역마다 번호를 부여하고 표지판을 설치하는 것입니다. 이 제도는 2013년부터 신속한 구조를 목적으로 시행이 되었는데요. 아직까지도 표지판이 설치되지 않은 지역이 많고 잘 알려지지도 않았습니다. 이는 실제 수행을 담당해야 할 지방자치단체들이 업무의 책임을 분명히 하지 않고 예산 부족을 핑계로 설치를 미루고 있기 때문인데요. 국민들의 안전과도 밀접한 관계가 있는 만큼 시행을 위한 각 지방자치단체들의 적극적인 노력이 있어야 하겠습니다.",
     "utterances": [
       {
@@ -75732,7 +75732,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "e9c8e338-4c1c-4e94-83ce-88dc36a08bf7",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512512/soometa/64-II-listening/8_49-50.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/64-II-listening/8_49-50.mp3",
     "text": "49번 50번 이것은 조선 후기 왕들의 일기인 일성록입니다. 하루의 반성문이란 뜻을 가진 이 책은 왕의 소소한 일상에서부터 국정 업무 전반을 왕의 시점으로 기록한 것인데요. 당시의 왕들은 일성록을 신하들이 볼 수 있게 하여 국정 업무에 참고하게 했습니다. 이 일기에는 백성들의 상소와 처리 과정은 물론 그에 대한 왕의 심경까지 기록되어 있고 18세기부터 20세기에 걸친 세계의 정세 변화와 동서양의 사회문화적 교류 양상까지도 상세히 적혀 있습니다. 일성록은 단순한 일기를 넘어 한국뿐만 아니라 세계 역사에도 매우 중요한 사료로 인정받고 있습니다.",
     "utterances": [
       {
@@ -76276,7 +76276,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "31eab65d-560c-488b-ac4e-380b82be00e1",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511302/soometa/60-I-listening/10_01.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-I-listening/10_01.mp3",
     "text": "사과가 맛있어요?",
     "utterances": [
       {
@@ -76309,7 +76309,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "fbe32a66-4784-45bb-b803-84b321e4f8ca",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511302/soometa/60-I-listening/10_02.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-I-listening/10_02.mp3",
     "text": "오늘 학교에 가요?",
     "utterances": [
       {
@@ -76349,7 +76349,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "f795790d-56a5-4700-912c-27e2c86c88ec",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511302/soometa/60-I-listening/10_03.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-I-listening/10_03.mp3",
     "text": "3번. 이거 어디에서 샀어요?",
     "utterances": [
       {
@@ -76396,7 +76396,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "fe11d1b7-68de-49e7-830e-abed03bffa10",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511302/soometa/60-I-listening/10_04.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-I-listening/10_04.mp3",
     "text": "지금 뭐 해요?",
     "utterances": [
       {
@@ -76436,7 +76436,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "bc03f2be-577b-4aed-bfe6-54b7cc2aa2a9",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511302/soometa/60-I-listening/10_05.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-I-listening/10_05.mp3",
     "text": "생일 축하해요.",
     "utterances": [
       {
@@ -76469,7 +76469,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "ebda6b8c-a79a-4bd6-9364-dd290cbf867b",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511302/soometa/60-I-listening/10_06.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-I-listening/10_06.mp3",
     "text": "민수 씨, 잘 가요.",
     "utterances": [
       {
@@ -76516,7 +76516,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "ee2bb7bc-77cb-473d-ac08-7ef11cdfdaf7",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511302/soometa/60-I-listening/10_07.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-I-listening/10_07.mp3",
     "text": "남자. 옷은 어디 있어요? 3층에 있습니다. 다시 들으십시오. 남자 옷은 어디 있어요? 3층에 있습니다.",
     "utterances": [
       {
@@ -76669,7 +76669,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "33e80e78-72c8-4b02-8367-e67e779ab7ba",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511302/soometa/60-I-listening/10_08.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-I-listening/10_08.mp3",
     "text": "모두 두 권입니까? 네, 이. 책 두 권 빌려주세요. 다시 들으십시오. 모두 두 권입니까? 네, 이. 책 두 권 빌려주세요.",
     "utterances": [
       {
@@ -76873,7 +76873,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "a0ac1e7c-310f-4499-a02b-a526fc390fd3",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511302/soometa/60-I-listening/10_09.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-I-listening/10_09.mp3",
     "text": "이거 한국 돈으로 바꾸고 싶어요. 얼마나. 바꿔드릴까요? 다시 들으십시오. 이거 한국 돈으로 바꾸고 싶어요. 얼마나. 바꿔드릴까요?",
     "utterances": [
       {
@@ -77040,7 +77040,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "d0fc8b57-6f41-41bd-a932-fdf88c9fc65f",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511302/soometa/60-I-listening/10_10.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-I-listening/10_10.mp3",
     "text": "10번 수미. 씨, 5번 버스 왔어요. 그럼 저 먼저 갈게요. 다시 들으십시오. 수미 씨. 5번 버스 왔어요. 그럼 저 먼저 갈게요.",
     "utterances": [
       {
@@ -77251,7 +77251,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "1865ce37-7879-424d-99c7-488a60ff22e7",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511302/soometa/60-I-listening/10_11.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-I-listening/10_11.mp3",
     "text": "11번 방이 몇 개예요? 두 개예요. 다시 들으십시오. 방이 몇 개예요? 두 개예요.",
     "utterances": [
       {
@@ -77388,7 +77388,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "106715b7-167a-4524-97e3-6b0b38449481",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511302/soometa/60-I-listening/10_12.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-I-listening/10_12.mp3",
     "text": "저는. 영화를 좋아해요. 민수 씨는요? 저는 운동을 좋아해요. 다시 들으십시오. 저는 영화를 좋아해요. 민수 씨는요? 저는 운동을 좋아해요.",
     "utterances": [
       {
@@ -77569,7 +77569,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "bd049f1a-d706-4103-bf72-1055729e21a2",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511302/soometa/60-I-listening/10_13.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-I-listening/10_13.mp3",
     "text": "13번 여기 일요일에 쉬어요? 아니요. 저희는 월요일에 쉽니다. 다시 들으십시오. 여기 일요일에 쉬어요? 아니요. 저희는 월요일에 쉽니다.",
     "utterances": [
       {
@@ -77734,7 +77734,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "32938b20-c196-4dc7-b8d3-a153a8e76fb5",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511302/soometa/60-I-listening/10_14.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-I-listening/10_14.mp3",
     "text": "14번. 민수 씨는 계속 서울에 살았어요? 네, 저는 서울에서 태어났어요. 다시 들으십시오. 민수 씨는 계속 서울에 살았어요? 네, 저는 서울에서 태어났어요.",
     "utterances": [
       {
@@ -77936,7 +77936,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "6d332835-3800-49cf-a9d9-aea37579c7c5",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511302/soometa/60-I-listening/10_15.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-I-listening/10_15.mp3",
     "text": "이. 수박 얼마예요? 만 원이에요. 하나 드릴까요? 다시 들으십시오. 이 수박 얼마예요? 만 원이에요. 하나 드릴까요?",
     "utterances": [
       {
@@ -78121,7 +78121,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "707a070b-ccdb-4867-bfb1-0559a58c70e3",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511302/soometa/60-I-listening/10_16.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-I-listening/10_16.mp3",
     "text": "16번 수미. 씨, 늦어서 미안해요. 아직 영화 시작 안 했어요. 들어가요. 다시 들으십시오. 수미. 씨, 늦어서 미안해요. 아직 영화 시작 안 했어요. 들어가요.",
     "utterances": [
       {
@@ -78346,7 +78346,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "d129fbd9-0ee2-44bb-8796-ef23ec64531e",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511302/soometa/60-I-listening/10_17.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-I-listening/10_17.mp3",
     "text": "17번 민수 씨는 보통 저녁을 집에서 먹어요? 네, 요리하는. 걸 좋아해서 만들어서 먹어요. 수미 씨는요? 저는 요리를 잘 못해요. 그래서 밖에서 자주 먹어요. 다시 들으십시오. 민수 씨는 보통 저녁을 집에서 먹어요? 네, 요리하는. 걸 좋아해서. 만들어서 먹어요. 수미 씨는요? 저는 요리를 잘 못해요. 그래서 밖에서 자주 먹어요.",
     "utterances": [
       {
@@ -78730,7 +78730,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "32f898a9-bb52-4115-aefc-74eaa7a3f01a",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511302/soometa/60-I-listening/10_18.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-I-listening/10_18.mp3",
     "text": "18번 저 어머니 선물을 좀 사려고 하는데요. 이 티셔츠는 어떠세요? 예쁘네요. 그걸로 주세요. 얼마예요? 3만 원입니다. 다시 들으십시오. 저 어머니 선물을 좀 사려고 하는데요. 이 티셔츠는 어떠세요? 예쁘네요. 그걸로 주세요. 얼마예요? 3만 원입니다.",
     "utterances": [
       {
@@ -79043,7 +79043,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "7f4cea7e-c08b-4919-a9e4-dc943f7cdd68",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511302/soometa/60-I-listening/10_19.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-I-listening/10_19.mp3",
     "text": "19번 수미 씨, 어제는 왜 학교에 안 왔어요? 몸이 안 좋아서 집에 있었어요. 그랬어요? 지금은 괜찮아요? 네, 푹 쉬어서 이제 괜찮아요. 다시 들으십시오. 수미 씨, 어제는 왜 학교에 안 왔어요? 몸이 안 좋아서 집에 있었어요. 그랬어요? 지금은 괜찮아요? 네, 푹 쉬어서 이제 괜찮아요.",
     "utterances": [
       {
@@ -79363,7 +79363,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "7662e2c5-1499-413f-b802-ba3a7b60d3f5",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511302/soometa/60-I-listening/10_20.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-I-listening/10_20.mp3",
     "text": "민수. 씨, 회의 준비 다 했어요? 네, 조금 전에 다 했습니다. 그럼 지금 회의 시작할까요? 네, 회의실로 가겠습니다. 다시 들으십시오. 민수 씨, 회의 준비 다 했어요? 네, 조금 전에 다 했습니다. 그럼 지금 회의 시작할까요? 네, 회의실로 가겠습니다.",
     "utterances": [
       {
@@ -79720,7 +79720,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "f2d20f24-96b4-42ec-a47e-8f526819a3e0",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511302/soometa/60-I-listening/10_21.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-I-listening/10_21.mp3",
     "text": "21번. 오랜만에 미술관에 오니까 좋네요. 같이 와줘서 고마워요. 아니에요. 저도 오고 싶었어요. 그런데 혹시 그림을 배운 적이 있어요? 그림을 잘 아는 것 같아서요. 아니요. 그림을 좋아해서 평소에 많이 봐요. 다시 들으십시오. 오랜만에 미술관에 오니까 좋네요. 같이 와줘서 고마워요. 아니에요. 저도 오고 싶었어요. 그런데 혹시 그림을 배운 적이 있어요? 그림을 잘 아는 것 같아서요. 아니요. 그림을 좋아해서 평소에 많이 봐요.",
     "utterances": [
       {
@@ -80224,7 +80224,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "3fe98444-f20a-4c74-9e2d-d8f5f6e6c231",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511302/soometa/60-I-listening/10_22.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-I-listening/10_22.mp3",
     "text": "22번 수미 씨는 회사에 차를 안 가지고 다녀요? 네, 저는 지하철로 다녀요. 운전해서 다니는 게 편하지 않아요? 아니요. 길이 막혀서 지하철을 타는 게 편해요. 다시 들으십시오. 수미 씨는 회사에 차를 안 가지고 다녀요? 네, 저는 지하철로 다녀요. 운전해서 다니는 게 편하지 않아요? 아니요. 길이 막혀서 지하철을 타는 게 편해요.",
     "utterances": [
       {
@@ -80586,7 +80586,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "dd133226-e1d3-4c91-a1dc-e6d14adfd8b7",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511302/soometa/60-I-listening/10_23.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-I-listening/10_23.mp3",
     "text": "23번 손님 두 분이세요? 저기 안쪽 자리 어떠세요? 창문 쪽은 오래 기다려야. 돼요? 30분 정도 기다리셔야 합니다. 그럼 기다릴게요. 창문 밖 경치가 좋아서요. 다시 들으십시오. 손님, 두 분이세요? 저기 안쪽 자리 어떠세요? 창문 쪽은 오래 기다려야. 돼요? 30분 정도 기다리셔야 합니다. 그럼 기다릴게요. 창문 밖 경치가 좋아서요.",
     "utterances": [
       {
@@ -80997,7 +80997,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "645c7ddd-cc50-4f17-bc5c-318be3523938",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511302/soometa/60-I-listening/10_24.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-I-listening/10_24.mp3",
     "text": "24번. 우리 여행 가서 뭐 할까요? 이제 계획을 세워야죠. 가서 정하는 게 어때요? 다 정하고 가면 재미가 없을 것 같아요. 그렇지만 미리 계획을 하고 가면 시간을 잘 쓸 수 있잖아요. 거기에 가서 알아보면 더 좋은 곳이 있을 수도 있어요. 다시 들으십시오. 우리 여행 가서 뭐 할까요? 이제 계획을 세워야죠. 가서 정하는 게 어때요? 다 정하고 가면 재미가 없을 것 같아요. 그렇지만 미리 계획을 하고 가면 시간을 잘 쓸 수 있잖아요. 거기에 가서 알아보면 더 좋은 곳이 있을 수도 있어요.",
     "utterances": [
       {
@@ -81641,7 +81641,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "52af6ad2-655e-4271-8212-520f2aef356d",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511302/soometa/60-I-listening/10_25-26.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-I-listening/10_25-26.mp3",
     "text": "학생회에서 알립니다. 다음 주 금요일에 열리는 동아리 발표회 행사가 올해는 체육관에서 열립니다. 작년보다 많은 동아리가 신청을 해서 발표회를 체육관에서 하게 되었습니다. 학생회관으로 가지 마시고 체육관으로 와주시기 바랍니다. 재미있는 공연도 볼 수 있으니까 많이 와주세요. 감사합니다. 다시 들으십시오. 학생회에서 알립니다. 다음 주 금요일에 열리는 동아리 발표회 행사가 올해는 체육관에서 열립니다. 작년보다 많은 동아리가 신청을 해서 발표회를 체육관에서 하게 되었습니다. 학생회관으로 가지 마시고 체육관으로 와주시기 바랍니다. 재미있는 공연도 볼 수 있으니까 많이 와주세요. 감사합니다.",
     "utterances": [
       {
@@ -82164,7 +82164,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "93871e89-3915-44f2-b0db-1314aa1dac2e",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511302/soometa/60-I-listening/10_27-28.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-I-listening/10_27-28.mp3",
     "text": "27번 나도 운동 좀 해야 하는데 수미 씨는 요즘 무슨 운동하세요? 저는 인터넷으로 요가 수업을 듣고 있는데 생각보다 괜찮아요. 인터넷으로 운동을 하면 집에서 할 수 있으니까 좋겠네요. 네, 그리고 어려우면 화면을 멈추고 자세히 볼 수 있어서 좋아요. 필요하면 다시 봐도 되고요. 맞아요. 또 시간이 없으면 밤늦게 하거나 아침 일찍 해도 돼요. 다시 들으십시오. 나도 운동 좀 해야 하는데 수미 씨는 요즘 무슨 운동하세요? 저는 인터넷으로 요가 수업을 듣고 있는데 생각보다 괜찮아요. 아, 인터넷으로 운동을 하면 집에서 할 수 있으니까 좋겠네요. 네. 그리고 어려우면 화면을 멈추고 자세히 볼 수 있어서 좋아요. 필요하면 다시 봐도 되고요. 맞아요. 또 시간이 없으면 밤늦게 하거나 아침 일찍 해도 돼요.",
     "utterances": [
       {
@@ -83010,7 +83010,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "aa3ce5f3-3395-4c88-a550-2afc848c4304",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511302/soometa/60-I-listening/10_29-30.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-I-listening/10_29-30.mp3",
     "text": "작가님의 책이 외국인들에게 인기가 많습니다. 어떤 책인가요? 한국인의 재미있는 생활 모습에 대한 책이에요. 방에 신발을 벗고 들어가거나 음식을 자를 때 가위를 사용하는 것처럼요. 그런데 어떻게 이런 책을 쓰셨어요? 제가 호텔에서 일했는데 그때 외국 손님들이 한국에 대한 질문을 많이 했어요. 그래서 이런 책을 생각하게 됐죠. 그렇군요. 두 번째 책도 준비하고 계세요? 네. 외국인들에게 알려주고 싶은 것이 아직 많아요. 이번에는 한국의 아름다운 장소를 소개하는 책을 써보려고요. 다시 들으십시오. 작가님의 책이 외국인들에게 인기가 많습니다. 어떤 책인가요? 한국인의 재미있는 생활 모습에 대한 책이에요. 방에 신발을 벗고 들어가거나 음식을 자를 때 가위를 사용하는 것처럼요. 그런데 어떻게 이런 책을 쓰셨어요? 제가 호텔에서 일했는데 그때 외국 손님들이 한국에 대한 질문을 많이 했어요. 그래서 이런 책을 생각하게 됐죠. 그렇군요. 두 번째 책도 준비하고 계세요? 네. 외국인들에게 알려주고 싶은 것이 아직 많아요. 이번에는 한국의 아름다운 장소를 소개하는 책을 써보려고요.",
     "utterances": [
       {
@@ -84056,7 +84056,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "4a6de06d-4717-49f2-a2bd-e0a8406cba2b",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512840/soometa/60-II-listening/12_01.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-II-listening/12_01.mp3",
     "text": "무엇을. 도와드릴까요? 이 지갑 누가 잃어버린 것 같아요. 이 앞에 있었어요. 네, 이쪽으로 주세요.",
     "utterances": [
       {
@@ -84200,7 +84200,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "765fe685-7f5c-4213-a01c-1e6fae577edf",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512840/soometa/60-II-listening/12_02.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-II-listening/12_02.mp3",
     "text": "2번 수미야, 괜찮아? 많이 아프겠다. 응. 다리가 아파서 못 일어나겠어. 그래? 내가 도와줄 테니까 천천히 일어나 봐.",
     "utterances": [
       {
@@ -84356,7 +84356,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "848b668e-35e5-445a-9371-eb6f3fee8c50",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512840/soometa/60-II-listening/12_03.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-II-listening/12_03.mp3",
     "text": "3번 직장인들은 점심시간을 어떻게 보낼까요? 직장인의 점심시간은 1시간이 70%였고 1시간 30분은 20%, 1시간 미만은 10%였습니다. 식사 후 활동은 동료와 차 마시기가 가장 많았으며 산책하기, 낮잠 자기가 뒤를 이었습니다.",
     "utterances": [
       {
@@ -84571,7 +84571,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "f9979945-6fc2-4c11-8feb-9ee6ec5b08a8",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512840/soometa/60-II-listening/12_04.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-II-listening/12_04.mp3",
     "text": "민수 씨, 이번 주 모임 장소가 바뀌었대요. 그래요? 어디로 바뀌었어요?",
     "utterances": [
       {
@@ -84660,7 +84660,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "b5b3e635-2b56-4c9f-bde9-b18f06461972",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512840/soometa/60-II-listening/12_05.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-II-listening/12_05.mp3",
     "text": "기차표 알아봤는데 금요일 오후표는 없는 것 같아. 그럼 토요일 아침은 어때?",
     "utterances": [
       {
@@ -84765,7 +84765,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "c5055775-4aa0-418f-b0df-f24eedd1b238",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512840/soometa/60-II-listening/12_06.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-II-listening/12_06.mp3",
     "text": "내일. 발표만 끝나면 이제 이번 학기도 끝나네요. 그러게요. 수미 씨, 방학 계획은 세웠어요?",
     "utterances": [
       {
@@ -84893,7 +84893,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "2848eec0-fb8f-41ef-91ec-16ff6f318a81",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512840/soometa/60-II-listening/12_07.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-II-listening/12_07.mp3",
     "text": "이번에 새로 시작한 드라마 말이야. 진짜 재미있더라. 아, 그 시골에서 할머니랑 사는 아이 이야기?",
     "utterances": [
       {
@@ -85019,7 +85019,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "5058ccfa-39ec-4642-bcce-0b4560429a65",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512840/soometa/60-II-listening/12_08.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-II-listening/12_08.mp3",
     "text": "팀장님. 프로그램 만족도 설문조사를 만들어 봤는데요. 확인해 주시겠어요? 어디 봅시다. 음, 질문 수가 좀 많은 것 같네요.",
     "utterances": [
       {
@@ -85175,7 +85175,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "c61fb609-0599-48e0-9634-69b09b67d574",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512840/soometa/60-II-listening/12_09.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-II-listening/12_09.mp3",
     "text": "9번. 전시되어 있는 그릇들이 참 특이하고 멋지네요. 그렇죠. 판매도 한다니까 우리 하나 사가요. 그럼 저 파란색 그릇은 어때요? 괜찮네요. 제가 가서 얼마인지 알아볼게요.",
     "utterances": [
       {
@@ -85391,7 +85391,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "ff76d764-1bbe-42e9-8887-dba0ba3f0369",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512840/soometa/60-II-listening/12_10.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-II-listening/12_10.mp3",
     "text": "10번 고객님, 그럼 이 카드로 하실 거죠? 네, 그런데 카드는 바로 나오나요? 그럼요. 서류 작성은 제가 도와드릴게요. 신분증 주시겠어요? 네, 잠깐만요.",
     "utterances": [
       {
@@ -85557,7 +85557,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "73e3b29a-60b8-4f23-920b-150ce26626e9",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512840/soometa/60-II-listening/12_11.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-II-listening/12_11.mp3",
     "text": "11번. 누나, 벽시계가 안 가는 것 같은데 건전지가 다 됐나 봐. 어, 그러네. 건전지가 어디 있었던 것 같은데. 안방 서랍 안에 몇 개 있을 거야. 가져올게. 아니야. 내가 찾아올 테니까 너는 시계 좀 내려줘.",
     "utterances": [
       {
@@ -85850,7 +85850,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "24af8db0-e7a0-4128-8cd0-639f88538efd",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512840/soometa/60-II-listening/12_12.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-II-listening/12_12.mp3",
     "text": "이수미 씨, 거래처랑 하는 회의, 자료는 다 준비됐어요? 회의 전에 먼저 보고 싶은데요. 지금 자료를 출력해 드릴까요? 네, 바로 뽑아주세요. 거래처의 시간과 장소는 알려주었죠? 어제 확인 이메일 보냈습니다.",
     "utterances": [
       {
@@ -86065,7 +86065,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "2fe8c231-3a88-4a94-ace6-e3239b87a158",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512840/soometa/60-II-listening/12_13.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-II-listening/12_13.mp3",
     "text": "13번. 봉사활동을 해보고 싶은데 처음이라 뭘 해야 할지 모르겠어요. 봉사활동을 소개해 주는 인터넷 사이트가 있는데 알려. 줄까요? 네, 좋아요. 민수 씨도 이용해 본 적이 있어요? 그럼요. 종류도 다양하고 기간도 선택할 수 있어서 편해요.",
     "utterances": [
       {
@@ -86351,7 +86351,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "7181216d-957e-420f-ae84-4aae16c36f5f",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512840/soometa/60-II-listening/12_14.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-II-listening/12_14.mp3",
     "text": "14번 주민 여러분, 오늘은 아파트 소방시설 점검이 있습니다. 1동부터 5동은 오전 9시부터 12시까지, 6동부터 10동은 오후 1시부터 4시까지 점검합니다. 오늘 점검 중에는 비상벨이 여러 번 울릴 예정이니 놀라지 마시고 하던 일을 계속하시기 바랍니다.",
     "utterances": [
       {
@@ -86601,7 +86601,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "7802ebd4-5d20-4d58-9e61-6a18bc1ae501",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512840/soometa/60-II-listening/12_15.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-II-listening/12_15.mp3",
     "text": "15번 현재 태풍은 제주도를 지나고 있습니다. 제주도는 강한 바람과 함께 비가 내리고 있는데요. 이번 태풍은 특히 바람으로 인한 피해가 큽니다. 제주시에서는 간판이 떨어져 시민 2명이 큰 부상을 입기도 했습니다. 태풍은 오늘 밤 늦게 동해를 지나 사라지겠습니다.",
     "utterances": [
       {
@@ -86872,7 +86872,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "6494340c-b6f6-4f48-997c-7e1f1a1398e6",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512840/soometa/60-II-listening/12_16.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-II-listening/12_16.mp3",
     "text": "이번. 불꽃 축제를 성공적으로 마치셨다죠? 한국에는 불꽃 연출가가 몇 분 안 계신데, 불꽃 연출가가 되려면 무엇이 필요한가요? 우선 자격증이 있어야 하고요. 위협물을 다루니까 꼼꼼하고 침착한 성격이 좋습니다. 요즘은 음악에 맞춰 불꽃을 터뜨리니까 예술적 감각이 있으면 더 좋고요.",
     "utterances": [
       {
@@ -87168,7 +87168,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "6510d118-b85e-445e-a5af-92dafea464a5",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512840/soometa/60-II-listening/12_17.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-II-listening/12_17.mp3",
     "text": "이거 어때요? 화분 크기도 적당하고 나무 모양도 예쁘고 물을 자주 안 줘도 된다니까 키우기 편하겠어요. 음, 저는. 그것보다 꽃이 많이 있는 화분이. 좋은데 꽃은 금방 지고 지저분해져요. 이걸로 하는 게 어때요?",
     "utterances": [
       {
@@ -87422,7 +87422,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "0894c32f-b0b0-45bf-b8a7-ebe7f0951ee0",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512840/soometa/60-II-listening/12_18.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-II-listening/12_18.mp3",
     "text": "18번 신청서에 쓸 게 너무 많다. 문화센터 수업을 신청하는데 직업까지 쓸 필요가 있나? 신청자를 잘 알면 요구에 맞는 수업을 해 줄 수 있으니까 그렇지. 그런 건 따로 물어보면 되지. 정보를 너무 많이 요구하는 것 같아.",
     "utterances": [
       {
@@ -87704,7 +87704,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "1bbe3cba-5b10-4dac-b4bc-6945d7d1305d",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512840/soometa/60-II-listening/12_19.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-II-listening/12_19.mp3",
     "text": "19번 여보, 아이들 책 좀 사야 하는데 온라인으로 주문해 줄래요? 직접 보고 사는 게 어때요? 전문가가 추천한 거예요. 그리고 책은 무거워서 사서 들고 오려면 힘들어요. 그래도 애들이 볼 거니까 내용을 먼저 살펴보고 사야지요.",
     "utterances": [
       {
@@ -87981,7 +87981,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "f171f0b0-a9b1-4252-ad75-6dd2b2d8b710",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512840/soometa/60-II-listening/12_20.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-II-listening/12_20.mp3",
     "text": "기자님이. 진행하시는 시사 프로그램이 인기를 끄는 이유는 뭘까요? 저는 청취자가 누구인가를 먼저 생각합니다. 우리 방송을 듣는 분들은 보통 사람들이거든요. 그래서 저는 일반인의 수준에서 전문가들에게 끊임없이 질문합니다. 어려운 표현이 나오면 다시 설명해 달라고 부탁하기도 하고요.",
     "utterances": [
       {
@@ -88256,7 +88256,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "23e25ad1-9ebc-47e5-8d57-757f6094f380",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512840/soometa/60-II-listening/12_21-22.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-II-listening/12_21-22.mp3",
     "text": "교장. 선생님, 지난주에 선생님들과 회의가 있었는데요. 지하에 있는 빈 교실을 창고나 토론방으로 이용하자는 의견이 있었습니다. 음, 창고보다는 토론방이 더 낫지 않을까요? 학생들이 팀 과제를 준비하면서 편하게 얘기 나눌 공간이 부족하다는 말이 많았잖아요. 그런데 그 교실은 어둡고 환기가 잘 안 되는데 토론방으로 괜찮을까요? 에어컨도 설치가 안 돼 있고요. 그건 해결이 가능하지 않을까요? 거기를 창고로 쓰긴 좀 아까워요.",
     "utterances": [
       {
@@ -88703,7 +88703,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "a0b42860-376a-409f-bf2d-22b4bc17fbef",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512840/soometa/60-II-listening/12_23-24.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-II-listening/12_23-24.mp3",
     "text": "23번 24번 거기 청년희망센터죠? 면접 때 입는 정장을 무료로 빌릴 수 있다고 해서 전화드렸는데요. 어떻게 하면 되나요? 이 서비스는 인주시에 살고 있는 인주시민이라면 누구나 이용할 수 있습니다. 신청은 회사 면접보기 일주일 전부터 가능하고요. 대여 신청은 홈페이지에서 하시면 되는데요. 홈페이지에서 원하는 옷을 선택하고 예약한 날 신분증을 가지고 오시면 됩니다. 혹시 정장을 택배로도 받을 수 있을까요? 네, 이메일로 신분증 4번을 보내고 택배비를 내시면 됩니다.",
     "utterances": [
       {
@@ -89183,7 +89183,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "d30f3bb2-2f74-402d-99de-bcc7297937e0",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512840/soometa/60-II-listening/12_25-26.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-II-listening/12_25-26.mp3",
     "text": "25번 26번 선생님께서 만든 놀이터는 기존의 놀이터와 어떻게 다른가요? 작은 언덕도 있어요. 언덕 옆에 오래된 통나무들도 놓여 있고요. 이곳에 오면 아이들은 언덕을 오르거나 통나무를 타보기도 하고 개울에서 물놀이를 하기도 해요. 놀이기구가 없기 때문에 아이들은 무한한 상상력을 발휘하게 되는 거죠. 이곳에서 아이들은 각자 다른 방법으로 새로운 것들을 해보면서 자유롭게 놉니다.",
     "utterances": [
       {
@@ -89545,7 +89545,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "36ff23b5-c8b5-446f-aad3-89e13100023c",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512840/soometa/60-II-listening/12_27-28.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-II-listening/12_27-28.mp3",
     "text": "27번 28번 수미 씨, 이번 단합대회 정말 좋지 않았어요? 저는 부서원들이랑 운동도 하고 음식도 같이 해 먹으니까 더 친해진 것 같아요. 그렇긴 한데 저는 좀 피곤했어요. 장소가 멀어서 이동하는 데 시간도 꽤 걸렸고요. 좀 피곤하긴 해도 서로 소통할 기회도 생기고 가끔 교회로 나가 바람을 쐬는 것도 괜찮지 않아요? 단합대회를 밖으로 나가서만 해야 하는 건 아니잖아요. 단합이나 소통을 위한 거라면 회사 안에서도 가능할 것 같아요.",
     "utterances": [
       {
@@ -90039,7 +90039,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "0317dd18-4cd4-499b-8a0e-beabd311c757",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512840/soometa/60-II-listening/12_29-30.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-II-listening/12_29-30.mp3",
     "text": "29번 30번 오늘처럼 팬들로 가득 찬 야외 공연장 관리는 쉽지 않으시겠어요. 아무래도 실내 공연장보다 힘들긴 합니다. 저희는 공연을 하는 동안 무대 아래에서 사람들이 안전선을 넘어가지 못하게 하고 열성 팬들의 돌발 행동에도 대비해야 하는데요. 야외 공연장은 관중이 많아서 관리가 더 힘들죠. 또 오늘처럼 비가 오면 사람들 움직임도 잘 안 보이거든요. 그래서 실내 공연장에 있을 때보다 훨씬 긴장됩니다. 다행히 오늘은 사고가 없었지만 사고가 발생하면 어떻게 하시나요? 무대에 가수들을 먼저 이동시키고 상황별 행동수칙에 따라 대처를 합니다.",
     "utterances": [
       {
@@ -90569,7 +90569,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "898794b9-7e6b-42da-8f26-294dc2e05480",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512840/soometa/60-II-listening/12_31-32.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-II-listening/12_31-32.mp3",
     "text": "31번 32번. 이번 사건은 배가 고파서 식료품을 훔치다가 잡힌 경우입니다. 이 경우를 일반 범죄들과 동일하게 볼 수는 없죠. 안타까운 일이기는 하지만 생계형 범죄도 분명히 범죄입니다. 피해자도 존재하고요. 다른 범죄와 처벌을 달리할 필요가 없습니다. 처벌을 엄격하게 하는 것보다는 경제적 어려움을 해소하고 열심히 살 수 있도록 기회를 주는 것이 더 필요하지 않을까요? 처벌이 약해지면 분명 이를 악용하는 사람들이 나타날 것이고 그러면 비슷한 범죄가 계속 늘어나게 될 것입니다.",
     "utterances": [
       {
@@ -91079,7 +91079,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "30f45406-ada3-494f-a5e6-cabd5e9e6fee",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512840/soometa/60-II-listening/12_33-34.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-II-listening/12_33-34.mp3",
     "text": "33번 34번 우주식품은 어떻게 만들까요? 우주식품은 장기 보관을 위해 식품 내 미생물을 완전히 없애고 얼린 후 건조시켜 만듭니다. 그리고 무증력 공간인 우주선에서는 음식의 국물이나 가루가 떠다니다. 기계에 고장을 일으킬 수 있어 이런 종류는 되도록 피합니다. 우주에서 오래 활동하면 뼈와 근육이 약해지니까 칼슘과 칼륨이 들어 있는 식품을 꼭 포함하고요. 우주에서는 미각과 후각이 둔해져 맛을 잘 느끼지 못하기 때문에 음식을 더 자극적으로 만듭니다.",
     "utterances": [
       {
@@ -91525,7 +91525,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "922ef82b-db5f-42da-97b1-e0a88eb1ca25",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512840/soometa/60-II-listening/12_35-36.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-II-listening/12_35-36.mp3",
     "text": "35번 36번 저희 회사의 카메라를 사랑해 주시는 고객 여러분께 감사드립니다. 최근 발생한 카메라 오작동 문제에 대해 말씀드리고자 합니다. 먼저 사용에 불편을 드려 진심으로 죄송합니다. 문제가 발생한 제품들을 수거하여 면밀히 점검하였습니다. 점검 결과, 카메라 내 특정 부품에서 하자가 발견되었습니다. 이는 모두 작년에 생산된 것인데, 생산 과정에서 문제가 있었던 것으로 확인되었습니다. 작년에 출고된 제품은 원하시는 경우 언제든 새 제품으로 무상 교환해 드리겠습니다. 다시금 고객 여러분께 사죄의 말씀을 드립니다.",
     "utterances": [
       {
@@ -92006,7 +92006,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "655fb2f3-c348-4b60-b246-9e44f96400ea",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512840/soometa/60-II-listening/12_37-38.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-II-listening/12_37-38.mp3",
     "text": "37번 38번 목재가 건축재료로 다시 주목받게 된 이유는 무엇인가요? 새롭게 개발된 목재 가공 기술 덕분인데요. 이 기술을 사용해 단단하게 압축된 특수 목재를 만듭니다. 이 목재는 휘거나 틀어지지 않고 방도도 전보다 훨씬 세졌습니다. 또 철근, 콘크리트보다 가볍고 유연해서 지진에도 강하고요. 공사기간 단축 효과도 있는데요. 최근 18층짜리 목조 기숙사 건물이 70일 만에 지어져 화제가 됐었죠. 이런 점들로 인해 세계적으로 목조 건물에 대한 관심이 높아지고 있는 겁니다.",
     "utterances": [
       {
@@ -92482,7 +92482,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "44c5fb3d-0426-41c2-9a16-4dcb968384d8",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512840/soometa/60-II-listening/12_39-40.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-II-listening/12_39-40.mp3",
     "text": "왜 작사가와 작곡가들이 야구단에 소송을 제기한 건가요? 그동안 야구단에서 곡에 대한 사용료를 지불해온 것으로 알고 있는데요. 사용료를 지불하긴 했지만 원작자 허락 없이 가사를 바꾸고 곡을 편집한 것에 대해서도 금액을 지불하라는 것이죠. 야구단에서 원곡을 그대로 사용했다면 이런 문제는 없었을 겁니다. 하지만 저작권법에 따르면 저작물의 내용이나 형식을 바꿀 경우 미리 원작자의 허락을 받아야 하고 이에 대한 비용도 지불하는 것이 맞습니다. 현재 이 문제로 당분간 야구장에서 응원가를 틀지 않기로 한 상황입니다.",
     "utterances": [
       {
@@ -92977,7 +92977,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "714a371d-e6d9-4feb-b643-901999ca382c",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512840/soometa/60-II-listening/12_41-42.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-II-listening/12_41-42.mp3",
     "text": "41번 42번 조선시대 왕의 밥상인 수라상에는 각 지방에 제철 특산품이 올랐습니다. 그래서 왕은 수라상에 올라오는 식재료를 보고 각 지방의 상황을 도루 짐작할 수 있었지요. 그런데 나라에 가뭄이나 홍수 피해가 있으면 왕은 백성을 아끼는 마음에서 반찬수를 줄이기도 했습니다. 수라상은 신하들의 분쟁을 잠재우기 위한 수단으로도 활용되었는데요. 신하들 간의 분쟁이 심해질 경우 왕은 반찬수를 줄이겠다고 선언합니다. 그러면 신하들은 왕의 건강을 염려해서 잠시나마 분쟁을 멈추었지요. 왕이 수라상을 정치에 적절히 이용했던 겁니다.",
     "utterances": [
       {
@@ -93465,7 +93465,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "385a7340-fcb3-4170-b92c-0a420d1f2f2a",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512840/soometa/60-II-listening/12_43-44.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-II-listening/12_43-44.mp3",
     "text": "43번 44번 암컷 오랑우탄이 새끼를 안고 나뭇잎을 뜯고 있다. 사포닌 성분이 가득 들어있는 이 나뭇잎은 지역 주민들에게 강력한 진통제로 쓰인다. 일반적으로 동물들은 사포닌의 쓴맛을 꺼리는데 오랑우탄은 왜 이 나뭇잎을 뜯고 있을까? 최근 이 지역에서는 오랑우탄들이 나뭇잎을 씹어서 만든 즙을 팔에 바르는 모습이 자주 목격되었다 주로 암컷 오랑우탄이 이런 행동을 하는데 새끼를 안고 다니느라 생긴 통증을 줄이려는 것으로 보인다 몸이 좋지 않을 때 인간처럼 약초를 먹는 오랑우탄은 발견된 적이 있으나 나뭇잎을 집을 내어 바르는 모습이 목격된 것은 이번이 처음이다.",
     "utterances": [
       {
@@ -94030,7 +94030,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "b495ec58-b2fb-41da-993e-820d9a63bade",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512840/soometa/60-II-listening/12_45-46.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-II-listening/12_45-46.mp3",
     "text": "45번 46번 오늘은 채소가 아닌 보석 호박에 대해 얘기해 보죠. 호박은 나무에서 흘러나온 수액이 굳어져서 생긴 것인데요. 일반적인 보석처럼 광물로 만들어진 게 아니라서 바닷물에 뜰 정도로 가볍습니다. 또 다른 보석들은 보통 흠집이나 불순물이 없어야 가치를 인정받지만 호박은 다릅니다. 워낙 투명하기 때문에 내부의 불순물이 그대로 보이는데 불순물이 잘 보일수록 가치가 높습니다. 그래서 수천만 년 전에 생태계를 보여주는 고대의 곤충이나 식물의 입 등이 들어가 있으면 다이아몬드만큼이나 비싼 가격에 팔리기도 합니다.",
     "utterances": [
       {
@@ -94525,7 +94525,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "25f3103b-ea15-4980-abcb-224989de3e06",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512840/soometa/60-II-listening/12_47-48.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-II-listening/12_47-48.mp3",
     "text": "47번 48번 인구 문제 해결을 위해 적정 인구부터 논의해야 한다는 것이군요. 네. 적정 인구란 사회의 규모와 경제적인 면에서 가장 바람직한 인구 수준을 말하는데요. 적정 인구 규모가 정해져야 그에 따른 인구 대책을 세울 수 있게 됩니다. 적정 인구는 일반적으로 사람들이 소비하는 자원의 요구량 또는 자원 생산에 필요한 땅 면적을 고려해 계산하는데요. 어떤 삶의 질과 방식으로 사느냐에 따라 요구되는 자원이 다르기 때문에 나라마다 적정 인구의 판정 기준에 차이가 있습니다. 따라서 적정 인구를 계산할 때는 국민들의 삶의 질도 함께 고려해야 합니다.",
     "utterances": [
       {
@@ -95090,7 +95090,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "daf5b013-f40d-4f49-8f24-d327ed3d4577",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512840/soometa/60-II-listening/12_49-50.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/60-II-listening/12_49-50.mp3",
     "text": "49번 50번 우리 몸의 장기를 다른 사람에게 이식하는 장기 이식 기술의 가장 큰 어려움은 바로 거부 반응이었습니다. 이식한 부위에 서로 다른 면역 체계 때문에 사망에 이르기도 했는데요. 1970년대에 이 면역력 문제를 해결하는 의료기술이 개발되면서 이식 성공률이 획기적으로 높아졌고 지금은 심장이나 뼈, 피부까지도 이식이 가능하게 됐지요. 그런데 이러한 의료기술의 발전에도 불구하고 여전히 필요한 만큼의 장기 기증은 이루어지지 않고 있습니다. 이를 해결하기 위해 현재 인공장기를 이식하는 연구가 한창이라고 하니 장기 이식의 새로운 가능성이 열릴 것으로 기대됩니다.",
     "utterances": [
       {
@@ -95627,7 +95627,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "45e3be09-edf3-46ef-a473-3dc8288ffb09",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511494/soometa/52-I-listening/14_01.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-I-listening/14_01.mp3",
     "text": "영화를 봐요?",
     "utterances": [
       {
@@ -95660,7 +95660,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "88d11bce-51ac-4bf7-85aa-2bcfb4d7ad99",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511494/soometa/52-I-listening/14_02.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-I-listening/14_02.mp3",
     "text": "사람이 많아요?",
     "utterances": [
       {
@@ -95693,7 +95693,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "7fce497a-1ffc-41bc-b023-5e662143b844",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511494/soometa/52-I-listening/14_03.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-I-listening/14_03.mp3",
     "text": "3번 모자를 언제 샀어요?",
     "utterances": [
       {
@@ -95740,7 +95740,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "beb4f801-23b0-437d-ae6a-435112c5c543",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511494/soometa/52-I-listening/14_04.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-I-listening/14_04.mp3",
     "text": "무슨 일을 해요?",
     "utterances": [
       {
@@ -95780,7 +95780,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "20ba773a-06cf-4724-a8b0-312ce9cd2029",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511494/soometa/52-I-listening/14_05.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-I-listening/14_05.mp3",
     "text": "5번 안녕히 가세요.",
     "utterances": [
       {
@@ -95820,7 +95820,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "d2ff784f-49ba-4d47-9535-8f21e3417f05",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511494/soometa/52-I-listening/14_06.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-I-listening/14_06.mp3",
     "text": "여보세요? 김수미 씨 좀 부탁합니다.",
     "utterances": [
       {
@@ -95874,7 +95874,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "cb832543-ee68-4c43-bb15-d7c134b7cfcf",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511494/soometa/52-I-listening/14_07.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-I-listening/14_07.mp3",
     "text": "서울역으로 가주세요. 네, 알겠습니다. 다시 들으십시오. 서울역으로 가주세요. 네, 알겠습니다.",
     "utterances": [
       {
@@ -95963,7 +95963,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "10bc7c6d-ff8c-4682-80f0-94d9a6b927df",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511494/soometa/52-I-listening/14_08.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-I-listening/14_08.mp3",
     "text": "어떤 걸로 드릴까요? 저 딸기 케이크 주세요. 다시 들으십시오. 어떤 걸로 드릴까요? 저 딸기 케이크 주세요.",
     "utterances": [
       {
@@ -96121,7 +96121,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "a5cea2ac-3d60-4234-a4dc-9ad78a8a2d62",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511494/soometa/52-I-listening/14_09.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-I-listening/14_09.mp3",
     "text": "이 소포 미국에 보내고 싶은데요. 안에 뭐가 들어있어요? 다시 들으십시오. 이 소포 미국에 보내고 싶은데요. 안에 뭐가 들어있어요?",
     "utterances": [
       {
@@ -96266,7 +96266,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "9e3ee116-d794-4ea9-a22f-8d34e8641035",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511494/soometa/52-I-listening/14_10.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-I-listening/14_10.mp3",
     "text": "10번 요리책은. 어디에 있어요? 2층에 있습니다. 손님 다시 들으십시오. 요리책은. 어디에 있어요? 2층에 있습니다. 손님.",
     "utterances": [
       {
@@ -96435,7 +96435,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "a654be31-9b6a-4eac-b9cc-5b81e52a8a80",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511494/soometa/52-I-listening/14_11.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-I-listening/14_11.mp3",
     "text": "11번 몇 시에. 학교에 가요? 10시에 가요. 다시 들으십시오. 몇 시에. 학교에 가요? 10시에 가요.",
     "utterances": [
       {
@@ -96586,7 +96586,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "69734810-22a0-4e88-9572-8c948cc80cc0",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511494/soometa/52-I-listening/14_12.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-I-listening/14_12.mp3",
     "text": "12번 민수 씨, 요즘도 수영해요? 네, 그리고 테니스도 배우고 있어요. 다시 들으십시오. 민수 씨, 요즘도 수영해요? 네. 그리고 테니스도 배우고 있어요.",
     "utterances": [
       {
@@ -96752,7 +96752,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "d5709ae2-96fb-4704-89e9-6fbd8a6c9d3a",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511494/soometa/52-I-listening/14_13.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-I-listening/14_13.mp3",
     "text": "13번 마리 씨 고향은. 지금 겨울이에요? 아니요, 여름이에요. 다시 들으십시오. 마리 씨 고향은. 지금 겨울이에요? 아니요, 여름이에요.",
     "utterances": [
       {
@@ -96935,7 +96935,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "28ee4cc0-4fc0-4eb1-8775-17aadb393f6e",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511494/soometa/52-I-listening/14_14.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-I-listening/14_14.mp3",
     "text": "14번. 은행이. 어디에 있어요? 저 커피숍 뒤에 있어요. 다시 들으십시오. 은행이. 어디에 있어요? 저 커피숍 뒤에 있어요.",
     "utterances": [
       {
@@ -97136,7 +97136,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "5e2ad1a7-0ff2-4d42-a10c-296aa5fa247a",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511494/soometa/52-I-listening/14_15.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-I-listening/14_15.mp3",
     "text": "15번. 뭘 드릴까요. 손님? 김밥 하나 주세요. 다시 들으십시오. 뭘 드릴까요. 손님? 김밥 하나 주세요.",
     "utterances": [
       {
@@ -97314,7 +97314,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "af17dd04-17b7-48c4-9b83-68a0de22cd45",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511494/soometa/52-I-listening/14_16.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-I-listening/14_16.mp3",
     "text": "16번. 비가 오네요. 우산이 없는데. 그래요? 저하고 같이 써요. 다시 들으십시오. 비가 오네요. 우산이 없는데. 그래요? 저하고 같이 써요.",
     "utterances": [
       {
@@ -97529,7 +97529,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "3cda5ddc-6a86-4c06-870e-f40d86c47c15",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511494/soometa/52-I-listening/14_17.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-I-listening/14_17.mp3",
     "text": "여자친구한테. 선물하고 싶은데 어떤 꽃이. 좋을까요? 장미꽃이 좋을 것 같아요. 그럼 장미꽃으로. 10송이 주세요. 다시 들으십시오. 여자친구한테 선물하고 싶은데 어떤 꽃이. 좋을까요? 장미꽃이 좋을 것 같아요. 그럼 장미꽃으로 열 송이 주세요.",
     "utterances": [
       {
@@ -97855,7 +97855,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "a34432da-4323-4452-9781-72ffe5262891",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511494/soometa/52-I-listening/14_18.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-I-listening/14_18.mp3",
     "text": "18번 저는 방학에 아르바이트도 하고 여행도 했어요. 수미 씨는 뭐 했어요? 저는 도서관에서 시험 공부만 했어요. 그래요? 시험이 언제예요? 다음 주에 있어요. 그래서 오늘도 도서관에 공부하러 갈 거예요. 다시 들으십시오. 저는 방학에 아르바이트도 하고 여행도 했어요. 수미 씨는 뭐 했어요? 저는 도서관에서 시험 공부만 했어요. 그래요? 시험이 언제예요? 다음 주에 있어요. 그래서 오늘도 도서관에 공부하러 갈 거예요.",
     "utterances": [
       {
@@ -98273,7 +98273,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "8e1777eb-7c63-4936-9238-b83b8dcca77b",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511494/soometa/52-I-listening/14_19.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-I-listening/14_19.mp3",
     "text": "19번 미영 씨, 왜 그래요? 어디 안 좋아요? 아침부터 머리가 너무 아파요. 지금은 열도 나고요. 그럼 일찍 가서 좀 쉬는 게 어때요? 감사합니다, 과장님. 이 일만 끝내고 가겠습니다. 다시 들으십시오. 미영 씨, 왜 그래요? 어디 안 좋아요? 아침부터 머리가 너무 아파요. 지금은 열도 나고요. 그럼 일찍 가서 좀 쉬는 게 어때요? 감사합니다, 과장님. 이 일만 끝내고 가겠습니다.",
     "utterances": [
       {
@@ -98754,7 +98754,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "92124c70-eb58-4fd8-8c84-3f5ecb46aa4d",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511494/soometa/52-I-listening/14_20.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-I-listening/14_20.mp3",
     "text": "김현수 선수가 와서 농구를 가르쳐주는 행사가 있어요. 그래요? 제가 고등학생 때부터 좋아하는 선수인데. 그럼 같이 신청할래요? 이번 주까지 하면 돼요. 네, 좋아요. 다시 들으십시오. 김현수 선수가 와서 농구를 가르쳐주는 행사가 있어요. 그래요? 제가 고등학생 때부터 좋아하는 선수인데. 그럼 같이 신청할래요? 이번 주까지 하면 돼요. 네, 좋아요.",
     "utterances": [
       {
@@ -99158,7 +99158,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "ecf1bf10-51ee-4b47-934c-872ca05e5686",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511494/soometa/52-I-listening/14_21.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-I-listening/14_21.mp3",
     "text": "우와! 집에 만화책이 정말 많네요. 제가 만화책을 좋아해서 몇 년 전부터 모으고 있어요. 여기 외국 만화책도 있네요. 이건 어떻게 샀어요? 외국에 사는 친구들한테 부탁해서 받은 거예요. 다시 들으십시오. 우와, 집에 만화책이 정말 많네요. 제가 만화책을 좋아해서 몇 년 전부터 모으고 있어요. 여기 외국 만화책도 있네요. 이건 어떻게 샀어요? 외국에 사는 친구들한테 부탁해서 받은 거예요.",
     "utterances": [
       {
@@ -99627,7 +99627,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "0b550018-4acb-4527-8f3f-aa26f6ed176f",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511494/soometa/52-I-listening/14_22.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-I-listening/14_22.mp3",
     "text": "22번 아침밥을 못 먹고 와서 배가 고프네요. 이제 곧 수업 시작하는데. 그럼 이 우유 마실래요? 고마워요. 저는 늦게 일어나서 아침을 못 먹을 때가 많아요. 아침밥을 먹는 게 건강에 좋아요. 그리고 공부도 잘할 수 있고요. 다시 들으십시오. 아침밥을 못 먹고 와서 배가 고프네요. 이제 곧 수업 시작하는데. 그럼 이 우유 마실래요? 고마워요. 저는 늦게 일어나서 아침을 못 먹을 때가 많아요. 아침밥을 먹는 게 건강에 좋아요. 그리고 공부도 잘할 수 있고요.",
     "utterances": [
       {
@@ -100192,7 +100192,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "bcbf20ce-b1b9-4b59-b459-d3eaa51235fa",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511494/soometa/52-I-listening/14_23.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-I-listening/14_23.mp3",
     "text": "회사에서. 집까지 얼마나 걸려요? 우리 집은 회사에서 좀 멀어요. 버스로 한 시간쯤 걸려요. 그럼 회사 근처로 이사 오지 그래요? 아침에 힘들지 않아요? 집이 좀 멀지만 근처에 산도 있고 공원도 있어서 좋아요. 다시 들으십시오. 회사에서 집까지 얼마나 걸려요? 우리 집은 회사에서 좀 멀어요. 버스로 1시간쯤 걸려요. 그럼 회사 근처로 이사 오지 그래요? 아침에 힘들지. 않아요? 집이 좀 멀지만 근처에 산도 있고 공원도 있어서 좋아요.",
     "utterances": [
       {
@@ -100724,7 +100724,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "bf79e3be-ec5f-4ad3-b295-c33ae28fce1c",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511494/soometa/52-I-listening/14_24.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-I-listening/14_24.mp3",
     "text": "24번 인터넷으로 구두를 샀는데 좀 크네요. 바꾸는 게 좋겠지요? 네. 저도 그런 적이 있어서 인터넷으로 신발을 잘 안 사요. 인터넷으로 신발을 사면 가게에 안 가서 편한데 하지만 이렇게 물건을 바꿔야 할 때는 다시 보내고 받아야 해서 시간이 걸리잖아요. 다시 들으십시오. 인터넷으로 구두를 샀는데 좀 크네요. 바꾸는 게 좋겠지요? 네. 저도 그런 적이 있어서 인터넷으로 신발을 잘 안 사요. 인터넷으로 신발을 사면 가게에 안 가서 편한데. 하지만 이렇게 물건을 바꿔야 할 때는 다시 보내고 받아야 해서 시간이 걸리잖아요.",
     "utterances": [
       {
@@ -101282,7 +101282,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "ffdf681c-733f-40f7-a258-b9854597e3c5",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511494/soometa/52-I-listening/14_25-26.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-I-listening/14_25-26.mp3",
     "text": "승객. 여러분, 안녕하십니까? 이 버스는 시청에서 출발해서 중앙공원까지 가는 서울투어버스입니다. 중간에 내려서 관광지를 구경할 수 있고 다음. 버스를 탈 때는 표를 다시 사지 않아도 됩니다. 버스는 30분마다 서울투어버스 정류장에서 이용하실 수 있습니다. 감사합니다. 다시 들으십시오. 승객 여러분, 안녕하십니까? 이 버스는 시청에서 출발해서 중앙공원까지 가는 서울투어버스입니다. 중간에 내려서 관광지를 구경할 수 있고 다음 버스를 탈 때는 표를 다시 사지 않아도 됩니다. 버스는 30분마다 서울투어버스 정류장에서 이용하실 수 있습니다. 감사합니다.",
     "utterances": [
       {
@@ -101858,7 +101858,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "8cec0280-6dce-4753-8d0e-4fb86ed1751f",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511494/soometa/52-I-listening/14_27-28.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-I-listening/14_27-28.mp3",
     "text": "네, 인주서비스센터입니다. 무엇을 도와드릴까요? 새로 산 텔레비전이 갑자기 소리가 안 나와요. 그럼 텔레비전을 한 번 꺼보세요. 그리고 잠시 후에 다시 켜보세요. 그렇게 해봤는데 안 돼요. 오늘 고칠 수 있을까요? 오늘은 늦어서 어렵고요. 내일 오전에 직원이 연락드리고 고치러 갈 겁니다. 네, 알겠습니다. 다시 들으십시오. 네, 인주서비스센터입니다. 무엇을 도와드릴까요? 새로 산 텔레비전이 갑자기 소리가 안 나와요. 그럼 텔레비전을 한 번 꺼보세요. 그리고 잠시 후에 다시 켜보세요. 그렇게 해봤는데 안 돼요. 오늘 고칠 수 있을까요? 오늘은 늦어서 어렵고요. 내일 오전에 직원이 연락드리고 고치러 갈 겁니다. 네, 알겠습니다.",
     "utterances": [
       {
@@ -102564,7 +102564,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "271da440-0ada-46ba-a121-7326a59e7e4a",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511494/soometa/52-I-listening/14_29-30.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-I-listening/14_29-30.mp3",
     "text": "이번 한국어 말하기 대회에서 1등을 하셨는데요. 기분이 어떠세요? 잘하는 학생들이 많았는데 제가 상을 받아서 정말 기뻐요. 그렇군요. 실수도 하지 않고 자연스럽게 잘하셔서 정말 놀랐어요. 사실 제가 사람들 앞에서 긴장을 많이 해요. 그래서 친구들 앞에서 매일 말하기 연습을 했어요. 또 한국어 선생님께서 발음 연습을 도와주셨어요. 그 덕분에 1등을 한 것 같아요. 네. 그런데 이번 대회에는 어떻게 참가하게 되셨어요? 이번이 한국에서 공부하는 마지막 학기라서 그동안 해보지 못한 경험을 하고 싶었어요. 다시 들으십시오. 이번 한국어 말하기 대회에서 1등을 하셨는데요. 기분이 어떠세요? 잘하는 학생들이 많았는데 제가 상을 받아서 정말 기뻐요. 그렇군요. 실수도 하지 않고 자연스럽게 잘하셔서 정말 놀랐어요. 사실 제가 사람들 앞에서 긴장을 많이 해요. 그래서 친구들 앞에서 매일 말하기 연습을 했어요. 또 한국어 선생님께서 발음 연습을 도와주셨어요. 그 덕분에 1등을 한 것 같아요. 네. 그런데 이번 대회에는 어떻게 참가하게 되셨어요? 이번이 한국에서 공부하는 마지막 학기라서 그동안 해보지 못한 경험을 하고 싶었어요.",
     "utterances": [
       {
@@ -103648,7 +103648,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "34d7850d-8ea3-42e1-8e07-27da977fb96a",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513012/soometa/52-II-listening/16_01.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-II-listening/16_01.mp3",
     "text": "다음을 듣고 알맞은 그림을 고르십시오. 한 번 읽겠습니다. 1번. 어디가 아파서 오셨어요? 배가 아파서 왔는데요. 그럼 여기 이름과 생년월일을 쓰시고 잠깐 기다리세요.",
     "utterances": [
       {
@@ -103848,7 +103848,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "5288bebc-d110-479d-ae1a-021898d28ae4",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513012/soometa/52-II-listening/16_02.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-II-listening/16_02.mp3",
     "text": "청소 다 했는데 설거지 좀 도와줄까요? 괜찮아요. 거의 다 했으니까 앉아서 좀 쉬어요. 그럼 설거지 끝나면 차 한 잔 같이 마셔요.",
     "utterances": [
       {
@@ -104014,7 +104014,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "9ba6d95c-5b05-4102-97c1-ed12a20882bc",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513012/soometa/52-II-listening/16_03.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-II-listening/16_03.mp3",
     "text": "3번. 여러분은 운동을 자주 하십니까? 문화체육관광부 조사 결과에 따르면 우리 국민이 주 1회 이상 생활체육에 참여하는 비율이 2014년 이후 계속해서 증가한 것으로 나타났습니다. 가장 많이 하는 운동은 걷기였으며 그 다음은 등산 그리고 헬스가 그 뒤를 이었습니다.",
     "utterances": [
       {
@@ -104285,7 +104285,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "1b995a10-faa3-452a-a177-2de997e9c74b",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513012/soometa/52-II-listening/16_04.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-II-listening/16_04.mp3",
     "text": "다음 대화를 잘 듣고 이어질 수 있는 말을 고르십시오. 한 번 읽겠습니다. 4번 왜 그래요? 뭐 잃어버렸어요? 제 가방이 어디에 있는지 모르겠어요.",
     "utterances": [
       {
@@ -104467,7 +104467,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "269bb978-ac1c-4aa5-9bf8-8abb6ea566c0",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513012/soometa/52-II-listening/16_05.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-II-listening/16_05.mp3",
     "text": "점심시간이 지났는데도 식당에 사람이 많네요. 그러네요. 밥 먹으려면 한참 기다려야겠어요.",
     "utterances": [
       {
@@ -104556,7 +104556,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "f76e04ef-5a49-4598-aed5-0cb93027ffb0",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513012/soometa/52-II-listening/16_06.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-II-listening/16_06.mp3",
     "text": "수미 씨, 면접시험은 어땠어요? 잘 본 것 같아요? 잘 할 수 있었는데 떨려서 잘 못 본 것 같아요.",
     "utterances": [
       {
@@ -104710,7 +104710,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "0c6c59eb-10e5-44a9-9995-f04989bfef45",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513012/soometa/52-II-listening/16_07.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-II-listening/16_07.mp3",
     "text": "수미 씨, 다음 주까지 교환 학생 신청 기간이라던데 신청할 거예요? 그래요? 어떻게 알았어요?",
     "utterances": [
       {
@@ -104820,7 +104820,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "fe0c15c2-7949-437e-8afb-d380dd87e9bb",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513012/soometa/52-II-listening/16_08.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-II-listening/16_08.mp3",
     "text": "저. 화장품을 주문했었는데요. 제가 주문한 제품과. 다른 게 와서요. 아, 죄송합니다, 고객님. 물건을 저희에게 보내주시면 확인하고 주문하신 제품으로 다시 보내드리겠습니다.",
     "utterances": [
       {
@@ -104997,7 +104997,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "bab7aaf8-9fa1-4211-bbb6-60a239ae393e",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513012/soometa/52-II-listening/16_09.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-II-listening/16_09.mp3",
     "text": "다음 대화를 잘 듣고 여자가 이어서 할 행동으로 알맞은 것을 고르십시오. 한 번 읽겠습니다. 9번. 민수 씨. 지난번에 산. 내 검은색 코트 못 봤어요? 그거 월요일에 세탁소에 맡겼잖아요. 그럼 들어올. 때. 우편물도. 좀 갖다 줘요.",
     "utterances": [
       {
@@ -105324,7 +105324,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "f3ee56fc-1894-4603-9efe-2dfee0d4df0e",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513012/soometa/52-II-listening/16_10.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-II-listening/16_10.mp3",
     "text": "10번 여보세요? 민수 씨, 옆 사무실에서 안내 책자 받으러 왔는데요. 아, 네. 제가 밖에서 거래처 직원을 만나고 있어서요. 미안하지만 수미 씨가 상자에서 좀 꺼내서 주시겠어요? 네, 그럴게요. 그런데 상자는 어디에 있어요? 제 책상 밑에 뒀어요.",
     "utterances": [
       {
@@ -105615,7 +105615,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "bc58e964-2b50-4a4f-bf61-240b0c8f064f",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513012/soometa/52-II-listening/16_11.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-II-listening/16_11.mp3",
     "text": "11번. 여보, 욕실. 전등을 좀. 바꿔야겠어요. 그래요? 집에 전등 사다 놓은 거 있으면. 가져와 봐요. 잠깐만요. 어디 있는지. 찾아볼게요. 없으면 말해요. 내가 사러 갈게요.",
     "utterances": [
       {
@@ -105874,7 +105874,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "ddce5e02-343a-4fe3-a125-c8834eac64a2",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513012/soometa/52-II-listening/16_12.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-II-listening/16_12.mp3",
     "text": "과장님. 여기 해외 파견 근무 지원자 명단입니다. 한번 보시겠어요? 아, 네. 이번에는 지원 현황이 어떻게 되죠? 확인해 봤는데 생각보다 지원자가 적습니다. 그거 큰일이군요. 그럼 인사과에 연락해서 추가 지원을 받을 수 있는지 알아보세요. 전 부장님께 말씀드릴게요.",
     "utterances": [
       {
@@ -106174,7 +106174,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "b4f97331-cd52-462f-b57e-390afc7c609a",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513012/soometa/52-II-listening/16_13.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-II-listening/16_13.mp3",
     "text": "13번. 어제 모임에 왜 안 왔어? 연락도 없어서 궁금했잖아. 응. 어제 가벼운 교통사고가 나서 처리하느라 시간이 오래 걸렸거든. 정말? 자동차 산 지 얼마 안 됐는데 속상하겠다. 어디 다친 데는 없고? 응. 다행히 다친 데는 없어.",
     "utterances": [
       {
@@ -106474,7 +106474,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "fe34275d-3258-4e57-8595-f72e0a695ab0",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513012/soometa/52-II-listening/16_14.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-II-listening/16_14.mp3",
     "text": "14번 고객님들께 쇼핑 안내드립니다. 행사장에서는 청바지를 만 원에 세일하고 있습니다. 이 행사는 오늘 하루만 진행되니 고객 여러분들의 많은 관심 부탁드립니다. 또한 오늘 저희 쇼핑몰에서 5만원 이상 구매하신 분들께는 양말을 드립니다. 영수증을 가지고 고객센터로 오십시오. 그럼 즐거운 쇼핑하시기 바랍니다. 감사합니다.",
     "utterances": [
       {
@@ -106766,7 +106766,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "0b0b5e09-c28b-4a23-87d1-35d3baec185d",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513012/soometa/52-II-listening/16_15.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-II-listening/16_15.mp3",
     "text": "15번 날씨 소식입니다. 현재 전국에 비가 내리고 제주도에는 폭우가 쏟아지고 있는데요. 이 비는 내일 아침에 대부분 그치겠고 낮부터는 점차 맑아지겠습니다. 모레 아침에는 꽃샘 추위가 찾아와 전국이 일시적으로 영하의 날씨를 보이겠는데요. 외출하실 때 따뜻하게 입으시는 것이 좋겠습니다.",
     "utterances": [
       {
@@ -107037,7 +107037,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "dee79db3-b693-4ac2-ad6c-150ae2198a40",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513012/soometa/52-II-listening/16_16.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-II-listening/16_16.mp3",
     "text": "16번 국내 배구 선수로는 처음으로 해외무대에 진출한 김미경 선수. 나와 계시는데요. 지난 1년 어떠셨는지. 말씀 좀 해주시죠. 처음에 말이 잘 안 통해서 힘들었는데요. 팀 동료들이 잘 챙겨줘서 금방 적응할 수 있었습니다. 초반에 다리 부상으로 한 달간 경기에 못 나갔을 때 많이 답답했는데요. 복귀 후에는 팀이 우승하는데 조금이나마 힘이 된 것 같아 기뻤습니다.",
     "utterances": [
       {
@@ -107456,7 +107456,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "ccaf8308-b49b-49b6-a307-c6acc095cd7e",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513012/soometa/52-II-listening/16_17.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-II-listening/16_17.mp3",
     "text": "17번. 내 친구 민수 알지? 다음 달에 결혼하는데 가족들하고 친한 친구들 몇 명만 부른다고 하더라고. 결혼식은 사람들을 많이 초대하는 게 좋은 거. 아니야? 아니, 정말 가까운 사람들만 초대하는 거 나는 좋은 것 같은데. 비용 부담도 적을 거고. 요즘 그런 작은 결혼식이 유행이거든. 그래도 평생에 한 번뿐인 결혼식인데 너무 작게 하면 서운할 것 같아.",
     "utterances": [
       {
@@ -107873,7 +107873,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "a4fd00da-94b6-4abd-bdff-13ac63f0e12b",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513012/soometa/52-II-listening/16_18.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-II-listening/16_18.mp3",
     "text": "18번 수미 씨, 내일 신제품 발표 자료는 다 만들었지요? 네, 여기 있습니다. 지난번에 말씀해 주신 부분 보충해서 준비했습니다. 과장님께서 먼저 한 번 봐주시겠어요? 음, 내용이 너무 길고 복잡하네요. 제품의 특징을 짧지만 명확하게 소개해야 소비자들이 제품을 잘 이해할 수 있어요.",
     "utterances": [
       {
@@ -108183,7 +108183,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "034c9880-5127-4809-a8ed-fb1ca0ebce7b",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513012/soometa/52-II-listening/16_19.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-II-listening/16_19.mp3",
     "text": "19번 어? 이 빵 지금 할인하네. 일곱 개 묶어서 만 원밖에 안 하잖아. 우리도 사자. 글쎄... 나는 마트에서 이렇게 파는 게 정말 싼 건지 잘 모르겠어. 왜? 한 개씩 사면 비싼데 이럴 때 사면 싸게 살 수 있잖아. 지난번에도 묶음으로 샀다가 다 못 먹고 반이나 버렸잖아. 그냥 먹고 싶을 때 조금씩 사서 먹는 게 오히려 돈을 아끼는 거라고.",
     "utterances": [
       {
@@ -108635,7 +108635,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "6f433dca-a6f0-4121-b175-ac1245c709db",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513012/soometa/52-II-listening/16_20.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-II-listening/16_20.mp3",
     "text": "이번. 정규 앨범의 곡들 중 악기 없이 목소리만으로 노래한 곡들이 주목을 받고 있는데요. 이렇게 만드신 특별한 이유가. 있나요? 다양한 악기도 좋지만 저는 가수가 가진 목소리가 최고의 악기라고 생각합니다. 저희 4명만 모이면 악기가 없어도 말씀하신 곡들을 언제 어디서나 사람들에게 들려줄 수 있는데요. 저는 이렇게 가수들의 목소리만으로도 아름다운 음악을 만들 수 있다고 생각합니다.",
     "utterances": [
       {
@@ -109029,7 +109029,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "b8b70330-a2d8-4212-8b08-0d724771e989",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513012/soometa/52-II-listening/16_21-22.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-II-listening/16_21-22.mp3",
     "text": "21번. 김 선생님, 올해 학교 홍보용품은 뭐가 좋을까요? 작년처럼 우리 학교 이름이 들어간 수첩으로. 할까요? 글쎄요. 수첩은 학생들이 잘 사용하지 않아서 학교 홍보에 효과가 없는 것 같아요. 작년에 학생들 반응도 별로였고요.",
     "utterances": [
       {
@@ -109283,7 +109283,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "055424a4-fddc-47ad-ac2b-61d3f22ea10d",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513012/soometa/52-II-listening/16_23-24.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-II-listening/16_23-24.mp3",
     "text": "여보세요? 어린이 박물관이죠? 오늘 2시표 예매했는데요. 혹시 일찍 도착하면 1시에도 들어갈 수 있는지 해서요. 네, 안녕하세요. 그러시면 입구에서 2시 관람권은 환불 받으시고 1시 관람권을 새로 사시면. 됩니다. 네, 알겠습니다. 그런데 혹시 박물관 안에 식사가 가능한 곳이 있나요? 따로 식빵은 마련되어 있지 않습니다. 대신 3층에 가족 쉼터가 있는데요. 거기에서 준비해 오신 음식을 드실 수 있습니다.",
     "utterances": [
       {
@@ -109707,7 +109707,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "3ce1643e-42dc-4546-8be6-e27e478d8972",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513012/soometa/52-II-listening/16_25-26.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-II-listening/16_25-26.mp3",
     "text": "25번 26번. 사장님께서는 어려운 이웃을 돕고 가난한 학생들을 지원하는 등 훌륭한 일을 많이 하고 계시는데요. 최근에는 시민 영웅상을 만드셨다고 들었습니다. 그게 어떤 상인가요? 네, 우리 주변에는 알려지지 않았지만 사회의 모범이 되는 분들이 있는데요. 그런 분들을 찾아서 상을 드리는 것입니다. 수상자가 원하지 않으면 시상식은 언론에 공개하지 않고 조용하게 진행합니다. 그동안 총 31명의 시민 영웅을 찾아 상장과 상금을 드렸는데요. 상금을 이웃을 위해 다시 기부하는 분도 계셨습니다. 또 화재 현장에서 아이를 구조한 대학생 수상자도 있었는데 졸업 후에 저희가 채용하기도 했습니다. 이렇게 사회로부터 받은 이익을 다시 사회로 돌려주는 것이 기업의 책임이라고 생각합니다.",
     "utterances": [
       {
@@ -110360,7 +110360,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "d644da3b-0410-4dd3-bd0f-c48b9dd17bb0",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513012/soometa/52-II-listening/16_27-28.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-II-listening/16_27-28.mp3",
     "text": "27번 28번 뉴스를 보니까 정부에서 다음 달 6일을 임시공휴일로 지정했다던데? 그래? 5일하고 7일이 쉬는 날이라서 그런 모양이구나. 그날 쉬는 사람들은 좋겠다. 지난번 임시공휴일에도 놀러가는 사람이 많았대. 우리 회사도 쉬면 좋을 텐데. 임시공휴일에는 우리도 쉬어야 하는 거 아니야? 맞아. 그날 회사에 나와야 하는데 아이 유치원이 쉬니까 당장 아이 맡길 때를 알아봐야 해. 우리처럼 못 쉬는 사람한테는 임시공휴일이 별 소용이 없는 것 같아.",
     "utterances": [
       {
@@ -110842,7 +110842,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "a286f0c3-cd24-47d4-862f-113b781e2150",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513012/soometa/52-II-listening/16_29-30.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-II-listening/16_29-30.mp3",
     "text": "29번 30번 정원의 꽃들이 참 예쁘네요. 선생님은 여기에서 어떤 일을 하시나요? 이곳은 제가 작년부터 환자들에게 정원 가꾸기를 가르치고 있는 곳인데요. 저는 약을 사용하지 않고 식물을 이용해 그분들의 몸과 마음의 회복을 돕는 활동을 하고 있어요 식물을 재배하면서 자연스럽게 치료 효과를 얻게 하는 거죠 구체적으로 어떤 활동을 통해서 치료가 이루어지나요? 정원 가꾸기, 식물 재배하기, 꽃을 이용한 작품 만들기 등의 활동이 대표적인데요 이런 크고 작은 신체 활동은 운동능력을 향상시킬 수 있어요. 또한 식물의 향기를 맡으면서 느끼는 기쁨을 치료에 이용하는 것이죠. 정원에서 함께 재배한 식물을 판매함으로써 경제적으로 어려움을 겪고 있는 환자들에게 작은 도움도 드리고 있고요.",
     "utterances": [
       {
@@ -111498,7 +111498,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "68167a21-a82a-4e71-9db0-41226b2e7ee7",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513012/soometa/52-II-listening/16_31-32.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-II-listening/16_31-32.mp3",
     "text": "31번 32번 같은 커피 전문점의 커피가 지역별로 가격이 다른 것에 소비자들이 불만을 표하고 있습니다. 동일한 재료와 방법으로 만드는데 왜 가격이 다른지 이해할 수가 없습니다. 커피값은 임대료 등 매장의 여건에 따라 가격이 다를 수 있다고 생각합니다. 그렇다면 임대료가 낮은 지역의 커피값이 비싼 이유는 뭡니까? 임대료만이 커피값에 가장 중요한 기준이 되는 건 아닙니다. 예를 들어 휴게소처럼 커피를 매장에서 마시지 않고 그냥 사가는 손님이 많은 곳은 다른 곳에 비해 커피값을 싸게 받을 수 있는 것처럼요.",
     "utterances": [
       {
@@ -112048,7 +112048,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "8329c202-776a-4beb-b899-607f8dd03ad6",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513012/soometa/52-II-listening/16_33-34.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-II-listening/16_33-34.mp3",
     "text": "제 고향에 소목이라고 부르는 곳이 있습니다. 좀 독특한 지명이죠? 지형이 소가 누워있는 형상인데 소의 목부분에 있는 마을이라고 해서 그렇게 불린다고 하네요. 이렇게 지명을 들여다보면 그 마을의 특징을 알 수 있는 경우가 있습니다. 동네 뒷산에 토끼가 많이 산다고 해서 토끼실이라 불리는 곳도 있습니다. 땅끝마을은 우리나라의 육지 중 가장 남쪽 끝에 있는 마을이라서 붙여진 이름이고요. 그럼 두물머리라는 지명은 왜 나온 것일까요? 네 그렇습니다. 그곳은 한강의 두 물길이 하나로 만나는 곳에 위치한 마을이라서 그렇게 불립니다. 여러분이 사는 곳의 이름에는 어떤 의미가 있는지 한번 찾아보시죠.",
     "utterances": [
       {
@@ -112634,7 +112634,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "b45e52b2-ba30-41e2-a89f-e8cb749aa061",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513012/soometa/52-II-listening/16_35-36.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-II-listening/16_35-36.mp3",
     "text": "35번 36번 신입생 여러분 입학을 축하합니다. 우리 대학은 지난 40여 년간 과학기술 발전을 선도해왔고 작년에 생명과학 분야에서 세계 10위권에 진입하는 쾌거를 이루었습니다. 이곳에서 여러분은 학업과 기업 현장 실습을 병행하며 전문성을 키워 사회적 역할을 다하는 인재로 성장할 겁니다. 하지만 저는 훌륭한 인격을 갖추는 것이 전문 지식이나 실력보다 더 중요하다는 말씀을 드리고 싶습니다. 이 사회의 구성원으로서 기본적으로 갖추어야 할 도덕성 과 타인을 배려하고 존중하는 마음을 갖춘 사람이 먼저 되십시오. 그리고 그 인격을 바탕으로 전문가 로서의 역량을 키워간다면 여러분들 도 분명히 선배초롭생들처럼 국내외에서 활발히 활동하며 각자의 분야에서 존경받는 전문가로 성장할 수 있을 겁니다.",
     "utterances": [
       {
@@ -113283,7 +113283,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "dfb843f1-0eef-4ddc-bd9e-949afada8def",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513012/soometa/52-II-listening/16_37-38.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-II-listening/16_37-38.mp3",
     "text": "37번 38번 요즘 수면. 산업이 빠른 성장세를 보이고. 있습니다. 입욕제나 수면 안대 같은 숙면을 도와주는 제품들도 많이. 나오고 있는데요. 이런 제품들이 수면장애의 진정한 해법이 될. 수 있을까요? 네, 불면증에 시달리는 사람들이 수면 보조제품을 찾는 경우가 많죠. 그런데 무작정 이런 제품을 사용하기보다는 수면장애가 왜 생겼는지 그 원인을 먼저 생각해봐야. 합니다. 그리고 그에 맞는 방법을 찾아 해결하려는. 노력이 필요합니다. 수면장애는 심리적인 상태나 생활습관 같은 여러가지 요인에 의해 발생하기 때문인데요. 문제의 근원을 모른 채 이런 제품에 의지하는 건 장기적으로 봤을 때는 의미가 없습니다.",
     "utterances": [
       {
@@ -113961,7 +113961,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "c2ae070c-4309-4c59-9aa8-302d651de4e6",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513012/soometa/52-II-listening/16_39-40.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-II-listening/16_39-40.mp3",
     "text": "39번 40번 초기에 서울시에서 이 사업을 시작할 때에는 차량 정체 등의 이유로 주민들의 반대도 있었는데요 지금은 어떤가요? 앞에서 말씀드린 것과 같이 서울시는 2차선이었던 차도를 1차선으로 줄이고 차들이 한 방향으로만 통행하도록 바꿨습니다 그렇게 해서 남는 공간은 주차장 으로 활용해 주차공간 부족 문제를 해결했습니다. 그동안 도로에 불법 주차된 차로 인해 막히던 도로 상황도 이를 통해서 크게 나아졌지요. 또한 인도를 넓히고 도로의 제한속도도 낮추면서 사고도 줄어들었습니다. 사전설명에서 나온 주민들의 의견을 사업에 적극 반영한 것도 큰 호응을 얻었고요. 그래서 지금은 처음 우려했던 것과는 달리 주민 만족도가 상당히 높습니다.",
     "utterances": [
       {
@@ -114568,7 +114568,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "0a795ea7-3028-4109-a750-0c38f24b4acb",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513012/soometa/52-II-listening/16_41-42.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-II-listening/16_41-42.mp3",
     "text": "41번 42번 자 그럼 이 화면을 보시죠. 배우가 무대에서 관객들을 향해 혼잣말을 하고 있죠. 다른 배우들은 마치 이 배우의 말이 들리지 않는 것처럼 무대에서 자신의 연기를 계속하고요. 이렇게 무대 위에 다른 인물에게는 들리지 않고 관객만 들을 수 있도록 약속된 대사가 방백입니다. 방백은 연극 공연 중에 배우가 관객에게 극의 흐름이나 등장인물의 의도를 알려주기 위해 사용되는데요. 방백만큼 등장인물의 숨겨진 심리를 분명하게 보여주는 것은 없습니다. 그래서 관객은 방백을 통해 등장인물을 더 깊이 이해하게 되죠. 로마 시대부터 발달한 방백은 19세기 말에는 사용되지 않았습니다. 자연스럽지 못하다는 이유로요. 그러나 현대극에서는 필요에 따라 사용되며 등장인물에 대한 공감을 이끌어내고 있습니다.",
     "utterances": [
       {
@@ -115231,7 +115231,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "66809501-3024-4e82-a147-190c14c55846",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513012/soometa/52-II-listening/16_43-44.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-II-listening/16_43-44.mp3",
     "text": "43번 44번 어두운 밤 나방들이 빛을 향해 모여든다. 나비와 비슷하지만 나비와는 다른 대접을 받아온 나방. 사람들은 나방이 밤에만 나온다고 생각하지만 꽃에 앉아 꽃가루를 모으고 있는 이 나방처럼 낮에 활동하는 것들도 있다. 색깔이 칙칙하다는 것도 우리의 편견이다. 나비보다 색이 다양하고 무늬가 화려한 경우도 많다. 나방에 몸에 붙어 있는 가루들도 사람들이 나방을 싫어하는 이유 중에 하나이다. 인체에 해로운 성분이라는 오해 때문이다. 그러나 이것이 병을 유발하거나 특별한 화학작용을 일으키는 경우는 없다. 나방의 애벌레는 식물의 잎을 먹어 해충으로 인식된다. 하지만 사실 숲의 생태계에서 보면 그들은 없어서는 안 될 존재이다. 대량 번식하는 나방의 애벌레는 새들의 가장 중요한 먹이인 것이다.",
     "utterances": [
       {
@@ -115908,7 +115908,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "cf55bc75-76c5-4014-a5be-4fcf27982c43",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513012/soometa/52-II-listening/16_45-46.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-II-listening/16_45-46.mp3",
     "text": "45번 46번 비닐 포장제도 환경오염의 원인 중 하나입니다. 그래서 과학기술 분야에서는 친환경적인 소재 개발에 몰두해 왔는데요. 그 중 하나가 음식 성분을 이용한 포장제입니다. 먼저 시도됐던 것은 탄수화물로 만든 포장제인데요. 미세구멍이 많은 이 포장재는 산소를 제대로 막아내기 어려워 기존 포장재를 대체하기에는 역부족이었죠. 최근에는 우유에 들어있는 단백질로 포장재를 만드는데 성공했습니다. 이건 먹어도 해롭지 않고 버려도 잘 썩을 뿐만 아니라 산소도 더 잘 차단합니다. 앞으로 대량으로 생산할 수 있는 기술력이 확보된다면 비닐 포장제로 인한 심각한 환경오염 문제가 크게 개선될 겁니다. 이렇게 과학기술은 생활에 편리함을 가져올 뿐만 아니라 환경문제를 해결하는데도 적극 활용되고 있습니다.",
     "utterances": [
       {
@@ -116550,7 +116550,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "64012321-f4fd-40d3-a0f9-7bdb3aca2eea",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513012/soometa/52-II-listening/16_47-48.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-II-listening/16_47-48.mp3",
     "text": "47번 48번. 요즘 양극화를 해소하고 국가경제에 활력을 불어넣기 위한 방안으로 기본소득이 언급되고 있습니다. 국가가 조건 없이 모든 국민에게 매달 일정한 생활비를 준다는 건데요. 이게 효과가 있을까요? 노동 없이 돈을 주면 사람들의 노동 의혹이 감소할 거라는 우려가 있는데요. 하지만 오히려 노동 의혹을 촉진할 거라고 보는 입장도 있습니다. 최소한의 소득이 보장되면 생계에 대한 부담을 덜 수 있으니까 자기가 하고 싶은 일을 열심히 할 거라는 거죠. 그리고 소비가 촉진되면서 경제를 활성화시키는데 도움이 될 수도 있습니다. 최근 국가 단위로는 최초로 기본소득 실험을 진행하고 있는 나라가 있는데요. 이 실험이 인간의 게으른 본성을 확인하는 계기가 될지 새로운 복지 모델을 찾는 계기가 될지 결과를 지켜봐야 할 것 같습니다.",
     "utterances": [
       {
@@ -117294,7 +117294,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "210cd6b8-312e-4b00-a550-8955207fd689",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513012/soometa/52-II-listening/16_49-50.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/52-II-listening/16_49-50.mp3",
     "text": "49번 50번 조선시대에는 탕평책이라는 정책이 있었는데요. 조선시대에도 오늘날의 정당정치처럼 서로 입장을 같이 하는 사람들끼리 정치 세력을 형성하고 반대되는 집단과 대립하기도 하는 정치 형태가 있었습니다. 이런 상황에서 모든 붕당이 정치에 골고루 참여할 수 있도록 한 것이 탕평책입니다. 특정한 정치적 이념과 이해관계를 떠나 인재를 고르게 등용함으로써 정치세력의 균형을 이루고자 했던 것이죠. 불필요한 언쟁을 일삼고 각자의 이익만을 추구하는 오늘날의 정치 상황에도 이런 균형을 위한 제도가 시행되어야 하지 않을까요.",
     "utterances": [
       {
@@ -117768,7 +117768,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "39cb7902-cf4a-4a9e-8335-9e182b878eea",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511665/soometa/47-I-listening/22_01.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-I-listening/22_01.mp3",
     "text": "책이 많아요?",
     "utterances": [
       {
@@ -117801,7 +117801,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "61120429-91b5-4ba2-aab6-f69a056a2f8c",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511665/soometa/47-I-listening/22_02.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-I-listening/22_02.mp3",
     "text": "주스를 마셔요?",
     "utterances": [
       {
@@ -117834,7 +117834,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "fdb8e2ee-b61d-4bda-be5a-475408d3b313",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511665/soometa/47-I-listening/22_03.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-I-listening/22_03.mp3",
     "text": "언제 친구를 만나요?",
     "utterances": [
       {
@@ -117874,7 +117874,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "0546a24a-1ecb-4925-9a88-dc5046fb7336",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511665/soometa/47-I-listening/22_04.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-I-listening/22_04.mp3",
     "text": "집에 어떻게 가요?",
     "utterances": [
       {
@@ -117914,7 +117914,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "4ff372f9-d94e-4f7a-ba28-425d7f4ef4b2",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511665/soometa/47-I-listening/22_05.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-I-listening/22_05.mp3",
     "text": "처음 뵙겠습니다.",
     "utterances": [
       {
@@ -117947,7 +117947,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "a7ca1e00-02bb-4dc0-addd-fe38272f56e4",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511665/soometa/47-I-listening/22_06.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-I-listening/22_06.mp3",
     "text": "여기 앉으세요.",
     "utterances": [
       {
@@ -117980,7 +117980,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "47594061-ce1d-4aba-aa0a-82b4e25be8e0",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511665/soometa/47-I-listening/22_07.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-I-listening/22_07.mp3",
     "text": "네, 알겠습니다. 다시 들으십시오. 네, 알겠습니다.",
     "utterances": [
       {
@@ -118041,7 +118041,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "5049f60e-ed7e-4767-a28e-7c8977a7cb04",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511665/soometa/47-I-listening/22_08.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-I-listening/22_08.mp3",
     "text": "어떻게. 오셨어요? 통장을 만들고. 싶어요. 다시 들으십시오. 어떻게 오셨어요? 통장을 만들고. 싶어요.",
     "utterances": [
       {
@@ -118198,7 +118198,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "1a11871b-62ff-4a56-a55e-955d7a6840e6",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511665/soometa/47-I-listening/22_09.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-I-listening/22_09.mp3",
     "text": "사장님 안에 계세요? 지금 회의실에 계세요. 다시 들으십시오. 사장님 안에 계세요? 지금 회의실에 계세요.",
     "utterances": [
       {
@@ -118315,7 +118315,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "fafc6ee0-0a58-4f05-8a06-3266c38ea690",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511665/soometa/47-I-listening/22_10.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-I-listening/22_10.mp3",
     "text": "10번. 손님, 뭘. 찾으세요? 사전은 어디에. 있어요? 다시 들으십시오. 손님, 뭘. 찾으세요? 사전은 어디에 있어요?",
     "utterances": [
       {
@@ -118502,7 +118502,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "3422cd03-960a-4d2d-a385-585552e3cbb9",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511665/soometa/47-I-listening/22_11.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-I-listening/22_11.mp3",
     "text": "11번. 형제가. 있어요? 네, 동생이. 한 명 있어요. 다시 들으십시오. 형제가. 있어요? 네, 동생이. 한 명 있어요.",
     "utterances": [
       {
@@ -118712,7 +118712,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "8fd59a38-0efe-4eba-8201-69153c05bed8",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511665/soometa/47-I-listening/22_12.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-I-listening/22_12.mp3",
     "text": "내일. 뭘 신을 거예요? 구두를 신을. 거예요. 다시 들으십시오. 내일 뭘. 신을 거예요? 구두를 신을 거예요.",
     "utterances": [
       {
@@ -118906,7 +118906,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "244b3d67-e0e0-4167-8a31-b633cdb6a64f",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511665/soometa/47-I-listening/22_13.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-I-listening/22_13.mp3",
     "text": "13번. 수미 씨, 내일. 쇼핑하러 갈까요? 좋아요. 2시에 만나요. 다시 들으십시오. 수미 씨, 내일. 쇼핑하러 갈까요? 좋아요. 2시에 만나요.",
     "utterances": [
       {
@@ -119121,7 +119121,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "85fcafaa-eb5c-496b-acf4-e82fe532865e",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511665/soometa/47-I-listening/22_14.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-I-listening/22_14.mp3",
     "text": "14번. 바람이 많이. 불어요. 네, 비도 올 것 같아요. 다시 들으십시오. 바람이 많이. 불어요. 네, 비도 올 것 같아요.",
     "utterances": [
       {
@@ -119327,7 +119327,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "dd401668-0d64-4fa1-adb0-d813933487b0",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511665/soometa/47-I-listening/22_15.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-I-listening/22_15.mp3",
     "text": "저거. 우리 가방 같은데요? 제가 가지고. 올게요. 잠깐만 기다려요. 다시 들으십시오. 저거 우리 가방 같은데요? 제가 가지고. 올게요. 잠깐만 기다려요.",
     "utterances": [
       {
@@ -119540,7 +119540,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "3a07b131-5373-4d0e-b053-87b6b84d838c",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511665/soometa/47-I-listening/22_16.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-I-listening/22_16.mp3",
     "text": "음. 편하고 좋네요. 그런데 좀. 짧은 것 같아요. 그럼 이 바지를 한번. 입어보세요. 다시 들으십시오. 음, 편하고 좋네요. 그런데 좀. 짧은 것 같아요. 그럼 이 바지를 한번 입어보세요.",
     "utterances": [
       {
@@ -119818,7 +119818,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "bde9076b-470c-4a0d-9686-20061d806011",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511665/soometa/47-I-listening/22_17.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-I-listening/22_17.mp3",
     "text": "지금 부산 가는 버스 있어요? 잠깐만요. 30분 후에 출발하는 버스가 있어요. 그거 한 장 주세요. 다시 들으십시오. 지금 부산 가는 버스 있어요? 잠깐만요. 30분 후에 출발하는 버스가 있어요.",
     "utterances": [
       {
@@ -120078,7 +120078,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "71603609-67a0-42ad-bf95-b928f9e05a45",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511665/soometa/47-I-listening/22_18.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-I-listening/22_18.mp3",
     "text": "요즘. 테니스를 치고. 있는데 재미있어요. 민수 씨도 테니스 칠. 수 있어요? 아니요. 저는 한. 번도 쳐본. 적이 없어요. 그래요? 제가 가르쳐 줄 수 있는데 한 번 배워볼래요? 좋아요. 이번 주 토요일에 시간이 있으니까 가르쳐 주세요. 다시 들으십시오. 한번 배워볼래요? 좋아요. 이번 주 토요일에 시간이 있으니까 가르쳐 주세요.",
     "utterances": [
       {
@@ -120516,7 +120516,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "6056d280-e794-4345-a647-e239cedce80a",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511665/soometa/47-I-listening/22_19.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-I-listening/22_19.mp3",
     "text": "네. 한국 식당입니다. 예약 좀 하려고. 하는데요. 오늘 저녁 6시요. 몇 분이 오실. 거예요? 10명이요. 메뉴는 갈비탕으로 해주세요. 다시 들으십시오. 네, 한국 식당입니다. 예약 좀 하려고. 하는데요. 오늘 저녁 6시요. 몇 분이 오실. 거예요? 10명이요. 메뉴는 갈비탕으로 해주세요.",
     "utterances": [
       {
@@ -120927,7 +120927,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "34134e9c-3dca-4d58-9a7f-41a6c4888f0a",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511665/soometa/47-I-listening/22_20.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-I-listening/22_20.mp3",
     "text": "다시 들으십시오. 내년에 우리 졸업하는데 수미 씨는 뭐 할 거예요? 외국에 가서. 일하려고 해요. 그래요? 무슨 일을 하고 싶은데요? 컴퓨터 회사에서 일하고 싶어요. 그래서 지금 준비하고 있어요.",
     "utterances": [
       {
@@ -121162,7 +121162,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "dee4d3fc-547d-4d3d-9bb4-1ebc28697184",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511665/soometa/47-I-listening/22_21.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-I-listening/22_21.mp3",
     "text": "지난. 주말에 한옥마을에 처음 가봤는데 정말 좋았어요. 저도 작년에 가봤어요. 한옥에서 차를 마시고 잠도 잤어요. 그랬어요? 저는 시간이 없어서 그렇게. 못했어요. 그럼 다음에 한 번 더 가보세요. 다시 들으십시오.",
     "utterances": [
       {
@@ -121438,7 +121438,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "759d40fd-6951-4dbd-b80b-2e8d07702a28",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511665/soometa/47-I-listening/22_22.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-I-listening/22_22.mp3",
     "text": "22번 수미 씨, 이번 휴가 때 뭐 할 거예요? 아무 데도 안 가고 집에 있을 거예요. 그냥 쉬고. 싶어요. 휴가인데 특별한 계획 없어요? 저는 가족들하고 여행 가려고 해요. 여행 가면 더 피곤해요. 저는 휴가. 때마다 항상. 집에서 책을 읽거나 잠을. 자면서 보내요. 다시 들으십시오. 휴가인데 특별한 계획 없어요? 저는 가족들하고 여행 가려고 해요. 여행 가면 더 피곤해요. 저는 휴가. 때마다 항상. 집에서 책을 읽거나 잠을 자면서 보내요.",
     "utterances": [
       {
@@ -122007,7 +122007,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "804685f5-5461-462a-9f0c-7a5266cb1c16",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511665/soometa/47-I-listening/22_23.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-I-listening/22_23.mp3",
     "text": "오늘 우리가 해야 할 일이 너무 많네요. 회의 준비도 해야 하고, 서류 정리도 해야 하고. 회의는 모레니까 아직 시간이 있어요. 지금 하고 있는 일을 먼저 하고 이따가 준비해도 돼요. 지금 하는 일은 오늘까지 끝내야 하는 거죠? 네, 맞아요. 그러니까 우선. 이 일부터 해요. 다시 들으십시오. 오늘 우리가 해야 할 일이 너무 많네요. 회의 준비도 해야 하고 서류 정리도 해야 하고... 회의는 모레니까 아직 시간이 있어요. 지금 하고 있는 일을 먼저 하고 이따가. 준비해도 돼요. 지금 하는 일은 오늘까지 끝내야 하는 거죠? 네, 맞아요. 그러니까 우선 이 일부터 해요.",
     "utterances": [
       {
@@ -122723,7 +122723,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "2659215f-4c95-41da-aa0f-bac624fbd047",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511665/soometa/47-I-listening/22_24.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-I-listening/22_24.mp3",
     "text": "어제 잠을 못 자서 좀 피곤하네요. 그러면 이 사탕 한번 먹어볼래요? 저는 피곤할 때 이런 걸 먹으면 힘이 나고 기분이 좋아지거든요. 고마워요. 그런데 저는 단 것을 별로 좋아하지 않아요. 건강에도 안 좋잖아요. 자주 먹는 게 아니고 피곤할 때만 먹는 거니까 괜찮아요. 다시 들으십시오. 그런데 저는 단 것을 별로 좋아하지 않아요. 건강에도 안 좋잖아요. 자주 먹는 게 아니고 피곤할 때만 먹는 거니까 괜찮아요.",
     "utterances": [
       {
@@ -123221,7 +123221,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "65bc2d46-7634-46fe-955c-a3744c7b4293",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511665/soometa/47-I-listening/22_25-26.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-I-listening/22_25-26.mp3",
     "text": "알립니다. 기숙사 건물 계단을 청소하려고 합니다. 청소 시간은 이번 주 금요일 오후 1시부터 6시까지입니다. 이 시간 동안 학생들은 계단으로 다닐 수 없습니다. 엘리베이터를 이용해 주십시오. 그리고 계단에 둔 자기 물건은 목요일 밤까지 모두 가져가 주시기 바랍니다. 감사합니다. 다시 들으십시오. 알립니다. 기숙사 건물 계단을 청소하려고 합니다. 청소 시간은 이번 주 금요일 오후 1시부터 6시까지입니다. 이 시간 동안 학생들은 계단으로 다닐 수 없습니다. 엘리베이터를 이용해 주십시오. 그리고 계단에 둔 자기 물건은 목요일 밤까지 모두 가져가 주시기 바랍니다. 감사합니다.",
     "utterances": [
       {
@@ -123772,7 +123772,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "e740875b-d0c7-4c9c-94d1-67da3fbbb960",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511665/soometa/47-I-listening/22_27-28.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-I-listening/22_27-28.mp3",
     "text": "민수. 씨, 아침에 이메일 봤어요? 아니요. 아직 못 봤어요. 무슨 이메일인데요? 다음 달부터 회사 식당이 아침에도 문을 열어요. 그래요? 이제 회사 식당에서 아침을 먹어야겠네요. 제가 혼자 살아서 아침을 못 먹을 때가 많거든요. 저는 집에서 먹고 출근하는데 다음 달부터 회사에서 먹으려고 해요. 그러면 시간을 아낄 수 있을 것 같아서요. 그럼 가끔 식당에서 만날 수 있겠네요? 다시 들으십시오. 민수 씨, 아침에 이메일 봤어요? 아니요. 아직 못 봤어요. 무슨 이메일인데요? 다음 달부터 회사 식당이 아침에도 문을 열어요. 그래요? 이제 회사 식당에서 아침을 먹어야겠네요. 제가 혼자 살아서 아침을 못 먹을 때가 많거든요. 저는 집에서 먹고 출근하는데 다음 달부터 회사에서 먹으려고 해요. 그러면 시간을 아낄 수 있을 것 같아서요. 그럼 가끔 식당에서 만날 수 있겠네요?",
     "utterances": [
       {
@@ -124669,7 +124669,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "57685943-53b4-4ef1-ac49-5833e3aa8d57",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511665/soometa/47-I-listening/22_29-30.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-I-listening/22_29-30.mp3",
     "text": "29번 기타 연습 많이 했어요? 그동안 연습한 거 한번 쳐볼래요? 죄송해요, 선생님. 연습을 많이 못했어요. 기타를 잘 치려면 매일 잊지 않고 연습하는 게 중요해요. 그건 아는데 연습하는 걸 자꾸 잊어버려요. 그럼 기타를 잘 보이는 곳에 두세요. 그러면 기타가 자꾸 보이니까 연습하는 걸 잊지 않겠죠? 아, 그럼 저는 기타를 소파 옆에 두어야겠어요. 집에 가면 주로 소파에 앉아서 텔레비전을 보거나 음악을 듣거든요. 다시 들으십시오. 기타 연습 많이 했어요? 그동안 연습한 거 한번 쳐볼래요? 죄송해요, 선생님. 연습을 많이 못했어요. 기타를 잘 치려면 매일 잊지 않고 연습하는 게 중요해요. 그건 아는데 연습하는 걸 자꾸 잊어버려요. 그럼 기타를 잘 보이는 곳에 두세요. 그러면 기타가 자꾸 보이니까 연습하는 걸 잊지 않겠지요? 아, 그럼 저는 기타를 소파 옆에 두어야겠어요. 집에 가면 주로 소파에 앉아서 텔레비전을 보거나 음악을 듣거든요.",
     "utterances": [
       {
@@ -125634,7 +125634,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "ecfc327c-13bb-41f9-a719-ea65e8305aad",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513277/soometa/47-II-listening/24_01.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-II-listening/24_01.mp3",
     "text": "1번 어서오십시오. 무엇을 도와드릴까요? 저 신입사원 지원서류를 내려왔는데요. 3층으로 가시면. 됩니다. 저쪽 엘리베이터를 이용하세요.",
     "utterances": [
       {
@@ -125787,7 +125787,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "611f5f68-bc7d-49ed-a7a4-3c74c9d7a827",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513277/soometa/47-II-listening/24_02.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-II-listening/24_02.mp3",
     "text": "넌 뭐 마실래? 커피? 응. 난 따뜻한 커피 한잔 마실래. 그럼 먼저 가서 자리 잡고 앉아 있어. 내가 가지고 갈게.",
     "utterances": [
       {
@@ -125964,7 +125964,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "88a74e5d-c7d0-4d8b-b3ff-60644f315eaa",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513277/soometa/47-II-listening/24_03.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-II-listening/24_03.mp3",
     "text": "3. 출판시장의 소비층이 변하고 있습니다. 지난 10년간 연령별 도서구매율에 따르면 가장 많은 비중을 차지했던 20대의 구매율은 감소하고 40대의 경우는 높아진 것으로 나타났습니다. 분야별로는 문학이 가장 많았으며 자기개발, 유화가 그 뒤를 이었습니다.",
     "utterances": [
       {
@@ -126200,7 +126200,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "fd3d2825-202e-4d1d-89b6-be06ae031a92",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513277/soometa/47-II-listening/24_04.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-II-listening/24_04.mp3",
     "text": "4번.",
     "utterances": [
       {
@@ -126226,7 +126226,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "fffab0c3-0cc4-43a2-bea4-538f97347c77",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513277/soometa/47-II-listening/24_05.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-II-listening/24_05.mp3",
     "text": "민수 씨, 이번. 체육대회에 농구선수로. 나간다면서요? 네. 그런데 연습을 많이 못해서 잘할 수 있을지 모르겠어요.",
     "utterances": [
       {
@@ -126368,7 +126368,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "f9205c37-e026-4599-b32b-1a61b03981e4",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513277/soometa/47-II-listening/24_06.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-II-listening/24_06.mp3",
     "text": "지영 씨, 혹시 친구 중에 아르바이트 할 만한 사람이 있을까요? 글쎄요. 잘 모르겠는데 친구들한테 한번 물어볼까요?",
     "utterances": [
       {
@@ -126508,7 +126508,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "ec42258e-f80e-4a69-85ac-d0881ee4f6f8",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513277/soometa/47-II-listening/24_07.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-II-listening/24_07.mp3",
     "text": "7번 에어컨은 켰어요. 제가 환기하려고 좀 전에 창문을 열어놔서 그런가 봐요.",
     "utterances": [
       {
@@ -126613,7 +126613,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "7fca0a58-4bac-40e7-85c9-f820ce38699b",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513277/soometa/47-II-listening/24_08.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-II-listening/24_08.mp3",
     "text": "8번 그런데 아직 참석 인원이 확실하지 않은데요.",
     "utterances": [
       {
@@ -126681,7 +126681,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "e7ad1616-f18e-43a1-b79c-6a148781aacc",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513277/soometa/47-II-listening/24_09.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-II-listening/24_09.mp3",
     "text": "9번. 컴퓨터가 안 되네. 오늘까지 장학금을 신청해야 하는데. 뭐라고? 장학금 신청이 오늘까지였어? 정확한 거야? 학교 홈페이지에서 그렇게 봤어. 내가 사무실에 전화해볼까? 그래, 해봐. 컴퓨터는 내가 확인해볼게.",
     "utterances": [
       {
@@ -126918,7 +126918,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "e6688f25-eb3e-47cc-8f93-be3e541e8cf6",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513277/soometa/47-II-listening/24_10.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-II-listening/24_10.mp3",
     "text": "10번 아니에요. 아직 설명자료도 못 만들었는데요. 네, 그럼 다녀오세요. 이건 제가 정리하고 있을게요.",
     "utterances": [
       {
@@ -127046,7 +127046,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "104f9cdf-8791-4a33-ba59-5a72d031093c",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513277/soometa/47-II-listening/24_11.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-II-listening/24_11.mp3",
     "text": "11번 준기야, 자전거 어디에 뒀니? 베란다에 있는데. 누나, 자전거 타려고? 꺼내 줄까? 아니, 내가 꺼낼게. 너도 같이 안 나갈래? 날씨도 좋은데 공원에서 같이 운동하자. 그래, 그럼 옷 좀 갈아입고 나올게.",
     "utterances": [
       {
@@ -127302,7 +127302,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "6eae8ffd-8977-44e1-9f65-99e96bb43803",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513277/soometa/47-II-listening/24_12.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-II-listening/24_12.mp3",
     "text": "12번 손님 모두 12만원입니다. 여기 이 카드로 계산해 주세요. 그런데 집까지 배달도 해 주시나요? 물론이죠. 여기 영수증 있습니다. 이거 가지고 안내센터에 가서 신청하면 됩니다. 아, 네. 고맙습니다. 그런데 언제쯤 물건을 받을 수 있을까요?",
     "utterances": [
       {
@@ -127579,7 +127579,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "a55d3ef2-aad6-47c0-ad0d-a1884815c08b",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513277/soometa/47-II-listening/24_13.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-II-listening/24_13.mp3",
     "text": "13번. 구청에서 진로상담 프로그램을 운영한대. 응 나도 들었어 무료로 적성검사도 해준다고 그러던데 그래? 한번 해볼만 하겠다 어떻게 신청하면 되는거지? 음 내가 문의해보고 알려줄게.",
     "utterances": [
       {
@@ -127795,7 +127795,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "26afb1f8-712e-4943-a720-ff26a47880da",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513277/soometa/47-II-listening/24_14.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-II-listening/24_14.mp3",
     "text": "14번 안내 말씀 드리겠습니다. 서울로 가는 우리 열차는 지금 공사 구간을 지나가고 있어서 천천히 운행하고 있습니다. 그리고 우리 열차는 부산으로 가는 KTX 열차를 먼저 보내기 위해 잠시 후 다음 정차역인 대전역에서 10분간 더 정차하겠습니다. 손님 여러분께 불편을 드려 죄송합니다.",
     "utterances": [
       {
@@ -128087,7 +128087,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "eada4191-64cc-4b41-b692-d957077cb83c",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513277/soometa/47-II-listening/24_15.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-II-listening/24_15.mp3",
     "text": "15번 다음은 생활정보입니다 요즘 많이들 더우시죠 때이른 더위로 한강공원의 야외수영장이 작년보다 일주일 빨리 개장한다는 소식입니다 개장 후 일주일 동안은 정상가의 50%로 이용이 가능합니다 또한 올해부터 가족 티켓 판매를 시작한다고 하는데요 4인 가족 방문시 1명은 무료로 입장이 가능하다고 하니 이번 기회에 미리 휴가 다녀오시는 게 어떨까요?",
     "utterances": [
       {
@@ -128421,7 +128421,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "45c43857-60f3-4899-a6bf-7fa7c0e20159",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513277/soometa/47-II-listening/24_16.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-II-listening/24_16.mp3",
     "text": "16번 서울 아트센터에서 하는 정호의 콘서트가 요즘 큰 인기를 얻고 있다고 들었는데요 네, 관객을 위해 다양한 서비스를 마련한 것이 효과적이었다고 생각합니다 매달 마지막 목요일에는 지휘자가 관객들에게 음악에 대해 해설해주는 음악 이야기 시간을 갖습니다 그리고 금요일 공연을 관람하는 경우 1층 카페에서 무료로 커피를 제공하고 있습니다 그래서 작년에 비해 정우의 콘서트 관람객 수가 많이 늘어난 것 같습니다.",
     "utterances": [
       {
@@ -128825,7 +128825,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "fa776c99-621f-45c9-87ff-9ab8e40b43c2",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513277/soometa/47-II-listening/24_17.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-II-listening/24_17.mp3",
     "text": "17번 그리고 아무래도 옷은 가서 입어보고 고르는 게 좋지 않아요? 색깔이나 모양이 화면으로 보는 것과 다른 경우도 많잖아요.",
     "utterances": [
       {
@@ -128970,7 +128970,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "bdbc807a-f8cd-4cd8-8ab6-f7ea43703fc6",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513277/soometa/47-II-listening/24_18.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-II-listening/24_18.mp3",
     "text": "18번 요즘 부모들은 아이들이 잘못해도 왜 아무 말도 안 하지? 무조건 예뻐만 하는 건 문제인 것 같아. 아이들이 어려서 그러는 건데 그때마다 뭐라고 하는 건 안 좋은 거 아니야? 아무리 어려도 자기가 무엇을 잘못했는지는 바로 알려줘야지. 그래야 다음에 같은 실수를 반복하지 않지.",
     "utterances": [
       {
@@ -129301,7 +129301,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "83135d46-0f0e-40ad-baa6-8bb2d86218d7",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513277/soometa/47-II-listening/24_19.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-II-listening/24_19.mp3",
     "text": "19번. 연휴라 그런지 차가 많이 막히네. 그래서 내가 기차 타자고 했잖아. 기차 타면 여행 기분도 더 날 텐데 말이야. 하지만 애들 짐도 많고 부모님 선물도 있고 하니까 차가 편하지 않아? 그거야 내가 들면 되지. 잘못하다가는 부모님 뵙는 시간보다 차 안에 있는 시간이 더 많겠어.",
     "utterances": [
       {
@@ -129664,7 +129664,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "e298d6a0-d84e-4bbe-b4e2-032a69220f38",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513277/soometa/47-II-listening/24_20.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-II-listening/24_20.mp3",
     "text": "세상에서. 두 번째로 맛있는 집이라는 식당 이름이 참 재밌는데요. 사장님, 가게 이름을 이렇게 지으신 특별한 이유가 있으신가요? 내가 최고라고 생각하는 순간 거기에 만족하게 되니까요. 나보다 더 나은 사람이 있을 거라 생각하며 저는 앞으로도 항상 최선을 다할 겁니다.",
     "utterances": [
       {
@@ -129960,7 +129960,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "5ea734d4-445f-426c-81f8-1fbd11ca3795",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513277/soometa/47-II-listening/24_21-22.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-II-listening/24_21-22.mp3",
     "text": "여보, 당신 퇴직하면 우리 치킨 가게 하나 해볼까요? 우리 가게라 좋죠 하지만 만만하게 생각해서는 안 될 것 같은데요 그런 가게는 사람들이 많이 오가는 곳에 차려야 성공할 수 있는데 그런데는 가게도 비싸고요 시장에서. 피자 가게 하는 친구가 그러는데 맛만 좋으면 가게가 어디에 있든지 손님들이 다 알아서 찾아온대요. 그래도 손님들이 쉽게 가게를 찾을 수 있는 곳이어야 하지 않을까요? 다시 들으십시오. 여보, 당신 퇴직하면 우리 치킨 가게 하나 해볼까요? 우리 가게라 좋죠 하지만 만만하게 생각해서는 안 될 것 같은데요 그런 가게는 사람들이 많이 오가는 곳에 차려야 성공할 수 있는데 그런데는 가게도 비싸고요 시장에서. 피자 가게 하는 친구가 그러는데 맛만 좋으면 가게가 어디에 있든지 손님들이 다 알아서 찾아온대요. 그래도 손님들이 쉽게 가게를 찾을 수 있는 곳이어야 하지 않을까요?",
     "utterances": [
       {
@@ -130840,7 +130840,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "9dd1a11d-4b6a-4375-b50c-4fe3f77881ca",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513277/soometa/47-II-listening/24_23-24.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-II-listening/24_23-24.mp3",
     "text": "여보세요? 나무 호텔이죠? 네, 고객님. 무엇을 도와드릴까요? 다음 주 토요일에 3명 1박 예약했는데요. 호텔에서 진행하는 자연체험 교육을 예약하고 싶어서요. 자연체험 교육은 20명 이상 단체만 가능합니다. 아, 그렇군요. 그러면 아이하고 할 수 있는 가족 체험 프로그램은 없나요? 죄송하지만 가족을 위한 체험 프로그램은 현재 준비 중에 있습니다. 대신 호텔 뒤 등산로에 아이들이 놀 수 있는 숲속 놀이터를 새로 만들었는데요. 이걸 이용해 보시는 건 어떨까요? 다시 들으십시오. 여보세요? 나무 호텔이죠? 네, 고객님. 무엇을 도와드릴까요? 다음 주 토요일에 3명 1박 예약했는데요. 호텔에서 진행하는 자연체험 교육을 예약하고 싶어서요. 자연체험 교육은 20명 이상 단체만 가능합니다. 아, 그렇군요. 그러면 아이하고 할 수 있는 가족 체험 프로그램은 없나요? 죄송하지만 가족을 위한 체험 프로그램은 현재 준비 중에 있습니다. 대신 호텔 뒤 등산로에 아이들이 놀 수 있는 숲속 놀이터를 새로 만들었는데요. 이걸 이용해 보시는 건 어떨까요?",
     "utterances": [
       {
@@ -131840,7 +131840,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "2e5cf79a-9ad0-47f1-bf6b-b0a751a6bf29",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513277/soometa/47-II-listening/24_25-26.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-II-listening/24_25-26.mp3",
     "text": "전 국가대표 축구선수 김민수 씨를 모시고 이야기 나누고 있는데요 장애인 고용기업을 운영하고 계시다구요? 네 모두 아시겠지만 저는 교통사고로 장애를 입어 축구를 그만두게 됐습니다 장애인이 되고 나니 생계를 유지하기가 어려웠죠 이건 저뿐만 아니라 모든 장애인이 겪는 어려움일 거라고 생각합니다 물론 정부에서 장애인에게 세금 혜택 등 여러가지 지원을 해주고 있지만 무엇보다도 장애인들이 자립할 수 있어야 한다고 생각했습니다 그래서 저와 뜻을 같이하는 사람들이 모여서 장애인을 고용하는 회사를 차리게 됐습니다. 다시 들으십시오 전 국가대표 축구선수 김민수 씨를 모시고 이야기 나누고 있는데요 장애인 고용기업을 운영하고 계시다구요? 네 모두 아시겠지만 저는 교통사고로 장애를 입어 축구를 그만두게 됐습니다 장애인이 되고 나니 생계를 유지하기가 어려웠죠 이건 저뿐만 아니라 모든 장애인이 겪는 어려움일 거라고 생각합니다 물론 정부에서 장애인에게 세금 혜택 등 여러가지 지원을 해주고 있지만 무엇보다도 장애인들이 자립할 수 있어야 한다고 생각했습니다 그래서 저와 뜻을 같이하는 사람들이 모여서 장애인을 고용하는 회사를 차리게 됐습니다.",
     "utterances": [
       {
@@ -132824,7 +132824,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "f2bdc06c-b545-4921-a9f0-f50677529678",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513277/soometa/47-II-listening/24_27-28.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-II-listening/24_27-28.mp3",
     "text": "웬 신발을 이렇게 많이 샀어? 어제 신문에서 읽었는데 이 회사는 신발이 한 켤레 팔릴 때마다 가난한 아이에게 신발 한 켤레씩을 기부한대. 의도도 좋고 신발도 예뻐서 가족들 것까지 샀어. 겨우 신발 한 켤레 준다고 아이들의 삶이 얼마나 달라지겠어? 물론 신발이 가난을 해결해 주지는 못하지. 그런데 이 신발은 살면서 처음으로 갖는 자신만의 물건이래. 그래서 새 신발을 갖게 된 아이들은 스스로에 대한 자부심이 높아지게 되는 거지. 작은 사건을 계기로 인생이 바뀌는 사람들이 있잖아. 이 신발이 아이들에게는 그런 사건이 될 수도 있다는 거야. 어때? 멋지지 않아? 다시 들으십시오. 왜 신발을 이렇게 많이 샀어? 어제 신문에서 읽었는데 이 회사는 신발이 한 켤레 팔릴 때마다 가난한 아이에게 신발 한 켤레씩을 기부한대. 의도도 좋고 신발도 예뻐서 가족들 것까지 샀어. 겨우 신발 한 켤에 준다고 아이들의 삶이 얼마나 달라지겠어? 물론 신발이 가난을 해결해 주지는 못하지. 그런데 이 신발은 살면서 처음으로 갖는 자신만의 물건이래. 그래서 새 신발을 갖게 된 아이들은 스스로에 대한 자부심이 높아지게 되는 거지. 작은 사건을 계기로 인생이 바뀌는 사람들이 있잖아. 이 신발이 아이들에게는 그런 사건이 될 수도 있다는 거야. 어때? 멋지지 않아?",
     "utterances": [
       {
@@ -134005,7 +134005,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "18c77753-fd26-4977-ae10-321eb9be301b",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513277/soometa/47-II-listening/24_29-30.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-II-listening/24_29-30.mp3",
     "text": "요즘 왕라면의 인기가 대단한데요. 지난달에 이어 이번달에도 판매 1위를 차지했습니다. 성공의 비결이 뭘까요? 그 비결은 무엇보다 국물 맛에 있습니다. 저는 맛있는 국물을 만들기 위해 전국의 유명한 식당을 찾아다녔습니다. 그런데 맛의 비밀은 쉽게 가르쳐주지 않더군요. 한 식당의 경우는 한 달 넘게 찾아가서. 가르쳐달라고 매달린 적도 있었습니다 아주머니께서는 마지못해 저한테만 비밀이라며 비법을 가르쳐 주셨죠. 그 비결들을 가지고 실험실에서 다양한 실험을 수없이 반복했습니다 사실 제가 라면을 좋아하는 편은 아닌데 왕라면을. 만들기 위해 하루에 10번도 넘게 라면을 먹은 적도 있었습니다. 저는 맛있는 국물을 만들기 위해 전국의 유명한 식당을 찾아다녔습니다 그런데 맛의 비밀은 쉽게 가르쳐주지 않더군요. 한 식당의 경우는 한 달 넘게 찾아가서. 가르쳐달라고 매달린 적도 있었습니다 아주머니께서는 마지못해 저한테만 비밀이라며 비법을 가르쳐주셨죠. 그 비결들을 가지고 실험실에서 다양한 실험을 수없이 반복했습니다 사실 제가 라면을 좋아하는 편은 아닌데 왕라면을. 만들기 위해 하루에 10번도 넘게 라면을 먹은 적도 있었습니다.",
     "utterances": [
       {
@@ -135029,7 +135029,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "af719c31-ff17-429f-b5cd-c928df4688e6",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513277/soometa/47-II-listening/24_31-32.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-II-listening/24_31-32.mp3",
     "text": "요즘 몇몇 영화관에서는 좌석별 가격 차등제가 시행되고 있습니다. 앞자리처럼 영화를 보기 불편한 자리는 싸게, 편안한 자리는 더 비싸게 파는 제도라고 하는데요. 전 이 제도가 문제가 있다고 생각합니다. 제 생각에 이건 매우 합리적인 제도인 것 같습니다. 불편한 앞자리인데도 편안한 자리와 똑같은 돈을 내고 영화를 보는 건 불합리한 것 아닌가요? 관객에게 선택의 기회도 줄 수 있고요. 그런데 저라면 아무리 싸도 앞자리에는 앉지 않을 것 같습니다 저 같은 사람들은 돈을 더 내더라도 편안한 자리에 앉을 것 같은데 이건 결국 극장이 돈을 더 벌기 위해 만든 제도 아닌가요? 다시 들으십시오. 요즘 몇몇 영화관에서는 좌석별 가격 차등제가 시행되고 있습니다 앞자리처럼 영화를 보기 불편한 자리는 싸게 편안한 자리는 더 비싸게 파는 제도라고 하는데요 전 이 제도가 문제가 있다고 생각합니다. 제 생각에 이건 매우 합리적인 제도인 것 같습니다 불편한 앞자리인데도 편안한 자리와 똑같은 돈을 내고 영화를 보는 건 불합리한 것 아닌가요? 관객에게 선택의 기회도 줄 수 있고요. 그런데 저라면 아무리 싸도 앞자리에는 앉지 않을 것 같습니다 저 같은 사람들은 돈을 더 내더라도 편안한 자리에 앉을 것 같은데 이건 결국 극장이 돈을 더 벌기 위해 만든 제도 아닌가요?",
     "utterances": [
       {
@@ -136292,7 +136292,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "31f93021-0fa3-48a5-b8bf-2ceecc8e652d",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513277/soometa/47-II-listening/24_33-34.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-II-listening/24_33-34.mp3",
     "text": "여러분도 잘 아시는 조선왕조실록은 세계적으로 가치를 인정받는 기록물이죠 수백년 세월의 때가 묻은 기록물이 지금까지 보존되는 데는 기록을 남긴 사람들의 공헌이 크다고 할 수 있는데요 요즘도 이렇게 기록을 담당하는 사람들이 있습니다 바로 기록연구사입니다 현대는 기록의 홍수라고 할 정도로 어느 것 하나 기록이 아닌 것이 없습니다 그중에는 없애도 되는 것도 있지만 외교문서처럼 보존되어야 하는 것도 있고요 이런 수많은 기록 중에서 남길 것과 버릴 것을 결정하는 것은 기록연구사가 해야 하는 중요한 일 중에 하나입니다 기록연구사는 이처럼 기록물의 수명을 결정하는 아주 중요한 일을 합니다 다시 들으십시오 여러분도 잘 아시는 조선왕조실록은 세계적으로 가치를 인정받는 기록물이죠 수백년 세월의 때가 묻은 기록물이 지금까지 보존되는 데는 기록을 남긴 사람들의 공헌이 크다고 할 수 있는데요. 요즘도 이렇게 기록을 담당하는 사람들이 있습니다. 바로 기록연구사입니다. 현대는 기록의 홍수라고 할 정도로 어느 것 하나 기록이 아닌 것이 없습니다. 그중에는 없애도 되는 것도 있지만 외교문서처럼 보존되어야 하는 것도 있고요. 이런 수많은 기록 중에서 남길 것과 버릴 것을 결정하는 것은 기록연구사가 해야 하는 중요한 일 중의 하나입니다. 기록연구사는 이처럼 기록물의 수명을 결정하는 아주 중요한 일을 합니다.",
     "utterances": [
       {
@@ -137445,7 +137445,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "b5182a6b-446c-468c-bee9-cb2024f7ebde",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513277/soometa/47-II-listening/24_35-36.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-II-listening/24_35-36.mp3",
     "text": "지난 선거에 이어 이번에도 저를 선택해 주신. 시민 여러분들께 존경과 감사의 인사를 드립니다. 지난 임기 동안 공약을 잘 실천한 점을. 높이 평가해 주신 것 같습니다. 이렇게 또 한 번의 기회를 주신 것은. 살기 좋은 세계 100대 도시라는 목표를 향해. 우리 시에서 추진하고 있는 정책을 완성하라는 뜻이라고 생각합니다. 이를 위한 첫 번째 과제는 현재 건립. 중에 있는 전국 최대 규모의 의료원을 완공하는 것입니다. 빠른 시일 내에 공사를 마무리 지어 양질의 의료 서비스를 제공해 드릴 것을 약속드립니다. 앞으로도 시민이 행복한 도시를 만들기 위해 열심히 일하는 시장이 되겠습니다. 다시 들으십시오. 지난 선거에 이어 이번에도 저를 선택해 주신. 시민 여러분들께 존경과 감사의 인사를 드립니다. 지난 임기 동안 공약을 잘 실천한 점을. 높이 평가해 주신 것 같습니다. 이렇게 또 한 번의 기회를 주신 것은. 살기 좋은 세계 100대 도시라는 목표를 향해. 우리 시에서 추진하고 있는 정책을 완성하라는 뜻이라고 생각합니다. 이를 위한 첫 번째 과제는 현재 건립. 중에 있는 전국 최대 규모의 의료원을 완공하는 것입니다. 빠른 시일 내에 공사를 마무리 지어 양질의 의료서비스를 제공해 드릴 것을 약속드립니다. 앞으로도 시민이 행복한 도시를 만들기 위해 열심히 일하는 시장이 되겠습니다.",
     "utterances": [
       {
@@ -138823,7 +138823,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "61cc9712-dd7b-4c26-82cc-00ed8ca49a28",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513277/soometa/47-II-listening/24_37-38.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-II-listening/24_37-38.mp3",
     "text": "지난 선거에 이어 이번에도 저를 선택해 주신. 시민 여러분들께 존경과 감사의 인사를 드립니다. 지난 임기 동안 공약을 잘 실천한 점을. 높이 평가해 주신 것 같습니다. 이렇게 또 한 번의 기회를 주신 것은. 살기 좋은 세계 100대 도시라는 목표를 향해. 우리 시에서 추진하고 있는 정책을 완성하라는 뜻이라고 생각합니다. 이를 위한 첫 번째 과제는 현재 건립. 중에 있는 전국 최대 규모의 의료원을 완공하는 것입니다. 빠른 시일 내에 공사를 마무리 지어 양질의 의료 서비스를 제공해 드릴 것을 약속드립니다. 앞으로도 시민이 행복한 도시를 만들기 위해 열심히 일하는 시장이 되겠습니다. 다시 들으십시오. 지난 선거에 이어 이번에도 저를 선택해 주신. 시민 여러분들께 존경과 감사의 인사를 드립니다. 지난 임기 동안 공약을 잘 실천한 점을. 높이 평가해 주신 것 같습니다. 이렇게 또 한 번의 기회를 주신 것은. 살기 좋은 세계 100대 도시라는 목표를 향해. 우리 시에서 추진하고 있는 정책을 완성하라는 뜻이라고 생각합니다. 이를 위한 첫 번째 과제는 현재 건립. 중에 있는 전국 최대 규모의 의료원을 완공하는 것입니다. 빠른 시일 내에 공사를 마무리 지어 양질의 의료서비스를 제공해 드릴 것을 약속드립니다. 앞으로도 시민이 행복한 도시를 만들기 위해 열심히 일하는 시장이 되겠습니다.",
     "utterances": [
       {
@@ -140201,7 +140201,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "1ac013fe-c125-458b-b219-285de00197e4",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513277/soometa/47-II-listening/24_39-40.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-II-listening/24_39-40.mp3",
     "text": "이런 갈등은 개인사업자가 태양광발전소를 주거지역 근처에 세우면서 시작되었는데요. 주거지역과 발전소의 거리가 가까워지자 피해를 입게 된 지역주민들이 반대를 하고 나선 거죠. 네, 그렇습니다. 조사를 진행해보니 발전소에서 나오는 열과 반사되는 빛이 주민들의 건강은 물론이고 농작물과 축산 동물의 생산성에도 좋지 않은 영향을 미치고 있는 것으로 나타났습니다 태양광 발전소를 설립하는 개인사업자가 늘어나면서 이런 상황은 점점 심각해지고 있는데요 태양광 발전소로 인해 빚어지는 갈등을 해결하기 위해서는 발전소 위치 선정에 대한 법적 기준이 마련되어야 할 것입니다. 다시 들으십시오. 이런 갈등은 개인사업자가 태양광발전소를 주거지역 근처에 세우면서 시작되었는데요. 주거지역과 발전소의 거리가 가까워지자 피해를 입게 된 지역주민들이 반대를 하고 나선 거죠. 네, 그렇습니다. 조사를 진행해보니 발전소에서 나오는 열과 반사되는 빛이 주민들의 건강은 물론이고 농작물과 축산동물의 생산성에도 좋지 않은 영향을 미치고 있는 것으로 나타났습니다 태양광 발전소를 설립하는 개인사업자가 늘어나면서 이런 상황은 점점 심각해지고 있는데요 태양광 발전소로 인해 빚어지는 갈등을 해결하기 위해서는 발전소 위치 선정에 대한 법적 기준이 마련되어야 할 것입니다.",
     "utterances": [
       {
@@ -141220,7 +141220,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "4271a40c-f923-4885-8b7e-d274589a0eda",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513277/soometa/47-II-listening/24_41-42.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-II-listening/24_41-42.mp3",
     "text": "옛날에도 한여름에 얼음을 사용했다는 기록이 있는데요. 겨울에 강에서 채취한 얼음을 보관해 놓았다가 필요할 때 꺼내서 썼다고 합니다. 그런데 얼음을 어떻게 보관했을까요? 네, 석빙고라는 얼음 창고가 있었죠. 특별한 냉동 장치가 없었는데도 석빙고의 온도는 0도 이하로 유지되었습니다 그 비결에는 위치와 건축재료 등 다양한 요인이 있지만 그 중에서도 과학적인 구조가 가장 큰 역할을 했다고 할 수 있는데요 바는 지하에 바는 지상에 있는 구조로 만들어 석빙고의 온도 변화를 최소화했고 지붕에 구멍을 내서 더운 공기가 바로 빠져나가도록 했습니다. 또 바닥은 경사지게 만들어 얼음이 녹으면서 생긴 물을 밖으로 흘려보내 영하의 온도를 유지했던 겁니다. 다시 들으십시오. 옛날에도 한여름에 얼음을 사용했다는 기록이 있는데요. 겨울에 강에서 채취한 얼음을 보관해 놓았다가 필요할 때 꺼내서 썼다고 합니다 그런데 얼음을 어떻게 보관했을까요? 네, 석빙고라는 얼음 창고가 있었죠 특별한 냉동 장치가 없었는데도 석빙고의 온도는 0도 이하로 유지되었습니다 그 비결에는 위치와 건축재료 등 다양한 요인이 있지만 그 중에서도 과학적인 구조가 가장 큰 역할을 했다고 할 수 있는데요 바는 지하에 바는 지상에 있는 구조로 만들어 석빙고의 온도 변화를 최소화했고 지붕에 구멍을 내서 더운 공기가 바로 빠져나가도록 했습니다 또 바닥은 경사지게 만들어 얼음이 녹으면서 생긴 물을 밖으로 흘려보내 영하의 온도를 유지했던 겁니다.",
     "utterances": [
       {
@@ -142471,7 +142471,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "49693fd3-484d-42e2-b0a8-2f53ef0c1453",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513277/soometa/47-II-listening/24_43-44.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-II-listening/24_43-44.mp3",
     "text": "지구의 표면은 여러 개의 판으로 나뉘어 있다. 판은 끊임없이 움직이기 때문에 판과 판이 부딪히는 지점에서는 지진이나 화산 폭발 같은 자연재해가 일어난다. 그런데 역설적이게도 이 충돌이 인류에게 필요한 자원을 안겨주기도 했다. 판이 충돌하면서 지각이 바뀔 때 지구 깊숙한 곳에 있던 구리나 금, 석유 등의 자원이 지표면으로 올라왔기 때문이다 인간은 구리 등을 이용하여 단단한 연장을 만들었고 이것은 인류 문명을 급격하게 발달시켰다 그래서 지도에 보이는 것처럼 가장 중요한 고대 문명 13곳 중 11곳과 현존하는 세계 최대 도시 20곳 중 10곳이 판의 경계 근처에 있다. 인류는 판의 충돌로 인한 위험과 혜택을 동시에 안고 살아온 것이다. 다시 들으십시오. 지구의 표면은 여러 개의 판으로 나뉘어 있다. 판은 끊임없이 움직이기 때문에 판과 판이 부딪히는 지점에서는 지진이나 화산 폭발 같은 자연재해가 일어난다 그런데 역설적이게도 이 충돌이 인류에게 필요한 자원을 안겨주기도 했다 판이 충돌하면서 지각이 바뀔 때 지구 깊숙한 곳에 있던 구리나 금, 석유 등의 자원이 지표면으로 올라왔기 때문이다 인간은 구리 등을 이용하여 단단한 연장을 만들었고 이것은 인류 문명을 급격하게 발달시켰다 그래서 지도에 보이는 것처럼 가장 중요한 고대 문명 13곳 중 11곳과 현존하는 세계 최대 도시 20곳 중 10곳이 판의 경계 근처에 있다 인류는 판의 충돌로 인한 위험과 혜택을 동시에 안고 살아온 것이다.",
     "utterances": [
       {
@@ -143778,7 +143778,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "36a88f91-196f-4e2d-8dbb-73517518c403",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513277/soometa/47-II-listening/24_45-46.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-II-listening/24_45-46.mp3",
     "text": "세계는 4차 산업혁명의 시대에 들어섰는데요. 3차 산업혁명이 컴퓨터를 통한 생산과 유통의 자동화를 의미했다면 4차 산업혁명은 기계와 제품에 인공지능을 부여해서 새로운 가치를 창출하는 것을 말합니다. 이해를 돕기 위해 걸음의 횟수를 재는 만보기를 예로 들어볼까요? 인공지능을 갖춘 만보기는 걸음의 횟수, 즉 운동량을 재서 보험사에 보냅니다. 그러면 보험사는 운동을 꾸준히 한 사람에게 보험료를 할인해주는 거죠. 앞으로는 법률이나 경영 등 다양한 분야에서 전문가 수준의 지식 서비스를 제공하는 로봇들도 등장할 겁니다. 4차 산업혁명이 가져올 미래는 전문가들도 예측이 불가능하다고 할 만큼 변화가 클 텐데요 하지만 분명한 것은 이것이 새로운 성장동력으로 국가 경쟁력 강화의 주요한 기반이 될 거라는 점입니다 다시 들으십시오 세계는 4차 산업혁명의 시대에 들어섰는데요 3차 산업혁명이 컴퓨터를 통한 생산과 유통의 자동화를 의미했다면 4차 산업혁명은 기계와 제품에 인공지능을 부여해서 새로운 가치를 창출하는 것을 말합니다. 이해를 돕기 위해 걸음의 횟수를 재는 만보기를 예로 들어볼까요? 인공지능을 갖춘 만보기는 걸음의 횟수, 즉 운동량을 재서 보험사에 보냅니다. 그러면 보험사는 운동을 꾸준히 한 사람에게 보험료를 할인해주는 거죠. 앞으로는 법률이나 경영 등 다양한 분야에서 전문가 수준의 지식 서비스를 제공하는 로봇들도 등장할 겁니다. 4차 산업혁명이 가져올 미래는 전문가들도 예측이 불가능하다고 할 만큼 변화가 클 텐데요. 하지만 분명한 것은 이것이 새로운 성장동력으로 국가 경쟁력 강화의 주요한 기반이 될 거라는 점입니다.",
     "utterances": [
       {
@@ -145099,7 +145099,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "6537a2a8-5281-4b15-b895-66677320609f",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513277/soometa/47-II-listening/24_47-48.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-II-listening/24_47-48.mp3",
     "text": "전통공예를 발전시키기 위해서 전승자들을 육성하고 보호하는 새로운 정책이 필요하다는 의견이 많은데요 어떻게 생각하십니까? 지금까지의 정책은 주요 전승자들을 인간문화재로 지정하고 그분들이 제자를 일대일로 교육해 전통공예를 이어나가는 것이었습니다 그런데 이런 방식은 전승 종목이 사유화될 우려가 있을 뿐더러 요즘 젊은이들이 별로 선호하지 않는다는 단점이 있었죠 그래서 좀 더 새로운 전승 정책이 필요하다고 봅니다 예를 들면 대학의 전통공예 관련 강의를 개설하고 거기에 예산과 인력을 지원하는 겁니다 전승자들이 대학에 출강하고 연구에 참여하면서 개방적으로 인재를 양성하는 거죠 그리고 전승자들의 작품을 정부가 인증해 주는 겁니다. 다시 들으십시오 전통공예를 발전시키기 위해서 전승자들을 육성하고 보호하는 새로운 정책이 필요하다는 의견이 많은데요 어떻게 생각하십니까? 지금까지의 정책은 주요 전승자들을 인간 문화재로 지정하고 그분들이 제자를 일대일로 교육해 전통공예를 이어나가는 것이었습니다 그런데 이런 방식은 전승 종목이 사유화될 우려가 있을 뿐더러 요즘 젊은이들이 별로 선호하지 않는다는 단점이 있었죠 그래서 좀 더 새로운 전승 정책이 필요하다고 봅니다 예를 들면 대학의 전통공예 관련 강의를 개설하고 거기에 예산과 인력을 지원하는 겁니다 전승자들이 대학에 출강하고 연구에 참여하면서 개방적으로 인재를 양성하는 거죠 그리고 전승자들의 작품을 정부가 인증해 주는 겁니다.",
     "utterances": [
       {
@@ -146258,7 +146258,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "034a082e-7e84-4e73-a0e4-9d662049a69f",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513277/soometa/47-II-listening/24_49-50.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/47-II-listening/24_49-50.mp3",
     "text": "영화를 보면 평범하고 자상하던 인물이 어느 집단의 일원으로 행동할 때는 끔찍하게 악해지는 경우가 종종 있는데요. 사회학자들은 개인적으로는 도덕적인 사람도 집단 속에서는 이기적이고 폭력적으로 변할 수 있다고 말합니다. 집단에서는 개인적인 친밀도도 서로 떨어지고 누가 누구에게 책임을 물을 수도 없는 복잡한 관계가 되죠 그래서 개인들은 자신의 책임은 면하면서 집단의 힘이 시키는 것은 무엇이든 하는 비도덕성에 합류하게 됩니다 이것이 폭력이 구조화되는 이유와 과정입니다 그래서 도덕적인 개인들이 만든 사회도 각 집단들의 속성과 이해관계에 따라 민족적, 인종적 충돌이나 이기심을 보이게 되죠. 그러므로 이런 집단 간의 관계는 도덕보다 힘의 역학관계에 따라 정치적으로 조정해야 하는 경우가 많습니다. 다시 들으십시오. 영화를 보면 평범하고 자상하던 인물이 어느 집단의 일원으로 행동할 때는 끔찍하게 악해지는 경우가 종종 있는데요. 사회학자들은 개인적으로는 도덕적인 사람도 집단 속에서는 이기적이고 폭력적으로 변할 수 있다고 말합니다. 집단에서는 개인적인 친밀도도 서로 떨어지고 누가 누구에게 책임을 물을 수도 없는 복잡한 관계가 되죠 그래서 개인들은 자신의 책임은 면하면서 집단의 힘이 시키는 것은 무엇이든 하는 비도덕성에 합류하게 됩니다 이것이 폭력이 구조화되는 이유와 과정입니다 그래서 도덕적인 개인들이 만든 사회도 각 집단들의 속성과 이해관계에 따라 민족적, 인종적 충돌이나 이기심을 보이게 되죠. 그러므로 이런 집단 간의 관계는 도덕보다 힘의 역학관계에 따라 정치적으로 조정해야 하는 경우가 많습니다.",
     "utterances": [
       {
@@ -147551,7 +147551,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "e267b80d-bc3b-45fa-9839-7a9bf56d83f4",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511778/soometa/41-I-listening/18_01.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-I-listening/18_01.mp3",
     "text": "사람이 많아요?",
     "utterances": [
       {
@@ -147584,7 +147584,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "4509025a-cbd2-49ee-bebd-0e6a13e1781b",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511778/soometa/41-I-listening/18_02.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-I-listening/18_02.mp3",
     "text": "노래를 잘해요?",
     "utterances": [
       {
@@ -147617,7 +147617,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "2b569596-dc65-472a-8b38-c2d583746756",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511778/soometa/41-I-listening/18_03.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-I-listening/18_03.mp3",
     "text": "오늘 몇 시에 만나요?",
     "utterances": [
       {
@@ -147664,7 +147664,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "44cb10dd-3293-424c-a053-6e24b9339d0e",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511778/soometa/41-I-listening/18_04.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-I-listening/18_04.mp3",
     "text": "4번 수업이 어때요?",
     "utterances": [
       {
@@ -147704,7 +147704,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "c3765452-1822-48b1-bc29-cf2667bfe5f6",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511778/soometa/41-I-listening/18_05.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-I-listening/18_05.mp3",
     "text": "휴가 잘 다녀오세요.",
     "utterances": [
       {
@@ -147744,7 +147744,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "6b7ce7fb-979a-4a22-b4ac-2fbabc1253b1",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511778/soometa/41-I-listening/18_06.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-I-listening/18_06.mp3",
     "text": "수미 씨에게 말씀 좀 전해 주세요.",
     "utterances": [
       {
@@ -147805,7 +147805,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "7b0c2037-6d6a-43f9-9cee-c3c1d0a525e5",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511778/soometa/41-I-listening/18_07.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-I-listening/18_07.mp3",
     "text": "다시 들으십시오.",
     "utterances": [
       {
@@ -147838,7 +147838,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "5ca7a055-b4b6-4f5a-a728-6c3ba48f8ec3",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511778/soometa/41-I-listening/18_08.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-I-listening/18_08.mp3",
     "text": "네, 이쪽으로 오세요. 다시 들으십시오. 네, 이쪽으로 오세요.",
     "utterances": [
       {
@@ -147913,7 +147913,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "8d80f26d-25ad-4336-8cff-4b7473152a86",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511778/soometa/41-I-listening/18_09.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-I-listening/18_09.mp3",
     "text": "어떻게 해 드릴까요? 짧은 머리로. 해 주세요. 다시 들으십시오. 어떻게 해 드릴까요? 짧은 머리로 해 주세요.",
     "utterances": [
       {
@@ -148071,7 +148071,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "a1f392d7-355a-4753-b346-7ce46996118f",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511778/soometa/41-I-listening/18_10.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-I-listening/18_10.mp3",
     "text": "여권 만들 거예요. 잘 찍어주세요. 네, 여기 보세요. 찍습니다. 다시 들으십시오. 여권 만들 거예요. 잘 찍어주세요. 네, 여기 보세요. 찍습니다.",
     "utterances": [
       {
@@ -148293,7 +148293,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "eefff5fc-7305-4aa1-a8c3-75588fd00652",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511778/soometa/41-I-listening/18_11.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-I-listening/18_11.mp3",
     "text": "11번. 안녕하세요. 김준호입니다. 반갑습니다. 저는 이지영입니다. 다시 들으십시오. 안녕하세요. 김준호입니다. 반갑습니다. 저는 이지영입니다.",
     "utterances": [
       {
@@ -148475,7 +148475,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "c5d4daf4-6409-4de6-ba60-e46119a569b9",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511778/soometa/41-I-listening/18_12.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-I-listening/18_12.mp3",
     "text": "12번 수박을 좋아하세요? 네. 수박도 좋아하지만 포도가 더 좋아요. 다시 들으십시오. 수박을 좋아하세요? 네. 수박도 좋아하지만 포도가 더 좋아요.",
     "utterances": [
       {
@@ -148627,7 +148627,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "d7185e73-0be8-4e3d-98d5-1e4dabd1a247",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511778/soometa/41-I-listening/18_13.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-I-listening/18_13.mp3",
     "text": "13번. 동생은 몇. 살이에요? 저보다 2살 적어요. 다시 들으십시오. 동생은 몇. 살이에요? 저보다 2살 적어요.",
     "utterances": [
       {
@@ -148805,7 +148805,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "08b66f27-a0c7-4b38-ad01-b9179cbd3693",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511778/soometa/41-I-listening/18_14.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-I-listening/18_14.mp3",
     "text": "14번 서울에서 태어났어요? 아니요. 부산에서요. 다시 들으십시오. 서울에서 태어났어요? 아니요. 부산에서요.",
     "utterances": [
       {
@@ -148928,7 +148928,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "685bf52b-ca4a-4fb7-a19f-8b37a00f5d6f",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511778/soometa/41-I-listening/18_15.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-I-listening/18_15.mp3",
     "text": "15번 일어나서. 식사하세요. 너무 피곤해요. 조금만 더. 잘게요. 다시 들으십시오. 일어나서. 식사하세요. 너무 피곤해요. 조금만 더. 잘게요.",
     "utterances": [
       {
@@ -149138,7 +149138,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "df3bcad7-06ea-4a7e-b21d-dcbcf772eec3",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511778/soometa/41-I-listening/18_16.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-I-listening/18_16.mp3",
     "text": "16번.",
     "utterances": [
       {
@@ -149164,7 +149164,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "b87605be-e5f8-4ce9-a6bc-91fd838e191c",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511778/soometa/41-I-listening/18_17.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-I-listening/18_17.mp3",
     "text": "다시 들으십시오. 이사 도와줘서 고마워요. 비도 오는데 많이 힘들었죠? 뭐려, 짐이 많지 않아서 괜찮았어요. 집이 좋네요. 네, 지난번 집보다 넓어서 좋아요. 지하철역도 바로 앞에 있고요.",
     "utterances": [
       {
@@ -149385,7 +149385,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "712c4cec-f12f-4d9f-b2c5-c1a986fbb98d",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511778/soometa/41-I-listening/18_18.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-I-listening/18_18.mp3",
     "text": "이번. 주 토요일까지 장미 축제를 하는데. 같이 갈래요? 장미 축제요? 작년에 가봤는데. 정말 좋았어요. 올해는 장미 색깔인 빨간색 옷을 입고 가면 무료로 들어갈 수 있어요. 그래요? 그럼 만나서 같이 가요. 다시 들으십시오.",
     "utterances": [
       {
@@ -149682,7 +149682,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "958105b9-308c-4204-a075-a411727fbe3a",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511778/soometa/41-I-listening/18_19.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-I-listening/18_19.mp3",
     "text": "실례합니다. 혹시 김치 박물관이 어디 있는지. 아세요? 거기에서 안내도 해주고 지도도. 줘요. 잘 모르겠는데요. 길 건너에 관광 안내소가 있으니까 가서 한번 물어보세요. 아, 네. 감사합니다. 이쪽으로 가면. 되나요? 네. 길 건너 은행 옆에 있어요. 거기에서 안내도 해주고 지도도 줘요.",
     "utterances": [
       {
@@ -150028,7 +150028,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "12de2c57-6d8f-4b7f-b6db-17ca69b2bb94",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511778/soometa/41-I-listening/18_20.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-I-listening/18_20.mp3",
     "text": "공항에 일찍 왔네요. 비행기 시간이 몇 시죠? 1시인데 날씨 때문에 출발 시간이 늦어졌어요. 그래요? 그럼 커피숍에서 차 한잔 마시면서 기다려요. 저는 출발 시간을 먼저 확인해 보고 거기로 갈게요. 다시 들으십시오.",
     "utterances": [
       {
@@ -150284,7 +150284,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "843bbdbf-d8e1-4ae9-96de-247b554b733b",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511778/soometa/41-I-listening/18_21.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-I-listening/18_21.mp3",
     "text": "21번 우리가 음식을 너무 많이 주문한 것 같아요. 많이 남았어요. 네, 남은 음식은 포장해 가야겠어요. 집에 가지고 가서 먹으면 맛없지 않아요? 아니요. 전 남은 음식을 자주 포장해 가는데 괜찮았어요. 다시 들으십시오.",
     "utterances": [
       {
@@ -150547,7 +150547,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "9ae1a9db-2ff6-4732-8ebe-8d942d62bfff",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511778/soometa/41-I-listening/18_22.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-I-listening/18_22.mp3",
     "text": "저기. 좀 보세요. 우리 동네에도 자전거 도로가. 생겼어요. 그런데 신문에서 보니까 자전거 도로에서도 사고가 많이 나는 것 같아요. 그래요? 그렇지만 자전거 도로가 생겨서 더 안전하게 탈 수 있을 것 같은데요? 다시 들으십시오. 그런데 신문에서 보니까 자전거 도로에서도 사고가. 많이 나는 것 같아요. 그래요? 그렇지만 자전거 도로가 생겨서 더 안전하게 탈 수 있을 것 같은데요.",
     "utterances": [
       {
@@ -150998,7 +150998,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "c1e0848a-c228-42e7-bf7f-1157804292d3",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511778/soometa/41-I-listening/18_23.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-I-listening/18_23.mp3",
     "text": "김 대리님, 지금까지 정리를 하고 계시는 거예요? 네. 저는 책상 정리나 서류 정리를 한 번에. 모아서 해요. 그러면 시간이 오래 걸리지 않아요? 시간이 날 때마다 나눠서 하면 더 빨리 할 수 있을 것 같은데요. 그렇게 하면 정리를 자주 해야 하니까 저는 더 힘든 것. 같아요. 다시 들으십시오. 네. 저는 책상 정리나 서류 정리를 한 번에 모아서 해요. 시간이 날 때마다 나눠서 하면 더 빨리 할 수 있을 것 같은데요. 그렇게 하면 정리를 자주 해야 하니까 저는 더 힘든 것 같아요.",
     "utterances": [
       {
@@ -151640,7 +151640,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "926a4662-64da-4e55-ad7e-f1ee6eae0592",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511778/soometa/41-I-listening/18_24.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-I-listening/18_24.mp3",
     "text": "24번. 오랜만에 산에 오니까 좋네요. 산 위까지 가려면 조금 더 가야 해요. 여기도 경치가 좋은데요. 여기서 조금 쉬고 그냥 내려가면 어때요? 벌써요? 산 위에서 보는 경치가 더 예쁜데. 한번 가봐요. 공기도 더 좋고요. 산 위까지 가면 좋겠지만 좀 힘들어서요. 내려가면서 구경하는 것도 나쁘지 않을 것 같은데요. 다시 들으십시오. 오랜만에 산에 오니까 좋네요. 산 위까지 가려면 조금 더 가야 해요. 여기도 경치가 좋은데요. 여기서 조금 쉬고 그냥 내려가면 어때요? 벌써요? 산 위에서 보는 경치가 더 예쁜데 한번 가봐요. 공기도 더 좋고요. 산 위까지 가면 좋겠지만 좀 힘들어서요. 내려가면서 구경하는 것도 나쁘지 않을 것 같은데요.",
     "utterances": [
       {
@@ -152382,7 +152382,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "eab303b7-3013-4381-b0d0-77c1e4d33726",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511778/soometa/41-I-listening/18_25-26.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-I-listening/18_25-26.mp3",
     "text": "안녕하십니까? 매주 수요일은 우리 회사 가족 사랑의 날입니다. 내일 가족 사랑의 날에는 모두 4시에 퇴근하시기 바랍니다. 특별히 이번에는 회사에서 케이크를 준비했습니다. 내일 퇴근하실 때 3층에 있는 식당에서 받아가시기 바랍니다 가족들과 즐거운 시간 보내십시오 감사합니다 다시 들으십시오 안녕하십니까? 매주 수요일은 우리 회사 가족사랑의 날입니다. 내일 가족사랑의 날에는 모두 4시에 퇴근하시기 바랍니다. 특별히 이번에는 회사에서 케이크를 준비했습니다. 내일 퇴근하실 때 3층에 있는 식당에서 받아가시기 바랍니다. 가족들과 즐거운 시간 보내십시오. 감사합니다.",
     "utterances": [
       {
@@ -152877,7 +152877,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "b2243c83-0864-4ce7-8cb3-d1a90eaebb4f",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511778/soometa/41-I-listening/18_27-28.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-I-listening/18_27-28.mp3",
     "text": "어? 이게 뭐예요? 티셔츠네요. 혹시 상자 안에 교환권 없어요? 요즘엔 다른 물건으로 바꿀 수 있는 교환권을 선물에 넣어주는데요. 네. 가까운 백화점에 선물 받은 물건과 교환권을 가지고 가면 바꿀 수 있어요. 다시 들으십시오. 어? 이게 뭐예요? 티셔츠네요? 네, 친구가 선물로 준 건데 사이즈가 좀 커요. 바꾸고 싶은데 선물 받은 거라서 고민이에요. 혹시 상자 안에 교환권 없어요? 요즘엔 다른 물건으로 바꿀 수 있는 교환권을 선물에 넣어주는데요.",
     "utterances": [
       {
@@ -153398,7 +153398,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "cae3a929-0b44-426f-bf11-c069d1d4c582",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511778/soometa/41-I-listening/18_29-30.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-I-listening/18_29-30.mp3",
     "text": "선생님, 안녕하세요? 요즘 저희 아이가 책을 잘 안 읽어요. 그래서 걱정이 돼서 왔어요. 네, 여기 앉으세요. 음... 아이가 책 읽는 걸 싫어하면 만화책부터 보여주는 건 어떨까요? 만화책이요? 그러면 아이가 만화책만 좋아하지 않을까요? 아니에요. 만화책이 책을 읽는데 도움이 돼요. 만화책에서 본 내용이 재미있으면 다른 책도 찾아서 읽게 되니까요. 아, 그러면 책 읽는 습관을 기를 수 있어서 좋을 것 같네요. 네. 또 어려운 내용을 쉽게 이해할 수 있어서 공부에 도움도 돼요. 그래서 요즘 아이들은 만화책을 많이 읽어요. 음, 아이가 책 읽는 걸 싫어하면 만화책부터 보여주는 건 어떨까요? 만화책이요? 그러면 아이가 만화책만 좋아하지 않을까요? 아니에요. 만화책이 책을 읽는데 도움이 돼요. 만화책에서 본 내용이 재미있으면 다른 책도 찾아서 읽게 되니까요. 아, 그러면 책 읽는 습관을 기를 수 있어서 좋을 것 같네요. 네. 또 어려운 내용을 쉽게 이해할 수 있어서 공부에 도움도 돼요. 그래서 요즘 아이들은 만화책을 많이 읽어요.",
     "utterances": [
       {
@@ -154463,7 +154463,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "7a7b4cfe-07ee-4175-bc2d-83d732587714",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513407/soometa/41-II-listening/20_01.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-II-listening/20_01.mp3",
     "text": "어? 왜 밥이 안 됐지? 어디 봐. 밥솥 버튼을 안 눌렀나 보네. 이상하다. 분명히 눌렀는데.",
     "utterances": [
       {
@@ -154614,7 +154614,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "6ffd0a17-1ab1-43b1-9943-e6d733cefd93",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513407/soometa/41-II-listening/20_02.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-II-listening/20_02.mp3",
     "text": "2번. 민수 씨, 이거 여기에 심을 거예요? 네. 조금만 더 파면 되니까 잠깐만 들고 계세요. 알았어요. 그런데 다 심고 나면 물 좀 많이 줘야겠어요.",
     "utterances": [
       {
@@ -154828,7 +154828,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "b4e181b8-ed44-4a36-a606-e56ae50eeb0c",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513407/soometa/41-II-listening/20_03.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-II-listening/20_03.mp3",
     "text": "3번 여러분 혹시 비행기를 이용하면서 짐이 없어지거나 늦게 도착한 적이 있으십니까? 한 보고서에 따르면 2006년부터 2014년까지 비행기 수화물 사고 수는 2010년에 최고였다가 감소하고 있습니다. 사고 종류로는 짐이 늦게 도착하는 지연 사고가 가장 많았고 가방 안에 물건이 깨지는 파손 그리고 분실이 각각 그 뒤를 이었습니다.",
     "utterances": [
       {
@@ -155155,7 +155155,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "071ab605-a95d-45d8-ad44-f4a54eb8ec79",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513407/soometa/41-II-listening/20_04.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-II-listening/20_04.mp3",
     "text": "4번.",
     "utterances": [
       {
@@ -155181,7 +155181,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "d562c6f1-54b1-4fc8-8378-f08baae92bc3",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513407/soometa/41-II-listening/20_05.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-II-listening/20_05.mp3",
     "text": "5번.",
     "utterances": [
       {
@@ -155207,7 +155207,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "7c110274-0f71-4922-8e55-aa87af50db57",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513407/soometa/41-II-listening/20_06.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-II-listening/20_06.mp3",
     "text": "좋아. 그런데 지난번처럼 졌다고 화내기 없기다.",
     "utterances": [
       {
@@ -155268,7 +155268,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "eefb4b72-03d0-4f02-b014-6b6d73e30542",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513407/soometa/41-II-listening/20_07.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-II-listening/20_07.mp3",
     "text": "지영씨, 다음주 김민호씨 집들이에 초대받았지요? 어, 맞다! 민호씨 집들이하죠? 깜빡 잊고 있었어요.",
     "utterances": [
       {
@@ -155380,7 +155380,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "a8823f90-0cef-486e-98d9-8b4e75a6bd69",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513407/soometa/41-II-listening/20_08.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-II-listening/20_08.mp3",
     "text": "이 선생님, 바둑대회 신청은 많이 들어왔습니까? 아니요, 원장님. 학생들한테 신청서를 나눠줬지만 아직까지는 많지 않은데요.",
     "utterances": [
       {
@@ -155506,7 +155506,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "cd23f71b-d53d-48f2-a573-bad9a9125478",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513407/soometa/41-II-listening/20_09.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-II-listening/20_09.mp3",
     "text": "여보. 바쁘지 않으면 넥타이 매는 것 좀 도와줘요. 이게 잘 안. 매지네요. 알겠어요. 어? 근데 셔츠에 단추가 떨어졌네요. 금방 달아질 테니까 줘봐요. 아, 여기. 이걸 못 봤네요. 아까 입을 때는 괜찮았는데. 지금 바로 돼요. 잠깐만 기다려봐요.",
     "utterances": [
       {
@@ -155840,7 +155840,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "11fc2a25-035e-4e7a-8544-d98fc94944be",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513407/soometa/41-II-listening/20_10.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-II-listening/20_10.mp3",
     "text": "너무. 졸리다. 아직 읽어야 될 책도 많은데. 졸리면 기숙사에 들어가서 일찍 자고 아침에 일어나서 하든지. 전 아침잠이 많아서 일찍 못 일어나요. 잠 좀 깨게 잠깐 나가서 산책해야겠어요. 들어올 때 커피라도 사올까요, 선배? 아니야 됐어 좀 전에 마셨어.",
     "utterances": [
       {
@@ -156154,7 +156154,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "da96d0bc-cbdc-457b-9cf1-0242e2e6185a",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513407/soometa/41-II-listening/20_11.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-II-listening/20_11.mp3",
     "text": "11번. 어디 갔다 오셨어요? 부장님께서 계속 찾으시던데요. 잠깐 서류 받으러 홍보부에 다녀왔는데요. 무슨 일로 찾으셨어요? 거래처에 보낸 사진이 제품하고 다르다고 확인하러 오셨었어요. 빨리 연락부터 드려보세요. 알겠어요. 그럼 이 서류 복사 좀 부탁드릴게요.",
     "utterances": [
       {
@@ -156433,7 +156433,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "1704731a-34b5-426d-87a3-3bb3de9217ad",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513407/soometa/41-II-listening/20_12.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-II-listening/20_12.mp3",
     "text": "김인수. 씨, 오늘 사용할 음식 재료는 들어왔습니까? 네, 조금 전에 들어왔습니다. 그런데요, 주방장님. 정리하다 보니 안 들어온 것들이 있는데 어떻게 할까요? 빠진 걸 알려주면 제가 주문서를 다시 확인하고 업체에 전화해 보겠습니다. 네 그럼 조리실 앞에 있는 재료들은 먼저 보관창고로 옮기겠습니다.",
     "utterances": [
       {
@@ -156768,7 +156768,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "3ee1ece4-dbc5-440a-88fe-b9e66e8c0097",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513407/soometa/41-II-listening/20_13.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-II-listening/20_13.mp3",
     "text": "13번. 오빠 오늘 백화점에 가서 엄마 선물 살까? 옷은 어때? 음... 좋아하실까? 지난번에 사드린 블라우스는 잘 안 입으시던데 옷보다 상품권을 드리는 건 어때? 그것보단 엄마가 보고 직접 고르시는 게 제일 좋은데. 그럼 다음 주말에 모시고 가자.",
     "utterances": [
       {
@@ -157075,7 +157075,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "7c4dadd0-d655-48cf-9878-9a09caadbc36",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513407/soometa/41-II-listening/20_14.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-II-listening/20_14.mp3",
     "text": "우리 대학교를 방문해 주셔서 감사합니다. 오늘 일정에 대해 간단히 말씀드리겠습니다. 먼저 강당에서 약 20분 동안 학교 소개 동영상을 보신 후에 도서관과 체육관 그리고 기숙사 순으로 둘러보실 예정입니다. 그리고 기숙사 지하학생식당에서 식사를 하시면 일정이 모두 끝납니다. 돌아가실 때는 식당 입구에서 저희가 준비한 기념품을 꼭 받아가시기 바랍니다.",
     "utterances": [
       {
@@ -157409,7 +157409,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "9f4d0cca-6ff0-4553-af98-f616b68164d5",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513407/soometa/41-II-listening/20_15.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-II-listening/20_15.mp3",
     "text": "15번 다음은 사건 사고 소식입니다. 오늘 아침 6시쯤 인주시 부근 도로에서 화물차와 승용차가 충돌한 사고가 있었습니다. 이 사고로 화물차 운전자와 승용차에 탄 20대 남성 1명이 부상을 당해 인주병원에서 치료를 받고 있습니다. 경찰은 짙은 안개로 앞이 보이지 않아 사고가 난 것으로 보고 있습니다. 보다 정확한 사고 원인을 파악하기 위해 운전자들을 상대로 조사 중입니다.",
     "utterances": [
       {
@@ -157792,7 +157792,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "8ed2ddd8-c23d-4eb5-8edd-0cc9799f0635",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513407/soometa/41-II-listening/20_16.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-II-listening/20_16.mp3",
     "text": "16번 선생님께서는 퇴직하신 후에 지역문화제를 알리는 일을 하고 계시는데요. 특별히 이 일을 하게 된 계기가 있으신가요? 저는 30년 동안 교직에 있으면서 역사를 가르쳤습니다. 퇴직하고 어떻게 노후를 보낼까 고민하고 있었어요. 그런데 아들이 제 경험을 살려보라며 이 일을 적극 권했습니다. 그래서 지난달부터 일요일마다 문화센터에서 우리지역 문화재를 소개하는 강의를 하고 있죠.",
     "utterances": [
       {
@@ -158147,7 +158147,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "07f0953a-7c1a-4b17-b335-8e5474e5a8d2",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513407/soometa/41-II-listening/20_17.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-II-listening/20_17.mp3",
     "text": "민호가 낮에 놀이터에서 놀다가 또 다쳤어요. 애가 자꾸 다쳐서 너무 속상해요. 놀이터에 보내지 말아야겠어요. 그래도 애가 자꾸 다치니까 걱정이 돼요.",
     "utterances": [
       {
@@ -158306,7 +158306,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "e4e48933-e2d2-45c9-bc95-8c06d3f2a935",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513407/soometa/41-II-listening/20_18.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-II-listening/20_18.mp3",
     "text": "아. 이것 좀 봐. 아까 지하철에서 내 앞에 서 있던 사람 때문에 긁혔지 뭐야? 가방을 꼭 그렇게 뒤로 매야 돼? 그러게 말이야. 배낭 가방을 메고 다니는 사람들은 조심할 필요가 있어. 대중교통을 이용할 때는 가방을 돌려서 앞으로 앉는다든지 아니면 다리 밑이나 선반 위에 두면 좋잖아.",
     "utterances": [
       {
@@ -158651,7 +158651,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "1e3d5bd2-de45-4fb2-b8b0-1399fcd22593",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513407/soometa/41-II-listening/20_19.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-II-listening/20_19.mp3",
     "text": "아직도. 공중전화가 있네? 난 이제 없어진 줄 알았는데. 무슨 소리야? 급할 때 써야 하는데 없으면 안 되지. 휴대전화가 없는 사람도 있을 텐데. 꼭 필요할 때는 다른 사람에게 휴대전화를 빌리면 되지. 누가 공중전화를 쓰겠어? 그래도 빌려 쓸 수 없는 상황도 있을 수 있잖아.",
     "utterances": [
       {
@@ -159000,7 +159000,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "a0a36c24-791f-413c-bf14-ba38c473aff7",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513407/soometa/41-II-listening/20_20.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-II-listening/20_20.mp3",
     "text": "선생님. 이번에 세계적으로 유명한 소설을 한국어로 옮기셨는데요. 한국 상황에 맞게 잘 표현했다는 평을 듣고 계십니다. 이번 작업을 하시면서 어떤 부분에 가장 중점을 두셨어요? 그래서 이번 작품에서도 주인공의 성격과 등장인물들과의 관계 등을 한국 정서에 맞게 표현하려고 많은 애를 썼습니다.",
     "utterances": [
       {
@@ -159303,7 +159303,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "76ad21ba-d259-4d74-b140-82a6fc7e25ee",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513407/soometa/41-II-listening/20_21-22.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-II-listening/20_21-22.mp3",
     "text": "이번에도. 작년처럼 추석 한 달 전부터 선물 세트를 10개 사면 하나를 더 주는 행사를 진행할까 하는데요. 작년에 고객들의 반응이 꽤 괜찮았거든요. 그 행사는 작년뿐만 아니라 몇 년째 하고 있는 행사 아닙니까? 올해도 똑같이 하지 말고 새로운 행사를 기획해보세요. 네, 알겠습니다. 다음 주까지 준비해서 말씀드리겠습니다.",
     "utterances": [
       {
@@ -159657,7 +159657,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "dfa1e6de-c264-4d57-ae12-6dbb5cfa004a",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513407/soometa/41-II-listening/20_23-24.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-II-listening/20_23-24.mp3",
     "text": "거기 서울 호텔이죠? 회의장 좀 예약하려고 하는데요. 네, 고객님. 어떤 회의장을. 찾으세요? 100명 정도 들어갈 수 있으면 되는데요. 회의장에는 발표할 때 사용할 수 있는 컴퓨터와 마이크가 설치되어 있지요. 그럼요, 150명까지 들어갈 수 있는 대규모 회의장이 마련되어 있습니다. 그리고 모든 회의장에는 발표에 필요한 시설이 갖춰져 있습니다. 회의장을 이용하시면 음료는 무료로 제공해 드립니다. 장소를 둘러보실 겸 직접 방문해 주시면 자세하게 상담해 드리겠습니다.",
     "utterances": [
       {
@@ -160123,7 +160123,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "1fd83b15-39ce-409f-b3bd-ad04867a4776",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513407/soometa/41-II-listening/20_25-26.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-II-listening/20_25-26.mp3",
     "text": "25번. 일부 환경단체의 반대에도 불구하고 얼마 전 인주산 정상에 사다리를 설치하셨는데요. 서둘러 설치하신 이유가 뭡니까? 인주산 정상은 바위가 많고 경사가 심해서 미끄럼 사고가 자주 발생하는 곳입니다. 그렇기 때문에 등산객들의 사고 방지를 위해서는 사다리가 반드시 있어야 한다고 판단했어요. 자연환경이 훼손되고 주변 경관이 나빠진다는 이유로 반대하는 목소리가 있었던 것도 사실입니다. 하지만 저희는 등산객의 안전을 최우선으로 생각했습니다. 앞으로 더욱 많은 등산객들이 인주산을 찾아줄 것으로 기대하고 있습니다.",
     "utterances": [
       {
@@ -160601,7 +160601,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "adc6129f-23b9-47f9-b0f7-84f037290fed",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513407/soometa/41-II-listening/20_27-28.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-II-listening/20_27-28.mp3",
     "text": "정장을 기증받는 단체가 있다고 해서 어제 한 벌 보냈어. 우리가 보내면 수선과 세탁을 해서 필요한 사람들에게 저렴하게 대여해주는 거지. 무료로 대여해주면 좋을 텐데 왜 돈을 받는 거지? 그 돈으로 형편이 어려운 학생들에게 장학금을 준다고 들었어. 좋은 일이니까 너도 한번 해보면 어때?",
     "utterances": [
       {
@@ -160907,7 +160907,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "53da6e3e-4f3e-49e3-a0c2-1784a75ee0b3",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513407/soometa/41-II-listening/20_29-30.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-II-listening/20_29-30.mp3",
     "text": "29번. 경기 내내 운동장을 뛰어다니시던데요. 힘들지 않으신가요? 네, 정말 힘들죠. 하지만 선수들의 움직임을 정확하게 보고 빨리 판단해야 하기 때문에 뛰어다닐 수밖에 없습니다. 반칙한 선수들에게는 그 자리에서 바로 벌칙을 줘야 경기가 원활하게 진행되니까요. 체력 뿐만 아니라 순간적인 판단도 중요한 일이군요. 부담감이 크시겠어요. 결승전이나 중요한 국제 경기에 들어갈 때는 부담스러운 게 사실입니다. 중요한 순간에 결정을 잘못 내리면 양 팀의 승패가 바뀔 수도 있으니까요. 하지만 큰 실수 없이 무사히 경기를 마쳤을 때는 보람을 느끼기도 합니다.",
     "utterances": [
       {
@@ -161466,7 +161466,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "3dc994db-62b8-4bad-b69a-df8dc2b79380",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513407/soometa/41-II-listening/20_31-32.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-II-listening/20_31-32.mp3",
     "text": "31번 담배값이 올랐는데도 흡연율이 떨어지지 않는 걸 보니 담배값 인상은 별로 좋은 금연 정책이 아닌 것 같습니다. 네 그렇습니다 담배값 인상은 흡연율 감수에 별로 영향을 주지 않는다는 연구 결과도 있습니다 금연은 자발적인 참여가 있을 때만 가능하다고 봅니다. 자발적 참여도 중요하지만 더 강력한 금연정책이 필요하지 않겠습니까? 강한 금연정책은 오히려 부정적인 영향을 줄 수도 있습니다. 흡연자 스스로가 심각성을 깨닫고 금연을 해야 성공할 수 있습니다. 그런 흡연자들을 돕기 위한 금연 클리닉이나 상담센터를 확대하는 게 더 효과적이라고 생각합니다.",
     "utterances": [
       {
@@ -162030,7 +162030,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "8f27bc97-45af-48cb-bd9d-4f43cf461c31",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513407/soometa/41-II-listening/20_33-34.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-II-listening/20_33-34.mp3",
     "text": "여러분은 어떤 태도로 남의 이야기를 들으세요? 하던 일을 멈추지 않고 건성으로 들은 적은 없으신가요? 여기 듣는 사람의 태도가 얼마나 중요한지 보여주는 실험이 하나 있습니다. 어느 학교에 수업이 재미없기로 유명한 교사가 있었는데요. 한 심리학자가 그 교사에게 알리지 않고 수업을 듣는 학생들에게만 몇 가지 행동을 하도록 지시했습니다. 첫째, 교사의 말에 주의를 집중하면서 경청할 것. 둘째, 얼굴에 미소를 띄면서 고개를 끄덕여 줄 것. 셋째, 가끔 수업 내용과 관계있는 질문을 할 것 등이었습니다. 여러분, 한 학기 후에 어떤 변화가 일어났을까요? 교사의 수업 태도는 눈에 띄게 달라졌습니다. 다양한 교수 방법을 활용하여 재미있는 수업을 만들기 시작한 겁니다.",
     "utterances": [
       {
@@ -162686,7 +162686,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "67710c2a-6b66-45d9-b91d-6c880cab3c20",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513407/soometa/41-II-listening/20_35-36.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-II-listening/20_35-36.mp3",
     "text": "35번 연기학과 여러분, 졸업을 축하합니다. 지금까지 여러분은 피나는 연기 연습을 통해 자신만의 개성을 찾아 이 자리에 섰습니다. 하지만 사회로 나가면 여러분을 기다리는 건 끊임없는 거절의 연속일 겁니다. 오디션에서 감독에게 자신의 능력과 끼를 보여주어도 결국 돌아오는 건 대부분 거절일 겁니다 물론 거절당하는 건 고통스럽겠죠 하지만 그건 여러분의 잘못이 아닙니다 왜냐하면 감독은 그저 자기 작품에 맞는 배우를 찾고 있는 것 뿐이니까요 수많은 거절에 좌절해서 도전을 포기했다면 저도 지금 이 자리에 없었을 겁니다. 여러분도 이러한 과정을 겪으면서 자신에게 맞는 배역을 찾을 수 있을 겁니다. 이제 용감하게 나가서 그 기회를 잡으십시오.",
     "utterances": [
       {
@@ -163314,7 +163314,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "26e5afef-b4a3-4af7-8b6c-c6aa0f8ac72f",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513407/soometa/41-II-listening/20_37-38.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-II-listening/20_37-38.mp3",
     "text": "37번 작가님, 식물 세밀화라는 말을 처음 들어보는데요 식물 세밀화가 무엇인지 자세히 설명해 주시겠습니까? 식물화와의 차이점을 말씀드리면 이해하기가 쉬우실 것 같아요 식물화는 화가가 감정을 넣어 식물의 아름다움을 표현하잖아요 그런데 식물 세밀화는 감정을 배제한 채 식물의 형태를 있는 그대로 자세히 그려요 식물의 기록을 사진으로 남기지 않고 왜 그림으로 그리냐고 묻겠지만 사진은 식물의 미세 구조까지 표현하는 데 한계가 있습니다 생태계 기록에 중요한 꽃잎의 개수나 뿌리 모양 같은 거 말이죠 그래서 식물학계에서는 사진보다 식물 세밀화를 중시합니다. 하지만 여전히 식물 세밀화가 많지 않은 점은 아쉽습니다.",
     "utterances": [
       {
@@ -163893,7 +163893,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "a48b27ef-8072-4fa0-9be4-224bef0b2d1b",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513407/soometa/41-II-listening/20_39-40.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-II-listening/20_39-40.mp3",
     "text": "39번. 다리를 어깨 너비로 벌리고 가슴을 활짝 편 자세가 척추 건강에 많은 도움이 되고 있는 것 같은데요. 박사님, 이 밖에 어떤 효과가 있습니까? 네, 웅크린 자세와 달리 가슴을 편 자세는 스트레스 호르몬의 분비량을 줄이고 남성 호르몬의 분비량을 늘립니다. 이러한 남성 호르몬의 변화로 우리 신체는 위험을 감수하려는 특성을 보이는데요. 이 때문에 적극적이고 자신감이 넘치는 사람으로 보이게 된다는 겁니다. 당당하고 힘을 느낄 수 있는 사람이 되는 거죠. 실제로 이런 자세가 업무의 성과를 높이거나 면접시험의 합격률에도 영향을 미치는 것으로 나타났습니다. 자세는 많은 투자를 하지 않고도 쉽게 자신을 변화시킬 수 있는 비법인 거죠.",
     "utterances": [
       {
@@ -164553,7 +164553,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "59b01e8b-d700-46cb-ac5a-7e5d7d456990",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513407/soometa/41-II-listening/20_41-42.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-II-listening/20_41-42.mp3",
     "text": "41번 오늘은 콩코드 비용의 오류에 대해 알아보겠습니다 콩코드는 초음속 여객기로 야심차게 개발을 시작했지만 곧 사업성이 없는 것으로 드러났습니다 그러나 초기에 들어간 막대한 비용 때문에 결정을 주저하다가 결국 더 큰 손해를 보고 중단하게 됐죠 이처럼 그동안 투자한 비용에 미련을 두다 더 큰 손해를 보는 것을 콩코드 비용의 오류라 부릅니다. 이러한 현상은 왜 나타나는 걸까요? 그 이유는 기존의 잘못된 결정을 인정하는데 심리적 고통이 따르기 때문입니다. 그 고통을 피하려고만 하니까 현재의 손실을 제대로 파악하지 못하는 거죠. 그래서 결정을 지연하다가 더 큰 손해를 보게 되는 겁니다. 여러분, 더 큰 손해를 피하려면 현실을 냉정히 직시하는 것이 무엇보다 중요합니다.",
     "utterances": [
       {
@@ -165223,7 +165223,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "6aa8d159-04a7-4dbc-8093-b834feae6e60",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513407/soometa/41-II-listening/20_43-44.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-II-listening/20_43-44.mp3",
     "text": "43번 여기 보이는 이 유리 구슬은 신라시대의 지배층이 사용한 목걸이에 달려있던 것이다. 자세히 살펴보면 놀랍게도 지름 1.8cm의 이 작은 유리 구슬 안에 사람의 얼굴이 새겨져 있다. 그런데 신라인의 얼굴은 아니다. 코와 눈, 피부 등이 매우 이국적이다. 그 당시 신라에는 유리 제작 기술이 발달하지 않았는데 그럼 이 구슬은 어디에서 온 것일까? 우리는 그 출처를 찾아 나섰다. 그리고 마침내 동남아시아의 한 섬에서 비슷한 유리 구슬을 찾았다. 이것이 바로 그것이다. 구슬 안의 얼굴과 제작 기법이 모두 신라에서 발견된 유리 구슬과 같다. 1500년 전 이곳의 구슬이 신라로 전해졌던 것이다. 우리는 이 작은 유리 구슬에서 그 옛날 신라가 5300km나 떨어진 나라와 교역을 했다는 증거를 발견할 수 있었다.",
     "utterances": [
       {
@@ -165956,7 +165956,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "bff70006-c7f1-4566-98df-07accdbcbc67",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513407/soometa/41-II-listening/20_45-46.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-II-listening/20_45-46.mp3",
     "text": "45번 한해 지구상에 지진이 몇 번 발생할까요? 50만 번이나 일어납니다. 우리는 잘 느끼지 못하지만요. 인간은 인류 역사가 시작될 때부터 계속 지진을 겪어왔고 몇몇 큰 지진들은 인류 역사를 바꿔놓기도 했죠. 그 중에서 1755년 리스본 대지진은 과학적 연구가 이루어진 최초의 지진이라는 점에서 의미가 있습니다. 그때 처음으로 지진 상황을 파악하기 위한 조사가 실시됐거든요. 과학적인 해석을 시도한 거죠. 대지진 이후 사람들은 무기력하게 쓰러져 있던 것이 아니라 오히려 그 지진을 통해 원인을 찾으려고 노력했어요. 그런 노력이 지진학의 탄생을 가져왔고 현재 우리는 지진을 적극적으로 대비할 수 있게 된 것입니다.",
     "utterances": [
       {
@@ -166556,7 +166556,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "2dc0667c-a78c-46b5-8bca-125b815c591e",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513407/soometa/41-II-listening/20_47-48.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-II-listening/20_47-48.mp3",
     "text": "47번. 우리시가 그동안 성공적으로 치렀던 다양한 국제행사는 지역발전의 원동력이었습니다. 그 행사들을 준비하면서 풍부한 도시기반시설을 갖출 수 있었죠. 우리시의 인지도도 높일 수 있었고요. 거기에다 이번 국제박람회까지 개최하게 된다면 우리시는 세계적인 도시로 우뚝 설 수 있을 텐데요. 어떻게 하면 우리시가 박람회 개최도시로 선정될 수 있을까요? 박람회를 유치하기 위해서는 기존과 다른 목적을 설정해야 한다고 봅니다 과거에는 박람회의 목적을 기반시설 확충이나 도시 홍보에 두었는데요 이제는 박람회가 소통과 축제의 장이 되도록 해야 합니다 초창기의 방람회는 모두가 즐길 수 있는 하나의 재미있는 축제였어요 다시 초기 방람회의 의미를 찾아야 합니다 그러기 위해서는 먼저 모두가 공감하고 참여할 수 있는 방안을 모색해야겠죠.",
     "utterances": [
       {
@@ -167244,7 +167244,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "e32d1a88-12ee-48a3-ad85-5f37ccd4b44e",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513407/soometa/41-II-listening/20_49-50.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/41-II-listening/20_49-50.mp3",
     "text": "49번 과거에는 같은 지역에 살면 정치적 성향이 유사할 거라고 생각했어요. 그래서 지역 중심의 선거운동이 대세였죠. 그러나 한 지역에 살더라도 개인의 정치적 성향이 다를 수 있다는 것이 밝혀졌고 최근에는 개인별 특성을 반영하는 방향으로 선거운동이 변화하고 있습니다. 그래서 요즘은 후보자 진영에서 선거운동용 이메일을 작성할 때도 다른 내용으로 여러 개를 만듭니다. 그리고 유권자의 성별이나 직업, 관심사 등을 고려하여 그에 맞는 메일을 보내지요. 이렇게 되면 유권자는 구미에 맞는 공약만을 전달받게 돼서 한쪽으로 치우친 정보에 노출될 가능성이 커집니다. 그럼 유권자는 후보자를 객관적으로 평가할 수 있는 기회 자체를 박탈당할 수밖에 없죠. 이런 상황에서 과연 유권자는 올바른 선택을 할 수 있을까요?",
     "utterances": [
       {
@@ -167921,7 +167921,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "aadf7149-7f37-4d67-8698-7ea8c16612a6",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511909/soometa/37-I-listening/26_01.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-I-listening/26_01.mp3",
     "text": "사전이 있어요?",
     "utterances": [
       {
@@ -167954,7 +167954,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "b029779c-cddf-4052-8c81-7ce02c18f1db",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511909/soometa/37-I-listening/26_02.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-I-listening/26_02.mp3",
     "text": "사과가 싸요?",
     "utterances": [
       {
@@ -167987,7 +167987,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "00255882-098e-4c99-ad01-3af4d0fc04e4",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511909/soometa/37-I-listening/26_03.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-I-listening/26_03.mp3",
     "text": "3번 주말에 어디 갔어요?",
     "utterances": [
       {
@@ -168034,7 +168034,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "3aaada5b-5a36-4892-bbee-709cbca39ee1",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511909/soometa/37-I-listening/26_04.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-I-listening/26_04.mp3",
     "text": "4번 무슨 운동을 배우고 있어요?",
     "utterances": [
       {
@@ -168088,7 +168088,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "ccaa079d-7580-4807-8596-806531ba4f0d",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511909/soometa/37-I-listening/26_05.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-I-listening/26_05.mp3",
     "text": "다음에 또 오세요.",
     "utterances": [
       {
@@ -168128,7 +168128,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "149205de-0c45-4338-85af-0e0d7a10702d",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511909/soometa/37-I-listening/26_06.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-I-listening/26_06.mp3",
     "text": "여보세요. 거기 김수미 씨 집이지요?",
     "utterances": [
       {
@@ -168182,7 +168182,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "488e48fe-a513-4e6c-8185-1e4dade512c8",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511909/soometa/37-I-listening/26_07.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-I-listening/26_07.mp3",
     "text": "7번 며칠 동안. 주무실 거예요? 11월 5일부터 7일까지요. 다시 들으십시오. 며칠 동안. 주무실 거예요? 11월 5일부터 7일까지요.",
     "utterances": [
       {
@@ -168374,7 +168374,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "13fb098a-c321-4671-9988-ab5206c78c63",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511909/soometa/37-I-listening/26_08.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-I-listening/26_08.mp3",
     "text": "8번. 한국의. 옛날 그림은. 몇 층에 있어요? 2층에서 보실. 수 있습니다. 다시 들으십시오. 한국의. 옛날 그림은. 몇 층에 있어요? 2층에서 보실. 수 있습니다.",
     "utterances": [
       {
@@ -168644,7 +168644,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "dafd86c2-e510-479d-a05f-7075326a9973",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511909/soometa/37-I-listening/26_09.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-I-listening/26_09.mp3",
     "text": "어디가 안 좋으세요? 어제부터 머리가 아프고. 열도 많이. 나요. 다시 들으십시오. 어디가 안 좋으세요? 어제부터 머리가 아프고. 열도 많이 나요.",
     "utterances": [
       {
@@ -168848,7 +168848,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "77b73b5e-5b2d-4969-89d9-d4e4c3a46ee9",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511909/soometa/37-I-listening/26_10.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-I-listening/26_10.mp3",
     "text": "2시간. 전에 도착했는데. 제 가방이. 아직 안. 나왔어요. 그래요? 비행기표. 좀 보여주세요. 다시 들으십시오. 2시간 전에 도착했는데. 제 가방이. 아직 안. 나왔어요. 그래요? 비행기표. 좀 보여주세요.",
     "utterances": [
       {
@@ -169184,7 +169184,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "cbda1acb-d0fe-495f-b92a-2378e0e724ef",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511909/soometa/37-I-listening/26_11.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-I-listening/26_11.mp3",
     "text": "11번. 점심 드셨어요? 네, 김밥 먹었어요. 다시 들으십시오. 점심 드셨어요? 네, 김밥 먹었어요.",
     "utterances": [
       {
@@ -169330,7 +169330,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "0cb39351-acfd-4471-9359-a38dc9467e25",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511909/soometa/37-I-listening/26_12.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-I-listening/26_12.mp3",
     "text": "12번 이번 생일에. 뭘 받고 싶어요? 컴퓨터를 받고 싶어요. 다시 들으십시오. 이번 생일에. 뭘 받고 싶어요? 컴퓨터를 받고 싶어요.",
     "utterances": [
       {
@@ -169536,7 +169536,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "f7a06ded-beda-42e6-8920-8b459f099050",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511909/soometa/37-I-listening/26_13.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-I-listening/26_13.mp3",
     "text": "13번 지금 비가 와요? 네, 많이 와요. 그리고 좀 추워요. 다시 들으십시오. 지금 비가 와요? 네, 많이 와요. 그리고 좀 추워요.",
     "utterances": [
       {
@@ -169729,7 +169729,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "7026a9c7-5f5e-4a30-82a5-7b9e76f24536",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511909/soometa/37-I-listening/26_14.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-I-listening/26_14.mp3",
     "text": "14번 여기서 서울역까지. 가는 버스가. 있어요? 한 번에 가는. 버스는 없으니까. 지하철을 타고 가세요. 다시 들으십시오. 여기서 서울역까지. 가는 버스가. 있어요? 한 번에 가는. 버스는 없으니까. 지하철을 타고 가세요.",
     "utterances": [
       {
@@ -170050,7 +170050,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "f580db2c-c481-4c3e-a30f-97e1fdc0f7d8",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511909/soometa/37-I-listening/26_15.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-I-listening/26_15.mp3",
     "text": "15번 이 식당은. 뭐가 맛있어요? 이거 한번 드셔보세요. 여기 오면 저는 항상 이걸 먹어요. 다시 들으십시오. 이 식당은. 뭐가 맛있어요? 이거 한번 드셔보세요. 여기 오면 저는 항상 이걸 먹어요.",
     "utterances": [
       {
@@ -170326,7 +170326,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "5709d852-cf1c-4c51-b8cd-c6b04a4ab458",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511909/soometa/37-I-listening/26_16.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-I-listening/26_16.mp3",
     "text": "16번. 안경을. 쓰고 거울 한번 보세요. 어떠세요? 좋아요. 아주 마음에 들어요. 다시 들으십시오. 안경을. 쓰고 거울 한번 보세요. 어떠세요? 좋아요 아주 마음에 들어요.",
     "utterances": [
       {
@@ -170578,7 +170578,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "45987272-518a-49c8-8700-d059cba9eedd",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511909/soometa/37-I-listening/26_17.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-I-listening/26_17.mp3",
     "text": "민수. 씨, 미안해요. 지난번에 빌린 책을 오늘 못 가져왔어요. 그래요? 내일은 가져다 줄 수 있어요? 네, 그렇게 할게요. 다시 들으십시오. 민수 씨, 미안해요. 지난번에 빌린 책을 오늘 못 가져왔어요. 그래요? 내일은 가져다 줄 수 있어요? 네, 그렇게 할게요.",
     "utterances": [
       {
@@ -170926,7 +170926,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "92a27e56-22df-49ee-bf86-dd203b233006",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511909/soometa/37-I-listening/26_18.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-I-listening/26_18.mp3",
     "text": "우리 아이가 탈 자전거 좀 보여주세요. 이 노란색 자전거가 예쁘네요. 이걸로 주세요. 아, 근데 의자가 우리 아이한테 너무 높진 않겠죠? 그럼요. 이 아이 정도면 탈 때 불편하진 않을 거예요. 다시 들으십시오. 18번 우리 아이가 탈 자전거 좀 보여주세요. 이 아이가 탈 거예요? 이쪽에서 골라보세요. 이 노란색 자전거가 예쁘네요. 이걸로 주세요. 아, 근데 의자가 우리 아이한테 너무 높진 않겠죠? 그럼요. 이 아이 정도면 탈 때 불편하진 않을 거예요.",
     "utterances": [
       {
@@ -171459,7 +171459,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "10c3a248-c421-4ce9-8808-14d56c4531e9",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511909/soometa/37-I-listening/26_19.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-I-listening/26_19.mp3",
     "text": "이. 물건들 버리시는 거예요? 네, 제가 외국으로 이사를 가서요. 아직 쓸 수 있는 물건이 많은데 제가 가져가도 돼요? 네, 필요하시면 가져가세요. 다시 들으십시오. 이 물건들 버리시는 거예요? 네. 제가 외국으로 이사를 가서요. 아직 쓸 수 있는 물건이 많은데 제가 가져가도 돼요? 네, 필요하시면 가져가세요.",
     "utterances": [
       {
@@ -171858,7 +171858,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "6944212a-7afb-46c7-b4aa-5f2aaf109ab6",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511909/soometa/37-I-listening/26_20.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-I-listening/26_20.mp3",
     "text": "부산까지 가려고 하는데요. 기차가 몇 시에 있어요? 네, 손님. 잠시만요. 한 시간 후에 있어요. 저는 혼자라서 서서 가도 괜찮은데 더 빨리 갈 수 없을까요? 아, 그러면 20분 후에 출발하는 기차가 있어요. 다시 들으십시오. 부산까지 가려고 하는데요. 기차가 몇 시에 있어요? 네, 손님. 잠시만요. 한 시간 후에 있어요. 저는 혼자라서 서서 가도 괜찮은데 더 빨리 갈 수 없을까요? 아, 그러면 20분 후에 출발하는 기차가 있어요.",
     "utterances": [
       {
@@ -172388,7 +172388,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "05ffc3fc-6d39-465c-aaa4-11431cf99072",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511909/soometa/37-I-listening/26_21.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-I-listening/26_21.mp3",
     "text": "여보세요? 여기 305호인데요. 아이들이 잘 침대가 필요해요. 아, 네. 만 원을 더 내셔야 하는데 괜찮으시겠어요? 괜찮아요. 그런데 침대 두 개를 빌릴 수 있어요? 아이가 둘이라서요. 죄송합니다, 손님. 침대는 한 방에 하나만 더 들어갈 수 있습니다. 다시 들으십시오. 여보세요? 여기 305호인데요. 아이들이 잘 침대가 필요해요. 아, 네. 만 원을 더 내셔야 하는데 괜찮으시겠어요? 괜찮아요. 그런데 침대 두 개를 빌릴 수 있어요? 아이가 둘이라서요. 죄송합니다, 손님. 침대는 한 방에 하나만 더 들어갈 수 있습니다.",
     "utterances": [
       {
@@ -172983,7 +172983,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "f6c481c8-75a5-46fd-b645-be07ed67e914",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511909/soometa/37-I-listening/26_22.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-I-listening/26_22.mp3",
     "text": "민수. 씨, 어제 축구 경기 봤어요? 네, 저는 친구들하고 재미있게 봤어요. 우리 팀이 이겨서 더 좋았죠. 수미 씨도 봤어요? 저도 봤어요. 우리 선수 한 명이 다쳐서 걱정했는데 이겨서 다행이었어요. 다음 경기도 이기면 좋겠네요. 그럴 수 있겠죠? 그럴 수 있을까요? 다음 상대 팀이 너무 잘해서요. 다시 들으십시오. 민수 씨, 어제 축구 경기 봤어요? 네, 저는 친구들하고 재미있게 봤어요. 우리 팀이 이겨서 더 좋았죠. 수미 씨도 봤어요? 저도 봤어요. 우리 선수 한 명이 다쳐서 걱정했는데 이겨서 다행이었어요. 다음 경기도 이기면 좋겠네요. 그럴 수 있겠죠? 그럴 수 있을까요? 다음 상대 팀이 너무 잘해서요.",
     "utterances": [
       {
@@ -173704,7 +173704,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "72cbfce6-4cc7-4569-bdd5-026fc0c87d49",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511909/soometa/37-I-listening/26_23.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-I-listening/26_23.mp3",
     "text": "23번. 우리 이제 그만 구경하고 가요. 오랜만에 여행 왔는데. 벌써 가요? 자주 오기도 어려운데 미술관만. 더 보고 가요. 오늘은 많이 봤으니까 미술관은 내일 봐요. 저는 좀 쉬었으면 좋겠어요. 그래도 조금만. 더 보고 가면. 안 될까요? 다시 들으십시오. 우리 이제 그만 구경하고 가요. 오랜만에 여행 왔는데. 벌써 가요? 자주 오기도 어려운데 미술관만. 더 보고 가요. 오늘은 많이 봤으니까 미술관은 내일 봐요. 저는 좀 쉬었으면 좋겠어요. 그래도 조금만. 더 보고 가면 안 될까요?",
     "utterances": [
       {
@@ -174373,7 +174373,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "01321568-351c-48ae-adc3-86b4f30f81cf",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511909/soometa/37-I-listening/26_24.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-I-listening/26_24.mp3",
     "text": "24번. 오늘 몇 시쯤 물건을 받을 수 있을까요? 지금은 몇 시에 갈 수 있을지 잘 모르겠어요. 아, 그래요? 죄송합니다. 요즘 배달할 물건이 많아서 도착 시간을 말씀드리기 좀 어렵네요. 다시 들으십시오. 오늘 몇 시쯤 물건을 받을 수 있을까요? 지금은 몇 시에 갈 수 있을지 잘 모르겠어요. 아, 그래요? 그런데 앞으로는 오는 시간을 미리 알려주면 좋겠어요. 죄송합니다. 요즘 배달할 물건이 많아서 도착 시간을 말씀드리기 좀 어렵네요.",
     "utterances": [
       {
@@ -174912,7 +174912,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "2aac9ffe-8c26-4b06-81b8-86f58ad75bd7",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511909/soometa/37-I-listening/26_25-26.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-I-listening/26_25-26.mp3",
     "text": "여러분. 이쪽으로 오세요. 지금 보시는 이것은 옛날 신발인데요. 옛날 사람들은 비가 올 때 이 신발을 신었습니다. 신발의 앞과 뒤가 바닥보다 높아서 비가 올 때도 발이 물에 젖지 않고요. 또 가벼운 나무로 만들었기 때문에 신었을 때 불편하지 않습니다. 남자 신발과 여자 신발은 모양이 좀 다른데요. 여자 신발은 꽃 그림을 그려서 예쁘게 만들었습니다. 다 보셨으면 옆으로 가실까요? 다시 들으십시오. 여러분, 이쪽으로 오세요. 지금 보시는 이것은 옛날 신발인데요. 옛날 사람들은 비가 올 때 이 신발을 신었습니다. 신발의 앞과 뒤가 바닥보다 높아서 비가 올 때도 발이 물에 젖지 않고요 또 가벼운 나무로 만들었기 때문에 신었을 때 불편하지 않습니다 남자 신발과 여자 신발은 모양이 좀 다른데요 여자 신발은 꽃 그림을 그려서 예쁘게 만들었습니다. 다 보셨으면 옆으로 가실까요?",
     "utterances": [
       {
@@ -175742,7 +175742,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "e09f5dce-e7f1-4118-a198-0b6c445cddd5",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511909/soometa/37-I-listening/26_27-28.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-I-listening/26_27-28.mp3",
     "text": "요즘 퇴근 후에 뭐 해요? 매일 일찍 나가는 것 같아요. 아, 집 근처 가구 만드는 곳에 가서 책상을 만들고 있어요. 책상이요? 책상을 사지 않고 만들어요? 네, 좀 큰 책상을 갖고 싶어서 시작했는데 아주 재미있어요. 그래서 다음에는 식탁도 만들어 보려고요. 그런 걸 할 줄 알아요? 나는 작은 상자도 못 만드는데. 가구 만드는 곳에 가면 다 가르쳐줘요. 하고 싶으면 같이 가요. 다시 들으십시오. 요즘 퇴근 후에 뭐 해요? 매일 일찍 나가는 것 같아요. 아, 집 근처 가구 만드는 곳에 가서 책상을 만들고 있어요. 책상이요? 책상을 사지 않고 만들어요? 네. 좀 큰 책상을 갖고 싶어서 시작했는데 아주 재미있어요. 그래서 다음에는 식탁도 만들어 보려고요. 가구 만드는 곳에 가면 다 가르쳐 줘요. 하고 싶으면 같이 가요.",
     "utterances": [
       {
@@ -176619,7 +176619,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "2bd315fd-381f-4317-bff2-092b05232c87",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511909/soometa/37-I-listening/26_29-30.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-I-listening/26_29-30.mp3",
     "text": "안녕하세요. 여기 행복마트인데요. 지난주에 주문한 그릇 때문에 전화 드렸습니다. 네, 연락하려고 했는데 주문한 그릇이 왜 이렇게 안 와요? 원하시는 색깔이 가게에 없어서 공장에 주문을 했는데요. 생각보다 늦어져서요. 죄송합니다. 그래요? 그럼 언제쯤 받을 수 있어요? 내일 보낼 거니까 모레쯤은 도착할 겁니다. 네, 알겠습니다. 다시 들으십시오. 안녕하세요. 여기 행복마트인데요. 지난주에 주문한 그릇 때문에 전화 드렸습니다. 네, 연락하려고 했는데 주문한 그릇이 왜 이렇게 안 와요? 원하시는 색깔이 가게에 없어서 공장에 주문을 했는데요. 생각보다 늦어져서요. 죄송합니다. 그래요? 그럼 언제쯤 받을 수 있어요? 내일 보낼 거니까 모레쯤은 도착할 겁니다. 네, 알겠습니다.",
     "utterances": [
       {
@@ -177339,7 +177339,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "30447b90-68d3-45dc-bc20-2cce9aa0bd14",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513634/soometa/37-II-listening/28_01.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-II-listening/28_01.mp3",
     "text": "어? 비밀번호 맞게 눌렀는데 왜 안 열리지? 정말 안 되네요. 고장 났나 봐요. 제가 가서 경비 아저씨 불러 올게요.",
     "utterances": [
       {
@@ -177518,7 +177518,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "8126f5a0-189c-4735-840d-526d0596d601",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513634/soometa/37-II-listening/28_02.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-II-listening/28_02.mp3",
     "text": "2번 정말 축하해요. 준비하느라 고생했죠? 이거 받으세요. 뭘, 이런 것까지 준비했어요. 바쁘신데 와줘서 고마워요. 와, 손님이 많네요. 가게도 꽤 크고요.",
     "utterances": [
       {
@@ -177695,7 +177695,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "8b298ec1-e387-4564-9f02-e6c31f1672a4",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513634/soometa/37-II-listening/28_03.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-II-listening/28_03.mp3",
     "text": "3번 30대 여성을 대상으로 화장품 구매 장소를 조사한 결과 화장품 전문 매장을 가장 많이 이용하는 것으로 나타났습니다. 그 다음으로는 백화점과 대형마트가 뒤를 이었는데 백화점 이용객은 지난해에 비해서 크게 줄어든 것으로 조사되었습니다.",
     "utterances": [
       {
@@ -177931,7 +177931,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "994a5502-5feb-46c9-94e0-d0206a1f591d",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513634/soometa/37-II-listening/28_04.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-II-listening/28_04.mp3",
     "text": "4번 소설가 박인수 씨가 오늘 강연하러 학교에 온대. 그래? 몇 시 시작인데? 난 3시까지 수업에 있어서.",
     "utterances": [
       {
@@ -178071,7 +178071,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "edce450a-6bcb-499d-b047-6585c6fa13ff",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513634/soometa/37-II-listening/28_05.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-II-listening/28_05.mp3",
     "text": "수진 씨, 다음 주부터 봉사활동 간다면서요? 네. 꼭 해보고 싶었던 일이라 휴가를 냈어요.",
     "utterances": [
       {
@@ -178190,7 +178190,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "91a6e56c-918c-4766-9459-1907f5675eee",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513634/soometa/37-II-listening/28_06.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-II-listening/28_06.mp3",
     "text": "이거 교환기간이 지났는데 바꿀 수 있을까? 한 번도 안 입었으니까 한 번 물어봐.",
     "utterances": [
       {
@@ -178300,7 +178300,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "0141b84b-235c-4976-b1f7-a01940a83fff",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513634/soometa/37-II-listening/28_07.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-II-listening/28_07.mp3",
     "text": "수민 씨, 요즘도 아침 식사를 배달해 먹어요? 한 달쯤 됐는데요. 아침에 여유가 있어서 좋은 것 같아요.",
     "utterances": [
       {
@@ -178431,7 +178431,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "f4e5262b-b39a-4fdd-9233-0dddca4f8c73",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513634/soometa/37-II-listening/28_08.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-II-listening/28_08.mp3",
     "text": "다음. 달에 열리는 전시회 기획안입니다. 검토 좀 부탁드리겠습니다. 수고했어요, 지영 씨. 그런데 전시회 초대 손님 명단은 다 정리되어 가나요?",
     "utterances": [
       {
@@ -178601,7 +178601,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "a313c851-6d00-45db-93c1-7a1a778b95f0",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513634/soometa/37-II-listening/28_09.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-II-listening/28_09.mp3",
     "text": "너. 영어 잘하지? 번역 과제가 있는데 제대로 했는지 확인해 줄 수 있어? 음... 일단 메일로 보내봐. 그런데 언제까지 해야 되는데? 과제 제출이 다음 주 월요일이니까 토요일까지 보내줘. 알았어. 그럼, 매일 확인하고 전화할게.",
     "utterances": [
       {
@@ -178880,7 +178880,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "64887182-f434-4810-a1bb-2316c9bfaef5",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513634/soometa/37-II-listening/28_10.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-II-listening/28_10.mp3",
     "text": "관리사무소지요? 아파트 관리비 고지서를 아직 못 받아서요. 아, 그렇습니까? 혹시 우편함은 확인하셨나요? 어제 넣어드렸는데요. 봤는데 없더라고요. 지금 관리사무소에 가면 받을 수 있나요? 네, 오시면 바로 재발급해 드리겠습니다.",
     "utterances": [
       {
@@ -179124,7 +179124,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "cb26f7b0-8425-4458-a653-96d1cc225380",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513634/soometa/37-II-listening/28_11.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-II-listening/28_11.mp3",
     "text": "11번 민수 씨. 차가 좀 흔들리는 것 같아요. 그래요? 너무 빨라서 그런 거 아닐까요? 속도를 좀 줄여봐요. 마찬가지예요. 카센터에서 점검한 지 얼마 안 됐는데. 아무래도 세워야겠어요. 조금 더 가면 휴게소가 나올 거예요. 혹시 바퀴에 문제가 있는지 내려서 제가 확인해 볼게요.",
     "utterances": [
       {
@@ -179459,7 +179459,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "ad9ea609-f7c6-4d14-a343-90290fe816a8",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513634/soometa/37-II-listening/28_12.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-II-listening/28_12.mp3",
     "text": "12번 김 실장님, 신제품 설명회 준비는 잘 돼가요? 네, 그런데 설명회 자료가 아직 도착 안 했어요. 안내를 도와줄 사람도 좀 부족하고요. 그럼 자료 제작 회사에 전화 한번 해보세요. 저는 도와줄 아르바이트 학생을 구할 수 있는지 알아볼게요. 네, 그래요. 그럼 이따가 다시 봐요.",
     "utterances": [
       {
@@ -179799,7 +179799,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "dd792462-7921-4e8d-94a9-4d63d8daa372",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513634/soometa/37-II-listening/28_13.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-II-listening/28_13.mp3",
     "text": "13번. 민수야, 미안한데 도서관에서 책 좀 빌려줄래? 어제 학생증을 잃어버렸어. 도서관에 가면 도서관 출입증을 만들어 주던데. 도서관 출입증? 사진이 없는데? 사진이 없어도 만들어줘? 도서관에서 사진을 찍어줄 거야. 그 사진으로 만들면 돼.",
     "utterances": [
       {
@@ -180071,7 +180071,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "c8da300d-2088-4f36-92b8-bd9725261b0d",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513634/soometa/37-II-listening/28_14.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-II-listening/28_14.mp3",
     "text": "14번 총무과에서 안내 말씀 드리겠습니다. 오늘 오후 2시부터 소방시설 점검을 실시할 예정입니다. 점검 중에 비상경보벨이 작동될 수 있습니다. 그리고 엘리베이터를 사용할 수 없으니 계단을 이용해 주시기 바랍니다. 조금 불편하시더라도 양해해 주시면 감사하겠습니다.",
     "utterances": [
       {
@@ -180314,7 +180314,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "68891f48-75e1-46ef-9b6e-fe20566cce6b",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513634/soometa/37-II-listening/28_15.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-II-listening/28_15.mp3",
     "text": "15번 다음은 알뜰 경제 소식입니다. 자주 고장나는 복사기 때문에 불편한 사무실이 많죠? 최근 복사기를 1년 이상 빌려주는 서비스가 화제입니다. 복사기 관리비는 물론 수리비도 복사기 회사에서 부담하는데요. 빌려 쓰면 복사기를 사는 것에 비해서 연 100만원 정도 절약된다고 합니다. 이런 장점 때문에 복사기를 빌려 쓰는 사무실이 늘어날 것으로 보입니다.",
     "utterances": [
       {
@@ -180662,7 +180662,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "8291d8b9-9817-4866-85b9-b31494c0505a",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513634/soometa/37-II-listening/28_16.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-II-listening/28_16.mp3",
     "text": "16번. 시장님, 시청연수원을 시민을 위한 문화공간으로 바꾸는 공사가 진행 중인 것으로 아는데요. 소개 좀 부탁드립니다. 네, 시청연수원은 시설이 낡아서 몇 년간 비워두었던 곳입니다. 그래서 재건축을 계획하면서 시민들의 생각을 알아봤더니 문화공간으로 사용하자는 의견이 많았습니다. 앞으로 이곳은 공연장이나 행사장으로 활용할 계획입니다. 다음 달이면 우리 시에도 새로운 문화공간이 탄생하는 것이죠.",
     "utterances": [
       {
@@ -181028,7 +181028,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "8aaf07ff-2732-4de5-9ec2-af6aaaffb24a",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513634/soometa/37-II-listening/28_17.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-II-listening/28_17.mp3",
     "text": "17번 수미 씨, 왜 회사 동호회에 가입 안 해요? 저는 따로 활동하는 동호회가 있어요. 그래서 회사 동호회는 가입 안 하려고요. 개인 생활까지 알게 되면 좀 불편할 것 같아서요. 취미 생활을 같이 하면 회사 사람들이랑 빨리 친해질 수 있어요. 필요할 때 조언도 구할 수 있고요.",
     "utterances": [
       {
@@ -181373,7 +181373,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "571e72dc-f22e-421c-a6d1-b4c7bbce66c8",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513634/soometa/37-II-listening/28_18.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-II-listening/28_18.mp3",
     "text": "이건. 지금까지 발행된 올림픽 기념 우표인가 봐요. 네, 정말 멋있네요. 올림픽의 역사를 보여주는. 것 같아요. 사실 기념 우표를 왜 발행하는지 잘 이해가 안 됐어요. 그런데 전시회에 와 보니까 의미를 알겠어요. 특히 역사적인 가치가 큰 것 같아요.",
     "utterances": [
       {
@@ -181689,7 +181689,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "d2599a68-6457-4ee3-bc5a-7c99a2543615",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513634/soometa/37-II-listening/28_19.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-II-listening/28_19.mp3",
     "text": "19번 시청자들이 기대하는 것도 그런 거 아닐까? 그 말도 맞는데 시청자가 원하는 건 역사 공부가 아니라 재미야.",
     "utterances": [
       {
@@ -181827,7 +181827,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "f1c19545-d22c-4fc5-bb1a-31eb924812cb",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513634/soometa/37-II-listening/28_20.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-II-listening/28_20.mp3",
     "text": "단장님께서는 청소년을 위한 국악 공연을 하고 계시는데요. 특별히 청소년을 위한 공연을 하시는 이유가 있으신가요? 네. 요즘 청소년들은 국악을 지루하다고만 생각하는 것 같습니다. 그래서 청소년들이 국악을 쉽게 접하고 즐기게 하는 것이 필요한데요. 대중가요를 국악에 맞게 편곡해서 연주하거나 청소년들이 직접 전통악기를 연주할 수 있는 기회를 주는 것이죠. 이렇게 해서 국악에 대한 편견을 깨는 것이 중요한 것 같습니다. 그래서 앞으로도 청소년을 위한 공연은 계속할 생각입니다.",
     "utterances": [
       {
@@ -182280,7 +182280,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "d2ac6080-b105-4c1b-85d0-75e03aac1dba",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513634/soometa/37-II-listening/28_21-22.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-II-listening/28_21-22.mp3",
     "text": "예전에. 가입해 놓은 쇼핑몰에서 개인정보가 유출됐다고 연락이 왔는데 뭘 어떻게 해야 되는. 거야? 자주 이용하지도 않는데 가입하지 말 걸 그랬어. 개인정보를 더 철저하게 관리해야 하는 거 아니야? 요즘 사고가 얼마나 많은데. 개인정보 관리를 쇼핑몰에 다 맡길 수는 없지. 네가 비밀번호라도 자주 바꿨으면 이런 일이 없었을 거야.",
     "utterances": [
       {
@@ -182657,7 +182657,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "8f4c39db-43d3-4628-b670-385f939faa0e",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513634/soometa/37-II-listening/28_23-24.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-II-listening/28_23-24.mp3",
     "text": "구청이죠? 공원 앞에 있는 야외 무대를 사용하고 싶은데 어떻게 신청하나요? 네, 알고 있습니다. 자선단체에서 하는 나눔 행사입니다. 무대 행사는 잠깐 하고 주로 사람들에게 홍보물을 나눠줄 건데요. 그래요? 그런 목적이라면 신청 가능해요. 신청 양식은 구청 홈페이지에서 내려받으시면 됩니다. 행사 후에는 주변을 깨끗이 정리해 주셔야 합니다.",
     "utterances": [
       {
@@ -183011,7 +183011,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "b79ecce6-5f98-42b5-ade3-57a1ae89e2ab",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513634/soometa/37-II-listening/28_25-26.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-II-listening/28_25-26.mp3",
     "text": "선생님. 이 학교에는 자기 개발을 스스로 할 수 있는 프로그램이 있다고 들었는데요. 간단히 소개해 주시겠습니까? 네. 자기 개발 프로그램은 자기 주도적으로 이루어지는 게 중요한데, 우리 학교의 프로그램이 그렇습니다. 학생들은 학기 초에 하고 싶은 일을 정하고 그 중 하나를 골라 계획서를 제출합니다. 학교에선 중간에 진도만 확인해 주는데요. 학생들은 보고서를 쓰거나 관련 분야의 전문가를 만나 인터뷰를 하기도 합니다. 평가도 학기가 끝날 때쯤 스스로 하는데 결과에 만족 못했을 땐 다음 학기에 다시 도전할 수 있습니다.",
     "utterances": [
       {
@@ -183552,7 +183552,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "7af9f73d-f03c-44ec-a843-918cf7567fd7",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513634/soometa/37-II-listening/28_27-28.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-II-listening/28_27-28.mp3",
     "text": "또. 선거운동이야? 선거운동을 하는 건 좋은데 꼭 저렇게 시끄럽게 해야 돼? 요즘에는 조용한 선거 유세가 늘고 있다던데? 그러게. 조용히 악수를 청하는 후보자도 있고 손을 흔들며 인사하는 후보자도 있다는데 말이야. 소리가 크다고 홍보가 잘 되는 건 아닌데. 그건 모르지. 후보들이 각자 자기를 잘 알릴 수 있는 방법을 선택하는 거니까. 뭐가 좋고 뭐가 나쁘다고는 말할 수는 없는 것 같아. 네 말이 맞긴 한데, 저런 식의 선거 유세는 오히려 사람들한테 반값만 살걸?",
     "utterances": [
       {
@@ -184099,7 +184099,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "52cbb657-70ba-4c0a-87e9-234d579ce8da",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513634/soometa/37-II-listening/28_29-30.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-II-listening/28_29-30.mp3",
     "text": "문화재도 손상되면 수리가 필요할 텐데요. 어떤 부분에 초점을 두고 수리해야 할까요? 문화재를 수리한다고 하면 보통 뭔가 새로운 것으로 교체해야 한다고 생각합니다. 그런데 문화재 수리는 손상된 부분을 단순히 교체하는 것이 아니라 원형을 훼손시키지 않는 범위에서 재창조하는 것을 의미합니다. 이때 중요한 것은 문화재에 담긴 고유한 표현 의도를 벗어나서는 안 된다는 것이죠. 그래서 저는 그러한 의도가 제대로 드러날 때까지 반복 작업을 수없이 되풀이하곤 합니다. 그런데 무엇보다 중요한 건 귀중한 문화재가 손상되지 않게 잘 관리하고 보존하는 것입니다.",
     "utterances": [
       {
@@ -184629,7 +184629,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "ead23fc9-4d94-4c8d-8363-1879959b3bc8",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513634/soometa/37-II-listening/28_31-32.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-II-listening/28_31-32.mp3",
     "text": "31번 네. 물론 시간제 일자리를. 늘리는 게 당장은 효과가 있겠지만, 근본적인 문제를 해결하기는 어렵다고 봅니다. 오히려 더 큰 문제를 가져올 수도 있고요. 어떤 문제가 생길 수 있는지 구체적으로 말씀해 주시겠습니까? 시간제 일자리를 늘리면 그만큼 신규 채용의 폭은 줄어들 수밖에 없습니다. 그렇게 되면 정규직을 원하는 사람들에겐 오히려 취업문이 좁아져 실험 문제가 더 심각해질 수도 있습니다.",
     "utterances": [
       {
@@ -185062,7 +185062,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "f512539c-af2c-4199-8f00-e594195c4775",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513634/soometa/37-II-listening/28_33-34.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-II-listening/28_33-34.mp3",
     "text": "33번 여러분 물이 끓는 과정을 한번 생각해 볼까요 물은 끓기 전까지는 변화가 없죠 99도까지는 에너지를 품고 있다가 99도에서 100도가 되는 순간에 에너지를 내며 끓기 시작합니다 바로 그 순간이 없다면 변화는 기대하기 힘들게 되는 거죠. 우리의 인생도 마찬가지 아닐까요? 저와 여러분의 인생은 성공과 실패의 가능성을 모두 가지고 있습니다. 하지만 변화가 일어날 수 있는 마지막 그 순간에 결정적인 힘을 발휘하는 사람은 성공을 그렇지 못한 사람은 실패를 맛보게 되는 거죠 여러분 1%의 힘을 발휘하는 연습을 해보십시오 성공은 여러분의 것입니다.",
     "utterances": [
       {
@@ -185613,7 +185613,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "7635dbcf-6b8f-4b65-b0df-cb1d50c6578d",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513634/soometa/37-II-listening/28_35-36.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-II-listening/28_35-36.mp3",
     "text": "35번 우리 기업과 이 방송 프로그램이 인연을 맺은 지 벌써 40년이 되었군요. 40년 전 이 방송 프로그램의 제작 비용을 전액 후원하게 된 것은 인재 양성이라는 기업의 신념을 실천하기 위해서 였습니다. 광고를 통한 기업의 홍보 효과보다 인재를 후원하는 것이 더 필요하다고 판단했기 때문입니다. 특히 이 후원 활동은 우리 기업의 첫 사회 공헌 활동이었다는 점에서도 의미가 깊다고 생각합니다. 앞으로도 지원을 아끼지 않겠습니다.",
     "utterances": [
       {
@@ -186052,7 +186052,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "c44324ca-6076-49d1-ad53-63d1c76b62b4",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513634/soometa/37-II-listening/28_37-38.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-II-listening/28_37-38.mp3",
     "text": "37번 오늘은 한영수 박사님을 모시고 빗물연구소에서 어떤 일을 하는지 이야기를 들어보겠습니다. 박사님 시작해 주시죠. 바로 빗물을 깨끗한 물로 만드는 일이죠 빗물은 저장할 공간과 정화시설만 갖추면 소중한 자원이 됩니다 정화된 빗물은 식수나 생활용수로 다양하게 사용되고 있습니다 의미 없이 버려졌던 빗물이 우리 생활에서 없어서는 안 될 중요한 존재가 된 거죠.",
     "utterances": [
       {
@@ -186416,7 +186416,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "8849af86-8ff3-4f0e-ba5b-a677ef6c4475",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513634/soometa/37-II-listening/28_39-40.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-II-listening/28_39-40.mp3",
     "text": "39번 예술가 김수미에서 예술감독 김수미로 정말 활약이 대단하신데요. 그런데 앞에서 이야기하신 것처럼 계속 사양하시다가 왜 갑자기 생각을. 바꾸신 건가요? 그동안 예술가로서 살았던 삶이 참 행복했습니다. 그런데 되돌아보니 저는 도움을 받기만 했더라고요. 저도 이제 다른 사람에게 뭔가 해줘야 할 시점이 아닐까 하는 생각이 들었습니다. 그래서 개인활동을 그만 접고 예술감독을 하기로 한 거죠. 첫 임무로 전용극장 설립을 추진하고 있는데요. 제가 행정일이 처음이라 아직 어려움이 있지만 단원들과 한 첫 번째 약속인 만큼 꼭 완성된 전용극장의 모습을 보여드리겠습니다.",
     "utterances": [
       {
@@ -186962,7 +186962,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "3358545d-9e89-43aa-914a-740a53af7e9a",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513634/soometa/37-II-listening/28_41-42.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-II-listening/28_41-42.mp3",
     "text": "41번 한 나라의 경제 발전에 영향을 미치는 것에는 여러 가지가 있는데요. 오늘은 이에 대해 알아보도록 하겠습니다. 1인당 국민소득도 비슷하고 경제 구조도 비슷했던 두 나라 중 한 나라는 경제 강국이 됐지만 다른 나라는 그렇지 못했습니다. 두 나라 모두 경제발전을 위해 유사한 정책을 폈는데도 말이죠. 어떻게 이런 결과가 나온 것일까요? 그것은 바로 두 나라의 문화가치가 달랐기 때문입니다. 경제성장을 이룩한 나라는 검약, 근면, 교육, 성실 등을 중요한 가치로 여겼는데 이러한 가치들이 기업 운영과 자본 축적의 밑바탕이 된 것이죠. 이러한 사례를 통해서 우리는 그 사회 가치가 경제 발전에 지대한 영향을 미친다는 것을 알 수 있습니다. 41번.",
     "utterances": [
       {
@@ -187625,7 +187625,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "b3a51d43-3ab8-4825-a721-3f5511c8b367",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513634/soometa/37-II-listening/28_43-44.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-II-listening/28_43-44.mp3",
     "text": "43번 이곳은 남과 북이 대치하고 있는 비무장 지대입니다. 한국전쟁 때 가장 치열한 전투를 벌였던 곳으로 당시엔 거의 모든 것이 초토화됐었습니다. 자연 생태계가 스스로 회복해 생명 지대로 바뀌었습니다. 환경부의 조사 결과 이곳에는 멸종위기 동식물 30종을 포함한 다양한 야생종이 서식하고 있는 것으로 확인되었습니다. 그런데 최근 이곳을 세계평화공원으로 조성하자는 제안이 나오면서 이곳이 평화를 외치는 사람들의 관심 대상이 되었습니다. 공원 조성을 통해 비무장지대가 화해와 신뢰의 장소가 되기를 기대하고 있습니다.",
     "utterances": [
       {
@@ -188099,7 +188099,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "9c4dbd0b-c41c-492c-8853-9244ab46f20d",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513634/soometa/37-II-listening/28_45-46.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-II-listening/28_45-46.mp3",
     "text": "45번 여러분은 다양한 복지 혜택을 원하시죠? 복지 제도 운영을 위해서는 재원이 필요한데요. 국가는 그 재원을 어떻게 마련할까요? 맞습니다. 세금입니다. 국민이 낸 세금으로 국가는 의료, 교육 등의 정책을 시행합니다. 조사 결과에 따르면 과반수의 응답자들이 경제성장 보다 복지를 원한다고 대답했습니다. 그러나 세금을 높이는 것에 반대 한다는 응답도 많았습니다. 복지정책의 시행을 위해 재원이 필요하다는 것에는 동의하지만 그 비용을 자신이 부담하는 것은 싫어하는 이중적인 심리를 보여주는 것이지요. 납세에 대한 의무가 충실하게 지켜지지 않는 한 복지정책의 실현은 어렵습니다.",
     "utterances": [
       {
@@ -188629,7 +188629,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "6d5cdb0b-4768-4786-9dd2-68dc4c4e62af",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513634/soometa/37-II-listening/28_47-48.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-II-listening/28_47-48.mp3",
     "text": "47번 장애를 딛고 평생을 장애인의 권익을 위해 살아오신 황현대 선생님을 모시고 말씀 나눠보겠습니다. 이번 장애인 올림픽에서도 선생님의 이름을 딴 황현대상이 시상되었는데요. 먼저 여기에 대해 간단하게. 말씀해 주시죠. 벌써 20년이 되었는데요. 제 이름을 딴 상을 시상하는 게 아직도 익숙하지 않습니다. 제가 거창한 일을 했다고 생각하지는 않고요. 다만 우리 장인 스스로 한 사람의 당당한 사회 구성원으로 제 몫을 다하기를 바랐을 뿐입니다. 이 상은 장애를 극복하려는 의지를 가장 잘 보여준 선수에게 주고 있는데요. 고맙게도 지금까지는 수상자들이 제 기대 이상으로 사회에서 당당하게 자리를 잡았습니다. 그 점을 항상 고맙게 생각합니다.",
     "utterances": [
       {
@@ -189252,7 +189252,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "2480f34f-5960-4f6c-a279-c14c4d26d125",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513634/soometa/37-II-listening/28_49-50.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/37-II-listening/28_49-50.mp3",
     "text": "49번 여기 모이신 분들은 전통 건축물에 관심이 많으신 걸로 아는데요. 여러분이 생각하는 한국 건축의 아름다움은 무엇입니까? 저는 자연과의 동화라고 생각합니다. 지금 보여드리는 사진은 불국사의 석축입니다. 불국사 건축에는 신라 최고의 기술력이 동원됐는데요. 저는 불국사 건축의 백미를 이 석축에서 찾았습니다. 석축은 말 그대로 돌로 쌓은 벽인데요. 이 석축을 고르게 쌓으려면 울퉁불퉁한 자연석을 반듯하게 가공해야 합니다. 그런데 사진을 자세히 보시면 자연석을 가공하지 않고 대신 그 위에 올린 장대석을 자연석에 맞춰 다듬은 것을 알 수 있습니다. 이런 공법은 다른 나라에서는 찾아볼 수 없는 한국 건축만의 특징입니다. 자연을 거스르지 않고 동화되리는 모습, 이것이 제가 생각하는 한국 건축의 아름다움입니다.",
     "utterances": [
       {
@@ -189922,7 +189922,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "80704a83-190d-47f1-8a12-841ed9738277",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511999/soometa/36-I-listening/30_01.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-I-listening/30_01.mp3",
     "text": "1번 공책이에요?",
     "utterances": [
       {
@@ -189955,7 +189955,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "26673bc3-3d0e-4083-8b1c-f61e76e3d9b2",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511999/soometa/36-I-listening/30_02.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-I-listening/30_02.mp3",
     "text": "숙제가 많아요?",
     "utterances": [
       {
@@ -189988,7 +189988,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "409a481e-f704-4d43-9c78-3da5ab73f7fc",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511999/soometa/36-I-listening/30_03.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-I-listening/30_03.mp3",
     "text": "3번. 뭐 살 거예요?",
     "utterances": [
       {
@@ -190035,7 +190035,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "f921cc65-3bcb-4269-a0dd-373d61895e53",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511999/soometa/36-I-listening/30_04.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-I-listening/30_04.mp3",
     "text": "4번. 이 회사에서 얼마나 일했어요?",
     "utterances": [
       {
@@ -190089,7 +190089,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "59a09802-c493-49fa-a074-e13bd4a3acb4",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511999/soometa/36-I-listening/30_05.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-I-listening/30_05.mp3",
     "text": "처음 뵙겠습니다.",
     "utterances": [
       {
@@ -190122,7 +190122,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "f12bbb13-ba09-4669-a65b-2bbfaceea51a",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511999/soometa/36-I-listening/30_06.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-I-listening/30_06.mp3",
     "text": "저 주말에 부산으로 여행 가요.",
     "utterances": [
       {
@@ -190176,7 +190176,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "808f6a15-6c1d-4be5-83c7-846b607b1179",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511999/soometa/36-I-listening/30_07.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-I-listening/30_07.mp3",
     "text": "7번. 어서 오세요, 손님. 뭐 찾으세요? 운동화. 있어요? 다시 들으십시오. 어서 오세요, 손님. 뭐 찾으세요? 운동화. 있어요?",
     "utterances": [
       {
@@ -190359,7 +190359,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "3051e5bc-ab63-44b4-9452-58d51af1ecf2",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511999/soometa/36-I-listening/30_08.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-I-listening/30_08.mp3",
     "text": "죄송합니다. 5시 영화표는 없습니다. 다시 들으십시오. 죄송합니다. 5시 표는 없습니다.",
     "utterances": [
       {
@@ -190457,7 +190457,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "f0d245e5-0905-449a-8bb5-825b8c20e6d3",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511999/soometa/36-I-listening/30_09.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-I-listening/30_09.mp3",
     "text": "지금. 편지를. 보내면 내일까지. 도착할 수 있을까요? 네, 내일까지는 도착합니다. 다시 들으십시오. 지금 편지를. 보내면 내일까지. 도착할 수 있을까요? 네, 내일까지는 도착합니다.",
     "utterances": [
       {
@@ -190702,7 +190702,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "078c52de-b6f2-441c-b6c3-0cbec29e5f87",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511999/soometa/36-I-listening/30_10.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-I-listening/30_10.mp3",
     "text": "10번 이 집은 딸기. 케이크가. 유명해요. 그래요? 그럼 우리도 그거 한번 먹어볼까요? 다시 들으십시오. 이 집은 딸기. 케이크가. 유명해요. 그래요? 우리도 그거 한번 먹어볼까요?",
     "utterances": [
       {
@@ -190925,7 +190925,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "03b9f375-807e-4cb7-8459-7dfd1b690f3b",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511999/soometa/36-I-listening/30_11.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-I-listening/30_11.mp3",
     "text": "11번 치마가 정말 예뻐요. 감사합니다. 어제 백화점에서 샀어요. 다시 들으십시오. 치마가 정말 예뻐요. 감사합니다. 어제 백화점에서. 샀어요.",
     "utterances": [
       {
@@ -191117,7 +191117,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "3ecc4409-3728-400e-a667-330085920027",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511999/soometa/36-I-listening/30_12.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-I-listening/30_12.mp3",
     "text": "12번. 저는 23살이에요. 그래요? 저도 23살이에요. 다시 들으십시오. 저는 23살이에요. 그래요? 저도 23살이에요.",
     "utterances": [
       {
@@ -191254,7 +191254,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "cd9c2066-e40f-443f-afcb-cce6ba2d1921",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511999/soometa/36-I-listening/30_13.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-I-listening/30_13.mp3",
     "text": "13번 이거 언제 찍은 거예요? 작년에. 제주도에서. 찍은 거예요. 다시 들으십시오. 이거 언제 찍은 거예요? 작년에. 제주도에서 찍은 거예요.",
     "utterances": [
       {
@@ -191451,7 +191451,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "5c009f52-9475-42c1-a419-ad120d021306",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511999/soometa/36-I-listening/30_14.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-I-listening/30_14.mp3",
     "text": "14번. 책상, 의자, 옷장, 방에. 필요한 것은. 거의 다 있네요? 네, 침대만 사면 될 거예요. 다시 들으십시오. 책상, 의자, 옷장, 방에. 필요한 것은 거의 다 있네요? 네. 침대만 사면 될 거예요.",
     "utterances": [
       {
@@ -191741,7 +191741,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "6dcf3185-5725-4ef4-b12c-7c10b77dad9e",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511999/soometa/36-I-listening/30_15.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-I-listening/30_15.mp3",
     "text": "15번 무거우시죠? 제가 도와드릴까요? 감사합니다. 문 좀 열어주시겠어요? 다시 들으십시오. 무거우시죠? 제가 도와드릴까요? 감사합니다. 문 좀 열어주시겠어요?",
     "utterances": [
       {
@@ -191915,7 +191915,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "3df6e2ac-4818-4c34-9b4a-411a59ce13a2",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511999/soometa/36-I-listening/30_16.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-I-listening/30_16.mp3",
     "text": "16번. 잠깐만요, 손님. 여기 전화기. 놓고 가셨어요. 어머, 그래요? 다시 들으십시오. 잠깐만요, 손님. 여기 전화기. 놓고 가셨어요. 어머, 그래요?",
     "utterances": [
       {
@@ -192139,7 +192139,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "650cbc7a-5b6f-4bd1-8e2c-2c93496a9b12",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511999/soometa/36-I-listening/30_17.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-I-listening/30_17.mp3",
     "text": "가을이 드니까 많이 시원해졌네요. 네. 근데 아침 저녁에는 좀 추워요. 저는 밤에 옷을 얇게 입어서 감기에 걸렸어요. 그래서 저는 밖에 나올 때 긴팔 옷을 한 벌 가지고 와요. 다시 들으십시오. 가을이 되니까 많이 시원해졌네요. 네. 근데 아침 저녁에는 좀 추워요. 저는 밤에 옷을 얇게 입어서 감기에 걸렸어요. 그래서 저는 밖에 나올 때 긴팔 옷을 한 벌 가지고 와요.",
     "utterances": [
       {
@@ -192564,7 +192564,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "f430c671-70de-4966-a427-a137ad12e0b6",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511999/soometa/36-I-listening/30_18.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-I-listening/30_18.mp3",
     "text": "수미 씨, 어제. 이메일 보냈는데. 받았어요? 아, 그래요? 바빠서 아직 못 봤어요. 무슨 일 있어요? 이번 주 모임 날짜가 금요일로 바뀌었는데. 시간 괜찮아요? 저는 금요일에 약속이 있는데 어떡하죠? 다음에는 꼭 갈게요. 다시 들으십시오. 수미 씨, 어제. 이메일 보냈는데. 받았어요? 아, 그래요? 바빠서 아직 못 봤어요. 무슨 일 있어요? 이번 주 모임 날짜가 금요일로 바뀌었는데. 시간 괜찮아요? 저는 금요일에 약속이 있는데 어떡하죠? 다음에는 꼭 갈게요.",
     "utterances": [
       {
@@ -193148,7 +193148,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "4ca52758-7e69-49d2-8696-19cc02b614e0",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511999/soometa/36-I-listening/30_19.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-I-listening/30_19.mp3",
     "text": "안녕하세요. 수영을 좀 배우려고 하는데요. 아, 네. 그러시면 여기 신청서부터 먼저 써주세요. 아침에 회사 가기 전에 운동하고 싶은데 몇 시에 문 열어요? 저희는 매일 아침 6시에 시작하니까 다시. 들으십시오. 안녕하세요. 수영을 좀 배우려고 하는데요. 아, 네. 그러시면 여기 신청서부터 먼저 써주세요. 아침에 회사 가기 전에 운동하고 싶은데 몇 시에 문 열어요? 저희는 매일 아침 6시에 시작하니까 아침 일찍 오셔도 됩니다.",
     "utterances": [
       {
@@ -193659,7 +193659,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "4762d48f-151c-4e58-a698-a5035070a476",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511999/soometa/36-I-listening/30_20.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-I-listening/30_20.mp3",
     "text": "다음 주가 아버지 생신인데 뭐 특별한 선물 없을까요? 아, 우리 부모님도 음악 좋아하시니까 같이 음악회 가야겠어요. 요즘 좋은 공연이 많으니까 인터넷으로. 한번 알아보세요. 다시 들으십시오. 전에 저는 부모님이랑 음악회 갔는데. 정말 좋아하셨어요. 우리 부모님도 음악 좋아하시니까 같이 음악회 가야겠어요. 그래요. 요즘 좋은 공연이 많으니까 인터넷으로 한번 알아보세요.",
     "utterances": [
       {
@@ -194052,7 +194052,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "f84e30e0-39f3-4e32-8d39-ecbfd540da54",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511999/soometa/36-I-listening/30_21.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-I-listening/30_21.mp3",
     "text": "팀장님, 행사 때 필요한 물건들을 사러 가려고 하는데요. 필요한 것들을 아까 메모해. 놓았는데 민수 씨. 책상 위에. 있을 거예요. 네, 알겠습니다. 그런데 물건들은 바로 행사장으로 가지고 갈까요? 아니요. 행사장 준비가 아직 안 끝났으니까. 우선 사무실로. 가지고 오는 게. 좋을 것 같아요. 다시 들으십시오. 필요한 것들을 아까 메모해. 놓았는데 민수 씨. 책상 위에 있을 거예요. 네, 알겠습니다. 그런데 물건들은 바로 행사장으로 가지고 갈까요? 아니요. 행사장 준비가 아직 안 끝났으니까. 우선 사무실로. 가지고 오는 게 좋을 것 같아요.",
     "utterances": [
       {
@@ -194738,7 +194738,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "4be6d503-812d-4d69-a3a0-17b734580742",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511999/soometa/36-I-listening/30_22.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-I-listening/30_22.mp3",
     "text": "여기는. 공원 안에. 호수가 있네요. 네, 그래서 저녁에 산책하러 오는 사람들이 많아요. 공원에 있는 길을 따라서. 걸으면 운동도 되겠는데요. 우리 집 근처에도 이런 곳이 있으면 좋겠어요. 그럼 산책하고. 싶을 때. 놀러 와요. 다시 들으십시오. 여기는 공원. 안에 호수가. 있네요? 네, 그래서 저녁에 산책하러 오는 사람들이 많아요. 공원에 있는 길을 따라서. 걸으면. 운동도 되겠는데요? 우리 집 근처에도 이런 곳이 있으면. 좋겠어요. 그럼 산책하고. 싶을 때. 놀러 와요.",
     "utterances": [
       {
@@ -195363,7 +195363,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "88ed9426-19cd-4656-b323-2828c7117c31",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511999/soometa/36-I-listening/30_23.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-I-listening/30_23.mp3",
     "text": "오늘 영화 정말 재미있었지요? 네. 근데 너무. 앞자리라서. 목이 좀 아팠어요. 영화관도 불편한 자리는 값을 좀 깎아줘야. 되는 거 아니에요? 맞아요. 앞자리나 뒷자리는 영화 볼 때 좀 불편하죠? 사실 연극이나. 뮤지컬은 자리마다 값이 좀 다르잖아요. 다시 들으십시오. 오늘 영화 정말 재미있었지요? 네. 근데 너무. 앞자리라서. 목이 좀 아팠어요. 영화관도 불편한 자리는 값을 좀 깎아줘야 되는 거 아니에요? 맞아요. 앞자리나 뒷자리는 영화 볼 때 좀 불편하죠. 사실 연극이나 뮤지컬은 자리마다. 값이 좀 다르잖아요.",
     "utterances": [
       {
@@ -196021,7 +196021,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "d9fc81f3-0c52-4d3e-aa76-b2710ae08d2e",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511999/soometa/36-I-listening/30_24.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-I-listening/30_24.mp3",
     "text": "민수. 씨, 왜. 이쪽 길로 가세요? 저쪽 길이. 더 빠른데. 오늘 마라톤. 대회가 있어서. 저 길로는. 못 가요. 지금 시간에 마라톤을. 해요? 평일 아침이라 차도 많은데. 길이 많이. 막히겠네요. 길이 좀 복잡하기는. 하겠지만 어쩔 수 없죠. 다시 들으십시오. 지금 시간에 마라톤을. 해요? 평일 아침이라 차도 많은데 길이 많이. 막히겠네요. 길이 좀 복잡하기는. 하겠지만 어쩔 수 없죠.",
     "utterances": [
       {
@@ -196603,7 +196603,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "c2da9ca5-7136-4f66-b2a5-3c0aaa07b91a",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511999/soometa/36-I-listening/30_25-26.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-I-listening/30_25-26.mp3",
     "text": "요즘 집 안에 실내 정원을 만들고 싶어하는 분들 많으시죠? 하지만 꽃을 심고 정원을 가꾸는 게 보통 일은 아닙니다. 이럴 때 도움을 받을 수 있는 책이 한 권 있는데요. 이 책에는 꽃을 키우는 방법들이 사진과 함께 있어 배우기가 아주 쉽습니다. 또 봄, 여름, 가을, 겨울에 키울 수 있는 꽃의 종류도 알 수 있고요. 다시 들으십시오. 요즘 집 안에 실내 정원을 만들고 싶어하는 분들 많으시죠? 하지만 꽃을 심고 정원을 가꾸는 게 보통 일은 아닙니다. 이럴 때 도움을 받을 수 있는 책이 한 권 있는데요. 이 책에는 꽃을 키우는 방법들이 사진과 함께 있어 배우기가 아주 쉽습니다. 또 봄, 여름, 가을, 겨울에 키울 수 있는 꽃의 종류도 알 수 있고요.",
     "utterances": [
       {
@@ -197364,7 +197364,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "6b7d873d-8c26-4f0d-a908-dcbb1e9da37f",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511999/soometa/36-I-listening/30_27-28.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-I-listening/30_27-28.mp3",
     "text": "27번. 선생님, 안녕하세요? 다음 주부터 방학이라 인사드리러 왔어요. 어, 어서 와요. 이번 방학에는 뭐 할 거예요? 방학을 좀 특별하게 보내고 싶어서 자전거 여행을 해보려고요. 음, 자전거 여행 좋죠. 힘들기는 하겠지만 좋은 경험이 될 거예요. 네. 그리고 기타도 한 번 배워보려고 해요. 새로운 걸 배워보는 것도 좋겠네요. 다시 들으십시오. 선생님, 안녕하세요? 다음 주부터 방학이라 인사드리러 왔어요. 어, 어서 와요. 이번 방학에는 뭐 할 거예요? 방학을 좀 특별하게 보내고 싶어서 자전거 여행을 해보려고요. 음, 자전거 여행 좋죠. 힘들기는 하겠지만 좋은 경험이 될 거예요. 네. 그리고 기타도 한번 배워보려고 해요. 새로운 걸 배워보는 것도 좋겠네요.",
     "utterances": [
       {
@@ -198135,7 +198135,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "a237bdcc-9eaf-4b8c-8d97-bde102f9f061",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746511999/soometa/36-I-listening/30_29-30.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-I-listening/30_29-30.mp3",
     "text": "29번. 아이 통장을 하나 만들려고 하는데요. 아, 어린이 통장이요? 요즘 입학때라 많이들 만드시네요. 네, 우리 아이도 자기 통장을 갖고 싶어해서 선물하려고요. 아, 어린이 통장이요? 요즘 입학때라 많이들 만드시네요. 네. 우리 아이도 자기 통장을 갖고 싶어 해서 선물하려고요. 좋은 생각이세요. 자기 통장이 생기면 돈을 모으는 즐거움을 느낄 수 있을 거예요. 참, 아이 도장은 가져오셨죠? 도장이 필요해요? 안 가져왔는데. 그냥 내일 다시 와야겠네요. 그럼 내일 아이도 데리고 오세요. 은행에 와서 직접 통장을 만들면 더 좋아할 거예요. 다시 들으십시오. 아이 통장을 하나 만들려고 하는데요. 아, 어린이 통장이요? 요즘 입학때라 많이들 만드시네요. 네, 우리 아이도 자기 통장을 갖고 싶어해서 선물하려고요. 아, 어린이 통장이요? 요즘 입학때라 많이들 만드시네요. 네, 우리 아이도 자기 통장을 갖고 싶어해서 선물하려고요. 좋은 생각이세요. 자기 통장이 생기면 돈을 모으는 즐거움을 느낄 수 있을 거예요. 참, 아이 도장은 가져오셨죠? 도장이 필요해요? 안 가져왔는데. 그냥 내일 다시 와야겠네요. 그럼 내일 아이도 데리고 오세요. 은행에 와서 직접 통장을 만들면 더 좋아할 거예요.",
     "utterances": [
       {
@@ -199334,7 +199334,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "557c4489-8491-43cc-af35-95aefebaa0e5",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513802/soometa/36-II-listening/32_01.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-II-listening/32_01.mp3",
     "text": "왜 이렇게 옷이 다 젖었어요? 밖에 비 와요? 네, 집에 오는데 갑자기 비가 오네요. 우선 이걸로 좀 닦으세요.",
     "utterances": [
       {
@@ -199479,7 +199479,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "dd7b080d-3c3c-4cb1-bb3e-391d5d0d5047",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513802/soometa/36-II-listening/32_02.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-II-listening/32_02.mp3",
     "text": "수미 씨, 여기예요. 여행은 즐거웠어요? 네. 그런데 비행기를 오래 타서 그런지 좀 피곤하네요. 많이 기다렸어요? 아니에요. 가방 이리 주세요. 제가 들게요.",
     "utterances": [
       {
@@ -199663,7 +199663,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "fe7196af-a8d8-415e-8704-c929a7d41941",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513802/soometa/36-II-listening/32_03.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-II-listening/32_03.mp3",
     "text": "3. 대학생을 대상으로 대학. 교육을 받으려는 목적을. 조사한 결과. 좋은 직업을 갖기 위해라는 응답이 가장 많았으며 능력 개발과 지식 습득이. 뒤를 이었습니다. 이는 진학률은 높아졌지만 취업률은. 낮아지는 현실에 대한 학생들의 고민을 반영하는 것으로 보입니다.",
     "utterances": [
       {
@@ -199965,7 +199965,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "7aa8ec3d-1d63-4376-a2b5-60ba1051ce75",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513802/soometa/36-II-listening/32_04.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-II-listening/32_04.mp3",
     "text": "4번.",
     "utterances": [
       {
@@ -199991,7 +199991,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "111f433c-6ec7-400e-87ef-b2d2dc3d36c1",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513802/soometa/36-II-listening/32_05.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-II-listening/32_05.mp3",
     "text": "요즘 새로 이사할 집을 알아보고 있어. 왜? 지금 사는 집 아주 마음에 든다고 했잖아.",
     "utterances": [
       {
@@ -200108,7 +200108,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "1f559ea6-735c-4c1b-9048-d99518ac0b9a",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513802/soometa/36-II-listening/32_06.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-II-listening/32_06.mp3",
     "text": "6번 텐트같이 캠핑에 필요한 물건들이 다 갖춰진 데가 있다던데?",
     "utterances": [
       {
@@ -200190,7 +200190,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "7d65c2d3-9793-4e70-90ca-c846def609da",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513802/soometa/36-II-listening/32_07.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-II-listening/32_07.mp3",
     "text": "요즘. 사무실 분위기를 카페처럼 편하게 바꾸는 회사들이. 많대요. 그런데서 일하면. 일할 맛 나겠네요. 전 오히려 일에 집중이 안 될 것 같은데요.",
     "utterances": [
       {
@@ -200392,7 +200392,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "22920160-d4c3-4360-ab8c-494489c7484c",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513802/soometa/36-II-listening/32_08.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-II-listening/32_08.mp3",
     "text": "그래요? 좋은 기회인데 다시 한번 생각해 보시죠.",
     "utterances": [
       {
@@ -200460,7 +200460,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "3dc7547b-05ae-409c-806e-d00d89549b00",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513802/soometa/36-II-listening/32_09.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-II-listening/32_09.mp3",
     "text": "여보세요? 오늘 아이들하고. 외식할래요? 우리 자주 가는 그 중국집. 있잖아요? 좋아요. 그런데 그 식당은 예약해야 하잖아요. 네. 당신한테. 물어보고 하려고요. 그래요? 그럼 난 퇴근하고 바로 그리로 갈 테니까 7시에 봐요.",
     "utterances": [
       {
@@ -200752,7 +200752,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "aba01c98-1ae6-4ada-8197-d881e0e12d65",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513802/soometa/36-II-listening/32_10.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-II-listening/32_10.mp3",
     "text": "오늘 환자가 좀 많네요. 많이 기다려야 돼요? 지금 접수해 놓고 나갔다 와도 되죠? 네, 볼일 보시고 늦지 않게 오세요.",
     "utterances": [
       {
@@ -200904,7 +200904,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "79bae3f7-a745-4c2a-a376-14e46e0e1527",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513802/soometa/36-II-listening/32_11.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-II-listening/32_11.mp3",
     "text": "저희 집 커튼을 좀 바꾸려고 하는데요. 이쪽으로 와서. 보세요. 책자에도 많이 있으니까 좀. 보시고요. 음... 가게에는 딱히 마음에 드는 게 없어서 책자를 좀 봐야겠네요. 그럼 앉아서 천천히 보세요. 마음에 드는 거 있으시면 덱으로 가져가서 달아드릴게요.",
     "utterances": [
       {
@@ -201213,7 +201213,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "523aa2ea-b4dc-47da-b15d-494737a27e65",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513802/soometa/36-II-listening/32_12.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-II-listening/32_12.mp3",
     "text": "알겠습니다. 그럼 전 장소가 확정되는 대로 보고 드리겠습니다.",
     "utterances": [
       {
@@ -201288,7 +201288,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "93b6236f-fc9f-4e5b-a1a2-14d69307bfeb",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513802/soometa/36-II-listening/32_13.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-II-listening/32_13.mp3",
     "text": "자연생태체험 잘 다녀왔어요? 네. 주말마다 출발하는 프로그램이 있더라고요. 기회가 되면 다시 가고 싶어요. 그래요? 저도 가고 싶은데 이번 달까지는 시간이 안 나네요. 그럼 휴가때라도 한번 가보세요. 미리 예약하면 더 싸대요.",
     "utterances": [
       {
@@ -201517,7 +201517,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "3be4d6cc-9df5-401a-8c8e-2284c4901104",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513802/soometa/36-II-listening/32_14.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-II-listening/32_14.mp3",
     "text": "14번 안내말씀 드리겠습니다. 저희 회사 에너지 절약을 위해서 사원 여러분의 협조 부탁드립니다. 사무실의 난방온도는 18도를 유지해 주시고 점심시간에는 사용하지 않는 전기제품은 꺼주시기 바랍니다. 밤 9시 이후에는 엘리베이터가 운행되지 않으니 이 점 착오 없으시기 바랍니다.",
     "utterances": [
       {
@@ -201774,7 +201774,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "d6318628-c3dd-4f13-b388-5c2ef0b0b4d9",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513802/soometa/36-II-listening/32_15.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-II-listening/32_15.mp3",
     "text": "15번 인주시에서는 지난 4월부터 맞춤형 순찰제를 도입했습니다. 이것은 각 구역마다 담당 경찰관을 지정하는 제도입니다. 구역 캐시판에 담당 경찰관의 사진과 연락처를 붙여두고 주민들이 24시간 연락할 수 있도록 한 것입니다. 도입한 지 6개월 만에 범죄 발생률이 절반 가까이 줄어 이 제도를 다른 지역으로 확대하는 방안이 검토되고 있습니다.",
     "utterances": [
       {
@@ -202108,7 +202108,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "6618b28e-08ad-4af8-8026-ed8356b90ac9",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513802/soometa/36-II-listening/32_16.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-II-listening/32_16.mp3",
     "text": "이곳은. 새로운 관광지로 인기를 끌고. 있는 서울의 한 재래시장입니다. 자리를 함께하신 상인협회 회장님께 인기 비결을. 들어볼까요? 그 비결은. 바로 도시락 카페입니다. 시장에서 파는 먹을거리. 중에 내. 입맛에 맞는 것을 도시락에. 담아 이 카페에서 먹습니다. 마치 소풍을. 온 것 같지요? 이게 입소문을 통해 알려지면서 저희 시장은. 유명해지게 되었습니다. 이제는 우리나라. 사람뿐만 아니라 외국분들도 많이 찾는 관광지가 되었습니다.",
     "utterances": [
       {
@@ -202654,7 +202654,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "5648a708-a1a7-42b0-9bd5-f8ee7263c167",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513802/soometa/36-II-listening/32_17.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-II-listening/32_17.mp3",
     "text": "수미. 씨, 요즘. 왜 컴퓨터 학원에. 안 다녀요? 이 정도면 충분한 것 같아서요. 지금 아는 것만 잘 활용해도 컴퓨터 못해서 힘들 일은 없을 것 같고요. 그런데 굳이 학원을 더 다닐 필요가 있나 싶더라고요. 그래도 뭐든. 좀 깊이 배우는 게 좋지 않을까요? 특히 요즘 같은. 경쟁 사회에서는요. 전문성이 강해질수록 경쟁력이 되잖아요.",
     "utterances": [
       {
@@ -203077,7 +203077,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "9950a8a9-eb61-4c1f-b9b3-b9682d54f86e",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513802/soometa/36-II-listening/32_18.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-II-listening/32_18.mp3",
     "text": "수미야. 좀 전에 동아리. 후배한테 무슨. 칭찬을 그렇게. 많이 해? 왜? 그 후배는 동아리 일도 다 맡아서 하고 다른 사람이 도움이. 필요하다고 할 때 한. 번도 거절한 적이 없어. 칭찬할 만하지. 그래? 근데 후배가 그런 칭찬을 들으면 나중에 거절하고 싶어도 못 하겠어. 그 칭찬에 신경을. 써서 그 말대로 꼭. 해야 한다고 생각하게 되거든.",
     "utterances": [
       {
@@ -203557,7 +203557,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "32d0adfb-2a74-4cec-a45e-f1e4e69bd38e",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513802/soometa/36-II-listening/32_19.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-II-listening/32_19.mp3",
     "text": "19번. 어, 도서관에 자리가 없네. 우리 커피숍에서 공부할까? 그래도 괜찮을까? 꽤 오래 있어야 하는데. 주인한테 미안해서. 글쎄, 난 별로 문제 될 것 같진 않은데. 커피숍은 원래 이야기도 하고 책도 읽으면서 공간을 충분히 이용할 수 있는 거 아니야? 대신 우리는 커피값으로 그걸 지불하는 거고. 그래도 다른. 손님들도 생각해서 적당히 일어나야지.",
     "utterances": [
       {
@@ -203973,7 +203973,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "944984d2-62ab-4cef-b53c-c15707078851",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513802/soometa/36-II-listening/32_20.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-II-listening/32_20.mp3",
     "text": "20번. 화해를 원한다면 나에 대한 이야기를. 하라는 겁니다. 많은 경우에. 사람들은 화해하려고 할 때 상대방의. 말과 행동만을 반복해서 말합니다. 이건 관계 회복에 전혀 도움이 되지 않아요. 오히려 악영향을 줍니다. 내 말과 행동에. 대해 먼저 살피고 말해보세요. 상대방의 환한 미소를 볼 수 있을 겁니다.",
     "utterances": [
       {
@@ -204374,7 +204374,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "4041abbd-1478-41da-a4e0-b47dcc40714c",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513802/soometa/36-II-listening/32_21-22.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-II-listening/32_21-22.mp3",
     "text": "21번. 넌 좋겠다. 혼자 살아서. 나도 독립하고 싶은데 아빠가 너무 보수적인 분이라서 못하게 하셔. 스무 살이 넘었는데. 네가 막내라서 아빠가 특히 예뻐하신다면서? 그리고 집에서 회사가 가까워서 다니기 편하잖아. 왜 그렇게 나오고 싶어 하는 거야? 가깝긴 하지만 교통이 불편해서 시간도 많이 걸리고 나도 나만의 공간을 가지고 싶단 말이야. 근데 아무리 말씀을 드려도 소용없어. 혼자 사는 게 힘들 때도 많아. 지금까지 네가 신경 안 쓰던 빨래, 설거지 이런 것도 다 해야 하고 생활비도 많이 들고. 그리고 난 혼자 사니까 늦게 일어나고 밥도 잘 안 먹게 되더라.",
     "utterances": [
       {
@@ -205017,7 +205017,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "694fb765-b136-4e47-b99a-37562d551175",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513802/soometa/36-II-listening/32_23-24.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-II-listening/32_23-24.mp3",
     "text": "23번. 영우 씨는 회사 생활 어때? 나는 일이. 적성에 안 맞아서 좀 힘들어. 그래? 그럼 부서를 좀 바꿔보면. 어때? 잡마켓 있잖아. 부서 이동을 원하는. 직원들이 직접 희망 부서에. 자기를 홍보하는 것 말이야. 나도 그런 게 있다는 이야기는 들었는데 이용하기가 좀 부담스럽네. 괜히 부장님 눈치도 보이고. 그렇게 생각하지. 마. 회사에서도 이용을 권장하는 편이고 이용해 본 사원들도 만족스러워 하던데.",
     "utterances": [
       {
@@ -205543,7 +205543,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "856b491b-5bd2-44e7-abd3-382c875829bd",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513802/soometa/36-II-listening/32_25-26.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-II-listening/32_25-26.mp3",
     "text": "25번. 마라톤 중. 가장 어렵다는. 아마존 정글 마라톤을 완주하고 온 김동진 씨를 만났습니다. 이런 어려운 도전을 하신 이유가 무엇입니까? 제 한계를 시험해. 보고 싶어서 아마존으로 떠났습니다. 정글 마라톤은 완주한 사람이 손에 꼽힐 정도입니다. 그곳에서의 육체적 정신적. 고통은 말로 표현할 수. 없을 정도였지만 그때 느낀 기쁨과. 감동은 그. 무엇과도 바꿀. 수 없는 것이었습니다. 제 한계를 시험해보고. 싶어서 아마존으로 떠났습니다. 정글 마라톤은 완주한 사람이 손에. 꼽힐 정도입니다. 그곳에서의 육체적 정신적 고통은 말로 표현할 수 없을 정도였지만 그때 느낀 기쁨과. 감동은 그. 무엇과도 바꿀. 수 없는 것이었습니다. 그런데 완주보다. 더 잘했다고 생각하는. 것이 있는데요. 그것은 도전하고. 싶은 일이 생겼을. 때 바로. 행동으로 옮긴. 것이었습니다. 망설였다면 도전하지 못했을. 것이고 이런. 성취감도 느끼지 못했을 겁니다.",
     "utterances": [
       {
@@ -206584,7 +206584,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "c979d368-bba7-4a61-b545-47f01943bc36",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513802/soometa/36-II-listening/32_27-28.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-II-listening/32_27-28.mp3",
     "text": "27번 그래서 우리 애도 대한학교에 보냈잖아. 근데 난 일반 학교와 많이 달라서 고민스러워. 대학도 가야 하는데. 뭘 망설여. 공교육과 방식은. 다르지만 거기도. 입시에 필요한 공부는 다. 해. 좀 더 자유로운 방식으로 공부하기. 때문에 개성. 강한 아이에게 딱 맞을 것 같은데?",
     "utterances": [
       {
@@ -206955,7 +206955,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "50c2d483-ff91-4b0c-9b0c-28fe0fe9c0d5",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513802/soometa/36-II-listening/32_29-30.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-II-listening/32_29-30.mp3",
     "text": "29번. 선생님, 이번 해외 전시에서는 외국인들의 반응이 굉장했다고 하던데요. 어떤 매력 때문일까요? 무엇보다 우리의 전통종이 한지의 매력 때문인. 것 같아요. 이 전등칸 좀. 보세요. 10년 전에 만든 건데 아직도 색상이 선명하고 아름답잖아요? 제가 예전에 잠시 조각을. 했었는데. 그때는 느끼지 못했던 아름다운. 색깔입니다. 그게 외국인들의 마음을 사로잡은 중요한 부분이라고. 생각합니다. 그리고 한지로는 화장대, 서랍장 같은 실용적인 물건부터 아름다운 장식품까지 못 만드는 물건이 없어요. 제 전시회에 오셔서 한지로 만든 서랍장에 반하셨다고 하시는 분들도 많았습니다.",
     "utterances": [
       {
@@ -207586,7 +207586,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "0cbe0279-a89c-45ca-8d9d-8cb85a53373a",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513802/soometa/36-II-listening/32_31-32.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-II-listening/32_31-32.mp3",
     "text": "31번. 현재 비만세를 도입하거나 검토하고 있는 국가가 많습니다. 이제 우리도 열량만 높고 영양가는 없는 식품을 만들거나 판매하는 사업자에게 세금을 내게 해야 한다고 봅니다. 통계에 따르면 우리나라는 비만율이 낮은 국가 중에. 하나인데요. 굳이 새로운 세금을 만들어 사업자에게 부담을 줄 필요가 있을까요? 그러면 상품 가격이 올라갈. 수밖에 없고 그 부담은 고스란히. 소비자에게 돌아갈. 것입니다. 단순히 경제 논리로만 볼 것이 아니라 좀 더 멀리 내다봐야 합니다. 고연량식으로 청소년들의 비만율이 높아지고 있습니다. 일리 있는 말씀입니다. 하지만 그. 문제에 대해서는 다양한 각도에서. 봐야죠. 예를 들어 운동. 부족 등의 요인도 생각할 수 있지 않겠습니까?",
     "utterances": [
       {
@@ -208338,7 +208338,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "a96d9191-ca9c-4771-b92c-97ad0bc4a074",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513802/soometa/36-II-listening/32_33-34.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-II-listening/32_33-34.mp3",
     "text": "33번 요즘 청결한 환경이나 생활습관을 강조하는 사람들이 많습니다. 물론 깨끗한 환경에서 지내면 좋죠. 그런데 과연 좋은 점만 있을까요? 지나치게 깨끗해진 환경 때문에 오히려 세균에 대한 면역력을 잃어버리기 쉽죠. 우리 몸은 적당한 세균에 노출되어야 면역력이 길러지는데요. 일례로 태어난 지 2년 이내에 항균요법을 받은 아이들은 그렇지 않은 아이에 비해 피부병 발병률이 6배 높았다는 연구가 있습니다. 어렸을 때 적당히 먼지를 접촉해야 알레르기를 막아주는 면역력이 생긴다는 거죠. 청결도 중요하지만 조금은 지저분한 곳이 있어도 괜찮은 겁니다.",
     "utterances": [
       {
@@ -208854,7 +208854,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "9e8684bf-f498-43c1-96b5-aa0b547d4b7d",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513802/soometa/36-II-listening/32_35-36.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-II-listening/32_35-36.mp3",
     "text": "35번 간담회에 참석해. 주신 여러분 진심으로 환영합니다. 중소기업회. 회장 김지호입니다. 오늘 이 간담회는 정부의 글로벌화 사업 계획에 중소기업의 참여를 부탁드리고자. 마련된 자리입니다. 글로벌화 사업은. 정부가 중소기업의 해외 진출과 수출. 활성화를 위해. 추진하는 사업입니다. 여러분의 적극적인 참여를 기대하겠습니다.",
     "utterances": [
       {
@@ -209213,7 +209213,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "f097b0a3-dcf8-436c-b322-b4587393a0b5",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513802/soometa/36-II-listening/32_37-38.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-II-listening/32_37-38.mp3",
     "text": "37번 말. 그대로 날씨에 대한 정보를 기업에 제공해 경영에 도움을 주는 사업입니다. 기업이 날씨 정보를 통해 미리 제품의 매출이나 소비자의 구매. 욕구, 선호. 상품 등을 분석하고 마케팅 전략을. 세우면 경제적. 손실을 극복하고 매출을 극대화할 수 있다는. 거죠. 현재 국내 산업의. 70에서 80%가 날씨에. 직간접적으로 영향을 받고 있어 기상산업이. 중요시되고 있는데요. 아직은 다른. 나라에 비해 날씨. 경영을 도입한. 기업이 많지 않습니다. 하지만 정부에서 미래 유망 사업으로 선정할 정도로 점차 중요성이 부각되고 있습니다. 이제 날씨. 정보는 단순히. 재해 예방 차원을. 넘어 경영. 이익과도 연결되는 필수 요소로 인식되고 있는 겁니다.",
     "utterances": [
       {
@@ -210021,7 +210021,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "dc634c31-f284-4039-82f7-70bf0c76f6af",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513802/soometa/36-II-listening/32_39-40.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-II-listening/32_39-40.mp3",
     "text": "39번. 농촌이 환경보호의 기능을 하고 있다니 생각하지 못했던 점이에요. 우린 농촌하면 흔히 식량공급의 기능만 떠올리잖아요. 그럼 박사님, 농촌이 가지고 있는 또 다른 기능에는 뭐가 있을까요? 말씀드린 환경보호 기능 외에 공익적 측면의 기능도 있습니다. 전통문화를 보존시키고 국토를 균형있게 발전시킨다는 거죠. 농촌에 이런 기능을 중요하게 생각해서 다른 나라의 경우에는 농가에 정부 보조금을 지원하는 등 막대한 예산을 드리고 있는데요. 이건 농업에 투자하는 비용보다 사회에 돌아오는 혜택이 더 많기 때문입니다. 전통분화를 보존시키고 국토를 균형있게 발전시킨다는 거죠. 농촌에 이런 기능을 중요하게 생각해서 다른 나라의 경우에는 농가에 정부 보조금을 지원하는 등 막대한 예산을 드리고 있는데요. 이건 농업에 투자하는 비용보다 사회에 돌아오는 혜택이 더 많기 때문입니다. 그야말로 농업이 경제지표 이상의 가치를 지니고 있다고 할 수 있는 거죠.",
     "utterances": [
       {
@@ -210810,7 +210810,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "171a7a94-7442-462f-9ccc-d461eb66065a",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513802/soometa/36-II-listening/32_41-42.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-II-listening/32_41-42.mp3",
     "text": "41번 여러분 모나리자 미소의 법칙을 들어본 적이 있나요? 과학자들의 분석에 따르면 모나리자의 미소에는 83%의 행복감에 17% 정도의 두려움과 분노도 담겨 있다고 합니다. 이를 모나리자 미소의 법칙이라고 하는데요. 이 비율이 모나리자를 사랑받게 하는 이유라고 합니다. 우리의 삶도 마찬가지인 것 같습니다. 기쁨과 슬픔, 행복과 불행이 적절히 조화를 이루는 삶이 결국 완전한 행복에 이를 수 있게 하는 길인 거죠. 슬픔과 괴로움 같은 부정적인 감정들은 좌절에 빠지게 하는 게 아니라 오히려 현실감을 유지하게 하여 궁극적으로는 행복감을 느낄 수 있게 하는 힘이 됩니다 다시 들으십시오 여러분 모나리자 미소의 법칙을 들어본 적이 있나요? 이를 모나리자 미소의 법칙이라고 하는데요 이 비율이 모나리자를 사랑받게 하는 이유라고 합니다 우리의 삶도 마찬가지인 것 같습니다. 기쁨과 슬픔, 행복과 불행이 적절히 조화를 이루는 삶이 결국 완전한 행복에 이를 수 있게 하는 길인 거죠. 슬픔과 괴로움 같은 부정적인 감정들은 좌절에 빠지게 하는 게 아니라 오히려 현실감을 유지하게 하여 궁극적으로는 행복감을 느낄 수 있게 하는 힘이 됩니다.",
     "utterances": [
       {
@@ -211830,7 +211830,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "508016c1-46e0-4e91-b157-ed71af5cb04c",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513802/soometa/36-II-listening/32_43-44.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-II-listening/32_43-44.mp3",
     "text": "43번 여기 보시는 해마는 수컷이 새끼를 낳습니다. 아주 특이하죠? 수컷의 배를 보면 캥거루와 비슷한 주머니가 있는데요. 주머니 내부에는 알들을 양육하는 데 필요한 혈관들이 가득합니다. 수컷 해마는 알을 가진 암컷을 만나 이 주머니에 알을 받아야 합니다. 암컷의 선택을 받기 위해 헛배를 부풀려 크기를 과시하기도 하죠. 일단 알을 받는데 성공하면 아빠가 될 해마는 불룩해진 배를 가지고 헤엄쳐 가버립니다. 1, 2개월 후 해마는 수십에서 수백 마리의 어린 해마들을 낳는데요. 꼬리부터 톡톡 튀어나오는 모습이 정말 신기합니다. 주머니를 비틀어 짜는 듯한 행동으로 출산을 다 하고 나면 아빠 해마는 지쳐버립니다.",
     "utterances": [
       {
@@ -212437,7 +212437,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "aae7fb6e-b303-4688-83ef-a0ce83f07b60",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513802/soometa/36-II-listening/32_45-46.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-II-listening/32_45-46.mp3",
     "text": "45번 진정한 친구가 3명만 있어도 성공한 인생이라는 말이 있죠? 그만큼 우리는 절친한 관계를 중요하게 여깁니다. 반면 그냥 아는 사이, 즉 유대관계가 약한 사람들에 대해서는 그다지 중요하게 보지 않습니다. 그런데 때로는 그렇지 않은 상황이 있습니다. 외부 세계와 소통하고 정보를 교환할 때는 오히려 약한 유대관계가 결정적 역할을 할 확률이 높거든요. 실제로 직장인들의 취업 경로에 대한 조사 자료를 보면 개인적인 접촉으로 직장을 구한 사람 중에서 자주 만나는 친구로부터 정보를 얻었다는 사람은 14%에 불과했습니다. 나머지 86%는 가끔 만나는 사람이나 아주 드물게 만나는 사람에게서 정보를 얻었다는 것이죠.",
     "utterances": [
       {
@@ -213030,7 +213030,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "3aa9e03d-4c9f-43dd-8213-9ab099560e54",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513802/soometa/36-II-listening/32_47-48.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-II-listening/32_47-48.mp3",
     "text": "47번. 고서적 하면 흔히 오래되고 뭔가 내용도 어려울 것 같은 옛 문헌들을 떠올리는데요. 박사님은 고서적 중에서도 일상적인 내용의 책들을 주로 연구해 오셨습니다. 왜 그런 책에 관심을 가지시는지, 또 그것을 연구하는 일이 현대에 어떤 의미가 있는지 궁금합니다. 제가 연구하는 고서들은 당시 일반 대중들이 많이 봤던 책입니다 값싸게 만들어졌기 때문에 현재는 낡아서 볼품없고 버려지는 책들이지요 하지만 많은 사람들이 읽었다는 점에서 중요도는 어느 것에도 뒤지지 않습니다 분야도 다양해서 연애소설이나 상업용 문서, 편지작성법을 모아놓은 실용서 같은 것들이 있습니다. 이런 자료들을 통해서 옛사람들의 삶을 구체적이고 사실적으로 복원할 수 있는데요. 이것은 고소연구뿐만 아니라 역사연구라는 큰 틀에 있어서도 아주 기묘한 부분이라고 생각합니다.",
     "utterances": [
       {
@@ -213732,7 +213732,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "0bedf20d-7baf-4d62-9ea5-f3cbdd3c29c0",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513802/soometa/36-II-listening/32_49-50.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/36-II-listening/32_49-50.mp3",
     "text": "49번 마키아벨리의 정치사상을 해석하는 관점은 두 갈래로 나뉩니다 먼저 군주는 목적을 위해서라면 수단과 방법을 가릴 필요가 없다는 기존의 해석인데요 군주에게 도덕심은 필요 없으며 이익과 권력을 지키려면 잔인한 방법도 써야 한다는 것이 그의 사상의 핵심입니다 다른 하나는 최근 나타나고 있는 새로운 해석인데요 마키아벨리가 강력한 군주를 요구한 건 맞지만 그것은 비상 상황에 필요한 존재일 뿐이고 권력의 바탕은 언제나 국민이었다는 겁니다 지금까지 마키아벨리는 냉혹한 정치 기술자로 인식되었는데 새로운 시각에서는 국민과 함께 잘 살기 위한 군주상을 제시했다고 본 겁니다. 진짜 마키아벨리의 생각은 무엇이었을까요? 여러분도 직접 그의 저설을 읽고 판단해 보시죠. 정치 철학을 고민해 볼 좋은 기회가 될 겁니다.",
     "utterances": [
       {
@@ -214409,7 +214409,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "9d374660-bac0-4d7c-bacb-b634946ffc73",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512167/soometa/35-I-listening/34_01.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-I-listening/34_01.mp3",
     "text": "우산이 있어요?",
     "utterances": [
       {
@@ -214442,7 +214442,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "636ff1f6-621d-4163-baa5-aba3e2dbc320",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512167/soometa/35-I-listening/34_02.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-I-listening/34_02.mp3",
     "text": "오늘 회사에 가요?",
     "utterances": [
       {
@@ -214482,7 +214482,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "e5b2fe69-06a5-4f87-8d64-0ec646e8cba1",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512167/soometa/35-I-listening/34_03.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-I-listening/34_03.mp3",
     "text": "누구하고 커피를 마셨어요?",
     "utterances": [
       {
@@ -214522,7 +214522,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "1b4d28ed-6838-4751-9dfd-4ccb73bf3cac",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512167/soometa/35-I-listening/34_04.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-I-listening/34_04.mp3",
     "text": "이 파란색 바지 어때요?",
     "utterances": [
       {
@@ -214569,7 +214569,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "99ebad42-7df4-47a0-a9ff-0fe4ad40f495",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512167/soometa/35-I-listening/34_05.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-I-listening/34_05.mp3",
     "text": "민수 씨, 저 먼저 갈게요.",
     "utterances": [
       {
@@ -214623,7 +214623,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "48754da0-7ee2-4377-9e8a-0d1bb945e3cc",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512167/soometa/35-I-listening/34_06.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-I-listening/34_06.mp3",
     "text": "실례합니다. 김영수 씨 있어요? 잠깐 만나러 왔는데요.",
     "utterances": [
       {
@@ -214691,7 +214691,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "f0a13a71-4117-4378-8e2e-fef6ac59630f",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512167/soometa/35-I-listening/34_07.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-I-listening/34_07.mp3",
     "text": "7번 뭘 드릴까요? 아침부터 머리가 아파요. 약 좀 주세요. 다시 들으십시오. 뭘 드릴까요? 아침부터 머리가 아파요. 약 좀 주세요.",
     "utterances": [
       {
@@ -214870,7 +214870,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "30fd1f21-6424-4703-891e-6a54c9c58c26",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512167/soometa/35-I-listening/34_08.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-I-listening/34_08.mp3",
     "text": "8번. 오늘 수업은 여기까지입니다. 저 질문이 있습니다. 다시 들으십시오. 오늘 수업은 여기까지입니다. 저 질문이 있습니다.",
     "utterances": [
       {
@@ -215030,7 +215030,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "765f51da-c00a-465a-b73c-81c674e5f242",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512167/soometa/35-I-listening/34_09.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-I-listening/34_09.mp3",
     "text": "실례합니다. 책은 몇. 권까지. 빌릴 수 있어요? 다섯 권요. 다시 들으십시오. 실례합니다. 책은 몇. 권까지. 빌릴 수 있어요? 다섯 권요.",
     "utterances": [
       {
@@ -215261,7 +215261,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "6bd60d61-838d-4ee5-b4ee-cc2ca4e489a7",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512167/soometa/35-I-listening/34_10.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-I-listening/34_10.mp3",
     "text": "10번. 우리 여기서. 배드민턴 칠까요? 여기는 축구를 하는 학생들이 있으니까 저쪽으로 가요. 다시 들으십시오. 우리 여기서. 배드민턴 칠까요? 여기는 축구를 하는 학생들이 있으니까 저쪽으로 가요.",
     "utterances": [
       {
@@ -215509,7 +215509,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "7d5890b1-645c-461f-8adc-b698cb197277",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512167/soometa/35-I-listening/34_11.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-I-listening/34_11.mp3",
     "text": "11번 이거 비싸요? 아니요. 안 비싸요. 한 개에. 천 원이에요. 다시 들으십시오. 이거 비싸요? 아니요. 안 비싸요. 한 개에. 천 원이에요.",
     "utterances": [
       {
@@ -215711,7 +215711,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "4d76a1cd-b878-48c8-b0e9-48cb64b75459",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512167/soometa/35-I-listening/34_12.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-I-listening/34_12.mp3",
     "text": "12번 오늘 회의는. 몇 시예요? 어제하고 같아요. 3시예요. 다시 들으십시오. 오늘 회의는. 몇 시예요? 어제하고 같아요. 3시예요.",
     "utterances": [
       {
@@ -215876,7 +215876,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "32bd58b9-876f-4fda-a4eb-48ee778a6427",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512167/soometa/35-I-listening/34_13.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-I-listening/34_13.mp3",
     "text": "13번. 저는 요리하기를. 좋아해요. 민수 씨는요? 저는 시간이. 있을 때마다. 산에 가요. 다시 들으십시오. 저는 요리하기를. 좋아해요. 민수 씨는요? 저는 시간이. 있을 때마다. 산에 가요.",
     "utterances": [
       {
@@ -216178,7 +216178,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "64715041-5d41-49b4-8906-1b5ec52b18d8",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512167/soometa/35-I-listening/34_14.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-I-listening/34_14.mp3",
     "text": "14번 내일이 쉬는 날이에요? 네. 내일은 한글날이라서 쉬어요. 다시 들으십시오. 내일이 쉬는 날이에요? 네. 내일은 한글날이라서 쉬어요.",
     "utterances": [
       {
@@ -216361,7 +216361,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "22b4f523-6526-49f9-8cc4-318e86444035",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512167/soometa/35-I-listening/34_15.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-I-listening/34_15.mp3",
     "text": "15번 졸업 축하해요. 이 꽃 받으세요. 고마워요. 다시 들으십시오. 졸업 축하해요. 이 꽃 받으세요. 고마워요.",
     "utterances": [
       {
@@ -216512,7 +216512,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "f52b3281-37fd-440f-9275-9e22d6edc6ef",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512167/soometa/35-I-listening/34_16.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-I-listening/34_16.mp3",
     "text": "16번 유미 씨, 빨리 오세요. 잠깐만요. 오랜만에 자전거를 타니까 잘 못 타겠어요. 다시 들으십시오. 유미 씨, 빨리 오세요. 잠깐만요. 오랜만에 자전거를 타니까 잘 못 타겠어요.",
     "utterances": [
       {
@@ -216733,7 +216733,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "0d26da4c-94b0-456b-b35d-defab8f962f2",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512167/soometa/35-I-listening/34_17.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-I-listening/34_17.mp3",
     "text": "17번. 돈을 찾으려고. 하는데 근처에 은행이 있어요? 네. 이쪽으로 쭉 가면. 있어요. 다시 들으십시오. 돈을 찾으려고. 하는데 근처에 은행이 있어요? 네. 이쪽으로 쭉 가면 있어요.",
     "utterances": [
       {
@@ -216999,7 +216999,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "a6c93a4f-469e-4b7e-816c-60385bba8e60",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512167/soometa/35-I-listening/34_18.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-I-listening/34_18.mp3",
     "text": "18번 손님, 미술관으로 사진기를 가지고 들어오시면 안 됩니다. 어, 몰랐어요. 죄송해요. 그럼 이 사진기는 어떻게 할까요? 입구에 사진기 맡기는 곳이 있습니다. 다시 들으십시오. 손님, 미술관으로 사진기를 가지고 들어오시면 안 됩니다. 어, 몰랐어요. 죄송해요. 그럼 이 사진기는 어떻게 할까요? 입구에 사진기 맡기는 곳이 있습니다.",
     "utterances": [
       {
@@ -217373,7 +217373,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "0e5e62dc-f5d8-46fa-98bd-955bb18aa840",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512167/soometa/35-I-listening/34_19.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-I-listening/34_19.mp3",
     "text": "유미 씨는 요즘 주말에도 바쁜 것 같아요. 네, 좀 바빠요. 토요일마다 빵 만드는 걸 배우고 있어서요. 빵을 직접 만들어요? 재미있겠네요. 정말 재미있어요. 만드는 방법도 생각보다 어렵지 않고요. 다시 들으십시오. 유미 씨는 요즘 주말에도 바쁜 것 같아요. 네, 좀 바빠요. 토요일마다 빵 만드는 걸 배우고 있어서요. 빵을 직접 만들어요? 재미있겠네요. 정말 재미있어요. 만드는 방법도 생각보다 어렵지 않고요.",
     "utterances": [
       {
@@ -217847,7 +217847,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "d555cfb5-7130-4431-aabb-193ddbb409d8",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512167/soometa/35-I-listening/34_20.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-I-listening/34_20.mp3",
     "text": "여보세요? 민우 씨, 밤늦게 죄송한데요. 회의 자료 좀 이메일로 보내줄 수. 있어요? 아, 제가 지금 밖에 있는데요. 집에 가서 바로 보내드릴게요. 바쁘시면 다른 분께 부탁해 볼게요. 아니에요. 지금 집에 가고 있어요. 다시 들으십시오. 여보세요? 민우 씨, 밤늦게 죄송한데요. 회의 자료 좀 이메일로 보내줄 수 있어요? 아, 제가 지금 밖에 있는데요. 집에 가서 바로 보내드릴게요. 바쁘시면 다른 분께 부탁해 볼게요. 아니에요. 지금 집에 가고 있어요.",
     "utterances": [
       {
@@ -218386,7 +218386,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "3cc6cfea-9dbb-44c5-88da-6224bb2b5e44",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512167/soometa/35-I-listening/34_21.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-I-listening/34_21.mp3",
     "text": "여권을. 만들어야 하는데요. 회사일이 늦게 끝나서 갈 시간이 없어요. 요즘은 주말에도 여권을 신청할 수 있는 곳이 있어요. 저도 주말에 거기 가서 여권을 만들었어요. 그래요? 어디로 가면 돼요? 만들어 주는 데가 여러 곳 있어요. 인터넷에서 찾아보고 가까운 곳으로 가세요. 다시 들으십시오. 여권을 만들어야 하는데요. 회사일이 늦게 끝나서 갈 시간이 없어요. 요즘은 주말에도 여권을 신청할 수 있는 곳이 있어요. 저도 주말에 거기 가서 여권을 만들었어요. 그래요? 어디로 가면 돼요? 만들어주는 데가 여러 곳 있어요. 인터넷에서 찾아보고 가까운 곳으로 가세요.",
     "utterances": [
       {
@@ -219016,7 +219016,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "63f7b903-f73a-4cea-93f0-441e3dfb629d",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512167/soometa/35-I-listening/34_22.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-I-listening/34_22.mp3",
     "text": "저. 다음 주부터 백화점 안에 있는 옷가게에서 일하기로 했어요. 잘 됐네요. 그런데 매일 일해요? 아니요. 월요일부터 금요일까지 하루에 3시간씩만 하면 돼요. 공부와 일을 같이 하려면 힘들겠어요. 다시 들으십시오. 저 다음 주부터 백화점 안에 있는 옷가게에서 일하기로 했어요. 잘 됐네요. 그런데 매일 일해요? 아니요. 월요일부터 금요일까지 하루에 3시간씩만 하면 돼요. 공부와 일을 같이 하려면 힘들겠어요.",
     "utterances": [
       {
@@ -219485,7 +219485,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "e79d19f9-b63a-42c8-b42b-69b641a3d88d",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512167/soometa/35-I-listening/34_23.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-I-listening/34_23.mp3",
     "text": "저 식당 음식이 정말 맛있나 봐요. 아, 저기요. 삼계탕만 파는 식당인데 항상 사람들이 많아요. 우리 회사 근처에 저런 유명한 식당이 있었네요. 다음에 삼계탕 한번 먹으러 가야겠어요. 저 식당은 그날 준비한 걸 다 팔면 문을 닫아요. 그러니까 늦게 가면 못 드실 수도 있어요. 다시 들으십시오. 저 식당 음식이 정말 맛있나 봐요. 아, 저기요. 삼계탕만 파는 식당인데 항상 사람들이 많아요. 우리 회사 근처에 저런 유명한 식당이 있었네요. 다음에 삼계탕 한번 먹으러 가야겠어요. 저 식당은 그날 준비한 걸 다 팔면 문을 닫아요. 그러니까 늦게 가면 못 드실 수도 있어요.",
     "utterances": [
       {
@@ -220106,7 +220106,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "7cb6fa81-e57e-457a-b1e1-3ca4b464a37a",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512167/soometa/35-I-listening/34_24.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-I-listening/34_24.mp3",
     "text": "24번 여행 가방 하나 사려고 하는데요. 이 가방은 어떠세요? 가볍고 튼튼해서 사람들이 많이 사요. 주머니도 많아서 편하겠네요. 근데 이거 말고 다른 색깔은 없어요? 있어요. 여기 여러 가지 색깔이 있으니까 구경하세요. 다시 들으십시오. 여행 가방 하나 사려고 하는데요. 이 가방은 어떠세요? 가볍고 튼튼해서 사람들이 많이 사요. 주머니도 많아서 편하겠네요. 근데 이거 말고 다른 색깔은 없어요? 있어요. 여기 여러 가지 색깔이 있으니까 구경하세요.",
     "utterances": [
       {
@@ -220552,7 +220552,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "98f8ae1b-0c3e-416a-a6f9-298b28c821d6",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512167/soometa/35-I-listening/34_25-26.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-I-listening/34_25-26.mp3",
     "text": "자, 여러분, 호텔에 도착했습니다. 많이 피곤하시죠? 먼저 방에 가 계시면 짐들을 가져다 드리겠습니다. 식사는 지하 1층 식당에서 하시면 됩니다. 호텔에 있는 수영장은 무료로 이용하실 수 있습니다. 그리고 필요한 것이 있으면 저에게 전화해 주십시오. 제 방은 301호입니다. 그럼 편히 쉬십시오. 다시 들으십시오. 자, 여러분, 호텔에 도착했습니다. 많이 피곤하시죠? 먼저 방에 가 계시면 짐들을 가져다 드리겠습니다. 식사는 지하 1층 식당에서 하시면 됩니다. 호텔에 있는 수영장은 무료로 이용하실 수 있습니다. 그리고 필요한 것이 있으면 저에게 전화해 주십시오. 제 방은 301호입니다. 그럼 편히 쉬십시오.",
     "utterances": [
       {
@@ -221131,7 +221131,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "59ae576b-8e59-4ce3-8e00-7a8ce9deac8f",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512167/soometa/35-I-listening/34_27-28.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-I-listening/34_27-28.mp3",
     "text": "부산에 소포를 보내려고 하는데 지금 보내면 언제 도착해요? 지금 보내시면 모레 도착할 거예요. 오늘 저녁까지 도착할 수는 없을까요? 제가 좀 급해서요. 오전에 보내셨으면 오늘 안에 도착하는데 지금은 너무 늦었어요. 지금은 특급으로 보내도 내일 오전에 도착해요. 아, 그래요? 내일 오전까지 들어갈 수 있으면 그걸로 해주세요. 다시 들으십시오. 부산에 소포를 보내려고 하는데 지금 보내면 언제 도착해요? 지금 보내시면 모레 도착할 거예요. 오늘 저녁까지 도착할 수는 없을까요? 제가 좀 급해서요. 오전에 보내셨으면 오늘 안에 도착하는데 지금은 너무 늦었어요. 지금은 특급으로 보내도 내일 오전에 도착해요. 아, 그래요? 내일 오전까지 들어갈 수 있으면 그걸로 해주세요.",
     "utterances": [
       {
@@ -221852,7 +221852,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "653925da-bd26-40f8-bda9-66989bbcb9c6",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746512167/soometa/35-I-listening/34_29-30.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-I-listening/34_29-30.mp3",
     "text": "29번. 민수 씨, 이번 주말에 사랑 나누기 모임이 있는데 같이 가실래요? 사랑 나누기요? 그게 뭐예요? 혼자 사시는 할머니들을 도와드리는 모임이에요. 아, 그래요? 근데 무슨 일을 도와드려요? 청소를 하거나 음식을 만들어 드려요. 이번 주말엔 김치를 담가서 드릴 거예요. 좋은 일을 하시네요. 저도 이번 모임에 가보고 싶어요. 김치를 담가 본 적은 없지만 열심히 해볼게요. 다시 들으십시오. 민수 씨, 이번 주말에 사랑 나누기 모임이 있는데 같이 가실래요? 사랑 나누기요? 그게 뭐예요? 혼자 사시는 할머니들을 도와드리는 모임이에요. 아, 그래요? 근데 무슨 일을 도와드려요? 청소를 하거나 음식을 만들어드려요. 이번 주말엔 김치를 담가서 드릴 거예요. 좋은 일을 하시네요. 저도 이번 모임에 가보고 싶어요. 김치를 담가 본 적은 없지만 열심히 해볼게요.",
     "utterances": [
       {
@@ -222707,7 +222707,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "a62c0ca6-f182-492f-ba6e-2d739d7badae",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513985/soometa/35-II-listening/36_01.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-II-listening/36_01.mp3",
     "text": "이거. 좀 봐주실래요? 옷에 커피를 쏟았어요. 어디 좀 볼까요? 세탁하면. 깨끗해질 거예요. 언제까지. 해드리면 돼요? 내일까지 해주세요.",
     "utterances": [
       {
@@ -222908,7 +222908,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "1b95b528-0991-40b7-9f4f-a9d473b564e5",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513985/soometa/35-II-listening/36_02.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-II-listening/36_02.mp3",
     "text": "2번. 그동안 답답했는데 높은 데 올라오니까 좋네요. 그렇죠. 그래서 저는 등산이 좋아요. 이렇게 정상에서 멀리 바라보고 있으면 마음이 편해져요. 맞아요. 우리 이제 자주 와요.",
     "utterances": [
       {
@@ -223122,7 +223122,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "4fe2cf90-b966-4b6e-9a6d-86f8aa3dd2f1",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513985/soometa/35-II-listening/36_03.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-II-listening/36_03.mp3",
     "text": "3번 스마트폰 사용자가 많아지면서 모바일 쇼핑 이용객이 급격히 증가한 것으로 나타났습니다. 20대가 가장 많이 이용하는 것으로 나타났으며 10대가 그 뒤를 이었습니다. 여전히 컴퓨터로 쇼핑을 하는 사람들이 많지만 앞으로 모바일 쇼핑 이용객이 더 늘 것으로 예상됩니다.",
     "utterances": [
       {
@@ -223386,7 +223386,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "77d156ce-7fb1-4bb6-8566-c2566ebe06ea",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513985/soometa/35-II-listening/36_04.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-II-listening/36_04.mp3",
     "text": "4번 사장님, 제가 감기 때문에 오늘은 못 나갈 것 같아요. 죄송합니다. 괜찮아요. 그런데 병원에 갔다 왔어요? 다른 사람들도 많이 있으니까 걱정하지 말고 푹 쉬어요.",
     "utterances": [
       {
@@ -223582,7 +223582,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "7af78353-2289-45b4-8e46-227ad7aa78c5",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513985/soometa/35-II-listening/36_05.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-II-listening/36_05.mp3",
     "text": "5번. 어서 오십시오, 손님. 어디로 모실까요? 서울역요. 그런데 아저씨, 7시까지 도착할 수 있을까요? 제가 기차를 타야 해서요.",
     "utterances": [
       {
@@ -223738,7 +223738,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "fb21e45c-3e50-45bb-bde9-36ef3130d6ff",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513985/soometa/35-II-listening/36_06.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-II-listening/36_06.mp3",
     "text": "6번 요즘 집에서 만들어 먹는 음료수가 인기래요. 만드는 법도 간단하고 쉬워서 많이 만든대요. 직접 만드니까 파는 것보다 건강에 좋겠네요.",
     "utterances": [
       {
@@ -223899,7 +223899,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "3a9e868d-3c9a-4e79-9b96-db18d782dc1d",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513985/soometa/35-II-listening/36_07.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-II-listening/36_07.mp3",
     "text": "7번 거실이. 너무 넓어서 허전해 보였는데 이렇게 화분을 몇 개 놓으니까 훨씬 좋지? 응, 그렇기는 한데 문 옆에 커다란 화분이 있으면 좀 불편할 것 같아.",
     "utterances": [
       {
@@ -224111,7 +224111,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "f1bc3398-c371-4e8f-bb90-b64515e987f4",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513985/soometa/35-II-listening/36_08.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-II-listening/36_08.mp3",
     "text": "8번 저. 갑자기 비가 와서 그러는데 요즘도 우산 빌려주세요? 어쩌죠? 우산대여 서비스가 지난달부터 중단되었습니다. 우산을 반납하는 분들이 너무 적어서 서비스를 계속하기가 힘들어서요.",
     "utterances": [
       {
@@ -224302,7 +224302,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "e470118b-df34-4fc6-a68f-a5fab4508eb4",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513985/soometa/35-II-listening/36_09.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-II-listening/36_09.mp3",
     "text": "9번. 중고 가게에서 가구를 사가기도 한다면서? 침대를 팔까 하는데 어떻게 하면 돼? 먼저 침대. 사진을 찍어서 가게 홈페이지에 올리고 어느 회사 제품인지도 써놔. 그럼 가게에서. 연락이 올 거야. 그러면 침대는 내가 갖다 줘야 돼? 아니. 가게에서 사람들이 와서 가져갈 거야.",
     "utterances": [
       {
@@ -224664,7 +224664,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "64417e7b-fe0f-4e28-981b-43a6f6bfff3f",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513985/soometa/35-II-listening/36_10.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-II-listening/36_10.mp3",
     "text": "10번 팀장님, 복사기를 새로 사야 할 것 같은데요. 왜요? 고칠 수 없대요? 네, 복사기가 너무 오래돼서 고치는데 비용이 많이 들 것 같다고 합니다. 구매팀에 얘기해서 새 것으로 사는 게 어떨까요? 그렇게 해요. 그럼 김대리가 자세한 상황을 알려주도록 하세요.",
     "utterances": [
       {
@@ -224949,7 +224949,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "4dc4c06f-4652-46e1-9d19-0c50df9e598d",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513985/soometa/35-II-listening/36_11.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-II-listening/36_11.mp3",
     "text": "11번 민수 씨, 이번에 인문학 강의 들을 거예요? 저는 작년에 들었어요. 그 강의 인기가 많으니까 빨리 신청해야 할 거예요. 아, 네. 그럼 서둘러야겠네요. 그런데 교재는 뭐예요? 홈페이지에 나와 있지 않더라고요. 그래요? 저한테 그 책이 있으니까 내일 갖다 줄게요.",
     "utterances": [
       {
@@ -225261,7 +225261,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "fecc8a3f-1536-491d-9b42-6b0920dacf4d",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513985/soometa/35-II-listening/36_12.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-II-listening/36_12.mp3",
     "text": "12번. 강. 선생님, 이번 현장 학습은 어디로 가면 좋을까요? 음... 안전교육 체험관이 어때요? 지진과 같은 자연재해를 체험해보면 학생들한테도 유익할 거예요. 그게 좋겠네요. 구체적으로 어떤 프로그램이 있는지 알아봐야겠어요. 위치도 알아보고요. 위치는 제가 알아봐 드릴게요. 정말요? 고마워요, 강 선생님. 그럼 저는 자세한 일정을 짜야겠어요.",
     "utterances": [
       {
@@ -225628,7 +225628,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "c8d94ca9-b3e7-472c-93b9-bc03e1fc93f8",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513985/soometa/35-II-listening/36_13.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-II-listening/36_13.mp3",
     "text": "13번. 해외 온라인 쇼핑몰에서 물건을 사면 싸다면서? 응. 시간은 좀 오래 걸리는데 훨씬 더 싸. 국내에서 구할 수 없는 물건도 살 수 있고. 주문하기 복잡하지 않아? 나도 한번 해볼까 하는데. 별로 안 어렵던데. 세일하면 더 싸지니까 세일기간도 잘 알아보고 해.",
     "utterances": [
       {
@@ -225963,7 +225963,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "c7bfa547-81e3-455e-9017-274f2b066f2e",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513985/soometa/35-II-listening/36_14.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-II-listening/36_14.mp3",
     "text": "14번 안내 말씀 드리겠습니다. 잠시 후 4시부터 7시까지 영화 촬영이 진행될 예정입니다. 동문 주차장에 차를 세우신 분들은 공원 내 다른 주차장으로 이동시켜 주시기 바랍니다. 영화를 찍는 동안 사진 촬영은 금지되어 있으니 협조해 주시기 바랍니다.",
     "utterances": [
       {
@@ -226220,7 +226220,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "10b99654-9c38-4e1b-b3e8-e7a6741b7b38",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513985/soometa/35-II-listening/36_15.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-II-listening/36_15.mp3",
     "text": "15번 다음은 작년 말 인기를 끌었던 앙코르 발레 공연 소식입니다. 이 공연은 한 예술고등학교 교사들로 이루어진 무용단이 어린이들을 위해 준비한 발레인데요. 여기에 노래도 더해져 아이들의 이해를 돕고 있습니다. 휴일 나들이로 온 가족이 함께 관람하시는 것도 좋을 것 같습니다.",
     "utterances": [
       {
@@ -226505,7 +226505,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "1ebf2fb6-762c-4261-aff8-906860cd2d37",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513985/soometa/35-II-listening/36_16.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-II-listening/36_16.mp3",
     "text": "16번. 오늘은 기차가 다니지 않는 기차역, 송정역에 나와 있습니다. 역장님, 이곳을 좀 소개해 주시죠. 이곳은 10년 전부터 기차를 운행하지 않는 곳입니다. 그래서 그동안 역사를 사용하지 않고 있었는데요. 최근 한 주민의 제안으로 기차역과 열차를 옛날 열차 분위기의 카페로 만들었습니다 지역 주민들의 반응도 좋고 이곳을 방문했던 손님들의 입소문을 듣고 찾아오는 관광객이 많아졌습니다.",
     "utterances": [
       {
@@ -226892,7 +226892,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "a7538733-1987-4cb3-a11a-026421eb2bd5",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513985/soometa/35-II-listening/36_17.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-II-listening/36_17.mp3",
     "text": "17번 현아 씨가 직장을 그만두고 1년 계획으로 세계여행을 간대요. 정말 대단한 것 같아요. 저도 들었어요. 그런데 직장까지 그만두고 여행을 간다는 게 좀 이해가 안 돼요. 회사에 다니면서도 여행은 할 수 있을 텐데. 길게는 못 가잖아요. 쉬면서 자기 자신도 돌아보고 새로운 계획도 세울 수 있으니까 한 번쯤 장기여행을 가는 건 좋은 것 같아요.",
     "utterances": [
       {
@@ -227293,7 +227293,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "060c79dd-9d8d-475f-966e-d5574a809d17",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513985/soometa/35-II-listening/36_18.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-II-listening/36_18.mp3",
     "text": "18번 그럼 운동은 다음 주 월요일부터 시작하시는 걸로 알고 있겠습니다. 더 궁금한 건 없으세요? 제가 일주일에 3번 정도밖에 못 올 것 같은데요. 그 정도로도 운동 효과를 볼 수 있을까요? 그럼요. 3번 정도 하시면 충분합니다. 운동은 많이 한다고 좋은 게 아니거든요. 너무 심하게 운동하면 몸이 스트레스를 받아서 건강에 더 안 좋습니다. 무리하지 않고 적당히 하는 게 좋죠.",
     "utterances": [
       {
@@ -227722,7 +227722,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "2e1d80e8-08fb-470e-956d-d35e681e4d25",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513985/soometa/35-II-listening/36_19.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-II-listening/36_19.mp3",
     "text": "19번 연예인이 자기 아이들과 함께 텔레비전에 나오는 경우가 많네요. 그러게요. 그런데 아이들한테 부작용은 없을까요? 혼자 출연하는 게 아니라 부모님과 함께 나오니까 걱정할 일은 없을 것 같은데요. 무엇보다 아이들의 재능을 일찍 발견할 수 있어서 좋을 것 같고요. 학교에 다녀야 할 나이인데 방송 때문에 공부할 시간이 없잖아요.",
     "utterances": [
       {
@@ -228083,7 +228083,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "ae85cda6-1043-4f40-a47a-04ea960dab01",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513985/soometa/35-II-listening/36_20.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-II-listening/36_20.mp3",
     "text": "김영재 선생님은 전통 그대로의 한복만 만드시는 걸로 유명한데요. 특별한 이유가 있나요? 전 한복의 대중화보다는 전통 한복의 아름다움을 지키는 게 중요하다고 봅니다. 현대 한복은 화려한 색과 실용적인 디자인으로 한복을 대중화하는 데 기여했죠. 하지만 한복의 가장 중요한 요소는 과하지 않은 색과 선입니다. 이런 고유의 특징이 빠진다면 진짜 한복이 아닌 거죠.",
     "utterances": [
       {
@@ -228438,7 +228438,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "013bd017-7781-4fc3-8a3e-e9be049c87d5",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513985/soometa/35-II-listening/36_21-22.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-II-listening/36_21-22.mp3",
     "text": "21번. 기숙사 신청 날짜를 착각해서 신청을 못했는데 어쩌지? 학교에서 소개해 주는 집이 있는데 신청해 볼래? 다른 학생들하고 보증금을 나눠내고 집을 같이 빌리는 방식이라서 보증금 부담도 적은데. 그럼 집을 같이 쓰는 거네? 한 집에서 공동생활하는 건 좀 불편할 것 같은데. 아무래도 서로 신경 쓸 일도 많을 거고. 공동생활도 생각보다 괜찮아. 방은 혼자 쓰니까 개인 공간도 있고. 부엌이나 거실 같은 공용 공간은 같이 관리하니까 혼자 일 때보다 오히려 편해. 서로 의지가 되니까 외로움도 덜하고.",
     "utterances": [
       {
@@ -228997,7 +228997,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "b85e4d96-faf5-487f-8630-e6376b4d96ce",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513985/soometa/35-II-listening/36_23-24.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-II-listening/36_23-24.mp3",
     "text": "23번. 김대리, 이름 부르기 서비스의 반응이 어떤가요? 지금까지는 좋은 것 같습니다. 이전과는 다르게 주문한 음료가 준비되면 진동벨이 아니라 이름을 불러서 알려주니까 고객들이 친근하게 느끼는 것 같습니다. 그럼 당분간 반응을 좀 더 지켜봅시다. 그런데 지금까지 보고된 부정적인 의견은 없었나요? 매장이 붐빌 때 이름을 부르는 소리가 잘 안 들려서 불편하다는 의견이 있기는 했지만 다른 큰 불만은 없었습니다.",
     "utterances": [
       {
@@ -229437,7 +229437,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "46f55c45-5896-47c6-94b5-86469279fc5e",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513985/soometa/35-II-listening/36_25-26.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-II-listening/36_25-26.mp3",
     "text": "25번. 버려지는 종이로 예술작품을 만드신다고 들었습니다. 이런 작품 활동을 하시는 데에는 이유가 있을 것 같은데요. 버려지는 종이를 재료로 쓰는 것은 작품에 메시지를 담고 싶기 때문입니다. 일회용품을 사용하지 맙시다 라는 말을 듣고 실천으로 옮길 사람이 얼마나 될까요? 하지만 버려지는 종이로 만든 작품을 보고 환경문제에 대해 깨닫는 사람이 훨씬 많을 겁니다. 그럼 결국 환경에 관심이 없던 사람도 자연스럽게 환경문제를 인식하게 되겠죠. 이런 방법은 환경을 보호하자고 말하는 것보다 더 큰 힘을 가지고 있다고 생각합니다.",
     "utterances": [
       {
@@ -229971,7 +229971,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "e0a648ab-15b6-42fb-a0d6-dbbaada0b6aa",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513985/soometa/35-II-listening/36_27-28.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-II-listening/36_27-28.mp3",
     "text": "27번. 너도 어제 그 경기 봤지? 심판이 판정을 잘못해서 메달을 놓친 선수 있잖아. 난 아직도 그 선수의 눈물을 잊을 수가 없어. 어, 나도 봤는데 정말 안타깝더라. 그런데 심판이 잘못 본 거니까 재심을 해야 하는 거 아니야? 신문하고 뉴스에도 온통 그 얘기뿐이던데. 이미 끝난 경기를 가지고 재심을 할 수 있을까? 잘못된 판정도 경기의 일부니까 억울하더라도 받아들일 수밖에 없을 것 같아. 잘못은 심판이 했는데 피해는 선수가 보는 건 말도 안 돼 난 그 선수가 메달을 되찾으면 좋겠어.",
     "utterances": [
       {
@@ -230560,7 +230560,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "f88eac00-dfce-4211-9b9d-fca2ba2f1c70",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513985/soometa/35-II-listening/36_29-30.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-II-listening/36_29-30.mp3",
     "text": "29번. 외국어는 어렸을 때부터 배우면 효과가 있을까요? 아니면 아이들에게 학습 부담감과 스트레스만 줄까요? 조기 외국어 학습에 대한 찬반 의견이 팽팽한데요. 이에 대해 어떻게 생각하십니까? 저는 조기 외국어 학습을 긍정적으로 생각하는 입장입니다. 그렇지만 몇 살 때부터 아이에게 외국어를 가르쳐야 하는지는 부모가 꼭 고민해야 하는 문제라고 생각하는데요. 학습 효과는 키우고 부작용은 최소화하려면 외국어를 가장 효율적으로 배울 수 있는 내 아이만의 적기를 찾아야 합니다. 언어 습득 속도에 개인차가 있듯이 외국어 학습의 시작 시기도 아이마다 다를 수 있다는 의미인데요. 부모는 아이를 관찰해서 아이가 외국어에 관심을 보이는 시기를 찾아야 합니다.",
     "utterances": [
       {
@@ -231192,7 +231192,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "fc8632f7-6ab3-4726-8749-ff8440d19bd6",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513985/soometa/35-II-listening/36_31-32.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-II-listening/36_31-32.mp3",
     "text": "31번. 주차장을 넓히자는 의견에는 찬성하지만 아파트 안에 있는 공원을 없애고 그 자리에 주차장을 만들자는 의견에는 찬성할 수 없습니다. 저도 가능하면 공원을 보존하면서 주차 공간을 넓힐 수 있으면 좋겠는데요. 그럼 공원의 반 정도만 주차장으로 바꾸는 것에 대해서는 어떻게 생각하십니까? 공원의 전체든 반이든 공원을 주차장으로 바꾸는 건 문제가 있다고 봅니다. 꽃과 나무를 없애고 그 자리에 차를 세우자니요. 그건 안 됩니다. 하지만 주차장이 부족해서 생기는 문제가 한두 가지가 아닙니다. 특히 아무 곳에나 주차한 차들 때문에 아이들이 얼마나 위험한지 모릅니다. 이런 점들을 참고하셔서 다시 한번 생각해 보시기 바랍니다.",
     "utterances": [
       {
@@ -231835,7 +231835,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "105139ab-9399-4694-a5df-27145b754f5a",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513985/soometa/35-II-listening/36_33-34.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-II-listening/36_33-34.mp3",
     "text": "33번 현대사회는 통신기술이 발달해서 과거에 비해 다양한 방식으로 빠르게 메시지를 주고받을 수 있죠. 그런데 이렇게 매체 환경이 좋아졌다고 해서 현대인들이 다른 사람과 충분히 소통하고 있을까요? 저는 그렇지 않다고 생각합니다. 메시지의 양은 급격히 늘어났지만 질은 문제가 있습니다. 휴대전화에 몇천 개의 전화번호가 저장되어 있고 수첩에 일정이 빽빽해도 막상 대화가 필요할 때 언제든지 편하게 연락할 수 있는 사람이 있느냐는 것이지요. 진정한 소통이 없다 보니 소통할 수 있는 기회는 많아졌지만 오히려 소통에 대한 갈망은 더 커지는 것 같습니다.",
     "utterances": [
       {
@@ -232372,7 +232372,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "488e678d-44cc-4f93-98fc-1eb19dac1724",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513985/soometa/35-II-listening/36_35-36.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-II-listening/36_35-36.mp3",
     "text": "35번 오늘 이렇게 우리 도서관의 역사 전시실 개관을 알리게 되어 기쁩니다. 이 전시실은 조선시대의 기록문화를 교육할 목적으로 마련되었습니다. 조선은 세계적으로 가장 많은 기록자료를 남긴 나라였습니다. 왕도 역사 기록을 볼 수 없었을 만큼 객관적인 기록과 보관에 큰 노력을 기울였습니다. 새로 문을 연 역사 전시실은 조선시대 역사관과 기록 절차, 보관 방법, 대표적인 역사 자료들을 전시하고 있습니다. 이 공간이 시민들과 청소년들을 위한 역사 교육의 장으로 널리 이용되기를 기대합니다.",
     "utterances": [
       {
@@ -232846,7 +232846,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "871f7927-bad9-42ef-a97c-eb8aaf5d6b02",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513985/soometa/35-II-listening/36_37-38.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-II-listening/36_37-38.mp3",
     "text": "37번 박사님이 저술하신 1만 시간의 법칙이 요즘 화제를 모으고 있는데요. 아직 읽어보지 않은 분들을 위해 소개 좀 해주시겠습니까? 1만 시간의 법칙은 어떤 분야든 만 시간을 투자해야 전문성이 쌓이고 성공할 수 있는 기본 조건이 갖춰진다는 법칙입니다. 10년 동안 매일 3시간씩을 투자해야 만 시간이 되는데요. 가령 악기 연습을 할 때 자신이 연주를 잘하는 곡만 연습하는 것은 전문가가 되기 위해 필요한 만 시간을 채우는데 전혀 도움이 안 됩니다. 자신에게 익숙하고 편안한 것에서 벗어나 자기 앞을 가로막고 있는 장애물과 만 시간 동안 마주해야 진정한 발전이 있습니다. 단순한 꾸준함 보다는 자신의 한계를 넘어서려는 노력과 연습 그것이 바로 성공의 관건이 된다는 것이죠.",
     "utterances": [
       {
@@ -233537,7 +233537,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "ca51e5f4-fa81-44ce-a12e-ccb92ccabe97",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513985/soometa/35-II-listening/36_39-40.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-II-listening/36_39-40.mp3",
     "text": "39번. 그렇게 엄청난 양의 국물이 서예 사료로 소비된다니 참 불합리하다는 생각이 드는데요 그러면 이런 부분이 식량 부족 현상의 주된 원인이 되는 건가요? 물론 이렇게 가축에 의해 소비되는 것도 큰 문제이기는 한데 사실 더 심각한 이유로 볼 수 있는 것은 세계식량시장의 가격 결정 구조입니다. 세계식량시장에서 곡물 가격은 몇몇 세계적 곡물상들의 거래에 의해 결정됩니다. 곡물상들이 곡물을 대량으로 사들이면 가격이 올라서 그 곡물이 귀해지는 거죠. 곡물상들은 이렇게 매입한 곡물을 가장 많은 이익을 낼 수 있는 시점에 팔기 때문에 식량을 구입하지 못하는 나라들이 생기게 됩니다. 식량 가격이 어떤 국제기구의 조정이나 인도적 배려 없이 그저 시장 논리에 의해 결정이 되고 있는 것이지요.",
     "utterances": [
       {
@@ -234253,7 +234253,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "9a0f427c-50b4-49e0-9ee5-1407756728fd",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513985/soometa/35-II-listening/36_41-42.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-II-listening/36_41-42.mp3",
     "text": "41번 오늘은 인간의 특성을 형성하는 중요한 요소인 거울세포에 대해서 알아보도록 하겠습니다. 거울세포는 타인의 행동을 보고만 있는데도 마치 자신이 실제 그 행동을 하는 것처럼 반응하게 하는 세포입니다. 예를 들면 아기가 앞에 있는 사람의 행동을 따라하는 것도 이 세포 때문입니다. 사실 원숭이들도 거울세포가 있어서 간단한 행동을 따라할 수 있는데요. 하지만 원숭이와 달리 인간의 거울세포는 뇌의 여러 부분에 분포하여 서로 체계를 이루고 있어서 인간이 고차원적이고 복잡한 행동을 모방할 수 있도록 도와줍니다. 듣거나 보는 것 같은 간접체험만으로도 그 경험을 자신의 것으로 습득할 수 있게 되는 겁니다. 즉 인간이 지식을 축적하고 문화를 세워나갈 수 있게 하는 기재가 바로 이 거울 세포라고 할 수 있는 거죠.",
     "utterances": [
       {
@@ -234972,7 +234972,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "09d5a677-ec5b-4705-a52d-1bebdd472ccb",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513985/soometa/35-II-listening/36_43-44.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-II-listening/36_43-44.mp3",
     "text": "43번 지금 뒤에 보이는 것은 한 시골 마을의 둠벙입니다. 지금 빈 둠벙에 물을 채우는 작업을 하고 있습니다. 둠벙은 논에 물을 대기 위해 만든 작은 웅덩이를 말하는데요. 보통 겨울철에는 농사를 짓지 않아 물이 필요 없기 때문에 비어 있는 경우가 많습니다. 그런데 둠벙은 작물을 생산하는 데 필요한 물을 제공하는 기능 이외에 다양한 습지 동식물이 사는 공간이 되기도 합니다 둠벙에는 주로 민물새우와 잠자리유충 등 선톱보다 작은 동물들이 사는데 이러한 습지 동식물은 둠벙에 물을 빼면 물과 함께 사라지거나 말라 죽게 됩니다 따라서 습지 동식물들이 사라지는 것을 막고 자연 생태계를 보존하기 위해서는 겨울철에도 둠벙에 어느 정도의 물을 채우는 것이 좋습니다.",
     "utterances": [
       {
@@ -235656,7 +235656,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "0611adde-c6bf-4ac5-b69d-5c080cef34b6",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513985/soometa/35-II-listening/36_45-46.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-II-listening/36_45-46.mp3",
     "text": "45번. 오페라와 대중가요 하면 음악 중에서도 전혀 다른 장르로 여겨지는데요. 요즘 오페라 음악과 대중가요의 특성을 융합해서 새로운 무대를 보여주는 경우가 많습니다. 이 과정에서 파페라라는 새로운 장르가 생겨 큰 인기를 끌고 있죠. 두 장르가 만나 익숙하면서도 신선한 음악이 탄생한 것입니다. 이렇게 장르와 장르가 만난 것을 콜라보레이션이라고 부르는데요. 콜라보레이션은 서로 다름을 인정하고 조화를 추구함으로써 새로움을 창조해냅니다. 콜라보레이션이 우리의 삶에도 스며든다면 새로운 변화가 일어나지 않을까요? 예술가들이 서로의 차이를 이해하고 포용한 것처럼, 같음과 다름이라는 이분법적인 사고를 넘어서서 서로를 존중한다면 다양함이 조화를 이루는 사회가 될 것입니다.",
     "utterances": [
       {
@@ -236242,7 +236242,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "5415c0d9-e462-49bb-b0d1-e1e68fe54167",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513985/soometa/35-II-listening/36_47-48.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-II-listening/36_47-48.mp3",
     "text": "47번. 의료산업은 새롭게 주목받고 있는 전략 분야로 최근 여러 선진국에서도 많은 관심을 보이고 있습니다. 우리나라도 앞으로 이에 대해 많은 관심을 가져야 할 텐데요. 우리나라의 의료산업 현황은 어떻습니까 박사님? 의사의 국제 경쟁력은 중상위권이지만 의료서비스 산업의 경쟁력은 다른 국가들에 비해 상당히 낮은 위치에 있습니다. 의료서비스 산업의 경쟁력이 낮은 이유는 현행 법규에서 의료산업이 비영리산업으로 되어 있어서 투자를 적극적으로 하지 않기 때문입니다. 투자가 활발해져야 의료관광, 요양 같은 의료서비스 산업을 육성할 수 있는데 말이죠. 의료산업이 서비스산업으로 바뀌면 투자가 늘고 그럼 이에 따른 경쟁력이 높아져서 결국에는 많은 사람들이 첨단의료기술의 혜택을 누릴 수 있습니다. 게다가 국내 병원에 해외진출이 가능해져서 의료산업으로 많은 수익을 얻을 수 있습니다.",
     "utterances": [
       {
@@ -236965,7 +236965,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "bb6af8aa-ee0f-41f2-92bb-134b5738c2a5",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1746513985/soometa/35-II-listening/36_49-50.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/35-II-listening/36_49-50.mp3",
     "text": "49번 요즘 지구촌 곳곳에서 물부족 문제로 심각한 고통을 겪고 있는 나라들이 많습니다. 이제 곧 물부족 시대가 도래할 것이라는 예상은 우리나라에서뿐만 아니라 전 세계적으로 많은 관심의 대상이 되고 있습니다. 이러한 관심은 물산업에 대한 관심으로 이어지고 있습니다. 우리 정부도 물산업 육성을 위해 정책적 지원을 아끼지 않고 있습니다. 예를 들면 바닷물을 담수로 바꾸고 하수를 처리하는 기술 개발을 지원하고 있고 그 기술을 해외로 수출하기 위해서도 애를 많이 쓰고 있습니다. 그런데 우리는 좀 더 체계적으로 물부족 시대에 대비해야 합니다. 물과 관련된 기업, 대학, 연구소의 핵심 주체들이 모여 물산업 발전에 필요한 연구개발을 효과적으로 추진해야 한다는 것입니다. 이를 기반으로 신기술 개발, 마케팅, 자금 알선 업무를 수행하면 물산업 발전에 시너지 효과를 낳을 수 있을 것입니다.",
     "utterances": [
       {
@@ -237733,7 +237733,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "29c0ea53-fc16-4622-ac91-b6c91b56517b",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732927/soometa/96-I-listening/961_01.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-I-listening/961_01.mp3",
     "text": "모자가 많아요?",
     "utterances": [
       {
@@ -237766,7 +237766,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "38fae705-9069-4095-a34a-211cfa3fd721",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732927/soometa/96-I-listening/961_02.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-I-listening/961_02.mp3",
     "text": "커피를 좋아해요?",
     "utterances": [
       {
@@ -237799,7 +237799,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "84cac2b8-a10b-4968-9ba7-7131e006fbc2",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732927/soometa/96-I-listening/961_03.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-I-listening/961_03.mp3",
     "text": "몇 시에 공항에 가요?",
     "utterances": [
       {
@@ -237846,7 +237846,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "34a8ef18-48a3-4f32-adf7-beee4d7e0c70",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732927/soometa/96-I-listening/961_04.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-I-listening/961_04.mp3",
     "text": "누구하고 공부했어요?",
     "utterances": [
       {
@@ -237879,7 +237879,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "cfd914c0-c6ff-4422-a2d1-5cd146abc10a",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732927/soometa/96-I-listening/961_05.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-I-listening/961_05.mp3",
     "text": "안녕히 가세요.",
     "utterances": [
       {
@@ -237912,7 +237912,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "a23f0c12-d945-4c0d-8a6d-c135da0e5263",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732927/soometa/96-I-listening/961_06.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-I-listening/961_06.mp3",
     "text": "잠깐만 기다리세요.",
     "utterances": [
       {
@@ -237945,7 +237945,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "a67b5c89-4f1d-47d9-b16e-b4503b96caef",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732927/soometa/96-I-listening/961_07.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-I-listening/961_07.mp3",
     "text": "이 장미는 얼마예요? 한 송이에 2,000원입니다, 손님. 다시 들으십시오. 이 장미는 얼마예요? 한 송이에 2,000원입니다, 손님.",
     "utterances": [
       {
@@ -238103,7 +238103,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "57cc3e51-0735-409c-a60c-5f213d88ad28",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732927/soometa/96-I-listening/961_08.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-I-listening/961_08.mp3",
     "text": "민수 씨는 여기에서 자주 산책해요? 네, 나무가. 많아서. 자주 와요. 다시 들으십시오. 민수 씨는 여기에서 자주 산책해요? 네, 나무가. 많아서. 자주 와요.",
     "utterances": [
       {
@@ -238339,7 +238339,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "1fe8ea2c-76b6-4e3f-bab6-3705320cb3f0",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732927/soometa/96-I-listening/961_09.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-I-listening/961_09.mp3",
     "text": "손님, 어디가 아파서 오셨어요? 머리가 좀 아파서요. 다시 들으십시오. 손님, 어디가 아파서 오셨어요? 머리가 좀 아파서요.",
     "utterances": [
       {
@@ -238497,7 +238497,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "7e27b060-1bde-4aff-a6bb-91374c54d3a1",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732927/soometa/96-I-listening/961_10.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-I-listening/961_10.mp3",
     "text": "저 책상을 사러 왔는데요. 네, 책상은 이쪽에 있습니다. 다시 들으십시오. 저 책상을 사러 왔는데요. 네, 책상은 이쪽에 있습니다.",
     "utterances": [
       {
@@ -238669,7 +238669,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "7c9902b8-d436-4b5b-affa-ef67c43d7ea0",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732927/soometa/96-I-listening/961_11.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-I-listening/961_11.mp3",
     "text": "안녕하세요. 저는 김민수입니다. 저는 이지영입니다. 다시 들으십시오. 안녕하세요. 저는 김민수입니다. 저는 이지영입니다.",
     "utterances": [
       {
@@ -238799,7 +238799,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "6148bf05-0a3c-426e-8406-cb19b4a53d4a",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732927/soometa/96-I-listening/961_12.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-I-listening/961_12.mp3",
     "text": "우리 어디에서 만날까요? 학교 앞 카페는 어때요? 다시 들으십시오. 우리 어디에서 만날까요? 학교 앞 카페는 어때요?",
     "utterances": [
       {
@@ -238957,7 +238957,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "bfb99816-bfb6-445b-b169-11f80f9fdeec",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732927/soometa/96-I-listening/961_13.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-I-listening/961_13.mp3",
     "text": "수미 씨, 내일 쉬어요? 네, 토요일이라서 회사에 안 가요. 다시 들으십시오. 수미 씨, 내일 쉬어요? 네, 토요일이라서 회사에 안 가요.",
     "utterances": [
       {
@@ -239143,7 +239143,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "ccc55054-808c-44cf-9f87-ac4104dafb82",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732927/soometa/96-I-listening/961_14.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-I-listening/961_14.mp3",
     "text": "민수 씨는 봄이 좋아요, 가을이. 좋아요? 저는 봄이 더 좋아요. 다시 들으십시오. 민수 씨는 봄이 좋아요, 가을이. 좋아요? 저는 봄이 더 좋아요.",
     "utterances": [
       {
@@ -239361,7 +239361,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "dada1cc7-a069-4238-aa89-eb24b7cf585d",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732927/soometa/96-I-listening/961_15.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-I-listening/961_15.mp3",
     "text": "어서 오세요, 손님. 뭘 도와드릴까요? 남자. 옷은 몇 층에 있어요? 다시 들으십시오. 어서 오세요, 손님. 뭘 도와드릴까요? 남자. 옷은 몇 층에 있어요?",
     "utterances": [
       {
@@ -239579,7 +239579,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "3055fd9b-521a-4872-bb06-dc77f3796b20",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732927/soometa/96-I-listening/961_16.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-I-listening/961_16.mp3",
     "text": "수미 씨, 이 사진 여기에 걸까요? 조금 더 위에 걸어주세요. 다시 들으십시오. 수미 씨, 이 사진 여기에 걸까요? 음... 조금 더 위에 걸어주세요.",
     "utterances": [
       {
@@ -239786,7 +239786,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "190a21e6-ef61-4dd2-824d-ad21bb648f2d",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732927/soometa/96-I-listening/961_17.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-I-listening/961_17.mp3",
     "text": "내일 시험 끝나고 주말에 뭐 할 거예요? 부모님을 만나러. 고향에 가려고 해요. 수미 씨는요? 전 그냥 집에서 책도 보고 푹 쉬려고요. 다시 들으십시오. 내일 시험 끝나고 주말에 뭐 할 거예요? 부모님을 만나러 고향에. 가려고 해요. 수미 씨는요? 전 그냥 집에서 책도 보고 푹 쉬려고요.",
     "utterances": [
       {
@@ -240167,7 +240167,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "7f27baed-6b74-4a80-8ba5-54d60969a283",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732927/soometa/96-I-listening/961_18.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-I-listening/961_18.mp3",
     "text": "어제 수미 씨 결혼식에 다녀왔어요? 네, 결혼식에서 수미 씨가 한복을 입었는데 정말 예뻤어요. 저도 가고 싶었는데 일이 많아서 못 갔어요. 제가 결혼식에서 사진을 많이 찍었는데 보여줄까요? 다시 들으십시오. 어제 수미 씨 결혼식에 다녀왔어요? 네, 결혼식에서 수미 씨가 한복을 입었는데 정말 예뻤어요. 저도 가고 싶었는데 일이 많아서 못 갔어요. 제가 결혼식에서 사진을 많이 찍었는데 보여줄까요?",
     "utterances": [
       {
@@ -240627,7 +240627,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "ef4f6222-e9db-42c4-9f03-c46848eab389",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732927/soometa/96-I-listening/961_19.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-I-listening/961_19.mp3",
     "text": "민수 씨, 일찍 왔네요. 오늘도 자전거로. 출근했어요? 네, 따로 운동할 시간이 없어서 자전거를 타고 왔어요. 그렇게 하면 운동이 많이 돼요? 저도 요즘 운동을. 자주 못해서요. 네, 생각보다 운동도 많이 되고 아침마다 기분도 좋아요. 다시 들으십시오. 민수 씨, 일찍 왔네요? 오늘도 자전거로 출근했어요? 네, 따로 운동할 시간이 없어서 자전거를 타고 왔어요. 그렇게 하면 운동이 많이 돼요? 저도 요즘 운동을 자주 못해서요. 네, 생각보다 운동도 많이 되고 아침마다 기분도 좋아요.",
     "utterances": [
       {
@@ -241185,7 +241185,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "7c885573-e133-41fc-a8dd-c8ed4eeb6f05",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732927/soometa/96-I-listening/961_20.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-I-listening/961_20.mp3",
     "text": "와, 이 그림 멋있네요. 수미 씨가 직접 그린 거예요? 네, 요즘 그림 그리는 걸 인터넷으로 배우고 있어요. 그래요? 저도 그림에 관심이 많은데 어떤 영상을 봐야 돼요? 인터넷에 쉽게 가르쳐주는 영상이 많아요. 제가 알려줄게요. 다시 들으십시오. 와, 이 그림 멋있네요. 수미 씨가 직접 그린 거예요? 네, 요즘 그림 그리는 걸 인터넷으로 배우고 있어요. 그래요? 저도 그림에 관심이 많은데 어떤 영상을 봐야 돼요? 인터넷에 쉽게 가르쳐주는 영상이 많아요. 제가 알려줄게요.",
     "utterances": [
       {
@@ -241743,7 +241743,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "eaa9321e-4097-4833-8b88-65223f761317",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732927/soometa/96-I-listening/961_21.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-I-listening/961_21.mp3",
     "text": "저 지금 음식을 주문할 수 있어요? 네, 손님. 그런데 저희가 30분 뒤에 식당 문을 닫습니다. 그럼 그냥 음식을 가져가서 먹을게요. 비빔밥 하나 포장해 주세요. 네, 금방 포장해 드릴게요. 잠깐만 기다려주세요. 다시 들으십시오. 저, 지금 음식을 주문할 수 있어요? 네, 손님. 그런데 저희가 30분 뒤에 식당 문을 닫습니다. 그럼 그냥 음식을 가져가서 먹을게요. 비빔밥 하나 포장해 주세요. 네, 금방 포장해 드릴게요. 잠깐만 기다려 주세요.",
     "utterances": [
       {
@@ -242266,7 +242266,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "52da565b-e9ec-4cae-ae79-9ef4e7f02f92",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732927/soometa/96-I-listening/961_22.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-I-listening/961_22.mp3",
     "text": "수미 씨, 새로 이사한 집은 어때요? 동네가 조용하고 공기도 깨끗해서 좋아요. 잘 됐네요. 그런데 학교에서 좀 멀지 않아요? 네, 그렇지만 집 앞에 학교까지 가는 버스가 있어서 괜찮아요. 다시 들으십시오. 수미 씨, 새로 이사한 집은 어때요? 동네가 조용하고 공기도 깨끗해서 좋아요. 잘 됐네요. 그런데 학교에서 좀 멀지 않아요? 네, 그렇지만 집 앞에 학교까지 가는 버스가 있어서 괜찮아요.",
     "utterances": [
       {
@@ -242740,7 +242740,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "6602d21c-1ee6-4568-962f-aaec34cbb700",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732927/soometa/96-I-listening/961_23.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-I-listening/961_23.mp3",
     "text": "손님, 이 노트북은 어떠세요? 요즘 인기가 많습니다. 디자인은 좋은데 좀 무겁네요. 전 가벼운 걸 찾고 있어서요. 그럼 이걸로 한 번 보시겠어요? 좀 더 가벼운 노트북입니다. 아, 이게 좋겠네요. 이걸로 주세요. 다시 들으십시오. 손님, 이 노트북은 어떠세요? 요즘 인기가 많습니다. 디자인은 좋은데 좀 무겁네요. 전 가벼운 걸 찾고 있어서요. 그럼 이걸로 한 번 보시겠어요? 좀 더 가벼운 노트북입니다. 아, 이게 좋겠네요. 이걸로 주세요.",
     "utterances": [
       {
@@ -243256,7 +243256,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "fab53e0c-4a11-4c47-a49f-f78b8ea57d30",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732927/soometa/96-I-listening/961_24.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-I-listening/961_24.mp3",
     "text": "우리 이번 여행은 가까운 곳으로 갈까요? 왜요? 휴가 기간도 긴데 멀리 가는 게 좋지 않을까요? 먼 곳으로 가면 차도 오래 타야 하고 좀 피곤할 것 같아서요. 알겠어요. 그럼 이번엔 근처에 있는 곳으로 여행을 가요. 다시 들으십시오. 우리 이번 여행은 가까운 곳으로 갈까요? 왜요? 휴가 기간도 긴데 멀리 가는 게 좋지 않을까요? 먼 곳으로 가면 차도 오래 타야 하고 좀 피곤할 것 같아서요. 알겠어요. 그럼 이번엔 근처에 있는 곳으로 여행을 가요.",
     "utterances": [
       {
@@ -243828,7 +243828,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "401f2835-4eca-4084-971b-9b0671c965fa",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732927/soometa/96-I-listening/961_25-26.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-I-listening/961_25-26.mp3",
     "text": "한강축제에 오신 여러분께 안내 말씀드립니다. 오늘 노래 대회는 하늘정원에서 열립니다. 하늘정원은 정문 주차장에서 오른쪽으로 오시면 됩니다. 노래 대회가 끝나면 같은 장소에서 무료 축하 공연도 열릴 예정입니다. 관심 있는 분들은 지금 하늘 정원으로 와주십시오. 감사합니다. 다시 들으십시오. 한강축제에 오신 여러분께 안내 말씀드립니다. 오늘 노래 대회는 하늘정원에서 열립니다. 하늘정원은 정문 주차장에서 오른쪽으로 오시면 됩니다. 노래 대회가 끝나면 같은 장소에서 무료 축하 공연도 열릴 예정입니다. 관심 있는 분들은 지금 하늘 정원으로 와주십시오. 감사합니다.",
     "utterances": [
       {
@@ -244337,7 +244337,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "ca103bb2-fc0a-4152-9392-712ff222a1bc",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732927/soometa/96-I-listening/961_27-28.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-I-listening/961_27-28.mp3",
     "text": "어제 학생 식당에서 열리는 요리 교실에 갔는데 재미있었어요. 우리 학교에 요리 수업이 있었어요? 전 몰랐어요. 네, 저처럼 외식을 자주 하거나 요리를 못하는 대학생들을 위한 수업이에요. 간단하고 빠르게 만들 수 있는 요리를 가르쳐줘요. 그거 좋네요. 저도 요리를 잘 못하는데 한 번 가봐야겠어요. 다음 주에도 요리교실이 열리는데 같이 갈래요? 좋아요. 우리 같이 신청해요. 다시 들으십시오. 어제 학생 식당에서 열리는 요리 교실에 갔는데 재미있었어요. 우리 학교에 요리 수업이 있었어요? 전 몰랐어요. 네, 저처럼 외식을 자주 하거나 요리를 못하는 대학생들을 위한 수업이에요. 간단하고 빠르게 만들 수 있는 요리를 가르쳐줘요. 그거 좋네요. 저도 요리를 잘 못하는데 한 번 가봐야겠어요. 다음 주에도 요리교실이 열리는데 같이 갈래요? 좋아요. 우리 같이 신청해요.",
     "utterances": [
       {
@@ -245183,7 +245183,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "74ff02c7-f091-46a8-8019-9c50afe8cf59",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732927/soometa/96-I-listening/961_29-30.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-I-listening/961_29-30.mp3",
     "text": "감독님께서는 전국의 시장을 소개하는 방송으로 유명하신데요. 처음에 어떻게 이 방송을 만들게 되셨어요? 제가 방송일을 하면서 전국의 많은 곳을 다녔어요. 그때 재미있고 특별한 시장들을 알게 되었어요. 이런 다양한 시장을 방송으로 보여드리고 싶어서 시작하게 되었습니다. 그렇군요. 이번에 시장에 대한 내용으로 책도 쓰셨지요? 네, 지난 10년 동안 이 방송을 하면서 시장분들의 재미있는 이야기를 많이 들었는데요. 그 이야기들을 모아서 책으로 썼습니다. 내년에는 더욱 특별한 내용을 계획하고 계시다고요? 네. 외국에 있는 시장도 소개해 드리려고 준비하고 있습니다. 다시 들으십시오. 감독님께서는 전국의 시장을 소개하는 방송으로 유명하신데요. 처음에 어떻게 이 방송을 만들게 되셨어요? 제가 방송 일을 하면서 전국의 많은 곳을 다녔어요. 그때 재미있고 특별한 시장들을 알게 되었어요. 이런 다양한 시장을 방송으로 보여드리고 싶어서 시작하게 되었습니다. 그렇군요. 이번에 시장에 대한 내용으로 책도 쓰셨지요? 네, 지난 10년 동안 이 방송을 하면서 시장분들의 재미있는 이야기를 많이 들었는데요. 그 이야기들을 모아서 책으로 썼습니다. 내년에는 더욱 특별한 내용을 계획하고 계시다고요? 네. 외국에 있는 시장도 소개해 드리려고 준비하고 있습니다.",
     "utterances": [
       {
@@ -246317,7 +246317,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "da001bb3-bba9-4423-bc83-b4a5eb03f61c",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_01.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-II-listening/962_01.mp3",
     "text": "손님, 수박 보고 가세요. 아주 맛있어요. 여기 접시 위에 있는 거 한번 먹어봐도 돼요? 그럼요. 드셔보세요.",
     "utterances": [
       {
@@ -246466,7 +246466,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "a782e9bb-778d-4b3c-b3bc-fe4a9a80caaf",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_02.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-II-listening/962_02.mp3",
     "text": "2번. 의자에 앉아 보니까 어때? 오, 잘 만들었다. 그런데 나한텐 좀 높은 것 같아. 그래? 그럼 이 부분을 조금 더 잘라야겠다.",
     "utterances": [
       {
@@ -246650,7 +246650,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "983bda9b-9af4-470e-baed-ecb129022449",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_03.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-II-listening/962_03.mp3",
     "text": "3번. 채소, 달걀 등의 식품을 정기적으로 배달받는 서비스가 인기를 끌며 최근 4년간 이용자가 꾸준히 증가하고 있습니다. 이 서비스를 이용하는 이유로는 신선하고 품질이 좋아서가 가장 많았으며 가격이 합리적이어서, 편리해서가 그 뒤를 이었습니다.",
     "utterances": [
       {
@@ -246886,7 +246886,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "b2973735-76bc-4b32-bb0e-7bcf08d0f2ee",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_04.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-II-listening/962_04.mp3",
     "text": "4번. 감기는 좀 어때요? 약국에서 약을 사다 먹었는데 잘 안 나아요.",
     "utterances": [
       {
@@ -246982,7 +246982,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "9256a3a4-ee82-4346-b22e-780af918d63d",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_05.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-II-listening/962_05.mp3",
     "text": "이번 주말에 도자기 체험 가기로 한 거 언제 갈까? 토요일은 약속이 있고 일요일은 괜찮아.",
     "utterances": [
       {
@@ -247108,7 +247108,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "06c8a245-5cc1-45f1-8b60-1b9edf0974c9",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_06.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-II-listening/962_06.mp3",
     "text": "6번. 저기 전시장이 있네. 한번 들어가 보자. 어? 근데 음료수는 못 갖고 들어가나 봐.",
     "utterances": [
       {
@@ -247225,7 +247225,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "1ef88a57-fefd-42a3-b666-f8811941dc9a",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_07.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-II-listening/962_07.mp3",
     "text": "7번 지난주에 면접본 회사에서 연락 왔어? 아니, 오늘까지 알려준다고 했는데 소식이 없네. 벌써 3시인데.",
     "utterances": [
       {
@@ -247351,7 +247351,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "bfe6d8d0-8a16-482b-9b6c-e64a178ac1b5",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_08.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-II-listening/962_08.mp3",
     "text": "8번 사장님. 이 바지 길이를 좀 줄여 주실 수. 있나요? 이런 바지는 줄이면 아랫부분 모양이 좀 달라지는데 괜찮으세요?",
     "utterances": [
       {
@@ -247514,7 +247514,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "53753a10-a539-4811-9155-aa27520e93fd",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_09.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-II-listening/962_09.mp3",
     "text": "여보세요? 민수야, 나 내일 여행 가는데 가방 좀 빌려줄 수 있어? 그래. 그런데 내가 수업이 있어서 곧 나가야 하는데 지금 올래? 응, 지금 바로 가지러 갈게. 고마워. 그럼 가방 꺼내 놓을게.",
     "utterances": [
       {
@@ -247786,7 +247786,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "9eda2be0-cdb6-4f12-942f-80e2667c32dc",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_10.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-II-listening/962_10.mp3",
     "text": "10번 저기요, 아버지께 로션을 하나 선물하려고 하는데 어떤 게 좋아요? 이게 요즘 많이 팔리는 건데 한번 발라보세요. 음, 향기도 좋고 부드럽네요. 이걸로 하나 포장해 주세요. 네, 계산 먼저 해드릴 테니까 이쪽으로 오세요.",
     "utterances": [
       {
@@ -248056,7 +248056,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "bd32a0e7-fbab-44cf-8067-166b236e1952",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_11.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-II-listening/962_11.mp3",
     "text": "11번. 한국어 토론 대회에 나가려면 한 명 더 필요한데 누가 좋을까? 수잔 어때? 수잔이 한국어를 잘하잖아. 좋아. 내가 수잔한테 연락할게. 넌 대회 일정 좀 확실히 알아봐줘. 응, 확인하고 일정표 출력해 놓을게.",
     "utterances": [
       {
@@ -248328,7 +248328,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "51168190-63a3-4e3a-a66c-70f4363cbdf9",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_12.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-II-listening/962_12.mp3",
     "text": "12번 부장님, 신제품 소비자 설문 결과입니다. 확인 부탁드립니다. 음, 제품 크기를 줄인 것에 대한 반응이 좋군요. 네, 디자인을 다양화한 것도 좋았던 것 같습니다. 설문 결과를 가지고 바로 보고서 작성하겠습니다. 그렇게 하세요. 금요일이 부서장 회의니까 그 전까지 주세요.",
     "utterances": [
       {
@@ -248633,7 +248633,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "c7485fd8-c09c-45aa-85f4-47b7b7d0d110",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_13.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-II-listening/962_13.mp3",
     "text": "13번. 내일 비가 온다던데 캠핑하기로 한 거 취소할까? 그러지 말고 가자. 저번에 비 올 때 가봤는데 분위기가 좋더라고. 정말? 난 비 오는 날 캠핑은 안 해봤는데. 텐트 안에서 듣는 빗소리가 얼마나 좋은데. 너도 분명 좋아할 거야.",
     "utterances": [
       {
@@ -248940,7 +248940,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "81d414c3-cc15-497c-ab5c-10ceca697851",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_14.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-II-listening/962_14.mp3",
     "text": "14번 저희 누리마트가 개업 10주년을 맞이하여 오늘부터 일주일 동안 식품 코너에서 특별 할인 행사를 진행합니다. 또 마트에서 5만 원 이상 구매하신 고객님들께 선물을 드립니다. 이 기간에는 영업시간도 1시간 연장하니 많은 관심 부탁드립니다.",
     "utterances": [
       {
@@ -249183,7 +249183,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "8a19fadb-46ba-4475-ac69-bc839622c42d",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_15.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-II-listening/962_15.mp3",
     "text": "15번 오늘 인주시청이 개최한 인주자전거대회가 2,000명 이상의 많은 시민이 참가한 가운데 성공적으로 마무리되었습니다. 시민들의 체력 향상을 위해 개최된 이 대회는 정해진 시간 안에 들어오면 순위와 관계없이 메달을 받을 수 있었는데요. 경쟁 없이 운동을 즐길 수 있어서 참가자들에게 긍정적 평가를 받았습니다.",
     "utterances": [
       {
@@ -249482,7 +249482,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "ebe8de74-6fff-484c-a69a-7eb4cd3e3225",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_16.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-II-listening/962_16.mp3",
     "text": "16번 선생님께서는 화재 현장에서 일을 하시는데요. 구체적으로 어떤 일을 하시나요? 저는 화재가 발생하면 바로 현장에 가서 최초 신고자에게 상황 설명을 듣습니다. 그리고 화재의 시작점을 찾아 흔적을 살피고 그것을 분석해 화재의 원인을 밝힙니다. 그 후에는 화재로 인해 어느 정도의 피해를 보았는지 피해 금액도 계산하고요.",
     "utterances": [
       {
@@ -249802,7 +249802,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "920bbc52-5622-4259-94aa-0e7a04510dca",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_17.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-II-listening/962_17.mp3",
     "text": "17번 영화 보기 전에 팝콘 사야겠다. 수미 너도 먹을 거지? 아니, 난 아까 저녁을 많이 먹어서 배가 부르거든. 그래? 난 먹을래. 팝콘이 있어야 영화관에 온 것 같지.",
     "utterances": [
       {
@@ -250028,7 +250028,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "8f1d6a56-f142-4865-a8b9-37cdfed4f40e",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_18.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-II-listening/962_18.mp3",
     "text": "18번 민수 씨한테 아직도 사과를 안 했어요? 네. 저도 사과하고 싶은데 먼저 말 걸기가 힘드네요. 메시지라도 보내보세요. 시간이 지나면 오해가 더 커질 수도 있어요.",
     "utterances": [
       {
@@ -250233,7 +250233,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "bb85ad6e-9484-4418-97a1-163522c459e7",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_19.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-II-listening/962_19.mp3",
     "text": "19번. 무슨 자료를 그렇게 열심히 보고 있어? 여행 갈 곳에 대해 찾아보고 있어. 자세히 공부하고 가려고. 여행지에 가도 자료가 다 있을 텐데 그렇게까지 준비해야 해? 난 아는 만큼 즐길 수 있다고 생각해서 최대한 조사해서 가고 싶어.",
     "utterances": [
       {
@@ -250540,7 +250540,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "4f04ac9d-095c-475f-9079-5c089cadeaa1",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_20.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-II-listening/962_20.mp3",
     "text": "20번. 이전에 발표하셨던 동요의 가사를 이야기로 만들어 책으로 내셨는데요. 네. 요즘 책을 읽기 싫어하는 아이들이 많잖아요. 동요로 접했던 걸 책으로 읽으면 아이들이 부담없이 재미있게 책을 읽을 수 있을 것 같았어요. 그걸 시작으로 독서의 즐거움을 느낄 수 있으면 좋겠고요. 어렸을 때 독서에 대한 흥미를 갖는 것이 중요하니까요.",
     "utterances": [
       {
@@ -250899,7 +250899,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "64a6c8b5-bd3c-487a-bf33-b1252c1ca4cb",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_21-22.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-II-listening/962_21-22.mp3",
     "text": "오늘 아침 회의에서 나온 의견 중에 게임의 캐릭터 디자인을 좀 더 귀엽게 변경하면 좋겠다는 거 어떻게 생각하세요? 지금 디자인이 현실감 있고 좋은데요. 제작 초기부터 많은 논의 끝에 나온 건데 수정하는 문제는 좀 신중해야 할 것 같아요. 우리 게임은 만화 같은 분위기인데 캐릭터가 너무 사실적이라서 좀 안 어울리지 않아요? 아직 출시도 좀 남았는데. 필요하다면 부분적으로 손을 볼 수는 있겠지만 많은 변화를 주는 건 부담이 클 것 같아요. 다시 들으십시오. 오늘 아침 회의에서 나온 의견 중에 게임의 캐릭터 디자인을 좀 더 귀엽게 변경하면 좋겠다는 거 어떻게 생각하세요? 지금 디자인이 현실감 있고 좋은데요. 제작 초기부터 많은 논의 끝에 나온 건데 수정하는 문제는 좀 신중해야 할 것 같아요. 우리 게임은 만화와 같은 분위기인데 캐릭터가 너무 사실적이라서 좀 안 어울리지 않아요? 아직 출시도 좀 남았는데. 필요하다면 부분적으로 손을 볼 수는 있겠지만, 많은 변화를 주는 건 부담이 클 것 같아요.",
     "utterances": [
       {
@@ -251919,7 +251919,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "83daa4bf-c1db-4c4a-b174-3e56c1bc976b",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_23-24.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-II-listening/962_23-24.mp3",
     "text": "방금 3층 상설 전시관에서 관람하고 내려왔는데요. 전시관에 써놓은 설명 내용에 잘못된 게 있어서요. 죄송합니다. 뭐가 잘못되어 있나요? 첫 번째 전시실을 소개하는 영어 설명 중에 틀린 단어가 하나 있더라고요. 방물관에 외국인도 많던데 빨리 고쳐주시면 좋겠어요. 말씀해 주셔서 감사합니다. 바로 올라가서 확인해 보겠습니다. 다시 들으십시오. 방금 3층 상설 전시관에서 관람하고 내려왔는데요. 전시관에 써놓은 설명 내용에 잘못된 게 있어서요. 죄송합니다. 뭐가 잘못되어 있나요? 첫 번째 전시실을 소개하는 영어 설명 중에 틀린 단어가 하나 있더라고요. 박물관에 외국인도 많던데 빨리 고쳐주시면 좋겠어요. 말씀해 주셔서 감사합니다. 바로 올라가서 확인해 보겠습니다.",
     "utterances": [
       {
@@ -252589,7 +252589,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "3fc044f5-a2b1-412a-bf54-99a9d45890ef",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_25-26.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-II-listening/962_25-26.mp3",
     "text": "서장님, 인주경찰서가 작년에 이어 올해도 전국에서 범인 검거율이 가장 높은 곳으로 선정되었던데 어떻게 이런 성과를 낼 수 있었나요? 무엇보다 현장 대응력을 높이기 위한 훈련 덕분이라고 생각합니다. 이 지역은 번화한 곳이라서 사건, 사고가 많지요. 그래서 다른 곳에 비해 인력도 많은데 대부분 젊은 경찰관들입니다. 젊은 경찰관들은 아무래도 현장 경험이 부족하기 때문에 다양한 모의 상황을 만들어 현장 대응력을 강화하는 훈련을 반복해서 했습니다. 그렇게 하니까 실제 상황에서도 효과가 있었던 것 같습니다. 다시 들으십시오. 서장님, 인주경찰서가 작년에 이어 올해도 전국에서 범인 검거율이 가장 높은 곳으로 선정되었던데 어떻게 이런 성과를 낼 수 있었나요? 무엇보다 현장 대응력을 높이기 위한 훈련 덕분이라고 생각합니다. 이 지역은 번화한 곳이라서 사건, 사고가 많지요. 그래서 다른 곳에 비해 인력도 많은데 대부분 젊은 경찰관들입니다. 젊은 경찰관들은 아무래도 현장 경험이 부족하기 때문에 다양한 모의 상황을 만들어 현장 대응력을 강화하는 훈련을 반복해서 했습니다. 그렇게 하니까 실제 상황에서도 효과가 있었던 것 같습니다.",
     "utterances": [
       {
@@ -253587,7 +253587,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "23f318a1-c384-45f0-ba05-575284d0b542",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_27-28.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-II-listening/962_27-28.mp3",
     "text": "올해 우리 대학 축제에 가수 김민수 씨가 온대. 언제부턴가 대학 축제가 가수 콘서트처럼 변해가는 것 같아. 난 좋은데. 김민수 씨 팬인데 표가 비싸서 콘서트에 못 갔거든. 작년 축제 때 학과에서 하는 행사엔 참여하지 않고 공연만 보러 오는 학생들이 많았잖아. 관심이 공연에만 집중되는 것 같아서 좀 씁쓸해. 그래도 유명 가수가 오면 학교 홍보도 되고 좋은 면도 있을 거야. 올해는 작년보다 학생이 직접 참여하고 교류하는 행사가 더 줄어들었어. 그건 좀 잘못된 것 같아. 다시 들으십시오. 올해 우리 대학 축제에 가수 김민수 씨가 온대. 언제부턴가 대학 축제가 가수 콘서트처럼 변해가는 것 같아. 난 좋은데? 김민수 씨 팬인데 표가 비싸서 콘서트에 못 갔거든. 작년 축제 때 학과에서 하는 행사엔 참여하지 않고 공연만 보러 오는 학생들이 많았잖아. 관심이 공연에만 집중되는 것 같아서 좀 씁쓸해. 그래도 유명 가수가 오면 학교 홍보도 되고 좋은 면도 있을 거야. 올해는 작년보다 학생이 직접 참여하고 교류하는 행사가 더 줄어들었어. 그건 좀 잘못된 것 같아.",
     "utterances": [
       {
@@ -254704,7 +254704,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "5faa840b-dce0-4fa2-a182-fdd64a5dc724",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_29-30.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-II-listening/962_29-30.mp3",
     "text": "박사님께서는 지난 20년 동안 제주 바다와 함께 오셨는데요. 현재 제주 바다의 해양 상태는 어떤가요? 해조류가 줄어들고 아열대 생물들이 늘어나고 있습니다. 기후 변화 때문이죠. 해조류를 먹이로 하는 생물들도 영향을 받고 있고요. 그동안은 제주 바다의 수온 변화와 생태계 관계에 대한 논문을 많이 발표해 오셨는데요. 최근에는 어떤 연구를 수행하고 계신지요? 작년부터 다른 국가와 공동으로 팀을 꾸려서 태평양의 어종 분포에 대해 조사하고 있습니다. 다시 들으십시오. 박사님께서는 지난 20년 동안 제주 바다와 함께 오셨는데요. 현재 제주 바다의 해양 상태는 어떤가요? 해조류가 줄어들고 아열대 생물들이 늘어나고 있습니다. 기후 변화 때문이죠. 해조류를 먹이로 하는 생물들도 영향을 받고 있고요. 그동안은 제주 바다의 수온 변화와 생태계 관계에 대한 논문을 많이 발표해 오셨는데요. 최근에는 어떤 연구를 수행하고 계신지요? 작년부터 다른 국가와 공동으로 팀을 꾸려서 태평양의 어종 분포에 대해 조사하고 있습니다.",
     "utterances": [
       {
@@ -255626,7 +255626,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "819782f5-4c11-419f-94b8-494485c4297f",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_31-32.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-II-listening/962_31-32.mp3",
     "text": "오토바이 사고를 줄이려면 현재 뒷면에 있는 번호판을 더 크게 만들고 단속을 강화하는 것이 최선의 방안이라고 생각합니다. 그런데 현재 단속 시스템으로는 번호판이 아무리 커도 뒷면에 있어서 식별이 어렵습니다. 앞에도 번호판을 달아야 합니다. 하지만 오토바이는 앞면에 번호판을 부착하기 어려운 구조입니다. 그런 문제 때문에 앞면에 스티커로 된 번호판을 부착한 해외의 사례도 있습니다. 매년 증가하는 오토바이 사고를 감소시키려면 더 이상 미룰 수만은 없는 문제입니다. 다시 들으십시오. 오토바이 사고를 줄이려면 현재 뒷면에 있는 번호판을 더 크게 만들고 단속을 강화하는 것이 최선의 방안이라고 생각합니다. 그런데 현재 단속 시스템으로는 번호판이 아무리 커도 뒷면에 있어서 식별이 어렵습니다. 앞에도 번호판을 달아야 합니다. 하지만 오토바이는 앞면에 번호판을 부착하기 어려운 구조입니다. 그런 문제 때문에 앞면에 스티커로 된 번호판을 부착한 해외의 사례도 있습니다. 매년 증가하는 오토바이 사고를 감소시키려면 더 이상 미룰 수만은 없는 문제입니다.",
     "utterances": [
       {
@@ -256562,7 +256562,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "fb5b5356-497d-496c-96cc-774fe0b27657",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_33-34.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-II-listening/962_33-34.mp3",
     "text": "목까지 올라오는 옷이나 넥타이를 착용하는 걸 불편해하는 사람들이 있습니다. 그건 뇌의 신경망이 피부를 압박하는 자극을 위험한 신호로 과도하게 인식해서 나타나는 증상입니다. 이걸 촉각 방어라고 하죠. 이 증상은 신체 어디에서나 생길 수 있지만, 특히 목에 많이 나타나는데요. 심한 경우 미용실에서 머리를 감거나 자를 때 목이 닿는 것이 걱정돼 거부 반응을 보이기도 합니다. 이런 증상은 보통 성장하면서 자연스럽게 없어집니다. 하지만 성인이 되고도 남아 있거나 악화되는 경우도 있습니다. 다시 들으십시오. 목까지 올라오는 옷이나 넥타이를 착용하는 걸 불편해하는 사람들이 있습니다. 그건 뇌의 신경망이 피부를 압박하는 자극을 위험한 신호로 과도하게 인식해서 나타나는 증상입니다. 이걸 촉각 방어라고 하죠. 이 증상은 신체 어디에서나 생길 수 있지만 특히 목에 많이 나타나는데요. 심한 경우 미용실에서 머리를 감거나 자를 때 목이 닿는 것이 걱정돼 거부 반응을 보이기도 합니다. 이런 증상은 보통 성장하면서 자연스럽게 없어집니다. 하지만 성인이 되고도 남아 있거나 악화되는 경우도 있습니다.",
     "utterances": [
       {
@@ -257505,7 +257505,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "dce1bc51-927c-41e2-b314-7745bff3ce89",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_35-36.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-II-listening/962_35-36.mp3",
     "text": "오늘 이렇게 배구 선수로서의 마지막 경기를 마련해 주신 대한배구협회와 국내뿐만 아니라 해외에서도 와주신 팬분들께 감사드립니다. 고등학교 때 처음 국가대표 유니폼을 입고 17년 동안 3번의 올림픽과 4번의 아시안게임에 출전하면서 우리나라를 대표할 수 있어 영광이었습니다. 다만, 2년 전 올림픽에서 우승하지 못한 것이 조금 아쉽기는 한데요. 저의 이런 아쉬움은 앞으로 태극마크를 달고 뛸 후배들이 달래줄 거라 믿습니다. 저는 코트를 떠나지만 배구에 대한 여러분의 사랑은 변함없으리라 생각합니다. 감사합니다. 다시 들으십시오. 오늘 이렇게 배구 선수로서의 마지막 경기를 마련해 주신 대한배구협회와 국내뿐만 아니라 해외에서도 와주신 팬분들께 감사드립니다. 고등학교 때 처음 국가대표 유니폼을 입고 17년 동안 3번의 올림픽과 4번의 아시안게임에 출전하면서 우리나라를 대표할 수 있어 영광이었습니다. 다만 2년 전 올림픽에서 우승하지 못한 것이 조금 아쉽기는 한데요. 저의 이런 아쉬움은 앞으로 태극마크를 달고 뛸 후배들이 달래줄 거라 믿습니다. 저는 코트를 떠나지만 배구에 대한 여러분의 사랑은 변함없으리라 생각합니다. 감사합니다.",
     "utterances": [
       {
@@ -258434,7 +258434,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "a82afbd1-c35d-4bf0-8e06-73ad3070e6b7",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_37-38.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-II-listening/962_37-38.mp3",
     "text": "요즘 각 도시마다 도심의 공원을 늘리는 추세인데요. 공원을 조성할 때 어떤 점에 신경을 써야 하나요? 예전에 만든 공원은 어디에 있든 구조나 시설이 비슷비슷했죠. 하지만 최근에 공원을 보면 그곳을 주로 찾는. 사람들의 생활을 분석하여 반영했음을 알 수 있습니다. 인주시립영원에 있는 공원이 좋은 예죠. 인주시는 이 공원을 조성하면서 주변이 보이지 않을. 정도로 빽빽하게 나무를 심어 숲을 만들었는데요. 거기에서 주변을 신경 쓰지 않고 환자들이 혼자만의 시간을 갖기도 하고 간호하느라 지친 보호자나 의료진이. 언제든지 찾아와 아늑함을 느끼며 쉴 수 있도록 한 것이죠. 다시 들으십시오. 요즘 각 도시마다 도심의 공원을 늘리는 추세인데요. 공원을 조성할 때 어떤 점에 신경을 써야 하나요? 예전에 만든 공원은 어디에 있든 구조나 시설이 비슷비슷했죠. 하지만 최근에 공원을 보면 그곳을 주로 찾는. 사람들의 생활을 분석하여 반영했음을 알 수 있습니다. 인주시립영원에 있는 공원이 좋은 예죠. 인주시는 이 공원을 조성하면서 주변이 보이지 않을. 정도로 빽빽하게 나무를 심어 숲을 만들었는데요. 거기에서 주변을 신경 쓰지 않고 환자들이 혼자만의 시간을 갖기도 하고 간호하느라 지친 보호자나 의료진이. 언제든지 찾아와 아늑함을 느끼며 쉴 수 있도록 한 것이죠.",
     "utterances": [
       {
@@ -259676,7 +259676,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "20a7b0a0-aa38-40bb-a114-89e46c096655",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_39-40.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-II-listening/962_39-40.mp3",
     "text": "그럼 본인이 희망하면 성인이 된 후에도 보육원에서 지낼 수 있게 된 거네요. 보육원 퇴소 시기가 만 18세에서 24세까지로 늦춰진 거죠? 네. 그뿐만 아니라 정부에서는 사업비 규모를 늘려 보육원에서. 나온 청년이 자립을 하는 데에 필요한 지원을 확대하고 있는데요. 올해부터 매달 주는 자립수당을 50만 원으로 올렸고 의료비도 일부 보조합니다. 또한 기존 담당 부서에 심리 상담이 가능한. 전담 인력도 보충해 상담 서비스를 지원하고 있고요. 전국 17개 시도에서는 천만 원 이상의 자립정착금도 지급하고 있습니다. 다시 들으십시오. 그럼 본인이 희망하면 성인이 된 후에도 보육원에서 지낼 수 있게 된 거네요. 보육원 퇴소 시기가 만 18세에서 24세까지로 늦춰진 거죠? 네. 그뿐만 아니라 정부에서는 사업비 규모를 늘려 보육원에서. 나온 청년이 자립을 하는 데 필요한 지원을 확대하고 있는데요. 올해부터 매달 주는 자립수당을 50만원으로 올렸고 의료비도 일부 보조합니다. 또한 기존 담당 부서에 심리상담이 가능한 전담인력도. 보충해 상담 서비스를 지원하고 있고요. 전국 17개 시도에서는 천만원 이상의 자립정착금도 지급하고 있습니다.",
     "utterances": [
       {
@@ -260769,7 +260769,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "72821655-8041-4973-a547-720f6d05facd",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_41-42.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-II-listening/962_41-42.mp3",
     "text": "여기 사진에 붉은 벽돌과 푸른빛의 창틀이 어우러진 프랑스풍의 서양식 2층 건물 보이시죠? 이곳은 바로 돈덕전입니다. 서양 열강에 근대화된 나라의 위상을 보여주고 싶었던 고종은 즉위 40주년을 경축하는 국제적인 행사를 하기 위해 1902년부터 1년여에 걸쳐 이곳을 만들었습니다. 이곳은 한동안 고종이 외교사절을 접견하고 국외 주요 인사들과 연회를 베푸는 장소이자 국빈급 외국인의 숙소로 사용됐습니다. 이렇게 돈덕전은 근대 국가로서의 위상을 국제사회에 한껏 드러내고자 한 곳이었습니다. 다시 들으십시오. 여기 사진에 붉은 벽돌과 푸른빛의 창틀이 어우러진 프랑스풍의 서양식 2층 건물 보이시죠? 이곳은 바로 돈덕전입니다. 서양 열강에 근대화된 나라의 위상을 보여주고 싶었던 고종은 즉위 40주년을 경축하는 국제적인 행사를 하기 위해 1902년부터 1년여에 걸쳐 이곳을 만들었습니다. 이곳은 한동안 고종이 외교사절을 접견하고 국외 주요 인사들과 연회를 베푸는 장소이자 국빈급 외국인의 숙소로 사용됐습니다. 이렇게 돈덕전은 근대 국가로서의 위상을 국제사회에 한껏 드러내고자 한 곳이었습니다.",
     "utterances": [
       {
@@ -261642,7 +261642,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "3c412257-340b-4609-a2fd-a07c7b16d5ce",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_43-44.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-II-listening/962_43-44.mp3",
     "text": "눈 덮인 설산 같은 소금더미 뜨거운 태양. 아래 소금 장인이 묵묵히 일하는 이곳 염전 드넓은 갯벌에 칼마귀를 만들고 바닷물을 가둬놓았다 바닷물이. 증발하면서 염전 바닥에 하얀 정육면체 결정이 생겨나기 시작한다. 태양이 좀 더 머물고 바람이 살랑살랑 불어주니. 소금 결정이 눈처럼 쌓인다. 이제 소금을 수확할 시간. 염전 일꾼은 끌개로 부지런히 염전 바닥 가득한. 소금 결정을 모아 한데 쌓아놓는다. 포장하기 전 소금에 남아있는 수분을 조금이라도 더 제거하기 위함이다. 이읕고 긴 인내의 끝에 자연과 인간이 빚어낸 소금이 탄생한다. 다시 들으십시오. 눈 덮인 설산 같은 소금더미 뜨거운 태양. 아래 소금 장인이 묵묵히 일하는 이곳 염전 드넓은 갯벌에 칼마귀를 만들고 바닷물을 가둬놓았다 바닷물이 증발하면서 염전 바닥에 하얀 정육면체 결정이 생겨나기 시작한다 태양이 좀 더 머물고 바람이 살랑살랑 불어주니. 소금 결정이 눈처럼 쌓인다. 이제 소금을 수확할 시간. 염전 일꾼은 끌개로 부지런히 염전 바닥 가득한. 소금 결정을 모아 한 대 쌓아놓는다. 포장하기 전, 소금에 남아있는 수분을 조금이라도 더 제거하기 위함이다. 이윽고 긴 인내의 끝에 자연과 인간이 빚어낸 소금이 탄생한다.",
     "utterances": [
       {
@@ -262844,7 +262844,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "74b71b16-6287-4b93-80d2-4a2a8ccb08c2",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_45-46.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-II-listening/962_45-46.mp3",
     "text": "새로 만든 전통 가마솥에 밥을 지으면 밥맛이 참 좋은데요. 왜 그런 걸까요? 첫째, 솥뚜껑 무게 때문입니다. 솥뚜껑은 손 무게의 3분의 1에 달할 정도로 무겁습니다. 이 솥뚜껑으로 솥을 덮으면 공기와 수증기가 빠져나가지 못하도록 밀폐할 수 있죠. 덕분에 내부 압력이 올라가고 고온 상태가 유지돼 쌀이 익는 속도가 빨라집니다. 이렇게 익히면 쌀의 전분이 포도당으로 빨리 분해돼 밥의 풍미가 올라갑니다. 둘째, 솥 바닥의 두께 때문에 밥맛이 깊어집니다. 불에 닿는 중앙 부분은 두껍고 가장자리로 갈수록 얇아지는데요. 그래서 열이 솥 전체에 균일하게 전달돼 쌀알 하나하나가 골고루 잘 익는 겁니다. 다시 들으십시오. 무쇠로 만든 전통 가마솥에 밥을 지으면 밥맛이 참 좋은데요. 왜 그런 걸까요? 첫째, 솥뚜껑 무게 때문입니다. 솥뚜껑은 손 무게의 3분의 1에 달할 정도로 무겁습니다. 이 솥뚜껑으로 솥을 덮으면 공기와 수증기가 빠져나가지 못하도록 밀폐할 수 있죠. 덕분에 내부 압력이 올라가고 고온 상태가 유지돼 쌀이 익는 속도가 빨라집니다. 이렇게 익히면 쌀의 전분이 포도당으로 빨리 분해돼 밥의 풍미가 올라갑니다. 둘째, 솥 바닥의 두께 때문에 밥맛이 깊어집니다. 불에 닿는 중앙 부분은 두껍고 가장자리로 갈수록 얇아지는데요. 그래서 열이 솥 전체에 균일하게 전달돼 쌀알 하나하나가 골고루 잘 익는 겁니다.",
     "utterances": [
       {
@@ -264039,7 +264039,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "b96ebca7-9381-499e-89e2-5e1ac36ed7d9",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_47-48.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-II-listening/962_47-48.mp3",
     "text": "건실한 기업을 만들고자 도입된 사회이사제도가 법제화된 지도 벌써 25년이 지났는데요. 그 실효성 논란이 끊이지 않습니다. 사회이사제도는 기업 내부자 이외에 외부 전문가도 이사회에 참여시키는 제도로 기업 내 권력 집중을 막고 경영에 전문 지식을 활용하기 위해 도입됐습니다. 그러나 경영진에게도 사회 이사 추천권이 있어서 자신들과 친분이 있는 인물을 추천하고 그러다 보니 이들이 경영진을 견제하기란 쉽지 않습니다. 또 전문성이 검증되지 않은 인물이 선임되기도 해 제도의 취지를 무색하게 하죠. 후보 추천 방법을 개선하고 자격 검증을 강화하는 등의 대책 마련이 시급합니다. 다시 들으십시오. 건실한 기업을 만들고자 도입된 사회이사제도가 법제화된 지도 벌써 25년이 지났는데요. 그 실효성 논란이 끊이지 않습니다. 사회이사제도는 기업 내부자 이외에 외부 전문가도 이사회에 참여시키는 제도로 기업 내 권력 집중을 막고 경영에 전문 지식을 활용하기 위해 도입됐습니다. 그러나 경영진에게도 사회 이사 추천권이 있어서 자신들과 친분이 있는 인물을 추천하고 그러다 보니 이들이 경영진을 견제하기란 쉽지 않습니다. 또 전문성이 검증되지 않은 인물이 선임되기도 해 제도의 취지를 무색하게 하죠. 후보 추천 방법을 개선하고 자격 검증을 강화하는 등의 대책 마련이 시급합니다.",
     "utterances": [
       {
@@ -265149,7 +265149,7 @@ export const transAudio= [
   {
     "status_script": "completed",
     "id": "2ddb4253-a027-437e-8b1a-a98b0c880405",
-    "audio_url": "https://res.cloudinary.com/dueyjeqd5/video/upload/v1747732992/soometa/96-II-listening/962_49-50.mp3",
+    "audio_url": "https://pub-34fd7f79419b4f5eab6dc4901ed11701.r2.dev/soometa/96-II-listening/962_49-50.mp3",
     "text": "얼마 전, 대한민국의 로켓 누리호가 우주 상공에 위성을 올려놓기 위해 발사됐는데요. 그 시각이 콕 집어 저녁 6시 24분이었습니다. 왜 발사 시각을 분 단위까지 철저히 계산했을까요? 이는 누리호에 실린 위성 때문이었습니다. 이 위성에는 정교한 관측 자료를 제공해줄 영상 레이더가 탑재돼 있는데요. 전력 소비가 굉장해 이 위성이 임무를 수행하려면 항상 전력이 필요합니다. 이러한 이유로 태양전지를 부착해 충전하게 하였죠. 그래서 24시간 내내 태양을 볼 수 있는 궤도 안에 위성을 안착시켜야 했는데요. 누리호 발사 위치와 지구의 움직임 등을 따져서 이 궤도에 진입할 수 있는 시점을 계산하니. 그 시각이 딱 6시 24분이었던 겁니다. 다시 들으십시오. 얼마 전 대한민국의 로켓 누리호가 우주 상공에 위성을 올려놓기 위해 발사됐는데요. 그 시각이 콕 집어 저녁 6시 24분이었습니다. 왜 발사 시각을 분 단위까지 철저히 계산했을까요? 이는 누리호에 실린 위성 때문이었습니다. 이 위성에는 정교한 관측 자료를 제공해줄 영상 레이더가 탑재되어 있는데요. 전력 소비가 굉장해 이 위성이 임무를 수행하려면 항상 전력이 필요합니다. 이러한 이유로 태양전지를 부착해 충전하게 하였죠. 그래서 24시간 내내 태양을 볼 수 있는 궤도 안에 위성을 안착시켜야 했는데요. 누리호 발사 위치와 지구의 움직임 등을 따져서 이 궤도에 진입할 수 있는 시점을 계산하니. 그 시각이 딱 6시 24분이었던 겁니다.",
     "utterances": [
       {
