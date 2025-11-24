@@ -33,6 +33,35 @@ function initializeGenAI(apiKey: string): GoogleGenerativeAI {
     return new GoogleGenerativeAI(apiKey);
 }
 
+function isLikelyKeyError(error: any): boolean {
+    const message = (error?.message || '').toLowerCase();
+    const errorString = error?.toString?.().toLowerCase() || '';
+    const status = Number(error?.status);
+    const statusText = (error?.statusText || '').toLowerCase();
+
+    const keywords = [
+        'api key not valid',
+        'invalid api key',
+        'permission denied',
+        'api_key_invalid',
+        'quota',
+        'rate limit',
+        'reported as leaked',
+        'key was reported',
+        'key has been disabled',
+        'key expired',
+    ];
+
+    if (keywords.some((kw) => message.includes(kw) || errorString.includes(kw))) {
+        return true;
+    }
+
+    if (status === 401 || status === 403) return true;
+    if (statusText.includes('forbidden') || statusText.includes('unauthorized')) return true;
+
+    return false;
+}
+
 // --- Optional Configurations ---
 const generationConfig = {
     temperature: 0.4, // Giảm nhẹ temperature để câu trả lời nhất quán và bớt "sáng tạo" không cần thiết
@@ -90,14 +119,7 @@ async function executeWithRetry<T>(
             lastError = error;
             const errorMessage = error.message?.toLowerCase() || "";
             const errorString = error.toString?.().toLowerCase() || "";
-            if (errorMessage.includes('api key not valid') || 
-                errorMessage.includes('invalid api key') ||
-                errorMessage.includes('permission denied') ||
-                errorMessage.includes('api_key_invalid') ||
-                errorString.includes('permissiondenied') ||
-                errorMessage.includes('quota') ||
-                errorMessage.includes('rate limit')
-            ) {
+            if (isLikelyKeyError(error)) {
                 console.warn(`API Key ${apiKey.slice(0, 4)}... lỗi. Thử key tiếp theo... (Lỗi: ${error.message})`);
                 if (i === actualMaxRetries - 1) throw lastError;
                 continue;
