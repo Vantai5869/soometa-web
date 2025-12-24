@@ -14,7 +14,7 @@ const API_KEYS = [
     process.env.GEMINI_API_KEY_4,
 ].filter((key): key is string => !!key && key.trim() !== '');
 
-const MODEL_NAME = "gemini-2.0-flash"; 
+const MODEL_NAME = "gemini-3-flash-preview"; 
 
 // --- Initialize Gemini Client ---
 let currentApiKeyIndex = 0;
