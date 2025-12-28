@@ -14,19 +14,33 @@ const API_KEYS = [
     process.env.GEMINI_API_KEY_4,
 ].filter((key): key is string => !!key && key.trim() !== '');
 
-const MODEL_NAME = "gemini-3-flash-preview"; 
+const MODELS = [
+    "gemini-3-flash-preview",
+    "gemini-2.5-flash",
+    "gemini-2.5-pro",
+    "gemini-2.0-flash",
+    "gemini-2.0-flash-lite",
+    "gemini-1.5-flash",
+    "gemini-1.5-flash-8b",
+    "gemini-1.5-pro",
+    "gemma-3-27b-it",
+    "gemma-3-12b-it",
+    "gemma-3-4b-it",
+    "gemma-3-2b-it",
+    "gemma-3-1b-it"
+];
 
-// --- Initialize Gemini Client ---
-let currentApiKeyIndex = 0;
+// --- Dynamic state for rotation ---
+let activeApiKeys = [...API_KEYS];
+let activeModels = [...MODELS];
 
-function getNextApiKey(): string | null {
-    if (API_KEYS.length === 0) {
-        console.error("FATAL ERROR: No valid GEMINI_API_KEYs set in .env.local");
-        return null;
+function rotateToEnd<T>(arr: T[], item: T) {
+    const index = arr.indexOf(item);
+    if (index > -1) {
+        arr.splice(index, 1);
+        arr.push(item);
+        // console.log(`[Rotation] Moved to end: ${item}. Current list: ${arr.join(', ')}`);
     }
-    const key = API_KEYS[currentApiKeyIndex];
-    currentApiKeyIndex = (currentApiKeyIndex + 1) % API_KEYS.length;
-    return key;
 }
 
 function initializeGenAI(apiKey: string): GoogleGenerativeAI {
@@ -35,36 +49,18 @@ function initializeGenAI(apiKey: string): GoogleGenerativeAI {
 
 function isLikelyKeyError(error: any): boolean {
     const message = (error?.message || '').toLowerCase();
-    const errorString = error?.toString?.().toLowerCase() || '';
     const status = Number(error?.status);
-    const statusText = (error?.statusText || '').toLowerCase();
-
     const keywords = [
-        'api key not valid',
-        'invalid api key',
-        'permission denied',
-        'api_key_invalid',
-        'quota',
-        'rate limit',
-        'reported as leaked',
-        'key was reported',
-        'key has been disabled',
-        'key expired',
+        'api key not valid', 'invalid api key', 'permission denied', 
+        'api_key_invalid', 'reported as leaked', 'key was reported',
+        'key has been disabled', 'key expired'
     ];
-
-    if (keywords.some((kw) => message.includes(kw) || errorString.includes(kw))) {
-        return true;
-    }
-
-    if (status === 401 || status === 403) return true;
-    if (statusText.includes('forbidden') || statusText.includes('unauthorized')) return true;
-
-    return false;
+    return keywords.some(kw => message.includes(kw)) || status === 401 || status === 403;
 }
 
 // --- Optional Configurations ---
 const generationConfig = {
-    temperature: 0.4, // Giảm nhẹ temperature để câu trả lời nhất quán và bớt "sáng tạo" không cần thiết
+    temperature: 0.4,
     topK: 1,
     topP: 1,
     maxOutputTokens: 2048,
@@ -80,7 +76,6 @@ const safetySettings = [
 // --- Clean HTML Function ---
 function cleanHtmlForApi(inputText: string | undefined | null): string {
     if (typeof inputText !== 'string') return '';
-    // ... (giữ nguyên hàm cleanHtmlForApi)
     let cleanedText = inputText
         .replace(/<span class="blank-marker">\(…\)<\/span>/g, '(…)')
         .replace(/<span class="blank-marker">\(\s*(㉠|㉡|㉢|㉣)\s*\)<\/span>/g, '($1)')
@@ -96,38 +91,42 @@ function cleanHtmlForApi(inputText: string | undefined | null): string {
 
 // --- POST Handler with Retry Logic ---
 async function executeWithRetry<T>(
-    fn: (genAI: GoogleGenerativeAI) => Promise<T>,
-    maxRetries: number = API_KEYS.length
+    fn: (genAI: GoogleGenerativeAI, modelName: string) => Promise<T>
 ): Promise<T> {
-    // ... (giữ nguyên hàm executeWithRetry)
     let lastError: any;
-    if (API_KEYS.length === 0) {
-        throw new Error('Không có API key nào được cấu hình hợp lệ.');
+    
+    if (activeApiKeys.length === 0) {
+        throw new Error('Không có API key nào được cấu hình.');
     }
-    const actualMaxRetries = Math.max(1, maxRetries);
 
-    for (let i = 0; i < actualMaxRetries; i++) {
-        const apiKey = getNextApiKey();
-        if (!apiKey) {
-            lastError = new Error('Không thể lấy API key hợp lệ để thực hiện yêu cầu.');
-            break;
-        }
+    // Capture current state to avoid iteration issues if rotation happens concurrently
+    const keysToTry = [...activeApiKeys];
+    
+    for (const apiKey of keysToTry) {
         const genAI = initializeGenAI(apiKey);
-        try {
-            return await fn(genAI);
-        } catch (error: any) {
-            lastError = error;
-            const errorMessage = error.message?.toLowerCase() || "";
-            const errorString = error.toString?.().toLowerCase() || "";
-            if (isLikelyKeyError(error)) {
-                console.warn(`API Key ${apiKey.slice(0, 4)}... lỗi. Thử key tiếp theo... (Lỗi: ${error.message})`);
-                if (i === actualMaxRetries - 1) throw lastError;
-                continue;
+        const modelsToTry = [...activeModels];
+
+        for (const modelName of modelsToTry) {
+            try {
+                return await fn(genAI, modelName);
+            } catch (error: any) {
+                lastError = error;
+                
+                if (isLikelyKeyError(error)) {
+                    console.warn(`[Gemini API] Key error with ${apiKey.substring(0, 8)}... - Rotating to end.`);
+                    rotateToEnd(activeApiKeys, apiKey);
+                    break; // break model loop, try next key
+                } else {
+                    // Quota, 404, or other model-specific errors
+                    console.warn(`[Gemini API] Error with model ${modelName}:`, error.message, "- Rotating to end.");
+                    rotateToEnd(activeModels, modelName);
+                    // continue to next model
+                }
             }
-            throw error;
         }
     }
-    throw lastError || new Error('Tất cả API key đều thất bại hoặc không có key hợp lệ để thử.');
+    
+    throw lastError || new Error('Tất cả API key và Model đều đã đạt giới hạn hoặc thất bại.');
 }
 
 // --- POST Handler ---
@@ -143,8 +142,8 @@ export async function POST(request: NextRequest) {
         }
         // console.log(`[API Route] Received task: ${task}`); // Bỏ log này nếu không cần thiết
 
-        const responseData = await executeWithRetry(async (genAI) => {
-            const model = genAI.getGenerativeModel({ model: MODEL_NAME });
+        const responseData = await executeWithRetry(async (genAI, modelName) => {
+            const model = genAI.getGenerativeModel({ model: modelName });
 
             if (task === 'getWordTranslation') {
                 // ... (logic getWordTranslation giữ nguyên như phiên bản trước, đã yêu cầu không phiên âm và JSON)
@@ -218,6 +217,7 @@ Nếu không tìm thấy thông tin hoặc không thể cung cấp định nghĩ
                     throw new Error('Thiếu tham số newMessage hoặc nội dung trống cho task getAdvancedChatResponse');
                 }
 
+                const { image, contextText } = body; 
                 const cleanNewMessage = newMessage.trim();
                 const cleanContextText = contextText ? cleanHtmlForApi(contextText as string) : null;
 
@@ -241,18 +241,30 @@ Nếu không tìm thấy thông tin hoặc không thể cung cấp định nghĩ
                     parts.push({ text: `\n\nSau đây là đoạn văn bản mà người dùng đã chọn trước đó để bạn tham khảo làm ngữ cảnh chính:\n"""\n${cleanContextText}\n"""` });
                 }
 
+                // Xử lý hình ảnh nếu có
+                if (image && typeof image === 'string' && image.startsWith('data:image/')) {
+                    const mimeType = image.split(';')[0].split(':')[1];
+                    const base64Data = image.split(',')[1];
+                    parts.push({
+                        inlineData: {
+                            data: base64Data,
+                            mimeType: mimeType
+                        }
+                    });
+                }
+
                 if (chatHistory && Array.isArray(chatHistory) && chatHistory.length > 0) {
                     parts.push({ text: "\n\nDưới đây là lịch sử của cuộc trò chuyện này (nếu cần thiết để hiểu câu hỏi mới):" });
                     (chatHistory as Array<{ type: 'user' | 'ai', text: string }>).forEach(msg => {
                         if (msg.type === 'user') parts.push({ text: `\nNgười dùng: ${cleanHtmlForApi(msg.text)}` });
                         else if (msg.type === 'ai') parts.push({ text: `\nAI: ${cleanHtmlForApi(msg.text)}` });
                     });
-                } else if (!cleanContextText) { // Chỉ thêm nếu không có context và cũng không có history
+                } else if (!cleanContextText && !image) { 
                      parts.push({ text: "\n\nĐây là một cuộc trò chuyện mới." });
                 }
 
                 parts.push({ text: `\n\nCâu hỏi / Yêu cầu hiện tại từ người dùng:\n"""\n${cleanNewMessage}\n"""` });
-                parts.push({ text: `\n\nPhản hồi của bạn (AI):` }); // Nhắc AI bắt đầu trả lời
+                parts.push({ text: `\n\nPhản hồi của bạn (AI):` }); 
 
                 const result = await model.generateContent({
                     contents: [{ role: "user", parts }],

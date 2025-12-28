@@ -81,22 +81,6 @@ export interface CorrectAnswersMap {
     [questionNumber: number]: number; // Luôn là number nếu tồn tại key
 }
 
-export interface ExplanationContent {
-  isLoadingTranslation?: boolean;
-  translation?: string;
-  translationError?: string;
-  chatHistory?: Array<{ sender: 'user' | 'ai'; message: string }>;
-  isChatLoading?: boolean;
-  chatError?: string;
-}
-
-export interface ExplanationData {
-  // Key là number, value có thể là ExplanationContent hoặc undefined
-  [questionNumber: number]: ExplanationContent | undefined;
-}
-
-// Không cần ChatModalData nữa nếu dùng inline
-
 // Type cho danh sách đề thi
 export interface ExamListItem {
     id: string;

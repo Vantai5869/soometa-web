@@ -1,8 +1,8 @@
 // src/app/layout.tsx
 import Footer from './components/Footer';
-import GlobalSelectionPopup from './components/GlobalSelectionPopup';
 import Navbar from './components/Navbar';
 import UserActivityTracker from './components/UserActivityTracker';
+import ResizableLayout from './components/ResizableLayout';
 import './globals.css'; // Import CSS toàn cục
 
 import { Metadata } from 'next';
@@ -97,14 +97,16 @@ export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="vi">
       <body>
-        <Navbar />
-        <main
-           // **** CHO PHÉP BÔI ĐEN TOÀN BỘ KHỐI CÂU HỎI ****
-
-        >{children}</main>
-        <Footer />
-        <GlobalSelectionPopup />
-        <UserActivityTracker />
+        <ResizableLayout
+          leftContent={
+            <>
+              <Navbar />
+              <main>{children}</main>
+              <Footer />
+              <UserActivityTracker />
+            </>
+          }
+        />
       </body>
     </html>
   );
