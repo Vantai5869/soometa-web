@@ -280,7 +280,7 @@ export default function ChatSidebar() {
                 handleSend();
               }
             }}
-            placeholder="Nhập câu hỏi tại đây..."
+            placeholder="Nhập câu hỏi..."
             rows={1}
             className="w-full bg-gray-50 border border-gray-200 rounded-xl py-3 pl-4 pr-12 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500/10 focus:border-blue-500/50 transition-all resize-none overflow-hidden max-h-32 placeholder:text-gray-400 text-gray-700"
             style={{ height: 'auto' }}
