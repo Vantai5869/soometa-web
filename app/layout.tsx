@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import UserActivityTracker from './components/UserActivityTracker';
 import ResizableLayout from './components/ResizableLayout';
 import './globals.css'; // Import CSS toàn cục
+import { cookies } from 'next/headers';
 
 import { Metadata } from 'next';
 
@@ -93,11 +94,36 @@ interface RootLayoutProps {
   children: React.ReactNode;
 }
 
-export default function RootLayout({ children }: RootLayoutProps) {
+export default async function RootLayout({ children }: RootLayoutProps) {
+  const cookieStore = await cookies();
+  
+  // Read layout cookies
+  const layoutCookie = cookieStore.get('resizable-layout:layout');
+  const collapsedCookie = cookieStore.get('resizable-layout:collapsed');
+
+  let defaultLayout = 20; // Default right panel size
+  let defaultCollapsed = false;
+
+  try {
+    if (layoutCookie) {
+      const layout = JSON.parse(layoutCookie.value);
+      if (Array.isArray(layout) && layout.length > 1) {
+        defaultLayout = layout[1]; // Index 1 is the right panel
+      }
+    }
+    if (collapsedCookie) {
+      defaultCollapsed = collapsedCookie.value === 'true';
+    }
+  } catch (e) {
+    console.error('Error parsing layout cookies', e);
+  }
+
   return (
     <html lang="vi">
       <body>
         <ResizableLayout
+          defaultLayout={defaultLayout}
+          defaultCollapsed={defaultCollapsed}
           leftContent={
             <>
               <Navbar />

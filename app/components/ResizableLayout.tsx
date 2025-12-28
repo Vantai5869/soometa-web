@@ -7,12 +7,16 @@ import ChatSidebar from './ChatSidebar';
 
 interface ResizableLayoutProps {
   leftContent: React.ReactNode;
+  defaultLayout?: number;
+  defaultCollapsed?: boolean;
 }
 
 export default function ResizableLayout({ 
-  leftContent
+  leftContent,
+  defaultLayout = 20,
+  defaultCollapsed = false
 }: ResizableLayoutProps) {
-  const [isCollapsed, setIsCollapsed] = useState(false);
+  const [isCollapsed, setIsCollapsed] = useState(defaultCollapsed);
   const panelRef = useRef<ImperativePanelHandle>(null);
 
   const togglePanel = () => {
@@ -26,16 +30,31 @@ export default function ResizableLayout({
     }
   };
 
+  const onLayout = (sizes: number[]) => {
+    // Save to cookie as well for server-side persistence
+    document.cookie = `resizable-layout:layout=${JSON.stringify(sizes)}; path=/; max-age=31536000`;
+  };
+
+  const onCollapse = () => {
+    setIsCollapsed(true);
+    document.cookie = `resizable-layout:collapsed=true; path=/; max-age=31536000`;
+  };
+
+  const onExpand = () => {
+    setIsCollapsed(false);
+    document.cookie = `resizable-layout:collapsed=false; path=/; max-age=31536000`;
+  };
+
   return (
     <div className="relative h-screen w-screen overflow-hidden">
       <PanelGroup 
         direction="horizontal" 
         className="h-full w-full"
-        autoSaveId="resizable-layout-persistence"
+        onLayout={onLayout}
       >
         {/* Panel bên trái - Nội dung chính */}
         <Panel 
-          defaultSize={80} 
+          defaultSize={100 - defaultLayout} 
           minSize={30}
         >
           <div className="h-full w-full overflow-auto">
@@ -51,15 +70,15 @@ export default function ResizableLayout({
         {/* Panel bên phải - Sidebar */}
         <Panel 
           ref={panelRef}
-          defaultSize={20} 
+          defaultSize={defaultLayout} 
           minSize={15} 
           maxSize={40}
           collapsible={true}
-          onCollapse={() => setIsCollapsed(true)}
-          onExpand={() => setIsCollapsed(false)}
-          className="transition-all duration-300 ease-in-out"
+          onCollapse={onCollapse}
+          onExpand={onExpand}
+          className="bg-white"
         >
-          <div className="h-full w-full overflow-hidden bg-white border-l border-gray-200 p-3">
+          <div className="h-full w-full overflow-hidden border-l border-gray-200 p-3">
             <ChatSidebar />
           </div>
         </Panel>
