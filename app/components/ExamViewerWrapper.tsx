@@ -17,9 +17,20 @@ const NEXT_API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || '';
 
 const getDurationInSeconds = (level?: Level, skill?: Skill): number => {
   const DEFAULT_DURATION_SECONDS = 60 * 60;
-  if (typeof level !== 'string' || typeof skill !== 'string') return DEFAULT_DURATION_SECONDS;
-  if (level === 'TOPIK Ⅰ') return skill === '읽기' ? 60 * 60 : skill === '듣기' ? 40 * 60 : DEFAULT_DURATION_SECONDS;
-  if (level === 'TOPIK Ⅱ') return skill === '읽기' ? 70 * 60 : skill === '듣기' ? 60 * 60 : DEFAULT_DURATION_SECONDS;
+  if (!level || !skill) return DEFAULT_DURATION_SECONDS;
+
+  const isTopik1 = level.includes('Ⅰ') || level.includes('I');
+  const isTopik2 = level.includes('Ⅱ') || level.includes('II');
+
+  if (isTopik1) {
+    if (skill === '듣기') return 40 * 60;
+    if (skill === '읽기') return 60 * 60;
+  } else if (isTopik2) {
+    if (skill === '듣기') return 60 * 60;
+    if (skill === '읽기') return 70 * 60;
+    if (skill === '쓰기' || (skill as string) === 'Viết') return 50 * 60;
+  }
+  
   return DEFAULT_DURATION_SECONDS;
 };
 

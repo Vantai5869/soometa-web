@@ -16,7 +16,7 @@
   padding: 35px 45px;
   border-radius: 8px;
   border: 1px solid var(--border-color-light, #f1f3f5);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  box-shadow: none;
   max-width: none;
   margin: 0;
 }
@@ -29,7 +29,7 @@
   padding: 20px 15px;
   border-radius: 8px;
   border: 1px solid var(--border-color-light, #f1f3f5);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  box-shadow: none;
   position: sticky;
   top: 30px;
   max-height: calc(100vh - 60px);
@@ -290,8 +290,8 @@
   align-items: center;
   text-align: center;
   /* padding: 12px; */
-  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-  transition: border-color 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: none;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
 }
 
 .optionItem:hover:not(.submitted *) {
@@ -304,7 +304,7 @@
 .questionBlock[data-option-type="image"] .optionItem:hover:not(.submitted *) {
   background-color: #f8f9fa;
   border-color: #ced4da;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.07);
+  box-shadow: none;
 }
 
 /* CSS Flexbox với padding được cập nhật */
@@ -496,7 +496,7 @@
 .submitted .questionBlock[data-option-type="image"] .optionItem:hover {
   background-color: #fff;
   border-color: #e9ecef;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  box-shadow: none;
 }
 
 /* -- Phản hồi cho TEXT options -- */
@@ -531,7 +531,7 @@
 
 /* -- Phản hồi cho IMAGE options -- */
 .submitted .questionBlock[data-option-type="image"] .optionItem {
-  box-shadow: 0 1px 3px rgba(0,0,0,0.05) !important;
+  box-shadow: none !important;
   opacity: 1;
   background-color: #fff !important;
   border-color: #e9ecef !important;
@@ -582,7 +582,7 @@
   font-size: 1.1em;
   transition: background-color 0.3s ease;
   font-weight: 500;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: none;
 }
 .submitButton:hover {
   background: #333;
@@ -642,13 +642,13 @@
   border-radius: 6px;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: none;
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
 .submitButtonSidebar:hover {
   background-color: #0b5ed7;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  box-shadow: none;
   transform: translateY(-1px);
 }
 .submitButtonSidebar:disabled {
@@ -698,7 +698,7 @@
   transition: all 0.2s ease;
   min-height: 40px;
   text-align: center;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+  box-shadow: none;
   position: relative;
   line-height: 1;
 }
@@ -706,7 +706,7 @@
   background-color: #f1f3f5;
   border-color: #adb5bd;
   transform: translateY(-1px);
-  box-shadow: 0 2px 4px rgba(0,0,0,0.06);
+  box-shadow: none;
 }
 .questionNavNumber {
   font-weight: 500;
@@ -825,7 +825,7 @@
   padding: 20px 25px;
   margin-top: 10px;
   background-color: #fff;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.04);
+  box-shadow: none;
 }
 
 .modalTranslationArea {
@@ -899,7 +899,7 @@
   line-height: 1.5;
   font-size: 1em;
   clear: both;
-  box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+  box-shadow: none;
 }
 .chatMessage p {
   margin: 0;
@@ -951,7 +951,7 @@
 .chatTextarea:focus {
   outline: none;
   border-color: var(--primary-color, #0d6efd);
-  box-shadow: 0 0 0 2px rgba(13, 110, 253, 0.2);
+  box-shadow: none;
 }
 .chatTextarea:disabled {
   background-color: #e9ecef;

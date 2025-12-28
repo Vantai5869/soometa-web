@@ -447,7 +447,7 @@ const CommentSection: React.FC<CommentSectionProps> = ({ examId }) => {
   const safeSortedComments = Array.isArray(sortedComments) ? sortedComments : [];
 
   return (
-    <div className="bg-white rounded-2xl shadow-xl border border-slate-200 overflow-hidden">
+    <div className="bg-white rounded-2xl border border-slate-200 overflow-hidden">
       {/* Header */}
       <div className="p-6 border-b border-slate-200">
         <div className="flex items-center justify-between">

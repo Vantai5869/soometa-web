@@ -127,21 +127,21 @@ export async function generateMetadata(
   };
 }
 
-// Hàm tính toán thời gian làm bài dựa trên skill
-function getExamDuration(skill: string): string {
-  switch (skill.toLowerCase()) {
-    case '듣기':
-    case 'nghe':
-      return '60 phút';
-    case '읽기':
-    case 'đọc':
-      return '70 phút';
-    case '쓰기':
-    case 'viết':
-      return '50 phút';
-    default:
-      return '60 phút';
+// Hàm tính toán thời gian làm bài dựa trên level và skill
+function getExamDuration(level: string, skill: string): string {
+  const isTopik1 = level.includes('Ⅰ') || level.includes('I');
+  const isTopik2 = level.includes('Ⅱ') || level.includes('II');
+
+  if (isTopik1) {
+    if (skill === '듣기' || skill.toLowerCase() === 'nghe') return '40 phút';
+    if (skill === '읽기' || skill.toLowerCase() === 'đọc') return '60 phút';
+  } else if (isTopik2) {
+    if (skill === '듣기' || skill.toLowerCase() === 'nghe') return '60 phút';
+    if (skill === '읽기' || skill.toLowerCase() === 'đọc') return '70 phút';
+    if (skill === '쓰기' || skill.toLowerCase() === 'viết') return '50 phút';
   }
+  
+  return '60 phút';
 }
 
 // Hàm tính số câu hỏi
@@ -163,7 +163,7 @@ export default async function ExamInfoPage({ params }: ExamPageProps) {
   }
 
   const questionCount = getQuestionCount(examData);
-  const examDuration = getExamDuration(examData.skill);
+  const examDuration = getExamDuration(examData.level, examData.skill);
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
@@ -188,7 +188,7 @@ export default async function ExamInfoPage({ params }: ExamPageProps) {
         </div>
 
         {/* Exam Info Card */}
-        <div className="bg-white rounded-2xl shadow-xl border border-slate-200 overflow-hidden mb-8">
+        <div className="bg-white rounded-2xl border border-slate-200 overflow-hidden mb-8">
           <div className="p-8">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {/* Left Column - Basic Info */}
@@ -273,7 +273,7 @@ export default async function ExamInfoPage({ params }: ExamPageProps) {
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
           <Link
             href={`/exams/${examId}/take`}
-            className="inline-flex items-center justify-center px-8 py-4 bg-blue-600 text-white font-semibold rounded-xl hover:bg-blue-700 transition-colors duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
+            className="inline-flex items-center justify-center px-8 py-4 bg-blue-600 text-white font-semibold rounded-xl hover:bg-blue-700 transition-colors duration-200 transform hover:-translate-y-0.5"
           >
             <PlayIcon className="h-5 w-5 mr-2" />
             Bắt đầu làm bài
