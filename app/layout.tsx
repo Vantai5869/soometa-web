@@ -120,7 +120,23 @@ export default async function RootLayout({ children }: RootLayoutProps) {
 
   return (
     <html lang="vi">
-      <body>
+      <body className="relative min-h-screen">
+        {/* Global Gradient Background */}
+        <div className="fixed inset-0 bg-gradient-to-br from-blue-50 via-white to-cyan-50 -z-50" />
+        
+        {/* Dot Pattern Overlay */}
+        <div 
+          className="fixed inset-0 -z-40 opacity-30"
+          style={{
+            backgroundImage: `radial-gradient(circle, #cbd5e1 1px, transparent 1px)`,
+            backgroundSize: '24px 24px'
+          }}
+        />
+        
+        {/* Animated Gradient Orbs */}
+        <div className="fixed top-0 right-0 w-96 h-96 bg-gradient-to-br from-blue-200/40 to-cyan-200/40 rounded-full blur-3xl -z-30 animate-pulse pointer-events-none" style={{ animationDuration: '4s' }} />
+        <div className="fixed bottom-0 left-0 w-80 h-80 bg-gradient-to-tr from-emerald-200/30 to-blue-200/30 rounded-full blur-3xl -z-30 animate-pulse pointer-events-none" style={{ animationDuration: '6s', animationDelay: '1s' }} />
+        
         <ResizableLayout
           defaultLayout={defaultLayout}
           defaultCollapsed={defaultCollapsed}
