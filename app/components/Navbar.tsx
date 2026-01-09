@@ -64,8 +64,33 @@ const CheckIcon = React.memo(() => (
 CheckIcon.displayName = 'CheckIcon';
 
 // Icon cho Download
-const DownloadIcon = React.memo(() => <svg className="w-4 h-4 mr-2.5 text-slate-500 dark:text-slate-400 group-hover:text-current" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>);
+const DownloadIcon = React.memo(({ className }: { className?: string }) => <svg className={`w-4 h-4 mr-2.5 text-slate-500 dark:text-slate-400 group-hover:text-current ${className || ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>);
 DownloadIcon.displayName = 'DownloadIcon';
+
+const ListIcon = React.memo(({ className }: { className?: string }) => (
+  <svg className={`w-4 h-4 mr-2.5 text-slate-500 dark:text-slate-400 group-hover:text-current ${className || ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
+  </svg>
+));
+ListIcon.displayName = 'ListIcon';
+
+const DeviceMobileIcon = React.memo(({ className }: { className?: string }) => (
+  <svg className={`w-4 h-4 mr-2.5 text-slate-500 dark:text-slate-400 group-hover:text-current ${className || ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 002-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+  </svg>
+));
+DeviceMobileIcon.displayName = 'DeviceMobileIcon';
+
+const ChevronDownIcon = React.memo(({ className }: { className?: string }) => (
+  <svg 
+    className={`ml-0.5 h-4 w-4 text-gray-500 dark:text-gray-400 transition-transform duration-200 shrink-0 ${className || ''}`} 
+    viewBox="0 0 20 20" 
+    fill="currentColor"
+  >
+    <path fillRule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 10.94l3.71-3.71a.75.75 0 111.06 1.06l-4.25 4.25a.75.75 0 01-1.06 0L5.23 8.29a.75.75 0 01.02-1.06z" clipRule="evenodd" />
+  </svg>
+));
+ChevronDownIcon.displayName = 'ChevronDownIcon';
 
 // ... các hàm và useEffects khác của bạn giữ nguyên ...
 
@@ -87,7 +112,9 @@ export default function Navbar() {
   // Giữ nguyên các state local
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isUserMenuOpen, setIsUserMenuOpen] = useState(false);
+  const [isDocsMenuOpen, setIsDocsMenuOpen] = useState(false);
   const userMenuRef = useRef<HTMLDivElement>(null);
+  const docsMenuRef = useRef<HTMLLIElement>(null);
   
   // Scroll detection for glassmorphism effect
   const [isScrolled, setIsScrolled] = useState(false);
@@ -242,6 +269,19 @@ const handleSaveName = async () => {
     };
   }, [isUserMenuOpen, isClient]);
 
+  useEffect(() => {
+    if(!isClient || !isDocsMenuOpen) return;
+    const handleClickOutside = (event: MouseEvent) => {
+      if (docsMenuRef.current && !docsMenuRef.current.contains(event.target as Node)) {
+        setIsDocsMenuOpen(false);
+      }
+    };
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      if(isClient) document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [isDocsMenuOpen, isClient]);
+
   // Scroll event listener for glassmorphism effect
   useEffect(() => {
     if (!isClient) return;
@@ -315,9 +355,61 @@ const handleSaveName = async () => {
             {/* Giữ nguyên các link navList bạn đã cung cấp */}
             <li><Link href="/exams" className={isActive('/exams') ? styles.activeLink : styles.navLinkItem}>Thi Thử</Link></li>
             <li><Link href="/practice" className={isActive('/practice') ? styles.activeLink : styles.navLinkItem}>Luyện Tập</Link></li>
-            <li><Link href="/download" className={isActive('/download') ? styles.activeLink : styles.navLinkItem}>Tải Đề</Link></li>
-            <li><Link href="/topik-30-days" className={isActive('/topik-30-days') ? styles.activeLink : styles.navLinkItem}>Topik 30 days</Link></li>
-            <li><Link href="/guide" className={isActive('/guide') ? styles.activeLink : styles.navLinkItem}>Tải app</Link></li>
+            
+            <li className="relative" ref={docsMenuRef}>
+              <button 
+                onClick={() => setIsDocsMenuOpen(!isDocsMenuOpen)}
+                className={`flex items-center space-x-1 px-3 py-2 rounded-md transition-all duration-200 group cursor-pointer ${isActive('/download') || isActive('/topik-30-days') || isActive('/guide') ? styles.activeLink : styles.navLinkItem}`}
+              >
+                <span className="font-medium">Tài liệu</span>
+                <ChevronDownIcon className={isDocsMenuOpen ? 'rotate-180 text-sky-500' : 'group-hover:text-sky-500'} />
+              </button>
+              
+              {isDocsMenuOpen && (
+                <div className="absolute top-full right-0 mt-2 w-64 origin-top-right bg-white/95 dark:bg-slate-800/95 backdrop-blur-md border border-gray-100 dark:border-slate-700/50 rounded-2xl shadow-[0_20px_40px_-15px_rgba(0,0,0,0.1),0_15px_20px_-10px_rgba(0,0,0,0.05)] z-50 py-3 focus:outline-none animate-in fade-in zoom-in duration-300">
+                  <Link 
+                    href="/download" 
+                    className="group flex items-center w-full px-5 py-3 text-sm text-gray-700 dark:text-slate-200 hover:bg-sky-50 dark:hover:bg-sky-900/30 hover:text-sky-600 dark:hover:text-sky-400 transition-all duration-200"
+                    onClick={() => setIsDocsMenuOpen(false)}
+                  >
+                    <div className="flex items-center justify-center w-9 h-9 rounded-xl bg-sky-50 dark:bg-sky-900/30 text-sky-500 group-hover:bg-sky-100 dark:group-hover:bg-sky-800/40 transition-colors mr-3.5">
+                      <DownloadIcon className="!mr-0 w-5 h-5" />
+                    </div>
+                    <div className="flex flex-col">
+                      <span className="font-semibold text-[0.925rem]">Kho đề thi TOPIK</span>
+                      <span className="text-[11px] text-gray-400 dark:text-slate-500 font-normal">Tải đề thi các kỳ trước đó</span>
+                    </div>
+                  </Link>
+                  <Link 
+                    href="/topik-30-days" 
+                    className="group flex items-center w-full px-5 py-3 text-sm text-gray-700 dark:text-slate-200 hover:bg-sky-50 dark:hover:bg-sky-900/30 hover:text-sky-600 dark:hover:text-sky-400 transition-all duration-200"
+                    onClick={() => setIsDocsMenuOpen(false)}
+                  >
+                    <div className="flex items-center justify-center w-9 h-9 rounded-xl bg-orange-50 dark:bg-orange-900/30 text-orange-500 group-hover:bg-orange-100 dark:group-hover:bg-orange-800/40 transition-colors mr-3.5">
+                      <ListIcon className="!mr-0 w-5 h-5" />
+                    </div>
+                    <div className="flex flex-col">
+                      <span className="font-semibold text-[0.925rem]">Lộ trình 30 ngày</span>
+                      <span className="text-[11px] text-gray-400 dark:text-slate-500 font-normal">Ôn tập TOPIK theo lộ trình</span>
+                    </div>
+                  </Link>
+                  <div className="mx-5 my-2.5 h-px bg-gray-50 dark:bg-slate-700/50" />
+                  <Link 
+                    href="/guide" 
+                    className="group flex items-center w-full px-5 py-3 text-sm text-gray-700 dark:text-slate-200 hover:bg-sky-50 dark:hover:bg-sky-900/30 hover:text-sky-600 dark:hover:text-sky-400 transition-all duration-200"
+                    onClick={() => setIsDocsMenuOpen(false)}
+                  >
+                    <div className="flex items-center justify-center w-9 h-9 rounded-xl bg-emerald-50 dark:bg-emerald-900/30 text-emerald-500 group-hover:bg-emerald-100 dark:group-hover:bg-emerald-800/40 transition-colors mr-3.5">
+                      <DeviceMobileIcon className="!mr-0 w-5 h-5" />
+                    </div>
+                    <div className="flex flex-col">
+                      <span className="font-semibold text-[0.925rem]">Tải app học tập</span>
+                      <span className="text-[11px] text-gray-400 dark:text-slate-500 font-normal">Học mọi lúc mọi nơi</span>
+                    </div>
+                  </Link>
+                </div>
+              )}
+            </li>
             
             {/* {currentUser && (
                  <li><Link href="/my-progress" className={isActive('/my-progress') ? styles.activeLink : styles.navLinkItem}>Tiến Độ</Link></li>
@@ -481,9 +573,32 @@ const handleSaveName = async () => {
             <li><Link href="/" onClick={closeMobileMenu} className={isActive('/') ? styles.mobileActiveLink : styles.mobileNavLinkItem}>Trang Chủ</Link></li>
             <li><Link href="/exams" onClick={closeMobileMenu} className={isActive('/exams') ? styles.mobileActiveLink : styles.mobileNavLinkItem}>Luyện Đề</Link></li>
             <li><Link href="/practice" onClick={closeMobileMenu} className={isActive('/practice') ? styles.mobileActiveLink : styles.mobileNavLinkItem}>Luyện Dạng</Link></li>
-            <li><Link href="/download" onClick={closeMobileMenu} className={isActive('/download') ? styles.mobileActiveLink : styles.mobileNavLinkItem}>Tải Đề</Link></li>
-            <li><Link href="/topik-30-days" onClick={closeMobileMenu} className={isActive('/topik-30-days') ? styles.mobileActiveLink : styles.mobileNavLinkItem}>Topik 30 days</Link></li>
-            <li><Link href="/guide" onClick={closeMobileMenu} className={isActive('/guide') ? styles.mobileActiveLink : styles.mobileNavLinkItem}>Tải app</Link></li>
+            
+            <li className="px-5 py-3 text-[11px] font-bold text-gray-400 uppercase tracking-widest dark:text-slate-500">Tài liệu</li>
+            <li>
+              <Link href="/download" onClick={closeMobileMenu} className={isActive('/download') ? styles.mobileActiveLink : styles.mobileNavLinkItem}>
+                <div className="flex items-center">
+                  <DownloadIcon className="mr-3 text-gray-400" />
+                  <span>Kho đề thi TOPIK</span>
+                </div>
+              </Link>
+            </li>
+            <li>
+              <Link href="/topik-30-days" onClick={closeMobileMenu} className={isActive('/topik-30-days') ? styles.mobileActiveLink : styles.mobileNavLinkItem}>
+                <div className="flex items-center">
+                  <ListIcon className="mr-3 text-gray-400" />
+                  <span>Tải đề TOPIK 30 ngày</span>
+                </div>
+              </Link>
+            </li>
+            <li>
+              <Link href="/guide" onClick={closeMobileMenu} className={isActive('/guide') ? styles.mobileActiveLink : styles.mobileNavLinkItem}>
+                <div className="flex items-center">
+                  <DeviceMobileIcon className="mr-3 text-gray-400" />
+                  <span>Tải app học tập</span>
+                </div>
+              </Link>
+            </li>
             {/* {currentUser && (
                  <li><Link href="/my-progress" onClick={closeMobileMenu} className={isActive('/my-progress') ? styles.mobileActiveLink : styles.mobileAuthButton}>Tiến Độ Học Tập</Link></li>
             )} */}
