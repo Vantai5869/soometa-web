@@ -58,62 +58,54 @@ const siteSections = [
 
 export default function HomePage() {
   return (
-    // Nền trang với gradient nhẹ và padding lớn hơn
-    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white px-4 sm:px-6 lg:px-8 py-20 lg:py-28">
-      {/* Tăng max-width để nội dung rộng hơn trên màn hình lớn */}
-      <div className="max-w-6xl mx-auto">
-        {/* Phần Giới Thiệu - Tinh chỉnh font và khoảng cách */}
-        <div className="text-center mb-20 lg:mb-28">
-          <h1 className="text-4xl lg:text-5xl font-bold tracking-tight text-gray-900 mb-6"> {/* tracking-tight cho chữ gần nhau hơn */}
-            Chào mừng đến với TopikGo
+    <div className="min-h-[calc(100vh-64px-56px)] bg-[#f5f5f7] px-4 sm:px-6 lg:px-8 pt-10 lg:pt-16 pb-12 flex flex-col">
+      <div className="max-w-5xl mx-auto w-full">
+        {/* Header */}
+        <div className="text-center mb-10 lg:mb-16">
+          <h1 className="text-4xl lg:text-5xl font-semibold text-gray-900 mb-3 tracking-tight">
+            Chào mừng đến với <span className="text-blue-600">TopikGo</span>
           </h1>
-          <p className="text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed"> {/* leading-relaxed cho dãn dòng */}
-            Nền tảng toàn diện giúp bạn luyện thi TOPIK hiệu quả. Khám phá các tính năng luyện đề, học theo dạng bài, quản lý tiến độ và tài liệu học tập phong phú.
+          <p className="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
+            Nền tảng toàn diện giúp bạn luyện thi TOPIK hiệu quả
           </p>
         </div>
 
-        {/* Phần Card Liên Kết - Nâng cấp giao diện */}
-        {/* Giảm số cột trên màn hình lớn để card to hơn? Ví dụ: md:grid-cols-2 */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-10">
+        {/* Cards Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {siteSections.map((section) => (
             <Link
               key={section.href}
               href={section.href}
-              // Hiệu ứng scale tinh tế hơn, bo góc lớn hơn
-              className="block group rounded-2xl overflow-hidden transition-all duration-300 ease-in-out transform hover:scale-[1.03] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+              className="block"
             >
-              <div
-                // Gradient nền, border mảnh, shadow tinh tế hơn, flex column
-                className={`relative h-full p-8 lg:p-10 bg-gradient-to-br ${section.gradientClasses} border border-gray-100 shadow-sm hover:shadow-md ${section.hoverBorderClass} transition-all duration-300 ease-in-out flex flex-col justify-between`} // flex-col và justify-between để đẩy mũi tên xuống dưới
-              >
-                {/* Phần trên: Icon và Text */}
-                <div>
-                  {/* Icon trong vòng tròn màu */}
+              <div className="h-full p-8 bg-white rounded-2xl border border-black/[0.08] shadow-[inset_0_1px_0_0_rgba(255,255,255,0.9),0_1px_2px_0_rgba(0,0,0,0.05)] flex flex-col">
+                {/* Content wrapper */}
+                <div className="flex-1">
+                  {/* Icon */}
                   {section.icon && (
-                    <div className={`mb-6 inline-flex items-center justify-center h-12 w-12 rounded-full ${section.iconBgClass} transition-colors duration-300`}>
-                       <section.icon className={`h-6 w-6 ${section.iconTextClass}`} aria-hidden="true" />
+                    <div className={`mb-5 inline-flex items-center justify-center h-11 w-11 rounded-xl ${section.iconBgClass}`}>
+                      <section.icon className={`h-5 w-5 ${section.iconTextClass}`} strokeWidth={2} />
                     </div>
                   )}
-                  {/* Tiêu đề */}
-                  <h2 className={`text-xl lg:text-2xl font-semibold text-gray-900 mb-3 ${section.hoverTextClass} transition-colors duration-300`}>
+                  
+                  {/* Title */}
+                  <h2 className="text-xl font-semibold text-gray-900 mb-2">
                     {section.title}
                   </h2>
-                  {/* Mô tả */}
-                  <p className="text-base text-gray-600 leading-relaxed"> {/* Dãn dòng */}
+                  
+                  {/* Description */}
+                  <p className="text-[15px] text-gray-600 leading-relaxed">
                     {section.description}
                   </p>
                 </div>
-
-                {/* Phần dưới: Mũi tên/Chữ xem thêm (xuất hiện khi hover) */}
-                <div className="mt-8 text-right"> {/* Tăng khoảng cách mt */}
-                    <span className={`inline-flex items-center text-sm font-medium ${section.arrowTextClass} opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out`}>
-                        Xem chi tiết
-                        {/* Icon mũi tên SVG */}
-                        <svg className="ml-1.5 h-4 w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor">
-                          <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
-                        </svg>
-                    </span>
-                 </div>
+                
+                {/* Arrow - Fixed at bottom-right */}
+                <div className="mt-6 flex items-center justify-end text-sm font-medium text-blue-600">
+                  <span>Xem chi tiết</span>
+                  <svg className="ml-1 h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                </div>
               </div>
             </Link>
           ))}

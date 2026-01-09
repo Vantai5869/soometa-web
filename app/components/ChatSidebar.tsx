@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useRef, useEffect } from 'react';
-import { Send, Trash2, User, Image as ImageIcon, X } from 'lucide-react';
+import { Send, Trash2, User, Image as ImageIcon, X, ChevronRight, ChevronDown } from 'lucide-react';
 import axios from 'axios';
 
 import Image from 'next/image';
@@ -12,7 +12,11 @@ interface Message {
   image?: string; // Base64 image
 }
 
-export default function ChatSidebar() {
+interface ChatSidebarProps {
+  onClose?: () => void;
+}
+
+export default function ChatSidebar({ onClose }: ChatSidebarProps = {}) {
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
@@ -23,6 +27,16 @@ export default function ChatSidebar() {
 
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const [imagePreview, setImagePreview] = useState<string | null>(null);
+  const [isMobile, setIsMobile] = useState(false);
+
+  // Detect mobile/desktop
+  useEffect(() => {
+    const mql = window.matchMedia('(max-width: 768px)');
+    const onChange = () => setIsMobile(mql.matches);
+    mql.addEventListener('change', onChange);
+    onChange();
+    return () => mql.removeEventListener('change', onChange);
+  }, []);
 
   // Auto scroll to bottom
   useEffect(() => {
@@ -148,19 +162,36 @@ export default function ChatSidebar() {
           </div>
           <h2 className="font-semibold text-gray-800 text-sm tracking-tight">Topikgo Chat</h2>
         </div>
-        <button 
-          onClick={clearChat}
-          className="p-1.5 text-gray-400 hover:text-red-500 hover:bg-red-50 rounded-md transition-all"
-          title="Xóa lịch sử chat"
-        >
-          <Trash2 className="w-4 h-4" />
-        </button>
+        <div className="flex items-center gap-1">
+          <button 
+            onClick={clearChat}
+            className="p-1.5 text-gray-400 hover:text-red-500 hover:bg-red-50 rounded-md transition-all"
+            title="Xóa lịch sử chat"
+          >
+            <Trash2 className="w-4 h-4" />
+          </button>
+          
+          {onClose && (
+            <button 
+              onClick={onClose}
+              className="p-1.5 text-gray-400 hover:text-blue-600 hover:bg-blue-50 rounded-md transition-all"
+              title={isMobile ? "Đóng chat" : "Đóng sidebar"}
+            >
+              {isMobile ? (
+                <ChevronDown className="w-4 h-4" />
+              ) : (
+                <ChevronRight className="w-4 h-4" />
+              )}
+            </button>
+          )}
+        </div>
       </div>
 
       {/* Messages */}
       <div 
         ref={scrollRef}
         className="flex-1 overflow-y-auto space-y-5 pr-2 mb-2 scrollbar-thin scrollbar-thumb-gray-200"
+        style={{ touchAction: 'pan-y', WebkitOverflowScrolling: 'touch' } as React.CSSProperties}
       >
         {messages.length === 0 && (
           <div className="text-center py-12 px-4">

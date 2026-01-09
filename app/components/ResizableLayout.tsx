@@ -1,8 +1,8 @@
 'use client';
 
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { Panel, PanelGroup, PanelResizeHandle, ImperativePanelHandle } from 'react-resizable-panels';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { ChevronLeft, ChevronRight, ChevronDown } from 'lucide-react';
 import ChatSidebar from './ChatSidebar';
 
 interface ResizableLayoutProps {
@@ -17,7 +17,20 @@ export default function ResizableLayout({
   defaultCollapsed = false
 }: ResizableLayoutProps) {
   const [isCollapsed, setIsCollapsed] = useState(defaultCollapsed);
+  const [direction, setDirection] = useState<'horizontal' | 'vertical'>('horizontal');
+  const [isMounted, setIsMounted] = useState(false);
   const panelRef = useRef<ImperativePanelHandle>(null);
+
+  useEffect(() => {
+    const mql = window.matchMedia('(max-width: 768px)');
+    const onChange = () => setDirection(mql.matches ? 'vertical' : 'horizontal');
+    
+    onChange();
+    setIsMounted(true);
+    
+    mql.addEventListener('change', onChange);
+    return () => mql.removeEventListener('change', onChange);
+  }, []);
 
   const togglePanel = () => {
     const panel = panelRef.current;
@@ -46,40 +59,46 @@ export default function ResizableLayout({
   };
 
   return (
-    <div className="relative h-screen w-screen overflow-hidden">
+    <div 
+      className="relative h-screen w-screen overflow-hidden bg-white"
+      style={{
+        opacity: isMounted ? 1 : 0,
+        transition: 'opacity 150ms ease-in'
+      }}
+    >
       <PanelGroup 
-        direction="horizontal" 
+        direction={direction} 
         className="h-full w-full"
         onLayout={onLayout}
       >
-        {/* Panel bên trái - Nội dung chính */}
+        {/* Panel chính (Trên/Trái) */}
         <Panel 
-          defaultSize={100 - defaultLayout} 
-          minSize={30}
+          defaultSize={direction === 'horizontal' ? (100 - defaultLayout) : 70} 
+          minSize={direction === 'horizontal' ? 30 : 20}
         >
-          <div className="h-full w-full overflow-auto">
+          <div className="h-full w-full overflow-auto" style={{ touchAction: 'pan-y' }}>
             {leftContent}
           </div>
         </Panel>
         
         {/* Thanh kéo để resize */}
-        <PanelResizeHandle className="w-1 bg-gray-200 hover:bg-blue-400 transition-colors cursor-col-resize relative group">
-          <div className="absolute inset-y-0 left-1/2 -translate-x-1/2 w-0.5 bg-gray-300 group-hover:bg-blue-500" />
+        <PanelResizeHandle className={`${direction === 'horizontal' ? 'w-1 cursor-col-resize' : 'h-1 cursor-row-resize'} bg-gray-200 hover:bg-blue-400 transition-colors relative group`}>
+          <div className={`absolute ${direction === 'horizontal' ? 'inset-y-0 left-1/2 -translate-x-1/2 w-0.5' : 'inset-x-0 top-1/2 -translate-y-1/2 h-0.5'} bg-gray-300 group-hover:bg-blue-500`} />
         </PanelResizeHandle>
         
-        {/* Panel bên phải - Sidebar */}
+        {/* Panel Sidebar (Dưới/Phải) */}
         <Panel 
           ref={panelRef}
-          defaultSize={defaultLayout} 
-          minSize={15} 
-          maxSize={40}
+          defaultSize={direction === 'horizontal' ? defaultLayout : 30} 
+          minSize={direction === 'horizontal' ? 20 : 15} 
+          maxSize={direction === 'horizontal' ? 40 : 80}
           collapsible={true}
           onCollapse={onCollapse}
           onExpand={onExpand}
           className="bg-white"
         >
-          <div className="h-full w-full overflow-hidden border-l border-gray-200 p-3">
-            <ChatSidebar />
+          <div className={`h-full w-full overflow-hidden ${direction === 'horizontal' ? 'border-l' : 'border-t'} border-gray-200 p-3`}>
+            <ChatSidebar onClose={togglePanel} />
           </div>
         </Panel>
       </PanelGroup>
@@ -88,23 +107,24 @@ export default function ResizableLayout({
       {isCollapsed && (
         <button
           onClick={togglePanel}
-          className="absolute right-0 top-1/2 -translate-y-1/2 z-50 bg-white border border-gray-200 border-r-0 rounded-l-md p-1.5 shadow-md hover:bg-gray-50 transition-all group"
-          title="Open Sidebar"
+          className={`absolute z-50 bg-white border border-gray-200 shadow-md hover:bg-gray-50 transition-all group flex items-center justify-center
+            ${direction === 'horizontal' 
+              ? 'right-0 top-1/2 -translate-y-1/2 border-r-0 rounded-l-md p-1.5' 
+              : 'bottom-0 left-1/2 -translate-x-1/2 border-b-0 rounded-t-lg px-6 py-1.5'
+            }`}
+          title={direction === 'horizontal' ? "Open Sidebar" : "Open Chat"}
         >
-          <ChevronLeft className="w-5 h-5 text-gray-500 group-hover:text-blue-600" />
+          {direction === 'horizontal' ? (
+            <ChevronLeft className="w-5 h-5 text-gray-500 group-hover:text-blue-600" />
+          ) : (
+            <div className="flex flex-col items-center gap-1">
+              <div className="w-8 h-1 bg-gray-300 rounded-full group-hover:bg-blue-400" />
+              <span className="text-[10px] font-bold text-gray-400 uppercase tracking-widest group-hover:text-blue-600">Mở Chat</span>
+            </div>
+          )}
         </button>
       )}
 
-      {/* Optional: Nút toggle luôn hiển thị ở góc nếu muốn (giống IDE) */}
-      {!isCollapsed && (
-        <button
-          onClick={togglePanel}
-          className="absolute right-4 bottom-4 z-50 bg-white/80 backdrop-blur-sm border border-gray-200 rounded-full p-2 shadow-sm hover:bg-white transition-all group lg:hidden"
-          title="Close Sidebar"
-        >
-          <ChevronRight className="w-5 h-5 text-gray-500 group-hover:text-blue-600" />
-        </button>
-      )}
     </div>
   );
 }
