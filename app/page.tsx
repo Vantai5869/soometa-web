@@ -58,7 +58,7 @@ const siteSections = [
 
 export default function HomePage() {
   return (
-    <div className="min-h-[calc(100vh-64px-56px)] bg-[#f5f5f7] px-4 sm:px-6 lg:px-8 pt-10 lg:pt-16 pb-12 flex flex-col">
+    <div className="min-h-[calc(100vh-64px-56px)] px-4 sm:px-6 lg:px-8 pt-10 lg:pt-16 pb-12 flex flex-col">
       <div className="max-w-5xl mx-auto w-full">
         {/* Header */}
         <div className="text-center mb-10 lg:mb-16">

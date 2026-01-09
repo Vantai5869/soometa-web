@@ -109,7 +109,7 @@ export default async function ExamsPage() {
   }
 
   return (
-    <div className="min-h-screen bg-slate-50 px-4 sm:px-6 md:px-8 lg:px-16 xl:px-24 py-12 lg:py-16">
+    <div className="min-h-screen px-4 sm:px-6 md:px-8 lg:px-16 xl:px-24 py-12 lg:py-16">
       <div className="max-w-7xl mx-auto">
         <header className="mb-10 md:mb-12 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-slate-800 tracking-tight">

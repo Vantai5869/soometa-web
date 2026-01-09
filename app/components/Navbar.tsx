@@ -88,6 +88,9 @@ export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isUserMenuOpen, setIsUserMenuOpen] = useState(false);
   const userMenuRef = useRef<HTMLDivElement>(null);
+  
+  // Scroll detection for glassmorphism effect
+  const [isScrolled, setIsScrolled] = useState(false);
 
 // ... (các state hiện có: isClient, currentUser, token, setRefreshedUser, openLoginModal, logout, etc.)
 
@@ -239,6 +242,48 @@ const handleSaveName = async () => {
     };
   }, [isUserMenuOpen, isClient]);
 
+  // Scroll event listener for glassmorphism effect
+  useEffect(() => {
+    if (!isClient) return;
+    
+    // Find the scrollable parent container
+    const findScrollableParent = (element: HTMLElement | null): HTMLElement | null => {
+      if (!element) return null;
+      
+      const parent = element.parentElement;
+      if (!parent) return null;
+      
+      const overflowY = window.getComputedStyle(parent).overflowY;
+      if (overflowY === 'auto' || overflowY === 'scroll') {
+        return parent;
+      }
+      
+      return findScrollableParent(parent);
+    };
+    
+    // Get navbar element to find its scrollable parent
+    const navElement = document.querySelector('nav');
+    const scrollableContainer = navElement ? findScrollableParent(navElement) : null;
+    
+    const handleScroll = () => {
+      const scrollTop = scrollableContainer ? scrollableContainer.scrollTop : window.scrollY;
+      setIsScrolled(scrollTop > 50);
+    };
+    
+    // Set initial state
+    handleScroll();
+    
+    // Listen to scroll on the correct container
+    const target = scrollableContainer || window;
+    target.addEventListener('scroll', handleScroll, { passive: true } as any);
+    
+    return () => {
+      if (isClient) {
+        target.removeEventListener('scroll', handleScroll);
+      }
+    };
+  }, [isClient]);
+
   // Placeholder khi đang load auth state (giữ nguyên)
   if (!isClient || isLoadingAuth) {
     return (
@@ -261,7 +306,7 @@ const handleSaveName = async () => {
 
   return (
     <>
-      <nav className={styles.navbar}>
+      <nav className={`${styles.navbar} ${isScrolled ? styles.scrolled : styles.transparent}`}>
         <div className={styles.logo}>
           <Link href="/" className={isActive('/') ? styles.activeLink : styles.navLinkItem}><span>TopikGo</span></Link>
         </div>

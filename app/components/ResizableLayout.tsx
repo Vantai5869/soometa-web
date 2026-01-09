@@ -60,12 +60,28 @@ export default function ResizableLayout({
 
   return (
     <div 
-      className="relative h-screen w-screen overflow-hidden bg-white"
+      className="relative h-screen w-screen overflow-hidden"
       style={{
         opacity: isMounted ? 1 : 0,
         transition: 'opacity 150ms ease-in'
       }}
     >
+      {/* Global Gradient Background */}
+      <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-cyan-50 -z-10" />
+      
+      {/* Dot Pattern Overlay */}
+      <div 
+        className="absolute inset-0 -z-10 opacity-30"
+        style={{
+          backgroundImage: `radial-gradient(circle, #cbd5e1 1px, transparent 1px)`,
+          backgroundSize: '24px 24px'
+        }}
+      />
+      
+      {/* Animated Gradient Orbs */}
+      <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-br from-blue-200/40 to-cyan-200/40 rounded-full blur-3xl -z-10 animate-pulse" style={{ animationDuration: '4s' }} />
+      <div className="absolute bottom-0 left-0 w-80 h-80 bg-gradient-to-tr from-emerald-200/30 to-blue-200/30 rounded-full blur-3xl -z-10 animate-pulse" style={{ animationDuration: '6s', animationDelay: '1s' }} />
+      
       <PanelGroup 
         direction={direction} 
         className="h-full w-full"
@@ -95,7 +111,6 @@ export default function ResizableLayout({
           collapsible={true}
           onCollapse={onCollapse}
           onExpand={onExpand}
-          className="bg-white"
         >
           <div className={`h-full w-full overflow-hidden ${direction === 'horizontal' ? 'border-l' : 'border-t'} border-gray-200 p-3`}>
             <ChatSidebar onClose={togglePanel} />
